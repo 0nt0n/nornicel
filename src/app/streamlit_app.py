@@ -84,7 +84,7 @@ with selected_tab[0]: # Поиск
             
             # Цепочка рассуждений ReAct
             if context.get("levels"):
-                st.subheader("🧠 Цепочка рассуждений (ReAct)")
+                st.subheader("Цепочка рассуждений (ReAct)")
                 for lvl in context["levels"]:
                     ln = lvl.get("level", 0)
                     icon = LEVEL_ICONS.get(ln, "🔹")
@@ -117,7 +117,7 @@ with selected_tab[0]: # Поиск
                             st.metric("Итого уникальных фрагментов", lvl["total_unique_chunks"])
             
             if contradictions:
-                st.warning("⚠️ Обнаружены противоречия в данных:")
+                st.warning("Обнаружены противоречия в данных:")
                 for c in contradictions[:5]:
                     st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence','')}")
 
@@ -129,12 +129,12 @@ with selected_tab[0]: # Поиск
                     for ch in context["comparison_chunks"].get("RU", [])[:5]:
                         st.caption(f"{ch['doc_id']} ({ch.get('year') or '?'})")
                 with cforeign:
-                    st.markdown("**🌍 Зарубеж**")
+                    st.markdown("**Зарубеж**")
                     for ch in context["comparison_chunks"].get("foreign", [])[:5]:
                         st.caption(f"{ch['doc_id']} ({ch.get('year') or '?'})")
 
             if context.get("gaps"):
-                with st.expander(f"🕳️ Пробелы в исследованиях ({len(context['gaps'])})"):
+                with st.expander(f"Пробелы в исследованиях ({len(context['gaps'])})"):
                     for g in context["gaps"][:10]:
                         st.write(f"• {g.get('process') or g.get('canonical')}")
 
@@ -175,7 +175,7 @@ with selected_tab[0]: # Поиск
             st.json(slots)
             st.subheader(f"Источники ({len(context['sources'])})")
             for s in context["sources"]:
-                st.write(f"📄 {s['doc_id']} — {s.get('geography')} / {s.get('year')}")
+                st.write(f" {s['doc_id']} — {s.get('geography')} / {s.get('year')}")
     
         with st.expander("Найденные чанки (провенанс)"):
             for ch in context["chunks"]:
