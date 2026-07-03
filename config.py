@@ -36,6 +36,9 @@ FULLTEXT_INDEX = "chunk_fulltext"
 # --- Пайплайн ---
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "1200"))     # символов
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "150"))
+# Чанки короче этого — обрывки без смысловой нагрузки (номера страниц, колонтитулы):
+# в граф не идут, LLM-вызовы на них не тратятся.
+MIN_CHUNK_CHARS = int(os.getenv("MIN_CHUNK_CHARS", "80"))
 RAW_DIR = os.getenv("RAW_DIR", "data/raw")
 PROCESSED_DIR = os.getenv("PROCESSED_DIR", "data/processed")
 
