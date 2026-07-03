@@ -49,7 +49,7 @@ class YandexEmbedder(Embedder):
 class E5Embedder(Embedder):
     """Локальный fallback. e5 требует префиксов 'passage:' / 'query:'."""
     def __init__(self):
-        pyrefly: ignore [missing-import]
+        # pyrefly: ignore [missing-import]
         from sentence_transformers import SentenceTransformer
         self.model = SentenceTransformer(config.E5_MODEL)
 
