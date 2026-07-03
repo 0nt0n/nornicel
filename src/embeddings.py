@@ -5,6 +5,7 @@
 
 Размерность вектора определяется автоматически по первому запросу — под неё создаётся индекс в Neo4j.
 """
+from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
 import config
@@ -36,7 +37,9 @@ class YandexEmbedder(Embedder):
         return r.data[0].embedding
 
     def embed_documents(self, texts):
-        return [self._embed_one(t, config.EMBED_MODEL_DOC) for t in texts]
+        with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:
+            # map сохраняет порядок результатов == порядку texts
+            return list(pool.map(lambda t: self._embed_one(t, config.EMBED_MODEL_DOC), texts))
 
     def embed_query(self, text):
         return self._embed_one(text, config.EMBED_MODEL_QUERY)
