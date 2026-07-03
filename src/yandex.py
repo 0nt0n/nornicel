@@ -18,6 +18,7 @@ _rate_limit_lock = threading.Lock()
 _last_request_time = 0.0
 _RPS_LIMIT = 9.0
 
+
 def wait_rate_limit():
     """Глобальный ограничитель RPS для всех запросов к Yandex API (9 RPS)."""
     global _last_request_time
@@ -28,6 +29,7 @@ def wait_rate_limit():
         if wait_time > 0:
             time.sleep(wait_time)
         _last_request_time = time.time()
+
 
 @lru_cache(maxsize=1)
 def get_client() -> OpenAI:
