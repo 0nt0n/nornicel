@@ -39,8 +39,11 @@ CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "150"))
 RAW_DIR = os.getenv("RAW_DIR", "data/raw")
 PROCESSED_DIR = os.getenv("PROCESSED_DIR", "data/processed")
 
-# Конкурентные запросы к Yandex API (извлечение и эмбеддинги). Подбирается под лимиты аккаунта.
-MAX_WORKERS = int(os.getenv("MAX_WORKERS", "8"))
+# Конкурентные запросы к Yandex API (извлечение и эмбеддинги).
+# По умолчанию 1 (последовательно) — Yandex AI Studio плохо переносит конкурентные
+# запросы с одного ключа: начинает тротлить, ретраи с бэкоффом стакаются и всё
+# становится МЕДЛЕННЕЕ, чем последовательно. Поднимайте осторожно и проверяйте на практике.
+MAX_WORKERS = int(os.getenv("MAX_WORKERS", "1"))
 
 
 def require_yandex():
