@@ -84,7 +84,9 @@ def chat_text(system: str, user: str, model: str = None,
         except Exception as e:  # noqa: BLE001
             last = e
             time.sleep(0.5 * (2 ** attempt))
-    raise last
+    if last is not None:
+        raise last
+    raise RuntimeError("API max_retries exhausted")
 
 
 def chat_json(system: str, user: str, schema_name: str, schema: dict,
@@ -120,5 +122,7 @@ def chat_json(system: str, user: str, schema_name: str, schema: dict,
     messages[1]["content"] += "\n\nВерни ТОЛЬКО валидный JSON строго по описанной схеме, без пояснений."
     try:
         return _extract_json(_call({"type": "json_object"}))
-    except Exception:  # noqa: BLE001
-        raise last
+    except Exception as e:  # noqa: BLE001
+        if last is not None:
+            raise last
+        raise e
