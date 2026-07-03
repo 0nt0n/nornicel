@@ -1,0 +1,1223 @@
+{
+  "Доклады__Доклад_Федосеев А.В::p1::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p1::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "МОНИТОРИНГ СЕЙСМИЧЕСКОГО ДЕЙСТВИЯ ВЗРЫВОВ Федосеев Антон Владимирович к.т.н., Ведущий научный сотрудник Лаборатории Геотехники | 2 ПРИБОРНАЯ БАЗА ЛАБОРАТОРИИ ГЕОТЕХНИКИ ВЕЛОСИМЕТР И АКСЕЛИРОМЕТР ВЗРЫВОЗАЩИЩЕННОГО ИСПОЛНЕНИЯ СЕЙСМОСТАНЦИЯ ДЛЯ СИНХРОННОЙ РЕГИСТРАЦИИ ВИБРАЦИЙ В ДВУХ ТОЧКАХ ТЕНЗОМЕТРИЧЕСКАЯ СТАНЦИЯ ВИБРОМОНИТОР С ФУНКИЦЕЙ ИЗМЕРЕНИЯ УВВ ВЫСОКОСКОРОСТНАЯ КАМЕРА | 3 УСТАНОВКА СЕЙСМОДАТЧИКОВ В ПРОИЗВОДСТВЕННЫХ УСЛОВИЯХ Ростверк фундамента Фундамент вентилятора Фундамент вентилятора Почва выработки Бок выработки Кровля выработки Кровля выработки Массив (карьер) Массив (карьер) Фундамент здания Почва выработки Бок выработки Фундамент опоры ЛЭП Массив (карьер) Фундамент здания | 4 ИЗМЕРЕНИЯ ПАРАМЕТРОВ СОБСТВЕННЫХ КОЛЕБАНИЙ ЗДАНИЯ Ось X Ось Y Ось Z 1 0,34 0,41 0,20 2 0,23 0,24 0,15 3 0,56 0,56 0,22 4 0,81 0,66 0,32 5 2,90 1,26 0,44 6 8,31 9,03 0,96 7 14,18 16,38 2,04 8 12,05 10,37 2,21 9 9,30 4,83 1,51 10 6,08 4,52 3,01 11 3,50 5,29 6,36 12 2,03 6,45 8,02 13 3,07 5,17 4,73 14 3,87 2,75 3,42 15 4,89 1,50 2,65 16 2,71 2,02 3,91 17 1,56 2,45 7,84 18 1,22 2,04 5,20 19 1,77 2,67 2,38 20 2,27 2,69 1,70 21 1,39 1,87 2,19 22 1,47 2,28 2,52 23 2,13 1,70 1,58 24 1,61 1,35 3,05 25 1,50",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "сейсмодатчик",
+          "name_en": "seismometer",
+          "canonical": "seismometer"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "акселерометр",
+          "name_en": "accelerometer",
+          "canonical": "accelerometer"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "велосиметр",
+          "name_en": "velocity meter",
+          "canonical": "velocity_meter"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "сейсмостанция",
+          "name_en": "seismic station",
+          "canonical": "seismic_station"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "тензометрическая станция",
+          "name_en": "tensometric station",
+          "canonical": "tensometric_station"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "вибромонитор",
+          "name_en": "vibromonitor",
+          "canonical": "vibromonitor"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "высокоскоростная камера",
+          "name_en": "high-speed camera",
+          "canonical": "high_speed_camera"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "мониторинг сейсмического действия взрывов",
+          "name_en": "explosion monitoring",
+          "canonical": "explosion_monitoring"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "фундамент",
+          "name_en": "foundation",
+          "canonical": "foundation"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "почва",
+          "name_en": "soil",
+          "canonical": "soil"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "массив (карьер)",
+          "name_en": "rock mass",
+          "canonical": "rock_mass"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "здание",
+          "name_en": "building",
+          "canonical": "building"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "фундамент опоры ЛЭП",
+          "name_en": "support foundation",
+          "canonical": "support_foundation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "установка сейсмодатчиков в производственных условиях"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "фундамент вентилятора, фундамент здания, массив (карьер), фундамент опоры ЛЭП"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "почва выработки"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "массив (карьер)"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e12",
+          "type": "uses_material",
+          "evidence": "фундамент здания"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e13",
+          "type": "uses_material",
+          "evidence": "фундамент опоры ЛЭП"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p1::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p1::c1",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "7 1,56 2,45 7,84 18 1,22 2,04 5,20 19 1,77 2,67 2,38 20 2,27 2,69 1,70 21 1,39 1,87 2,19 22 1,47 2,28 2,52 23 2,13 1,70 1,58 24 1,61 1,35 3,05 25 1,50 1,00 4,85 26 1,28 0,78 4,84 27 0,48 0,52 2,95 28 0,12 0,67 1,10 29 0,37 0,94 1,82 30 0,41 0,78 2,37 31 0,25 0,35 1,39 32 0,40 0,20 1,01 33 0,76 0,26 1,41 34 0,59 0,24 1,76 35 0,49 0,33 1,13 36 0,34 0,22 0,59 37 0,17 0,13 0,54 38 0,17 0,12 0,47 39 0,18 0,21 0,30 40 0,18 0,24 0,48 Распределение энеригии по частотам, % Частота Вертикальная ось Малая ось Большая ось Частота, Гц 3-5 3,8-4,6 3,11-3,37 Декремент 0,09-0,5 0,09 0,08-0,19 Определение параметров собственных колебаний здания ПО «Fundamental Tone» Спектр сейсмовзрывной волны Примеры установки датчиков Интерфейс ПО «Fundamental Tone» Нижний ярус Верхний ярус Здания делового назначения, производственные здания и сооружения Жилые здания Социально значимые объекты, памятники архитектуры Здания делового и производственного назначения имеющие каркасные или армированные конструкции Жилые здания и здания делового назначения, имеющие облегченную конструкцию, конструкцию без армирования или с облегченным каркасом",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "анализ сейсмовзрывной волны",
+          "name_en": "seismic wave analysis",
+          "canonical": "seismic_wave_analysis"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ПО Fundamental Tone",
+          "name_en": "Fundamental Tone software",
+          "canonical": "software_fundamental_tone"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Определение параметров собственных колебаний здания ПО «Fundamental Tone»"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p5::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p5::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "| 5 ИЗМЕРЕНИЕ РАСКАЧКИ ЗДАНИЯ ОТ ВЕДЕНИЯ ВЗРЫВНЫХ РАБОТ В КАРЬЕРЕ Соотношения измеренных вибраций на нижнем и верхнем ярусе Дата замера Наибольшие значения скорости смещения, мм/с Наибольшие значения перемещения, мм Сейсмовзрывная волна Ударно воздушная волна Сейсмовзрывная волна Ударно воздушная волна Нижний ярус Верхний ярус Раскачка Нижний ярус Верхний ярус Раскачка Нижний ярус Верхний ярус Раскачка Нижний ярус Верхний ярус Раскачка 13.03.20 0,41 1,28 3,12 0,072 0,64 8,89 0,0052 0,021 4,04 0,0011 0,01711 15,55 25.09.20 0,64 2,429 3,80 0,185 6,144 33,21 0,01132 0,0478 4,22 0,00333 0,1796 53,93 Результаты измерения вибраций и УВВ на верхнем ярусе здания Установка измерительного оборудования Результаты измерений раскачки здания Рекомендуемые предельные значения колебаний верхнего перекрытия | 6 ДЕФОРМАЦИОННЫЙ МОНИТОРИНГ ДЕФЕКТОВ В КОНСТРУКЦИЯХ ЗДАНИЯ Датчик №1 Датчик №6 Датчик №3 Тензометрический датчик перемещений Измерительный элемент Установка тензометрических датчиков на трещины в конструкциях здания V < Изготовленные в ЛГТ тензометрические датчики Калибровка тензометрических датчиков >",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "взрывные работы",
+          "name_en": "explosion works",
+          "canonical": "explosion_works"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "сейсмовзрывная волна",
+          "name_en": "seismic wave",
+          "canonical": "seismic_wave"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "раскачка здания",
+          "name_en": "building oscillation",
+          "canonical": "building_oscillation"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "тензометрический датчик",
+          "name_en": "strain gauge",
+          "canonical": "strain_gauge"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "деформационный мониторинг дефектов",
+          "name_en": "defect monitoring",
+          "canonical": "defect_monitoring"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Измерение раскачки здания от ведения взрывных работ"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "деформационный мониторинг дефектов в конструкциях здания"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "speed_displacement",
+          "op": "range",
+          "value_min": 0.41,
+          "value_max": 2.429,
+          "unit": "mm/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "displacement",
+          "op": "range",
+          "value_min": 0.072,
+          "value_max": 6.144,
+          "unit": "mm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p7::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p7::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "| 7 ДЕФОРМАЦИОННЫЙ МОНИТОРИНГ ДЕФЕКТОВ В КОНСТРУКЦИЯХ ЗДАНИЯ Движение графиков в сторону положительных значений соответствуют закрытию трещин, в сторону отрицательных – раскрытию БВР от 25.06.2024 БВР от 28.06.2024 БВР от 02.07.2024 Изменения ширины раскрытия трещин > в конструкциях здания обусловленных ведением БВР в карьере и прочими факторами (такие как погодные условия) Зарегистрированные на фундаменте здания велосиграммы от ведения взрывных работ в карьере V PVS=0,68см/с PVS=1,36см/с PVS=1,31см/с | 8 ВЫСОКОСКОРОСТНАЯ ВИДЕОСЪЕМКА (2000 КАДРОВ В СЕКУНДУ) ВЗРЫВАЕМЫХ БЛОКОВ Съемка осуществляется высокоскоростной камерой Phantom MIRO C320 > Анализ работы сети коммутации скважинных зарядов | 9 ВЫСОКОСКОРОСТНАЯ ВИДЕОСЪЕМКА (2000 КАДРОВ В СЕКУНДУ) ВЗРЫВАЕМЫХ БЛОКОВ Фактическая очередность взрывания скважин блока, установленная посредством съемки высокоскоростной камерой Phantom MIRO C320 > < Схема инициирования скважинных зарядов взрываемого блока Результаты анализа сети коммутации скважинных зарядов",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "деформационный мониторинг",
+          "name_en": "deformation monitoring",
+          "canonical": "deformation_monitoring"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "взрывные работы",
+          "name_en": "explosion work",
+          "canonical": "explosion_work"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "высокоскоростная камера",
+          "name_en": "high-speed camera",
+          "canonical": "high_speed_camera"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "скорость PVS",
+          "name_en": "PVS velocity",
+          "canonical": "pvs_velocity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Съемка осуществляется высокоскоростной камерой Phantom MIRO C320"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Фактическая очередность взрывания скважин блока, установленная посредством съемки высокоскоростной камерой Phantom MIRO C320"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "Изменения ширины раскрытия трещин в конструкциях здания обусловленных ведением БВР в карьере"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Зарегистрированные на фундаменте здания велосиграммы от ведения взрывных работ в карьере"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "frame_rate",
+          "op": "range",
+          "value_min": 2000.0,
+          "value_max": 2000.0,
+          "unit": "frames/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "velocity",
+          "op": "range",
+          "value_min": 0.68,
+          "value_max": 1.36,
+          "unit": "cm/s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p10::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p10::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "| 10 ИЗМЕРЕНИЯ ВЛИЯНИЯ СЕЙСМИЧЕСКОГО ДЕЙСТВИЯ ВЗРЫВ В БЛИЖНЕЙ ЗОНЕ Результаты измерений сейсмического действия взрыва | 11 ИЗМЕРЕНИЕ СКОРОСТИ РАСПРОСТРАНЕНИЯ ПРОДОЛЬНОЙ ВОЛНЫ Допустимая скорость колебаний: Сейсмостанция и датчик №1 Датчик №2 𝑉= 0,375 ∙𝐶𝑃 2 −4 3 𝐶𝑆 2 1 + 1 −2𝜈𝜀0 8/3 −1 𝐶𝑃1 + 1 −2𝜈𝜀0 4 ∙102 Класс сооружений Характеристика сооружений, срок их эксплуатации Допустимая упругая деформация I Особо ответственные сооружения длительного срока эксплуатации (более 10 – 15 лет): гидротехнические тоннели, стволы шахт, капитальные штольни, камеры дробления, водоотлива, околоствольные дворы 0,0001 II Ответственные сооружения со сроком эксплуатации более 5 - 10 лет: обводные и транспортные тоннели гидротехнических сооружений, надкамерные целики, квершлаги, уступы карьеров, отвалов 0,0002 III Кратковременно эксплуатируемые сооружения (от 1 до 5 лет): камеры, уступы, штреки 0,0003 IV Неответственные сооружения со сроком эксплуатации до 1 года: очистные блоки, рабочие уступы, рабочие борта карьеров и др. 0,0005",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "измерение сейсмического действия",
+          "name_en": "measurement of seismic action",
+          "canonical": "seismic_action_measurement"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "взрыв",
+          "name_en": "explosion",
+          "canonical": "explosion"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "сейсмостанция",
+          "name_en": "seismostation",
+          "canonical": "seismostation"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "сооружения длительного срока эксплуатации",
+          "name_en": "long-term structures",
+          "canonical": "long_term_structures"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "сооружения со сроком эксплуатации более 5 - 10 лет",
+          "name_en": "medium-term structures",
+          "canonical": "medium_term_structures"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "кратковременно эксплуатируемые сооружения",
+          "name_en": "short-term structures",
+          "canonical": "short_term_structures"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "неответственные сооружения со сроком эксплуатации до 1 года",
+          "name_en": "very short-term structures",
+          "canonical": "very_short_term_structures"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "допустимая упругая деформация для сооружений класса I",
+          "name_en": "elastic deformation limit for class I structures",
+          "canonical": "elastic_deformation_limit_I"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "допустимая упругая деформация для сооружений класса II",
+          "name_en": "elastic deformation limit for class II structures",
+          "canonical": "elastic_deformation_limit_II"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "допустимая упругая деформация для сооружений класса III",
+          "name_en": "elastic deformation limit for class III structures",
+          "canonical": "elastic_deformation_limit_III"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "допустимая упругая деформация для сооружений класса IV",
+          "name_en": "elastic deformation limit for class IV structures",
+          "canonical": "elastic_deformation_limit_IV"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Результаты измерений сейсмического действия взрыва"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Сейсмостанция и датчик"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "эксплуатационный срок",
+          "op": "range",
+          "value_min": 10.0,
+          "value_max": 15.0,
+          "unit": "years",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "эксплуатационный срок",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 10.0,
+          "unit": "years",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "эксплуатационный срок",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "years",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "эксплуатационный срок",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "years",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "упругая деформация",
+          "op": "eq",
+          "value_min": 0.0001,
+          "value_max": 0.0001,
+          "unit": "",
+          "condition": "I"
+        },
+        {
+          "entity_id": "e9",
+          "param": "упругая деформация",
+          "op": "eq",
+          "value_min": 0.0002,
+          "value_max": 0.0002,
+          "unit": "",
+          "condition": "II"
+        },
+        {
+          "entity_id": "e10",
+          "param": "упругая деформация",
+          "op": "eq",
+          "value_min": 0.0003,
+          "value_max": 0.0003,
+          "unit": "",
+          "condition": "III"
+        },
+        {
+          "entity_id": "e11",
+          "param": "упругая деформация",
+          "op": "eq",
+          "value_min": 0.0005,
+          "value_max": 0.0005,
+          "unit": "",
+          "condition": "IV"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p12::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p12::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "СПАСИБО ЗА ВНИМАНИЕ! Федосеев Антон Владимирович к.т.н., Ведущий научный сотрудник Лаборатории Геотехники FedoseevAV@nornik.ru | 13 КРИТЕРИИ ДОПУСТИМОЙ СКОРОСТИ Значения скоростей Vx, Vy, Vz соответствуют максимальному значению векторной суммы PVS PPVX – максимальная скорость колебаний по направлению место взрыва – точка наблюдения PPVY – максимальная скорость колебаний по направлению перпендикулярно Vx PPVZ – максимальная скорость колебаний по вертикальному направлению PVS = 𝑉𝑍 2 + 𝑉𝑋 2 + 𝑉𝑌 2 𝑉САД = 𝑃𝑃𝑉𝑋 2 + 𝑃𝑃𝑉𝑌 2 + PP𝑉𝑍 2 | 14 ПРОГНОЗ СЕЙСМИЧЕСКОГО ДЕЙСТВИЯ ВЗРЫВНЫХ РАБОТ 𝑉= 𝐾∙𝑟П −𝑛 где V – пиковое значение скорости смещения, в зависимости от применяемого подхода (VСАД, PVSmax, PPVx, PPVy, PPVz), см/с; K – коэффициент сейсмичности, зависящий от условий взрывания и физико-механических характеристик среды; n – показатель затухания сейсмовзрывной волны с расстоянием, отражающий характер преобладающего типа волны; rП – приведенное расстояние.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "сейсмическое действие взрывных работ",
+          "name_en": "seismic effect of explosions",
+          "canonical": "seismic_effect_of_explosions"
+        },
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "пиковое значение скорости смещения",
+          "name_en": "peak value of displacement velocity",
+          "canonical": "velocity_of_displacement"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "коэффициент сейсмичности",
+          "name_en": "seismicity factor",
+          "canonical": "seismicity_factor"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "показатель затухания",
+          "name_en": "attenuation index",
+          "canonical": "attenuation_index"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "приведённое расстояние",
+          "name_en": "reduced distance",
+          "canonical": "reduced_distance"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Федосеев Антон Владимирович",
+          "name_en": "Fedoseev Anton",
+          "canonical": "Fedoseev_Anton"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "V=K∙rП−n"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "K – коэффициент сейсмичности, зависящий от условий взрывания и физико-механических характеристик среды"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "n – показатель затухания сейсмовзрывной волны с расстоянием"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "rП – приведенное расстояние"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "expert_in",
+          "evidence": "Федосеев Антон Владимирович к.т.н., ведущий научный сотрудник Лаборатории Геотехники"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "cm/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "K",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "n",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "rП",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p12::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p12::c1",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "истик среды; n – показатель затухания сейсмовзрывной волны с расстоянием, отражающий характер преобладающего типа волны; rП – приведенное расстояние. Различные нормативные документы и научные исследования принимают в качестве значения пиковой скорости V разные показатели: V=PVSmax принимается Австралийским и Британским стандартами; V=PPVz принимается в скандинавских странах: Норвегии и Швеции; V=VСАД принимается в отечественной научной литературе; V=PPVmax принимается отчетом Горного Бюро США и Немецким стандартом. 𝑟П = 𝑟 𝑄𝑎 𝑉= 𝐾∙ 𝑟 3 𝑄 −𝑛 𝑉= 𝐾∙ 𝑟 𝑄 −𝑛 где a – показатель степени; Q – максимальная масса единовременно взрываемого заряда, кг; r – гипоцентральное расстояние до рассматриваемой точки, м.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "затухание сейсмовзрывной волны",
+          "name_en": "seismic wave attenuation",
+          "canonical": "seismic_wave_attenuation"
+        },
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Австралийский стандарт",
+          "name_en": "Australian standard",
+          "canonical": "Australian_standard"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "нормативы Норвегии и Швеции",
+          "name_en": "Scandinavian standard",
+          "canonical": "Scandinavian_standard"
+        },
+        {
+          "id": "e3",
+          "type": "Publication",
+          "name_ru": "отечественная научная литература",
+          "name_en": "Russian scientific literature",
+          "canonical": "Russian_scientific_literature"
+        },
+        {
+          "id": "e5",
+          "type": "Publication",
+          "name_ru": "отчёт Горного Бюро США",
+          "name_en": "US Bureau of Mines report",
+          "canonical": "US_Bureau_of_Mines_report"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "пиковая скорость",
+          "name_en": "peak velocity",
+          "canonical": "peak_velocity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Различные нормативные документы и научные исследования принимают в качестве значения пиковой скорости V разные показатели"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Различные нормативные документы и научные исследования принимают в качестве значения пиковой скорости V разные показатели"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Различные нормативные документы и научные исследования принимают в качестве значения пиковой скорости V разные показатели"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Различные нормативные документы и научные исследования принимают в качестве значения пиковой скорости V разные показатели"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": "Австралийский и Британский стандарты"
+        },
+        {
+          "entity_id": "e2",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": "нормативы Норвегии и Швеции"
+        },
+        {
+          "entity_id": "e3",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": "отечественная научная литература"
+        },
+        {
+          "entity_id": "e5",
+          "param": "V",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": "отчёт Горного Бюро США и Немецкий стандарт"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p15::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p15::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": "| 15 СТАНДАРТЫ В ОБЛАСТИ ИЗМЕРЕНИЯ СЕЙСМИЧЕСКОГО ДЕЙСТВИЯ ВЗРЫВОВ ГОСТ Р 52892-2007 «Вибрация и удар. Вибрация зданий. Измерение вибрации и оценка ее воздействия на конструкцию». ГЕРМАНИЯ (DIN 4150-3) ВЕЛИКОБРИТАНИЯ (BS 7385-2:1993) США (USBM RI № 8507) НОРВЕГИЯ (NS 8141–1:2022 ) РБ Г-05-039-96 «Руководство по анализу опасности аварийных взрывов и определению параметров их механического действия». АВСТРАЛИЯ (AS.2187.2-2006) КИТАЙ (GB6722-2014) ШВЕЦИЯ (SS 460 48 66) ИНДОНЕЗИЯ (SNI 7571:2010) ИСПАНИЯ (UNE 22.381/93 ) ПОРТУГАЛИЯ (NP2074) ИНДИЯ (DGMS CIRCULARS) ФРАНЦИЯ (Groupe Français de l'Énergie Explosive) PPVZ МЕЖДУНАРОДНОЕ СООБЩЕСТВО ГОРНОЙ МЕХАНИКИ (ISRM: BLAST VIBRATION MONITORING SUGGESTED METHOD) PPVmax PPVmax PVS PPVZ PVS (1/2) (1/2) b (1/2) PPVmax (1/2) (1/2) PVS (1/2) (1/2) (1/3) PVS (1/2; 1/3) (1/3) | 16 ЧАСТОТНЫЙ СОСТАВ (СПЕКТР) СЕЙСМОВЗРЫВНЫХ ВОЛН Место ведения взрывных работ Диапазон частот сейсмовзрывных волн, Гц Взрывные работы на поверхности Карьеры 10-60 Стройка 40-100 Взрывные работы в подземных условиях Очистные 30-100 Проходка 60-300 Фактор Частота Высокая Низкая Расстояние Близко Далеко Размер заряда Малый Большой Локация Подземка Поверхность Тип грунта Крепкий",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Стандарты в области измерения сейсмического действия взрывов",
+          "name_en": "Explosion seismic action standards",
+          "canonical": "explosion_seismic_action_standards"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Взрывные работы на поверхности Карьеры",
+          "name_en": "Surface explosions in quarries",
+          "canonical": "surface_explosions_quarries"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Стройка",
+          "name_en": "Construction explosions",
+          "canonical": "construction_explosions"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Проходка",
+          "name_en": "Underground explosions development",
+          "canonical": "underground_explosions_development"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Очистные",
+          "name_en": "Underground explosions cleaning",
+          "canonical": "underground_explosions_cleaning"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "ГОСТ Р 52892-2007 и другие стандарты описывают сейсмическое действие взрывов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Взрывные работы на поверхности Карьеры имеют диапазон частот сейсмовзрывных волн 10-60 Гц"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Стройка имеет диапазон частот сейсмовзрывных волн 40-100 Гц"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Взрывные работы в подземных условиях Проходка имеют диапазон частот сейсмовзрывных волн 60-300 Гц"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Взрывные работы в подземных условиях Очистные имеют диапазон частот сейсмовзрывных волн 30-100 Гц"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "frequency",
+          "op": "range",
+          "value_min": 10.0,
+          "value_max": 60.0,
+          "unit": "Hz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "frequency",
+          "op": "range",
+          "value_min": 100.0,
+          "value_max": 40.0,
+          "unit": "Hz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "frequency",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 300.0,
+          "unit": "Hz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "frequency",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 100.0,
+          "unit": "Hz",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p15::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p15::c1",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": "100 Проходка 60-300 Фактор Частота Высокая Низкая Расстояние Близко Далеко Размер заряда Малый Большой Локация Подземка Поверхность Тип грунта Крепкий Рыхлый Частоты для разных видов ВР по Китайскому стандарту (GB6722-2014) Взрывы на угольных разрезах dзар=200-380мм Взрывы на карьере dзар=76-150мм Взрывы на стройплощадках dзар=25-76мм Преобладающая частота, Гц Исследования Горного Бюро США Факторы определяющие частотный состав регистрируемой сейсмовзрывной волн при взрыве одиночного заряда",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "взрывы на угольных разрезах",
+          "name_en": "explosions in coal mines",
+          "canonical": "explosion_in_coal_mines"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "взрывы на карьере",
+          "name_en": "explosions in quarry",
+          "canonical": "explosion_in_quarry"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "взрывы на стройплощадках",
+          "name_en": "explosions at construction sites",
+          "canonical": "explosion_at_construction_site"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "dзар",
+          "op": "range",
+          "value_min": 200.0,
+          "value_max": 380.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "dзар",
+          "op": "range",
+          "value_min": 76.0,
+          "value_max": 150.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "dзар",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 76.0,
+          "unit": "mm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Федосеев А.В::p17::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Федосеев А.В::p17::c0",
+      "doc_id": "Доклады__Доклад_Федосеев А.В",
+      "source": "data/raw/Доклады/Доклад_Федосеев А.В.pdf",
+      "page": 17,
+      "lang": "ru",
+      "text": "| 17 РЕКОМЕНДАЦИИ ПО УСТАНОВКЕ ДАТЧИКОВ ИЗМЕРЕНИЯ СЕЙСМИЧЕСКОГО ВОЗДЕЙСТВИЯ ВЗРЫВОВ Рекомендуется Не рекомендуется 1.Установка на твердые породы или на значительную бетонную массу плотно контактирующую с грунтом на гипс или анкерные (болтовые) крепления 2. Установка в грунт закапыванием и утрамбовкой 3. Установка на грунт при помощи шипов 4. Пригрузка мешком с песком (только для низких уровней воздействия) 1. Рыхлые породы и неровные поверхности 2. Тонкий слой бетона 3. Рыхлый кирпич или брусчатка 4. Установка на шипы при отсутствии контакта между датчиком и поверхностью из-за слабой прижимки или растительности",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "датчик измерения сейсмического воздействия",
+          "name_en": "seismic impact sensor",
+          "canonical": "seismic_impact_sensor"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "твёрдые породы",
+          "name_en": "solid rock",
+          "canonical": "solid_rock"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "бетонная масса",
+          "name_en": "concrete mass",
+          "canonical": "concrete_mass"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "грунт",
+          "name_en": "soil",
+          "canonical": "soil"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "рыхлые породы",
+          "name_en": "loose rock",
+          "canonical": "loose_rock"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "тонкий слой бетона",
+          "name_en": "thin concrete layer",
+          "canonical": "thin_concrete_layer"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "рыхлый кирпич",
+          "name_en": "loose brick",
+          "canonical": "loose_brick"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "мешок с песком",
+          "name_en": "sand bag",
+          "canonical": "sand_bag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Установка на твердые породы или на значительную бетонную массу"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Установка на твердые породы или на значительную бетонную массу"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Установка в грунт закапыванием и утрамбовкой"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Пригрузка мешком с песком"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "contradicts",
+          "evidence": "Рыхлые породы и неровные поверхности"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "contradicts",
+          "evidence": "Тонкий слой бетона"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "contradicts",
+          "evidence": "Рыхлый кирпич или брусчатка"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  }
+}

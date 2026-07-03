@@ -1,0 +1,1950 @@
+{
+  "Доклады__Презентация Измерение НДС Техсовет::p1::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p1::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "Тема доклада: Исследование напряженно-деформированного состояния массива и гидротехнических сооружений методом полной разгрузки керна скважинными экстензометрами разработки Института Гипроникель ДОКЛАДЧИК: - ЗАМЕСТИТЕЛЬ ДИРЕКТОРА ДЕПАРТАМЕНТА ПО ИССЛЕДОВАНИЯМ И РАЗРАБОТКАМ, К.Т.Н. ТРОФИМОВ А.В. КОМАНДА ПРОЕКТА: - ЗАВЕДУЮЩИЙ ЛАБОРАТОРИЕЙ ГЕОТЕХНИКИ, К.Т.Н. РУМЯНЦЕВ А.Е. - ВЕДУЩИЙ НАУЧНЫЙ СОТРУДНИК, К.Т.Н. ФЕДОСЕЕВ А.В. - СТАРШИЙ НАУЧНЫЙ СОТРУДНИК ЛАБОРАТОРИИ ГЕОТЕХНИКИ К.Т.Н. КИРКИН А.П. - ВЕДУЩИЕ ИНЖЕНЕРЫ ЛАБОРАТОРИИ ГЕОТЕХНИКИ ШУТОВ А.А., ЗИНКОВ А.С., БРЕУС К.Э., ПОПОВ В.А., ИЛЬЧЕНКО Н.М. - НАУЧНЫЙ СОТРУДНИК ЛАБОРАТОРИИ ГЕОТЕХНИКИ ПОПОВ М.С. - ТОКАРЬ-ФРЕЗЕРОВЩИК 6 РАЗРЯДА ЛАБОРАТОРИИ ГЕОТЕХНИКИ НОВИКОВ А.А. - ИНЖЕНЕР 1 КАТЕГОРИИ ЛАБОРАТОРИИ ГЕОТЕХНИКИ КИРИЛЛЕНКО В.И. - ГЛАВНЫЙ МЕНЕДЖЕР ГРУППЫ ГЕОМЕХАНИКОВ НОРНИКЕЛЬ ТЕХНИЧЕСКИЕ СЕРВИСЫ УЖАХОВ М.Ш.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "напряжённо-деформированное состояние",
+          "name_en": "stress-strain analysis",
+          "canonical": "stress-strain_analysis"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "скважинный экстензометр",
+          "name_en": "borehole extensometer",
+          "canonical": "borehole_extensometer"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Трофимов А.В.",
+          "name_en": "Trofimov A.V.",
+          "canonical": "trofimov_a_v"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Румянцев А.Е.",
+          "name_en": "Rumyantsev A.E.",
+          "canonical": "rumyantsev_a_e"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Федосеев А.В.",
+          "name_en": "Fedoseev A.V.",
+          "canonical": "fedoseev_a_v"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Киркин А.П.",
+          "name_en": "Kirkin A.P.",
+          "canonical": "kirkin_a_p"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Шутов А.А.",
+          "name_en": "Shutov A.A.",
+          "canonical": "shutov_a_a"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Зинков А.С.",
+          "name_en": "Zinkov A.S.",
+          "canonical": "zinkov_a_s"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Бреус К.Э.",
+          "name_en": "Breus K.E.",
+          "canonical": "breus_k_e"
+        },
+        {
+          "id": "e10",
+          "type": "Expert",
+          "name_ru": "Попов В.А.",
+          "name_en": "Popov V.A.",
+          "canonical": "popov_v_a"
+        },
+        {
+          "id": "e11",
+          "type": "Expert",
+          "name_ru": "Ильченко Н.М.",
+          "name_en": "Ilchenko N.M.",
+          "canonical": "ilchenko_n_m"
+        },
+        {
+          "id": "e12",
+          "type": "Expert",
+          "name_ru": "Попов М.С.",
+          "name_en": "Popov M.S.",
+          "canonical": "popov_m_s"
+        },
+        {
+          "id": "e13",
+          "type": "Expert",
+          "name_ru": "Новиков А.А.",
+          "name_en": "Novikov A.A.",
+          "canonical": "novikov_a_a"
+        },
+        {
+          "id": "e14",
+          "type": "Expert",
+          "name_ru": "Кирилленко В.И.",
+          "name_en": "Kirillenko V.I.",
+          "canonical": "kirillenko_v_i"
+        },
+        {
+          "id": "e15",
+          "type": "Expert",
+          "name_ru": "Ужахов М.Ш.",
+          "name_en": "Uzhakhov M.Sh.",
+          "canonical": "uzhakhov_m_sh"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Исследование напряженно-деформированного состояния массива и гидротехнических сооружений методом полной разгрузки керна скважинными экстензометрами"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "expert_in",
+          "evidence": "Докладчик: заместитель директора департамента по исследованиям и разработкам, к.т.н. Трофимов А.В."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Команда проекта: заведующий лабораторией геотехники, к.т.н. Румянцев А.Е."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "expert_in",
+          "evidence": "Команда проекта: ведущий научный сотрудник, к.т.н. Федосеев А.В."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "expert_in",
+          "evidence": "Команда проекта: старший научный сотрудник лаборатории геотехники к.т.н. Киркин А.П."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p1::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p1::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "ИНЖЕНЕР 1 КАТЕГОРИИ ЛАБОРАТОРИИ ГЕОТЕХНИКИ КИРИЛЛЕНКО В.И. - ГЛАВНЫЙ МЕНЕДЖЕР ГРУППЫ ГЕОМЕХАНИКОВ НОРНИКЕЛЬ ТЕХНИЧЕСКИЕ СЕРВИСЫ УЖАХОВ М.Ш. 1 2 2 Рекомендации ISRM по построению модели напряженно деформированного состояния Методы определения напряжений, как основа для разработки финального этапа модели напряженно- деформированного состояния Причины влияющие на поле НДС Гравитация Тектоника Строение и генезис Фазы луны Источник тектонических напряжений Крупномасштабные тектонические силы вызывают формирование сдвиговых и изгибных моментов. Таким образом формируются надвиги, складки и разрывные нарушения Первичное влияние Движение плит Вторичное влияние Изостатическое влияние Влияние разлома И только третий по значимости При рассмотрении природного поля НДС важно учитывать ряд факторов влияющих на него. Зачем нам знание о поле напряжений",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование напряженно-деформированного состояния",
+          "name_en": "stress-strain state modeling",
+          "canonical": "stress_strain_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "тектонические силы",
+          "name_en": "tectonic forces",
+          "canonical": "tectonic_forces"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "влияние гравитации",
+          "name_en": "gravity influence",
+          "canonical": "gravitational_influence"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "строение и генезис",
+          "name_en": "geological structure and genesis",
+          "canonical": "geological_structure"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "фазы луны",
+          "name_en": "moon phases",
+          "canonical": "moon_phases"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Методы определения напряжений, как основа для разработки финального этапа модели напряженно-деформированного состояния"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Гравитация влияет на поле НДС"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Тектоника влияет на поле НДС"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Строение и генезис влияют на поле НДС"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Фазы луны влияют на поле НДС"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p3::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p3::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "3 3 Рекомендации Австралийской Компании Sygra Pty по применимости методов в различных геотехнических условиях. Sygra Pty Ltd мировой флагман по измерению напряжений. Более 200 реализованных проектов. Количество трещин на метр UCS – прочность на одноосное сжатие горной породы P – поровое давление Анализ разрушение стенок скважины Гидрораспор трещин Метод оверкоринга. Полной разгрузки керна. Метод гидроразрыва Разрушение сдвигом Разрушение растяжением Применимость инструментальных методов определения НДС и ограничения Дискование керна с вклееным датчиком CSIRO HID CELL Рудник Скалистый шахта Глубокая, глубина -1800 м Сдвиговое разрушение гидротехнического бетона. Датчик типа USBM Cell Geokon 4 4 Метод DRA Deformation Rate Analysis. Анализ скорости деформирования и накопления пластических деформаций. Метод гидродомкратов Метод гидроразрыва Метод полной разгрузки керна с применением скважинного деформометра. По трем скважинам Метод полной разгрузки керна с применением тензодатчиков по типу CSIRO. По одной скважине Определяемые компоненты тензора напряжений в различных инструментальных методах USBM Cell - Трехкомпонентный скважинный деформометр. Производства Geokon (США).",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Австралийская Компания Sygra Pty",
+          "name_en": "Sygra Pty Ltd",
+          "canonical": "Sygra_Pty"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "прочность на одноосное сжатие горной породы",
+          "name_en": "Uniaxial Compressive Strength",
+          "canonical": "UCS"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "поровое давление",
+          "name_en": "Pore Pressure",
+          "canonical": "P"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Метод оверкоринга",
+          "name_en": "Overcoring Method",
+          "canonical": "overcoring_method"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Метод гидроразрыва",
+          "name_en": "Hydrofracturing Method",
+          "canonical": "hydrofracturing_method"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "Дискование керна с вклеенным датчиком CSIRO HID CELL",
+          "name_en": "CSIRO HID CELL",
+          "canonical": "HID_CELL"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "Датчик типа USBM Cell Geokon",
+          "name_en": "USBM Cell",
+          "canonical": "USBM_Cell"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Geokon",
+          "name_en": "Geokon",
+          "canonical": "Geokon"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "Анализ скорости деформирования и накопления пластических деформаций",
+          "name_en": "Deformation Rate Analysis",
+          "canonical": "DRA"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Sygra Pty Ltd мировой флагман по измерению напряжений"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Метод оверкоринга. Полной разгрузки керна. Метод гидроразрыва"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Дискование керна с вклееным датчиком CSIRO HID CELL"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Датчик типа USBM Cell Geokon"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e7",
+          "type": "expert_in",
+          "evidence": "Производства Geokon (США)"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Метод DRA Deformation Rate Analysis"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p3::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p3::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "ые компоненты тензора напряжений в различных инструментальных методах USBM Cell - Трехкомпонентный скважинный деформометр. Производства Geokon (США). Рекомендован стандартом ASTM D4623-2016 Standard Test Method for Determination of In Situ Stress in Rock Mass by Overcoring Method—Three Component Borehole Deformation Gauge Акустическая эмиссия и эффект Кайзера",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "USBM Cell",
+          "name_en": "USBM Cell",
+          "canonical": "USBM_Cell"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "Трехкомпонентный скважинный деформометр",
+          "name_en": "Three Component Borehole Deformation Gauge",
+          "canonical": "three_component_borehole_deformation_gauge"
+        },
+        {
+          "id": "e3",
+          "type": "Publication",
+          "name_ru": "стандарт ASTM D4623-2016 Standard Test Method for Determination of In Situ Stress in Rock Mass by Overcoring Method",
+          "name_en": "ASTM D4623-2016 Standard Test Method for Determination of In Situ Stress in Rock Mass by Overcoring Method",
+          "canonical": "astm_d4623_2016"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Акустическая эмиссия",
+          "name_en": "Acoustic Emission",
+          "canonical": "acoustic_emission"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "эффект Кайзера",
+          "name_en": "Kaiser Effect",
+          "canonical": "kaiser_effect"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "Рекомендован стандартом ASTM D4623-2016 Standard Test Method for Determination of In Situ Stress in Rock Mass by Overcoring Method—Three Component Borehole Deformation Gauge"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p5::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p5::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "5 5 Определение компонент тензора напряжений путём обработки данных акустического сканирования скважин (ATV). Целью обработки данных акустического сканирования скважин, является определение направления максимальных и минимальных горизонтальных напряжений, а также на основе эмпирических закономерностей расчёт горизонтальных напряжений. Эффект дискования керна при бурении скважин происходит, когда керн разрушается не по трещиноватости, а посредством действия на него значительных радиальных нагрузок при его выбуривании. Дискование происходит в жестких породах склонных к хрупкому разрушению, когда напряжения на участке бурения достигают предела прочности горных пород. Метод является базовым дял оценки удароопасности в РФ 𝜎1,3 = 𝜎𝑥+ 𝜎𝑦 2 ± 𝜎𝑥−𝜎𝑦 2 2 + 𝜏𝑥𝑦2 Определение исходных величин напряжений производится по формуле Дискование керна Акустическое сканирование скважин Методы основанные на проявлениях напряжений в керне и скважинах Телевизионное сканирование стенок скважин Проявления в выработках Образование борозд на стенках скважин вследствие превышения одной из радиальных компонент напряжений",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "акустическое сканирование скважин",
+          "name_en": "acoustic scanning of wells",
+          "canonical": "acoustic_scanning"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "дискование керна",
+          "name_en": "core discivation",
+          "canonical": "core_discivation"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "жесткие породы",
+          "name_en": "hard rock",
+          "canonical": "hard_rock"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "предел прочности",
+          "name_en": "tensile strength",
+          "canonical": "tensile_strength"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Определение компонент тензора напряжений путём обработки данных акустического сканирования скважин"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Дискование происходит в жестких породах склонных к хрупкому разрушению, когда напряжения на участке бурения достигают предела прочности горных пород"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p6::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p6::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "6 6 IST tool. 8 канальный безпроводной скважинный деформометр с встроенным инклинометром. Производства, Sygra Pty Ltd and Mr. Ian Gray (Австралия). Метод полной разгрузки керна Overcoring. Измерение перемещений экстензометрами 7 7 CSIRO HI Cell (Австралия) Borre Probe (Швеция) Розетки тензодатчика Электронный измерительный модуль Коническая тензорозетка Торцевая разгрузка керна. Doorstoper Характерный график измерения деформаций при разгрузке керна Метод полной разгрузки керна Overcoring. Измерение деформаций тензодатчиками Защитный конус 8 8 Бурение измерительной скважины Метод полной разгрузки керна Overcoring. Наш опыт измерения деформаций тензодатчиками CSIRO HID Cell Заливание клея в датчик CSIRO Cell HID Датчик CSIRO Cell HID в измерительном шпуре Выбуренный керн с датчиком CSIRO Cell HID Результаты разгрузки керна Компонента тензора напряжений Значение напряжений, МПа Угол падения, град Азмут падения, град Максимальное главное напряжение -21,5 71 328 Промежуточное главное напряжение -19,8 12 198 Минимальное главное напряжение -14,6 14 105 Нормальные напряжения, МПа N-S E-W Vert -19,63 -15,27 -21,03 Касательные напряжения, МПа NS-EW EW-Vert Vert-NS -1,17 1,5 -0,77",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Метод полной разгрузки керна",
+          "name_en": "Overcoring",
+          "canonical": "overcoring"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "8 канальный беспроводной скважинный деформометр",
+          "name_en": "8 channel wireless borehole deformometer",
+          "canonical": "8_channel_wireless_borehole_deformometer"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "Экстензометр",
+          "name_en": "Extensometer",
+          "canonical": "extensometer"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "CSIRO HI Cell",
+          "name_en": "CSIRO HI Cell",
+          "canonical": "csiro_hi_cell"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "Тензодатчик",
+          "name_en": "Tensodetector",
+          "canonical": "tensodetector"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "Doorstoper",
+          "name_en": "Doorstoper",
+          "canonical": "doorstoper"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "Borre Probe",
+          "name_en": "Borre Probe",
+          "canonical": "borre_probe"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "Розетка тензодатчика",
+          "name_en": "Tensodetector socket",
+          "canonical": "tensodetector_socket"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "Электронный измерительный модуль",
+          "name_en": "Electronic measuring module",
+          "canonical": "measuring_module"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "Коническая тензорозетка",
+          "name_en": "Conical tensodetector socket",
+          "canonical": "tensodetector_socket_conical"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "Торцевая разгрузка керна",
+          "name_en": "Core unloading",
+          "canonical": "core_unloading"
+        },
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "Максимальное главное напряжение",
+          "name_en": "Maximum principal stress",
+          "canonical": "stress_value"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "Промежуточное главное напряжение",
+          "name_en": "Intermediate principal stress",
+          "canonical": "stress_value"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "Минимальное главное напряжение",
+          "name_en": "Minimum principal stress",
+          "canonical": "stress_value"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует беспроводной скважинный деформометр"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует экстензометры"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует CSIRO HI Cell"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует тензодатчики"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует Doorstoper"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует Borre Probe"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует розетки тензодатчиков"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e12",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует электронный измерительный модуль"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e13",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring использует конические тензорозетки"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "main_stress_max",
+          "op": "range",
+          "value_min": null,
+          "value_max": -21.5,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "intermediate_stress",
+          "op": "range",
+          "value_min": null,
+          "value_max": -19.8,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "min_stress",
+          "op": "range",
+          "value_min": null,
+          "value_max": -14.6,
+          "unit": "MPa",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p6::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p6::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "напряжение -14,6 14 105 Нормальные напряжения, МПа N-S E-W Vert -19,63 -15,27 -21,03 Касательные напряжения, МПа NS-EW EW-Vert Vert-NS -1,17 1,5 -0,77 Примечание. Ориентация: N-S – север-юг; E-W – запад-восток; Vert - вертикальная",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "напряжение",
+          "name_en": "voltage",
+          "canonical": "voltage"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "нормальные напряжения",
+          "name_en": "normal stress",
+          "canonical": "normal_stress"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "касательные напряжения",
+          "name_en": "shear stress",
+          "canonical": "shear_stress"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "voltage",
+          "op": "range",
+          "value_min": 105.0,
+          "value_max": 14.6,
+          "unit": "null",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "normal_stress",
+          "op": "range",
+          "value_min": -21.03,
+          "value_max": -15.27,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "shear_stress",
+          "op": "range",
+          "value_min": -0.77,
+          "value_max": 1.5,
+          "unit": "MPa",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p9::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p9::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "9 9 Бурение пилотной скважины и разгрузка керна Съемка геометрии выработки Определение деформационных характеристик Численное моделирование Верификация результатов Метод полной разгрузки керна Overcoring на контуре выработки. Измерение LVDT датчиками Датчик деформаций ДД3.3 производства Авангард. Диаметр 76-79мм Общие рекомендации по параметрам установки датчика при оверкоринге Рекомендуемое положение датчика Минимальное расстояние от трещины до датчика не менее 6 радиусов шпура, но лучше 11. Минимальная длина измерительного шпура 5 радиусов шпура r + 5 радиусов скважины R, но предпочтительно 10r+10R 10 Визуальное сопоставление результатов измерений тензодатчиками CSIRO HI Cell и деформрметром USBM Интенсивное дискование керна при разгрузке вследствие высоких радиальных напряжений Бурение опережающей разгрузочной скважины Проблемы и сложности при измерениях методом overcoring. Высокие напряжения и трещиноватость Дискование керна с вклееным осевым экстензометром Рудник Скалистый шахта верхняя, глубина -800 м Характерные пики на кривой осевых перемещений при дисковании керна в процессе разгрузки Интенсивное дискование керна при разгрузке вследствие высоких радиальных напряжений",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "бурение пилотной скважины",
+          "name_en": "borehole drilling",
+          "canonical": "borehole_drilling"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "overcoring",
+          "name_en": "overcoring",
+          "canonical": "overcoring"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "датчик деформаций ДД3.3",
+          "name_en": "LVDT sensor",
+          "canonical": "LVDT_sensor"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "параметры установки датчика",
+          "name_en": "sensor installation parameters",
+          "canonical": "sensor_installation_parameters"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "измерение тензодатчиками",
+          "name_en": "tensometric measurements",
+          "canonical": "tensometric_measurements"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring на контуре выработки"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Измерение LVDT датчиками"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "Общие рекомендации по параметрам установки датчика при оверкоринге"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "distance_from_crack",
+          "op": "ge",
+          "value_min": 6.0,
+          "value_max": null,
+          "unit": "radius_of_borehole",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "length_of_measuring_borehole",
+          "op": "ge",
+          "value_min": 5.0,
+          "value_max": null,
+          "unit": "radius",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "preferred_distance_from_crack",
+          "op": "ge",
+          "value_min": 11.0,
+          "value_max": null,
+          "unit": "radius_of_borehole",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "preferred_length_of_measuring_borehole",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "radius",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p11::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p11::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "11 Буровые работы для измерения НДС выполняются в скважинах 92-112 мм и имеют следующую последовательность операций: • Бурение основной скважины ф 92-112 мм на глубину не менее 1,5 диаметра выработки; • Бурение соосного шпура ф 25 мм, 37, или ф 46 мм длиной 250-300 мм; • Подача в скважину видеоэндоскопа для контроля кондиций центрального соосного измерительного шпура; • Установка осевого или радиального экстензометра в шпур на клей • Контроль времени полимеризации клея; • Установка коронки ф 92-112 мм; • Пропускание проводов через став и сальник вертлюг, подключение к тензостанции (в проводной версии) • Разбуривание керна регистрация разгрузочных кривых; • Отрыв и извлечение керна. Метод полной разгрузки керна Overcoring применяемый Институтом Гипроникель Схема бурения скважин Наклон скважин не менее 10 град. Шахтный ящик для оборудования Буровая установка и площадка для работы 12 Метод полной разгрузки керна Overcoring применяемый Институтом Гипроникель Вид измерительного шпура Установка датчика на штангах Датчик установлен Извлечение керна с датчиком Регистрация процесса разгрузки Керн с вклееным датчиком",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "бурение",
+          "name_en": "drilling",
+          "canonical": "drilling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "основная скважина",
+          "name_en": "main borehole",
+          "canonical": "main_borehole"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "метод полной разгрузки керна",
+          "name_en": "overcoring",
+          "canonical": "overcoring"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "соосный шпур",
+          "name_en": "pilot hole",
+          "canonical": "pilot_hole"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "видеоэндоскоп",
+          "name_en": "videoendoscope",
+          "canonical": "videoendoscope"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "экстензометр",
+          "name_en": "extensometer",
+          "canonical": "extensometer"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "схема бурения скважин",
+          "name_en": "borehole scheme",
+          "canonical": "borehole_scheme"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Бурение основной скважины ф 92-112 мм"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Подача в скважину видеоэндоскопа для контроля кондиций центрального соосного измерительного шпура"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Установка осевого или радиального экстензометра в шпур на клей"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Метод полной разгрузки керна Overcoring"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "diameter",
+          "op": "range",
+          "value_min": 92.0,
+          "value_max": 112.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "depth",
+          "op": "ge",
+          "value_min": 1.5,
+          "value_max": null,
+          "unit": "diameter",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "diameter",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 46.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "length",
+          "op": "range",
+          "value_min": 250.0,
+          "value_max": 300.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "angle",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "degrees",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p13::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p13::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "Применяемое оборудование 13 Датчики продольной деформации ZET-901 Подключаются к тензостанции Zet-058 Радиальный 6 компонентный экстензометр РШКЭ (ООО «Институт Гипроникель») Тарировка экстензометра РШКЭ микрометром Герметичный цифровой тензометрический модуль, инклинометр, и автономный регистратор Для измерений поперечных деформаций Для измерений осевых деформаций Экстензометр тензометрического типа Тарировка вклеенных осевых экстензометров 14 Подготовка образцов к испытаниям Изменение значений напряжений осевого датчика при нагружении Тарировочный график Результаты испытаний, представленные в ПО испытательного пресса Испытание образца Тарировка образцов радиальных измерений в двухосевой камере 15 15 Камеры двухосного сжатия для керна ф 112 и 145 мм Тарировочные кривые 16 • В качестве примера рассмотрим случай подготовки к работам по применению метода разгрузки с центральной скважиной, во время которого зона влияния определена с помощью метода конечных элементов Визуализация процесса разгрузки численным моделированием • Схема деформации керна при разгрузке. Зона возможного развития пластических деформаций сосредоточена в месте развития сдвиговых деформаций.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "датчики продольной деформации ZET-901",
+          "name_en": "ZET-901 longitudinal strain sensors",
+          "canonical": "ZET-901"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "тензостанция Zet-058",
+          "name_en": "Zet-058 tenzostation",
+          "canonical": "Zet-058"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "радиальный 6-компонентный экстензометр РШКЭ",
+          "name_en": "radial 6-component extensometer",
+          "canonical": "RSHKE"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "экстензометр тензометрического типа",
+          "name_en": "tensometric type extensometer",
+          "canonical": "tensometric_extensometer"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "камеры двухосного сжатия",
+          "name_en": "biaxial compression chambers",
+          "canonical": "biaxial_compression_chambers"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "керн",
+          "name_en": "core sample",
+          "canonical": "core_sample"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "метод разгрузки с центральной скважиной",
+          "name_en": "unloading method with central borehole",
+          "canonical": "unloading_method"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "метод конечных элементов",
+          "name_en": "finite element method",
+          "canonical": "finite_element_method"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Подключаются к тензостанции Zet-058"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Зона влияния определена с помощью метода конечных элементов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p13::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p13::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "ованием • Схема деформации керна при разгрузке. Зона возможного развития пластических деформаций сосредоточена в месте развития сдвиговых деформаций. • Зона интенсивного изменения деформаций ограничена примерно тремя радиусами скважины, что соответствует общепринятым аналитическим представлениям (решение Кирша) Определение минимальной глубины скважины для измерения природного поля НДС Визуализация с применением опции деформировано по вектору",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "анализ напряженно-деформированного состояния",
+          "name_en": "stress-strain analysis",
+          "canonical": "stress_strain_analysis"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "керн скважины",
+          "name_en": "borehole core",
+          "canonical": "borehole_core"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "зона пластических деформаций",
+          "name_en": "plastic deformation zone",
+          "canonical": "plastic_deformation_zone"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "зона сдвиговых деформаций",
+          "name_en": "shear deformation zone",
+          "canonical": "shear_deformation_zone"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Схема деформации керна при разгрузке"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Зона возможного развития пластических деформаций сосредоточена в месте развития сдвиговых деформаций"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p17::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p17::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 17,
+      "lang": "ru",
+      "text": "17 Осевой экстензометр Радиальный экстензометр Пример разгрузочных кривых в стандарте ASTM по измерению НДС Численное моделирование “Полка” разгрузки керна Неконтролируемые деформации при отрыве и извлечении керна. Сопоставление модельных и реальных кривых разгрузки керна Область концентрации напряжений при подходе коронки к датчику Реальные кривые записи процесса разгрузки 18 Пример графиков разгрузки керна Поперечные измерения Продольные измерения Методики расчета для интерпретации результатов измерений 19 Аналитический расчет Максимальное напряжение (в плоскости измерения радиальным экстензометром): 𝑃= 𝐸 6𝑑∙ 𝑈1 + 𝑈2 + 𝑈3 + 2 2 ( 𝑈1 −𝑈2 2 + 𝑈2 −𝑈3 2 + 𝑈3 −𝑈1 2)1/2 , МПа Минимальное напряжение (в плоскости измерения радиальным экстензометром): 𝑄= 𝐸 6𝑑∙ 𝑈1 + 𝑈2 + 𝑈3 − 2 2 ( 𝑈1 −𝑈2 2 + 𝑈2 −𝑈3 2 + 𝑈3 −𝑈1 2)1/2 , МПа где 𝐸– модуль упругости образца, МПа; 𝑑– диаметр скважины, м; 𝑈1, 𝑈2, 𝑈3 – перемещения датчиков экстензометра, м. Угол поворота компонент напряжений относительно канала измерения 𝑈1: 𝜃𝑃= 0,5 ∙𝑎𝑟𝑐𝑡𝑔 3∙(𝑈2−𝑈3) 2𝑈1−𝑈2−𝑈3, град Напряжение, действующее вдоль скважины: 𝜎скв = 𝜀скв𝐸+ 𝜈𝑃+ 𝑄 где 𝜀скв – деформации, измеренные осевыми экстензометрами, 𝜈– коэффициент Пуассона.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "осевой экстензометр",
+          "name_en": "axial extensometer",
+          "canonical": "axial_extensometer"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "радиальный экстензометр",
+          "name_en": "radial extensometer",
+          "canonical": "radial_extensometer"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "измерение НДС",
+          "name_en": "stress-strain measurement",
+          "canonical": "stress_strain_measurement"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "разгрузка керна",
+          "name_en": "core unloading",
+          "canonical": "core_unloading"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Пример разгрузочных кривых в стандарте ASTM по измерению НДС"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Измерение НДС осевым экстензометром"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Измерение НДС радиальным экстензометром"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p17::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p17::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 17,
+      "lang": "ru",
+      "text": "град Напряжение, действующее вдоль скважины: 𝜎скв = 𝜀скв𝐸+ 𝜈𝑃+ 𝑄 где 𝜀скв – деформации, измеренные осевыми экстензометрами, 𝜈– коэффициент Пуассона. Визуализация расчета в MS Excel",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "осевые экстензометры",
+          "name_en": "axial extensometers",
+          "canonical": "axial_extensometers"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "визуализация в MS Excel",
+          "name_en": "Excel visualization",
+          "canonical": "excel_visualization"
+        },
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "расчет напряжения",
+          "name_en": "stress calculation",
+          "canonical": "stress_calculation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "деформации, измеренные осевыми экстензометрами"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Визуализация расчета в MS Excel"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "formula",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p20::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p20::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 20,
+      "lang": "ru",
+      "text": "20 Поворот тензора напряжений Поворот тензора напряжений (общий вид): 𝑇1 = 𝐶∙𝑇∙𝐶𝑇, где 𝑇1 - повернутый тензор напряжений, 𝑇– тензор главных напряжений, 𝐶−матрица поворота, 𝐶𝑇– транспонированная матрица поворота. Повернутый тензор напряжений: 𝑇1 = 𝜎𝑥𝑥 𝜏𝑥𝑦 𝜏𝑦𝑥 𝜎𝑦𝑦, где 𝜎𝑥𝑥- арочные напряжения, МПа; 𝜎𝑦𝑦– консольные напряжения, МПа; 𝜏𝑥𝑦- касательные напряжения, МПа. Тензор главных напряжений: 𝑇= 𝑃 0 0 𝑄. Матрица поворота: 𝐶= с𝑜𝑠(𝜑) −sin(𝜑) sin(𝜑) с𝑜𝑠(𝜑) , где 𝜑– угол поворота тензора, град. Методики расчета для интерпретации результатов измерений Численное решение обратной геомеханической задачи для интерпретации результатов измерений. Упрощенное по одной скважине. 21 Численный расчет Разработка и расчет численных моделей производился в CAE Fidesys. Расчетная модель представляет собой правильную шестиугольную призму высотой 0,1 м. В зависимости от модели в основание призмы можно вписать окружность диаметром 37 мм (Geokon) или 46 мм (РШКЭ) . На боковые грани при помощи функции «Связь по направлению» заданы перемещения, полученные при измерении шестиканальным экстензометром. На основания призмы заданы перемещения, полученные при измерении осевым экстензометром.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "поворот тензора напряжений",
+          "name_en": "stress tensor rotation",
+          "canonical": "stress_tensor_rotation"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "численное моделирование",
+          "name_en": "numerical modeling",
+          "canonical": "numerical_modeling"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "CAE Fidesys",
+          "name_en": "CAE Fidesys",
+          "canonical": "cae_fidesys"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "расчетная модель в виде шестиугольной призмы",
+          "name_en": "hexagonal prism model",
+          "canonical": "hexagonal_prism_model"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Разработка и расчет численных моделей производился в CAE Fidesys"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Расчетная модель представляет собой правильную шестиугольную призму высотой 0,1 м"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "diameter",
+          "op": "range",
+          "value_min": 37.0,
+          "value_max": 46.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "height",
+          "op": "eq",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "m",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p20::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p20::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 20,
+      "lang": "ru",
+      "text": "ения, полученные при измерении шестиканальным экстензометром. На основания призмы заданы перемещения, полученные при измерении осевым экстензометром. Геометрия модели в CAE Fidesys Общий вид рассчитанной модели Сигма XX Сигма YY Сигма ZZ Сигма XY Сигма YZ Сигма XZ Мизес Сигма 3 Сигма 2 Сигма 1 Напряжения в точке наблюдения",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "шестиканальный экстензометр",
+          "name_en": "six-channel extensometer",
+          "canonical": "extensometer_six_channel"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "осевой экстензометр",
+          "name_en": "axial extensometer",
+          "canonical": "axial_extensometer"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "CAE Fidesys",
+          "name_en": "CAE Fidesys",
+          "canonical": "cae_fidesys"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Напряжения измерены шестиканальным экстензометром"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Напряжения измерены осевым экстензометром"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p22::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p22::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 22,
+      "lang": "ru",
+      "text": "22 Численное решение обратной геомеханической задачи для интерпретации результатов измерений. Полное решение по трем скважинам Учет концентрации напряжений у отверстия в соответствии с решение Кирша Сопоставление результатов аналитического и численного расчетов 23 Секция 30 Измерение 2 P, МПа 6,36 Q, МПа 4,84 P/Q 1,32 Продольное напряжение, МПа 2,44 Сигма XX Сигма YY Сигма ZZ Сигма XY Сигма YZ Сигма XZ Мизес Сигма 3 Сигма 2 Сигма 1 Результаты аналитического расчета (секция 30 измерение 2) Результаты численного расчета (секция 30 измерение 2) Сопоставление результатов аналитического и численного расчетов 24 Разница между аналитическим и численным расчетом составила менее 10 % Результаты измерений НДС. Рудник Комсомольский. Талнахское месторождение 25 Направления напряжений: максимальное главное промежуточное главное минимальное главное Визуализация результатов измерений в осях главных напряжений Направления бурения скважин",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обратная геомеханическая задача",
+          "name_en": "inverse geomechanical problem",
+          "canonical": "inverse_geomechanical_problem"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "давление P",
+          "name_en": "pressure P",
+          "canonical": "pressure_P"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "давление Q",
+          "name_en": "pressure Q",
+          "canonical": "pressure_Q"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "разница расчётов",
+          "name_en": "calculation difference",
+          "canonical": "calculation_difference"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "соотношение P/Q",
+          "name_en": "P/Q ratio",
+          "canonical": "P_to_Q_ratio"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "продольное напряжение",
+          "name_en": "longitudinal stress",
+          "canonical": "longitudinal_stress"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Численное решение обратной геомеханической задачи"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Учет концентрации напряжений у отверстия в соответствии с решением Кирша"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Сопоставление результатов аналитического и численного расчетов"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Результаты аналитического расчета (секция 30 измерение 2)"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Результаты численного расчета (секция 30 измерение 2)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "difference",
+          "op": "le",
+          "value_min": null,
+          "value_max": 10.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "P",
+          "op": "eq",
+          "value_min": 6.36,
+          "value_max": 6.36,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Q",
+          "op": "eq",
+          "value_min": 4.84,
+          "value_max": 4.84,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "P/Q",
+          "op": "eq",
+          "value_min": 1.32,
+          "value_max": 1.32,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "longitudinal_stress",
+          "op": "eq",
+          "value_min": 2.44,
+          "value_max": 2.44,
+          "unit": "MPa",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p26::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p26::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 26,
+      "lang": "ru",
+      "text": "26 Направления напряжений: максимальное главное промежуточное главное минимальное главное Компонента тензора напряжений Значения напряжений, МПа Точка 1 Точка 2 Нормальные компоненты тензора XX (широтная компонента) -10,0 -13,1 YY (меридиональная компонента) -10,8 -12,1 ZZ (вертикальная компонента) -29,93 -18,4 Касательные компоненты тензора XY -0,46 4,75 YZ -0,45 1,12 XZ 18,9 1,06 В осях главных напряжений Максимальное -29.31 -18,68 Промежуточное -10,59 -17,42 Минимальное -9,89 -7,65 Результаты измерений НДС. Рудник Скалистый ш. Верхняя. Талнахское месторождение Визуализация результатов измерений в осях главных напряжений Направления бурения скважин 27 • Обработанные данные измерений из выработки РВ-2 показывают различие в ориентации тензоров в зависимости от литологической разности. • В массиве интрузии габбро- долеритов наблюдается тектоническое поле напряжений и отклонение главной компоненты от классической гравитационной теории. Максимальное главное напряжение является субгоризонтальным - угол падения 05-12 град, азимут в широком диапазоне 117-250 град, величина напряжения 90-91,2 МПа.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "измерение напряжений",
+          "name_en": "stress measurement",
+          "canonical": "stress_measurement"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "выработка породы",
+          "name_en": "rock sample",
+          "canonical": "rock_sample"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "габбро-долерит",
+          "name_en": "gabbro-dolerite",
+          "canonical": "gabbro_dolerite"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "тектоническое поле напряжений",
+          "name_en": "tectonic stress field",
+          "canonical": "tectonic_stress_field"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Результаты измерений НДС"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "В массиве интрузии габбро-долеритов наблюдается тектоническое поле напряжений"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "maximum_main_stress",
+          "op": "range",
+          "value_min": 90.0,
+          "value_max": 91.2,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "inclination_angle",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 12.0,
+          "unit": "degrees",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "azimuth",
+          "op": "range",
+          "value_min": 117.0,
+          "value_max": 250.0,
+          "unit": "degrees",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p26::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p26::c1",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 26,
+      "lang": "ru",
+      "text": "ое главное напряжение является субгоризонтальным - угол падения 05-12 град, азимут в широком диапазоне 117-250 град, величина напряжения 90-91,2 МПа. • В свою очередь в более пластичном массиве представленном, переслаиванием мергелей и ангидритов наблюдается субвертикальное поле с максимальным главным напряжением 53 МПа, угол падения 79 град, азимут 224 град. Результаты измерений НДС. Рудник Скалистый ш. Глубокая. Октябрьское месторождение Визуализация результатов измерений в осях главных напряжений Численная модель с полученным тензором напряжений",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "субгоризонтальное поле напряжений",
+          "name_en": "subhorizontal stress field",
+          "canonical": "subhorizontal_stress_field"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "субвертикальное поле напряжений",
+          "name_en": "subvertical stress field",
+          "canonical": "subvertical_stress_field"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "переслаивание мергелей и ангидритов",
+          "name_en": "formation of marl and anhydrite",
+          "canonical": "mergel_and_anhydrite_formation"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Рудник Скалистый",
+          "name_en": "Skalisty mine",
+          "canonical": "Skalisty_mine"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "ш. Глубокая",
+          "name_en": "Deep shaft",
+          "canonical": "Deep_shaft"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Октябрьское месторождение",
+          "name_en": "Oktyabrskoe deposit",
+          "canonical": "Oktyabrskoe_deposit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "В более пластичном массиве представленном, переслаиванием мергелей и ангидритов наблюдается субвертикальное поле"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "angle_of_dip",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 12.0,
+          "unit": "degrees",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "azimuth",
+          "op": "range",
+          "value_min": 117.0,
+          "value_max": 250.0,
+          "unit": "degrees",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "stress",
+          "op": "range",
+          "value_min": 90.0,
+          "value_max": 91.2,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "stress",
+          "op": "eq",
+          "value_min": 53.0,
+          "value_max": null,
+          "unit": "MPa",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "angle_of_dip",
+          "op": "eq",
+          "value_min": 79.0,
+          "value_max": null,
+          "unit": "degrees",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "azimuth",
+          "op": "eq",
+          "value_min": 224.0,
+          "value_max": null,
+          "unit": "degrees",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация Измерение НДС Техсовет::p28::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация Измерение НДС Техсовет::p28::c0",
+      "doc_id": "Доклады__Презентация Измерение НДС Техсовет",
+      "source": "data/raw/Доклады/Презентация Измерение НДС Техсовет.pdf",
+      "page": 28,
+      "lang": "ru",
+      "text": "Сводные результаты измерений напряжений в гидротехническом бетоне теле плотины 28 Результаты полевых измерений представлены в консольных и арочных напряжениях Напряжения гидротехническом бетоне при нижнем уровне воды Напряжения в гидротехническом бетоне при верхнем уровне воды Экстензометры для мониторинга изменения НДС 29 Радиальные 7 компонентные экстензометры для деформационного мониторинга Схема установки датчиков мониторинга Схема коммутации 6 измерительных станций в единый пункт сбора данных по CAN шине Результаты мониторинга изменения деформаций за три месяца набора уровня воды в плотине 30",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гидротехнический бетон",
+          "name_en": "hydrotechnical concrete",
+          "canonical": "hydrotechnical_concrete"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "экстензометр",
+          "name_en": "extensometer",
+          "canonical": "extensometer"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "измерительная станция",
+          "name_en": "measurement station",
+          "canonical": "measurement_station"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "пункт сбора данных",
+          "name_en": "data collection point",
+          "canonical": "data_collection_point"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Экстензометры для мониторинга изменения НДС"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Схема коммутации 6 измерительных станций в единый пункт сбора данных по CAN шине"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2025,
+        "confidence": "low"
+      }
+    }
+  }
+}

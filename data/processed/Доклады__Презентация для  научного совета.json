@@ -1,0 +1,1696 @@
+{
+  "Доклады__Презентация для  научного совета::p1::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p1::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Проблемы повышения эффективности технологии извлечения платиновых металлов из рудного сырья Зав. сектором драгоценных металлов лаборатории гидрометаллургии ООО «Институт Гипроникель» ЛАСТОЧКИНА МАРИНА АНДРЕЕВНА Рудная база платиновых металлов Природные типы месторождений МПГ: сульфидные медно-никелевые руды (Талнахский рудный узел, Садбери (Канада); малосульфидные платинометальные руды (Бкшвельдский массив (ЮАР), Великая Дайка (Зимбабве), Стилуотер (США); сульфидные платиноидно-медно-никелевые руды (Масловское, Черногорское, Кингашское; платинометальные дунит - хромитовые руды ванадиево- железо- медные руды платинометальные россыпные руды В природе МПГ встречаются в виде собственных минералов и в качестве изоморфной примеси в рудных сульфидах; характеризуются высокой плотностью, в два – три раза превышающую плотность сульфидных минералов, что определяет способ их обогащения, а также объясняет наличие россыпных месторождений.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платиновые металлы",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медно-никелевые руды",
+          "name_en": "copper-nickel ores",
+          "canonical": "copper-nickel_ores"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "платинометальные руды",
+          "name_en": "platinum-bearing ores",
+          "canonical": "platinum_bearing_ores"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "плотность",
+          "name_en": "density",
+          "canonical": "density"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore enrichment",
+          "canonical": "ore_enrichment"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Ласточкина Марина Андреевна",
+          "name_en": "Marina Andreevna Lastochkina",
+          "canonical": "lastochkina_marina_andreevna"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "В природе МПГ встречаются в виде собственных минералов и в качестве изоморфной примеси в рудных сульфидах"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "характеризуются высокой плотностью, в два – три раза превышающую плотность сульфидных минералов, что определяет способ их обогащения"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "характеризуется высокой плотностью, в два – три раза превышающую плотность сульфидных минералов, что определяет способ их обогащения"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Зав. сектором драгоценных металлов лаборатории гидрометаллургии ООО «Институт Гипроникель» ЛАСТОЧКИНА МАРИНА АНДРЕЕВНА"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p1::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p1::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 1,
+      "lang": "ru",
+      "text": "в два – три раза превышающую плотность сульфидных минералов, что определяет способ их обогащения, а также объясняет наличие россыпных месторождений. Минералы платиновой группы образуют монозерна (сперрилит), тонкие срастания с сульфидами (изоферроплатина) - переходят в концентраты флотации или в гравиоконцентраты, -многофазные срастания нескольких МПГ в сульфидном агрегате (таймырит, рустенбургит, паларстаннид) – могут переходить в концентраты или переизмельчаться и уходить в хвосты флотации. Сперрилит PtAs2 в халькопирите богатой руды, р-к «Таймырский» Изоферроплатина (светлое) с пентландитом (темное), медистая руда, р-к «Комсомольский» Таймырит в срастании с рустенбурги-том, мертиитом II, паларстаннидом, зо-лотом, богатая руда, р-к «Таймырский» Сросток самородного золота и соболевскита (PdBi) в пентландите богатой руды Средние содержания МПГ в рудах",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сперрилит",
+          "name_en": "sperrylite",
+          "canonical": "sperrylite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "изоферроплатина",
+          "name_en": "isoferroplatinum",
+          "canonical": "isoferroplatinum"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "таймырит",
+          "name_en": "taimyrite",
+          "canonical": "taimyrite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "рустенбургит",
+          "name_en": "rustenburgite",
+          "canonical": "rustenburgite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "паларстаннид",
+          "name_en": "palarstanniide",
+          "canonical": "palarstanniide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "пентландит",
+          "name_en": "pentlandite",
+          "canonical": "pentlandite"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "халькопирит",
+          "name_en": "chalcopyrite",
+          "canonical": "chalcopyrite"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "соболевскит",
+          "name_en": "sobolevskite",
+          "canonical": "sobolevskite"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "хвосты",
+          "name_en": "tailings",
+          "canonical": "tailings"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "Минералы платиновой группы образуют монозерна (сперрилит), тонкие срастания с сульфидами (изоферроплатина) - переходят в концентраты флотации или в гравиоконцентраты"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "Минералы платиновой группы образуют монозерна (сперрилит), тонкие срастания с сульфидами (изоферроплатина) - переходят в концентраты флотации или в гравиоконцентраты"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "многофазные срастания нескольких МПГ в сульфидном агрегате (таймырит, рустенбургит, паларстаннид) – могут переходить в концентраты или переизмельчаться и уходить в хвосты флотации"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "многофазные срастания нескольких МПГ в сульфидном агрегате (таймырит, рустенбургит, паларстаннид) – могут переходить в концентраты или переизмельчаться и уходить в хвосты флотации"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "многофазные срастания нескольких МПГ в сульфидном агрегате (таймырит, рустенбургит, паларстаннид) – могут переходить в концентраты или переизмельчаться и уходить в хвосты флотации"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p3::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p3::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 3,
+      "lang": "ru",
+      "text": "Обогащение платиносодержащего Cu-Ni сырья (на примере Норникеля, РФ) Богатые руды и вкрапленные руды ТРУ: Селективная флотация с выделением медных и никелевых концентратов, отделением пирротина флотация - Талнахская обогатительная фабрика (ТОФ-2ПК, богатые руды) гравитационно – флотационная схема – Норильская обогатительная фабрика – НОФ (вкрапленные руды) флотационная схема – Норильская обогатительная фабрика – НОФ (медистые руды) Малосульфидные руды Бушвельдского массива: Коллективная флотация с получением концентрата Cu-Ni-МПГ Флотация – Риф Меренского, UG-2 Распределение по продуктам переработки руд ТРУ Потери МПГ с хвостами обогащения: наличие примеси МПГ и тонких включений в пирротине, переходящим в хвосты; мелкие зерна МПГ в породе (см. таблицу).",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "селективная флотация",
+          "name_en": "selective flotation",
+          "canonical": "selective_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Cu-Ni сырьё",
+          "name_en": "Cu-Ni ore",
+          "canonical": "copper_nickel_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Талнахская обогатительная фабрика",
+          "name_en": "Talnakh concentrator",
+          "canonical": "talnakh_processing_plant"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Норильская обогатительная фабрика",
+          "name_en": "Norilsk concentrator",
+          "canonical": "norilsk_concentrator"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "богатые руды",
+          "name_en": "massive sulphide ore",
+          "canonical": "massive_sulphide_ore"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "вкрапленные руды",
+          "name_en": "disseminated ore",
+          "canonical": "disseminated_ore"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "коллективная флотация",
+          "name_en": "collective flotation",
+          "canonical": "collective_flotation"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "концентрат Cu-Ni-МПГ",
+          "name_en": "Cu-Ni-MPG concentrate",
+          "canonical": "copper_nickel_mpg_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Селективная флотация с выделением медных и никелевых концентратов"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "validated_by",
+          "evidence": "Талнахская обогатительная фабрика"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "гравитационно – флотационная схема – Норильская обогатительная фабрика"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "Коллективная флотация с получением концентрата Cu-Ni-МПГ"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p3::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p3::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 3,
+      "lang": "ru",
+      "text": "ы; мелкие зерна МПГ в породе (см. таблицу). Минералы МБМ в отвальных хвостах ТОФ Пути повышения эффективности: оптимизация крупности питания коллективной флотации для максимального раскрытия частиц МПГ; поиск селективных собирателей сульфидной флотации; оптимизация фронта флотации по операциям рассмотрение вариантов доизмельчения промпродуктов по схеме ; рассмотрение возможности применения магнитной сепарации бедных продуктов В зависимости от типа и состава руды, форм нахождения платиновых металлов кор-реляционные зависимости между извлечением цветных металлов и МПГ различны: Богатые руды, ТОФ/вкрапленные руды, НОФ",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "коллективная флотация",
+          "name_en": "collective flotation",
+          "canonical": "collective_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "отвальные хвосты",
+          "name_en": "tailings of mineral processing",
+          "canonical": "mineral_processing_plant"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "частицы МПГ",
+          "name_en": "PGM particles",
+          "canonical": "PGM_particles"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "магнитная сепарация",
+          "name_en": "magnetic separation",
+          "canonical": "magnetic_separation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "оптимизация крупности питания коллективной флотации для максимального раскрытия частиц МПГ"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "рассмотрение возможности применения магнитной сепарации бедных продуктов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p4::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p4::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 4,
+      "lang": "ru",
+      "text": "Металлургическая переработка платиносодержащего Cu-Ni сырья Плавка сырья и промпродуктов. Потери со шлаками Штейновая плавка – определяет извлечение ЦМ и ДМ из руды/концентрата: Рудно-термическая печь - РТП (заводы ЮАР, Sibanie Stillwater) Печь взвешенной плавки – ПВП (Норникель) Печь Ванюкова – ПВ (Норникель) INCO процесс - (Vale) Конвертирование (Cu, файнштейн): Конвертер Пирса-Смита (заводы ЮАР, Норникель) TBRC – (Sibanie Stillwater) Ausmelt (Anglo American) Комплекс непрерывного конвертирования (каскад двух печей Ванюкова, РФ, проект) Плавка ДМ промпродуктов – усреднение, вывод силикатов и др.: Печь постоянного тока (Норникель, КЗЦМ) Индукционная печь (КЗЦМ) Отражательная печь (КЗЦМ) Анодная плавка – рафинирование металла: Печь Merz (Glencore) Дуговая сталеплавильная печь (Норникель) Анодная отражательная печь (Норникель) Потери ДМ преимущественно механические Рост вязкости Рост потерь Переокисление шлака Рост температуры Снижение вязкости Рост испарения летучих (Os, Ru) Сульфидная/ металлическая фаза Коллектор ДМ «Ловит» летучие Бедный шлак – практически чистое силикатное стекло Вязкий шлак – много мелких включений, плохо коалесцируют Крупные частицы сплава хорошо отделяются",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платиносодержащее Cu-Ni сырьё",
+          "name_en": "platinum-bearing Cu-Ni raw materials",
+          "canonical": "platinum_bearing_Cu-Ni_raw_materials"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавка",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "потери со шлаками",
+          "name_en": "slag losses",
+          "canonical": "slag_losses"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "печь взвешенной плавки",
+          "name_en": "flash smelting furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanukov furnace",
+          "canonical": "vanukov_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "INCO процесс",
+          "name_en": "INCO process",
+          "canonical": "rutheford_process"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "конвертер Пирса-Смита",
+          "name_en": "Peirce-Smith converter",
+          "canonical": "peirce_smith_converter"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "комплекс непрерывного конвертирования",
+          "name_en": "continuous converting complex",
+          "canonical": "continuous_converting_complex"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "печь постоянного тока",
+          "name_en": "DC furnace",
+          "canonical": "direct_melting_furnace"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "индукционная печь",
+          "name_en": "induction furnace",
+          "canonical": "induction_furnace"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "отражательная печь",
+          "name_en": "reverberatory furnace",
+          "canonical": "reverberatory_furnace"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "печь Merz",
+          "name_en": "Merz furnace",
+          "canonical": "merz_furnace"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "дуговая сталеплавильная печь",
+          "name_en": "arc steel furnace",
+          "canonical": "arc_steel_furnace"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "анодная отражательная печь",
+          "name_en": "anode reverberatory furnace",
+          "canonical": "anode_reflectory_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Металлургическая переработка платиносодержащего Cu-Ni сырья Плавка сырья и промпродуктов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Штейновая плавка – определяет извлечение ЦМ и ДМ из руды/концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Рудно-термическая печь - РТП (заводы ЮАР, Sibanie Stillwater)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Печь взвешенной плавки – ПВП (Норникель)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Печь Ванюкова – ПВ (Норникель)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "INCO процесс - (Vale)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Конвертирование (Cu, файнштейн): Конвертер Пирса-Смита (заводы ЮАР, Норникель)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Комплекс непрерывного конвертирования (каскад двух печей Ванюкова, РФ, проект)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Плавка ДМ промпродуктов – усреднение, вывод силикатов и др.: Печь постоянного тока (Норникель, КЗЦМ)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "Индукционная печь (КЗЦМ)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "Отражательная печь (КЗЦМ)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "Анодная плавка – рафинирование металла: Печь Merz (Glencore)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e13",
+          "type": "operates_at_condition",
+          "evidence": "Дуговая сталеплавильная печь (Норникель)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "Анодная отражательная печь (Норникель)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p4::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p4::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 4,
+      "lang": "ru",
+      "text": "е Бедный шлак – практически чистое силикатное стекло Вязкий шлак – много мелких включений, плохо коалесцируют Крупные частицы сплава хорошо отделяются и оседают Выбор шлаковой системы определяется аппаратурным оформлением и масштабом процесса, составом сырья, доступностью энергоресурсов. Моделирование пирометаллургических процессов, позволяющее повысить эффективность действующих и вновь создаваемых производств, ограничивается знаниями о свойствах шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии и ?????. Сульфидная фаза Исходное сырье для штейновой плавки",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бедный шлак",
+          "name_en": "poor slag",
+          "canonical": "poor_slag"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "вязкий шлак",
+          "name_en": "viscous slag",
+          "canonical": "viscous_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пирометаллургический процесс",
+          "name_en": "pyrometallurgical process",
+          "canonical": "pyrometallurgical_process"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "шлаковая система",
+          "name_en": "slag system",
+          "canonical": "slag_system"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "энтальпия",
+          "name_en": "enthalpy",
+          "canonical": "enthalpy"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "плотность",
+          "name_en": "density",
+          "canonical": "density"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "вязкость",
+          "name_en": "viscosity",
+          "canonical": "viscosity"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "сульфидная фаза",
+          "name_en": "sulphide phase",
+          "canonical": "sulphide_phase"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Выбор шлаковой системы определяется аппаратурным оформлением и масштабом процесса, составом сырья, доступностью энергоресурсов"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Моделирование пирометаллургических процессов ограничивается знаниями о свойствах шлаков в зависимости от температуры процесса"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Моделирование пирометаллургических процессов ограничивается знаниями о свойствах шлаков в зависимости от температуры процесса"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Свойства шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Свойства шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Свойства шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p6::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p6::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 6,
+      "lang": "ru",
+      "text": "Кристаллизация и разделение файнштейна Цель процесса и предпосылки к реализации флотации и магнитной сепарации Формирование самостоятельных фаз никелевых и медных сульфидов при медленном охлаждении Обособление металлизированной магнитной фазы на границах зерен сульфидов Коллектирование металлической фазой платиновых металлов и золота упрощение переработки Разделение файнштейна на медный и никелевый концентраты с минимальным содержанием «вторых» металлов Сокращение технологической цепочки извлечения МПГ Медленное охлаждение, магнитная сепарация Медленное охлаждение, флотация Высокомедистый файнштейн: 1 – сульфид меди (железа); 2 – сульфид никеля; 3 – металлическая фаза; 4, 5 – металлическая фаза Anglo-American Platinum, ЮАР Vale, Канада Норникель, РФ Vale, Канада (после магнитной сепарации) Проблемы гидрометаллургической переработки сырья, содержащего МПГ Исходное сырье: Рудные концентраты Файнштейны и промпродукты их переработки (магнитная фракция, никелевый порошок) ДМ-содержащие промпродукты Задача: Извлечение в раствор цветных металлов Минимальные потери МПГ с растворами Развитие окислительно-восстановительных процессов, а также процессов гидролиза их комплексов обусловливает",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "магнитная сепарация",
+          "name_en": "magnetic separation",
+          "canonical": "magnetic_separation"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "медленное охлаждение",
+          "name_en": "slow cooling",
+          "canonical": "slow_cooling"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сульфид меди (железа)",
+          "name_en": "copper (iron) sulfide",
+          "canonical": "pyrrotite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфид никеля",
+          "name_en": "nickel sulfide",
+          "canonical": "nickel_sulfide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "металлическая фаза",
+          "name_en": "metal phase",
+          "canonical": "metal_phase"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "МПГ",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "рудный концентрат",
+          "name_en": "ore concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "файнштейн",
+          "name_en": "finnstein",
+          "canonical": "finnstein"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "промпродукты",
+          "name_en": "intermediate products",
+          "canonical": "intermediate_products"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Цель процесса и предпосылки к реализации флотации и магнитной сепарации"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Цель процесса и предпосылки к реализации флотации и магнитной сепарации"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Формирование самостоятельных фаз никелевых и медных сульфидов при медленном охлаждении"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Формирование самостоятельных фаз никелевых и медных сульфидов при медленном охлаждении"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Коллектирование металлической фазой платиновых металлов"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Исходное сырье: Рудные концентраты Файнштейны и промпродукты их переработки"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Исходное сырье: Рудные концентраты Файнштейны и промпродукты их переработки"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p6::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p6::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 6,
+      "lang": "ru",
+      "text": "еталлов Минимальные потери МПГ с растворами Развитие окислительно-восстановительных процессов, а также процессов гидролиза их комплексов обусловливает многообразие форм нахождения платиновых металлов в технологических растворах. Таким образом, актуальной задачей является разработка методов извлечения микроколичеств МПГ для предотвращения их техногенного рассеяния. Файнштейны и промпродукты: Рудные концентраты Образование гидроксидов железа с высокоразвитой поверхностью способствует повышению потерь МПГ с отвальными хвостами флотации. Разрабатываются новые технологии, обеспечивающие высокое извлечение МПГ за счет формирования хорошо раскристаллизованных осадков – гематита и ярозитов.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платиновые металлы",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "технологические растворы",
+          "name_en": "technological solutions",
+          "canonical": "technological_solutions"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "окислительно-восстановительные процессы",
+          "name_en": "oxidation-reduction processes",
+          "canonical": "redox_processes"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "процессы гидролиза",
+          "name_en": "hydrolysis processes",
+          "canonical": "hydrolysis_processes"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "рудные концентраты",
+          "name_en": "ore concentrates",
+          "canonical": "concentrates"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "гематит",
+          "name_en": "hematite",
+          "canonical": "hematite"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "ярозит",
+          "name_en": "jarosite",
+          "canonical": "jarosite"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "методы извлечения",
+          "name_en": "extraction methods",
+          "canonical": "extraction_methods"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Развитие окислительно-восстановительных процессов, а также процессов гидролиза их комплексов обусловливает многообразие форм нахождения платиновых металлов в технологических растворах"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Развитие окислительно-восстановительных процессов, а также процессов гидролиза их комплексов обусловливает многообразие форм нахождения платиновых металлов в технологических растворах"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Разработка методов извлечения микроколичеств МПГ"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p8::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p8::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 8,
+      "lang": "ru",
+      "text": "Подготовка МПГ-содержащих промпродуктов Cu-Ni производства к аффинажу остатки выщелачивания файнштейна, МФ файнштейна; шламы электрорафинирования меди и никеля; остатки синтеза пентакарбонила никеля; остатки хлорного выщелачивания никелевого порошка. Процессы: сложные комбинированные схемы, сочетающие пиро- и гидрометаллургические процессы: автоклавное сернокислотное окислительное выщелачивание (заводы ЮАР, Vale); окислительный обжиг (Норникель); восстановительная анодная плавка (Норникель); электрорафинирования анодов (Норникель); флотация (Норникель); жидкофазная сульфатизация (Норникель); гидрохлорирование (Канада, Vale). Примеры МПГ-содержащих промпродуктов Cu-Ni производства и схем переработки Целью подготовки промпродуктов металлургического производства, обогащенных платиновыми металлами является: максимально полное отделение примесей цветных металлов и халькогенов при концентрировании МПГ в нерастворимых остатках; сокращение доли нерастворимых кислотах примесей (силикаты, ферриты и др.) отделение МСП от платины, палладия и золота (РФ).",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "МПГ-содержащие промпродукты Cu-Ni производства",
+          "name_en": "PGM-containing intermediate products of Cu-Ni production",
+          "canonical": "PGM_containing_intermediate_products"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "автоклавное сернокислотное окислительное выщелачивание",
+          "name_en": "autoclave sulfuric acid oxidation leaching",
+          "canonical": "autoclave_oxidation_leaching"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "окислительный обжиг",
+          "name_en": "oxidation roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "восстановительная анодная плавка",
+          "name_en": "reductive anode smelting",
+          "canonical": "anode_smelting"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "электрорафинирования анодов",
+          "name_en": "electrorefining of anodes",
+          "canonical": "electrorefining"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "жидкофазная сульфатизация",
+          "name_en": "liquid-phase sulfatization",
+          "canonical": "sulfatization"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "гидрохлорирование",
+          "name_en": "hydrochlorination",
+          "canonical": "hydrochlorination"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Процессы: сложные комбинированные схемы, сочетающие пиро- и гидрометаллургические процессы: автоклавное сернокислотное окислительное выщелачивание (заводы ЮАР, Vale)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Процессы: сложные комбинированные схемы, сочетающие пиро- и гидрометаллургические процессы: окислительный обжиг (Норникель)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "восстановительная анодная плавка (Норникель)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "электрорафинирования анодов (Норникель)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "флотация (Норникель)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "жидкофазная сульфатизация (Норникель)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "гидрохлорирование (Канада, Vale)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p8::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p8::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 8,
+      "lang": "ru",
+      "text": "в нерастворимых остатках; сокращение доли нерастворимых кислотах примесей (силикаты, ферриты и др.) отделение МСП от платины, палладия и золота (РФ). Сырье: Высокая стоимость ДМ, небольшой объем сырья и продукции, высокие извлечения и отсутствие отвальных продуктов сдерживают разработку и внедрение новых технологических схем ввиду невысокой экономической эффективности мероприятий.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "нерастворимые остатки",
+          "name_en": "insoluble residues",
+          "canonical": "insoluble_residues"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "силикаты",
+          "name_en": "silicates",
+          "canonical": "silicates"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ферриты",
+          "name_en": "ferrites",
+          "canonical": "ferrites"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "МСП",
+          "name_en": "MIP",
+          "canonical": "MIP"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "палладий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "сырьё",
+          "name_en": "raw materials",
+          "canonical": "raw_materials"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "сокращение доли нерастворимых кислотах примесей (силикаты, ферриты и др.)"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "отделение МСП от платины, палладия и золота"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "отделение МСП от платины, палладия и золота"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "отделение МСП от платины, палладия и золота"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p9::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p9::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 9,
+      "lang": "ru",
+      "text": "Обжиг промпродуктов. Окисление МПГ Окислительный обжиг: Никелевый концентрат флотации файнштейна - НКФФ (РФ, Норникель, Vale, Канада) Медный концентрат флотации файнштейна - МКФФ(РФ, Норникель, проект) Медные шламы (РФ, Норникель) Промпродукты аффинажа, концентраты МПГ(РФ, Норникель, КЗЦМ) Восстановительный обжиг: Огарок никелевого концентрата флотации файнштейна Оксид родия (1) в огарке обжига МПГ промпродукта (900 С) «Скорлупка» PdO в продуктах хлорирования Pt-Pd огарков (650С) Твердофазные превращения конгломерата металлических частиц МПГ при окислительном обжиге МПГ промпродукта (900 С) Примеры платиносодержащих продуктов, поступающих на окислительный обжиг Процессы окислительного обжига характеризуются: формированием летучих оксидов Ru, Os отсутствием «защитных свойств» сульфидной фазы при температурах обжига ниже температуры диссоциации оксидов твердофазными превращениями с образованием сплавов вариантного состава Наличие пылей и возгонов в процессах обжига платиносодержащего сырья требует организации тонкой очистки газов от пыли, организации узлов извлечения Os при производстве серной кислоты.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окислительный обжиг",
+          "name_en": "oxidative roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "восстановительный обжиг",
+          "name_en": "reductive roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "никелевый концентрат флотации файнштейна",
+          "name_en": "nickel concentrate flotation of fine steels",
+          "canonical": "nickel_concentrate_flotation_fines"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "медный концентрат флотации файнштейна",
+          "name_en": "copper concentrate flotation of fine steels",
+          "canonical": "copper_concentrate_flotation_fines"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медные шламы",
+          "name_en": "copper slimes",
+          "canonical": "copper_slimes"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "концентраты МПГ",
+          "name_en": "MPG concentrates",
+          "canonical": "MPG_concentrates"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "огарок никелевого концентрата",
+          "name_en": "residue of nickel concentrate",
+          "canonical": "residue_nickel_concentrate"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "оксид родия",
+          "name_en": "rhodium oxide",
+          "canonical": "rhodium_oxide"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "PdO",
+          "name_en": "palladium oxide",
+          "canonical": "palladium_oxide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Окислительный обжиг: Никелевый концентрат флотации файнштейна"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Восстановительный обжиг: Огарок никелевого концентрата флотации файнштейна"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 900.0,
+          "value_max": 900.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 650.0,
+          "value_max": 650.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p9::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p9::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 9,
+      "lang": "ru",
+      "text": "ах обжига платиносодержащего сырья требует организации тонкой очистки газов от пыли, организации узлов извлечения Os при производстве серной кислоты. Процессы окисления МПГ с образованием нелетучих оксидов затрудняют последующую гидрометаллур-гическую переработку, снижая показатели прямого извлечения, увеличивая выход оборотных продуктов. Крайняя ограниченность справочной информации о свойствах соединений платиновых металлов, присутствующих в промпродуктах металлургического производства, их взаимодействии с сопутствующими компонентами, упругости паров и т.д. исключает возможность термодинамического моделирования технологических процессов.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обжиг",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "МПГ",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство серной кислоты",
+          "name_en": "sulfuric acid production",
+          "canonical": "sulfuric_acid_production"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "гидрометаллургическая переработка",
+          "name_en": "hydrometallurgical processing",
+          "canonical": "hydrometallurgical_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "обжиг платиносодержащего сырья требует организации тонкой очистки газов от пыли, организации узлов извлечения Os при производстве серной кислоты"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Процессы окисления МПГ с образованием нелетучих оксидов затрудняют последующую гидрометаллургическую переработку"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p10::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p10::c0",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 10,
+      "lang": "ru",
+      "text": "Выводы Рудная база платиновых металлов Извлечение МСП при обогащении рудного сырья Подходы к переработке МПГ-содержащего сырья Проблемы потерь МПГ на головных плавильных агрегатах Потери МПГ в гидрометаллургических процессах Процессы окисления МПГ в процессах обжига Подготовка концентратов МПГ к аффинажу На сегодняшний день накоплен значительный объем теоретической и прикладной информации о поведении металлов платиновой группы при переработке рудного сырья: выполнен поиск и разведка и классификация месторождений платиносодержащих руд; выделены и охарактеризованы основные минералы платиновых металлов; сформированы подходы к технологическим схемам обогащения рудного сырья, обеспечивающие наиболее полное их извлечение в зависимости от минерализации показано, что наиболее полное извлечение МПГ в товарную продукцию обеспечивается при использовании в качестве головной технологической операции штейновой плавки и последующим конвертированием штейна промышленное применение гидрометаллургических процессов для переработки рудного платиносодержащего сырья ограничено, однако имеет потенциал за счет разработки новых технологических процессов схемы переработки медно-никелевых файнштейнов с",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "металлы платиновой группы",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "переработка рудного сырья",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "переработка концентратов",
+          "name_en": "processing of concentrates",
+          "canonical": "concentrate_processing"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "пирометаллургические процессы",
+          "name_en": "pyrometallurgical processes",
+          "canonical": "pyrometallurgical_processes"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "гидрометаллургические процессы",
+          "name_en": "hydrometallurgical processes",
+          "canonical": "hydrometallurgical_processes"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "штейнсовая плавка",
+          "name_en": "flash smelting",
+          "canonical": "flash_smelting"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "медно-никелевые файнштейны",
+          "name_en": "copper-nickel fine slag",
+          "canonical": "copper_nickel_fine_slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "извлечение МПГ при обогащении рудного сырья"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "промышленное применение гидрометаллургических процессов для переработки рудного платиносодержащего сырья ограничено"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "показано, что наиболее полное извлечение МПГ в товарную продукцию обеспечивается при использовании в качестве головной технологической операции штейновой плавки"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "схемы переработки медно-никелевых файнштейнов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p10::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p10::c1",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 10,
+      "lang": "ru",
+      "text": "одержащего сырья ограничено, однако имеет потенциал за счет разработки новых технологических процессов схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов разнообразны и основаны на применении процессов обогащения, пиро- и гидрометаллургии; здесь наиболее актуальной является проблема минимизации потерь драгоценных металлов с растворами выщелачивания развитие и внедрение схема подготовки промпродуктов медно-никелевого производства к аффинажу ограничивается высокой экономической эффективностью действующих производств за счет высокой стоимости товарной продукции, низких потерь и небольших объемов производства. Повышению эффективности действующих и вновь создаваемых производств способствует разработка и подбор новых высокоэффективных реагентов для флотации рудного сырья, способов извлечения микроколичеств платиновых металлов из растворов производства цветных металлов, изучение процессов сорбции платиновых металлов твердыми компонентами пульп, соосаждения в процессах гидролиза, расширение возможностей термодинамического моделирования пирометаллургических процессов платиносодержащего сырья и многое другое.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медно-никелевый файнштейн",
+          "name_en": "copper-nickel fine steep",
+          "canonical": "copper_nickel_fine_steep"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обогащение",
+          "name_en": "enrichment",
+          "canonical": "concentration"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пирометаллургия",
+          "name_en": "pyrometallurgy",
+          "canonical": "pyrometallurgy"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "гидрометаллургия",
+          "name_en": "hydrometallurgy",
+          "canonical": "hydrometallurgy"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "выщелачивание",
+          "name_en": "leaching",
+          "canonical": "leaching"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "сорбция",
+          "name_en": "sorption",
+          "canonical": "sorption"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "гидролиз",
+          "name_en": "hydrolysis",
+          "canonical": "hydrolysis"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "термодинамическое моделирование",
+          "name_en": "thermodynamic modelling",
+          "canonical": "thermodynamic_modelling"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов основаны на применении процессов обогащения, пиро- и гидрометаллургии"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов основаны на применении процессов обогащения, пиро- и гидрометаллургии"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов основаны на применении процессов обогащения, пиро- и гидрометаллургии"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "разработка и подбор новых высокоэффективных реагентов для флотации рудного сырья"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "проблема минимизации потерь драгоценных металлов с растворами выщелачивания"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "изучение процессов сорбции платиновых металлов твердыми компонентами пульп"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "соосаждения в процессах гидролиза"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "расширение возможностей термодинамического моделирования пирометаллургических процессов платиносодержащего сырья"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Презентация для  научного совета::p10::c2": {
+    "chunk": {
+      "chunk_id": "Доклады__Презентация для  научного совета::p10::c2",
+      "doc_id": "Доклады__Презентация для  научного совета",
+      "source": "data/raw/Доклады/Презентация для  научного совета.pptx",
+      "page": 10,
+      "lang": "ru",
+      "text": "роцессах гидролиза, расширение возможностей термодинамического моделирования пирометаллургических процессов платиносодержащего сырья и многое другое. Все это немыслимо без глубоких исследований свойств соединений платиновых металлов, их поведения в сложных многокомпонентных технологических системах.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "соединения платиновых металлов",
+          "name_en": "platinum group metals compounds",
+          "canonical": "platinum_group_metals_compounds"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "пирометаллургические процессы",
+          "name_en": "pyrometallurgical processes",
+          "canonical": "pyrometallurgical_processes"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "гидролиз",
+          "name_en": "hydrolysis",
+          "canonical": "hydrolysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "исследований свойств соединений платиновых металлов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "расширение возможностей термодинамического моделирования пирометаллургических процессов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  }
+}

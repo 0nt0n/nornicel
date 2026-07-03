@@ -1,0 +1,698 @@
+{
+  "Доклады__Доклад_Вострикова Н.М::p2::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p2::c0",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "2 О курсе … | 2 Результат обучения  Ориентация в специфике производственной деятельности Компании, и ее интересах.  Применять полученные знания в процессе решения своих функциональных задач. Цель курса  ознакомление с основами производственного цикла получения готовой товарной продукции, производимой в нашей компании Эксперты Курс разработан в 2020 г коллективом экспертов Института Гипроникель под руководством команды экспертов по разработке Интерактивных курсов Тренинг- Бутик, Москва. Курс для: o сотрудников Норникеля, не имеющих металлургического образования; o специалистов, которым необходимо разобраться в различных особенностях основных технологических переделов компании. Команда по подготовки интерактивных курсов Эксперты ООО «Институт Гипроникель» 1. Ляпинов Дмитрий Васильевич – с.н.с. Лаб. геолого-технологического изучения сырья. 2. Румянцев Александр Евгеньевич – канд. техн. наук; вед.науч.сотр. Горной лаб. 3. Трофимов Андрей Викторович – канд. техн. наук; зам. Директора ДИР. 4. Вильчинский Владислав Борисович – канд. техн. наук, инженер- физик; 5. Клемятов Александр Анатольевич – канд. техн. наук. 6. Цымбулов Леонид Борисович – докт. техн. наук., Директор ДИР. 7.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Институт Гипроникель",
+          "name_en": "GiproNickel Institute",
+          "canonical": "gipronickel_institute"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство никеля",
+          "name_en": "nickel production",
+          "canonical": "nickel_production"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "тренинг",
+          "name_en": "training course",
+          "canonical": "training_course"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Ляпинов Дмитрий Васильевич",
+          "name_en": "Lyapinov Dmitry Vasilyevich",
+          "canonical": "lypinov_dmitry"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Румянцев Александр Евгеньевич",
+          "name_en": "Rumyantsev Alexander Evgenievich",
+          "canonical": "rumyantsev_alexander"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Трофимов Андрей Викторович",
+          "name_en": "Trofimov Andrey Viktorovich",
+          "canonical": "trofimov_andrey"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Вильчинский Владислав Борисович",
+          "name_en": "Vilchinsky Vladislav Borisovich",
+          "canonical": "vilchinsky_vladislav"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Клемятов Александр Анатольевич",
+          "name_en": "Klemyatov Alexander Anatolyevich",
+          "canonical": "klemyatov_alexander"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Цымбулов Леонид Борисович",
+          "name_en": "Tsymbulov Leonid Borisovich",
+          "canonical": "tsyambulov_leonid"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Эксперты ООО «Институт Гипроникель»"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p2::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p2::c1",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "техн. наук, инженер- физик; 5. Клемятов Александр Анатольевич – канд. техн. наук. 6. Цымбулов Леонид Борисович – докт. техн. наук., Директор ДИР. 7. Пахомов Роман Александрович – канд. техн. наук, Лаб.ПП. 8. Вострикова Наталья Михайловна – канд. техн. наук, ЛГМ; 9. Попов Владимир Анатольевич – канд. техн. наук, ЛПП.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Клемятов Александр Анатольевич",
+          "name_en": "Alexander Anatolyevich Klemjatov",
+          "canonical": "Alexander_Klemjatov"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Цымбулов Леонид Борисович",
+          "name_en": "Leonid Borisovich Tsymbulov",
+          "canonical": "Leonid_Tsymbulov"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Пахомов Роман Александрович",
+          "name_en": "Roman Alexandrovich Pakhomov",
+          "canonical": "Roman_Pakhomov"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Вострикова Наталья Михайловна",
+          "name_en": "Natalya Mikhailovna Vostrikova",
+          "canonical": "Natalya_Vostrikova"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Попов Владимир Анатольевич",
+          "name_en": "Vladimir Anatolyevich Popov",
+          "canonical": "Vladimir_Popov"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p3::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p3::c0",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "3 Структура курса | 3 •Модуль 3 •Модуль 4-11 •Модуль 2 •Модуль 1 Горное дело • Модуль 12 Обогащение Металлургия Геология Итоговое тестирование Экология 5 блоков 12 модулей 36 разделов В курсе представлен полный цикл горно-металлургического производства: • разведка, • добыча полезных ископаемых, • обогащение руды с получением концентратов, • переработка концентратов с получением готовой продукции и промпродуктов, направляемых на переработку на смежные предприятия, • экологические проблемы производства. Модуль 4-11 Металлургия 4. Основные понятия металлургии 5. Процессы подготовки сырья к металлургической переработке 6. Процессы высокотемпературного обжига 7. Процессы плавки медных и медно- никелевых концентратов 8. Основы гидрометаллургии рудного сырья 9. Основы рафинирования меди 10. Основы рафинирования никеля и кобальта 11. Производство драгоценных металлов. Дистанционный курс – набор тематических разделов, в которых размещены ресурсы и активные элементы курса",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "разведка",
+          "name_en": "exploration",
+          "canonical": "exploration"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "добыча полезных ископаемых",
+          "name_en": "mining",
+          "canonical": "mining"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore dressing",
+          "canonical": "ore_dressing"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "переработка концентратов",
+          "name_en": "concentrate processing",
+          "canonical": "concentrate_processing"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "процесс плавки",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "гидрометаллургия",
+          "name_en": "hydrometallurgy",
+          "canonical": "hydrometallurgy"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "рафинирование",
+          "name_en": "refining",
+          "canonical": "refining"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Обогащение руды с получением концентратов"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "Переработка концентратов с получением готовой продукции"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Переработка концентратов с получением промпродуктов"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Процессы плавки медных и медно-никелевых концентратов"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Процессы плавки медных и медно-никелевых концентратов"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Основы рафинирования меди"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "Основы рафинирования никеля и кобальта"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p4::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p4::c0",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "4 Содержание курса | 4 •Модуль 3 •Модуль 4-11 •Модуль 2 •Модуль 1 Горное дело • Модуль 12 Обогащение Металлургия Геология Итоговое тестирование Экология Содержание курса ГЕОЛОГИЯ Модуль 1. 1.Что такое руда? 2. Запасы ГОРНОЕ ПРОИЗВОДСТВО Модуль 2. 1. История горного производства 2. Ключевые этапы технологической цепочки 3. Геомеханическое сопровождение ОБОГАЩЕНИЕ Модуль 3. 1. Введение в обогащение 2. Процессы и оборудование 3. Обогащение сульфидных медно- никелевых руд 4. Схемы и показатели 5.Технологическая минералогия МЕТАЛЛУРГИЯ Модуль 4.Основные понятия металлургии 1. Общие основы химической технологии и металлургии 2.Базовые представления о пирометаллургии 3.Базовые представления о гидрометаллургии Модуль 5. Процессы подготовки сырья к металлургической переработке 1. Общие принципы подготовки сырья к переработке 2.Прием и хранение сырья 3.Обезвоживание сырья 4.Дозирование компонентов, смешивание шихты и окускование Модуль 6. Процессы высокотемпературного обжига 1. Общие принципы высокотемпературного обжига 2. Основные конструкции обжиговых установок 3.Примеры процессов высокотемпературного обжига Модуль 7.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "пирометаллургия",
+          "name_en": "pyrometallurgy",
+          "canonical": "pyrometallurgy"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "гидрометаллургия",
+          "name_en": "hydrometallurgy",
+          "canonical": "hydrometallurgy"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "высокотемпературный обжиг",
+          "name_en": "high-temperature roasting",
+          "canonical": "roasting_process"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "обжиговые установки",
+          "name_en": "roasting equipment",
+          "canonical": "roasting_equipment"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медно-никелевая руда",
+          "name_en": "copper-nickel ore",
+          "canonical": "copper_nickel_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Обогащение сульфидных медно-никелевых руд"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Процессы высокотемпературного обжига"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Основные конструкции обжиговых установок"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p4::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p4::c1",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "а 1. Общие принципы высокотемпературного обжига 2. Основные конструкции обжиговых установок 3.Примеры процессов высокотемпературного обжига Модуль 7. Процессы плавки медных и медно-никелевых концентратов 1.Базовые представления о плавке 2.Развитие плавки в металлургии меди и никеля в исторической ретроспективе 3.Структура плавильного производства Норникеля Модуль 8. Основы гидрометаллургии рудного сырья 1. Гидрометаллургическая переработка рудного сырья меди и никеля 2.Технология автоклавного окислительного выщелачивания малоникелистого пирротинового концентрата в ЗФ Норникеля Модуль 9. Основы рафинирования меди 1.Электролитическое рафинирование меди 2. Обжиг-выщелачивание Модуль 10. Основы рафинирования никеля и кобальта 1. Хлорное выщелачивание-электроэкстракция 2.Технология переработки никелевого концентрата флотационного разделения файнштейна (Харьявалта) 3. Карбонильный никель 4. Катодный кобальт Модуль 11. Производство концентратов драгоценных металлов 1.Переработка шламов электрорафинирования меди ЗФ Норникеля 2.Переработка никелевых драгметальных промпродуктов ЭКОЛОГИЯ Модуль 12. 1.Теория и практика утилизации диоксида серы из металлургических газов.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "высокотемпературный обжиг",
+          "name_en": "high temperature roasting",
+          "canonical": "high_temperature_roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавка медных и медно-никелевых концентратов",
+          "name_en": "smelting of copper and copper-nickel concentrates",
+          "canonical": "copper_nickel_concentrate_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "флотационный концентрат",
+          "name_en": "flotation concentrate",
+          "canonical": "flotation_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "пирротиновый концентрат",
+          "name_en": "pyrrhotite concentrate",
+          "canonical": "pyrrhotite_concentrate"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "электролитическое рафинирование меди",
+          "name_en": "electrolytic refining of copper",
+          "canonical": "electrolytic_refining"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "никелевый концентрат",
+          "name_en": "nickel concentrate",
+          "canonical": "nickel_concentrate"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "шламы",
+          "name_en": "slimes",
+          "canonical": "slimes"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "драгметальные промпродукты",
+          "name_en": "dragmet products",
+          "canonical": "dragmet_products"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "обжиг-выщелачивание"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "переработка никелевого концентрата флотационного разделения файнштейна"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "переработка шламов электрорафинирования меди"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "переработка никелевых драгметальных промпродуктов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p4::c2": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p4::c2",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "икеля 2.Переработка никелевых драгметальных промпродуктов ЭКОЛОГИЯ Модуль 12. 1.Теория и практика утилизации диоксида серы из металлургических газов. Часть 1 2.Теория и практика утилизации диоксида серы из металлургических газов. Часть 2",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевые промпродукты",
+          "name_en": "nickel industrial products",
+          "canonical": "nickel_industrial_products"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "утилизация диоксида серы",
+          "name_en": "SO2 utilization",
+          "canonical": "so2_utilization"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлургические газы",
+          "name_en": "metallurgical gases",
+          "canonical": "metallurgical_gases"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "утилизация диоксида серы из металлургических газов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p5::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p5::c0",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "5 Компоненты модуля | 5 5 блоков 12 модулей 36 разделов Введение Видеолекция Разделы Видеолекции Текстовый материал Дополнительный материал Глоссарий Контрольные вопросы для самопроверки Литература Промежуточное тестирование Тесты Компоненты модуля o Введение o Разделы o Промежуточное тестирование Элементы модуля Ресурсы – это статичные материалы курса, так сказать - лекционный материал: файлы с текстами лекций; различный тип контента (карты, иллюстрации, схемы, диаграммы); аудио и видео-файлы и др. •Модуль 3 •Модуль 4-11 •Модуль 2 •Модуль 1 Горное дело • Модуль 12 Обогащение Металлургия Геология Итоговое тестирование Экология Активные элементы курса Задания o выбор одного варианта ответа; o множественный выбор ответа; o на соответствие; o вписать свой ответ (слово, число) и др. Электронная почта 6 Пример. Модуль 1. Геология | 6 Видеолекция Текст лекций Тесты 7 Мнение о курсе | 7 o На данный момент курс прошли более 500 сотрудников. o Средняя оценка курса прошедшими обучение составляет 4,9. Плюсы, отмеченные обучаемыми: o Ознакомление с полной цепочкой производства металлов в компании Норникель. o Изложение информации простым доступным языком. o Гибкий график обучения.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Геология",
+          "name_en": "Geology",
+          "canonical": "Geology"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Металлургия",
+          "name_en": "Metallurgy",
+          "canonical": "Metallurgy"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Горное дело",
+          "name_en": "Mining",
+          "canonical": "Mining"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Обогащение",
+          "name_en": "Enrichment",
+          "canonical": "Enrichment"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Производство металлов",
+          "name_en": "Production of metals",
+          "canonical": "Production of metals"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Доклад_Вострикова Н.М::p5::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Доклад_Вострикова Н.М::p5::c1",
+      "doc_id": "Доклады__Доклад_Вострикова Н.М",
+      "source": "data/raw/Доклады/Доклад_Вострикова Н.М.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "Ознакомление с полной цепочкой производства металлов в компании Норникель. o Изложение информации простым доступным языком. o Гибкий график обучения. o Легкая навигация. o Доступ в любой момент и из любой точки страны. o Доступно в мобильном приложении. Минусы o Большой объем информации. o Сложность восприятия материала на слух. o Терминология сложна для не специалистов.",
+      "doc_type": "Доклады",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "цепочка производства металлов",
+          "name_en": "metals production chain",
+          "canonical": "metals production chain"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Норникель",
+          "name_en": "Norilsk Nickel",
+          "canonical": "Norilsk Nickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Ознакомление с полной цепочкой производства металлов в компании Норникель."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "high"
+      }
+    }
+  }
+}

@@ -1,0 +1,1488 @@
+{
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p1::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p1::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ИНСТИТУТ ГИПРОНИКЕЛЬ ПЕРЕРАБОТКА РУДНЫХ ОБРАЗОВАНИЙ ОКЕАНА Директор Департамента по исследования и разработкам, д.т.н., профессор Л.Б. Цымбулов Железо-марганцевые конкреции ЖМК Основные типы рудных образований Кобальт-марганцевые корки КМК Глубоководные полиметаллические сульфиды ГПС Химический состав, %: Ni – 0,3-0,9; Cu – 0,1-0,4; Co -0,3-2,6; Mn – 13-35; Fe – 14-31 Химический состав, %: Cu – 1,2-9,7; Zn – 1,6-30,7; Pb – 1,1 – 9,7; Fe – 13,5-35,7; S – 27,3-44,6; S i – 1,5 – 5; Ag – 35,1-63,8 г/т; Au – 0,3—7,5 г/т . Химический состав, %: Ni – 0,4-1,9; Cu – 0,2-1,3; Co -0,04-0,40; Mn – 16-34; Fe – 6-16; Si- 5-10; Al – 1,5-3,3 Clarion Clipperton РФ, %: Ni – 1,4; Cu – 1,1; Co -0,25; Mn – 28 Технологии переработки ЖМК и КМК Пиро-гидрометаллургические способы Гидрометаллургические способы Восстановительный обжиг Хлорирующий обжиг Сульфатизирующий обжиг Сернокислотное выщелачивание Аммиачное выщелачивание Солянокислое выщелачивание Плавка Гидрометаллургич.способы получения Ni, Cu, Co, Mn Пирометаллургич. способы получения Fe-Mn, Fe-Si-Mn Биовыщелачивание Плавка",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо-марганцевые конкреции",
+          "name_en": "iron-manganese nodules",
+          "canonical": "iron_manganese_nodules"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кобальт-марганцевые корки",
+          "name_en": "cobalt-manganese crusts",
+          "canonical": "cobalt_manganese_crusts"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "глубоководные полиметаллические сульфиды",
+          "name_en": "deep-sea polymetallic sulfides",
+          "canonical": "deep_sea_polymetallic_sulfides"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "пиро-гидрометаллургические способы",
+          "name_en": "pyro-hydrometallurgical methods",
+          "canonical": "pyro_hydrometallurgical_methods"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "гидрометаллургические способы",
+          "name_en": "hydrometallurgical methods",
+          "canonical": "hydrometallurgical_methods"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "восстановительный обжиг",
+          "name_en": "reductive roasting",
+          "canonical": "reductive_roasting"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "хлорирующий обжиг",
+          "name_en": "chlorinating roasting",
+          "canonical": "chlorinating_roasting"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "сульфатизирующий обжиг",
+          "name_en": "sulfating roasting",
+          "canonical": "sulfating_roasting"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "сернокислотное выщелачивание",
+          "name_en": "sulfuric acid leaching",
+          "canonical": "sulfuric_acid_leaching"
+        },
+        {
+          "id": "e13",
+          "type": "Process",
+          "name_ru": "аммиачное выщелачивание",
+          "name_en": "ammonia leaching",
+          "canonical": "ammonia_leaching"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "солянокислое выщелачивание",
+          "name_en": "hydrochloric acid leaching",
+          "canonical": "hydrochloric_acid_leaching"
+        },
+        {
+          "id": "e15",
+          "type": "Process",
+          "name_ru": "плавка",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e16",
+          "type": "Process",
+          "name_ru": "биовыщелачивание",
+          "name_en": "bioleaching",
+          "canonical": "bioleaching"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железо-марганцевая конкреция",
+          "name_en": "iron-manganese nodule",
+          "canonical": "iron_manganese_nodule"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кобальт-марганцевая корка",
+          "name_en": "cobalt-manganese crust",
+          "canonical": "cobalt_manganese_crust"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "глубоководный полиметаллический сульфид",
+          "name_en": "deep-sea polymetallic sulfide",
+          "canonical": "deep_sea_polymetallic_sulfide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Переработка рудных образований океана"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "Ni",
+          "op": "range",
+          "value_min": 0.3,
+          "value_max": 0.9,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "Cu",
+          "op": "range",
+          "value_min": 0.1,
+          "value_max": 0.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "Co",
+          "op": "range",
+          "value_min": 0.3,
+          "value_max": 2.6,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "Mn",
+          "op": "range",
+          "value_min": 13.0,
+          "value_max": 35.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "Fe",
+          "op": "range",
+          "value_min": 14.0,
+          "value_max": 31.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Cu",
+          "op": "range",
+          "value_min": 1.2,
+          "value_max": 9.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Zn",
+          "op": "range",
+          "value_min": 1.6,
+          "value_max": 30.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Pb",
+          "op": "range",
+          "value_min": 1.1,
+          "value_max": 9.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Fe",
+          "op": "range",
+          "value_min": 13.5,
+          "value_max": 35.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "S",
+          "op": "range",
+          "value_min": 27.3,
+          "value_max": 44.6,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Si",
+          "op": "range",
+          "value_min": 1.5,
+          "value_max": 5.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Ag",
+          "op": "range",
+          "value_min": 35.1,
+          "value_max": 63.8,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Au",
+          "op": "range",
+          "value_min": 0.3,
+          "value_max": 7.5,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Ni",
+          "op": "range",
+          "value_min": 0.4,
+          "value_max": 1.9,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Cu",
+          "op": "range",
+          "value_min": 0.2,
+          "value_max": 1.3,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Co",
+          "op": "range",
+          "value_min": 0.04,
+          "value_max": 0.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Mn",
+          "op": "range",
+          "value_min": 16.0,
+          "value_max": 34.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Fe",
+          "op": "range",
+          "value_min": 6.0,
+          "value_max": 16.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Si",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 10.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Al",
+          "op": "range",
+          "value_min": 1.5,
+          "value_max": 3.3,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p4::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p4::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 4,
+      "lang": "ru",
+      "text": "Переработка железо-марганцевых конкреций Технологии переработки железо-марганцевых конкреций Процесс Vale (Inco) Технологии переработки железо-марганцевых конкреций Процесс компании IOM (Интерокеанметалл) Извлечение: Cu > 95% Ni > 95% Co > 95% Mn -75% Технологии переработки железо-марганцевых конкреций Процесс Kennecott Copper Corporation Основан на аммиачном выщелачивании и восстановлении Mn ионами Cu Технологии переработки железо-марганцевых конкреций Процесс Hoboken Overpelt Основан на соляноислом выщелачивании с экстракцией железа Fe и последовательным восстановлением раствора H2S c осаждением сульфидов Cu,, Ni, Co/ Технологии переработки железо-марганцевых конкреций Процесс CSIR-IMMT Основан на автоклавном аммиачном выщелачивании с использованием в качестве восстановителя SO2, пирометаллургической переработкой осадка Fe-Mn, экстракций кобальта и осаждением H2S меди и никеля. Технологии переработки железо-марганцевых конкреций Процесс компании HZL Извлечение: Cu – 92-95% Ni - 90-95% Co – 75-80% Основан на сернокислотном выщелачивании, атмосферном и автоклавном. Цветные металлы разделяют экстракцией, медь и никель получают электроэ-кстракцией",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо-марганцевые конкреции",
+          "name_en": "iron-manganese nodules",
+          "canonical": "iron_manganese_nodules"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "извлечение меди",
+          "name_en": "copper extraction",
+          "canonical": "copper_extraction"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "извлечение никеля",
+          "name_en": "nickel extraction",
+          "canonical": "nickel_extraction"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "извлечение кобальта",
+          "name_en": "cobalt extraction",
+          "canonical": "cobalt_extraction"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "извлечение марганца",
+          "name_en": "manganese extraction",
+          "canonical": "manganese_extraction"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "извлечение меди HZL",
+          "name_en": "copper extraction HZL",
+          "canonical": "copper_extraction_hzl"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "извлечение никеля HZL",
+          "name_en": "nickel extraction HZL",
+          "canonical": "nickel_extraction_hzl"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "извлечение кобальта HZL",
+          "name_en": "cobalt extraction HZL",
+          "canonical": "cobalt_extraction_hzl"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "процесс Vale (Inco)",
+          "name_en": "Vale (Inco) process",
+          "canonical": "vale_inco_process"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "процесс IOM",
+          "name_en": "IOM process",
+          "canonical": "iom_process"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "процесс Kennecott Copper",
+          "name_en": "Kennecott Copper process",
+          "canonical": "kennecott_copper_process"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "процесс Hoboken Overpelt",
+          "name_en": "Hoboken Overpelt process",
+          "canonical": "hoboken_overpelt_process"
+        },
+        {
+          "id": "e13",
+          "type": "Process",
+          "name_ru": "процесс CSIR-IMMT",
+          "name_en": "CSIR-IMMT process",
+          "canonical": "csir_immt_process"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "процесс HZL",
+          "name_en": "HZL process",
+          "canonical": "hzl_process"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Технологии переработки железо-марганцевых конкреций Процесс Vale (Inco)"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Технологии переработки железо-марганцевых конкреций Процесс компании IOM (Интерокеанметалл)"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Основан на аммиачном выщелачивании и восстановлении Mn ионами Cu"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Основан на соляноислом выщелачивании с экстракцией железа Fe и последовательным восстановлением раствора H2S c осаждением сульфидов Cu,, Ni, Co/"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Основан на автоклавном аммиачном выщелачивании с использованием в качестве восстановителя SO2, пирометаллургической переработкой осадка Fe-Mn, экстракций кобальта и осаждением H2S меди и никеля."
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Основан на сернокислотном выщелачивании, атмосферном и автоклавном. Цветные металлы разделяют экстракцией, медь и никель получают электроэкстракцией"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "extraction",
+          "op": "ge",
+          "value_min": 95.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction",
+          "op": "ge",
+          "value_min": 95.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "extraction",
+          "op": "ge",
+          "value_min": 95.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "extraction",
+          "op": "le",
+          "value_min": null,
+          "value_max": 75.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "extraction",
+          "op": "range",
+          "value_min": 92.0,
+          "value_max": 95.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "extraction",
+          "op": "range",
+          "value_min": 90.0,
+          "value_max": 95.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "extraction",
+          "op": "range",
+          "value_min": 75.0,
+          "value_max": 80.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p11::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p11::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 11,
+      "lang": "ru",
+      "text": "Технологии переработки железо-марганцевых конкреций Процесс CSIR-NML Извлечение: Cu – 92,5%; Ni - 91,5%; Co – 71,3% Основан на восстановительном обжиге с последующим аммиачным выщелачиванием Технологии переработки железо-марганцевых конкреций Альтернативный процесс CSIR-NML Извлечение в раствор: Cu – 97% Ni - 98% Co – 99% Основан на плавке с получением сплава Cu-Ni-Co-Fe-Mn c последующим его окислением, сульфидированием и сернокислотным выщелачиванием Технологии переработки железо-марганцевых конкреций Процесс ЦНИГРИ Извлечение в концентрат: Cu – 89-90%; Ni - 93-94%; Co – 93-94%; Mn - 97-98%. Основан на сернокиcлотном выщелачивании в присутствии SO2, последовательно осаждая медный, никель-кобальтовый и марганцевый концентраты. Технологии переработки железо-марганцевых конкреций Процесс, разработанный совместно Горный университет + Гипроникель Извлечение в концентрат: Cu – 95%; Ni - 86%; Co – 88%; Mn – 99,5%. Основан на сульфатизирующем обжиге с добавлением пирита с последующим водным выщелачиванием и последовательным осаждением железа аммиаком.",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Процесс CSIR-NML",
+          "name_en": "CSIR-NML process",
+          "canonical": "CSIR-NML_process"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Альтернативный процесс CSIR-NML",
+          "name_en": "Alternative CSIR-NML process",
+          "canonical": "CSIR-NML_alternative_process"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Процесс ЦНИГРИ",
+          "name_en": "CNIGRI process",
+          "canonical": "CNIGRI_process"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Процесс, разработанный совместно Горный университет + Гипроникель",
+          "name_en": "Mining University + Gipronikel process",
+          "canonical": "Mining_University_Gipronikel_process"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "железо-марганцевые конкреции",
+          "name_en": "iron-manganese nodules",
+          "canonical": "iron_manganese_nodules"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Процесс CSIR-NML основан на восстановительном обжиге с последующим аммиачным выщелачиванием"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Альтернативный процесс CSIR-NML основан на плавке с получением сплава Cu-Ni-Co-Fe-Mn c последующим его окислением, сульфидированием и сернокислотным выщелачиванием"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Процесс ЦНИГРИ основан на сернокиcлотном выщелачивании в присутствии SO2, последовательно осаждая медный, никель-кобальтовый и марганцевый концентраты"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Процесс, разработанный совместно Горный университет + Гипроникель основан на сульфатизирующем обжиге с добавлением пирита с последующим водным выщелачиванием и последовательным осаждением железа аммиаком"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "extraction_Cu",
+          "op": "range",
+          "value_min": 92.5,
+          "value_max": 92.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "extraction_Ni",
+          "op": "range",
+          "value_min": 91.5,
+          "value_max": 91.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "extraction_Co",
+          "op": "range",
+          "value_min": 71.3,
+          "value_max": 71.3,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "extraction_Cu",
+          "op": "range",
+          "value_min": 97.0,
+          "value_max": 97.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "extraction_Ni",
+          "op": "range",
+          "value_min": 98.0,
+          "value_max": 98.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "extraction_Co",
+          "op": "range",
+          "value_min": 99.0,
+          "value_max": 99.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction_Cu",
+          "op": "range",
+          "value_min": 89.0,
+          "value_max": 90.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction_Ni",
+          "op": "range",
+          "value_min": 93.0,
+          "value_max": 94.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction_Co",
+          "op": "range",
+          "value_min": 93.0,
+          "value_max": 94.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction_Mn",
+          "op": "range",
+          "value_min": 97.0,
+          "value_max": 98.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "extraction_Cu",
+          "op": "range",
+          "value_min": 95.0,
+          "value_max": 95.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "extraction_Ni",
+          "op": "range",
+          "value_min": 86.0,
+          "value_max": 86.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "extraction_Co",
+          "op": "range",
+          "value_min": 88.0,
+          "value_max": 88.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "extraction_Mn",
+          "op": "range",
+          "value_min": 99.5,
+          "value_max": 99.5,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p15::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p15::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 15,
+      "lang": "ru",
+      "text": "Технологии переработки железо-марганцевых конкреций Процесс компаний TMC и SGS Получен первый сульфат Ni – 2024 г Коммерческая реализация – конец 2025 г Основан на плавке с последующим аммиачно-сульфатным выщелачиванием сульфидного сплава Переработка кобальт-марганцевых корок Технологии переработки кобальт-марганцевых корок Процесс ЦНИГРИ Извлечение в тов. продукцию: Ni - 83%; Co – 80%; Mn - 71%. Основан на сернокислом выщелачивании. В раствор переходят Cu,Ni,Co,Fe,Mn. После осаждения железа из раствора с применением S и Mnмет осаждают цв. металлы, а из раствора кристаллизуют сульфат Mn с последующей его переработкой пирометаллургией на металл. Технологии переработки кобальт-марганцевых корок Процесс ФГУП ВИМС Металлургическая переработка Предварительное обогащение Извлечение в тов. продукцию: Cu – 98,8% Ni - 91,7%; Co – 92,0%; Mn – 98,2%. Основан на предварительном обогащении с последующей термической обработкой и сернокислотном выщелачиванием.",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Процесс компаний TMC и SGS",
+          "name_en": "TMC and SGS process",
+          "canonical": "tmc_sgs_process"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Процесс ЦНИГРИ",
+          "name_en": "CNIGRI process",
+          "canonical": "cniigri_process"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "Процесс ФГУП ВИМС",
+          "name_en": "VIMS process",
+          "canonical": "vims_process"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "Сульфат Ni",
+          "name_en": "Nickel sulfate",
+          "canonical": "nickel_sulfate"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Железо-марганцевые конкреции",
+          "name_en": "Ferro-manganese nodules",
+          "canonical": "ferro_manganese_nodules"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "Кобальт-марганцевые корки",
+          "name_en": "Cobalt-manganese crusts",
+          "canonical": "cobalt_manganese_crusts"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "Cu",
+          "name_en": "Copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "Ni",
+          "name_en": "Nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "Co",
+          "name_en": "Cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "Mn",
+          "name_en": "Manganese",
+          "canonical": "manganese"
+        },
+        {
+          "id": "e14",
+          "type": "Material",
+          "name_ru": "Fe",
+          "name_en": "Iron",
+          "canonical": "iron"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Основан на плавке с последующим аммиачно-сульфатным выщелачиванием сульфидного сплава"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Извлечение в тов. продукцию: Ni - 83%; Co – 80%; Mn - 71%. Основан на сернокислом выщелачивании"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Металлургическая переработка Предварительное обогащение Извлечение в тов. продукцию: Cu – 98,8% Ni - 91,7%; Co – 92,0%; Mn – 98,2%. Основан на предварительном обогащении с последующей термической обработкой и сернокислотном выщелачиванием"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Получен первый сульфат Ni – 2024 г"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "В раствор переходят Cu,Ni,Co,Fe,Mn"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "В раствор переходят Cu,Ni,Co,Fe,Mn"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "В раствор переходят Cu,Ni,Co,Fe,Mn"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "В раствор переходят Cu,Ni,Co,Fe,Mn"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e14",
+          "type": "produces_output",
+          "evidence": "В раствор переходят Cu,Ni,Co,Fe,Mn"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "extraction_efficiency",
+          "op": "range",
+          "value_min": 71.0,
+          "value_max": 83.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "extraction_efficiency",
+          "op": "range",
+          "value_min": 91.7,
+          "value_max": 98.8,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "year",
+          "op": "eq",
+          "value_min": 2024.0,
+          "value_max": 2024.0,
+          "unit": "year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p19::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p19::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 19,
+      "lang": "ru",
+      "text": "Технологии переработки кобальт-марганцевых корок Процесс Cuprion Извлечение в тов. продукцию при аммиачно-сульфатном выщелачивании: Co – 91% Ni - 85%; Cu – 61%; Mn – 60%. Основан на аммиачно-карбонатном или аммиачно-сульфатном выщелачивании, осаждении марганца, кобальта и последующей экстракции и электроэкстракции никеля и меди Переработка глубоководных полиметаллических сульфидов Технологии переработки глубоководных полиметаллических сульфидов. Процесс ФГУП ВИМС Основан на предварительном флотационном обогащении с получением цинковых и медных концентратов, перерабатываемых по известным технологиям с комплексным извлечением ценных компонентов Технологии переработки глубоководных полиметаллических сульфидов. Процесс ЦНИГРИ Основан на обжиге в печах кипящего слоя с последующим сернокислотном выщелачиванием огарка с осажденеим меди из раствора Zn-пылью и цинка содой. Кк подвергают сорбционному выщелачиванию с выделением Au и Ag и последующим получением сплава Доре.",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Процесс Cuprion",
+          "name_en": "Cuprion process",
+          "canonical": "Cuprion_process"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "аммиачно-сульфатное выщелачивание",
+          "name_en": "ammonia-sulfate leaching",
+          "canonical": "ammonia_sulfate_leaching"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "марганец",
+          "name_en": "manganese",
+          "canonical": "manganese"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "Процесс ФГУП ВИМС",
+          "name_en": "ФГУП ВИМС process",
+          "canonical": "VIMS_process"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "флотационное обогащение",
+          "name_en": "flotation enrichment",
+          "canonical": "flotation_enrichment"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "цинковые концентраты",
+          "name_en": "zinc concentrate",
+          "canonical": "zinc_concentrate"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "медные концентраты",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e13",
+          "type": "Process",
+          "name_ru": "Процесс ЦНИГРИ",
+          "name_en": "ЦНИГРИ process",
+          "canonical": "CNIGRI_process"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "обжиг в печах кипящего слоя",
+          "name_en": "roasting in fluid bed",
+          "canonical": "roasting_fluid_bed"
+        },
+        {
+          "id": "e15",
+          "type": "Process",
+          "name_ru": "сернокислотное выщелачивание",
+          "name_en": "sulfuric acid leaching",
+          "canonical": "sulfuric_acid_leaching"
+        },
+        {
+          "id": "e16",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e17",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Процесс Cuprion основан на аммиачно-сульфатном выщелачивании"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Извлечение в товарную продукцию при аммиачно-сульфатном выщелачивании: Co – 91%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Извлечение в товарную продукцию при аммиачно-сульфатном выщелачивании: Ni - 85%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Извлечение в товарную продукцию при аммиачно-сульфатном выщелачивании: Cu – 61%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "Извлечение в товарную продукцию при аммиачно-сульфатном выщелачивании: Mn – 60%"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Процесс ФГУП ВИМС основан на предварительном флотационном обогащении"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "получение цинковых и медных концентратов"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "получение цинковых и медных концентратов"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e14",
+          "type": "uses_material",
+          "evidence": "Процесс ЦНИГРИ основан на обжиге в печах кипящего слоя"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "Процесс ЦНИГРИ основан на сернокислотном выщелачивании огарка"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e16",
+          "type": "produces_output",
+          "evidence": "выделение Au и Ag"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e17",
+          "type": "produces_output",
+          "evidence": "выделение Au и Ag"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "extraction_efficiency",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 91.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "extraction_efficiency",
+          "op": "range",
+          "value_min": 61.0,
+          "value_max": 85.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "extraction_efficiency",
+          "op": "range",
+          "value_min": 61.0,
+          "value_max": 61.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p23::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p23::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 23,
+      "lang": "ru",
+      "text": "Технологии переработки глубоководных полиметаллических сульфидов. Процесс ЦНИГРИ совместной переработки ЖМК+ГПС Основан на совместной переработке ЖМК и ГПС с применением сернокислотного выщелачивания в присутствии SO2 для ЖМК. Cu из двух схем объединяется для получения электролитной Cu по схеме обжиг-выщелачивание-электро-экстракция. Из раствора MnSO4 получают электротермический и электролитический марганец Основные выводы Технологические подходы к переработке ЖМК и КМК представляют собой смешанные пиро-гидрометаллургические и гидрометаллургические способы, характеризующиеся большим разнообразием, но в целом схожие с технологическими приемами, применяемыми при переработке латеритных никелевых руд Развитие новых отраслей потребления никеля, кобальта и марганца (например, аккумуляторы новых поколений) требует переосмысления разработанных технологий Наибольший интерес может представлять месторождение железо-марганцевых конкреций Clarion-Clipperton, характеризующееся значимыми содержаниями никеля, кобальта, меди и марганца.",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "совместная переработка ЖМК и ГПС",
+          "name_en": "combined processing of MFC and DMS",
+          "canonical": "combined_processing_of_MFC_and_DMS"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "ЖМК",
+          "name_en": "manganese nodules",
+          "canonical": "MFC"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ГПС",
+          "name_en": "deep-sea polymetallic sulfides",
+          "canonical": "DMS"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "сернокислотное выщелачивание",
+          "name_en": "sulfuric acid leaching",
+          "canonical": "sulfuric_acid_leaching"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "электролитная медь",
+          "name_en": "electrolytic copper",
+          "canonical": "electrolytic_copper"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "раствор MnSO4",
+          "name_en": "manganese sulfate solution",
+          "canonical": "manganese_sulfate_solution"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "электротермический марганец",
+          "name_en": "electrothermal manganese",
+          "canonical": "electrothermal_manganese"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "электролитический марганец",
+          "name_en": "electrolytic manganese",
+          "canonical": "electrolytic_manganese"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "пирогидрометаллургическая переработка",
+          "name_en": "pyro-hydrometallurgical processing",
+          "canonical": "pyro-hydrometallurgical_processing"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "гидрометаллургическая переработка",
+          "name_en": "hydrometallurgical processing",
+          "canonical": "hydrometallurgical_processing"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "латеритные никелевые руды",
+          "name_en": "lateral nickel ores",
+          "canonical": "lateral_nickel_ores"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Процесс ЦНИГРИ совместной переработки ЖМК+ГПС основан на совместной переработке ЖМК и ГПС с применением сернокислотного выщелачивания"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Cu из двух схем объединяется для получения электролитной Cu"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Из раствора MnSO4 получают электротермический и электролитический марганец"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "Из раствора MnSO4 получают электротермический и электролитический марганец"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p23::c1": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p23::c1",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 23,
+      "lang": "ru",
+      "text": "едставлять месторождение железо-марганцевых конкреций Clarion-Clipperton, характеризующееся значимыми содержаниями никеля, кобальта, меди и марганца. Переработка ГПС характеризуется схожими подходами с переработкой медных и медно-цинковых сульфидных концентратов, но необходимо учитывать необходимость комплексность извлечения ценных компонентов. и",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "марганец",
+          "name_en": "manganese",
+          "canonical": "manganese"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "переработка железо-марганцевых конкреций",
+          "name_en": "processing of polymetallic nodules",
+          "canonical": "processing_of_nodules"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медные и медно-цинковые сульфидные концентраты",
+          "name_en": "copper and copper-zinc sulfide concentrates",
+          "canonical": "copper_zinc_sulfide_concentrates"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "described_in",
+          "evidence": "Переработка ГПС характеризуется схожими подходами с переработкой медных и медно-цинковых сульфидных концентратов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p25::c0": {
+    "chunk": {
+      "chunk_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024::p25::c0",
+      "doc_id": "Доклады__Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024",
+      "source": "data/raw/Доклады/Переработка рудных образований океана - Цымбулов Л.Б. Институт Гипроникель-16-06-2024.pptx",
+      "page": 25,
+      "lang": "ru",
+      "text": "Дальнейшие шаги Определение номенклатуры товарной продукции никеля, кобальта и марганца в среднесрочной перспективе. Критический анализ разработанных технологических схем с позиций современных достижений металлургии и линейки перспективной товарной продукции SWOT-анализ технологий с определением наиболее перспективных 2-3 вариантов для выполнения ТЭО ТЭО эффективности переработки ЖМК Clarion-Clipperton Тестирование отдельных операций для уточнения технологических показателей (при необходимости) Сведения об институте СПАСИБО ЗА ВНИМАНИЕ",
+      "doc_type": "Доклады",
+      "path_year": 2024,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "марганец",
+          "name_en": "manganese",
+          "canonical": "manganese"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  }
+}
