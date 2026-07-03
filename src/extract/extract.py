@@ -19,18 +19,50 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
     user = EXTRACT_USER_TMPL.format(
         lang=chunk.lang, doc_id=chunk.doc_id, page=chunk.page, text=chunk.text
     )
-    raw = chat_json(
-        system=EXTRACT_SYSTEM,
-        user=user,
-        schema_name="chunk_extraction",
-        schema=EXTRACTION_JSON_SCHEMA,
-        model=model or config.LLM_MODEL_MAIN,
-    )
+    try:
+        raw = chat_json(
+            system=EXTRACT_SYSTEM,
+            user=user,
+            schema_name="chunk_extraction",
+            schema=EXTRACTION_JSON_SCHEMA,
+            model=model or config.LLM_MODEL_MAIN,
+        )
+    except Exception as e:  # noqa: BLE001
+        # исчерпаны все ретраи chat_json — не роняем весь прогон из-за одного чанка,
+        # но обязательно светим проблему, а не прячем её
+        print(f"[extract] запрос к модели упал для {chunk.chunk_id}: {e!r}")
+        return ChunkExtraction()
+
     try:
         return ChunkExtraction(**raw)
-    except Exception:
-        # если модель вернула частично невалидную структуру — не роняем прогон
+    except Exception as e:  # noqa: BLE001
+        print(f"[extract] невалидный JSON от модели для {chunk.chunk_id}: {e} | raw={str(raw)[:300]}")
         return ChunkExtraction()
+
+
+def _finalize_metadata(chunks: List, done: dict) -> None:
+    """Год/география должны быть едиными для всего документа, а не гадаться независимо
+    по каждому чанку (на большинстве чанков в тексте просто нет даты/страны — LLM тогда
+    честно возвращает unknown/None). Приоритет: структурный сигнал из пути (надёжнее) ->
+    первое уверенное значение, которое LLM всё же нашло хоть в одном чанке документа."""
+    struct_year = next((ch.path_year for ch in chunks if ch.path_year), None)
+    struct_geo = next((ch.path_geo for ch in chunks if ch.path_geo), None)
+
+    llm_year = next((v["extraction"]["metadata"].get("year")
+                      for v in done.values() if v["extraction"]["metadata"].get("year")), None)
+    llm_geo = next((v["extraction"]["metadata"].get("geography")
+                     for v in done.values()
+                     if v["extraction"]["metadata"].get("geography") not in (None, "unknown")), None)
+
+    doc_year = struct_year or llm_year
+    doc_geo = struct_geo or llm_geo or "unknown"
+
+    for v in done.values():
+        m = v["extraction"]["metadata"]
+        if not m.get("year"):
+            m["year"] = doc_year
+        if not m.get("geography") or m.get("geography") == "unknown":
+            m["geography"] = doc_geo
 
 
 def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool = True) -> dict:
@@ -45,8 +77,6 @@ def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool 
             done = json.load(f)
 
     todo = [ch for ch in chunks if ch.chunk_id not in done]
-    if not todo:
-        return done
 
     lock = threading.Lock()
 
@@ -54,13 +84,18 @@ def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool 
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(done, f, ensure_ascii=False, indent=2)
 
-    with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:
-        futures = {pool.submit(extract_chunk, ch, model): ch for ch in todo}
-        for future in as_completed(futures):
-            ch = futures[future]
-            ext = future.result()
-            # чекпоинтим после КАЖДОГО чанка — потеря прогона недопустима
-            with lock:
-                done[ch.chunk_id] = {"chunk": ch.dict(), "extraction": ext.model_dump()}
-                _checkpoint()
+    if todo:
+        with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:
+            futures = {pool.submit(extract_chunk, ch, model): ch for ch in todo}
+            for future in as_completed(futures):
+                ch = futures[future]
+                ext = future.result()
+                # чекпоинтим после КАЖДОГО чанка — потеря прогона недопустима
+                with lock:
+                    done[ch.chunk_id] = {"chunk": ch.dict(), "extraction": ext.model_dump()}
+                    _checkpoint()
+
+    if done:
+        _finalize_metadata(chunks, done)
+        _checkpoint()
     return done

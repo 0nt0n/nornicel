@@ -1,9 +1,11 @@
 """Полный офлайн-прогон корпуса: парсинг -> извлечение (с чекпоинтами) -> загрузка в граф.
 
 Запуск:
-    python scripts/run_pipeline.py                 # весь корпус из data/raw
-    python scripts/run_pipeline.py --limit 1       # вертикальный срез: 1 документ
-    python scripts/run_pipeline.py --load-only      # только загрузить уже извлечённое в граф
+    python scripts/run_pipeline.py                          # весь корпус из data/raw
+    python scripts/run_pipeline.py --limit 1                # вертикальный срез: 1 документ
+    python scripts/run_pipeline.py --subdir "Журналы/Цветные металлы/2020"  # только подпапка
+    python scripts/run_pipeline.py --force                  # не пропускать уже обработанные файлы
+    python scripts/run_pipeline.py --load-only               # только загрузить уже извлечённое в граф
 """
 import argparse
 import glob
@@ -22,8 +24,8 @@ from src.graph.loader import get_driver, load_processed
 from src.graph.indexes import init_schema
 
 
-def run_extract(limit=None):
-    chunks = parse_dir(config.RAW_DIR)
+def run_extract(limit=None, subdir=None, force=False):
+    chunks = parse_dir(config.RAW_DIR, subdir=subdir, skip_processed=not force)
     by_doc = defaultdict(list)
     for ch in chunks:
         by_doc[ch.doc_id].append(ch)
@@ -56,11 +58,15 @@ def run_load():
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--subdir", type=str, default=None,
+                     help="ограничиться подпапкой внутри data/raw, напр. 'Журналы/Цветные металлы/2020'")
+    ap.add_argument("--force", action="store_true",
+                     help="не пропускать файлы, для которых уже есть чекпоинт в data/processed")
     ap.add_argument("--load-only", action="store_true")
     ap.add_argument("--extract-only", action="store_true")
     args = ap.parse_args()
 
     if not args.load_only:
-        run_extract(limit=args.limit)
+        run_extract(limit=args.limit, subdir=args.subdir, force=args.force)
     if not args.extract_only:
         run_load()
