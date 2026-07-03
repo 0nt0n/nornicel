@@ -93,9 +93,10 @@ def _extract_archives(raw_dir: str) -> None:
 
 def _read_text_file(path: str) -> str:
     """Читает текстовый файл с автоопределением кодировки через chardet."""
-    raw_bytes = open(path, "rb").read()
+    with open(path, "rb") as f:
+        raw_bytes = f.read()
     try:
-        import chardet
+        import chardet  # type: ignore
         detected = chardet.detect(raw_bytes)
         encoding = detected.get("encoding") or "utf-8"
     except ImportError:
@@ -110,7 +111,7 @@ def _read_rtf(path: str) -> str:
     """Читает .rtf файл через striprtf."""
     text = _read_text_file(path)
     try:
-        from striprtf.striprtf import rtf_to_text
+        from striprtf.striprtf import rtf_to_text  # type: ignore
         return rtf_to_text(text)
     except ImportError:
         # Если striprtf не установлен — возвращаем сырой текст (лучше, чем ничего)
