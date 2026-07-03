@@ -207,7 +207,7 @@ def _chunk_text(text: str, size: int, overlap: int) -> List[str]:
     return out
 
 
-def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chunk]:
+def parse_file(path: str, doc_id: Optional[str] = None, rel_path: Optional[str] = None) -> List[Chunk]:
     rel_path = rel_path or os.path.basename(path)
     doc_id = doc_id or _doc_id(rel_path)
     parts = rel_path.replace("\\", "/").split("/")
@@ -232,20 +232,21 @@ def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chun
     return chunks
 
 
-def parse_dir(raw_dir: str = None, subdir: str = None, skip_processed: bool = True) -> List[Chunk]:
+def parse_dir(raw_dir: Optional[str] = None, subdir: Optional[str] = None, skip_processed: bool = True) -> List[Chunk]:
     """Парсит корпус.
 
     subdir         — ограничиться подпапкой внутри raw_dir (например "Журналы/Цветные металлы/2020").
     skip_processed — не парсить файлы, для которых уже есть завершённый чекпоинт в data/processed/
                       (быстрый путь для "распарсить только новые документы").
     """
+    from typing import Dict
     base_raw_dir = raw_dir or config.RAW_DIR
     scan_dir = os.path.join(base_raw_dir, subdir) if subdir else base_raw_dir
 
     _extract_archives(scan_dir)
 
     chunks = []
-    skipped_ext = {}
+    skipped_ext: Dict[str, int] = {}
     skipped_processed = 0
     for root, _, files in os.walk(scan_dir):
         for f in files:
