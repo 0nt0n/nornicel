@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
 import config
+from src.yandex import get_client, wait_rate_limit
 
 
 class Embedder:
@@ -24,7 +25,6 @@ class Embedder:
 
 class YandexEmbedder(Embedder):
     def __init__(self):
-        from src.yandex import get_client
         self.client = get_client()
         self.folder = config.YANDEX_FOLDER_ID
 
@@ -32,7 +32,6 @@ class YandexEmbedder(Embedder):
         return f"emb://{self.folder}/{model}/latest"
 
     def _embed_one(self, text, model):
-        from src.yandex import wait_rate_limit
         wait_rate_limit()
         # У Yandex эмбеддинги считаются по одному тексту за вызов.
         r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
