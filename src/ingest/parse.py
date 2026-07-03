@@ -11,7 +11,7 @@ from typing import List, Optional
 
 import config
 
-SUPPORTED_EXT = {".pdf", ".pptx", ".docx", ".docm", ".doc"}
+SUPPORTED_EXT = {".pdf", ".pptx", ".docx", ".docm", ".doc", ".rtf", ".txt"}
 _YEAR_RE = re.compile(r"(19|20)\d{2}")
 # "Tony_Keating_..." / "Aurelien_Louis_..." — латиница + подчёркивания в начале имени файла,
 # типичный паттерн для докладов иностранных спикеров в "Материалы конференций".
@@ -91,6 +91,53 @@ def _extract_archives(raw_dir: str) -> None:
                 print(f"[parse] не удалось распаковать {f}: {e}")
 
 
+def _read_text_file(path: str) -> str:
+    """Читает текстовый файл с автоопределением кодировки через chardet."""
+    raw_bytes = open(path, "rb").read()
+    try:
+        import chardet
+        detected = chardet.detect(raw_bytes)
+        encoding = detected.get("encoding") or "utf-8"
+    except ImportError:
+        encoding = "utf-8"
+    try:
+        return raw_bytes.decode(encoding)
+    except (UnicodeDecodeError, LookupError):
+        return raw_bytes.decode("utf-8", errors="replace")
+
+
+def _read_rtf(path: str) -> str:
+    """Читает .rtf файл через striprtf."""
+    text = _read_text_file(path)
+    try:
+        from striprtf.striprtf import rtf_to_text
+        return rtf_to_text(text)
+    except ImportError:
+        # Если striprtf не установлен — возвращаем сырой текст (лучше, чем ничего)
+        print(f"[parse] striprtf не установлен, .rtf читается как сырой текст: {path}")
+        return text
+
+
+def _convert_doc_via_libreoffice(path: str) -> Optional[str]:
+    """Конвертирует .doc в .docx через LibreOffice headless. Возвращает путь к .docx или None."""
+    import subprocess
+    import tempfile
+    out_dir = tempfile.mkdtemp()
+    try:
+        result = subprocess.run(
+            ["libreoffice", "--headless", "--convert-to", "docx", "--outdir", out_dir, path],
+            capture_output=True, timeout=60
+        )
+        if result.returncode == 0:
+            basename = os.path.splitext(os.path.basename(path))[0] + ".docx"
+            converted = os.path.join(out_dir, basename)
+            if os.path.exists(converted):
+                return converted
+    except (FileNotFoundError, subprocess.TimeoutExpired) as e:
+        print(f"[parse] LibreOffice не доступен для конвертации .doc: {e}")
+    return None
+
+
 def _read_pages(path: str):
     """Возвращает список (page_number, text) для одного файла любого из поддерживаемых форматов."""
     ext = os.path.splitext(path)[1].lower()
@@ -106,10 +153,42 @@ def _read_pages(path: str):
         for i, slide in enumerate(prs.slides, 1):
             parts = [sh.text for sh in slide.shapes if sh.has_text_frame]
             pages.append((i, "\n".join(parts)))
-    elif ext in (".docx", ".docm", ".doc"):
+    elif ext in (".docx", ".docm"):
         from docx import Document
         d = Document(path)
         text = "\n".join(p.text for p in d.paragraphs)
+        pages.append((1, text))
+    elif ext == ".doc":
+        # Сначала пробуем python-docx (иногда .doc — это на самом деле .docx)
+        try:
+            from docx import Document
+            d = Document(path)
+            text = "\n".join(p.text for p in d.paragraphs)
+            if text.strip():
+                pages.append((1, text))
+                return pages
+        except Exception:
+            pass
+        # Fallback: конвертация через LibreOffice
+        converted = _convert_doc_via_libreoffice(path)
+        if converted:
+            try:
+                from docx import Document
+                d = Document(converted)
+                text = "\n".join(p.text for p in d.paragraphs)
+                pages.append((1, text))
+            finally:
+                try:
+                    os.remove(converted)
+                except OSError:
+                    pass
+        else:
+            print(f"[parse] не удалось прочитать .doc: {path}")
+    elif ext == ".rtf":
+        text = _read_rtf(path)
+        pages.append((1, text))
+    elif ext == ".txt":
+        text = _read_text_file(path)
         pages.append((1, text))
     else:
         raise ValueError(f"Неподдерживаемый формат: {ext}")

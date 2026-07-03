@@ -12,7 +12,8 @@ from typing import List
 import config
 from schema.ontology import ChunkExtraction, EXTRACTION_JSON_SCHEMA
 from src.yandex import chat_json
-from src.extract.prompts import EXTRACT_SYSTEM, EXTRACT_USER_TMPL
+from src.extract.prompts import (EXTRACT_SYSTEM, EXTRACT_USER_TMPL,
+                                 EXTRACT_RETRY_SYSTEM, EXTRACT_RETRY_USER_TMPL)
 
 
 def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
@@ -28,16 +29,39 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
             model=model or config.LLM_MODEL_MAIN,
         )
     except Exception as e:  # noqa: BLE001
-        # исчерпаны все ретраи chat_json — не роняем весь прогон из-за одного чанка,
-        # но обязательно светим проблему, а не прячем её
         print(f"[extract] запрос к модели упал для {chunk.chunk_id}: {e!r}")
         return ChunkExtraction()
 
     try:
-        return ChunkExtraction(**raw)
+        result = ChunkExtraction(**raw)
     except Exception as e:  # noqa: BLE001
         print(f"[extract] невалидный JSON от модели для {chunk.chunk_id}: {e} | raw={str(raw)[:300]}")
         return ChunkExtraction()
+
+    # Retry с упрощённым промптом, если извлечение вернуло пустой результат,
+    # а текст достаточно содержательный (не оглавление/пустышка)
+    if not result.entities and len(chunk.text.strip()) > 100:
+        print(f"[extract] retry для {chunk.chunk_id}: пустой результат, текст {len(chunk.text)} символов")
+        retry_user = EXTRACT_RETRY_USER_TMPL.format(
+            lang=chunk.lang, doc_id=chunk.doc_id, page=chunk.page, text=chunk.text
+        )
+        try:
+            raw2 = chat_json(
+                system=EXTRACT_RETRY_SYSTEM,
+                user=retry_user,
+                schema_name="chunk_extraction",
+                schema=EXTRACTION_JSON_SCHEMA,
+                model=model or config.LLM_MODEL_MAIN,
+            )
+            retry_result = ChunkExtraction(**raw2)
+            if retry_result.entities:
+                print(f"[extract] retry для {chunk.chunk_id}: извлечено {len(retry_result.entities)} сущностей")
+                return retry_result
+        except Exception as e:  # noqa: BLE001
+            print(f"[extract] retry тоже не сработал для {chunk.chunk_id}: {e!r}")
+
+    return result
+
 
 
 def _finalize_metadata(chunks: List, done: dict) -> None:

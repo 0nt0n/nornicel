@@ -14,13 +14,12 @@ from pyvis.network import Network
 
 from src.graph.loader import get_driver
 from src.retrieve.router import route
-from src.retrieve.retriever import retrieve
-from src.retrieve.synthesize import synthesize
+from src.retrieve.react_chain import multi_level_retrieve, synthesize_multi
 from src.graph import queries as Q
 
 st.set_page_config(page_title="Карта знаний R&D — Норникель", layout="wide")
 st.title("🗺️ Карта знаний R&D (горно-металлургия)")
-st.caption("Запрос на естественном языке → граф знаний Neo4j + Yandex AI Studio")
+st.caption("Запрос на естественном языке → граф знаний Neo4j + Yandex AI Studio (ReAct 4-уровневый)")
 
 ENTITY_COLORS = {
     "Material": "#4C9AFF", "Process": "#36B37E", "Equipment": "#FFAB00",
@@ -52,6 +51,9 @@ with st.sidebar:
 # Вкладки
 selected_tab = st.tabs(["Поиск", "Аналитика и Дашборд"])
 
+LEVEL_ICONS = {1: "🔍", 2: "🔬", 3: "✅", 4: "📝"}
+LEVEL_NAMES = {1: "Разведка", 2: "Углубление", 3: "Перекрёстная проверка", 4: "Финальный синтез"}
+
 with selected_tab[0]: # Поиск
     question = st.text_area("Ваш запрос:", value=st.session_state.get("q", ""), height=90)
     
@@ -60,10 +62,10 @@ with selected_tab[0]: # Поиск
             slots = route(question)
         driver = get_driver()
         with driver.session() as session:
-            with st.spinner("Поиск по графу..."):
-                context = retrieve(session, question, slots)
+            with st.spinner("Многоуровневый поиск по графу (ReAct)..."):
+                context = multi_level_retrieve(session, question, slots)
             with st.spinner("Синтез ответа..."):
-                answer = synthesize(question, context)
+                answer = synthesize_multi(question, context)
             contradictions = Q.find_contradictions(session)
         driver.close()
     
@@ -79,6 +81,40 @@ with selected_tab[0]: # Поиск
                 file_name="answer.md",
                 mime="text/markdown"
             )
+            
+            # Цепочка рассуждений ReAct
+            if context.get("levels"):
+                st.subheader("🧠 Цепочка рассуждений (ReAct)")
+                for lvl in context["levels"]:
+                    ln = lvl.get("level", 0)
+                    icon = LEVEL_ICONS.get(ln, "🔹")
+                    name = LEVEL_NAMES.get(ln, lvl.get("action", ""))
+                    with st.expander(f"{icon} Уровень {ln}: {name}", expanded=(ln == 1)):
+                        st.write(f"**Действие:** {lvl.get('action', '')}")
+                        if lvl.get("reasoning"):
+                            st.write(f"**Рассуждение:** {lvl['reasoning']}")
+                        if lvl.get("chunks_found") is not None:
+                            st.write(f"**Найдено фрагментов:** {lvl['chunks_found']}")
+                        if lvl.get("covered_aspects"):
+                            st.write("**Покрытые аспекты:**")
+                            for a in lvl["covered_aspects"]:
+                                st.write(f"  ✓ {a}")
+                        if lvl.get("missing_aspects"):
+                            st.write("**Непокрытые аспекты:**")
+                            for a in lvl["missing_aspects"]:
+                                st.write(f"  ✗ {a}")
+                        if lvl.get("sub_queries_used"):
+                            st.write("**Подзапросы:**")
+                            for sq in lvl["sub_queries_used"]:
+                                st.write(f"  → {sq}")
+                        if lvl.get("verified_facts"):
+                            st.write("**Подтверждённые факты:**")
+                            for f in lvl["verified_facts"][:5]:
+                                st.write(f"  ✓ {f}")
+                        if lvl.get("contradictions_found"):
+                            st.warning(f"Найдено противоречий: {lvl['contradictions_found']}")
+                        if lvl.get("total_unique_chunks") is not None:
+                            st.metric("Итого уникальных фрагментов", lvl["total_unique_chunks"])
             
             if contradictions:
                 st.warning("⚠️ Обнаружены противоречия в данных:")
