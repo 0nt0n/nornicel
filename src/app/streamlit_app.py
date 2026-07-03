@@ -1,4 +1,7 @@
-"""Streamlit-интерфейс: запрос на естественном языке -> ответ + источники + подграф.
+"""Streamlit-интерфейс: карта знаний R&D.
+
+Запрос на естественном языке -> ReAct-цепочка (4 уровня рассуждений) ->
+ответ с источниками + интерактивный подграф знаний.
 
 Запуск:
     streamlit run src/app/streamlit_app.py
@@ -17,16 +20,120 @@ from src.retrieve.router import route
 from src.retrieve.react_chain import multi_level_retrieve, synthesize_multi
 from src.graph import queries as Q
 
-st.set_page_config(page_title="Карта знаний R&D — Норникель", layout="wide")
-st.title(" Карта знаний R&D (горно-металлургия)")
-st.caption("Запрос на естественном языке → граф знаний Neo4j + Yandex AI Studio (ReAct 4-уровневый)")
+st.set_page_config(
+    page_title="Карта знаний R&D — Норникель",
+    page_icon="🧭",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
 
+# ---------------------------------------------------------------- палитра
+# Категориальная палитра типов сущностей — валидирована для тёмной поверхности
+# (dataviz: lightness band, chroma floor, contrast >= 3:1; CVD 10.3 в допустимой
+# полосе — вторичное кодирование обеспечивают подписи узлов и текстовая легенда)
 ENTITY_COLORS = {
-    "Material": "#4C9AFF", "Process": "#36B37E", "Equipment": "#FFAB00",
-    "Property": "#6554C0", "Experiment": "#00B8D9", "Publication": "#97A0AF",
-    "Expert": "#FF5630", "Facility": "#79E2F2",
-    "Conclusion": "#DE350B", "Recommendation": "#FFC400",
+    "Material": "#3987e5", "Process": "#199e70", "Equipment": "#c98500",
+    "Experiment": "#008300", "Property": "#9085e9", "Expert": "#e66767",
+    "Publication": "#d55181", "Facility": "#d95926",
+    "Conclusion": "#0ea3b5", "Recommendation": "#a8842a",
 }
+ENTITY_LABELS_RU = {
+    "Material": "Материал", "Process": "Процесс", "Equipment": "Оборудование",
+    "Experiment": "Эксперимент", "Property": "Свойство", "Expert": "Эксперт",
+    "Publication": "Публикация", "Facility": "Установка",
+    "Conclusion": "Вывод", "Recommendation": "Рекомендация",
+}
+ACCENT = "#3987e5"
+SURFACE = "#111413"
+CARD_BG = "#1a1f1e"
+BORDER = "#2c3331"
+TEXT_MUTED = "#9aa5a1"
+
+LEVEL_META = {
+    1: ("🔍", "Разведка", "Гибридный поиск (вектор + полнотекст) и анализ покрытия запроса"),
+    2: ("🔬", "Углубление", "Дополнительные подзапросы по непокрытым аспектам"),
+    3: ("⚖️", "Перекрёстная проверка", "Поиск противоречий между источниками"),
+    4: ("🧩", "Финальный синтез", "Сборка всего контекста в экспертный ответ"),
+}
+
+st.markdown(f"""
+<style>
+  .block-container {{ padding-top: 1.2rem; max-width: 1400px; }}
+  /* герой-шапка */
+  .hero {{
+    background: linear-gradient(135deg, #14263e 0%, #10201c 60%, {SURFACE} 100%);
+    border: 1px solid {BORDER}; border-radius: 16px;
+    padding: 1.4rem 1.8rem; margin-bottom: 1rem;
+  }}
+  .hero h1 {{ margin: 0; font-size: 1.65rem; letter-spacing: .2px; }}
+  .hero p {{ margin: .35rem 0 0; color: {TEXT_MUTED}; font-size: .95rem; }}
+  .stat-pills {{ display: flex; gap: .6rem; flex-wrap: wrap; margin-top: .9rem; }}
+  .pill {{
+    background: rgba(57,135,229,.12); border: 1px solid rgba(57,135,229,.35);
+    color: #cfe3fb; border-radius: 999px; padding: .25rem .8rem; font-size: .82rem;
+  }}
+  /* карточки уровней ReAct */
+  .lvl-card {{
+    border: 1px solid {BORDER}; border-left: 4px solid {ACCENT};
+    background: {CARD_BG}; border-radius: 12px;
+    padding: .9rem 1.1rem; margin-bottom: .6rem;
+  }}
+  .lvl-head {{ font-weight: 600; font-size: 1rem; margin-bottom: .3rem; }}
+  .lvl-sub {{ color: {TEXT_MUTED}; font-size: .82rem; margin-bottom: .5rem; }}
+  .chip {{
+    display: inline-block; background: rgba(255,255,255,.06);
+    border: 1px solid {BORDER}; border-radius: 999px;
+    padding: .12rem .65rem; margin: .12rem .25rem .12rem 0; font-size: .8rem;
+  }}
+  .chip.miss {{ border-color: rgba(230,103,103,.5); color: #f0b5b5; }}
+  .chip.ok   {{ border-color: rgba(25,158,112,.5);  color: #a9dcc7; }}
+  /* карточка ответа */
+  .answer-card {{
+    border: 1px solid {BORDER}; background: {CARD_BG};
+    border-radius: 14px; padding: 1.2rem 1.4rem;
+  }}
+  /* легенда графа */
+  .legend {{ display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: .4rem 0 .6rem; }}
+  .legend span {{ font-size: .82rem; color: {TEXT_MUTED}; }}
+  .dot {{ display:inline-block; width:10px; height:10px; border-radius:50%;
+          margin-right:.35rem; vertical-align:-1px; }}
+  /* источники */
+  .src-card {{
+    border: 1px solid {BORDER}; background: {CARD_BG}; border-radius: 10px;
+    padding: .55rem .8rem; margin-bottom: .45rem; font-size: .86rem;
+  }}
+  .src-meta {{ color: {TEXT_MUTED}; font-size: .78rem; }}
+  .conf-high {{ color: #7fd6a8; }} .conf-medium {{ color: #e8c46a; }} .conf-low {{ color: #f0938a; }}
+  div[data-testid="stMetric"] {{
+    background: {CARD_BG}; border: 1px solid {BORDER};
+    border-radius: 12px; padding: .7rem .9rem;
+  }}
+</style>
+""", unsafe_allow_html=True)
+
+
+# ---------------------------------------------------------------- данные
+@st.cache_resource
+def _driver():
+    return get_driver()
+
+
+@st.cache_data(ttl=60)
+def _graph_stats():
+    try:
+        with _driver().session() as s:
+            row = s.run(
+                """
+                OPTIONAL MATCH (c:Chunk) WITH count(c) AS chunks
+                OPTIONAL MATCH (e:Entity) WITH chunks, count(e) AS entities
+                OPTIONAL MATCH (con:Constraint) WITH chunks, entities, count(con) AS constraints
+                OPTIONAL MATCH (d:Chunk) RETURN chunks, entities, constraints,
+                       count(DISTINCT d.doc_id) AS docs
+                """
+            ).single()
+            return dict(row) if row else {}
+    except Exception:  # noqa: BLE001
+        return {}
 
 
 def _entity_type(labels):
@@ -35,6 +142,30 @@ def _entity_type(labels):
             return l
     return "Entity"
 
+
+# ---------------------------------------------------------------- шапка
+stats = _graph_stats()
+pills = ""
+if stats:
+    pills = (
+        f'<div class="stat-pills">'
+        f'<span class="pill">📄 Документов: {stats.get("docs", 0)}</span>'
+        f'<span class="pill">🧩 Фрагментов: {stats.get("chunks", 0)}</span>'
+        f'<span class="pill">🔗 Сущностей: {stats.get("entities", 0)}</span>'
+        f'<span class="pill">🔢 Ограничений: {stats.get("constraints", 0)}</span>'
+        f'</div>'
+    )
+st.markdown(f"""
+<div class="hero">
+  <h1>🧭 Карта знаний R&D — горно-металлургия</h1>
+  <p>Вопрос на естественном языке → 4-уровневая ReAct-цепочка рассуждений по графу знаний
+     Neo4j → ответ с источниками, числами и уровнем достоверности</p>
+  {pills}
+</div>
+""", unsafe_allow_html=True)
+
+tab_search, tab_analytics = st.tabs(["🔎 Поиск", "📊 Аналитика графа"])
+
 EXAMPLES = [
     "Какие методы обессоливания воды подходят при сульфатах/хлоридах 200–300 мг/л и сухом остатке ≤1000 мг/дм³?",
     "Технические решения циркуляции католита при электроэкстракции никеля и оптимальная скорость потока?",
@@ -42,108 +173,137 @@ EXAMPLES = [
     "Способы закачки шахтных вод в глубокие горизонты: Россия vs зарубеж и их ТЭП.",
 ]
 
-with st.sidebar:
-    st.subheader("Примеры запросов")
-    for ex in EXAMPLES:
-        if st.button(ex, use_container_width=True):
+# ---------------------------------------------------------------- поиск
+with tab_search:
+    ex_cols = st.columns(2)
+    for i, ex in enumerate(EXAMPLES):
+        if ex_cols[i % 2].button(ex, use_container_width=True, key=f"ex{i}"):
             st.session_state["q"] = ex
 
-# Вкладки
-selected_tab = st.tabs(["Поиск", "Аналитика и Дашборд"])
+    question = st.text_area(
+        "Ваш запрос:", value=st.session_state.get("q", ""),
+        height=90, placeholder="Например: какие реагенты применяются при флотации медно-никелевых руд?",
+    )
+    run = st.button("🚀 Найти ответ", type="primary", use_container_width=True)
 
-LEVEL_ICONS = {1: "🔍", 2: "🔬", 3: "✅", 4: "📝"}
-LEVEL_NAMES = {1: "Разведка", 2: "Углубление", 3: "Перекрёстная проверка", 4: "Финальный синтез"}
+    if run and question.strip():
+        try:
+            with st.status("🧠 ReAct-цепочка работает...", expanded=True) as status:
+                st.write("Разбор запроса на структурные слоты...")
+                slots = route(question)
 
-with selected_tab[0]: # Поиск
-    question = st.text_area("Ваш запрос:", value=st.session_state.get("q", ""), height=90)
-    
-    if st.button("Найти", type="primary") and question.strip():
-        with st.spinner("Разбор запроса..."):
-            slots = route(question)
-        driver = get_driver()
-        with driver.session() as session:
-            with st.spinner("Многоуровневый поиск по графу (ReAct)..."):
-                context = multi_level_retrieve(session, question, slots)
-            with st.spinner("Синтез ответа..."):
+                def _progress(level, msg):
+                    icon, name, _ = LEVEL_META.get(level, ("•", f"Уровень {level}", ""))
+                    st.write(f"{icon} **Уровень {level} · {name}:** {msg}")
+
+                with _driver().session() as session:
+                    context = multi_level_retrieve(session, question, slots,
+                                                   progress_cb=_progress)
+                    contradictions = Q.find_contradictions(session)
+                st.write("📝 Синтез финального ответа...")
                 answer = synthesize_multi(question, context)
-            contradictions = Q.find_contradictions(session)
-        driver.close()
-    
-        col1, col2 = st.columns([2, 1])
-        with col1:
-            st.subheader("Ответ")
+                status.update(label="✅ Готово", state="complete", expanded=False)
+
+            st.session_state["last"] = {
+                "question": question, "slots": slots, "context": context,
+                "answer": answer, "contradictions": contradictions,
+            }
+        except Exception as e:  # noqa: BLE001
+            st.error(f"Ошибка выполнения запроса: {e}")
+
+    last = st.session_state.get("last")
+    if last:
+        context, answer = last["context"], last["answer"]
+        col_main, col_side = st.columns([2.1, 1])
+
+        with col_main:
+            st.markdown("### 💬 Ответ")
+            st.markdown(f'<div class="answer-card">', unsafe_allow_html=True)
             st.markdown(answer)
-            
-            # Export
+            st.markdown("</div>", unsafe_allow_html=True)
             st.download_button(
-                label="📥 Скачать ответ (Markdown)",
-                data=f"# Вопрос\n{question}\n\n# Ответ\n{answer}",
-                file_name="answer.md",
-                mime="text/markdown"
+                "📥 Скачать ответ (Markdown)",
+                data=f"# Вопрос\n{last['question']}\n\n# Ответ\n{answer}",
+                file_name="answer.md", mime="text/markdown",
             )
-            
-            # Цепочка рассуждений ReAct
-            if context.get("levels"):
-                st.subheader("Цепочка рассуждений (ReAct)")
-                for lvl in context["levels"]:
-                    ln = lvl.get("level", 0)
-                    icon = LEVEL_ICONS.get(ln, "🔹")
-                    name = LEVEL_NAMES.get(ln, lvl.get("action", ""))
-                    with st.expander(f"{icon} Уровень {ln}: {name}", expanded=(ln == 1)):
-                        st.write(f"**Действие:** {lvl.get('action', '')}")
-                        if lvl.get("reasoning"):
-                            st.write(f"**Рассуждение:** {lvl['reasoning']}")
-                        if lvl.get("chunks_found") is not None:
-                            st.write(f"**Найдено фрагментов:** {lvl['chunks_found']}")
-                        if lvl.get("covered_aspects"):
-                            st.write("**Покрытые аспекты:**")
-                            for a in lvl["covered_aspects"]:
-                                st.write(f"  ✓ {a}")
-                        if lvl.get("missing_aspects"):
-                            st.write("**Непокрытые аспекты:**")
-                            for a in lvl["missing_aspects"]:
-                                st.write(f"  ✗ {a}")
-                        if lvl.get("sub_queries_used"):
-                            st.write("**Подзапросы:**")
-                            for sq in lvl["sub_queries_used"]:
-                                st.write(f"  → {sq}")
-                        if lvl.get("verified_facts"):
-                            st.write("**Подтверждённые факты:**")
-                            for f in lvl["verified_facts"][:5]:
-                                st.write(f"  ✓ {f}")
-                        if lvl.get("contradictions_found"):
-                            st.warning(f"Найдено противоречий: {lvl['contradictions_found']}")
-                        if lvl.get("total_unique_chunks") is not None:
-                            st.metric("Итого уникальных фрагментов", lvl["total_unique_chunks"])
-            
-            if contradictions:
-                st.warning("Обнаружены противоречия в данных:")
-                for c in contradictions[:5]:
-                    st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence','')}")
+            # ---------- цепочка рассуждений ReAct
+            st.markdown("### 🧠 Цепочка рассуждений")
+            for lvl in context.get("levels", []):
+                ln = lvl.get("level", 0)
+                icon, name, sub = LEVEL_META.get(ln, ("•", lvl.get("action", ""), ""))
+                chips = ""
+                for a in lvl.get("covered_aspects", []):
+                    chips += f'<span class="chip ok">✓ {a}</span>'
+                for a in lvl.get("missing_aspects", []):
+                    chips += f'<span class="chip miss">✗ {a}</span>'
+                for sq in lvl.get("sub_queries_used", []):
+                    chips += f'<span class="chip">→ {sq}</span>'
+                for f in lvl.get("verified_facts", [])[:4]:
+                    chips += f'<span class="chip ok">✓ {f}</span>'
+                facts_meta = []
+                if lvl.get("chunks_found") is not None:
+                    facts_meta.append(f"найдено фрагментов: {lvl['chunks_found']}")
+                if lvl.get("extra_chunks"):
+                    facts_meta.append(f"доп. фрагментов: {lvl['extra_chunks']}")
+                if lvl.get("contradictions_found"):
+                    facts_meta.append(f"противоречий: {lvl['contradictions_found']}")
+                if lvl.get("total_unique_chunks") is not None:
+                    facts_meta.append(f"итого уникальных: {lvl['total_unique_chunks']}")
+                meta = (" · ".join(facts_meta)) or sub
+                st.markdown(f"""
+                <div class="lvl-card">
+                  <div class="lvl-head">{icon} Уровень {ln} · {name}</div>
+                  <div class="lvl-sub">{meta}</div>
+                  <div>{lvl.get("reasoning", "")}</div>
+                  <div>{chips}</div>
+                </div>
+                """, unsafe_allow_html=True)
 
-            if context.get("comparison_chunks"):
-                st.subheader("Сравнение: отечественная vs зарубежная практика")
-                cru, cforeign = st.columns(2)
-                with cru:
-                    st.markdown("**🇷🇺 РФ**")
-                    for ch in context["comparison_chunks"].get("RU", [])[:5]:
-                        st.caption(f"{ch['doc_id']} ({ch.get('year') or '?'})")
-                with cforeign:
-                    st.markdown("**Зарубеж**")
-                    for ch in context["comparison_chunks"].get("foreign", [])[:5]:
-                        st.caption(f"{ch['doc_id']} ({ch.get('year') or '?'})")
+            # ---------- противоречия
+            if last.get("contradictions"):
+                st.warning("⚠️ В графе знаний зафиксированы противоречия:")
+                for c in last["contradictions"][:5]:
+                    st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence', '')}")
 
-            if context.get("gaps"):
-                with st.expander(f"Пробелы в исследованиях ({len(context['gaps'])})"):
-                    for g in context["gaps"][:10]:
-                        st.write(f"• {g.get('process') or g.get('canonical')}")
+            # ---------- сравнение РФ / зарубеж
+            comparison = context.get("comparison_chunks")
+            if comparison:
+                st.markdown("### 🌍 Отечественная vs зарубежная практика")
+                cru, cf = st.columns(2)
+                for col, key, title in ((cru, "RU", "🇷🇺 РФ"), (cf, "foreign", "🌍 Зарубеж")):
+                    with col:
+                        st.markdown(f"**{title}**")
+                        for ch in comparison.get(key, [])[:5]:
+                            st.markdown(
+                                f'<div class="src-card">{ch["doc_id"]}'
+                                f'<div class="src-meta">{ch.get("year") or "год неизвестен"}</div></div>',
+                                unsafe_allow_html=True,
+                            )
 
-            # Pyvis: реальный подграф сущностей вокруг найденного контекста
-            # (материал -> процесс -> оборудование -> результат)
-            st.subheader("Подграф знаний (сущности и связи)")
+            # ---------- подграф знаний
+            st.markdown("### 🕸️ Подграф знаний")
             if context.get("entities"):
-                net = Network(height='450px', width='100%', bgcolor='#ffffff',
-                               font_color='black', directed=True)
+                legend = '<div class="legend">'
+                used_types = {_entity_type(e.get("labels")) for e in context["entities"]}
+                for t in ENTITY_COLORS:
+                    if t in used_types:
+                        legend += (f'<span><i class="dot" style="background:{ENTITY_COLORS[t]}"></i>'
+                                   f'{ENTITY_LABELS_RU.get(t, t)}</span>')
+                legend += "</div>"
+                st.markdown(legend, unsafe_allow_html=True)
+
+                net = Network(height="480px", width="100%", bgcolor=SURFACE,
+                              font_color="#e8e6df", directed=True)
+                net.set_options("""
+                {
+                  "physics": {"barnesHut": {"gravitationalConstant": -12000,
+                              "springLength": 140, "damping": 0.25},
+                              "stabilization": {"iterations": 120}},
+                  "edges": {"color": {"color": "#3a4441"}, "smooth": true,
+                            "font": {"size": 10, "color": "#9aa5a1", "strokeWidth": 0}},
+                  "nodes": {"font": {"size": 13}, "borderWidth": 0, "shape": "dot", "size": 14}
+                }
+                """)
                 added = set()
 
                 def _add_node(key, name_ru, name_en, labels):
@@ -152,65 +312,162 @@ with selected_tab[0]: # Поиск
                     added.add(key)
                     etype = _entity_type(labels)
                     net.add_node(key, label=(name_ru or name_en or key)[:40],
-                                 color=ENTITY_COLORS.get(etype, "#97A0AF"),
-                                 title=f"{etype}: {name_ru or name_en or key}")
+                                 color=ENTITY_COLORS.get(etype, "#9aa5a1"),
+                                 title=f"{ENTITY_LABELS_RU.get(etype, etype)}: {name_ru or name_en or key}")
 
                 for e in context["entities"]:
                     _add_node(e["key"], e.get("name_ru"), e.get("name_en"), e.get("labels"))
-
                 for edge in context.get("subgraph_edges", []):
                     _add_node(edge["src"], edge.get("src_ru"), edge.get("src_en"), edge.get("src_labels"))
                     _add_node(edge["dst"], edge.get("dst_ru"), edge.get("dst_en"), edge.get("dst_labels"))
                     net.add_edge(edge["src"], edge["dst"],
-                                 label=" / ".join(edge.get("rel_types") or []), color="#9AA5B1")
+                                 label=" / ".join(edge.get("rel_types") or []))
 
                 net.save_graph("graph.html")
-                with open("graph.html", "r", encoding="utf-8") as HtmlFile:
-                    components.html(HtmlFile.read(), height=470)
+                with open("graph.html", encoding="utf-8") as f:
+                    components.html(f.read(), height=500)
             else:
                 st.info("Сущности не найдены в контексте — граф пуст.")
 
-        with col2:
-            st.subheader("Распознанные слоты")
-            st.json(slots)
-            st.subheader(f"Источники ({len(context['sources'])})")
-            for s in context["sources"]:
-                st.write(f" {s['doc_id']} — {s.get('geography')} / {s.get('year')}")
-    
-        with st.expander("Найденные чанки (провенанс)"):
-            for ch in context["chunks"]:
-                conf = ch.get("confidence", "medium")
-                conf_badge = {"high": "🟢", "medium": "🟡", "low": "🔴"}.get(conf, "⚪")
-                st.markdown(f"**[{ch['doc_id']} стр.{ch['page']}]** "
-                            f"_(score {ch.get('score', 0):.3f}, достоверность {conf_badge} {conf})_")
-                st.write(ch["text"][:500] + "…")
+            # ---------- пробелы
+            if context.get("gaps"):
+                with st.expander(f"🕳️ Пробелы в исследованиях ({len(context['gaps'])})"):
+                    st.caption("Процессы без экспериментальной проверки в корпусе — кандидаты на новые НИР")
+                    for g in context["gaps"][:10]:
+                        st.write(f"• {g.get('process') or g.get('canonical')}")
 
-if len(selected_tab) > 1:
-    with selected_tab[1]: # Аналитика
-        st.header("Аналитика графа знаний")
-        driver = get_driver()
-        try:
-            with driver.session() as session:
-                st.subheader("Общая статистика узлов")
-                # Query node counts
-                res = session.run("MATCH (n) RETURN labels(n)[0] as label, count(n) as count").data()
-                if res:
-                    stats = {r['label']: r['count'] for r in res if r['label']}
-                    if stats:
-                        cols = st.columns(min(len(stats), 4))
-                        for i, (k, v) in enumerate(stats.items()):
-                            cols[i % 4].metric(k, v)
+        with col_side:
+            m1, m2 = st.columns(2)
+            m1.metric("Источников", len(context.get("sources", [])))
+            m2.metric("Фрагментов", len(context.get("chunks", [])))
+            l3 = next((l for l in context.get("levels", []) if l.get("level") == 3), {})
+            if l3.get("confidence"):
+                st.metric("Достоверность (кросс-проверка)", l3["confidence"])
+
+            st.markdown("#### 📄 Источники")
+            for s in context.get("sources", [])[:12]:
+                geo_icon = {"RU": "🇷🇺", "foreign": "🌍"}.get(s.get("geography"), "❔")
+                st.markdown(
+                    f'<div class="src-card">{geo_icon} {s["doc_id"]}'
+                    f'<div class="src-meta">{s.get("year") or "год неизвестен"}</div></div>',
+                    unsafe_allow_html=True,
+                )
+
+            with st.expander("Распознанные слоты запроса"):
+                st.json(last["slots"])
+
+            with st.expander("Провенанс: найденные чанки"):
+                for ch in context.get("chunks", [])[:15]:
+                    conf = ch.get("confidence", "medium")
+                    badge = {"high": "🟢", "medium": "🟡", "low": "🔴"}.get(conf, "⚪")
+                    st.markdown(f"**{ch['doc_id']} · стр.{ch.get('page', '?')}** "
+                                f"{badge} <span class='conf-{conf}'>{conf}</span> "
+                                f"· score {ch.get('score', 0):.3f}",
+                                unsafe_allow_html=True)
+                    st.caption(ch.get("text", "")[:350] + "…")
+
+# ---------------------------------------------------------------- аналитика
+with tab_analytics:
+    try:
+        with _driver().session() as session:
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric("📄 Документов", stats.get("docs", 0))
+            c2.metric("🧩 Фрагментов", stats.get("chunks", 0))
+            c3.metric("🔗 Сущностей", stats.get("entities", 0))
+            c4.metric("🔢 Ограничений", stats.get("constraints", 0))
+
+            st.markdown("---")
+            colA, colB = st.columns([1.2, 1])
+
+            with colA:
+                st.subheader("Сущности по типам")
+                rows = session.run(
+                    """
+                    MATCH (e:Entity) UNWIND labels(e) AS l
+                    WITH l, count(*) AS n WHERE l <> 'Entity'
+                    RETURN l AS type, n ORDER BY n DESC
+                    """
+                ).data()
+                if rows:
+                    import altair as alt
+                    import pandas as pd
+                    df = pd.DataFrame(rows)
+                    df["type_ru"] = df["type"].map(lambda t: ENTITY_LABELS_RU.get(t, t))
+                    # одна серия -> один цвет (магнитуда), прямые подписи значений
+                    chart = (
+                        alt.Chart(df).mark_bar(color=ACCENT, cornerRadiusEnd=4, height=18)
+                        .encode(
+                            x=alt.X("n:Q", title=None, axis=alt.Axis(grid=False)),
+                            y=alt.Y("type_ru:N", sort="-x", title=None),
+                            tooltip=[alt.Tooltip("type_ru:N", title="Тип"),
+                                     alt.Tooltip("n:Q", title="Количество")],
+                        )
+                    )
+                    labels = chart.mark_text(align="left", dx=4, color="#e8e6df").encode(text="n:Q")
+                    st.altair_chart(
+                        (chart + labels).configure_view(strokeWidth=0)
+                        .configure_axis(labelColor="#9aa5a1", domainColor="#2c3331"),
+                        use_container_width=True,
+                    )
                 else:
-                    st.info("Граф пока пуст.")
-                
-                st.markdown("---")
-                st.subheader("Пробелы в знаниях (Слабо изученные зоны)")
+                    st.info("Граф пока пуст — загрузите данные (run_pipeline.py --load-only).")
+
+            with colB:
+                st.subheader("Самые связанные сущности")
+                hubs = session.run(
+                    """
+                    MATCH (e:Entity)
+                    WITH e, count{(e)-[:REL]-()} + count{(e)<-[:MENTIONS]-()} AS degree
+                    WHERE degree > 0
+                    RETURN coalesce(e.name_ru, e.name_en, e.key) AS name,
+                           [l IN labels(e) WHERE l <> 'Entity'][0] AS type, degree
+                    ORDER BY degree DESC LIMIT 10
+                    """
+                ).data()
+                if hubs:
+                    for h in hubs:
+                        color = ENTITY_COLORS.get(h["type"], "#9aa5a1")
+                        st.markdown(
+                            f'<div class="src-card"><i class="dot" style="background:{color}"></i>'
+                            f'{h["name"]}<div class="src-meta">'
+                            f'{ENTITY_LABELS_RU.get(h["type"], h["type"] or "—")} · связей: {h["degree"]}'
+                            f'</div></div>',
+                            unsafe_allow_html=True,
+                        )
+                else:
+                    st.info("Нет данных о связях.")
+
+            st.markdown("---")
+            colC, colD = st.columns(2)
+            with colC:
+                st.subheader("⚠️ Противоречия в данных")
+                contras = Q.find_contradictions(session)
+                if contras:
+                    for c in contras[:8]:
+                        st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence', '')[:120]}")
+                else:
+                    st.caption("Противоречий типа contradicts в графе не зафиксировано.")
+            with colD:
+                st.subheader("🕳️ Пробелы в знаниях")
                 gaps = Q.find_gaps(session)
                 if gaps:
-                    st.dataframe(gaps)
+                    for g in gaps[:8]:
+                        st.write(f"• {g.get('process') or g.get('canonical')}")
                 else:
-                    st.info("Явных пробелов не найдено (или недостаточно данных для анализа).")
-        except Exception as e:
-            st.error(f"Ошибка подключения к Neo4j: {e}")
-        finally:
-            driver.close()
+                    st.caption("Явных пробелов не найдено (или мало данных).")
+
+            st.markdown("---")
+            st.subheader("📦 Экспорт")
+            st.caption("JSON-LD — RDF-совместимый формат (FAIR): граф можно загрузить "
+                       "в Apache Jena / GraphDB или опубликовать как Linked Data.")
+            if st.button("Сформировать JSON-LD"):
+                import json as _json
+                from scripts.export_jsonld import export as _export_jsonld
+                doc = _export_jsonld(session)
+                st.download_button(
+                    "📥 Скачать knowledge_graph.jsonld",
+                    data=_json.dumps(doc, ensure_ascii=False, indent=2),
+                    file_name="knowledge_graph.jsonld", mime="application/ld+json",
+                )
+    except Exception as e:  # noqa: BLE001
+        st.error(f"Ошибка подключения к Neo4j: {e}")

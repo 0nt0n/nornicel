@@ -1,11 +1,20 @@
 """Параметризованные Cypher-шаблоны. LLM НЕ пишет Cypher — только подставляет параметры сюда.
 Это ядро надёжности ретрива. Добавляйте шаблоны под новые типы вопросов.
 """
+import re
+
 import config
+
+# Спецсимволы Lucene-синтаксиса — экранируем, чтобы пользовательский текст
+# не ломал полнотекстовый запрос
+_LUCENE_SPECIAL = re.compile(r'[+\-!(){}\[\]^"~*?:\\/]|&&|\|\|')
 
 
 def vector_search(session, query_embedding, top_k=8, geography=None, year_from=None):
-    """Семантический старт: ближайшие чанки по вектору + необязательные фильтры."""
+    """Семантический старт: ближайшие чанки по вектору + необязательные фильтры.
+    При активных фильтрах индекс опрашивается с запасом (3x), иначе WHERE после
+    YIELD съедает результаты и возвращается меньше top_k."""
+    k_fetch = top_k * 3 if (geography or year_from) else top_k
     rows = session.run(
         f"""
         CALL db.index.vector.queryNodes('{config.VECTOR_INDEX}', $k, $emb)
@@ -17,10 +26,63 @@ def vector_search(session, query_embedding, top_k=8, geography=None, year_from=N
                node.page AS page, node.geography AS geography, node.year AS year,
                node.confidence AS confidence, node.doc_type AS doc_type, score
         ORDER BY score DESC
+        LIMIT $out
         """,
-        k=top_k, emb=query_embedding, geo=geography, yf=year_from,
+        k=k_fetch, emb=query_embedding, geo=geography, yf=year_from, out=top_k,
     )
     return [r.data() for r in rows]
+
+
+def fulltext_search(session, query_text, top_k=8, geography=None, year_from=None):
+    """Полнотекстовый поиск по Lucene-индексу (тот же движок, что в Elasticsearch).
+    Ловит точные термины/аббревиатуры (ПВП, Cu-EW, «католит»), которые вектор размывает."""
+    q = _LUCENE_SPECIAL.sub(" ", query_text or "").strip()
+    if not q:
+        return []
+    k_fetch = top_k * 3 if (geography or year_from) else top_k
+    rows = session.run(
+        f"""
+        CALL db.index.fulltext.queryNodes('{config.FULLTEXT_INDEX}', $q, {{limit: $k}})
+        YIELD node, score
+        WITH node, score
+        WHERE ($geo IS NULL OR node.geography = $geo)
+          AND ($yf IS NULL OR node.year >= $yf)
+        RETURN node.chunk_id AS chunk_id, node.text AS text, node.doc_id AS doc_id,
+               node.page AS page, node.geography AS geography, node.year AS year,
+               node.confidence AS confidence, node.doc_type AS doc_type, score
+        ORDER BY score DESC
+        LIMIT $out
+        """,
+        q=q, k=k_fetch, geo=geography, yf=year_from, out=top_k,
+    )
+    return [r.data() for r in rows]
+
+
+def hybrid_search(session, query_embedding, query_text, top_k=8,
+                  geography=None, year_from=None):
+    """Гибридный поиск: вектор + полнотекст, слияние Reciprocal Rank Fusion.
+    RRF устойчив к разным шкалам скоров и стандартен для гибридного ретрива."""
+    vec = vector_search(session, query_embedding, top_k=top_k,
+                        geography=geography, year_from=year_from)
+    ft = fulltext_search(session, query_text, top_k=top_k,
+                         geography=geography, year_from=year_from)
+    K = 60  # стандартная константа RRF
+    scores, by_id = {}, {}
+    for rank, ch in enumerate(vec):
+        cid = ch["chunk_id"]
+        scores[cid] = scores.get(cid, 0.0) + 1.0 / (K + rank + 1)
+        by_id[cid] = ch
+    for rank, ch in enumerate(ft):
+        cid = ch["chunk_id"]
+        scores[cid] = scores.get(cid, 0.0) + 1.0 / (K + rank + 1)
+        by_id.setdefault(cid, ch)
+    ranked = sorted(scores, key=scores.get, reverse=True)[:top_k]
+    out = []
+    for cid in ranked:
+        ch = dict(by_id[cid])
+        ch["score"] = scores[cid]
+        out.append(ch)
+    return out
 
 
 def find_by_constraint(session, param, op, value=None, value_max=None,

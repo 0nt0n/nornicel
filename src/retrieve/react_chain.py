@@ -121,8 +121,11 @@ def _dedup_chunks(all_chunks):
     return result
 
 
-def multi_level_retrieve(session, question, slots, max_levels=4):
+def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=None):
     """ReAct-цепочка: многоуровневый поиск с промежуточными рассуждениями.
+
+    progress_cb: опциональный callback(level:int, message:str) — UI показывает живой
+    прогресс по уровням. Логику цепочки не меняет.
 
     Возвращает dict с ключами:
       - all_chunks: все найденные чанки (дедуплицированные)
@@ -132,6 +135,13 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
       - slots: исходные слоты
       - final_context_text: форматированный текст для синтеза
     """
+    def _notify(level, msg):
+        if progress_cb:
+            try:
+                progress_cb(level, msg)
+            except Exception:  # noqa: BLE001
+                pass  # сбой UI-коллбека не должен ронять поиск
+
     embedder = get_embedder()
     geo = slots.get("geography") if slots.get("geography") != "unknown" else None
     year_from = slots.get("year_from")
@@ -140,8 +150,11 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
     levels = []
 
     # ===================== УРОВЕНЬ 1: Разведка =====================
+    _notify(1, "Разведка: гибридный поиск (вектор + полнотекст)...")
     qvec = embedder.embed_query(question)
-    l1_chunks = Q.vector_search(session, qvec, top_k=10, geography=geo, year_from=year_from)
+    # гибрид: вектор ловит смысл, Lucene-полнотекст — точные термины и аббревиатуры
+    l1_chunks = Q.hybrid_search(session, qvec, question, top_k=10,
+                                geography=geo, year_from=year_from)
     all_chunks.extend(l1_chunks)
 
     # Числовые ограничения
@@ -162,6 +175,7 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
             )
 
     # Reason-шаг: анализ покрытия
+    _notify(1, f"Разведка: найдено {len(l1_chunks)} фрагментов, анализирую покрытие запроса...")
     ctx_text = _fmt_chunks(l1_chunks)
     reason_prompt = f"ЗАПРОС:\n{question}\n\nНАЙДЕННЫЕ ФРАГМЕНТЫ:\n{ctx_text}"
     reason_response = chat_text(REASON_L1_SYSTEM, reason_prompt, model=config.LLM_MODEL_FAST)
@@ -181,15 +195,17 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
     if max_levels < 2:
         all_chunks = _dedup_chunks(all_chunks)
         return _build_result(session, question, slots, all_chunks, levels,
-                             constraint_hits, exp_pubs, geo, year_from, embedder)
+                             constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
     # ===================== УРОВЕНЬ 2: Углубление =====================
     sub_queries = l1_reason.get("sub_queries", [])[:3]  # макс. 3 подзапроса
     l2_chunks = []
 
-    for sq in sub_queries:
+    for i, sq in enumerate(sub_queries, 1):
+        _notify(2, f"Углубление: подзапрос {i}/{len(sub_queries)} — «{sq[:80]}»")
         sq_vec = embedder.embed_query(sq)
-        sq_chunks = Q.vector_search(session, sq_vec, top_k=5, geography=geo, year_from=year_from)
+        sq_chunks = Q.hybrid_search(session, sq_vec, sq, top_k=5,
+                                    geography=geo, year_from=year_from)
         l2_chunks.extend(sq_chunks)
 
     all_chunks.extend(l2_chunks)
@@ -205,9 +221,10 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
     if max_levels < 3:
         all_chunks = _dedup_chunks(all_chunks)
         return _build_result(session, question, slots, all_chunks, levels,
-                             constraint_hits, exp_pubs, geo, year_from, embedder)
+                             constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
     # ===================== УРОВЕНЬ 3: Перекрёстная проверка =====================
+    _notify(3, "Перекрёстная проверка фактов на противоречия между источниками...")
     all_deduped = _dedup_chunks(all_chunks)
     all_ctx = _fmt_chunks(all_deduped[:20])  # топ-20 для проверки
     verify_prompt = f"ЗАПРОС:\n{question}\n\nВСЕ НАЙДЕННЫЕ ФРАГМЕНТЫ:\n{all_ctx}"
@@ -237,6 +254,7 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
     })
 
     # ===================== УРОВЕНЬ 4: Финальная сборка =====================
+    _notify(4, "Финальная сборка контекста и подграфа...")
     all_chunks = _dedup_chunks(all_chunks)
 
     levels.append({
@@ -247,16 +265,17 @@ def multi_level_retrieve(session, question, slots, max_levels=4):
     })
 
     return _build_result(session, question, slots, all_chunks, levels,
-                         constraint_hits, exp_pubs, geo, year_from, embedder)
+                         constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
 
 def _build_result(session, question, slots, all_chunks, levels,
-                  constraint_hits, exp_pubs, geo, year_from, embedder):
+                  constraint_hits, exp_pubs, geo, year_from, embedder, qvec=None):
     """Собирает финальный результат с сущностями и подграфом."""
     # Сравнительный запрос
     comparison_chunks = None
     if slots.get("comparison"):
-        qvec = embedder.embed_query(question)
+        if qvec is None:  # вектор вопроса уже посчитан на уровне 1 — не жжём API повторно
+            qvec = embedder.embed_query(question)
         comparison_chunks = {
             "RU": Q.vector_search(session, qvec, top_k=8, geography="RU", year_from=year_from),
             "foreign": Q.vector_search(session, qvec, top_k=8, geography="foreign", year_from=year_from),
