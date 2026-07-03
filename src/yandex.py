@@ -7,12 +7,27 @@ Structured output: response_format={"type":"json_schema", ...}.
 """
 import json
 import time
+import threading
 from functools import lru_cache
 
 from openai import OpenAI
 
 import config
 
+_rate_limit_lock = threading.Lock()
+_last_request_time = 0.0
+_RPS_LIMIT = 9.0
+
+def wait_rate_limit():
+    """Глобальный ограничитель RPS для всех запросов к Yandex API (9 RPS)."""
+    global _last_request_time
+    with _rate_limit_lock:
+        now = time.time()
+        elapsed = now - _last_request_time
+        wait_time = (1.0 / _RPS_LIMIT) - elapsed
+        if wait_time > 0:
+            time.sleep(wait_time)
+        _last_request_time = time.time()
 
 @lru_cache(maxsize=1)
 def get_client() -> OpenAI:
@@ -56,6 +71,7 @@ def chat_text(system: str, user: str, model: str = None,
     last = None
     for attempt in range(max_retries):
         try:
+            wait_rate_limit()
             resp = client.chat.completions.create(
                 model=_model_uri(model),
                 messages=messages,
@@ -79,6 +95,7 @@ def chat_json(system: str, user: str, schema_name: str, schema: dict,
                 {"role": "user", "content": user}]
 
     def _call(response_format):
+        wait_rate_limit()
         resp = client.chat.completions.create(
             model=_model_uri(model),
             messages=messages,

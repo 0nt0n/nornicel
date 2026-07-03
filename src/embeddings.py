@@ -32,6 +32,8 @@ class YandexEmbedder(Embedder):
         return f"emb://{self.folder}/{model}/latest"
 
     def _embed_one(self, text, model):
+        from src.yandex import wait_rate_limit
+        wait_rate_limit()
         # У Yandex эмбеддинги считаются по одному тексту за вызов.
         r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
         return r.data[0].embedding
