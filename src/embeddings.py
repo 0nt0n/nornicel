@@ -32,7 +32,7 @@ class YandexEmbedder(Embedder):
 
     def _embed_one(self, text, model):
         # У Yandex эмбеддинги считаются по одному тексту за вызов.
-        r = self.client.embeddings.create(model=self._emb_uri(model), input=text)
+        r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
         return r.data[0].embedding
 
     def embed_documents(self, texts):
