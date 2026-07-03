@@ -101,15 +101,22 @@ def find_contradictions(session, limit=25):
     return [r.data() for r in rows]
 
 
-def find_gaps(session, material_key, limit=25):
-    """Пробелы: процессы, у которых для данного материала нет привязанных экспериментов."""
-    rows = session.run(
-        """
+def find_gaps(session, material_key=None, limit=25):
+    """Пробелы: процессы, у которых нет привязанных экспериментов (глобально или для конкретного материала)."""
+    if material_key:
+        query = """
         MATCH (m:Entity {key:$mkey})-[:REL]-(p:Process)
         WHERE NOT (p)<-[:MENTIONS]-(:Chunk)<-[:FROM_CHUNK]-(:Constraint)
         RETURN p.name_ru AS process, p.canonical AS canonical
         LIMIT $limit
-        """,
-        mkey=material_key, limit=limit,
-    )
+        """
+        rows = session.run(query, mkey=material_key, limit=limit)
+    else:
+        query = """
+        MATCH (p:Process)
+        WHERE NOT (p)<-[:MENTIONS]-(:Chunk)<-[:FROM_CHUNK]-(:Constraint)
+        RETURN p.name_ru AS process, p.canonical AS canonical
+        LIMIT $limit
+        """
+        rows = session.run(query, limit=limit)
     return [r.data() for r in rows]
