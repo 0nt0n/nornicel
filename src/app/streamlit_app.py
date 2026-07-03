@@ -18,7 +18,7 @@ from src.retrieve.react_chain import multi_level_retrieve, synthesize_multi
 from src.graph import queries as Q
 
 st.set_page_config(page_title="Карта знаний R&D — Норникель", layout="wide")
-st.title("🗺️ Карта знаний R&D (горно-металлургия)")
+st.title(" Карта знаний R&D (горно-металлургия)")
 st.caption("Запрос на естественном языке → граф знаний Neo4j + Yandex AI Studio (ReAct 4-уровневый)")
 
 ENTITY_COLORS = {
