@@ -31,11 +31,22 @@ class YandexEmbedder(Embedder):
     def _emb_uri(self, model):
         return f"emb://{self.folder}/{model}/latest"
 
-    def _embed_one(self, text, model):
-        wait_rate_limit()
-        # У Yandex эмбеддинги считаются по одному тексту за вызов.
-        r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
-        return r.data[0].embedding
+    def _embed_one(self, text, model, max_retries=6):
+        import time
+        last = None
+        for attempt in range(max_retries):
+            try:
+                wait_rate_limit()
+                # У Yandex эмбеддинги считаются по одному тексту за вызов.
+                r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
+                return r.data[0].embedding
+            except Exception as e:
+                last = e
+                # Ждем перед ретраем (exponential backoff)
+                time.sleep(0.5 * (2 ** attempt))
+        if last is not None:
+            raise last
+        raise RuntimeError("Embedding API max_retries exhausted")
 
     def embed_documents(self, texts):
         with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:

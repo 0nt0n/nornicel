@@ -24,11 +24,15 @@ def wait_rate_limit():
     global _last_request_time
     with _rate_limit_lock:
         now = time.time()
-        elapsed = now - _last_request_time
-        wait_time = (1.0 / _RPS_LIMIT) - elapsed
+        wait_time = (1.0 / _RPS_LIMIT) - (now - _last_request_time)
         if wait_time > 0:
-            time.sleep(wait_time)
-        _last_request_time = time.time()
+            _last_request_time = now + wait_time
+        else:
+            wait_time = 0
+            _last_request_time = now
+    
+    if wait_time > 0:
+        time.sleep(wait_time)
 
 
 @lru_cache(maxsize=1)
