@@ -1,7 +1,7 @@
 """Загрузка извлечённого JSON в Neo4j.
 
 Модель графа:
-  (:Chunk {chunk_id, text, doc_id, page, lang, geography, year, embedding})
+  (:Chunk {chunk_id, text, doc_id, page, lang, geography, year, confidence, doc_type, embedding})
   (:Entity:<Type> {key, name_ru, name_en, canonical, geography})   key = canonical|name (для дедупа)
   (:Constraint {param, op, value_min, value_max, unit, condition})
   (Chunk)-[:MENTIONS]->(Entity)
@@ -28,11 +28,14 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
         """
         MERGE (c:Chunk {chunk_id: $chunk_id})
         SET c.text=$text, c.doc_id=$doc_id, c.page=$page, c.lang=$lang,
-            c.geography=$geo, c.year=$year, c.embedding=$emb
+            c.geography=$geo, c.year=$year, c.confidence=$conf, c.doc_type=$doc_type,
+            c.embedding=$emb
         """,
         chunk_id=chunk["chunk_id"], text=chunk["text"], doc_id=chunk["doc_id"],
         page=chunk["page"], lang=chunk["lang"],
-        geo=meta.get("geography", "unknown"), year=meta.get("year"), emb=embedding,
+        geo=meta.get("geography", "unknown"), year=meta.get("year"),
+        conf=meta.get("confidence", "medium"), doc_type=chunk.get("doc_type", "unknown"),
+        emb=embedding,
     )
 
     # 2) сущности (дедуп по key) + связь MENTIONS

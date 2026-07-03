@@ -2,8 +2,10 @@
 Меняется ТОЛЬКО по согласованию всей команды — от неё зависят все модули.
 
 Онтология из ТЗ:
-  Сущности: Material, Process, Equipment, Property, Experiment, Publication, Expert, Facility
-  Связи:    uses_material, operates_at_condition, produces_output, described_in, validated_by, contradicts
+  Сущности: Material, Process, Equipment, Property, Experiment, Publication, Expert, Facility,
+            Conclusion, Recommendation
+  Связи:    uses_material, operates_at_condition, produces_output, described_in, validated_by,
+            contradicts, expert_in
   + числовые ограничения (концентрации, температуры, скорости, ТЭП) — критичный дифференциатор.
 """
 from enum import Enum
@@ -13,10 +15,11 @@ from pydantic import BaseModel, Field
 ENTITY_TYPES = [
     "Material", "Process", "Equipment", "Property",
     "Experiment", "Publication", "Expert", "Facility",
+    "Conclusion", "Recommendation",
 ]
 RELATION_TYPES = [
     "uses_material", "operates_at_condition", "produces_output",
-    "described_in", "validated_by", "contradicts",
+    "described_in", "validated_by", "contradicts", "expert_in",
 ]
 OPS = ["le", "ge", "eq", "range"]  # <=, >=, =, диапазон [min..max]
 GEO = ["RU", "foreign", "unknown"]

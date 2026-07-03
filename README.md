@@ -29,8 +29,10 @@ e=get_embedder(); d=get_driver(); s=d.session(); init_schema(s,e.dim()); \
 load_processed(s, json.load(open('fixtures/sample_extraction.json')), e); print('fixture loaded')"
 
 # 4б. Полный прогон корпуса (положи файлы в data/raw/)
-python scripts/run_pipeline.py --limit 1     # 1 документ end-to-end
-python scripts/run_pipeline.py               # весь корпус
+python scripts/run_pipeline.py --limit 1                              # 1 документ end-to-end
+python scripts/run_pipeline.py --subdir "Доклады"                     # конкретная подпапка
+python scripts/run_pipeline.py                                        # весь корпус
+python scripts/run_pipeline.py --subdir "Доклады" --force             # перепарсить, игнорируя чекпоинты
 
 # 5. Спросить
 python scripts/ask.py "Какие методы обессоливания при сульфатах 200-300 мг/л и сухом остатке <=1000?"
@@ -63,6 +65,9 @@ Streamlit / CLI
 ```
 
 **Контракт** (`schema/ontology.py`) — единая форма извлечения. Меняется только по согласованию команды.
+Сущности: Material, Process, Equipment, Property, Experiment, Publication, Expert, Facility,
+Conclusion, Recommendation. Связи: uses_material, operates_at_condition, produces_output,
+described_in, validated_by, contradicts, expert_in.
 
 **Ретрив без риска:** LLM НЕ пишет Cypher. Он подставляет параметры в руками написанные шаблоны
 (`src/graph/queries.py`). Хотите новый тип вопроса — добавьте туда шаблон.
@@ -80,7 +85,7 @@ Streamlit / CLI
 | `src/embeddings.py` | эмбеддинги: yandex или локальный e5 | B |
 | `src/graph/` | загрузчик, индексы, Cypher-шаблоны | C |
 | `src/retrieve/` | роутер, ретривер, синтез | D |
-| `src/app/streamlit_app.py` | интерфейс + подграф | E |
+| `src/app/streamlit_app.py` | интерфейс: поиск, подграф сущностей, сравнение РФ/зарубеж, дашборд, экспорт | E |
 | `scripts/run_pipeline.py` | офлайн-прогон корпуса | C |
 | `scripts/ask.py` | вопрос из терминала | D |
 
@@ -97,6 +102,14 @@ Streamlit / CLI
 
 - Векторный индекс создаётся под размерность эмбеддера автоматически (`init_schema`).
 - Извлечение чекпоинтит после **каждого** чанка в `data/processed/` — обрыв не теряет прогон.
+- `parse_dir()` пропускает файлы, для которых уже есть чекпоинт (`--force` — принудительный перепарсинг),
+  и разворачивает `.zip` перед парсингом. `.rar`/`.xls`/`.xlsx`/старый бинарный `.doc` — не поддерживаются,
+  список пропущенных типов печатается в лог.
+- Год/география документа определяются в первую очередь из структуры пути (`Журналы/.../2020/`,
+  `ОИП-03-2022...`), а не гадаются LLM независимо по каждому чанку — единое значение на весь документ
+  (`src/extract/extract.py::_finalize_metadata`).
+- `MAX_WORKERS` (по умолчанию 1) — Yandex AI Studio плохо переносит конкурентные запросы с одного ключа,
+  поднимайте только после проверки на практике.
 - `data/` и `.env` — в `.gitignore`. Ключ в репозиторий не коммитить; при утечке — перевыпустить в AI Studio.
 - Опциональный апгрейд: официальный пакет `neo4j-graphrag-python` (готовые `VectorCypherRetriever`).
 

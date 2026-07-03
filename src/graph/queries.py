@@ -14,7 +14,8 @@ def vector_search(session, query_embedding, top_k=8, geography=None, year_from=N
         WHERE ($geo IS NULL OR node.geography = $geo)
           AND ($yf IS NULL OR node.year >= $yf)
         RETURN node.chunk_id AS chunk_id, node.text AS text, node.doc_id AS doc_id,
-               node.page AS page, node.geography AS geography, node.year AS year, score
+               node.page AS page, node.geography AS geography, node.year AS year,
+               node.confidence AS confidence, node.doc_type AS doc_type, score
         ORDER BY score DESC
         """,
         k=top_k, emb=query_embedding, geo=geography, yf=year_from,
@@ -58,11 +59,29 @@ def neighborhood(session, entity_keys, hops=2, limit=60):
         MATCH (e:Entity) WHERE e.key IN $keys
         MATCH p=(e)-[:REL*1..{hops}]-(nb:Entity)
         WITH e, nb, relationships(p) AS rels
-        RETURN e.key AS src, nb.key AS dst, nb.name_ru AS dst_ru,
+        RETURN e.key AS src, e.name_ru AS src_ru, e.name_en AS src_en, labels(e) AS src_labels,
+               nb.key AS dst, nb.name_ru AS dst_ru, nb.name_en AS dst_en, labels(nb) AS dst_labels,
                [r IN rels | r.type] AS rel_types
         LIMIT $limit
         """,
         keys=entity_keys, limit=limit,
+    )
+    return [r.data() for r in rows]
+
+
+def entities_for_chunks(session, chunk_ids, limit=40):
+    """Сущности, упомянутые в данных чанках — стартовые узлы для визуализации подграфа."""
+    if not chunk_ids:
+        return []
+    rows = session.run(
+        """
+        MATCH (c:Chunk)-[:MENTIONS]->(e:Entity)
+        WHERE c.chunk_id IN $ids
+        RETURN DISTINCT e.key AS key, e.name_ru AS name_ru, e.name_en AS name_en,
+               labels(e) AS labels
+        LIMIT $limit
+        """,
+        ids=chunk_ids, limit=limit,
     )
     return [r.data() for r in rows]
 

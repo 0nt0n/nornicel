@@ -41,10 +41,33 @@ def retrieve(session, question: str, slots: dict, top_k: int = 8) -> dict:
         sources[ch["doc_id"]] = {"doc_id": ch["doc_id"], "geography": ch.get("geography"),
                                  "year": ch.get("year")}
 
+    # 5) сравнительный запрос (РФ vs зарубеж) — явно берём оба среза, а не полагаемся
+    # только на инструкцию в промпте синтеза
+    comparison_chunks = None
+    if slots.get("comparison"):
+        comparison_chunks = {
+            "RU": Q.vector_search(session, qvec, top_k=top_k, geography="RU", year_from=year_from),
+            "foreign": Q.vector_search(session, qvec, top_k=top_k, geography="foreign", year_from=year_from),
+        }
+
+    # 6) пробелы в исследованиях: процессы без экспериментальной проверки
+    gaps = Q.find_gaps(session, limit=10)
+
+    # 7) сущности из найденных чанков + подграф связей вокруг них — для визуализации
+    # цепочек материал -> процесс -> оборудование -> результат
+    chunk_ids = [ch["chunk_id"] for ch in chunks]
+    entities = Q.entities_for_chunks(session, chunk_ids)
+    entity_keys = [e["key"] for e in entities]
+    subgraph_edges = Q.neighborhood(session, entity_keys, hops=1) if entity_keys else []
+
     return {
         "chunks": chunks,
         "constraint_hits": constraint_hits,
         "exp_pubs": exp_pubs,
         "sources": list(sources.values()),
         "slots": slots,
+        "comparison_chunks": comparison_chunks,
+        "gaps": gaps,
+        "entities": entities,
+        "subgraph_edges": subgraph_edges,
     }
