@@ -78,7 +78,7 @@ EXTRACTION_JSON_SCHEMA = {
                     "name_en": {"type": "string"},
                     "canonical": {"type": "string"},
                 },
-                "required": ["id", "type"],
+                "required": ["id", "type", "name_ru", "name_en", "canonical"],
             },
         },
         "relations": {
@@ -91,7 +91,7 @@ EXTRACTION_JSON_SCHEMA = {
                     "type": {"type": "string", "enum": RELATION_TYPES},
                     "evidence": {"type": "string"},
                 },
-                "required": ["source_id", "target_id", "type"],
+                "required": ["source_id", "target_id", "type", "evidence"],
             },
         },
         "constraints": {
@@ -107,7 +107,7 @@ EXTRACTION_JSON_SCHEMA = {
                     "unit": {"type": "string"},
                     "condition": {"type": "string"},
                 },
-                "required": ["entity_id", "param", "op"],
+                "required": ["entity_id", "param", "op", "value_min", "value_max", "unit", "condition"],
             },
         },
         "metadata": {
@@ -118,6 +118,7 @@ EXTRACTION_JSON_SCHEMA = {
                 "year": {"type": ["integer", "null"]},
                 "confidence": {"type": "string", "enum": CONFIDENCE},
             },
+            "required": ["lang", "geography", "year", "confidence"],
         },
     },
     "required": ["entities", "relations", "constraints", "metadata"],
@@ -142,7 +143,7 @@ QUERY_SLOTS_JSON_SCHEMA = {
                     "value_max": {"type": ["number", "null"]},
                     "unit": {"type": "string"},
                 },
-                "required": ["param", "op"],
+                "required": ["param", "op", "value", "value_max", "unit"],
             },
         },
         "geography": {"type": "string", "enum": GEO},
@@ -150,5 +151,5 @@ QUERY_SLOTS_JSON_SCHEMA = {
         "year_to": {"type": ["integer", "null"]},
         "comparison": {"type": "boolean"},
     },
-    "required": ["intent"],
+    "required": ["intent", "materials", "processes", "constraints", "geography", "year_from", "year_to", "comparison"],
 }
