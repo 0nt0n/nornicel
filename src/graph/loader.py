@@ -29,7 +29,7 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
         MERGE (c:Chunk {chunk_id: $chunk_id})
         SET c.text=$text, c.doc_id=$doc_id, c.page=$page, c.lang=$lang,
             c.geography=$geo, c.year=$year, c.confidence=$conf, c.doc_type=$doc_type,
-            c.embedding=$emb
+            c.embedding=coalesce($emb, c.embedding)
         """,
         chunk_id=chunk["chunk_id"], text=chunk["text"], doc_id=chunk["doc_id"],
         page=chunk["page"], lang=chunk["lang"],
@@ -91,10 +91,34 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
         )
 
 
+def _chunks_already_embedded(session, chunk_ids):
+    """chunk_id-ы, у которых в графе уже есть вектор — их не пересчитываем."""
+    rows = session.run(
+        """
+        MATCH (c:Chunk) WHERE c.chunk_id IN $ids AND c.embedding IS NOT NULL
+        RETURN c.chunk_id AS chunk_id
+        """,
+        ids=list(chunk_ids),
+    )
+    return {r["chunk_id"] for r in rows}
+
+
 def load_processed(session, processed: dict, embedder):
-    """processed = {chunk_id: {chunk, extraction}} (как в data/processed/<doc>.json)."""
+    """processed = {chunk_id: {chunk, extraction}} (как в data/processed/<doc>.json).
+
+    Повторный прогон не переэмбеддит уже загруженные чанки (экономия API-вызовов
+    при доливе новых документов): у них embedding сохраняется, метаданные обновляются."""
     items = list(processed.values())
-    texts = [it["chunk"]["text"] for it in items]
-    embs = embedder.embed_documents(texts)   # батч-эмбеддинги
-    for it, emb in zip(items, embs):
-        load_chunk(session, it["chunk"], it["extraction"], emb)
+    done_ids = _chunks_already_embedded(session, [it["chunk"]["chunk_id"] for it in items])
+
+    new_items = [it for it in items if it["chunk"]["chunk_id"] not in done_ids]
+    if done_ids:
+        print(f"[load] уже с эмбеддингами: {len(done_ids)}, новых для векторизации: {len(new_items)}")
+
+    texts = [it["chunk"]["text"] for it in new_items]
+    embs = embedder.embed_documents(texts) if texts else []
+    emb_by_id = {it["chunk"]["chunk_id"]: emb for it, emb in zip(new_items, embs)}
+
+    for it in items:
+        cid = it["chunk"]["chunk_id"]
+        load_chunk(session, it["chunk"], it["extraction"], emb_by_id.get(cid))

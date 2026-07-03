@@ -113,6 +113,15 @@ described_in, validated_by, contradicts, expert_in.
 - `data/` и `.env` — в `.gitignore`. Ключ в репозиторий не коммитить; при утечке — перевыпустить в AI Studio.
 - Опциональный апгрейд: официальный пакет `neo4j-graphrag-python` (готовые `VectorCypherRetriever`).
 
+## Соответствие рекомендациям организаторов
+
+| Рекомендация | Наше решение | Почему так |
+|---|---|---|
+| Графовые БД: Neo4j, Neptune, JanusGraph | **Neo4j 5.26** | vector index + Lucene fulltext + Cypher в одной БД, локальный docker |
+| Поиск: Elasticsearch, Vespa | **Lucene fulltext-индекс внутри Neo4j** + гибридный ретрив (RRF-слияние с вектором) | тот же поисковый движок (Lucene), что в Elasticsearch, но без второй инфраструктуры; точные термины и аббревиатуры (ПВП, Cu-EW) ловятся полнотекстом, смысл — вектором |
+| NLP: DeepPavlov, spaCy, ruBERT | **LLM structured output** (YandexGPT) + langdetect | корпус двуязычный (RU+EN), извлекаются не только сущности, но и связи + числовые ограничения с нормализацией единиц — классические NER-модели потребовали бы разметки и дообучения под домен |
+| Онтологии: OWL, RDF, SHACL | онтология-контракт в коде (`schema/ontology.py`) + **экспорт в JSON-LD** (`scripts/export_jsonld.py`) | JSON-LD — сериализация RDF: граф загружается в Apache Jena/GraphDB, совместим с принципами FAIR |
+
 ## Развёртывание на сервере
 
 Extraction гоняется локально, на сервер заливаются только готовые `data/processed/*.json` —
