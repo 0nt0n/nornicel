@@ -67,10 +67,14 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
 def _finalize_metadata(chunks: List, done: dict) -> None:
     """Год/география должны быть едиными для всего документа, а не гадаться независимо
     по каждому чанку (на большинстве чанков в тексте просто нет даты/страны — LLM тогда
-    честно возвращает unknown/None). Приоритет: структурный сигнал из пути (надёжнее) ->
-    первое уверенное значение, которое LLM всё же нашло хоть в одном чанке документа."""
+    честно возвращает unknown/None). Приоритет года: путь/имя файла (надёжнее всего) ->
+    текст документа (LLM) -> встроенные метаданные файла (PDF Info / OOXML) как запасной
+    вариант. География: путь -> LLM."""
     struct_year = next((ch.path_year for ch in chunks if ch.path_year), None)
     struct_geo = next((ch.path_geo for ch in chunks if ch.path_geo), None)
+    # getattr — чекпоинты, созданные до появления meta_year, при resume не имеют этого поля
+    file_meta_year = next((getattr(ch, "meta_year", None) for ch in chunks
+                            if getattr(ch, "meta_year", None)), None)
 
     llm_year = next((v["extraction"]["metadata"].get("year")
                       for v in done.values() if v["extraction"]["metadata"].get("year")), None)
@@ -78,7 +82,7 @@ def _finalize_metadata(chunks: List, done: dict) -> None:
                      for v in done.values()
                      if v["extraction"]["metadata"].get("geography") not in (None, "unknown")), None)
 
-    doc_year = struct_year or llm_year
+    doc_year = struct_year or llm_year or file_meta_year
     doc_geo = struct_geo or llm_geo or "unknown"
 
     for v in done.values():

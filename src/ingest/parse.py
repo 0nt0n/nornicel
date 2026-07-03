@@ -16,6 +16,8 @@ import config
 
 SUPPORTED_EXT = {".pdf", ".pptx", ".docx", ".docm", ".doc"}
 _YEAR_RE = re.compile(r"(19|20)\d{2}")
+# конец предложения: .!?… с возможной закрывающей скобкой/кавычкой, за которым пробел
+_SENT_END_RE = re.compile(r"[.!?…][)»\"']?\s")
 # "Tony_Keating_..." / "Aurelien_Louis_..." — латиница + подчёркивания в начале имени файла,
 # типичный паттерн для докладов иностранных спикеров в "Материалы конференций".
 _FOREIGN_AUTHOR_RE = re.compile(r"^[A-Za-z]+([_ ][A-Za-z.]+)+_")
@@ -32,6 +34,7 @@ class Chunk:
     doc_type: str = "unknown"          # верхнеуровневая папка: Доклады/Журналы/Статьи/...
     path_year: Optional[int] = None    # год, если он читается из пути/имени файла
     path_geo: Optional[str] = None     # "foreign", если эвристика по имени сработала, иначе None
+    meta_year: Optional[int] = None    # год из метаданных файла (PDF info / OOXML core properties)
 
     def dict(self):
         return asdict(self)
@@ -66,6 +69,40 @@ def _geo_from_path(rel_path: str, doc_type: str) -> Optional[str]:
     return None
 
 
+def _file_meta_year(path: str) -> Optional[int]:
+    """Год из встроенных метаданных файла (PDF Info / OOXML core properties).
+    Используется как запасной источник, когда года нет ни в пути, ни в тексте.
+    Для .doc не извлекаем: LibreOffice-конвертация перезаписывает даты."""
+    ext = os.path.splitext(path)[1].lower()
+    try:
+        if ext == ".pdf":
+            import fitz
+            with fitz.open(path) as doc:
+                meta = doc.metadata or {}
+            # 'D:20200115...' — приоритет дате создания, затем модификации
+            for key in ("creationDate", "modDate"):
+                m = _YEAR_RE.search(meta.get(key) or "")
+                if m:
+                    y = int(m.group(0))
+                    if 1950 <= y <= 2030:
+                        return y
+        elif ext in (".docx", ".docm"):
+            from docx import Document
+            props = Document(path).core_properties
+            for dt in (props.created, props.modified):
+                if dt and 1950 <= dt.year <= 2030:
+                    return dt.year
+        elif ext == ".pptx":
+            from pptx import Presentation
+            props = Presentation(path).core_properties
+            for dt in (props.created, props.modified):
+                if dt and 1950 <= dt.year <= 2030:
+                    return dt.year
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def _doc_id(rel_path: str) -> str:
     """doc_id из относительного пути (не только имени файла) — чтобы избежать коллизий
     одинаковых/похожих имён файлов в разных папках."""
@@ -94,6 +131,25 @@ def _extract_archives(raw_dir: str) -> None:
                 print(f"[parse] не удалось распаковать {f}: {e}")
 
 
+def _read_docx_text(path: str) -> str:
+    """Текст DOCX: параграфы + ТАБЛИЦЫ. Таблицы в отраслевых обзорах несут основную
+    числовую фактуру (ТЭП, концентрации) — python-docx их в paragraphs не отдаёт."""
+    from docx import Document
+
+    d = Document(path)
+    parts = [p.text for p in d.paragraphs]
+    for t in d.tables:
+        try:
+            for row in t.rows:
+                cells = [c.text.strip() for c in row.cells]
+                line = " | ".join(c for c in cells if c)
+                if line:
+                    parts.append(line)
+        except Exception:  # noqa: BLE001
+            continue  # битая таблица не должна ронять весь документ
+    return "\n".join(parts)
+
+
 def _read_pages(path: str):
     """Возвращает список (page_number, text) для одного файла любого поддерживаемого формата."""
 
@@ -118,23 +174,22 @@ def _read_pages(path: str):
                 for sh in slide.shapes
                 if getattr(sh, "has_text_frame", False)
             ]
+            # заметки спикера — часто содержат основной текст доклада, терять нельзя
+            try:
+                if slide.has_notes_slide and slide.notes_slide.notes_text_frame:
+                    notes = slide.notes_slide.notes_text_frame.text.strip()
+                    if notes:
+                        parts.append(notes)
+            except Exception:  # noqa: BLE001
+                pass
             pages.append((i, "\n".join(parts)))
 
     elif ext in (".docx", ".docm"):
-        from docx import Document
-
-        d = Document(path)
-        text = "\n".join(p.text for p in d.paragraphs)
-        pages.append((1, text))
+        pages.append((1, _read_docx_text(path)))
 
     elif ext == ".doc":
-        from docx import Document
-
         converted = _convert_doc_to_docx(path)
-
-        d = Document(converted)
-        text = "\n".join(p.text for p in d.paragraphs)
-        pages.append((1, text))
+        pages.append((1, _read_docx_text(converted)))
 
     else:
         raise ValueError(f"Неподдерживаемый формат: {ext}")
@@ -143,15 +198,61 @@ def _read_pages(path: str):
 
 
 def _chunk_text(text: str, size: int, overlap: int) -> List[str]:
+    """Режет текст на куски ~size символов, стараясь НЕ рвать предложения:
+    граница ищется по концу предложения в последней трети окна, затем по пробелу.
+    Короткий хвост приклеивается к последнему куску, а не становится мусорным мини-чанком."""
     text = " ".join(text.split())
+    if not text.strip():
+        return []
     if len(text) <= size:
-        return [text] if text.strip() else []
-    out, start = [], 0
-    while start < len(text):
+        return [text]
+
+    out, start, n = [], 0, len(text)
+    min_cut = int(size * 0.6)   # не дробим слишком мелко: граница не раньше 60% окна
+    while start < n:
         end = start + size
-        out.append(text[start:end])
-        start = end - overlap
+        if end >= n:
+            tail = text[start:].strip()
+            # хвост меньше overlap — доклеиваем к предыдущему куску вместо отдельного мини-чанка
+            if out and len(tail) < max(overlap, 120):
+                out[-1] = out[-1] + " " + tail
+            elif tail:
+                out.append(tail)
+            break
+
+        window = text[start:end]
+        cut = None
+        for m in _SENT_END_RE.finditer(window, min_cut):
+            cut = m.end()          # последняя граница предложения в допустимой зоне
+        if cut is None:
+            sp = window.rfind(" ", min_cut)
+            cut = sp if sp != -1 else size
+        out.append(window[:cut].strip())
+        start += max(cut - overlap, min_cut)   # гарантия продвижения вперёд
     return out
+
+
+def _group_small_pages(pages, size: int):
+    """Соседние 'мелкие' страницы (слайды, титульники) склеиваются в один блок
+    ~0.75*size, чтобы эмбеддинг получал цельный контекст, а не обрывок из 50 символов.
+    Плотные страницы проходят как есть — их провенанс (номер страницы) не огрубляется."""
+    threshold = int(size * 0.75)
+    groups, buf_text, buf_page = [], "", None
+    for page_no, text in pages:
+        t = " ".join(text.split())
+        if not t:
+            continue
+        if buf_page is None:
+            buf_page = page_no
+            buf_text = t
+        else:
+            buf_text += " " + t
+        if len(buf_text) >= threshold:
+            groups.append((buf_page, buf_text))
+            buf_page, buf_text = None, ""
+    if buf_text:
+        groups.append((buf_page, buf_text))
+    return groups
 
 
 def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chunk]:
@@ -161,10 +262,14 @@ def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chun
     doc_type = parts[0] if len(parts) > 1 else "unknown"
     path_year = _year_from_path(rel_path)
     path_geo = _geo_from_path(rel_path, doc_type)
+    meta_year = _file_meta_year(path)
 
     chunks: List[Chunk] = []
-    for page_no, page_text in _read_pages(path):
+    grouped = _group_small_pages(_read_pages(path), config.CHUNK_SIZE)
+    for page_no, page_text in grouped:
         for j, piece in enumerate(_chunk_text(page_text, config.CHUNK_SIZE, config.CHUNK_OVERLAP)):
+            if len(piece) < config.MIN_CHUNK_CHARS:
+                continue  # обрывки без смысловой нагрузки не несут знаний — только шум в векторах
             chunks.append(Chunk(
                 chunk_id=f"{doc_id}::p{page_no}::c{j}",
                 doc_id=doc_id,
@@ -175,6 +280,7 @@ def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chun
                 doc_type=doc_type,
                 path_year=path_year,
                 path_geo=path_geo,
+                meta_year=meta_year,
             ))
     return chunks
 

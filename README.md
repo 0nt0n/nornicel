@@ -113,6 +113,12 @@ described_in, validated_by, contradicts, expert_in.
 - `data/` и `.env` — в `.gitignore`. Ключ в репозиторий не коммитить; при утечке — перевыпустить в AI Studio.
 - Опциональный апгрейд: официальный пакет `neo4j-graphrag-python` (готовые `VectorCypherRetriever`).
 
+## Развёртывание на сервере
+
+Extraction гоняется локально, на сервер заливаются только готовые `data/processed/*.json` —
+из них строится граф + векторная БД. Полная инструкция: **[DEPLOY.md](DEPLOY.md)**
+(`Dockerfile` + `docker-compose.prod.yml`: Neo4j с healthcheck + приложение, Neo4j наружу не торчит).
+
 ## Полезные ссылки
 
 - Yandex AI Studio structured output: https://ai.api.cloud.yandex.net/v1 (см. доки AI Studio)
