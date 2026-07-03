@@ -1,0 +1,19 @@
+# --- ядро ---
+openai>=1.40            # OpenAI-совместимый клиент для Yandex AI Studio
+neo4j>=5.20             # драйвер графовой БД
+pydantic>=2.6           # валидация контракта
+python-dotenv>=1.0
+
+# --- парсинг корпуса ---
+PyMuPDF>=1.24           # PDF (import fitz). Альтернатива на MIT: pdfplumber
+python-pptx>=0.6.23     # презентации
+python-docx>=1.1        # Word
+langdetect>=1.0.9       # определение языка чанка
+
+# --- интерфейс ---
+streamlit>=1.33
+pyvis>=0.3.2            # визуализация подграфа
+tqdm>=4.66
+
+# --- опциональный локальный эмбеддер (EMBED_BACKEND=e5) ---
+# sentence-transformers>=2.6

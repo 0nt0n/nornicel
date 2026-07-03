@@ -1,0 +1,29 @@
+{
+  "report_demo::p1::c0": {
+    "chunk": {
+      "chunk_id": "report_demo::p1::c0",
+      "doc_id": "report_demo",
+      "source": "fixtures/sample_extraction.json",
+      "page": 1,
+      "lang": "ru",
+      "text": "Для обессоливания воды обогатительной фабрики при содержании сульфатов, хлоридов, Ca, Mg, Na в диапазоне 200–300 мг/л применён обратный осмос. Требуемый сухой остаток достигнут: не более 1000 мг/дм3. Установка обратного осмоса обеспечила стабильную работу в холодном климате."
+    },
+    "extraction": {
+      "entities": [
+        {"id": "e1", "type": "Process", "name_ru": "обратный осмос", "name_en": "reverse osmosis", "canonical": "reverse_osmosis"},
+        {"id": "e2", "type": "Material", "name_ru": "сульфаты", "name_en": "sulfates", "canonical": "sulfates"},
+        {"id": "e3", "type": "Equipment", "name_ru": "установка обратного осмоса", "name_en": "RO unit", "canonical": "ro_unit"},
+        {"id": "e4", "type": "Property", "name_ru": "сухой остаток", "name_en": "total dissolved solids", "canonical": "tds"}
+      ],
+      "relations": [
+        {"source_id": "e1", "target_id": "e2", "type": "uses_material", "evidence": "обессоливание воды при содержании сульфатов"},
+        {"source_id": "e1", "target_id": "e3", "type": "produces_output", "evidence": "Установка обратного осмоса обеспечила работу"}
+      ],
+      "constraints": [
+        {"entity_id": "e2", "param": "sulfates", "op": "range", "value_min": 200, "value_max": 300, "unit": "mg/l", "condition": "исходная вода обогатительной фабрики"},
+        {"entity_id": "e4", "param": "tds", "op": "le", "value_min": null, "value_max": 1000, "unit": "mg/dm3", "condition": "требуемый сухой остаток"}
+      ],
+      "metadata": {"lang": "ru", "geography": "RU", "year": 2023, "confidence": "high"}
+    }
+  }
+}

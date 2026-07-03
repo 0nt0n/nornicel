@@ -1,0 +1,16 @@
+# секреты и данные — НИКОГДА в репозиторий
+.env
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# neo4j / прочее
+*.log
+.DS_Store
