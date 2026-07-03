@@ -39,6 +39,9 @@ CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "150"))
 RAW_DIR = os.getenv("RAW_DIR", "data/raw")
 PROCESSED_DIR = os.getenv("PROCESSED_DIR", "data/processed")
 
+# Конкурентные запросы к Yandex API (извлечение и эмбеддинги). Подбирается под лимиты аккаунта.
+MAX_WORKERS = int(os.getenv("MAX_WORKERS", "8"))
+
 
 def require_yandex():
     if not YANDEX_API_KEY or not YANDEX_FOLDER_ID:

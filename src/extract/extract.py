@@ -5,6 +5,8 @@
 """
 import json
 import os
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List
 
 import config
@@ -32,8 +34,8 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
 
 
 def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool = True) -> dict:
-    """Извлекает все чанки одного документа. Возвращает {chunk_id: {chunk, extraction}}.
-    Чекпоинт: data/processed/<doc_id>.json."""
+    """Извлекает все чанки одного документа параллельно (config.MAX_WORKERS воркеров).
+    Возвращает {chunk_id: {chunk, extraction}}. Чекпоинт: data/processed/<doc_id>.json."""
     os.makedirs(config.PROCESSED_DIR, exist_ok=True)
     out_path = os.path.join(config.PROCESSED_DIR, f"{doc_id}.json")
 
@@ -42,12 +44,23 @@ def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool 
         with open(out_path, encoding="utf-8") as f:
             done = json.load(f)
 
-    for ch in chunks:
-        if ch.chunk_id in done:
-            continue
-        ext = extract_chunk(ch, model=model)
-        done[ch.chunk_id] = {"chunk": ch.dict(), "extraction": ext.model_dump()}
-        # чекпоинтим после КАЖДОГО чанка — потеря прогона недопустима
+    todo = [ch for ch in chunks if ch.chunk_id not in done]
+    if not todo:
+        return done
+
+    lock = threading.Lock()
+
+    def _checkpoint():
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(done, f, ensure_ascii=False, indent=2)
+
+    with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:
+        futures = {pool.submit(extract_chunk, ch, model): ch for ch in todo}
+        for future in as_completed(futures):
+            ch = futures[future]
+            ext = future.result()
+            # чекпоинтим после КАЖДОГО чанка — потеря прогона недопустима
+            with lock:
+                done[ch.chunk_id] = {"chunk": ch.dict(), "extraction": ext.model_dump()}
+                _checkpoint()
     return done
