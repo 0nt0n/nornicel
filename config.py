@@ -17,7 +17,7 @@ LLM_MODEL_FAST = os.getenv("LLM_MODEL_FAST", "yandexgpt-lite")   # Lite — дл
 LLM_MODEL_HEAVY = os.getenv("LLM_MODEL_HEAVY", "yandexgpt")
 
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
-LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.1"))
+LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.0"))
 
 # --- Эмбеддинги ---
 # EMBED_BACKEND: "yandex" (emb://<folder>/text-search-*) или "e5" (локальный multilingual-e5, офлайн/бесплатно)
