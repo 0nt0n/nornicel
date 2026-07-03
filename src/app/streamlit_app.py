@@ -43,23 +43,14 @@ EXAMPLES = [
     "Способы закачки шахтных вод в глубокие горизонты: Россия vs зарубеж и их ТЭП.",
 ]
 
-# RBAC
 with st.sidebar:
-    st.subheader("Управление доступом")
-    role = st.selectbox("Роль пользователя", ["Исследователь", "Аналитик", "Администратор"])
-    st.info(f"Текущая роль: **{role}**")
-    
     st.subheader("Примеры запросов")
     for ex in EXAMPLES:
         if st.button(ex, use_container_width=True):
             st.session_state["q"] = ex
 
 # Вкладки
-tabs = ["Поиск"]
-if role in ["Аналитик", "Администратор"]:
-    tabs.append("Аналитика и Дашборд")
-
-selected_tab = st.tabs(tabs)
+selected_tab = st.tabs(["Поиск", "Аналитика и Дашборд"])
 
 with selected_tab[0]: # Поиск
     question = st.text_area("Ваш запрос:", value=st.session_state.get("q", ""), height=90)
@@ -158,7 +149,7 @@ with selected_tab[0]: # Поиск
                             f"_(score {ch.get('score', 0):.3f}, достоверность {conf_badge} {conf})_")
                 st.write(ch["text"][:500] + "…")
 
-if role in ["Аналитик", "Администратор"] and len(selected_tab) > 1:
+if len(selected_tab) > 1:
     with selected_tab[1]: # Аналитика
         st.header("Аналитика графа знаний")
         driver = get_driver()
