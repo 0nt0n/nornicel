@@ -1,0 +1,2378 @@
+{
+  "JPMorgan-Cu-China-jan2013::p1::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p1::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "www.morganmarkets.com Global Commodities Research 16 January 2013 Metals Weekly Watch for large drop in Chinese refined copper imports in 2013, despite pickup in Chinese copper use Commodities Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com JPMorgan Chase Bank NA Natasha Kaneva (1-212) 834-3175 natasha.kaneva@jpmorgan.com JPMorgan Chase Bank NA Jonah D. Waxman, CFA (1-212) 834-2203 jonah.d.waxman@jpmorgan.com JPMorgan Chase Bank NA Yubin Fu (44-20) 7134-1044 yubin.fu@jpmorgan.com J.P. Morgan Securities plc Gregory C. Shearer (1-212) 834-8046 gregory.c.shearer@jpmorgan.com JPMorgan Chase Bank NA See page 5 for analyst certification and important disclosures. Exhibit 1: Chinese refined copper trade Thousand mt Source: China Customs, J.P. Morgan Commodities Research Despite the improving tone in domestic Chinese copper use, our projections suggest refined imports into China this year will be about 23% lower than 2012 levels. Though this would still result in a net import volume of 2.4 million mt, our sense is a drop in these trade flows is not widely expected in the market.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железная руда",
+          "name_en": "copper ore",
+          "canonical": "copper_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка железной руды",
+          "name_en": "copper refining",
+          "canonical": "copper_refining"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "import_reduction",
+          "op": "le",
+          "value_min": null,
+          "value_max": 23.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "trade_volume",
+          "op": "ge",
+          "value_min": 2400000.0,
+          "value_max": null,
+          "unit": "mt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p1::c1": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p1::c1",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "ough this would still result in a net import volume of 2.4 million mt, our sense is a drop in these trade flows is not widely expected in the market. Moreover, to the extent that it is anticipated by some, we believe those observers expect falling imports to lead to falling copper prices. Indeed, as a general rule of thumb, it seems that conventional wisdom has come to believe that stronger Chinese copper use—and higher copper prices— require rising Chinese copper imports. Thus, in coming months, reports of slacker refined copper imports into China may initially spur selling pressure in futures markets, even as the annual average LME cash copper price in 2013 increases over 2012, if we are correct. In this report we run through some of the dynamics behind the downshift we expect in trade volume and discuss implications for the global copper market over the next 12 months. According to Chinese national statistics and our estimates, Chinese refined copper imports reached a record high 3.4 million mt last year, translating to a monthly average of 283 kmt.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "среднегодовая цена на лондонской бирже металлов (LME) кобольта",
+          "name_en": "average LME price of copper",
+          "canonical": "lme_copper_price"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "imports",
+          "op": "le",
+          "value_min": 2400000.0,
+          "value_max": 2400000.0,
+          "unit": "mt",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "monthly_average_imports",
+          "op": "eq",
+          "value_min": 283000.0,
+          "value_max": 283000.0,
+          "unit": "mt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p1::c2": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p1::c2",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "istics and our estimates, Chinese refined copper imports reached a record high 3.4 million mt last year, translating to a monthly average of 283 kmt. Annual exports also achieved a record (270 kmt), bringing net refined imports to 3.1 million mt, just 0.4% above the previous high in 2009 (Exhibit 1). In 2009, Chinese refined copper imports were driven by a surge in metals use and stockbuilding, spurred by aggressive stimulus spending and a cyclically low price (LME 3-month troughed at $2,845 per mt on December 24, 2008). In 2012, the drivers for net imports were similar, even if less forceful. Our calculations show that Chinese refined copper use increased by 7% in 2012, compared to 8% growth in 2011, 25% in 2009, and compound growth of 11d% per year since 2004. Although the slowdown in China’s copper usage growth rates is real and likely durable, it is important to note that the 2011 demand base was already 53% larger than 2008. Last year’s 7% growth in domestic copper use required 540 kmt of additional cathode, alone amounting to 3% of global use. China’s demand growth was larger than the entire copper use of Brazil in the same interval.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо-никельная руда",
+          "name_en": "copper ore",
+          "canonical": "copper_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство чистого меди",
+          "name_en": "refined copper production",
+          "canonical": "refined_copper_production"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "annual_imports",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3400000.0,
+          "unit": "mt",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "monthly_average",
+          "op": "le",
+          "value_min": 283000.0,
+          "value_max": 283000.0,
+          "unit": "mt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p1::c3": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p1::c3",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "additional cathode, alone amounting to 3% of global use. China’s demand growth was larger than the entire copper use of Brazil in the same interval. -500 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 2008 2009 2010 2011 2012 2013E Imports Exports Net Imports",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "импорт, экспорт и потребление никеля",
+          "name_en": "import, export and consumption of copper",
+          "canonical": "copper_import_export_consumption"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "China’s demand growth was larger than the entire copper use of Brazil in the same interval."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p2::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p2::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "2 Global Commodities Research Metals Weekly 16 January 2013 Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com In addition to meaningful physical demand growth in 2012, stockbuilding also contributed to China’s large net imports of refined metal last year. We note that the LME cash copper price averaged $7,958 per mt in 2012, a 10% discount from the prior year’s average $8,813 per mt. On a peak to trough basis, cash prices moved from a high of $8,737 per mt on February 9th to a low of $7,283 per mt on June 8th, providing a 17% lower transaction price for the buyer at the latter price as opposed to the former. In the prior year, when import flows began picking up, the drop from peak to trough was even larger: cash prices skidded by 34% from a year-high of $10,179 per mt on February 14th, 2011 to a year-low $6,721 per mt on October 20th, as the European recession began. This average savings of $855 per mt between 2011 and 2012 is significant and helps explain why Chinese merchants opted to acquire and build material at this value price, in anticipation of their future procurement requirements from international markets.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь/алюминий (металлы)",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на лондонской бирже металлов (LME) фьючерсный контракт на котельный металл",
+          "name_en": "LME cash copper price",
+          "canonical": "lme_cash_copper_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "LME cash copper price averaged $7,958 per mt in 2012"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 7958.0,
+          "unit": "$/mt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p2::c1": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p2::c1",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "rchants opted to acquire and build material at this value price, in anticipation of their future procurement requirements from international markets. Especially skilled procurement traders may have saved as much as several thousand dollars per mt relative to prior and future costs. We estimate refined copper inventories in Shanghai bonded warehouses not affiliated with exchanges increased by over 500 kmt in 2012 and now stand around 650 kmt, or the equivalent of 26 days of projected Chinese refined copper use in 2013. In building an accurate picture of China’s copper usage, it is important to look beyond refined import data to imports of copper in other forms, which also increased significantly in 2012. Between January and November of last year, copper concentrate imports increased by 18.3% yoy to a record 6.9 million mt. Scrap imports increased by 4% yoy for the same period, reaching 4.4 million mt on a gross basis—the highest level since 2008. Copper alloys and blister imports increased by 38.0% and 36.4%, respectively. Overall, we calculate that China’s total copper imports in 2012 in copper content terms were 8.3 million mt.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сырьевой концентрат кубика",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "металлический лом",
+          "name_en": "scrap metal",
+          "canonical": "scrap_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кубиковые сплавы",
+          "name_en": "copper alloys",
+          "canonical": "copper_alloys"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "блистер кубика",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "импортные поставки",
+          "name_en": "imports",
+          "canonical": "imports"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "copper concentrate imports increased by 18.3% yoy to a record 6.9 million mt"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Scrap imports increased by 4% yoy for the same period, reaching 4.4 million mt on a gross basis—the highest level since 2008"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Copper alloys and blister imports increased by 38.0% and 36.4%, respectively"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Copper alloys and blister imports increased by 38.0% and 36.4%, respectively"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p2::c2": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p2::c2",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "reased by 38.0% and 36.4%, respectively. Overall, we calculate that China’s total copper imports in 2012 in copper content terms were 8.3 million mt. This quantity is far higher than was achieved in 2009 (6.9 million mt), when strong demand (responding to low price) and poor availability of scrap led to an astonishing 118% increase in refined copper imports while scrap imports collapsed as availability dried up. Outlook for Chinese copper imports We project that Chinese refined copper imports will fall by about 23% yoy in 2013, as users draw from the stockpile accumulated in 2011 and 2012. In our baseline scenario, we anticipate a decline from 3.4 million mt to 2.6 million mt—a 790 kmt decrease. We currently forecast Chinese refined copper demand growth of 7% in 2013, or 566 kmt of incremental tonnage. The latest data packages show improving Chinese demand driven by a moderate pick-up in the housing sector, normalization of end product stocks, and an overall faster pace of infrastructure development following increased NDRC approvals from summer 2012.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "импорт руды и концентратов",
+          "name_en": "import of refined copper",
+          "canonical": "refined_copper_import"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "China’s total copper imports in 2012 in copper content terms were 8.3 million mt."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p2::c3": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p2::c3",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "r, normalization of end product stocks, and an overall faster pace of infrastructure development following increased NDRC approvals from summer 2012. Downstream, the demand picture is tight; stocks at semi-fabricators and smelters are reportedly covering around one week of consumption. Inventories of end-use products are also being drawn down. For example, inventories of air conditioners at major producers have reportedly fallen from over 10 million units in early 2012 to just over 7 million units in late 2012 (less than one month of production). For the near term, we believe current refined stock levels are ample enough to forestall any significant need for restocking, and thus we expect copper users to exhibit a preference to run with hand-to- mouth inventories, sustaining the a trend of the past few years. Exhibit 2: China's imported copper Percent share of total imports by copper content Source: China Customs, J.P. Morgan Commodities Research We expect the increase in Chinese refined copper demand will be met through growth in domestic copper concentrate production (up 6% in 2013F) and an increase in copper feedstock imports.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кубита",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кубита",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство концентратов кубита",
+          "name_en": "production of copper concentrates",
+          "canonical": "production_of_copper_concentrates"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "growth in domestic copper concentrate production"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "growth in domestic copper concentrate production"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p2::c4": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p2::c4",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "ined copper demand will be met through growth in domestic copper concentrate production (up 6% in 2013F) and an increase in copper feedstock imports. We project China will import just under 2 million mt of copper contained in concentrates this year and 2.7 million mt in copper contained in scrap and blister (12% YoY growth) (Exhibit 2). This supply will support 14% growth in Chinese refined copper production in 2013, driving total output to 6.5 million mt, in our view. We estimate that significant tonnage is still sitting in and around Shanghai: almost 1 million mt, including both bonded and exchange stocks. Two factors will likely reduce these inventories over the next 12 months: (1) an easing credit environment including 2 to 3 more RRR cuts and liquidity management (we note that Chinese CPI ticked up to 2.5% YoY in December), and (2) reduced appetite for preparing for expected Chinese copper use through cash and carry inventory management. Our forecast for refined copper use in China in 2013 is 8.9 million mt, 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 2008 2009 2010 2011 2012 2013E Scrap Concs Blister Refined Alloys Semis",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентратник",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "scrap",
+          "canonical": "scrap"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "блистерник",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "производство концентратника",
+          "name_en": "copper concentrate production",
+          "canonical": "copper_concentrate_production"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "производство блистерника",
+          "name_en": "blister copper production",
+          "canonical": "blister_copper_production"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "складские запасы",
+          "name_en": "inventory",
+          "canonical": "inventory"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "domestic copper concentrate production"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "copper contained in scrap and blister"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "growth",
+          "op": "le",
+          "value_min": 6.0,
+          "value_max": 6.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "import",
+          "op": "le",
+          "value_min": 2000000.0,
+          "value_max": 2700000.0,
+          "unit": "mt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p3::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p3::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "3 Global Commodities Research Metals Weekly 16 January 2013 Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com leading us to conclude that 2.6 million mt of refined imports (or 217 kmt per month) will be required to bridge the gap with domestic production and the flow of inventories through supply chains. We expect inventory channels to be relatively lean by year end, opening the window for restocking heading into 2014. Implications for risk and valuation An 800 kmt drop in China’s refined copper import appetite, all else equal, implies significantly better availability in cash markets outside of China, with some of that metal likely to show up in LME warehouses. This is likely to depress associated premia. These emerging trends are already evident. Refined copper imports into China in 4Q2012 dropped by 20% relative to the average for the first three quarters, exhibiting the normal seasonal trend of slacker imports toward year-end, despite the overall strength in imports in 2012. This pattern has occurred in four of the past six years, with an average decline of 20%.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сырьевой никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "ввоз руды/сырья",
+          "name_en": "imports of refined copper",
+          "canonical": "refined_copper_imports"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "refined imports (or 2.6 million mt) will be required to bridge the gap with domestic production and the flow of inventories through supply chains."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p3::c1": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p3::c1",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "d year-end, despite the overall strength in imports in 2012. This pattern has occurred in four of the past six years, with an average decline of 20%. The only two years that have bucked the seasonal trend in the past six years were 2008 and 2011, when imports surged by 48% and 76%, respectively, against the average for the first three quarters of those years (Exhibit 3). Importantly, these counter-seasonal increases in imports occurred against the sharpest price declines of the past five years (Exhibit 4). The inventory increases we expect in LME warehouses will likely blunt upward momentum in bid prices for LME metal, especially in 2Q2013. However, we do not think the inventory gains will be large enough to prevent the 2013 average price from increasing on 2012, for four main reasons. First, a gradual drawdown of Shanghai bonded warehouse stocks would remove an overhang of inventory from the Chinese copper market that has been a source of uncertainty for some time. We expect that the pick-up in Chinese copper demand will initially be met by further de-stocking, rather than from new imports.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь/алюминий (LME металлы)",
+          "name_en": "LME metals (copper/nickel/aluminum)",
+          "canonical": "lme_metals"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "импорт",
+          "name_en": "imports",
+          "canonical": "imports"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "import of LME metals"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p3::c2": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p3::c2",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "tainty for some time. We expect that the pick-up in Chinese copper demand will initially be met by further de-stocking, rather than from new imports. We anticipate that Chinese inventories will be brought down to a level which would require some amount of restocking by the end of 2013. So, there is a flow dimension to our view, with the annual average for imports likely masking considerable variability in the monthly trade numbers. Second, we expect that the copper market will look through weakness in lower Chinese refined imports toward the more encouraging outlook for physical demand. Third, we note that while refined imports are likely to weaken by about 23% YoY (if we are right), China’s total trade call on the global copper market (including refined, blister, scrap, and concentrate) is likely to decline by a less significant 4% on the back of stronger imports of copper feedstocks. This inter-product dimension is important and must not be overlooked. Our models show Chinese feedstock imports will increase by about 9% YoY in 2013.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сырье для производства меди",
+          "name_en": "copper feedstock",
+          "canonical": "copper_feedstock"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "импорт сырья для производства меди",
+          "name_en": "import of copper feedstock",
+          "canonical": "import_of_copper_feedstock"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Chinese feedstock imports will increase by about 9% YoY in 2013."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p3::c3": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p3::c3",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "his inter-product dimension is important and must not be overlooked. Our models show Chinese feedstock imports will increase by about 9% YoY in 2013. Finally, we note that while a lower import volume into China implies softer cash markets in various jurisdictions outside of China, the underlying global balance is tightening, albeit modestly. Our forecast for 2013 continues to expect a global deficit of 38 kmt (–0.2% of global consumption). Exhibit 3: Chinese refined copper imports in 4Q relative to the quarterly average for the first 3 quarters, by year Percent Source: China Customs, J.P. Morgan Commodities Research Exhibit 4: Rolling prompt LME cash copper price US$ per metric tonne Source: LME -40% -20% 0% 20% 40% 60% 80% 100% 2007 2008 2009 2010 2011 2012 $0 $2,000 $4,000 $6,000 $8,000 $10,000 $12,000 Jun-08 Sep-08 Dec-08 Mar-09 Jun-09 Sep-09 Dec-09 Mar-10 Jun-10 Sep-10 Dec-10 Mar-11 Jun-11 Sep-11 Dec-11 Mar-12 Jun-12 Sep-12 Dec-12",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p4::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p4::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "4 Global Commodities Research Metals Weekly 16 January 2013 Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com Colin P. Fenton, Head of Global Commodities Research and Strategy colin.p.fenton@jpmorgan.com (1-212) 834-5648 Oil Jeff G. Brown jeff.g.brown@jpmorgan.com (65) 6882-2215 David G. Martin david.g.martin@jpmorgan.com (44-20) 7134-0067 Upadhi Kabra upadhi.x.kabra@jpmorgan.com (44-20) 7134-1034 Megan V. Hansen megan.v.hansen@jpmorgan.com (1-212) 834-3747 Varun Jain varun.z.jain@jpmorgan.com (91-22) 6157-3357 Parsley Ong parsley.rh.ong@jpmorgan.com (65) 6882-2857 Agriculture Pierre-Henri Dietz pierre-henri.dietz@jpmorgan.com (65) 6882-2139 Elizabeth M. Volynsky elizabeth.m.volynsky@jpmorgan.com (1-212) 834-4021 Wei Luo wei.luo@jpmorgan.com (65) 6882-2653 Natural Gas Scott C. Speaker scott.c.speaker@jpmorgan.com (1-212) 834-3878 Shikha Chaturvedi shikha.x.chaturvedi@jpmorgan.com (1-212) 834-3245 Metals Natasha Kaneva natasha.kaneva@jpmorgan.com (1-212) 834-3175 Jonah D. Waxman, CFA jonah.d.waxman@jpmorgan.com (1-212) 834-2203 Yubin Fu yubin.fu@jpmorgan.com (44-20) 7134-1044 Gregory C. Shearer gregory.c.shearer@jpmorgan.com (1-212) 834-2039",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Колин П. Фентон",
+          "name_en": "Colin P. Fenton",
+          "canonical": "Colin P. Fenton"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Джиф Браун",
+          "name_en": "Jeff G. Brown",
+          "canonical": "Jeff G. Brown"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Дэвид Мартин",
+          "name_en": "David G. Martin",
+          "canonical": "David G. Martin"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Упадхи Кабра",
+          "name_en": "Upadhi Kabra",
+          "canonical": "Upadhi Kabra"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Меган В. Хэнсен",
+          "name_en": "Megan V. Hansen",
+          "canonical": "Megan V. Hansen"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Варун Джайн",
+          "name_en": "Varun Jain",
+          "canonical": "Varun Jain"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Пьер-Генри Дайтц",
+          "name_en": "Pierre-Henri Dietz",
+          "canonical": "Pierre-Henri Dietz"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Элизабет М. Волински",
+          "name_en": "Elizabeth M. Volynsky",
+          "canonical": "Elizabeth M. Volynsky"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Вэй Луо",
+          "name_en": "Wei Luo",
+          "canonical": "Wei Luo"
+        },
+        {
+          "id": "e10",
+          "type": "Expert",
+          "name_ru": "Скотт Спейкер",
+          "name_en": "Scott C. Speaker",
+          "canonical": "Scott C. Speaker"
+        },
+        {
+          "id": "e11",
+          "type": "Expert",
+          "name_ru": "Шикха Чатурведи",
+          "name_en": "Shikha Chaturvedi",
+          "canonical": "Shikha Chaturvedi"
+        },
+        {
+          "id": "e12",
+          "type": "Expert",
+          "name_ru": "Наташа Канева",
+          "name_en": "Natasha Kaneva",
+          "canonical": "Natasha Kaneva"
+        },
+        {
+          "id": "e13",
+          "type": "Expert",
+          "name_ru": "Йонатан Д. Ваксман, CFA",
+          "name_en": "Jonah D. Waxman, CFA",
+          "canonical": "Jonah D. Waxman"
+        },
+        {
+          "id": "e14",
+          "type": "Expert",
+          "name_ru": "Юбин Фу",
+          "name_en": "Yubin Fu",
+          "canonical": "Yubin Fu"
+        },
+        {
+          "id": "e15",
+          "type": "Expert",
+          "name_ru": "Грегори С. Ширер",
+          "name_en": "Gregory C. Shearer",
+          "canonical": "Gregory C. Shearer"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "5 Global Commodities Research Metals Weekly 16 January 2013 Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com Disclosures Conflict of Interest This research contains the views, opinions and recommendations of J.P. Morgan research analysts. J.P. Morgan has adopted research conflict of interest policies, including prohibitions on non-research personnel influencing the content of research. Research analysts still may speak to J.P. Morgan trading desk personnel in formulating views, opinions and recommendations. Trading desks may trade, or have traded, as principal on the basis of the research analysts’ views and research. Therefore, this research may not be independent from the proprietary interests of J.P. Morgan trading desks which may conflict with your interests. As a general matter, J.P. Morgan and/or its affiliates trade as principal in connection with making markets in fixed income securities, commodities and other investment instruments discussed in research reports. Company-Specific Disclosures: Important disclosures, including price charts, are available for compendium reports and all J.P.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "JPMorgan-Cu-China-jan2013",
+          "name_en": "Global Commodities Research Metals Weekly 16 January 2013",
+          "canonical": "Global Commodities Research Metals Weekly"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Колин П. Фентон",
+          "name_en": "Colin P. Fenton",
+          "canonical": "Colin P. Fenton"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "date",
+          "op": "eq",
+          "value_min": 2013.0,
+          "value_max": 2013.0,
+          "unit": "year",
+          "condition": "January 16"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c1": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c1",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "d in research reports. Company-Specific Disclosures: Important disclosures, including price charts, are available for compendium reports and all J.P. Morgan– covered companies by visiting https://mm.jpmorgan.com/disclosures/company, calling 1-800-477-0406, or e-mailing research.disclosure.inquiries@jpmorgan.com with your request. J.P. Morgan’s Strategy, Technical, and Quantitative Research teams may screen companies not covered by J.P. Morgan. For important disclosures for these companies, please call 1-800-477-0406 or e-mail research.disclosure.inquiries@jpmorgan.com. Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues. Other Disclosures J.P. Morgan (\"JPM\") is the global brand name for J.P. Morgan Securities LLC (\"JPMS\") and its affiliates worldwide. J.P. Morgan Cazenove is a marketing name for the U.K. investment banking businesses and EMEA cash equities and equity research businesses of JPMorgan Chase & Co. and its subsidiaries.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013 report",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "",
+          "name_en": "Analysts responsible for the preparation of this report",
+          "canonical": "Analysts responsible for the preparation of this report"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "source",
+          "op": "eq",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c2": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c2",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "g name for the U.K. investment banking businesses and EMEA cash equities and equity research businesses of JPMorgan Chase & Co. and its subsidiaries. Options related research: If the information contained herein regards options related research, such information is available only to persons who have received the proper option risk disclosure documents. For a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options, please contact your J.P. Morgan Representative or visit the OCC's website at http://www.optionsclearing.com/publications/risks/riskstoc.pdf Legal Entities Disclosures U.S.: JPMS is a member of NYSE, FINRA, SIPC and the NFA. JPMorgan Chase Bank, N.A. is a member of FDIC and is authorized and regulated in the UK by the Financial Services Authority. U.K.: J.P. Morgan Securities plc (JPMS plc) is a member of the London Stock Exchange and is authorized and regulated by the Financial Services Authority. Registered in England & Wales No. 2711006. Registered Office 25 Bank Street, London, E14 5JP. South Africa: J.P.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "NYSE",
+          "name_en": "New York Stock Exchange",
+          "canonical": "New York Stock Exchange"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "FINRA",
+          "name_en": "Financial Industry Regulatory Authority",
+          "canonical": "Financial Industry Regulatory Authority"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "SIPC",
+          "name_en": "Securities Investor Protection Corporation",
+          "canonical": "Securities Investor Protection Corporation"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "NFA",
+          "name_en": "National Futures Association",
+          "canonical": "National Futures Association"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "London Stock Exchange",
+          "name_en": "London Stock Exchange",
+          "canonical": "London Stock Exchange"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Financial Services Authority",
+          "name_en": "Financial Services Authority",
+          "canonical": "Financial Services Authority"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "JPMorgan Chase Bank, N.A. is a member of FDIC and is authorized and regulated in the UK by the Financial Services Authority."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "J.P. Morgan Securities plc (JPMS plc) is a member of the London Stock Exchange and is authorized and regulated by the Financial Services Authority."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "registered_office",
+          "op": "eq",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "Bank Street, London, E14 5JP, England & Wales No. 2711006, Registered Office 25 Bank Street, London, E14 5JP",
+          "condition": "Registered in"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c3": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c3",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "by the Financial Services Authority. Registered in England & Wales No. 2711006. Registered Office 25 Bank Street, London, E14 5JP. South Africa: J.P. Morgan Equities South Africa Proprietary Limited is a member of the Johannesburg Securities Exchange and is regulated by the Financial Services Board. Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong. Korea: J.P. Morgan Securities (Far East) Ltd, Seoul Branch, is regulated by the Korea Financial Supervisory Service. Australia: J.P. Morgan Australia Limited (JPMAL) (ABN 52 002 888 011/AFS Licence No: 238188) is regulated by ASIC and J.P. Morgan Securities Australia Limited (JPMSAL) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by ASIC and is a Market, Clearing and Settlement Participant of ASX Limited and CHI-X. Taiwan: J.P.Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the Taiwan Securities and Futures Bureau. India: J.P. Morgan India Private Limited, having its registered office at J.P. Morgan Tower, Off. C.S.T.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Equities South Africa Proprietary Limited",
+          "name_en": "J.P. Morgan Equities South Africa Proprietary Limited",
+          "canonical": "J.P. Morgan Equities South Africa Proprietary Limited"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities (Asia Pacific) Limited",
+          "name_en": "J.P. Morgan Securities (Asia Pacific) Limited",
+          "canonical": "J.P. Morgan Securities (Asia Pacific) Limited"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch",
+          "name_en": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch",
+          "canonical": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Australia Limited (JPMAL)",
+          "name_en": "J.P. Morgan Australia Limited (JPMAL)",
+          "canonical": "J.P. Morgan Australia Limited (JPMAL)"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities Australia Limited (JPMSAL)",
+          "name_en": "J.P. Morgan Securities Australia Limited (JPMSAL)",
+          "canonical": "J.P. Morgan Securities Australia Limited (JPMSAL)"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "J.P.Morgan Securities (Taiwan) Limited",
+          "name_en": "J.P.Morgan Securities (Taiwan) Limited",
+          "canonical": "J.P.Morgan Securities (Taiwan) Limited"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan India Private Limited",
+          "name_en": "J.P. Morgan India Private Limited",
+          "canonical": "J.P. Morgan India Private Limited"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "regulated by the Financial Services Board."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "regulated by the Korea Financial Supervisory Service."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "regulated by ASIC and J.P. Morgan Securities Australia Limited (JPMSAL) is regulated by ASIC"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "regulated by ASIC and is a Market, Clearing and Settlement Participant of ASX Limited and CHI-X."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e13",
+          "type": "operates_at_condition",
+          "evidence": "regulated by the Taiwan Securities and Futures Bureau."
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "having its registered office at J.P. Morgan Tower, Off. C.S.T."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "ABN",
+          "op": "eq",
+          "value_min": 52.0,
+          "value_max": 52.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "AFS Licence No",
+          "op": "eq",
+          "value_min": 238188.0,
+          "value_max": 238188.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c4": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c4",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "by the Taiwan Securities and Futures Bureau. India: J.P. Morgan India Private Limited, having its registered office at J.P. Morgan Tower, Off. C.S.T. Road, Kalina, Santacruz East, Mumbai - 400098, is a member of the National Stock Exchange of India Limited (SEBI Registration Number - INB 230675231/INF 230675231/INE 230675231) and Bombay Stock Exchange Limited (SEBI Registration Number - INB 010675237/INF 010675237) and is regulated by Securities and Exchange Board of India. Thailand: JPMorgan Securities (Thailand) Limited is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission. Indonesia: PT J.P. Morgan Securities Indonesia is a member of the Indonesia Stock Exchange and is regulated by the BAPEPAM LK. Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission. Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Tower",
+          "name_en": "J.P. Morgan Tower",
+          "canonical": "J.P. Morgan Tower"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Taiwan Securities and Futures Bureau",
+          "name_en": "Taiwan Securities and Futures Bureau",
+          "canonical": "Taiwan Securities and Futures Bureau"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan India Private Limited",
+          "name_en": "J.P. Morgan India Private Limited",
+          "canonical": "J.P. Morgan India Private Limited"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "National Stock Exchange of India Limited (SEBI Registration Number - INB 230675231/INF 230675231/INE 230675231)",
+          "name_en": "National Stock Exchange of India Limited",
+          "canonical": "National Stock Exchange of India Limited"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Bombay Stock Exchange Limited (SEBI Registration Number - INB 010675237/INF 010675237)",
+          "name_en": "Bombay Stock Exchange Limited",
+          "canonical": "Bombay Stock Exchange Limited"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "JPMorgan Securities (Thailand) Limited",
+          "name_en": "JPMorgan Securities (Thailand) Limited",
+          "canonical": "JPMorgan Securities (Thailand) Limited"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "Stock Exchange of Thailand",
+          "name_en": "Stock Exchange of Thailand",
+          "canonical": "Stock Exchange of Thailand"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "PT J.P. Morgan Securities Indonesia",
+          "name_en": "PT J.P. Morgan Securities Indonesia",
+          "canonical": "PT J.P. Morgan Securities Indonesia"
+        },
+        {
+          "id": "e9",
+          "type": "Facility",
+          "name_ru": "Indonesia Stock Exchange",
+          "name_en": "Indonesia Stock Exchange",
+          "canonical": "Indonesia Stock Exchange"
+        },
+        {
+          "id": "e10",
+          "type": "Facility",
+          "name_ru": "BAPEPAM LK",
+          "name_en": "BAPEPAM LK",
+          "canonical": "BAPEPAM LK"
+        },
+        {
+          "id": "e11",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities Philippines Inc.",
+          "name_en": "J.P. Morgan Securities Philippines Inc.",
+          "canonical": "J.P. Morgan Securities Philippines Inc."
+        },
+        {
+          "id": "e12",
+          "type": "Facility",
+          "name_ru": "Philippine Stock Exchange",
+          "name_en": "Philippine Stock Exchange",
+          "canonical": "Philippine Stock Exchange"
+        },
+        {
+          "id": "e13",
+          "type": "Facility",
+          "name_ru": "Securities Clearing Corporation of the Philippines",
+          "name_en": "Securities Clearing Corporation of the Philippines",
+          "canonical": "Securities Clearing Corporation of the Philippines"
+        },
+        {
+          "id": "e14",
+          "type": "Facility",
+          "name_ru": "Securities Investor Protection Fund",
+          "name_en": "Securities Investor Protection Fund",
+          "canonical": "Securities Investor Protection Fund"
+        },
+        {
+          "id": "e15",
+          "type": "Facility",
+          "name_ru": "Comissao de Valores Mobiliarios (CVM)",
+          "name_en": "Comissao de Valores Mobiliarios (CVM)",
+          "canonical": "Comissao de Valores Mobiliarios (CVM)"
+        },
+        {
+          "id": "e16",
+          "type": "Facility",
+          "name_ru": "Central Bank of Brazil",
+          "name_en": "Central Bank of Brazil",
+          "canonical": "Central Bank of Brazil"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "by the Taiwan Securities and Futures Bureau."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "is a member of the National Stock Exchange of India Limited (SEBI Registration Number - INB 230675231/INF 230675231/INE 230675231) and Bombay Stock Exchange Limited (SEBI Registration Number - INB 010675237/INF 010675237)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "and is regulated by Securities and Exchange Board of India."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission."
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "is a member of the Indonesia Stock Exchange and is regulated by the BAPEPAM LK."
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e12",
+          "type": "uses_material",
+          "evidence": "is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund."
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e14",
+          "type": "uses_material",
+          "evidence": "It is regulated by the Securities and Exchange Commission."
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "registration_numbers",
+          "op": "eq",
+          "value_min": 230675231.0,
+          "value_max": 230675231.0,
+          "unit": "",
+          "condition": "INB"
+        },
+        {
+          "entity_id": "e3",
+          "param": "registration_numbers",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 0.0,
+          "unit": "",
+          "condition": "INF"
+        },
+        {
+          "entity_id": "e3",
+          "param": "registration_numbers",
+          "op": "eq",
+          "value_min": 230675231.0,
+          "value_max": 230675231.0,
+          "unit": "",
+          "condition": "INE"
+        },
+        {
+          "entity_id": "e6",
+          "param": "registration_numbers",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 0.0,
+          "unit": "",
+          "condition": "INB 010675237/INF 010675237"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c5": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c5",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "and Exchange Commission. Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero is a member of the Mexican Stock Exchange and authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. Singapore: This material is issued and distributed in Singapore by J.P. Morgan Securities Singapore Private Limited (JPMSS) [MICA (P) 088/04/2012 and Co. Reg. No.: 199405335R] which is a member of the Singapore Exchange Securities Trading Limited and is regulated by the Monetary Authority of Singapore (MAS) and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore) which is regulated by the MAS. Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X) which is a Participating Organization of Bursa Malaysia Berhad and a holder of Capital Markets Services License issued by the Securities Commission in Malaysia. Pakistan: J. P. Morgan Pakistan Broking (Pvt.)",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan S.A.",
+          "name_en": "Banco J.P. Morgan S.A.",
+          "canonical": "Banco J.P. Morgan S.A."
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero",
+          "name_en": "J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero",
+          "canonical": "J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities Singapore Private Limited (JPMSS)",
+          "name_en": "J.P. Morgan Securities Singapore Private Limited (JPMSS)",
+          "canonical": "J.P. Morgan Securities Singapore Private Limited (JPMSS)"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore)",
+          "name_en": "JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore)",
+          "canonical": "JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore)"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Securities (Malaysia) Sdn Bhd (18146-X)",
+          "name_en": "J.P. Morgan Securities (Malaysia) Sdn Bhd (18146-X)",
+          "canonical": "J.P. Morgan Securities (Malaysia) Sdn Bhd (18146-X)"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Bursa Malaysia Berhad",
+          "name_en": "Bursa Malaysia Berhad",
+          "canonical": "Bursa Malaysia Berhad"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero is a member of the Mexican Stock Exchange and authorized to act as a broker dealer by the National Banking and Securities Exchange Commission."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Singapore: This material is issued and distributed in Singapore by J.P. Morgan Securities Singapore Private Limited (JPMSS) [MICA (P) 088/04/2012 and Co. Reg. No.: 199405335R] which is a member of the Singapore Exchange Securities Trading Limited and is regulated by the Monetary Authority of Singapore (MAS) and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore) which is regulated by the MAS."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Singapore: This material is issued and distributed in Singapore by J.P. Morgan Securities Singapore Private Limited (JPMSS) [MICA (P) 088/04/2012 and Co. Reg. No.: 199405335R] which is a member of the Singapore Exchange Securities Trading Limited and is regulated by the Monetary Authority of Singapore (MAS) and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore) which is regulated by the MAS."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "Malaysia: This material is issued and distributed in Malaysia by J.P. Morgan Securities (Malaysia) Sdn Bhd (18146-X) which is a Participating Organization of Bursa Malaysia Berhad and a holder of Capital Markets Services License issued by the Securities Commission in Malaysia."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "registration_number",
+          "op": "eq",
+          "value_min": 199405335.0,
+          "value_max": 199405335.0,
+          "unit": "R",
+          "condition": "Co. Reg. No.:"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c6": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c6",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "rhad and a holder of Capital Markets Services License issued by the Securities Commission in Malaysia. Pakistan: J. P. Morgan Pakistan Broking (Pvt.) Ltd is a member of the Karachi Stock Exchange and regulated by the Securities and Exchange Commission of Pakistan. Saudi Arabia: J.P. Morgan Saudi Arabia Ltd. is authorized by the Capital Market Authority of the Kingdom of Saudi Arabia (CMA) to carry out dealing as an agent, arranging, advising and custody, with respect to securities business under licence number 35-07079 and its registered address is at 8th Floor, Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia. Dubai: JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE. Country and Region Specific Disclosures U.K. and European Economic Area (EEA): Unless specified to the contrary, issued and approved for distribution in the U.K. and the EEA by JPMS plc.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Специфические раскрытия для страны и региона",
+          "name_en": "Country and Region Specific Disclosures",
+          "canonical": "Country and Region Specific Disclosures"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "J. P. Morgan Pakistan Broking (Pvt.) Ltd",
+          "name_en": "J. P. Morgan Pakistan Broking (Pvt.) Ltd",
+          "canonical": "J. P. Morgan Pakistan Broking (Pvt.) Ltd"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Karachi Stock Exchange",
+          "name_en": "Karachi Stock Exchange",
+          "canonical": "Karachi Stock Exchange"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Securities and Exchange Commission of Pakistan",
+          "name_en": "Securities and Exchange Commission of Pakistan",
+          "canonical": "Securities and Exchange Commission of Pakistan"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "J.P. Morgan Saudi Arabia Ltd.",
+          "name_en": "J.P. Morgan Saudi Arabia Ltd.",
+          "canonical": "J.P. Morgan Saudi Arabia Ltd."
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Capital Market Authority of the Kingdom of Saudi Arabia (CMA)",
+          "name_en": "Capital Market Authority of the Kingdom of Saudi Arabia (CMA)",
+          "canonical": "Capital Market Authority of the Kingdom of Saudi Arabia (CMA)"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia",
+          "name_en": "8th Floor, Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia",
+          "canonical": "8th Floor, Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "JPMorgan Chase Bank, N.A., Dubai Branch",
+          "name_en": "JPMorgan Chase Bank, N.A., Dubai Branch",
+          "canonical": "JPMorgan Chase Bank, N.A., Dubai Branch"
+        },
+        {
+          "id": "e9",
+          "type": "Facility",
+          "name_ru": "Dubai Financial Services Authority (DFSA)",
+          "name_en": "Dubai Financial Services Authority (DFSA)",
+          "canonical": "Dubai Financial Services Authority (DFSA)"
+        },
+        {
+          "id": "e10",
+          "type": "Facility",
+          "name_ru": "Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE",
+          "name_en": "Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE",
+          "canonical": "Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE"
+        },
+        {
+          "id": "e11",
+          "type": "Facility",
+          "name_ru": "JPMS plc",
+          "name_en": "JPMS plc",
+          "canonical": "JPMS plc"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p5::c7": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p5::c7",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "es U.K. and European Economic Area (EEA): Unless specified to the contrary, issued and approved for distribution in the U.K. and the EEA by JPMS plc. Investment research issued by JPMS plc has been prepared in accordance with JPMS plc's policies for managing conflicts of interest arising as a result of publication and distribution of investment research. Many European regulators require a firm to establish, implement and maintain such a policy. This report has been issued in the U.K. only to persons of a kind described in Article 19 (5), 38, 47 and 49 of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (all such persons being referred to as \"relevant persons\"). This document must not be acted on or relied on by persons",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013 report",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "",
+          "name_en": "JPMS plc",
+          "canonical": "JPMS plc"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "Investment research issued by JPMS plc has been prepared in accordance with JPMS plc's policies for managing conflicts of interest arising as a result of publication and distribution of investment research."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "location",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "issued and approved for distribution in the U.K. and the EEA"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c0": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c0",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "6 Global Commodities Research Metals Weekly 16 January 2013 Colin P. Fenton (1-212) 834-5648 colin.p.fenton@jpmorgan.com who are not relevant persons. Any investment or investment activity to which this document relates is only available to relevant persons and will be engaged in only with relevant persons. In other EEA countries, the report has been issued to persons regarded as professional investors (or equivalent) in their home jurisdiction. Australia: This material is issued and distributed by JPMSAL in Australia to \"wholesale clients\" only. JPMSAL does not issue or distribute this material to \"retail clients\". The recipient of this material must not distribute it to any third party or outside Australia without the prior written consent of JPMSAL. For the purposes of this paragraph the terms \"wholesale client\" and \"retail client\" have the meanings given to them in section 761G of the Corporations Act 2001. Germany: This material is distributed in Germany by J.P. Morgan Securities plc, Frankfurt Branch and J.P.Morgan Chase Bank, N.A., Frankfurt Branch which are regulated by the Bundesanstalt für Finanzdienstleistungsaufsicht.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "Global Commodities Research Metals Weekly 16 January 2013",
+          "canonical": "Global Commodities Research Metals Weekly"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "",
+          "name_en": "Colin P. Fenton",
+          "canonical": "Colin P. Fenton"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "",
+          "name_en": "JPMSAL in Australia",
+          "canonical": "JPMSAL in Australia"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "",
+          "name_en": "J.P. Morgan Securities plc, Frankfurt Branch and J.P.Morgan Chase Bank, N.A., Frankfurt Branch",
+          "canonical": "J.P. Morgan Securities plc, Frankfurt Branch and J.P.Morgan Chase Bank, N.A., Frankfurt Branch"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e3",
+          "target_id": "",
+          "type": "operates_at_condition",
+          "evidence": "in Australia"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "",
+          "type": "operates_at_condition",
+          "evidence": "in Germany"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "recipient_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "wholesale clients"
+        },
+        {
+          "entity_id": "e4",
+          "param": "regulator",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Bundesanstalt für Finanzdienstleistungsaufsicht"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c1": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c1",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "s plc, Frankfurt Branch and J.P.Morgan Chase Bank, N.A., Frankfurt Branch which are regulated by the Bundesanstalt für Finanzdienstleistungsaufsicht. Hong Kong: The 1% ownership disclosure as of the previous month end satisfies the requirements under Paragraph 16.5(a) of the Hong Kong Code of Conduct for Persons Licensed by or Registered with the Securities and Futures Commission. (For research published within the first ten days of the month, the disclosure may be based on the month end data from two months prior.) J.P. Morgan Broking (Hong Kong) Limited is the liquidity provider/market maker for derivative warrants, callable bull bear contracts and stock options listed on the Stock Exchange of Hong Kong Limited. An updated list can be found on HKEx website: http://www.hkex.com.hk. Japan: There is a risk that a loss may occur due to a change in the price of the shares in the case of share trading, and that a loss may occur due to the exchange rate in the case of foreign share trading.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Bundesanstalt für Finanzdienstleistungsaufsicht",
+          "name_en": "Federal Financial Supervisory Authority (Germany)",
+          "canonical": "regulates the branches of JPMorgan"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Securities and Futures Commission",
+          "name_en": "Securities and Futures Commission (Hong Kong)",
+          "canonical": "regulates the disclosure requirements in Hong Kong"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "J.P. Morgan Broking (Hong Kong) Limited",
+          "name_en": "J.P. Morgan Broking (Hong Kong) Limited",
+          "canonical": "provides liquidity for derivatives and options"
+        },
+        {
+          "id": "e4",
+          "type": "Experiment",
+          "name_ru": "1% ownership disclosure",
+          "name_en": "1% ownership disclosure",
+          "canonical": "satisfies the requirements under Paragraph 16.5(a) of the Hong Kong Code"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "research published within the first ten days of the month",
+          "name_en": "research published within the first ten days of the month",
+          "canonical": "may be based on two months prior data"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "loss may occur due to a change in the price of shares",
+          "name_en": "risk of loss due to share price changes",
+          "canonical": "associated with share trading"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "loss may occur due to exchange rate changes",
+          "name_en": "risk of loss due to currency exchange rate changes",
+          "canonical": "associated with foreign share trading"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "contradicts",
+          "evidence": "JPMorgan-Cu-China-jan2013, стр. 6."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 10.0,
+          "unit": "days",
+          "condition": "of the month"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c2": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c2",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "nge in the price of the shares in the case of share trading, and that a loss may occur due to the exchange rate in the case of foreign share trading. In the case of share trading, JPMorgan Securities Japan Co., Ltd., will be receiving a brokerage fee and consumption tax (shouhizei) calculated by multiplying the executed price by the commission rate which was individually agreed between JPMorgan Securities Japan Co., Ltd., and the customer in advance. Financial Instruments Firms: JPMorgan Securities Japan Co., Ltd., Kanto Local Finance Bureau (kinsho) No. 82 Participating Association / Japan Securities Dealers Association, The Financial Futures Association of Japan, Type II Financial Instruments Firms Association and Japan Investment Advisers Association. Korea: This report may have been edited or contributed to from time to time by affiliates of J.P. Morgan Securities (Far East) Ltd, Seoul Branch. Singapore: JPMSS and/or its affiliates may have a holding in any of the securities discussed in this report; for securities where the holding is 1% or greater, the specific holding is disclosed in the Important Disclosures section above. India: For private circulation only, not for sale.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Торговля акциями",
+          "name_en": "Share trading",
+          "canonical": "share trading"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Брокерский сбор и НДС (shouhizei)",
+          "name_en": "Brokerage fee and consumption tax (shouhizei)",
+          "canonical": "brokerage fee and consumption tax"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "JPMorgan Securities Japan Co., Ltd.",
+          "name_en": "JPMorgan Securities Japan Co., Ltd.",
+          "canonical": "JPMorgan Securities Japan Co., Ltd."
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch",
+          "name_en": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch",
+          "canonical": "J.P. Morgan Securities (Far East) Ltd, Seoul Branch"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Kanto Local Finance Bureau",
+          "name_en": "Kanto Local Finance Bureau",
+          "canonical": "Kanto Local Finance Bureau"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "JPMorgan Securities Japan Co., Ltd., will be receiving a brokerage fee and consumption tax (shouhizei) calculated by multiplying the executed price by the commission rate which was individually agreed between JPMorgan Securities Japan Co., Ltd., and the customer in advance."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "commission_rate",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "agreed between JPMorgan Securities Japan Co., Ltd., and the customer in advance"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c3": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c3",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "ng is 1% or greater, the specific holding is disclosed in the Important Disclosures section above. India: For private circulation only, not for sale. Pakistan: For private circulation only, not for sale. New Zealand: This material is issued and distributed by JPMSAL in New Zealand only to persons whose principal business is the investment of money or who, in the course of and for the purposes of their business, habitually invest money. JPMSAL does not issue or distribute this material to members of \"the public\" as determined in accordance with section 3 of the Securities Act 1978. The recipient of this material must not distribute it to any third party or outside New Zealand without the prior written consent of JPMSAL. Canada: The information contained herein is not, and under no circumstances is to be construed as, a prospectus, an advertisement, a public offering, an offer to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "material",
+          "canonical": "material"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "The material is issued and distributed by JPMSAL in New Zealand only to persons whose principal business is the investment of money or who, in the course of and for the purposes of their business, habitually invest money."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "page",
+          "op": "eq",
+          "value_min": 6.0,
+          "value_max": 6.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c4": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c4",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof. Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators and only by a dealer properly registered under applicable securities laws or, alternatively, pursuant to an exemption from the dealer registration requirement in the relevant province or territory of Canada in which such offer or sale is made. The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient. To the extent that the information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "selling securities",
+          "canonical": "selling securities"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "solicitation of an offer to buy securities",
+          "canonical": "solicitation of an offer to buy securities"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "securities",
+          "canonical": "securities"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "The information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "location",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "location",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c5": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c5",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed judgment upon these materials, the information contained herein or the merits of the securities described herein, and any representation to the contrary is an offence. Dubai: This report has been issued to persons regarded as professional clients as defined under the DFSA rules. General: Additional information is available upon request. Information has been obtained from sources believed to be reliable but JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) do not warrant its completeness or accuracy except with respect to any disclosures relative to JPMS and/or its affiliates and the analyst's involvement with the issuer that is the subject of the research. All pricing is as of the close of market for the securities discussed, unless otherwise stated. Opinions and estimates constitute our judgment as of the date of this material and are subject to change without notice.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013 report",
+          "canonical": "JPMorgan-Cu-China-jan2013 report"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "securities",
+          "canonical": "securities"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "trades in such securities must be conducted through a dealer registered in Canada",
+          "canonical": "trading process"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "",
+          "name_en": "Dubai",
+          "canonical": "Dubai"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "",
+          "name_en": "analyst",
+          "canonical": "analyst"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "trades in such securities must be conducted through a dealer registered in Canada."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "the analyst's involvement with the issuer that is the subject of the research"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "pricing",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "% of market close price",
+          "condition": "as of the close of market for the securities discussed, unless otherwise stated."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c6": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c6",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "ed, unless otherwise stated. Opinions and estimates constitute our judgment as of the date of this material and are subject to change without notice. Past performance is not indicative of future results. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. The recipient of this report must make its own independent decisions regarding any securities or financial instruments mentioned herein. JPMS distributes in the U.S. research published by non-U.S. affiliates and accepts responsibility for its contents. Periodic updates may be provided on companies/industries based on company specific developments or announcements, market conditions or any other publicly available information. Clients should contact analysts and execute transactions through a J.P. Morgan subsidiary or affiliate in their home jurisdiction unless governing law permits otherwise.",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "JPMorgan-Cu-China-jan2013",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "publishing research",
+          "canonical": "publishing research"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "стр. 6."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "date",
+          "op": "range",
+          "value_min": 2013.0,
+          "value_max": 2013.0,
+          "unit": "year",
+          "condition": "exact"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "JPMorgan-Cu-China-jan2013::p6::c7": {
+    "chunk": {
+      "chunk_id": "JPMorgan-Cu-China-jan2013::p6::c7",
+      "doc_id": "JPMorgan-Cu-China-jan2013",
+      "source": "/content/drive/MyDrive/minekg/raw/JPMorgan-Cu-China-jan2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "ct analysts and execute transactions through a J.P. Morgan subsidiary or affiliate in their home jurisdiction unless governing law permits otherwise. \"Other Disclosures\" last revised January 1, 2013. Copyright 2013 JPMorgan Chase & Co. All rights reserved. This report or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. #$J&098$#*P",
+      "doc_type": "unknown",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "ct аналитики",
+          "name_en": "CT analysts",
+          "canonical": "CT analysts"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Отчет JPMorgan-Cu-China от января 2013 года",
+          "name_en": "JPMorgan-Cu-China report from January 2013",
+          "canonical": "JPMorgan-Cu-China-jan2013"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "CT analysts and execute transactions through a J.P. Morgan subsidiary or affiliate in their home jurisdiction unless governing law permits otherwise."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "jurisdiction",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "in their home jurisdiction"
+        },
+        {
+          "entity_id": "e2",
+          "param": "date",
+          "op": "eq",
+          "value_min": 2013.0,
+          "value_max": 2013.0,
+          "unit": "year",
+          "condition": "last revised January 1, 2013"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  }
+}

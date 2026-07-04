@@ -1,0 +1,642 @@
+{
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p1::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p1::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "The business case for a new process of creating high value products from nickel laterites James Vaughan – The University of Queensland Tony Keating – UniQuest Pty Ltd New Caledonia Nickel Conference 3 July 2013 Low grade nickel laterites are becoming more important 2 Reserves Sulfide Laterite Production Laterite Sulfide Laterite resource owners have a number of options 3 CapEx / Technical Risk / Complexity High Medium Low Low Medium High Nickel and cobalt payable HPAL + MHP (or MSP) Ravensthorpe, Ramu ($1.5B) DSO HPAL + SX or FeNi Murrin Murrin, Goro, Koniambo Coral Bay, Ambatovy ($5.5B) Direct shipping of ore • Relatively low value for the miner • 15-20% of nickel value for 1.8% nickel ore • Typically shipped to China for NPI (Indonesia, Philippines) • NPI is a major source of primary nickel • 30% of China’s primary nickel consumption (Hatch estimate) • Moving towards being dependent on high grade laterite ore • Producers prefer > 1.5% nickel grade • Ore export is under threat in many countries • Indonesia to potentially ban exports of raw minerals in 2014 • DRC copper concentrate export ban 4",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель-латеритная руда",
+          "name_en": "nickel laterite ore",
+          "canonical": "nickel_laterite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство высокого качества продуктов из никелевых латеритов",
+          "name_en": "high-value products from nickel laterites process",
+          "canonical": "high_value_products_from_nickel_laterites_process"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "хинди (индонезия)",
+          "name_en": "indonesia",
+          "canonical": "indonesia"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "филиппины",
+          "name_en": "philippines",
+          "canonical": "philippines"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "creating high value products from nickel laterites"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "NPI (Indonesia, Philippines) is a major source of primary nickel"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p5::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p5::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "Producing MHP as an intermediate material • Mixed (nickel and cobalt) hydroxide precipitate • Upgrade of 1% nickel ore to 40% nickel MHP 5 Ore Pressure acid leach autoclaves (HPAL) CCD circuit for solid impurity removal MHP precipitation MHP Acid, Steam MgO MHP is a low cost, marketable product • Reduced capital requirements compared to final metal production • Simple operation / Low technical risk • Currently produced and sold by • First Quantum’s Ravensthorpe (Australia) at 31,000-35,000 tpa of nickel as MHP1 • MCC’s Ramu (PNG) shipped 2,000t of nickel as MHP Q1 20132 • Under study for a number of projects • Agata (Mindoro/TVI), SCONI (Metallica), Mambare (Regency), Dutwa (African Eagle), Kalgoorlie (Heron), Wingellina (Metals X), Gladstone (GPNL), Northmet (Polymet), Mesaba (Teck) 6 1. First Quantum operational outlook for Ravensthorpe in 2013 (Q1 2013 Financial Statement) 2. Highlands Pacific March 2013 Quarterly Report",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель-кобальтовый гидроксид",
+          "name_en": "nickel-cobalt hydroxide precipitate",
+          "canonical": "nickel_cobalt_hydroxide"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "автоклавная кислотная деструкция высокого давления (HPAL)",
+          "name_en": "high pressure acid leach (HPAL) process",
+          "canonical": "hpal_process"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "автоклавы высокого давления кислотной деструкции",
+          "name_en": "HPAL autoclaves",
+          "canonical": "hpal_autoclave"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никельная руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "магнезия (MgO)",
+          "name_en": "magnesium oxide",
+          "canonical": "mgo"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "никель-хлоридная кислота",
+          "name_en": "nickel chloride acid",
+          "canonical": "nickel_chloride_acid"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Mixed (nickel and cobalt) hydroxide precipitate"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Ore Pressure acid leach autoclaves (HPAL)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "MHP precipitation"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "MHP Acid, Steam MgO"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "ge",
+          "value_min": 31000.0,
+          "value_max": 35000.0,
+          "unit": "t/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p7::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p7::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "But, relatively low payable on metal content • MHP valued by the market at 70-80% of contained nickel value1 • No or little value for contained cobalt • Limited number of refiners • QNi’s Palmer Nickel and Cobalt Refinery (Australia) • Jinchuan, Sichuan, Huaze (China) • One site in India, One site in Brazil • Refiners have difficulty with some MHP • Aging • Impurities 7 1. First Quantum is obtaining 77% payable for Ravensthorpe MHP (Q1 2013 Financial Statement) MHP production results in low profitability 8 $0 $2 $4 $6 $8 $10 $12 Contained metal value Recovered value from sale of MHP Cash costs of MHP production Per lb of nickel recovered 1. Long term metal prices of $9/lb nickel, $15/lb cobalt, MHP sold at 75% of contained nickel value 2. C1 cash costs approximated from First Quantum’s Ravensthorpe operation 3. Assuming no change in cash costs Mine life 20 years Annual capacity 50,000 tpa of Ni 2,500 tpa of Co Annual revenue1 $745M Cash costs $6 / lb recovered Ni2 Annual operating costs $660M Annual gross profit $82M Capital cost $1,500M Payback period 19 years NPV (8%) -$690M IRR 1% Ni price for +’ve NPV3 $9.85",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "извлечение никеля и кобальта из руды",
+          "name_en": "nickel and cobalt extraction from ores",
+          "canonical": "ore_extraction"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "завод обработки магниево-хлоридной пирометаллургии (MHP)",
+          "name_en": "magnesium-hydroxide-perchlorate (MHP) refinery",
+          "canonical": "mhp_refinery"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "латеритные руды",
+          "name_en": "lateritic ores",
+          "canonical": "lateritic_ores"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "pererabotka latertitnykh rud"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "obratnoye osmosoobosleniye MHP"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "obratnoye osmosoobosleniye MHP"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "eq",
+          "value_min": 9.85,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": "for positive NPV"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": 15.0,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": "for contained value"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p9::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p9::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "A number of technical options exist for the MHP refining • Ammonia re-leach followed by solvent extraction • QNi at Palmer Nickel and Cobalt refinery • Cawse in Australia • Acid re-leach followed by solvent extraction or ion exchange • Specified in two recent patents • Selective acid re-leach • Developed by The University of Queensland • Robust, single-step process to leach and separate nickel from cobalt 9 Single step leach and cobalt-nickel separation 10 MHP Oxidant H2SO4 Selective Acid Leach Cobalt concentrate Concentrated Nickel solution Demonstrated and moving toward integrated pilot 11 2009 2010 2011 2012 2013 Proof of concept on Ravensthorpe MHP Provisional patent filed Process optimisation in laboratory Impurity deportment Demonstrated MHP to nickel cathode Tests on CESL MHP Tests on Ramu MHP Base flow-sheet development Ausenco concept-level study Completed flow sheet development 12 MHP SAL Zinc IX EW Nickel cathode MnCO3 Product Bleed To tailings Co conc. RASCL High purity MSP",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "аммиачная релечка",
+          "name_en": "ammonia re-leach",
+          "canonical": "ammonia_releach"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "lösowanie с кислотой",
+          "name_en": "acid leaching",
+          "canonical": "acid_leaching"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "lösование с использованием растворителя",
+          "name_en": "solvent extraction",
+          "canonical": "solvent_extraction"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "electrowinning of nickel",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "латеритные руды",
+          "name_en": "laterite ores",
+          "canonical": "laterite_ores"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "MHP (металлогидроксид никеля)",
+          "name_en": "MHP (nickel hydroxide precipitate)",
+          "canonical": "mhp"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "установка для лосования с кислотой",
+          "name_en": "acid leaching unit",
+          "canonical": "acid_leaching_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Ammonia re-leach followed by solvent extraction"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Cobalt concentrate, Concentrated Nickel solution"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Cobalt concentrate, Concentrated Nickel solution"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Nickel cathode"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p13::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p13::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "Concept-level study by Ausenco • 50,000 tpa of nickel as MHP in feed • ±50% confidence for cost estimates (AUD) • Plant built on existing Australian site 13 $284M Capital Cost Electro- winning Indirect costs Contingency $96M Annual Operating Cost Reagents Power $63M $20M $104M Labour $7.5M $81M Maintenance $4.7M Significantly improved profitability over MHP 14 MHP MHP + SAL SX Mine life 20 years Annual capacity 50,000 tpa Ni and 2,500 tpa Co Annual revenue1 $745M $1,060M $1,075M Cash costs $6 / lb of Ni2 $6.87 / lb of Ni3 $5 / lb of Ni4 Annual operating costs $660M $757M $550M Annual gross profit $82M $301M $523M Capital cost $1,500M $1,784M $3,500M Payback period 19 years 6 years 7 years NPV (8%) -$690M $1,107M $1,528M IRR 1% 16% 14% Ni price for +’ve NPV(8%)5 $9.85 $8.00 $7.70 1. Long term metal prices of $9/lb for nickel, and $15/lb for cobalt 2. C1 cash costs for MHP production approximated from First Quantum’s Ravensthorpe operation 3. C1 cash costs for MHP+SAL approximated from Ravensthorpe plus SAL cost estimate by Ausenco 4. C1 cash costs for SX approximated from multiple sources (Brooks Hunt, Minecost) 5. Assuming no change in cash costs",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "установка электролиза",
+          "name_en": "electrolysis unit",
+          "canonical": "electrolysis_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "50,000 tpa of nickel as MHP in feed"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "2,500 tpa Co"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "annual_production",
+          "op": "eq",
+          "value_min": 50000.0,
+          "value_max": 50000.0,
+          "unit": "t/yr",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "annual_production",
+          "op": "eq",
+          "value_min": 2500.0,
+          "value_max": 2500.0,
+          "unit": "t/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p15::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p15::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 15,
+      "lang": "en",
+      "text": "Opportunity to stage capital expenses • Direct shipping of high grade ore • Producing MHP as next product has advantages • Lower initial capital expense • Faster ramp-up • Lower technical risk by decoupling front and back-end • Potentially finance back-end from MHP revenue • Build backend to upgrade MHP to high value products • A number of options • New low capital cost, low complexity selective acid leach option 15 Opportunity for a MHP toll refinery 16 MHP Refinery Plant life 20 years Annual capacity 50,000 tpa of Ni 2,500 tpa of Co Annual revenue1 $1,060M Cash costs $0.87 / lb of Ni2 Annual MHP purchase costs3 $744M Total annual costs $840M Annual gross profit $218M Capital cost $284M Payback period 2 years NPV (8%) $1,812M IRR 77% 1. Long term metal prices of $9/lb for nickel, and $15/lb for cobalt 2. Cash costs do not include cobalt credits 3. Assuming MHP purchase at 75% contained nickel value • Even lower capital cost options utilising existing nickel refinery: • Existing nickel matte refinery (e.g. Sherritt-Gordon process) • Existing ferronickel smelter (creating an NHP feed)",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "выделение никеля с помощью кислотного разбавления",
+          "name_en": "acid leaching of nickel",
+          "canonical": "acid_leaching_nickel"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "никелевая матта",
+          "name_en": "nickel matte",
+          "canonical": "nickel_matte"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": " smelting of ferronickel",
+          "name_en": "ferronickel smelting",
+          "canonical": "smelting_ferronickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "acid leaching of nickel"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Existing nickel matte refinery (e.g. Sherritt-Gordon process)"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "smelting of ferronickel"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "eq",
+          "value_min": 9.0,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": "Long term metal prices"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": 15.0,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": "Long term metal prices"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "Tony_Keating_Пример общего характера по переработке латеритных руд::p17::c0": {
+    "chunk": {
+      "chunk_id": "Tony_Keating_Пример общего характера по переработке латеритных руд::p17::c0",
+      "doc_id": "Tony_Keating_Пример общего характера по переработке латеритных руд",
+      "source": "/content/drive/MyDrive/minekg/raw/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "Summary • Nickel laterite resource owners have multiple options • Direct shipping ore, low capital cost but low product value, especially for low grade ore • MHP production, reasonable capital cost but low product value (70- 75%) • Metal production by SX or FeNi, very high capital cost but high product value (100%) • MHP is a popular option, but low payable makes it uneconomic at low nickel prices • High value products are key to being economic at low nickel prices • But, need a low capital and operating cost to get shareholder return 17 Thank you • Metallica Minerals Ltd, BHP Billiton Nickel West, First Quantum Minerals Ltd, Highlands Pacific Ltd, Teck Resources Ltd, Queensland Nickel • Boyd Willis, David White, Chad Czerny 18",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "латеритная руда",
+          "name_en": "laterite ore",
+          "canonical": "laterite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство MHP",
+          "name_en": "MHP production",
+          "canonical": "mhp_production"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "SX (электроэкстракция никеля)",
+          "name_en": "SX (nickel electrowinning)",
+          "canonical": "sx_electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "производство FeNi",
+          "name_en": "FeNi production",
+          "canonical": "fe_ni_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "MHP production, reasonable capital cost but low product value (70-75%)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Metal production by SX or FeNi, very high capital cost but high product value (100%)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "product_value",
+          "op": "range",
+          "value_min": 70.0,
+          "value_max": 75.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "product_value",
+          "op": "eq",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  }
+}

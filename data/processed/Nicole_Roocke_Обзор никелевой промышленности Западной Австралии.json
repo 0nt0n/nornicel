@@ -1,0 +1,368 @@
+{
+  "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p1::c1": {
+    "chunk": {
+      "chunk_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p1::c1",
+      "doc_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии",
+      "source": "/content/drive/MyDrive/minekg/raw/Nicole_Roocke_Обзор никелевой промышленности Западной Австралии.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "royalties of $5.3 billion • 116,500 people directly employed in mining + petroleum 56% 20% 14% 4% 3% 1% 1% % Value of WA Minerals & Petroleum Industry Iron Ore Petroleum (including LNG) Gold Nickel Alumina Base Metals (copper, lead,zinc) Heavy Mineral Sands Source: Department of Mines and Petroleum (DMP) Resource Statistics Release January 2013",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железная руда",
+          "name_en": "iron ore",
+          "canonical": "iron_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "нефть и газ",
+          "name_en": "petroleum",
+          "canonical": "petroleum"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "алюминий",
+          "name_en": "alumina",
+          "canonical": "alumina"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "основные металлы (медь, свинец, цинк)",
+          "name_en": "base metals (copper, lead, zinc)",
+          "canonical": "base_metals"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "тяжелые минеральные пески",
+          "name_en": "heavy mineral sands",
+          "canonical": "heavy_mineral_sands"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p4::c0": {
+    "chunk": {
+      "chunk_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p4::c0",
+      "doc_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии",
+      "source": "/content/drive/MyDrive/minekg/raw/Nicole_Roocke_Обзор никелевой промышленности Западной Австралии.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "4 Global Share & Price Source: Port Jackson Partners report for MCA – Opportunity at Risk 15,000 20,000 25,000 30,000 Dec-10 Jun-11 Dec-11 Jun-12 Dec-12 A$ NICKEL PRICE A$/tonne Source: LME Cash, Monthly Average 5 Location of Operations Source: http://www.australianminesatlas.gov.au 6 Source: DMP Statistics Digest 2011-12 Nickel exports – Total Value $3.7 billion Export Markets Cost of Doing Business 7  Minerals Resource Rent Tax, Carbon Tax, Payroll and Company Taxes, State Royalties, Infrastructure costs, Local Government Ratings, Mines Safety Levy, Cost-Recovery of Commonwealth and State Environmental Impact Assessments.  Reducing “Red” and “Green Tape” necessary to lower costs for business and improve competition and productivity.  Insufficient and inefficient infrastructure An Efficient Approvals Process 8  Time taken for project approval is the single biggest challenge to getting projects off the ground.  Continued reform of regulatory systems necessary  Increased public scrutiny and expectations on a company's environmental performance.  Integrity is necessary to have community support Source: First Quantum Minerals",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "экспорт никеля",
+          "name_en": "nickel export",
+          "canonical": "nickel_export"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Nickel exports – Total Value $3.7 billion"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p1::c0": {
+    "chunk": {
+      "chunk_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p1::c0",
+      "doc_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии",
+      "source": "/content/drive/MyDrive/minekg/raw/Nicole_Roocke_Обзор никелевой промышленности Западной Австралии.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "An overview of the Western Australian nickel industry: An industry in transition? Nicole Roocke Director The Chamber of Minerals and Energy of Western Australia (CME) 1 July 2013 1 2 About CME Vision: To champion the Western Australian resource sector and assist it in achieving its vision to lead the world in sustainable practice, through innovation, and continuing to underpin Australia’s position in the global economy. • In operation for 111 years • Over 230 members representing over 95% of resources production by value in WA • Represents both large and small companies – significant membership growth in gold, uranium and iron ore. CME portfolio interests cover • Infrastructure • Environment and Land Access • People Strategies • Occupational Safety and Health • Economics & Tax • Regional portfolios The Western Australian Resources Sector 3 In 2011-12, the Western Australian resources sector accounted for: • $106 billion in sales value • 91% of the State’s merchandise export income • 46% of National merchandise export income • State royalties of $5.3 billion • 116,500 people directly employed in mining + petroleum 56% 20% 14% 4% 3% 1% 1% % Value of WA Minerals & Petroleum Industry",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "The Chamber of Minerals and Energy of Western Australia (CME)",
+          "name_en": "The Chamber of Minerals and Energy of Western Australia (CME)",
+          "canonical": "Chamber of Minerals and Energy of Western Australia"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "nickel",
+          "name_en": "nickel",
+          "canonical": "Nickel"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "sales value",
+          "name_en": "sales value",
+          "canonical": "Sales Value"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "merchandise export income",
+          "name_en": "merchandise export income",
+          "canonical": "Merchandise Export Income"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "royalties",
+          "name_en": "royalties",
+          "canonical": "Royalties"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "employment in mining + petroleum",
+          "name_en": "employment in mining + petroleum",
+          "canonical": "Employment in Mining and Petroleum"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "An overview of the Western Australian nickel industry: An industry in transition?"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "$106 billion in sales value"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "91% of the State’s merchandise export income"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "$5.3 billion in state royalties"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "116,500 people directly employed in mining + petroleum"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "value",
+          "op": "eq",
+          "value_min": 106000000000.0,
+          "value_max": 106000000000.0,
+          "unit": "AUD",
+          "condition": "in 2011-12"
+        },
+        {
+          "entity_id": "e4",
+          "param": "percentage_of_state_income",
+          "op": "eq",
+          "value_min": 91.0,
+          "value_max": 91.0,
+          "unit": "%",
+          "condition": "in 2011-12"
+        },
+        {
+          "entity_id": "e5",
+          "param": "value",
+          "op": "eq",
+          "value_min": 530000000.0,
+          "value_max": 530000000.0,
+          "unit": "AUD",
+          "condition": "in 2011-12"
+        },
+        {
+          "entity_id": "e6",
+          "param": "number_of_people",
+          "op": "eq",
+          "value_min": 116500.0,
+          "value_max": 116500.0,
+          "unit": "people",
+          "condition": "in 2011-12"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p9::c0": {
+    "chunk": {
+      "chunk_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии::p9::c0",
+      "doc_id": "Nicole_Roocke_Обзор никелевой промышленности Западной Австралии",
+      "source": "/content/drive/MyDrive/minekg/raw/Nicole_Roocke_Обзор никелевой промышленности Западной Австралии.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "9 Exploration Potential 0 10 20 30 40 50 60 70 80 90 100 Mar-2008 Sep-2008 Mar-2009 Sep-2009 Mar-2010 Sep-2010 Mar-2011 Sep-2011 Mar-2012 Sep-2012 Mar-201 A$M Nickel Cobalt Exploration Expenditure Source: ABS 8412.0 - Mineral and Petroleum Exploration, Australia 10 Advantages in Western Australia  Occupational health and safety.  Skilled workforce.  Research and innovation. Source: First Quantum Minerals The Chamber of Minerals and Energy of Western Australia Level 10, 2 Mill St Perth WA 6000 T 08 9220 8500 F 08 9221 3701 E chamber@cmewa.com W www.cmewa.com.au Thank You 11",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "Nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "исследование месторождений",
+          "name_en": "exploration",
+          "canonical": "Exploration"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "First Quantum Minerals",
+          "name_en": "First Quantum Minerals",
+          "canonical": "First Quantum Minerals"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "1 Mill St Perth WA 6000",
+          "name_en": "2 Mill St Perth WA 6000",
+          "canonical": "Chamber of Minerals and Energy of Western Australia"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Exploration Expenditure on Nickel Cobalt"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "expert_in",
+          "evidence": "Advantages in Western Australia from First Quantum Minerals"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "address",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "",
+          "condition": "Mill St Perth WA 6000"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  }
+}

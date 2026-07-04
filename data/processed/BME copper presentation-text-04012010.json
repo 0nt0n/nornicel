@@ -1,0 +1,1155 @@
+{
+  "BME copper presentation-text-04012010::p1::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p1::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Script to accompany BME Powerpoint presentation, 8th January 2010 BME copper market case study: Using mathematical models to sharpen thinking And to de-personalise debate on metal prices [Slide 1] Mathematical price modelling is a very useful tool, long-known within the industry, but one which got forgotten during the 1980s, when base metals prices were very low and very flat. For those old enough to remember, there always used to be two strands to market analysis: (1) in depth knowledge of supply, demand and stocks and (2) mathematical modelling of prices (or of whole industries). There was often a degree or rivalry between the two branches. During the 1980s, for many base metals, prices were moribund for a decade and very nearly all mathematical price models exited the sector – many moving to the foreign exchange markets. While metals prices ‘flat-lined’, there wasn’t a lot to understand about them. With price modellers gone, there was a very general tendency for the supply – demand – stock experts (including BME at first) to simplify price analysis to a reading on a single curve: that of prices versus stocks or prices versus stock to consumption ratios.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "математическое моделирование цен на металлы",
+          "name_en": "mathematical price modeling",
+          "canonical": "mathematical_price_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "базовые металлы",
+          "name_en": "base metals",
+          "canonical": "base_metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "mathematical modelling of prices (or of whole industries)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p1::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p1::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "g BME at first) to simplify price analysis to a reading on a single curve: that of prices versus stocks or prices versus stock to consumption ratios. That was an over-simplification which made prices much harder to understand once they stopped just being a flat line. [Slide 2] Let’s start to explore what is wrong with relying just on the price to stock curve, before demonstrating how quite simple models make the process of understanding price vastly easier. Slide 2 sets out the LME cash price to LME stock relationship for copper over the period from 1990 to 2004. The overall pattern was clear, but it was nevertheless quite a poor relationship that offered little real guidance on how to link specific prices to particular market conditions. For instance in that period, prices of US$1600 / tonne had coexisted with stock levels all the way from 240 kt to almost 1000 kt. Conversely, stocks of around 250 kt had coexisted with prices from around $1500 to $3000, which was in those days pretty much the entire trading range of prices.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь/алюминий (по контексту LME copper)",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "анализ цен на основе запасов",
+          "name_en": "price analysis based on stocks",
+          "canonical": "price_analysis_based_on_stocks"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "price to stock curve for copper"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p2::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p2::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "[Slide 3] This shows how many non-price-modellers dealt with the poor fit. There was a widespread tendency for analysts to draw a trend line through the scatter and call that line the “fundamentally justified price”. By implication, variations around the trend were assumed to be random or just speculatively driven. In fact, the variation around the trend was systematic and reflected two other fundamental drivers which were neglected – in the absence of modellers. [Slide 4] The next slide shows one of these other two fundamental forces: the rate of copper demand growth or the economic growth rate generally (we are using year-on- year growth in global industrial production – IP - here). At any given stock level, faster IP growth coexisted with higher prices. At LME copper stock levels above around 450 kt, a price range of around $250 separated situations of rapid IP growth (price $1750) from slow IP growth (copper price $1500). Below LME stock levels of around 375 kt, this range broadened spectacularly to around $1250, from $1750 when IP growth was slow to around $3000 when IP growth was rapid.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "скорость роста спроса на медь",
+          "name_en": "rate of copper demand growth",
+          "canonical": "copper_demand_growth_rate"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "экономический рост",
+          "name_en": "economic growth rate",
+          "canonical": "economic_growth_rate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "the rate of copper demand growth or the economic growth rate generally"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "the rate of copper demand growth or the economic growth rate generally"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "copper_price",
+          "op": "range",
+          "value_min": 1500.0,
+          "value_max": 1750.0,
+          "unit": "$/tonne",
+          "condition": "slow IP growth"
+        },
+        {
+          "entity_id": "e2",
+          "param": "copper_price",
+          "op": "range",
+          "value_min": 3000.0,
+          "value_max": 1750.0,
+          "unit": "$/tonne",
+          "condition": "rapid IP growth"
+        },
+        {
+          "entity_id": "e3",
+          "param": "copper_price",
+          "op": "range",
+          "value_min": 1500.0,
+          "value_max": 1750.0,
+          "unit": "$/tonne",
+          "condition": "slow IP growth"
+        },
+        {
+          "entity_id": "e3",
+          "param": "copper_price",
+          "op": "range",
+          "value_min": 3000.0,
+          "value_max": 1750.0,
+          "unit": "$/tonne",
+          "condition": "rapid IP growth"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p2::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p2::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "ls of around 375 kt, this range broadened spectacularly to around $1250, from $1750 when IP growth was slow to around $3000 when IP growth was rapid. Supply – demand - stock experts (BME included at first) called the LME stock level of 375 kt the “pinch point” to stocks. The general inference was that at stock levels below this, much higher prices would prevail. A price modeller would view this more precisely: at LME stocks below 375 kt, the sensitivity of price to IP growth increased dramatically. [Slide 5] The next slide shows the other fundamental force that was being neglected when people drew a trend line through the stock to price scatter diagram. This is the strength or weakness of the US dollar. At any given stock level, dollar prices were higher when the dollar was weak. [Slide 6] This slide brings together the degree of fit of prices against three fundamental drivers, then the three combined in simple models, for the period from 1990 through 2004. For copper, stocks and currency factors were of equal influence on the price and had R squareds around 0.6. IP growth had an R squared of around 0.1. A simple three driver model improved the fit to an R squared around 0.8.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь",
+          "name_en": "copper/nickel",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на лондонской бирже металлов (LME)",
+          "name_en": "LME price",
+          "canonical": "lme_price"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "уровень запасов на LME",
+          "name_en": "LME stock level",
+          "canonical": "lme_stock_level"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "рост промышленного производства (IP growth)",
+          "name_en": "industrial production growth",
+          "canonical": "ip_growth"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "сила или слабость доллара США",
+          "name_en": "US dollar strength/weakness",
+          "canonical": "us_dollar_strength"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "validated_by",
+          "evidence": "At stock levels below this, much higher prices would prevail."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "The general inference was that at stock levels below this, much higher prices would prevail."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "validated_by",
+          "evidence": "At any given stock level, dollar prices were higher when the dollar was weak."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "lme_stock_level",
+          "op": "le",
+          "value_min": null,
+          "value_max": 375.0,
+          "unit": "kt",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "lme_price",
+          "op": "range",
+          "value_min": 1250.0,
+          "value_max": 3000.0,
+          "unit": "$/ton",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p2::c2": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p2::c2",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "ice and had R squareds around 0.6. IP growth had an R squared of around 0.1. A simple three driver model improved the fit to an R squared around 0.8. Note that for copper, just using stocks gave a result rather poorer than was necessary, yet not dreadful. Neither the nickel nor the aluminium markets could be understood at all using a price to stock relationship (in isolation) for guidance. A method that sort of worked for copper got quite wrongly used for other metals. [Slide 7] This slide describes the purposes and benefits of price models. Constructing a mathematical model forces a modeller to think much more rigorously about mechanisms in the market. For instance, modelling establishes that demand affects price twice: once as a rate of growth, once as part of the supply – demand balance. Another example would be the true nature of the pinch point to stocks, which is where the sensitivity of price to demand growth rates increases.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "алюминий",
+          "name_en": "aluminum",
+          "canonical": "aluminium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "построение математической модели цены",
+          "name_en": "price model construction",
+          "canonical": "price_model_construction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "A method that sort of worked for copper got quite wrongly used for other metals."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p3::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p3::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "While a series of two dimensional charts is quite easy to look at, it is in fact much easier to use a model to assess the simultaneous impact of several forces. A model allows you more rigorously to quantify links between market circumstances and price. A model facilitates rigorous scenario analysis. A model also tells you quickly when price relationships have changed. Models can be at their most useful when they go wrong – especially if models of different markets all go wrong simultaneously. At the end of 2005, BME was the first company to publish the view that investment in futures by index funds had raised the price level that corresponded to any given stock level. That something had changed was clear from deviations between actual and modelled prices in a whole series of base metals. [Slide 8] This slide describes the limitations and risks of fundamentals-based models. Such models were only of use over the medium- and long-term periods when fundamentals drove prices. For the short term, it was always better to use BME technical analysis expert systems. Fundamentals-based models do not inherently have a mechanism for anticipating wholly new forces that might affect prices.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "технический анализ",
+          "name_en": "technical analysis",
+          "canonical": "technical_analysis"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "базовые металлы",
+          "name_en": "base metals",
+          "canonical": "base_metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "use BME technical analysis expert systems"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2005,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p3::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p3::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "al analysis expert systems. Fundamentals-based models do not inherently have a mechanism for anticipating wholly new forces that might affect prices. They can lead to over-confidence. When quantitative relationships first change, a model user may be over-confident that it is a temporary deviation, and may trade the wrong way. Over-emphasis on modelling can cause non-quantitative price drivers to be neglected. [Slide 9] In constructing a price model, BME uses multivariate regression splines. Splines fit different slopes to different ranges and can incorporate pinch points, floors and ceilings to price. [Slide 10] This shows a BME price model covering the period from 1997 to 2004. The software initially constructs a basis level, then adds increments in $ / tonne for IP growth, stock levels and dollar strength or weakness. For copper, the basis layer was sufficiently close to average production costs for us to adjust the results and substitute the latter. This became a simple four-driver model. [Slide 11] The next slide shows how dramatically price to stock relationships changed after 2004 (starting at different times for different metals, but in July 2005 for copper).",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование цены на металлы",
+          "name_en": "price modeling",
+          "canonical": "price_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель, медь и другие металлы",
+          "name_en": "copper and other metals",
+          "canonical": "metals"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "программное обеспечение для моделирования",
+          "name_en": "software for modeling",
+          "canonical": "modeling_software"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "BME uses multivariate regression splines to construct a price model covering the period from 1997 to 2004."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p3::c2": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p3::c2",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "ows how dramatically price to stock relationships changed after 2004 (starting at different times for different metals, but in July 2005 for copper). [Slide 12] This shows BME’s interpretation of the forces behind the shifts. Rising production costs (in dollars) and extreme dollar weakness have shifted the curve to some extent. However, BME’s interpretation ( a working hypothesis rather than something absolutely proven) is that net-long investments in copper futures has both raised and tilted the curve.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь/алюминий/железо и т.д.",
+          "name_en": "copper and other metals",
+          "canonical": "metals"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на сырье к запасам",
+          "name_en": "price-to-reserve ratio",
+          "canonical": "price_to_reserve_ratio"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "price to stock relationships changed after 2004 for different metals"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p4::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p4::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "[Slide 13] The next slide shows very briefly what we believe to be the mechanism. This is something that we explored at great length in an article in Commodities Now’s 2009 LME Week Supplement [a pdf of this is available on our website] so we will be brief here. Before around mid-2005, producer and other hedge shorts exceeded consumer hedge longs and the balance of the futures market used to be provided by speculative longs. However, from mid-2005, the volume of producer hedge shorts dropped away sharply whilst the volume of investment longs increased (especially index fund longs). The balancing force in the market became speculative shorts whose behaviour is very different from speculative longs, especially at low stock levels. As investment longs increase, sufficient speculative shorts only emerge at higher and higher prices for any given stock level. When thinking about this, people’s first interpretation is that this represents an artificial price rise. But one might alternatively think of it as a way of keeping stocks higher at prices which were needed in any case. There is an element of truth about both approaches.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "базарные операции на рынке лондонской биржи металлов",
+          "name_en": "LME market trading activities",
+          "canonical": "lme_trading_activities"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель, медь и другие металлы",
+          "name_en": "copper and other metals",
+          "canonical": "metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "producer and other hedge shorts exceeded consumer hedge longs and the balance of the futures market used to be provided by speculative longs"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p5::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p5::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "Many users begin by using the model to convince sceptics and conspiracy theorists that metal prices really are understandable to quite a large extent. That is even more important in aluminium and nickel, where the historical dreadful fit between prices and stocks caused some people to think of these simply as manipulated markets. Licensees also use the models to de-personalise discussions on price, across one or more metals. Instead of wanting to say to their colleagues (or bosses) unhelpful things like “you are wrong” they can now be more constructive and say things like “the aluminium department’s assumption on the impact of currency factors is at odds with the assumptions of the copper department: what does the CFO think?”. Or whatever. Licensees use it to explore a range of future scenarios quickly and easily. Where hedging is undertaken (or being considered) they use it in discussion. If they do feel obliged to forecast prices (which is a necessity if one is to value assets or rank projects), they can at least use models rigorously to make compatible forecasts across a range of metals. But models are not magic. Even using them, forecasting is a very difficult exercise.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "прогнозирование цен на металлы",
+          "name_en": "metal price forecasting",
+          "canonical": "metal_price_forecasting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "алюминий, никель",
+          "name_en": "aluminum, nickel",
+          "canonical": "aluminum_nickel"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "модели прогнозирования цен на металлы",
+          "name_en": "metal price forecasting models",
+          "canonical": "metal_price_forecasting_models"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "forecasting is a very difficult exercise, especially in aluminium and nickel"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Licensees use the models to explore a range of future scenarios quickly and easily"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p5::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p5::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "igorously to make compatible forecasts across a range of metals. But models are not magic. Even using them, forecasting is a very difficult exercise. [Slide 20] This slide moves on to contrast how modellers and non-modellers tend to view the long term price outlook for valuation purposes. Many companies which need to work with long-term prices do not (yet) incorporate insights from price modelling. Many assume a simple, smooth reversion from today’s very high investment / speculation boosted prices to much lower, production-cost related levels. Companies taking in insights from mathematical modellers on the contrary would analyse the anticipated legacy of excess stocks and structural over-capacity that would result from any continuation of excess (i.e. investment / speculation driven) prices. The latter companies would then try to assess when and for how long prices would be below assumed cost-related levels, whilst legacy excess stocks were worked off. The two approaches would yield very different asset valuations. BME believes that the approach bringing in insights from modelling will yield better results.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование цен на металлы",
+          "name_en": "metal price modeling",
+          "canonical": "price_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "металлы",
+          "name_en": "metals",
+          "canonical": "metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "models are not magic. Even using them, forecasting is a very difficult exercise."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p4::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p4::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "ernatively think of it as a way of keeping stocks higher at prices which were needed in any case. There is an element of truth about both approaches. [Slide 14] This slide shows actual prices versus those modelled using just the old physical market drivers. The scale of the deviation from late 2005 is spectacular. [Slide 15] The next slide shows a split of what we consider to be the cause of the deviation from late 2005 into two components of a total investment-net long. This is a fairly smoothly growing positive only index fund component and a much more volatile alternately long / short component which we have labelled “hedge fund” but which will also be incorporating other speculators. From discussions with the trade, we believe that the maximum total hedge fund net shorts, post-Lehman, were broadly similar in scale to the maximum hedge fund net longs, in 2006 and 2007. From that we have derived a split between the two forces which we reckon to be roughly right. It is the best that we think can be done given the difficulties in obtaining fully quantitative externally sourced data.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование цен",
+          "name_en": "modelling prices",
+          "canonical": "modelling_prices"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "данные",
+          "name_en": "data",
+          "canonical": "data"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обсуждение с торговцами",
+          "name_en": "discussions with the trade",
+          "canonical": "discussions_with_the_trade"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "факторы инвестиций-нетто",
+          "name_en": "investment-net long factors",
+          "canonical": "investment_net_long_factors"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "разделение факторов",
+          "name_en": "splitting the forces",
+          "canonical": "splitting_the_forces"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "[Slide 14] This slide shows actual prices versus those modelled using just the old physical market drivers."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "From discussions with the trade, we believe that the maximum total hedge fund net shorts, post-Lehman, were broadly similar in scale to the maximum hedge fund net longs, in 2006 and 2007."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "From that we have derived a split between the two forces which we reckon to be roughly right. It is the best that we think can be done given the difficulties in obtaining fully quantitative externally sourced data."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "difficulty",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "given the difficulties in obtaining fully quantitative externally sourced data."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p4::c2": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p4::c2",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "reckon to be roughly right. It is the best that we think can be done given the difficulties in obtaining fully quantitative externally sourced data. What it does do is give one a reasonable basis for forecasting the extent to which hedge funds’ anticipatory or trend-following behaviours might affect prices in future, one of the main elements of price risk. [Slide 16] This shows recent output from the BME copper price model, which incorporates both the traditional fundamental drivers and what we consider to have been the two financial drivers (index funds and hedge funds). Note that the close fit from late 2005 flatters the model somewhat as our hedge funds’ long / short positions estimates have been influenced by the actual historical price. Even if we get all of the price drivers perfectly correct, the fit of any forecasts would not be quite so good. [Slide 17] This splits out the modelled price drivers’ various contributions. [Slide 18] This shows recent forecast output from the BME copper price model. [Slide 19] The next slide moves on to how our customers use BME price models.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "прогнозирование",
+          "name_en": "forecasting",
+          "canonical": "forecasting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "модель цены на кобальт",
+          "name_en": "BME copper price model",
+          "canonical": "BME copper price model"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "интеграция",
+          "name_en": "incorporates",
+          "canonical": "incorporates"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "традиционные фундаментальные факторы",
+          "name_en": "traditional fundamental drivers",
+          "canonical": "traditional fundamental drivers"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "факторы финансового характера",
+          "name_en": "financial drivers (index funds and hedge funds)",
+          "canonical": "financial drivers"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "разделение",
+          "name_en": "splits out",
+          "canonical": "splits out"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "вклад моделированных факторов цены",
+          "name_en": "modelled price drivers’ various contributions",
+          "canonical": "modelled price drivers' various contributions"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "прогнозирование",
+          "name_en": "recent forecast output",
+          "canonical": "forecast output"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "incorporates traditional fundamental drivers"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "incorporates financial drivers (index funds and hedge funds)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "This shows recent output from the BME copper price model"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "This splits out the modelled price drivers’ various contributions."
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "This shows recent forecast output from the BME copper price model."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "basis",
+          "op": "ge",
+          "value_min": 0.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "reasonable"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p6::c1": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p6::c1",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "sector rotation between equities, bonds and commodities, and model likely future trends and cycles of investment flows into (and out of) commodities. [Slide 24] In this slide, we contrast the old world of commodities market analysis, which was dominated by individual metal specialists, to a more complex world where no-one will be able to understand a single commodity market in isolation from broader financial influences. That slide encapsulates BME’s philosophy. [Slide 25] This explains how our customers can gain access either to standard or customised BME price models. Our current models run with monthly data through 2012. They are updated and circulated to clients monthly. The models are being extended to cover the long term to allow users to explore in full issues such as (i) future legacies of excess stock (ii) eventual disinvestment and (iii) short-, medium- and long-term price prospects. There are five standard models: copper, aluminium, nickel, zinc and lead. Annual licences cost £10,000 for one metal, £16,000 for two metals, £20,000 for three metals, £23,000 for four, £25,000 for five. BME would be happy to work with clients to customise these models or create new ones.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "модели BME",
+          "name_en": "BME models",
+          "canonical": "bme_models"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "nickel is one of the standard models offered by BME"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p5::c2": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p5::c2",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "approaches would yield very different asset valuations. BME believes that the approach bringing in insights from modelling will yield better results. [Slide 21] Shows graphically a typical long-term price scenario analysis that might be constructed by a non-modeller. [Slide 22] Shows in contrast a possible view of a modeller. They will probably have the same very long term view as a non-modeller, but their short-term view is likely to be higher and their medium term view much lower. A company drawing insights from",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование",
+          "name_en": "modelling",
+          "canonical": "modelling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "график",
+          "name_en": "graph",
+          "canonical": "graph"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "анализ долгосрочной цены",
+          "name_en": "long-term price scenario analysis",
+          "canonical": "long-term price scenario analysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "[Slide 21] Shows graphically a typical long-term price scenario analysis that might be constructed by a non-modeller."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "[Slide 21] Shows graphically a typical long-term price scenario analysis that might be constructed by a non-modeller. [Slide 22] Shows in contrast a possible view of a modeller."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "year(s)",
+          "condition": "long-term"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p6::c0": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p6::c0",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "modelling might thus place higher relative valuations on producing assets than on new projects. [Slide 23] This slide emphasises that understanding commodities prices is a moving target. It is also where we begin our sales pitch (not until slide 23!). BME was the industry’s ‘thought leader’ over 2002 to 2005, when we brought modelling back into the mainstream of base metals analysis. We broadened people’s focus from stocks as the key indicator, to the combination of stocks, demand growth rates and currency factors. From 2005 to 2009, we were the industry’s ‘thought leader’ in analysing markets that had become hybrid: part industrial raw material market, part investment vehicle. In 2010, we shall be moving further ahead, modelling the feedback loop from investment-influenced (i.e. excessive) prices to (upward) stock trend. We shall also be drawing on BME Price Models’ earlier work on equity investor sector rotation, to explore sector rotation between equities, bonds and commodities, and model likely future trends and cycles of investment flows into (and out of) commodities.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "BME",
+          "name_en": "BME",
+          "canonical": "BME"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "modelling",
+          "name_en": "modelling",
+          "canonical": "modelling"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "sales pitch",
+          "name_en": "sales pitch",
+          "canonical": "sales pitch"
+        },
+        {
+          "id": "e4",
+          "type": "Experiment",
+          "name_ru": "modelling back into the mainstream of base metals analysis",
+          "name_en": "brought modelling back into the mainstream of base metals analysis",
+          "canonical": "brought modelling back into the mainstream of base metals analysis"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "analysing markets that had become hybrid: part industrial raw material market, part investment vehicle",
+          "name_en": "analysing markets that had become hybrid: part industrial raw material market, part investment vehicle",
+          "canonical": "analysing markets that had become hybrid"
+        },
+        {
+          "id": "e6",
+          "type": "Experiment",
+          "name_ru": "modelling the feedback loop from investment-influenced (i.e. excessive) prices to (upward) stock trend",
+          "name_en": "modelling the feedback loop from investment-influenced (i.e. excessive) prices to (upward) stock trend",
+          "canonical": "modelling the feedback loop"
+        },
+        {
+          "id": "e7",
+          "type": "Experiment",
+          "name_ru": "exploring sector rotation between equities, bonds and commodities, and model likely future trends and cycles of investment flows into (and out of) commodities",
+          "name_en": "exploring sector rotation between equities, bonds and commodities, and model likely future trends and cycles of investment flows into (and out of) commodities",
+          "canonical": "exploring sector rotation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "[Slide 23]"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "brought modelling back into the mainstream of base metals analysis"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "expert_in",
+          "evidence": "analysing markets that had become hybrid: part industrial raw material market, part investment vehicle"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "expert_in",
+          "evidence": "modelling the feedback loop from investment-influenced (i.e. excessive) prices to (upward) stock trend"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "expert_in",
+          "evidence": "exploring sector rotation between equities, bonds and commodities, and model likely future trends and cycles of investment flows into (and out of) commodities"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2010.0,
+          "value_max": 2010.0,
+          "unit": "",
+          "condition": "In 2010"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME copper presentation-text-04012010::p6::c2": {
+    "chunk": {
+      "chunk_id": "BME copper presentation-text-04012010::p6::c2",
+      "doc_id": "BME copper presentation-text-04012010",
+      "source": "/content/drive/MyDrive/minekg/raw/BME copper presentation-text-04012010.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": ", £20,000 for three metals, £23,000 for four, £25,000 for five. BME would be happy to work with clients to customise these models or create new ones. Peter Hollands, 8th January 2010 See also our website www.bloomsburyminerals.com on nickel and aluminium.",
+      "doc_type": "unknown",
+      "path_year": 2010,
+      "path_geo": null,
+      "meta_year": 2010
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "nickel и aluminium",
+          "name_en": "nickel and aluminium",
+          "canonical": "Materials"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Peter Hollands",
+          "name_en": "Peter Hollands",
+          "canonical": "Expert"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "See also our website www.bloomsburyminerals.com on nickel and aluminium."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  }
+}

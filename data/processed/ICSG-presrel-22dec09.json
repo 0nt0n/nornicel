@@ -1,0 +1,61 @@
+{
+  "ICSG-presrel-22dec09::p1::c0": {
+    "chunk": {
+      "chunk_id": "ICSG-presrel-22dec09::p1::c0",
+      "doc_id": "ICSG-presrel-22dec09",
+      "source": "/content/drive/MyDrive/minekg/raw/ICSG-presrel-22dec09.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "ICSG PRESS RELEASE Date Issued: 21st December 2009 Copper: Preliminary Data for September 2009 The International Copper Study Group (ICSG) released preliminary data for September world copper supply and demand in its December 2009 Copper Bulletin. The Bulletin is available for sale upon request. According to the preliminary ICSG data, the apparent refined copper market balance for September showed a nominal surplus of around 3,000 metric tonnes (t). When making seasonal adjustments for world refined production and usage, September showed a surplus of about 11,000 t. The apparent refined copper balance for the first nine months of 2009, including revisions to data previously presented, indicates a production deficit of about 50,000 t (a seasonally adjusted surplus of 161,000 t). This compares with a production deficit of around 92,000 t (a seasonally adjusted surplus of about 118,000 t) for the same period in 2008. In the first 9 months of 2009, world usage is estimated to have decreased by 0.8% compared with that in the same period of 2008.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2009
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо-никельная руда",
+          "name_en": "copper ore",
+          "canonical": "copper_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство чистого меди",
+          "name_en": "refined copper production",
+          "canonical": "refined_copper_production"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_deficit",
+          "op": "le",
+          "value_min": 50000.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "seasonally_adjusted_surplus",
+          "op": "ge",
+          "value_min": 161000.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2009,
+        "confidence": "low"
+      }
+    }
+  }
+}

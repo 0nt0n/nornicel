@@ -1,0 +1,109 @@
+{
+  "Обзоры__Ведущие производители Ni, Cu,Co и МПГ::p4::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Ведущие производители Ni, Cu,Co и МПГ::p4::c1",
+      "doc_id": "Обзоры__Ведущие производители Ni, Cu,Co и МПГ",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Ведущие производители Ni, Cu,Co и МПГ.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "сь 38% и 31%, соответственно, а в 2016 г. их доли сравнялись – по 34% (ещё 24% - это медь), при этом общая выручка составила 7,883 млрд USD в 2015 г. Вся Компания – это одно большое никелевое отделение, выпускающее никель и необычно много (по сравнению со всеми другими компаниями) побочной продукции (Pd, Pt, Cu и др) – во всяком случае, до ввода в строй Быстринского ГОКа.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "побочная продукция (Pd, Pt)",
+          "name_en": "by-products (palladium, platinum)",
+          "canonical": "by_products"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "выпускающее никель и необычно много (по сравнению со всеми другими компаниями) побочной продукции"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "выпускающее никель и необычно много (по сравнению со всеми другими компаниями) побочной продукции"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "unknown",
+        "year": null,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Ведущие производители Ni, Cu,Co и МПГ::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Ведущие производители Ni, Cu,Co и МПГ::p1::c1",
+      "doc_id": "Обзоры__Ведущие производители Ni, Cu,Co и МПГ",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Ведущие производители Ni, Cu,Co и МПГ.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "............................ 19 2 Медь .............................................................................................................. 21 3 Кобальт ......................................................................................................... 23 4 МПГ ............................................................................................................... 26 Основные источники ............................................................................................ 44",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "малоценные полуметаллы и галогены (МПГ)",
+          "name_en": "minor metals and halogens (MPG)",
+          "canonical": "minor_metals_and_halogen"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "unknown",
+        "year": null,
+        "confidence": "low"
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "Nils_Voermann_Ni Производство - К проектной мощности и выше::p1::c0": {
+    "chunk": {
+      "chunk_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше::p1::c0",
+      "doc_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше",
+      "source": "/content/drive/MyDrive/minekg/raw/Nils_Voermann_Ni Производство - К проектной мощности и выше.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "01/2012 New nickel plants – to design production rate and beyond Nils Voermann 2 01/2012 New Nickel Plants • SNNC • Ravensthorpe • Goro • Onca Puma • Barro Alto • Koniambo • Fenix 01/2012 KONIAMBO Commissioning and Ramp-up 4 01/2012 Purpose of New Technology / Larger Scale • Maximize output: Plant capacity x Availability x Utilization x Recovery • Minimize inputs: Initial investment + Maintenance + Energy + Labour $ 5 01/2012 5 Implementation performance record [1] Ref.: McNulty, 1998 6 01/2012 6 Implementation performance record [2] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 0 1 2 3 4 5 Annualized Production (% of Design Capacity) Years of Operation Ni Lat Smelter B (M1/M2, Gen 2) Ni Lat Smelter C (M1, Well Piloted) Ni Lat Smelter D (M1/M2, Gen 2) Ni Lat Smelter F (M4, Gen 1) Ni Lat Smelter A (M4, Gen 1) Ni Lat Smelter E (M4, Gen 1) Second Generation/ More Piloting M0 M4 M1 M2 M3 First Generation/ Less Piloting",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство никеля",
+          "name_en": "nickel production",
+          "canonical": "nickel_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Maximize output: Plant capacity x Availability x Utilization x Recovery"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "Nils_Voermann_Ni Производство - К проектной мощности и выше::p14::c0": {
+    "chunk": {
+      "chunk_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше::p14::c0",
+      "doc_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше",
+      "source": "/content/drive/MyDrive/minekg/raw/Nils_Voermann_Ni Производство - К проектной мощности и выше.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "14 01/2012 Incremental addition of production capacity on an existing site CAPEX (US$ million) CAPEX / annual lb. Ni production (US$ / lb. Ni capacity) Greenfield pyro plant 50,000 tpy Ni in FeNi 5,000 45 Greenfield hydromet plant 50,000 tpy Ni 5,000 45 Incremental addition of 25,000 tpy Ni in FeNi 2 kiln + 2 x 80 MW furnaces pyro plant expanded to 3 kilns + 3 x 80 MW furnaces pyro plant 500 - 700 4.50 - 6.30 15 01/2012 Conclusion • Economies of scale have not yet been fully exploited in laterite nickel metallurgical plants to minimize CAPEX and OPEX per unit of Ni production • Recently constructed / started-up and pyromet and hydroment plants have excellent upgrade potential – Adding technology to increase productivity of existing unit operations – Adding additional production line(s) to take advantage of already spent site infrastructure costs. • Incremental expansion of production capacity can be highly cost effective – Debottlenecking to reach design production rate – Exploitation of latent overcapacity in some production steps by upgrading rate limiting unit operations",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "пирометаллургический процесс",
+          "name_en": "pyrometallurgical process",
+          "canonical": "pyrometallurgy"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "гидрометаллургический процесс",
+          "name_en": "hydrometallurgical process",
+          "canonical": "hydrometallurgy"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "печь",
+          "name_en": "furnace",
+          "canonical": "furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "pyro plant produces nickel"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "hydromet plant produces nickel"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": 50000.0,
+          "value_max": 50000.0,
+          "unit": "tpy Ni in FeNi",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": 50000.0,
+          "value_max": 50000.0,
+          "unit": "tpy Ni",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Nils_Voermann_Ni Производство - К проектной мощности и выше::p7::c0": {
+    "chunk": {
+      "chunk_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше::p7::c0",
+      "doc_id": "Nils_Voermann_Ni Производство - К проектной мощности и выше",
+      "source": "/content/drive/MyDrive/minekg/raw/Nils_Voermann_Ni Производство - К проектной мощности и выше.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "7 01/2012 7 Risk factors for new technology implementation: – Too many new elements – Inadequate pilot testing – Over reliance on equipment vendors – Insufficient human and/or financial resources – Inadequately skilled project teams - imbalance of champions and skeptics – Poor project stage gating or phasing – Poor knowledge of overall business case 8 01/2012 8 Implementation performance record [3] 9 01/2012 9 Kennecott Flash Converting 10 01/2012 1 0 Kennecott Flash Converting Ref.: Mackey and Nesset, 2003 0% 20% 40% 60% 80% 100% 120% 0 1 2 3 4 5 Percent of Design Capacity Years After Start-up Upgrade of Flash Converting Furnace and anode casting wheels 11 01/2012 Ravensthorpe High Pressure Acid Leach (HPAL) 12 01/2012 PT Vale Indonesia Productivity Increases since start-up Furnace power (MW) Year Ref.: A. Daenuwy, A. Dalvi et al, 1992 13 01/2012 Retrofit Upgrade Phase Number of Rotary Kilns Number of Furnaces (MW / furnace) Calcine output Per Kiln Calcine input per Furnace Total Calcine Throughput Total Nickel in FeNi produced I 2 2 (80 MW) 160 tph 160 tph 320 tph 50,000 tpy II 3 2 (120 MW) 160 tph 240 tph 480 tph 75,000 tpy",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обессоливание",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "печь взвешенной плавки",
+          "name_en": "flash_smelting_furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "никель-железо",
+          "name_en": "nickel-iron",
+          "canonical": "ni_fe"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "выплавка анодов",
+          "name_en": "anode_casting",
+          "canonical": "anode_casting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Upgrade of Flash Converting Furnace and anode casting wheels"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Total Nickel in FeNi produced"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "calcine_output",
+          "op": "eq",
+          "value_min": 160.0,
+          "value_max": 160.0,
+          "unit": "tph",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "calcine_input_per_furnace",
+          "op": "eq",
+          "value_min": 160.0,
+          "value_max": 160.0,
+          "unit": "tph",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "total_calcine_throughput",
+          "op": "eq",
+          "value_min": 320.0,
+          "value_max": 320.0,
+          "unit": "tph",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "total_nickel_produced",
+          "op": "eq",
+          "value_min": 50000.0,
+          "value_max": 50000.0,
+          "unit": "tpy",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  }
+}

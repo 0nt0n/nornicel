@@ -1,0 +1,2015 @@
+{
+  "BME-Cu--sample-rep-nov10::p1::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p1::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "BME’s New Quarterly Report on Copper For over ten years now, BME has published a Quarterly Report on Copper. The publication is well respected in the industry as a source of copper data and forecasts. It has provided the only thorough analysis of physical market fundamentals, which shows copper’s transition through all stages of the process chain linked in one integrated database. Over the past year at BME, we have been substantially upgraded our data systems, creating the new CopperChain Database. Summary data and analysis from this revised and expanded data system is already available in our monthly Copper Briefing Service. While retaining the best features of our earlier data systems, our new database allows us to offer a much enhanced service to our clients. In the new Quarterly Report on Copper we give direct access to detailed historical and forecast data on the copper supply chain, both globally and for individual countries and regions. We also provide our view on price, taking into account financial as well as physical market influences.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Квартальный отчет BME о меди",
+          "name_en": "BME Quarterly Report on Copper",
+          "canonical": "bme_quarterly_report_on_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "Summary data and analysis from this revised and expanded data system is already available in our monthly Copper Briefing Service."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p1::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p1::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "lly and for individual countries and regions. We also provide our view on price, taking into account financial as well as physical market influences. Specifically, we list the features of the Report, indicating what is new or extended in the new edition: \u0001 An editorial review and five­year forecast of physical copper market fundamentals and price EXTENDED \u0001 A review of copper mining company performance NEW \u0001 A news round up for the previous three months NEW \u0001 Global and summary tables showing capacity, output, trade and stocks of refined copper products and all other products along the copper process chain EXTENDED \u0001 Detailed country and region tables covering over 60 countries, showing production capacities and all process chain items as described above EXTENDED \u0001 An Excel Client File containing the full CopperChain data set, currently covering the years 2000 to 2015 NEW \u0001 Telephone or email access to the Editor of the Quarterly, who will be available to answer your queries Simultaneously with the release of the new Quarterly, BME is also launching its updated Interactive Copper Price Model. The new product will integrate closely with the physical",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство медной руды",
+          "name_en": "copper mining",
+          "canonical": "copper_mining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "A review of copper mining company performance NEW"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p2::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p2::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "market fundamentals analysis in our CopperChain database. The Model looks not only at the physical market but also the investor­driven futures market, and the interplay between the two in determining price. The Editorial Team of the Quarterly will utilise the Model to explore alternative price scenarios, but its primary purpose is to allow subscribers to make their own scenarios. What, for example, would be the impact on price of a certain volume of ETFs, given alternative physical market conditions? As such, we see a great advantage in owning and using the Quarterly Report and the Model side­by side. We offer subscribers that wish to do this a package discount. To give you a flavour of the new Quarterly Report on Copper, we enclose a few tables taken from the issue of the Report published in October 2010. Prices for the Quarterly Report on Copper and the Interactive Copper Price Model Quarterly Report on Copper £5,000 Interactive Copper Price Model £10,000 Combined Price, Quarterly & Price Model £13,500 For more details on either of these services please contact initially: Robert Goldstein: rbg@bloomsburyminerals.com",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель/медь/железо и т.д.",
+          "name_en": "copper/nickel/iron and others",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "аналитический процесс",
+          "name_en": "analytical process",
+          "canonical": "market_fundamentals_analysis"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": " Quarterly Report и Interactive Copper Price Model",
+          "name_en": "Quarterly Report and Interactive Copper Price Model",
+          "canonical": "copper_market_report"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "market fundamentals analysis in our CopperChain database"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "enclose a few tables taken from the issue of the Report published in October 2010"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "eq",
+          "value_min": 5000.0,
+          "value_max": null,
+          "unit": "GBP",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "eq",
+          "value_min": 10000.0,
+          "value_max": null,
+          "unit": "GBP",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "eq",
+          "value_min": 13500.0,
+          "value_max": null,
+          "unit": "GBP",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p3::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p3::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "New Quarterly Report on Copper Sample Section A Tables 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Industrial Production Index 121.9 128.5 128.8 119.0 130.1 137.1 142.6 146.6 152.1 161.1 % Ch Y­O­Y 5.2% 5.5% 0.2% ­7.6% 9.3% 5.4% 4.0% 2.8% 3.8% 5.9% Mine Output (kt) 15061 15465 15471 15928 16165 16955 17624 18254 18853 19523 % Ch Y­O­Y 0.7% 2.7% 0.0% 3.0% 1.5% 4.9% 3.9% 3.6% 3.3% 3.6% Smelter Output (kt) 13902 14111 14460 14544 14797 15411 15950 16419 16988 17658 % Ch Y­O­Y 3.6% 1.5% 2.5% 0.6% 1.7% 4.1% 3.5% 2.9% 3.5% 3.9% Refined Output (kt) 17388 18055 18400 18495 19267 20170 21024 21730 22401 23273 % Ch Y­O­Y 4.6% 3.8% 1.9% 0.5% 4.2% 4.7% 4.2% 3.4% 3.1% 3.9% Refined Use (kt) 17486 18082 18177 17550 19550 20580 21216 21680 22178 22995 % Ch Y­O­Y 3.2% 3.4% 0.5% ­3.5% 11.4% 5.3% 3.1% 2.2% 2.3% 3.7% Refined Balance (kt) ­98 ­27 223 945 ­283 ­410 ­193 51 223 278 Exchange Stocks (kt) 253 239 390 686 536 375 310 326 396 483 % Ch Y­O­Y 61.8% ­5.7% 63.7% 75.8% ­21.9% ­30.0% ­17.3% 5.2% 21.4% 22.1% Total Stocks (kt) 3169 3142 3365 4310 4027 3617 3424 3476 3701 3983 % Ch Y­O­Y ­3.0% ­0.9% 7.1% 28.1% ­6.6% ­10.2% ­5.3% 1.5% 6.5% 7.6% LME Cash ($/t) 6721 7117 6955 5149 7408 7802 8638",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка никеля",
+          "name_en": "copper processing",
+          "canonical": "copper_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Industrial Production Index, Mine Output, Smelter Output, Refined Output, Refined Use, Refined Balance, Exchange Stocks, Total Stocks, LME Cash"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p3::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p3::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "10 4027 3617 3424 3476 3701 3983 % Ch Y­O­Y ­3.0% ­0.9% 7.1% 28.1% ­6.6% ­10.2% ­5.3% 1.5% 6.5% 7.6% LME Cash ($/t) 6721 7117 6955 5149 7408 7802 8638 8627 8274 7725 % Ch Y­O­Y 82.7% 5.9% ­2.3% ­26.0% 43.9% 5.3% 10.7% ­0.1% ­4.1% ­6.6% TABLE A1 Summary Data Table Various Indicators 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 CONCENTRATES Normal Country Stocks 26.3 26.7 26.9 27.2 26.7 26.8 26.8 26.9 27.3 27.7 Total 43.2 44.4 39.9 34.7 33.9 35.0 36.0 39.6 42.6 43.8 BLISTER GRADE COPPER Normal Country Stocks 51.1 51.6 51.2 50.9 51.0 51.2 51.1 51.0 51.0 51.1 Total 54.5 53.4 52.8 53.9 51.8 51.7 52.4 52.7 53.7 54.0 REFINED COPPER Normal Country Stocks 39.4 39.5 44.8 61.7 55.5 50.4 46.3 45.5 45.9 46.3 At Exchanges 5.3 4.8 7.8 14.3 10.0 6.7 5.3 5.5 6.5 7.6 Total 66.1 63.4 67.6 89.6 75.2 64.1 58.9 58.5 60.8 63.1 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 AT SMELTER Scrap Use 1780 1996 2200 2020 2414 2586 2707 2831 2908 3007 Share of Total 12.8% 14.2% 15.3% 14.0% 16.3% 16.8% 17.0% 17.3% 17.1% 17.0% AT EL & FIRE REFINERY Scrap Use 794 974 934 795 1019 1143 1258 1309 1340 1391 Share of Total 5.4% 6.5% 6.1% 5.2% 6.4% 6.9% 7.4% 7.4% 7.4% 7.4% PROCESS CHAIN TO CATHODE Scrap Use 2574",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты",
+          "name_en": "concentrates",
+          "canonical": "concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "блинчатая медь",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "отделенная меди",
+          "name_en": "refined copper",
+          "canonical": "refined_copper"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": " smelting",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "fire refining",
+          "name_en": "fire refining",
+          "canonical": "fire_refining"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "electrorefining",
+          "name_en": "electrorefining",
+          "canonical": "electrorefining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Scrap Use at smelter"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Scrap Use at fire refining"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "scrap_share",
+          "op": "range",
+          "value_min": 12.8,
+          "value_max": 17.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "scrap_share",
+          "op": "range",
+          "value_min": 5.4,
+          "value_max": 7.4,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p3::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p3::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "794 974 934 795 1019 1143 1258 1309 1340 1391 Share of Total 5.4% 6.5% 6.1% 5.2% 6.4% 6.9% 7.4% 7.4% 7.4% 7.4% PROCESS CHAIN TO CATHODE Scrap Use 2574 2970 3134 2815 3433 3729 3964 4141 4248 4398 Share of Total 14.8% 16.4% 17.0% 15.2% 17.8% 18.5% 18.9% 19.1% 19.0% 18.9% TABLE A3 '000 tonnes Cu TABLE A2 '000 t Cu / % Stock Ratios Along the Process Chain (Days) Scrap in the Process Chain",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "процесс цепочки от шлака до катодной меди",
+          "name_en": "process chain from scrap to cathode copper",
+          "canonical": "process_chain_from_scrap_to_cathode_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Share of Total % and '000 tonnes Cu"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p5::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p5::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "New Quarterly Report on Copper Sample Section B Tables 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Mine Output Concentrates 12227 12430 12242 12493 12687 13221 13655 14129 14630 15162 LG Electrowon 36 32 105 115 25 25 25 19 14 11 HG Electrowon 2798 3003 3124 3320 3453 3710 3945 4106 4209 4350 Total Mine Output 15061 15465 15471 15928 16165 16955 17624 18254 18853 19523 Mine Capacity 17071 17458 17588 18433 19221 19702 20351 21672 23251 23745 % Capacity Utilisation 88% 89% 88% 86% 84% 86% 87% 84% 81% 82% Smelter Balances Concentrates Output 12227 12430 12242 12493 12687 13221 13655 14129 14630 15162 Concentrates Imports 5223 5376 5453 5596 5507 5912 6056 6565 7072 7528 Concentrates Exports 5211 5413 5423 5584 5539 5925 6078 6599 7095 7540 Normal Concs Stocks ­ Mine 67 68 67 68 70 72 75 77 80 83 Normal Concs Stocks ­ Smelter 462 462 462 472 474 490 506 520 539 561 Normal Concs Stocks ­ Transit 351 380 374 390 384 408 423 444 474 508 Abnormal Country Concs Stocks 211 185 71 ­98 ­148 ­125 ­99 3 103 148 Concentrates Use 12385 12389 12393 12648 12708 13142 13574 13955 14456 15047 Smelter Process Losses 335 338 343 354 354 367 380 393 407 424 Apparent Primary Smelter Output 12051",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты руды",
+          "name_en": "ore concentrates",
+          "canonical": "ore_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сырьевые концентраты руды",
+          "name_en": "ore concentrate feedstock",
+          "canonical": "ore_concentrate_feedstock"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": " smelter",
+          "name_en": "smelter",
+          "canonical": "smelter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Concentrates Output, Concentrates Imports, Concentrates Exports"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Smelter Process Losses"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "output",
+          "op": "range",
+          "value_min": 12051.0,
+          "value_max": 15047.0,
+          "unit": "tons/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "output",
+          "op": "range",
+          "value_min": 12227.0,
+          "value_max": 15162.0,
+          "unit": "tons/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p5::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p5::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "9 12393 12648 12708 13142 13574 13955 14456 15047 Smelter Process Losses 335 338 343 354 354 367 380 393 407 424 Apparent Primary Smelter Output 12051 12051 12050 12294 12353 12775 13194 13563 14050 14623 Secondary Smelter Output 1780 1996 2200 2020 2414 2586 2707 2831 2908 3007 LG Electrowon Output 36 32 105 115 25 25 25 19 14 11 Blister Grade Output 13866 14079 14355 14429 14792 15386 15925 16413 16972 17641 Smelter Capacity 17108 17360 17915 18809 19607 20934 22067 23230 23791 24584 % Capacity Utilisation 81% 81% 80% 77% 75% 73% 72% 71% 71% 72% Refinery Balances Blister Grade Output 13866 14079 14355 14429 14792 15386 15925 16413 16972 17641 Blister Grade Imports 1085 1059 1021 931 953 879 843 832 912 909 Blister Grade Exports 1090 1059 1023 928 954 887 828 834 915 910 Normal Blister Stocks ­ Smelter 76 77 79 79 81 84 87 90 93 97 Normal Blister Stocks ­ Refineries 529 540 550 552 567 588 607 626 647 673 Normal Blister Stocks ­ EL Process 1199 1237 1256 1247 1300 1353 1404 1449 1495 1555 Normal Blister Stocks ­ Transit 128 135 127 126 120 122 115 113 121 127 Abnormal Country Blister Stocks 65 9 ­1 57 ­30 ­39 ­7 12 52 71 Blister Grade Use 13795 14077 14342 14381 14795 15318 15822",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": " smelter process",
+          "name_en": "smelting process",
+          "canonical": "smelting_process"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "blister grade output",
+          "name_en": "blister grade output",
+          "canonical": "blister_grade_output"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "electrowinning unit",
+          "name_en": "electrowinning unit",
+          "canonical": "electrowinning_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Apparent Primary Smelter Output"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "LG Electrowon Output"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 24584.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "range",
+          "value_min": 13866.0,
+          "value_max": 17641.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "output",
+          "op": "le",
+          "value_min": null,
+          "value_max": 115.0,
+          "unit": "t/day",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p5::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p5::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "126 120 122 115 113 121 127 Abnormal Country Blister Stocks 65 9 ­1 57 ­30 ­39 ­7 12 52 71 Blister Grade Use 13795 14077 14342 14381 14795 15318 15822 16315 16852 17532 Scrap to Refineries 794 974 934 795 1019 1143 1258 1309 1340 1391 Refinery Output 14590 15052 15276 15176 15814 16460 17079 17625 18192 18923 Refinery Capacity 17985 18555 19274 20264 20500 21310 22555 23630 24113 24870 % Capacity Utilisation 81% 81% 79% 75% 77% 77% 76% 75% 75% 76% Refined Copper Balance Refinery Output 14590 15052 15276 15176 15814 16460 17079 17625 18192 18923 HG Electrowon 2798 3003 3124 3320 3453 3710 3945 4106 4209 4350 Refined Copper Output 17388 18055 18400 18495 19267 20170 21024 21730 22401 23273 Refined Copper Imports 7593 7984 7886 8956 8523 8532 8869 9078 9297 9678 Refined Copper Exports 7747 7851 8067 8769 8464 8448 8939 9139 9411 9809 Normal Refined Stocks ­ Producer 476 495 504 507 528 553 576 595 614 638 Normal Refined Stocks ­ Consumer 490 502 506 492 555 582 601 612 625 647 Normal Refined Stocks ­ Transit 283 283 293 309 330 330 340 352 364 374 LME Stocks 191 199 341 502 366 260 195 237 276 289 Other Exchange Stocks 62 39 50 184 170 115 115 122 127 127 Strategic Stocks 90 150 245",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сырьё (шламы)",
+          "name_en": "scrap",
+          "canonical": "scrap"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "предмет переработки (шламы, отходы)",
+          "name_en": "refined copper",
+          "canonical": "refined_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "electrowinning of nickel",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "установка электролиза (электролизатор)",
+          "name_en": "electrolytic cell",
+          "canonical": "electrolytic_cell"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Electrowon refined copper"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Scrap to Refineries"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "le",
+          "value_min": null,
+          "value_max": 23273.0,
+          "unit": "tons/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "input",
+          "op": "le",
+          "value_min": null,
+          "value_max": 18923.0,
+          "unit": "tons/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p5::c3": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p5::c3",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "352 364 374 LME Stocks 191 199 341 502 366 260 195 237 276 289 Other Exchange Stocks 62 39 50 184 170 115 115 122 127 127 Strategic Stocks 90 150 245 675 665 640 500 448 419 398 Other Abnormal Refined Stocks 469 522 403 716 531 326 211 167 227 337 Refined Copper Consumption 17486 18082 18177 17550 19550 20580 21216 21680 22178 22995 Country Stocks Totals Concentrates 1091 1095 974 832 780 846 905 1045 1196 1299 Blister 1997 1998 2010 2062 2038 2108 2207 2290 2409 2523 Refined Copper 2061 2190 2341 3386 3144 2806 2538 2533 2652 2809 Footnotes Global Copper Supply Chain TABLE B1 '000 tonnes Cu",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты куба",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "блинчатый куб",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "отделенный куб",
+          "name_en": "refined copper",
+          "canonical": "refined_copper"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "stock",
+          "op": "range",
+          "value_min": 974.0,
+          "value_max": 1299.0,
+          "unit": "thousand tonnes Cu",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "stock",
+          "op": "range",
+          "value_min": 1997.0,
+          "value_max": 2523.0,
+          "unit": "thousand tonnes Cu",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "consumption",
+          "op": "range",
+          "value_min": 17486.0,
+          "value_max": 22995.0,
+          "unit": "thousand tonnes Cu",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p7::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p7::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "co 251 231 172 173 180 220 275 285 352 370 United States 692 690 749 727 705 810 835 818 802 806 Latin America 4869 5125 4837 4754 4801 5059 5260 5756 6387 6610 Argentina 180 180 157 143 155 155 150 146 141 142 Brazil 143 199 210 207 205 240 285 319 314 316 Chile 3669 3725 3357 3277 3320 3545 3630 3804 4264 4349 Dominican Rep. 0 0 2 12 10 13 32 39 37 37 Peru 876 1018 1108 1112 1105 1085 1135 1421 1590 1693 Other Countries 1 2 3 3 6 21 28 27 41 72 World 12227 12430 12242 12493 12687 13221 13655 14129 14630 15162 Acknowledgements: Historical figures draw in part on the work of ICSG and WBMS Concentrates Output TABLE B2 '000 tonnes Cu",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты куба",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "выпуск концентратов куба",
+          "name_en": "copper concentrate output",
+          "canonical": "copper_concentrate_output"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Concentrates Output TABLE B2 '000 tonnes Cu"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "range",
+          "value_min": 12227.0,
+          "value_max": 15162.0,
+          "unit": "tonnes",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p7::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p7::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Western Europe 187 174 167 170 201 220 236 235 223 226 Portugal 79 90 89 87 78 87 86 74 70 71 Sweden 87 63 57 55 82 90 100 99 94 95 Other Countries 22 21 20 29 41 43 50 62 59 60 Central Europe 615 586 571 577 572 581 581 555 514 526 Bulgaria 84 103 109 106 109 112 114 118 117 117 Poland 497 452 429 439 425 425 420 395 361 369 Other Countries 34 31 33 32 38 44 47 43 36 41 FSU 1241 1195 1224 1212 1222 1232 1242 1171 1076 1098 Kazakhstan 459 407 420 406 410 425 425 381 323 336 Russia 670 680 695 692 700 690 700 678 648 655 Uzbekistan 80 80 80 80 75 80 80 75 69 70 Other Countries 32 28 29 34 37 37 37 37 37 37 Africa 571 569 731 746 880 918 1018 986 936 964 Congo 65 85 160 155 145 120 155 164 155 157 South Africa 90 97 109 108 103 108 108 106 104 104 Zambia 360 315 385 410 550 595 650 607 572 595 Other Countries 57 72 77 74 82 95 105 108 105 107 M. East & S.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "Mining",
+          "canonical": "mining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2006,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p7::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p7::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "a 90 97 109 108 103 108 108 106 104 104 Zambia 360 315 385 410 550 595 650 607 572 595 Other Countries 57 72 77 74 82 95 105 108 105 107 M. East & S. Asia 309 369 379 387 405 427 437 451 439 442 Iran 205 242 241 256 267 270 270 265 264 265 Turkey 57 65 71 61 65 80 80 78 75 76 Other Countries 47 62 67 70 73 77 87 108 99 101 China 873 928 970 1010 1140 1150 1150 1140 1127 1130 North East Asia 0 0 0 0 0 0 0 0 0 0 South East Asia 846 824 697 1097 957 920 866 855 877 928 Indonesia 817 789 651 995 830 775 715 702 735 783 Laos 0 0 22 54 65 70 70 69 68 68 Philippines 18 23 18 38 48 60 65 69 60 62 Other Countries 11 13 6 10 14 15 16 15 14 14 Other Asia 153 154 150 151 151 151 151 211 255 456 Mongolia 130 130 127 127 127 127 127 188 233 433 Other Countries 24 24 24 24 24 24 24 23 22 23 Australasia 1017 999 990 1001 975 989 1020 1070 1062 996 Australia 822 829 831 834 835 845 865 820 818 811 PNG 194 169 160 167 140 144 155 250 244 185 NAFTA 1546 1508 1527 1389 1385 1575 1695 1699 1735 1788 Canada 603 588 605 490 500 545 585 595 580 612 Mexico 251 231 172 173 180 220 275 285 352 370 United States 692 690 749 727 705 810 835 818 802 806 Latin America 4869 5125 4837 4754 4801 5059 5260 5756",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Copper",
+          "canonical": "Copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "Mining",
+          "canonical": "Mining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p8::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p8::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Western Europe 815 841 823 826 751 844 827 841 870 898 Finland 164 123 133 113 134 137 132 127 131 135 Germany 287 325 272 313 285 307 305 312 320 328 Spain 292 273 306 296 280 290 285 295 306 317 Sweden 72 120 112 104 52 110 105 107 113 117 Other Countries 0 0 0 0 0 0 0 0 0 0 Central Europe 237 192 212 206 209 221 230 240 286 295 Bulgaria 189 161 182 191 190 175 180 181 204 210 Poland 33 18 20 5 10 35 35 48 69 73 Serbia 15 13 10 10 9 11 15 11 12 11 Other Countries 0 0 0 0 0 0 0 0 0 0 FSU 77 94 40 37 29 26 23 63 116 178 Kazakhstan 5 19 10 10 10 10 10 33 62 63 Russia 70 75 30 25 12 6 4 19 38 99 Uzbekistan 2 0 0 2 7 10 9 11 16 16 Other Countries 0 0 0 0 0 0 0 0 0 0 Africa 51 53 56 58 63 103 86 144 164 274 Egypt 0 0 0 0 0 0 0 0 0 107 Namibia 17 11 12 19 19 28 36 37 39 40 South Africa 21 28 30 28 25 40 40 46 44 46 Zambia 11 13 13 10 18 35 10 61 81 80 Other Countries 1 1 1 1 1 0 0 0 0 0 M. East & S.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "",
+          "canonical": ""
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "",
+          "canonical": ""
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": ""
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2006.0,
+          "value_max": 2015.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "region",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Western Europe, Finland, Germany, Spain, Sweden, Central Europe, Bulgaria, Poland, Serbia, FSU, Kazakhstan, Russia, Uzbekistan, Africa, Egypt, Namibia, South Africa, Zambia"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2015,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p8::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p8::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "0 110 90 91 112 117 Chile 29 17 31 13 10 10 10 0 51 41 Peru 0 0 5 15 20 15 15 0 0 0 Other Countries 0 0 0 0 0 0 0 0 0 0 World 5223 5376 5453 5596 5507 5912 6056 6565 7072 7528 Acknowledgements: Historical figures draw in part on the work of ICSG and WBMS TABLE B10 Concentrates Imports '000 tonnes Cu",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты кубышки",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "импорты концентратов кубышки",
+          "name_en": "imports of copper concentrates",
+          "canonical": "imports_of_copper_concentrates"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Concentrates Imports '000 tonnes Cu"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p8::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p8::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "19 19 28 36 37 39 40 South Africa 21 28 30 28 25 40 40 46 44 46 Zambia 11 13 13 10 18 35 10 61 81 80 Other Countries 1 1 1 1 1 0 0 0 0 0 M. East & S. Asia 657 715 620 676 670 750 800 902 941 953 India 612 684 594 660 655 735 785 806 828 850 Iran 23 18 17 15 15 15 15 95 112 101 Oman 22 14 9 1 0 0 0 1 1 1 Other Countries 0 0 0 0 0 0 0 0 0 0 China 1084 1287 1455 1690 1580 1733 1865 2058 2184 2354 North East Asia 1821 1789 1742 1693 1800 1830 1840 1889 1938 1990 Japan 1370 1372 1317 1243 1325 1380 1395 1433 1471 1510 South Korea 451 417 425 450 475 450 445 456 467 480 South East Asia 154 169 186 165 160 175 180 296 354 356 Indonesia 8 0 0 5 10 15 15 135 187 184 Philippines 145 161 187 160 150 160 165 161 166 172 Other Countries 1 8 0 0 0 0 0 0 0 0 Other Asia 0 0 0 0 0 0 0 0 0 0 Australasia 1 0 0 0 0 0 0 0 0 0 NAFTA 130 81 147 97 105 95 90 41 57 73 Canada 106 59 74 52 60 70 70 41 49 53 Mexico 23 10 38 25 20 10 5 0 0 0 United States 0 12 35 20 25 15 15 0 8 20 Latin America 198 155 171 148 140 135 115 91 164 158 Brazil 169 138 135 120 110 110 90 91 112 117 Chile 29 17 31 13 10 10 10 0 51 41 Peru 0 0 5 15 20 15 15 0 0 0 Other Countries 0 0 0 0 0 0 0 0 0 0 World 5223 5376 5453 5596 5507",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Copper",
+          "canonical": "Copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "Mining",
+          "canonical": "Mining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p9::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p9::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "96% 100% 99% 95% 90% 90% 89% 87% 84% 84% Peru 97% 100% 95% 99% 98% 97% 94% 93% 91% 92% World 89% 89% 88% 87% 85% 87% 87% 84% 81% 82% Acknowledgements: Historical figures draw in part on the work of ICSG and WBMS TABLE B16 '000 tonnes Cu Concentrates Capacity & Utilisation",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель-серные концентраты",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity_utilization",
+          "op": "range",
+          "value_min": 81.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p9::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p9::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 CAPACITY Western Europe 217 217 187 210 242 268 280 288 288 288 Central Europe 824 824 824 824 819 814 811 816 816 816 FSU 1495 1520 1533 1568 1568 1548 1608 1608 1608 1608 Russia 760 780 765 775 775 755 815 815 815 815 Africa 832 881 968 1037 1177 1152 1306 1340 1381 1396 Congo 83 111 178 178 168 143 188 208 208 208 Zambia 521 536 541 614 752 765 871 871 906 921 M. East & S. Asia 357 395 438 431 448 447 467 508 508 508 China 976 1021 1091 1107 1170 1206 1201 1201 1201 1201 North East Asia 0 0 0 0 0 0 0 0 0 0 South East Asia 938 865 850 1134 1249 1058 1000 1022 1092 1142 Other Asia 161 161 161 161 161 161 161 229 281 499 Australasia 1081 1094 1059 1169 1141 1134 1136 1221 1249 1162 Australia 881 894 889 994 971 969 961 931 957 942 NAFTA 1790 1771 1747 1693 1755 1904 1926 1992 2157 2202 Canada 632 617 619 587 602 628 650 676 678 711 United States 768 773 766 740 775 897 897 892 892 892 Latin America 5098 5165 4987 5014 5230 5566 5862 6547 7489 7694 Chile 3828 3731 3387 3442 3686 3959 4092 4397 5102 5162 Peru 899 1023 1171 1128 1124 1123 1206 1528 1738 1843 World 13767 13912 13843 14347 14958 15256 15755 16768 18068 18513 UTILISATION",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "",
+          "canonical": ""
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "",
+          "canonical": ""
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2006,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p10::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p10::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "New Quarterly Report on Copper Sample Section C Tables TABLE C159 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Mine Output Concentrates 876 1018 1108 1112 1105 1085 1135 1421 1590 1693 LG Electrowon 0 0 0 0 0 0 0 0 0 0 HG Electrowon 174 172 161 162 150 145 180 275 329 330 Total Mine Output 1050 1191 1269 1274 1255 1230 1315 1697 1919 2022 Mine Capacity 1088 1214 1358 1315 1286 1275 1388 1807 2072 2177 % Capacity Utilisation 96% 98% 93% 97% 98% 96% 95% 94% 93% 93% Smelter Balances Concentrates Output 876 1018 1108 1112 1105 1085 1135 1421 1590 1693 Concentrates Imports 0 0 5 15 20 15 15 0 0 0 Concentrates Exports 477 706 738 780 795 770 815 1020 1182 1326 Normal Concs Stocks ­ Mine 5 6 6 6 6 6 6 8 9 9 Normal Concs Stocks ­ Smelter 15 11 14 13 13 12 12 14 15 13 Normal Concs Stocks ­ Transit 30 42 44 46 46 46 49 63 71 78 Abnormal Country Concs Stocks ­2 ­3 ­2 ­5 ­14 ­11 ­7 4 15 20 Concentrates Use 391 303 369 350 338 328 328 372 388 354 Smelter Process Losses 10 7 9 9 8 8 8 9 9 9 Apparent Primary Smelter Output 381 296 360 341 330 320 320 363 378 346 Secondary Smelter Output 0 0 0 0 0 0 0 0 0 0 LG Electrowon Output 0 0 0 0 0 0 0 0 0 0 Blister Grade Output 381 296 360 341 330 320",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты руды",
+          "name_en": "ore concentrates",
+          "canonical": "ore_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": " smelter process",
+          "name_en": "smelter process",
+          "canonical": "smelter_process"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "установка электролиза",
+          "name_en": "electrolysis unit",
+          "canonical": "electrolysis_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Concentrates Output"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "LG Electrowon Output"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Smelter Process Losses"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "output",
+          "op": "range",
+          "value_min": 876.0,
+          "value_max": 1693.0,
+          "unit": "tons/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.0,
+          "unit": "tons/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p9::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p9::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "092 4397 5102 5162 Peru 899 1023 1171 1128 1124 1123 1206 1528 1738 1843 World 13767 13912 13843 14347 14958 15256 15755 16768 18068 18513 UTILISATION Western Europe 86% 80% 89% 81% 83% 82% 84% 81% 77% 78% Central Europe 75% 71% 69% 70% 70% 71% 72% 68% 63% 65% FSU 83% 79% 80% 77% 78% 80% 77% 73% 67% 68% Russia 88% 87% 91% 89% 90% 91% 86% 83% 79% 80% Africa 69% 65% 75% 72% 75% 80% 78% 74% 68% 69% Congo 78% 77% 90% 87% 86% 84% 82% 79% 74% 76% Zambia 69% 59% 71% 67% 73% 78% 75% 70% 63% 65% M. East & S. Asia 87% 94% 87% 90% 90% 96% 94% 89% 87% 87% China 89% 91% 89% 91% 97% 95% 96% 95% 94% 94% North East Asia - - - - - - - - - - South East Asia 90% 95% 82% 97% 77% 87% 87% 84% 80% 81% Other Asia 95% 95% 93% 93% 93% 93% 93% 92% 91% 91% Australasia 94% 91% 93% 86% 85% 87% 90% 88% 85% 86% Australia 93% 93% 93% 84% 86% 87% 90% 88% 86% 86% NAFTA 86% 85% 87% 82% 79% 83% 88% 85% 80% 81% Canada 96% 95% 98% 84% 83% 87% 90% 88% 86% 86% United States 90% 89% 98% 98% 91% 90% 93% 92% 90% 90% Latin America 96% 99% 97% 95% 92% 91% 90% 88% 85% 86% Chile 96% 100% 99% 95% 90% 90% 89% 87% 84% 84% Peru 97% 100% 95% 99% 98% 97% 94% 93% 91% 92% World 89% 89% 88% 87% 85% 87% 87% 84% 81% 82% Acknowledgements:",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "Утилизация",
+          "name_en": "Utilisation",
+          "canonical": "UTILISATION"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Перу",
+          "name_en": "Peru",
+          "canonical": "Peru"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Мир",
+          "name_en": "World",
+          "canonical": "World"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "Западная Европа",
+          "name_en": "Western Europe",
+          "canonical": "Western Europe"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Центральная Европа",
+          "name_en": "Central Europe",
+          "canonical": "Central Europe"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "СНГ",
+          "name_en": "FSU",
+          "canonical": "FSU"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "Россия",
+          "name_en": "Russia",
+          "canonical": "Russia"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Африка",
+          "name_en": "Africa",
+          "canonical": "Africa"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "Конго",
+          "name_en": "Congo",
+          "canonical": "Congo"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "Замбия",
+          "name_en": "Zambia",
+          "canonical": "Zambia"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "Восточная и Южная Азия",
+          "name_en": "M. East & S. Asia",
+          "canonical": "M. East & S. Asia"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "Китай",
+          "name_en": "China",
+          "canonical": "China"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "Восточная Азия",
+          "name_en": "North East Asia",
+          "canonical": "North East Asia"
+        },
+        {
+          "id": "e14",
+          "type": "Property",
+          "name_ru": "Юго-Восточная Азия",
+          "name_en": "South East Asia",
+          "canonical": "South East Asia"
+        },
+        {
+          "id": "e15",
+          "type": "Property",
+          "name_ru": "Другая Азия",
+          "name_en": "Other Asia",
+          "canonical": "Other Asia"
+        },
+        {
+          "id": "e16",
+          "type": "Property",
+          "name_ru": "Австралия",
+          "name_en": "Australasia",
+          "canonical": "Australasia"
+        },
+        {
+          "id": "e17",
+          "type": "Material",
+          "name_ru": "Австралия",
+          "name_en": "Australia",
+          "canonical": "Australia"
+        },
+        {
+          "id": "e18",
+          "type": "Property",
+          "name_ru": "НАФТА",
+          "name_en": "NAFTA",
+          "canonical": "NAFTA"
+        },
+        {
+          "id": "e19",
+          "type": "Material",
+          "name_ru": "Канада",
+          "name_en": "Canada",
+          "canonical": "Canada"
+        },
+        {
+          "id": "e20",
+          "type": "Material",
+          "name_ru": "США",
+          "name_en": "United States",
+          "canonical": "United States"
+        },
+        {
+          "id": "e21",
+          "type": "Property",
+          "name_ru": "Латинская Америка",
+          "name_en": "Latin America",
+          "canonical": "Latin America"
+        },
+        {
+          "id": "e22",
+          "type": "Material",
+          "name_ru": "Чили",
+          "name_en": "Chile",
+          "canonical": "Chile"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "86% 80% 89% 81% 83% 82% 84% 81% 77% 78%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "75% 71% 69% 70% 70% 71% 72% 68% 63% 65%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "83% 79% 80% 77% 78% 80% 77% 73% 67% 68%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "88% 87% 91% 89% 90% 91% 86% 83% 79% 80%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "69% 65% 75% 72% 75% 80% 78% 74% 68% 69%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "78% 77% 90% 87% 86% 84% 82% 79% 74% 76%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "69% 59% 71% 67% 73% 78% 75% 70% 63% 65%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "87% 94% 87% 90% 90% 96% 94% 89% 87% 87%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e12",
+          "type": "uses_material",
+          "evidence": "89% 91% 89% 91% 97% 95% 96% 95% 94% 94%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e13",
+          "type": "uses_material",
+          "evidence": "- - - - - - - - - -"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e14",
+          "type": "uses_material",
+          "evidence": "90% 95% 82% 97% 77% 87% 87% 84% 80% 81%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "95% 95% 93% 93% 93% 93% 93% 92% 91% 91%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e16",
+          "type": "uses_material",
+          "evidence": "94% 91% 93% 86% 85% 87% 90% 88% 85% 86%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e17",
+          "type": "uses_material",
+          "evidence": "93% 93% 93% 84% 86% 87% 90% 88% 86% 86%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e18",
+          "type": "uses_material",
+          "evidence": "86% 85% 87% 82% 79% 83% 88% 85% 80% 81%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e19",
+          "type": "uses_material",
+          "evidence": "96% 95% 98% 84% 83% 87% 90% 88% 86% 86%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e20",
+          "type": "uses_material",
+          "evidence": "90% 89% 98% 98% 91% 90% 93% 92% 90% 90%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e21",
+          "type": "uses_material",
+          "evidence": "96% 99% 97% 95% 92% 91% 90% 88% 85% 86%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e22",
+          "type": "uses_material",
+          "evidence": "96% 100% 99% 95% 90% 90% 89% 87% 84% 84%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "Utilisation",
+          "op": "range",
+          "value_min": 65.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "average"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "high"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p10::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p10::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "320 320 363 378 346 Secondary Smelter Output 0 0 0 0 0 0 0 0 0 0 LG Electrowon Output 0 0 0 0 0 0 0 0 0 0 Blister Grade Output 381 296 360 341 330 320 320 363 378 346 Smelter Capacity 405 400 400 440 440 440 440 440 440 440 % Capacity Utilisation 94% 74% 90% 78% 75% 73% 73% 83% 86% 79% Refinery Balances Blister Grade Output 381 296 360 341 330 320 320 363 378 346 Blister Grade Imports 0 0 0 0 0 0 0 0 0 0 Blister Grade Exports 43 66 48 85 60 55 45 64 70 57 Normal Blister Stocks ­ Smelter 2 2 2 2 2 2 2 2 2 2 Normal Blister Stocks ­ Refineries 13 9 12 10 11 10 11 11 12 11 Normal Blister Stocks ­ EL Process 27 20 25 21 23 22 23 24 25 24 Normal Blister Stocks ­ Transit 4 3 4 4 5 4 4 4 5 4 Abnormal Country Blister Stocks 3 3 3 4 ­3 ­1 ­2 ­1 1 2 Blister Grade Use 334 242 303 261 275 265 275 295 304 290 Scrap to Refineries 0 0 0 0 0 0 0 0 0 0 Refinery Output 334 242 303 261 275 265 275 295 304 290 Refinery Capacity 435 430 430 430 430 430 430 430 430 430 % Capacity Utilisation 77% 56% 70% 61% 64% 62% 64% 69% 71% 67% Refined Copper Balance Refinery Output 334 242 303 261 275 265 275 295 304 290 HG Electrowon 174 172 161 162 150 145 180 275 329 330 Refined Copper Output 508 414 464 423 425",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "блистерная сталь",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": " smelter",
+          "name_en": "smelter",
+          "canonical": "smelter"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "refinery",
+          "name_en": "refinery",
+          "canonical": "refinery"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Smelter Output"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "LG Electrowon Output"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Blister Grade Output"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 440.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity_utilisation",
+          "op": "range",
+          "value_min": 73.0,
+          "value_max": 94.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 430.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "capacity_utilisation",
+          "op": "range",
+          "value_min": 56.0,
+          "value_max": 71.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p10::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p10::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "efinery Output 334 242 303 261 275 265 275 295 304 290 HG Electrowon 174 172 161 162 150 145 180 275 329 330 Refined Copper Output 508 414 464 423 425 410 455 570 633 619 Refined Copper Imports 0 0 0 0 0 0 0 0 0 0 Refined Copper Exports 449 365 390 401 370 340 405 510 573 562 Normal Refined Stocks ­ Producer 14 11 13 12 12 11 12 16 17 17 Normal Refined Stocks ­ Consumer 1 1 1 1 1 1 1 1 1 1 Normal Refined Stocks ­ Transit 14 12 12 12 12 11 11 14 17 17 LME Stocks 0 0 0 0 0 0 0 0 0 0 Other Exchange Stocks 0 0 0 0 0 0 0 0 0 0 Strategic Stocks 0 0 0 0 0 0 0 0 0 0 Other Abnormal Refined Stocks 12 12 31 1 2 17 9 7 9 12 Refined Copper Consumption 53 54 54 53 54 56 57 56 54 54 Stocks Totals Concentrates 47 57 62 60 51 53 60 89 109 121 Blister 49 37 46 41 36 36 36 41 45 44 Refined Copper 41 36 56 26 27 41 34 38 44 47 Footnotes Acknowledgements: Historical figures draw in part on the work of ICSG and WBMS Copper Balance (kt copper) Peru",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты руды",
+          "name_en": "ore concentrates",
+          "canonical": "ore_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "блистерная медь",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "отделенная меди",
+          "name_en": "refined copper",
+          "canonical": "refined_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Concentrates -> Blister"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Blister -> Refined Copper"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "medium"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p12::c0": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p12::c0",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 12,
+      "lang": "es",
+      "text": "TABLE C160 Owner Type 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 Mine Capacity Antamina BHP Billiton, Xstrata Concentrate 400 400 415 405 405 405 415 430 430 430 Cerro Corona Goldfields Concentrate ­ ­ 10 30 30 30 30 30 30 30 Cerro Lindo Milpo Concentrate ­ ­ 12 12 12 12 12 12 12 12 Cerro Verde Freeport Concentrate 10 140 236 220 220 220 220 220 220 220 Cobrizza Doe Run Concentrate 19 18 18 17 17 16 16 16 16 16 Condestable Iberian Minerras Concentrate 20 20 20 24 20 20 20 20 20 20 Cuajone SPCC Concentrate 180 180 195 185 180 180 170 170 170 170 El Galino Northern Peru Concentrate ­ ­ ­ ­ ­ ­ ­ 180 220 220 Los Chances Southern Copper Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Majistral Inca Pacific Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Michiquillay Anglo American Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Mina Justa Chariot/Korean Int.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат никеля/медь",
+          "name_en": "nickel/copper concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Antamina",
+          "name_en": "Antamina",
+          "canonical": "antamina"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Cerro Corona",
+          "name_en": "Cerro Corona",
+          "canonical": "cerro_corona"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Cerro Lindo",
+          "name_en": "Cerro Lindo",
+          "canonical": "cerro_lindo"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Cerro Verde",
+          "name_en": "Cerro Verde",
+          "canonical": "cerro_verde"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Cobrizza",
+          "name_en": "Cobrizza",
+          "canonical": "cobrizza"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "Condestable",
+          "name_en": "Condestable",
+          "canonical": "condestable"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "Cuajone",
+          "name_en": "Cuajone",
+          "canonical": "cuajone"
+        },
+        {
+          "id": "e9",
+          "type": "Facility",
+          "name_ru": "El Galino Northern Peru",
+          "name_en": "El Galino Northern Peru",
+          "canonical": "el_galino_northern_peru"
+        },
+        {
+          "id": "e10",
+          "type": "Facility",
+          "name_ru": "Los Chances Southern Copper",
+          "name_en": "Los Chances Southern Copper",
+          "canonical": "los_chances_southern_copper"
+        },
+        {
+          "id": "e11",
+          "type": "Facility",
+          "name_ru": "Majistral Inca Pacific",
+          "name_en": "Majistral Inca Pacific",
+          "canonical": "majistral_inca_pacific"
+        },
+        {
+          "id": "e12",
+          "type": "Facility",
+          "name_ru": "Michiquillay",
+          "name_en": "Michiquillay",
+          "canonical": "michiquillay"
+        },
+        {
+          "id": "e13",
+          "type": "Facility",
+          "name_ru": "Mina Justa",
+          "name_en": "Mina Justa",
+          "canonical": "mina_justa"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "es",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p12::c1": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p12::c1",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "­ ­ ­ ­ ­ ­ ­ Michiquillay Anglo American Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Mina Justa Chariot/Korean Int. Concentrate ­ ­ ­ ­ ­ ­ 13 50 70 70 Pashpap Mineroperu Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Piura Region Cedmin Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Quellaveco Anglo American Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ 105 Rio Blanco Zijin Mining Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Tambogrande Centromin Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Tia Maria Southern Copper Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Tintaya Environs BHP Billiton Concentrate ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Tintaya/Antapaccay Xstrata Concentrate 80 80 80 75 80 80 80 80 80 80 Toquepala SPCC Concentrate 160 155 155 130 130 130 200 240 240 240 Toromcho Chinalco Concentrate ­ ­ ­ ­ ­ ­ ­ 50 200 200 Various Various Concentrate 30 30 30 30 30 30 30 30 30 30 ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Berenguela Mineroperu HG EW ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Cerro Verde Freeport HG EW 95 95 90 90 90 80 80 70 70 70 Chapi Milpo HG EW 5 7 8 8 8 8 8 8 8 8 Coroccohuayc Xstrata Plc.",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат никеля",
+          "name_en": "nickel concentrate",
+          "canonical": "nickel_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "electrowinning of nickel",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "катодная установка для электроэкстракции никеля",
+          "name_en": "cathode unit for electrowinning",
+          "canonical": "cathode_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Cerro Verde Freeport HG EW"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Cerro Verde Freeport HG EW"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "current_density",
+          "op": "ge",
+          "value_min": 70.0,
+          "value_max": 160.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 80.0,
+          "unit": "t/day",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p12::c2": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p12::c2",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "ru HG EW ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Cerro Verde Freeport HG EW 95 95 90 90 90 80 80 70 70 70 Chapi Milpo HG EW 5 7 8 8 8 8 8 8 8 8 Coroccohuayc Xstrata Plc. HG EW ­ ­ ­ ­ ­ ­ ­ ­ 35 35 Cuajone SPCC HG EW 4 4 4 4 4 4 4 4 4 4 Haquira Freeport HG EW ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ La Granja Rio Tinto HG EW ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Los Chances Southern Copper HG EW ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Mina Justa Chariot/Korean Int. HG EW ­ ­ ­ ­ ­ ­ ­ 40 60 60 Tia Maria Southern Copper HG EW ­ ­ ­ ­ ­ ­ 30 120 120 120 Tintaya/Antapaccay Xstrata HG EW 40 40 40 40 26 26 26 3 3 3 Toquepala SPCC HG EW 45 45 45 45 34 34 34 34 34 34 ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Smelter­Refinery Capacity Ilo Smelter SPCC Smelter 325 320 320 360 360 360 360 360 360 360 La Oroya Smelter Doe Run Smelter 80 80 80 80 80 80 80 80 80 80 ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Ilo Smelter SPCC EL/Fire Refinery 355 360 360 360 360 360 360 360 360 360 La Oroya Smelter Doe Run EL/Fire Refinery 80 70 70 70 70 70 70 70 70 70 ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ Capacity Totals Concentrates 899 1023 1171 1128 1124 1123 1206 1528 1738 1843 LG Electrowon 0 0 0 0 0 0 0 0 0 0 HG Electrowon 189 191 187 187 162 152 182 279 334 334 Blister 405 400 400 440 440 440 440 440 440 440 Blister Grade Copper 405 400 400",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "концентраты",
+          "name_en": "concentrates",
+          "canonical": "concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": " smelter-refinery",
+          "name_en": "smelter-refinery",
+          "canonical": "smelter_refinery"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "LG Electrowon 0 0 0 0 0 0 0 0 0 0 HG Electrowon 189 191 187 187 162 152 182 279 334 334"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Capacity Totals Concentrates 899 1023 1171 1128 1124 1123 1206 1528 1738 1843"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 334.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "le",
+          "value_min": 899.0,
+          "value_max": 1843.0,
+          "unit": "t/day",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "BME-Cu--sample-rep-nov10::p12::c3": {
+    "chunk": {
+      "chunk_id": "BME-Cu--sample-rep-nov10::p12::c3",
+      "doc_id": "BME-Cu--sample-rep-nov10",
+      "source": "/content/drive/MyDrive/minekg/raw/BME-Cu--sample-rep-nov10.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "0 0 0 0 0 0 0 0 HG Electrowon 189 191 187 187 162 152 182 279 334 334 Blister 405 400 400 440 440 440 440 440 440 440 Blister Grade Copper 405 400 400 440 440 440 440 440 440 440 Copper from Refineries 435 430 430 430 430 430 430 430 430 430 Total Refined Copper 624 621 617 617 592 582 612 709 764 764 Footnotes Acknowledgements: Historical figures draw in part on the work of ICSG Capacity (kt copper) Peru",
+      "doc_type": "unknown",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": null
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "блистерная медь",
+          "name_en": "blister copper",
+          "canonical": "blister_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "рефинированная медь",
+          "name_en": "refined copper",
+          "canonical": "refined_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Blister Grade Copper ... Copper from Refineries"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  }
+}
