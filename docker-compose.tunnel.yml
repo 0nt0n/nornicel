@@ -44,7 +44,7 @@ services:
     image: cloudflare/cloudflared:latest
     # protocol http2 = TCP вместо QUIC/UDP. QUIC часто режется (особенно под VPN) и
     # рвёт долгие запросы (ReAct — десятки секунд). HTTP/2 стабильнее.
-    command: tunnel --no-autoupdate --protocol http2 --url http://app:8501
+    command: tunnel --no-autoupdate --url http://app:8501
     depends_on:
       - app
 
