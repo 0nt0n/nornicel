@@ -53,11 +53,12 @@ ENTITY_LABELS_RU = {
     "Publication": "Публикация", "Facility": "Установка",
     "Conclusion": "Вывод", "Recommendation": "Рекомендация",
 }
-ACCENT = "#3987e5"
-SURFACE = "#111413"
-CARD_BG = "#1a1f1e"
-BORDER = "#2c3331"
-TEXT_MUTED = "#9aa5a1"
+ACCENT = "#4a9bff"
+SURFACE = "#141a1f"
+CARD_BG = "#1e262d"
+BORDER = "#33404a"
+TEXT = "#eef2f5"
+TEXT_MUTED = "#aab6c0"
 
 LEVEL_META = {
     1: ("🔍", "Разведка", "Гибридный поиск (вектор + полнотекст) и анализ покрытия запроса"),
@@ -77,16 +78,25 @@ st.markdown(f"""
   }}
   .stApp {{
     background:
-      radial-gradient(900px 500px at 12% -8%, rgba(57,135,229,.10), transparent 60%),
-      radial-gradient(700px 500px at 100% 0%, rgba(25,158,112,.08), transparent 55%),
+      radial-gradient(900px 500px at 12% -8%, rgba(74,155,255,.14), transparent 60%),
+      radial-gradient(700px 500px at 100% 0%, rgba(38,180,133,.10), transparent 55%),
       {SURFACE};
+    color: {TEXT};
   }}
   .block-container {{ padding-top: 1.4rem; max-width: 1360px; }}
+
+  /* базовый текст — светлый, не зависим от того, подхватилась ли тёмная тема Streamlit */
+  .stApp, .stMarkdown, .stMarkdown p, .stMarkdown li,
+  [data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p,
+  .stCaption, [data-testid="stCaptionContainer"], label {{ color: {TEXT}; }}
+  .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4,
+  h1, h2, h3, h4 {{ color: {TEXT}; }}
+  .stCaption, [data-testid="stCaptionContainer"] {{ color: {TEXT_MUTED} !important; }}
 
   /* заголовки секций — тонкий акцентный маркер слева */
   .stMarkdown h3 {{
     font-size: 1.12rem; margin: 1.4rem 0 .5rem; padding-left: .7rem;
-    border-left: 3px solid {ACCENT};
+    border-left: 3px solid {ACCENT}; color: {TEXT};
   }}
 
   /* герой-шапка */
@@ -109,30 +119,39 @@ st.markdown(f"""
   .stTabs [data-baseweb="tab-list"] {{ gap: .3rem; border-bottom: 1px solid {BORDER}; }}
   .stTabs [data-baseweb="tab"] {{
     padding: .5rem 1rem; border-radius: 10px 10px 0 0; font-weight: 600;
+    color: {TEXT_MUTED};
   }}
-  .stTabs [aria-selected="true"] {{ background: {CARD_BG}; color: #dbe7ff; }}
+  .stTabs [data-baseweb="tab"]:hover {{ color: {TEXT}; }}
+  .stTabs [aria-selected="true"] {{ background: {CARD_BG}; color: {TEXT}; }}
 
-  /* кнопки */
+  /* кнопки — принудительно тёмная поверхность + светлый текст (не зависим от темы) */
   .stButton > button, .stDownloadButton > button {{
     border-radius: 10px; border: 1px solid {BORDER}; font-weight: 500;
+    background: {CARD_BG}; color: {TEXT};
     transition: border-color .15s, transform .05s, background .15s;
   }}
+  .stButton > button p, .stDownloadButton > button p {{ color: {TEXT}; }}
   .stButton > button:hover, .stDownloadButton > button:hover {{
-    border-color: {ACCENT}; color: #dbe7ff;
+    border-color: {ACCENT}; color: #ffffff; background: #24303a;
   }}
   .stButton > button:active {{ transform: translateY(1px); }}
   .stButton > button[kind="primary"] {{
-    background: linear-gradient(180deg, #3f92ee, {ACCENT}); border: 0;
-    box-shadow: 0 8px 24px -12px rgba(57,135,229,.9);
+    background: linear-gradient(180deg, #5aa6ff, {ACCENT}); border: 0;
+    color: #ffffff; box-shadow: 0 8px 24px -12px rgba(74,155,255,.9);
   }}
+  .stButton > button[kind="primary"] p {{ color: #ffffff; }}
+  .stButton > button[kind="primary"]:hover {{ background: linear-gradient(180deg, #6cb0ff, #5aa6ff); }}
 
   /* поля ввода и экспандеры */
   .stTextArea textarea {{
     background: {CARD_BG}; border: 1px solid {BORDER}; border-radius: 12px;
+    color: {TEXT};
   }}
+  .stTextArea textarea::placeholder {{ color: {TEXT_MUTED}; opacity: .8; }}
   [data-testid="stExpander"] {{
     border: 1px solid {BORDER}; border-radius: 12px; background: {CARD_BG};
   }}
+  [data-testid="stExpander"] summary, [data-testid="stExpander"] summary p {{ color: {TEXT}; }}
 
   /* карточки уровней ReAct */
   .lvl-card {{
