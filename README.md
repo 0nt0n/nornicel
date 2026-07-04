@@ -113,6 +113,13 @@ described_in, validated_by, contradicts, expert_in.
 - `data/` и `.env` — в `.gitignore`. Ключ в репозиторий не коммитить; при утечке — перевыпустить в AI Studio.
 - Опциональный апгрейд: официальный пакет `neo4j-graphrag-python` (готовые `VectorCypherRetriever`).
 
+## Работа без Yandex API (локальная LLM)
+
+Если доступ к Yandex закрыт — извлечение и весь пайплайн переключаются на локальную
+модель **Qwen** (Ollama) одной переменной `LLM_BACKEND=local`, формат данных тот же.
+Массовую обработку удобно гнать на бесплатном GPU в Colab. Инструкции:
+**[LOCAL_LLM.md](LOCAL_LLM.md)** и ноутбук `notebooks/colab_extract.ipynb`.
+
 ## Соответствие рекомендациям организаторов
 
 | Рекомендация | Наше решение | Почему так |

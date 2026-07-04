@@ -1,0 +1,10 @@
+# Дополнительные зависимости для ПОЛНОСТЬЮ локального прогона (без Yandex API).
+# Ставится поверх основного requirements.txt:
+#     pip install -r requirements.txt -r requirements-local.txt
+#
+# Сама локальная LLM (Qwen) поднимается через Ollama — это отдельный бинарник,
+# не pip-пакет (см. LOCAL_LLM.md). Чат-LLM ходит по OpenAI-совместимому API,
+# поэтому доп. python-зависимостей для неё не нужно.
+
+# Локальные эмбеддинги (EMBED_BACKEND=e5) — офлайн, без API.
+sentence-transformers>=2.6

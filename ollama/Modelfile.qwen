@@ -1,0 +1,14 @@
+# Qwen2.5-7B-Instruct с увеличенным контекстом под наш пайплайн извлечения.
+#
+# Зачем: у Ollama по умолчанию num_ctx мал (2048/4096). Наш промпт извлечения =
+# системная инструкция + чанк (~1200 симв) + до 4000 токенов JSON на выходе —
+# в маленькое окно не влезает, модель молча обрежет контекст и вернёт мусор/пустоту.
+#
+# Создать модель:
+#     ollama create minekg-qwen -f ollama/Modelfile.qwen
+# Затем в .env:  LOCAL_LLM_MODEL=minekg-qwen
+
+FROM qwen2.5:7b-instruct
+
+PARAMETER num_ctx 8192
+PARAMETER temperature 0

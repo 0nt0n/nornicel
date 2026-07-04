@@ -19,6 +19,19 @@ LLM_MODEL_HEAVY = os.getenv("LLM_MODEL_HEAVY", "yandexgpt")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.0"))
 
+# --- Бэкенд чат-LLM: yandex (облако) | local (OpenAI-совместимый сервер) ---
+# Когда Yandex API недоступен, извлечение/роутинг/синтез уходят на локальную модель
+# (Ollama/vLLM/LM Studio — все они говорят по OpenAI-совместимому протоколу).
+# Формат чекпоинтов извлечения одинаков для обоих бэкендов — возврат к Yandex не требует
+# миграции данных, достаточно поменять LLM_BACKEND обратно. Эмбеддинги переключаются
+# ОТДЕЛЬНО через EMBED_BACKEND (см. ниже) и не зависят от LLM_BACKEND.
+LLM_BACKEND = os.getenv("LLM_BACKEND", "yandex")
+LOCAL_LLM_BASE_URL = os.getenv("LOCAL_LLM_BASE_URL", "http://localhost:11434/v1")
+# Ollama ключ не проверяет, но клиент openai требует непустую строку
+LOCAL_LLM_API_KEY = os.getenv("LOCAL_LLM_API_KEY", "ollama")
+# Одна локальная модель на всё (извлечение + роутинг + синтез). Для Ollama — тег модели.
+LOCAL_LLM_MODEL = os.getenv("LOCAL_LLM_MODEL", "qwen2.5:7b-instruct")
+
 # --- Эмбеддинги ---
 # EMBED_BACKEND: "yandex" (emb://<folder>/text-search-*) или "e5" (локальный multilingual-e5, офлайн/бесплатно)
 EMBED_BACKEND = os.getenv("EMBED_BACKEND", "yandex")

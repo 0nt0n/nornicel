@@ -1,9 +1,12 @@
-"""Тонкая обёртка над OpenAI-совместимым API Yandex AI Studio.
+"""Тонкая обёртка над чат-LLM. Два взаимозаменяемых бэкенда (config.LLM_BACKEND):
 
-Studio отдаёт OpenAI-совместимый эндпоинт => используем обычную библиотеку openai.
-Модель задаётся URI: gpt://<folder>/<model>/latest.
-Structured output: response_format={"type":"json_schema", ...}.
-Приватность: заголовок x-data-logging-enabled=false отключает логирование провайдером.
+  yandex : Yandex AI Studio, модель gpt://<folder>/<model>/latest
+  local  : любой OpenAI-совместимый сервер (Ollama/vLLM/LM Studio), одна модель
+
+Оба говорят по OpenAI-совместимому протоколу, поэтому меняется только клиент и имя
+модели — публичные функции chat_text/chat_json и их сигнатуры одинаковы. Переключение
+на локальную модель и обратно — одной переменной LLM_BACKEND, без правок остального кода.
+Structured output: response_format={"type":"json_schema", ...} с фолбэком на json_object.
 """
 import json
 import time
@@ -36,7 +39,9 @@ def wait_rate_limit():
 
 
 @lru_cache(maxsize=1)
-def get_client() -> OpenAI:
+def get_yandex_client() -> OpenAI:
+    """Клиент строго к Yandex. Используется эмбеддингами (YandexEmbedder)
+    независимо от LLM_BACKEND — эмбеддинги переключаются своим EMBED_BACKEND."""
     config.require_yandex()
     return OpenAI(
         api_key=config.YANDEX_API_KEY,
@@ -49,7 +54,25 @@ def get_client() -> OpenAI:
     )
 
 
+@lru_cache(maxsize=1)
+def get_local_client() -> OpenAI:
+    """Клиент к локальному OpenAI-совместимому серверу (Ollama/vLLM/LM Studio)."""
+    return OpenAI(
+        api_key=config.LOCAL_LLM_API_KEY,
+        base_url=config.LOCAL_LLM_BASE_URL,
+    )
+
+
+def get_client() -> OpenAI:
+    """Клиент для ЧАТА (извлечение/роутинг/синтез). Зависит от LLM_BACKEND."""
+    if config.LLM_BACKEND == "local":
+        return get_local_client()
+    return get_yandex_client()
+
+
 def _model_uri(model: str) -> str:
+    if config.LLM_BACKEND == "local":
+        return config.LOCAL_LLM_MODEL   # одна локальная модель на все роли
     return f"gpt://{config.YANDEX_FOLDER_ID}/{model}/latest"
 
 
@@ -95,18 +118,20 @@ def chat_text(system: str, user: str, model: str = None,
 
 def chat_json(system: str, user: str, schema_name: str, schema: dict,
               model: str = None, max_retries: int = 4) -> dict:
-    """Structured output по JSON-схеме. Если провайдер не принял json_schema —
-    откатываемся в json_object + инструкция в промпте."""
+    """Structured output по JSON-схеме. На каждой попытке сначала строгая json_schema,
+    затем фолбэк на json_object (быстро подхватывается локальными моделями, которые
+    json_schema могут не поддерживать)."""
     client = get_client()
     model = model or config.LLM_MODEL_MAIN
-    messages = [{"role": "system", "content": system},
-                {"role": "user", "content": user}]
+    strict_user = user
+    object_user = user + "\n\nВерни ТОЛЬКО валидный JSON строго по описанной схеме, без пояснений."
 
-    def _call(response_format):
+    def _call(user_content, response_format):
         wait_rate_limit()
         resp = client.chat.completions.create(
             model=_model_uri(model),
-            messages=messages,
+            messages=[{"role": "system", "content": system},
+                      {"role": "user", "content": user_content}],
             temperature=config.LLM_TEMPERATURE,
             max_tokens=config.MAX_TOKENS,
             response_format=response_format,
@@ -115,18 +140,18 @@ def chat_json(system: str, user: str, schema_name: str, schema: dict,
 
     rf_schema = {"type": "json_schema",
                  "json_schema": {"name": schema_name, "schema": schema}}
+    rf_object = {"type": "json_object"}
     last = None
     for attempt in range(max_retries):
         try:
-            return _extract_json(_call(rf_schema))
+            return _extract_json(_call(strict_user, rf_schema))
         except Exception as e:  # noqa: BLE001
             last = e
-            time.sleep(0.5 * (2 ** attempt))
-    # запасной режим: json_object
-    messages[1]["content"] += "\n\nВерни ТОЛЬКО валидный JSON строго по описанной схеме, без пояснений."
-    try:
-        return _extract_json(_call({"type": "json_object"}))
-    except Exception as e:  # noqa: BLE001
-        if last is not None:
-            raise last
-        raise e
+        try:
+            return _extract_json(_call(object_user, rf_object))
+        except Exception as e:  # noqa: BLE001
+            last = e
+        time.sleep(0.5 * (2 ** attempt))
+    if last is not None:
+        raise last
+    raise RuntimeError("chat_json max_retries exhausted")

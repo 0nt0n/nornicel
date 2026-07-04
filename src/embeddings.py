@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
 import config
-from src.yandex import get_client, wait_rate_limit
+from src.yandex import get_yandex_client, wait_rate_limit
 
 
 class Embedder:
@@ -25,7 +25,8 @@ class Embedder:
 
 class YandexEmbedder(Embedder):
     def __init__(self):
-        self.client = get_client()
+        # выделенный Yandex-клиент: эмбеддинги зависят от EMBED_BACKEND, а не LLM_BACKEND
+        self.client = get_yandex_client()
         self.folder = config.YANDEX_FOLDER_ID
 
     def _emb_uri(self, model):
