@@ -462,7 +462,7 @@ with tab_search:
             st.markdown("#### Источники")
             for s in context.get("sources", [])[:12]:
                 geo = {"RU": "РФ", "foreign": "зарубеж"}.get(s.get("geography"), "")
-                meta = " · ".join(x for x in [s.get("year") or "год неизвестен", geo] if x)
+                meta = " · ".join(str(x) for x in [s.get("year") or "год неизвестен", geo] if x)
                 st.markdown(
                     f'<div class="src-card">{s["doc_id"]}'
                     f'<div class="src-meta">{meta}</div></div>',
