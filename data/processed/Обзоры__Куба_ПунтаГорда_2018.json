@@ -1,0 +1,1347 @@
+{
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c0",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Никелевый завод Ernesto Che Guevara Самый старый кубинский никелевый завод Comandante Rene Ramos Latour в Nicaro, введенный в строй американцами в годы Второй Мировой войны, был закрыт на постоянной основе в 2012 г. (по причине морального износа оборудования). Завод по производству ферроникеля в Las Camariocas, начатый во времена СССР, так и не был завершен. Таким образом, на Кубе в настоящее время работают два никелевых завода (оба в провинции Ольгин): - Pedro Soto Alba (СП Moa Nickel - 50:50 правительство/канадская компанией Sherritt International); - Comandante Ernesto Che Guevara (100% государств.) в Punta Gorda. Суммарная мощность двух заводов – около 70 тыс т/г Ni. Выпуск Ni+Co в смешанных сульфидах Moa в последние годы составлял порядка 36-37 тыс т/г, однако завод в Punta Gorda выпускал менее 20 тыс т/г никеля при исходной мощности 30 тыс т/г. Следует отметить, что надежных данных по выпуску никеля кубинскими предприятиями в нашем распоряжении нет. Рисунок 1 – Выпуск никеля (тыс т) и стоимость экспорта никеля (млн USD) на Кубе в 1975-2015 гг. Завод Moa Nickel введен в строй в 1959 г.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "завод Ernesto Che Guevara",
+          "name_en": "Ernesto Che Guevara plant",
+          "canonical": "ernesto_che_guevara_plant"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "завод Pedro Soto Alba (SP Moa Nickel)",
+          "name_en": "Pedro Soto Alba (SP Moa Nickel) plant",
+          "canonical": "pedro_soto_alba_plant"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "производство ферроникеля",
+          "name_en": "ferro nickel production",
+          "canonical": "ferro_nickel_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "выпуск Ni+Co в смешанных сульфидах Moa"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "выпуск Ni+Co в смешанных сульфидах Moa"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "nickel_production_capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 30000.0,
+          "unit": "t/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel_production",
+          "op": "range",
+          "value_min": 18000.0,
+          "value_max": 19000.0,
+          "unit": "t/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c1",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "яжении нет. Рисунок 1 – Выпуск никеля (тыс т) и стоимость экспорта никеля (млн USD) на Кубе в 1975-2015 гг. Завод Moa Nickel введен в строй в 1959 г. американской компанией Freeport; перерабатывал окисленную руду (железистые лимониты с содержанием магния <1%) по технологии автоклавного сернокислотного выщелачивания. Полученный смешанный никель-кобальтовый сульфид с 1994 года перерабатывается на канадском заводе Fort Saskatchewan компании Sherritt c получением никелевого и кобальтового порошков/брикетов. Никелевые брикеты зарегистрированы на ЛБМ. Завод в Punta Gorda введен в строй в 1987 г. при технической и финансовой поддержке СССР. Как и на заводе в Nicaro, применяется технология аммиачно-карбонатное выщелачивания – процесс Карона. Содержание никеля в перерабатываемой лимонитово/серпентиновой руде - 1,23%., кобальта - 0,10%. Запасы руды оцениваются в 100 млн т. (по другим данным – запасы 310 млн т с 1,3% Ni, 0,11% Co). Рудник расположен в от перерабатывающего завода. Добычу ведут открытым способом.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "окисленная руда (железистые лимониты)",
+          "name_en": "oxidized ore (limonite with iron)",
+          "canonical": "oxidized_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "автоклавное сернокислотное выщелачивание",
+          "name_en": "autoclave leaching with sulfuric acid",
+          "canonical": "autoclave_leaching_with_sulfuric_acid"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сульфид никеля-кобальта",
+          "name_en": "nickel-cobalt sulfide",
+          "canonical": "nickel_cobalt_sulfide"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "аммиачно-карбонатное выщелачивание (процесс Карона)",
+          "name_en": "ammonia-carbonate leaching (Caron process)",
+          "canonical": "caron_process"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "лимонитово/серпентиновая руда",
+          "name_en": "limonite/greenstone ore",
+          "canonical": "limonite_greenstone_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "автоклавное сернокислотное выщелачивание окисленной руды"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Полученный смешанный никель-кобальтовый сульфид с 1994 года перерабатывается на канадском заводе Fort Saskatchewan компании Sherritt"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Применяется технология аммиачно-карбонатное выщелачивания – процесс Карона для переработки лимонитово/серпентиновой руды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.23,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cobalt_content",
+          "op": "le",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c3",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "отношения CO/CO2 и H2/H2O в восстанавливающем газе ~1 для того, чтобы восстановить Ni и Co, а содержащееся в латеритовой руде железо – до магнетита. [NiOOH восстанавливается легче, чем FeOOH.] быстрое охлаждение огарка в водном растворе NH3/CO2 с целью предотвращения повторного окисления Ni и Co, а также с целью начала начала выщелачивания сплава. Оборудование: охлаждающие трубки для руды (до ~150°С), за которыми следуют охлаждающие баки. Температура пульпы на выходе ~100°С - выщелачивание огарка с целью растворения Ni и Co из сплава и перевода их в водный раствор NH3+CO2+O2(из воздуха), как этап подготовки к осаждению карбоната. Оборудование: баки для выщелачивания и сепарации твердое/жидкое. - разделение твердое/жидкое с целью отделения невыщелоченного твердого остатка от богатого по Ni и Co раствора.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "латеритовая руда",
+          "name_en": "laterite ore",
+          "canonical": "laterite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "магнетит",
+          "name_en": "magnetite",
+          "canonical": "magnetite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "восстанавливающий газ",
+          "name_en": "reducing gas",
+          "canonical": "reducing_gas"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "NH3/CO2 раствор",
+          "name_en": "NH3/CO2 solution",
+          "canonical": "nh3_co2_solution"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "пульпа",
+          "name_en": "slurry",
+          "canonical": "slurry"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "восстановление Ni и Co",
+          "name_en": "reduction of Ni and Co",
+          "canonical": "reduction_of_nickel_and_cobalt"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "выщелачивание огарка",
+          "name_en": "leaching of concentrate",
+          "canonical": "concentrate_leaching"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "охлаждающие трубки для руды",
+          "name_en": "ore cooling tubes",
+          "canonical": "ore_cooling_tubes"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "охлаждающие баки",
+          "name_en": "cooling tanks",
+          "canonical": "cooling_tanks"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "баки для выщелачивания и сепарации твердое/жидкое",
+          "name_en": "leaching and solid-liquid separation tanks",
+          "canonical": "leaching_and_solid_liquid_separation_tanks"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "восстановление Ni и Co из латеритовой руды"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "восстановление железа до магнетита"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "выщелачивание огарка в NH3/CO2 растворе"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "охлаждающие трубки для руды (до ~150°С)"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "охлаждающие баки"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "баки для выщелачивания и сепарации твердое/жидкое"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e9",
+          "param": "temperature",
+          "op": "le",
+          "value_min": null,
+          "value_max": 150.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c2",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "00 млн т. (по другим данным – запасы 310 млн т с 1,3% Ni, 0,11% Co). Рудник расположен в от перерабатывающего завода. Добычу ведут открытым способом. В первую очередь, процесс Карона, вообще говоря, предназначен для переработки, в основном, лимонитовой руды (~1,4% Ni, 0,1% Co) c получением синтера (~90% Ni, 10% O) и других продуктов. Процесс Карона включает следующие шаги [1]: - сушка/измельчение руды с целью удаления 95% механически захваченной воды и измельчения подсушенной руды до ~75 мкм, что обеспечивает равномерный её поток сквозь подовые обжиговые печи. Для этих целей обычно используются прямоточные вращающиеся печи c рабочим газом при 1000°С (для испарения воды); - восстановительный обжиг руды с целью восстановления никель- и кобальтсодержащих минералов до металлического Ni-Co-(низкое Fe) сплава, из которого затем переводят в раствор Ni и Co путем выщелачивания водным NH3, CO2, воздухом. Оборудование: противоточные подовые обжиговые печи (760°), для восстановления – рабочий газ нефть/воздух. Молярные отношения CO/CO2 и H2/H2O в восстанавливающем газе ~1 для того, чтобы восстановить Ni и Co, а содержащееся в латеритовой руде железо – до магнетита.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "лимонитовая руда",
+          "name_en": "limonite ore",
+          "canonical": "limonite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "процесс Карона",
+          "name_en": "Caron process",
+          "canonical": "caron_process"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "прямоточные вращающиеся печи",
+          "name_en": "direct-fired rotary kilns",
+          "canonical": "rotary_kilns"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "противоточные подовые обжиговые печи",
+          "name_en": "counter-current preheating furnaces",
+          "canonical": "preheating_furnaces"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "синтер",
+          "name_en": "sinter",
+          "canonical": "sinter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "переработка лимонитовой руды"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "использование прямоточных вращающихся печей для сушки/измельчения руды"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "использование противоточных подовых обжиговых печей для восстановительного обжига"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 1000.0,
+          "value_max": 1000.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 760.0,
+          "value_max": 760.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c4",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "рдое/жидкое с целью отделения невыщелоченного твердого остатка от богатого по Ni и Co раствора. Оборудование: сгустители и фильтры - очистка раствора с целью удаления примесей Методы: жидкостная экстракция, осаждение сульфидов - осаждение основного карбоната никеля 3Ni(OH)2∙2NiCO3 Методы: удаление аммиака из раствора с помощью нагрева паром, идущим противотоком в цилиндрических многотарелчатых отпарных колоннах - разложение 3Ni(OH)2∙2NiCO3 с целью получения порошка оксида никеля Метод: нагрев во вращающейся печи в нейтральной атмосфере до 1300°С - обжиг (агломерация) порошка NiO с целью получения обогащенных по никелю частиц синтера размером 1-2 см, пригодных для использования в сталеплавильной отрасли Оборудование: высокотемпературная аглолента (спекательная машина ленточного типа) для обжига смеси NiO с углем - продукт: синтер, частицы 1-2 см в диаметре, 85-90% Ni, остальное – преимущественно кислород. Извлечение никеля обычно ~75% - получение кобальта: осаждение оксигидроксида кобальта и/или Co/Ni смешанного сульфида из водного кобальтового неочищенного потока. Извлечение кобальта 40-50%.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция",
+          "name_en": "liquid extraction",
+          "canonical": "liquid_extraction"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "осаждение сульфидов",
+          "name_en": "sulfide precipitation",
+          "canonical": "sulfide_precipitation"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "удаление аммиака паром",
+          "name_en": "ammonia removal with steam",
+          "canonical": "ammonia_removal_with_steam"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "разложение сульфидов никеля",
+          "name_en": "decomposition of nickel sulfides",
+          "canonical": "nickel_sulfide_decomposition"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "агломерация NiO",
+          "name_en": "agglomeration of NiO",
+          "canonical": "ni_o_agglomeration"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "высокотемпературная аглолента",
+          "name_en": "high-temperature agglomerating belt furnace",
+          "canonical": "high_temperature_agglomerating_belt_furnace"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "сульфатный раствор никеля и кобальта",
+          "name_en": "nickel and cobalt sulfate solution",
+          "canonical": "nickel_cobalt_sulfate_solution"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "порошок оксида никеля",
+          "name_en": "nickel oxide powder",
+          "canonical": "ni_oxide_powder"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "синтер",
+          "name_en": "sinter",
+          "canonical": "sinter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "жидкостная экстракция, осаждение сульфидов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "осаждение основного карбоната никеля"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "удаление аммиака из раствора с помощью нагрева паром"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "разложение 3Ni(OH)2∙2NiCO3 с целью получения порошка оксида никеля"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "агломерация порошка NiO с целью получения обогащенных по никелю частиц синтера размером 1-2 см"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "высокотемпературная аглолента для обжига смеси NiO с углем"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "product",
+          "op": "eq",
+          "value_min": 85.0,
+          "value_max": 90.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1300.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c5",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "кобальта: осаждение оксигидроксида кобальта и/или Co/Ni смешанного сульфида из водного кобальтового неочищенного потока. Извлечение кобальта 40-50%. Реализация этой технологии на двух кубинских заводах была неоднократно описана ранее М.Л.Вейзагер (например, в [2] и приведена в Приложении). Процесс Карона имеет существенные недостатки: - он включает в себя пирометаллургические процессы: сушку и обжиг, которые являются существенно энергоемкими. Как следствие, издержки высокие; - извлечение никеля «умеренно высокое», извлечение кобальта – сравнительно низкое; - обычно применение процесса ограничивается лимонитовой или смешанной рудой с >35% Fe; - извлечение падает с увеличением сапролита; - процесс чувствителен к минеральному составу, требует тщательной добычи и смешения. В результате, проектов новых заводов с применением аммиачного выщелачивания нет, а из построенных в свое время пяти заводов к настоящему моменту эксплуатируется только один – в Punta Gorda: завод Nonoc (Филиппины) был закрыт в 1986 г. завод Comandante Rene Ramos Latour в Nicaro в 2012 г.; - в 2016 г. закрыт завод Yabulu (шт.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "водный кобальтовый неочищенный поток",
+          "name_en": "aqueous cobalt-containing unrefined stream",
+          "canonical": "cobalt_unrefined_stream"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "осаждение оксигидроксида кобальта и/или Co/Ni смешанного сульфида",
+          "name_en": "precipitation of cobalt hydroxide and/or Co/Ni mixed sulfide",
+          "canonical": "cobalt_precipitation"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "процесс Карона",
+          "name_en": "Caron process",
+          "canonical": "caron_process"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "осаждение оксигидроксида кобальта и/или Co/Ni смешанного сульфида из водного кобальтового неочищенного потока"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "реализация этой технологии на двух кубинских заводах была неоднократно описана ранее М.Л.Вейзагер"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "recovery_of_cobalt",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "energy_consumption",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "high",
+          "condition": "пирометаллургические процессы: сушку и обжиг"
+        },
+        {
+          "entity_id": "e3",
+          "param": "nickel_recovery",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "moderate_high",
+          "condition": "извлечение никеля «умеренно высокое»"
+        },
+        {
+          "entity_id": "e3",
+          "param": "copper_recovery",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "low",
+          "condition": "извлечение кобальта – сравнительно низкое"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c6",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Punta Gorda: завод Nonoc (Филиппины) был закрыт в 1986 г. завод Comandante Rene Ramos Latour в Nicaro в 2012 г.; - в 2016 г. закрыт завод Yabulu (шт. Квинсленд, Австралия) компании Queensland Nickel, перерабатывавший импортную руду по технологии аммиачного выщелачивания; - в 2016 г. бразильская компания Votorantim S.A. в связи с неблагоприятной ситуацией на рынке никеля решила остановить на неопределенный срок добычу руды и производство никеля на предприятиях в Sao Jose Tocantins и Sao Miguel Paulista. Завод в Punta Gorda, как сообщается из года в год на протяжении последних лет, «осуществляет программу расшивания узких мест», что позволит увеличить выпуск Ni+Co до 36 тыс т/г. Планы на дальнейшую перспективу – 52 тыс т/г. Однако фактически выпуск в 2016 г. – порядка 18,5 тыс т, в 2017 г. – порядка 19 тыс т. Справедливости ради заметим, что: 1 – в 2014 г. на заводе начался самый масштабный (за 28 лет эксплуатации) ремонт, снижение выпуска в период ремонта было запланировано. О сроках окончания ремонта и сути проделанных работ информации в нашем распоряжении очень мало; 2 – в 2017 г. была остановка завода в связи с ураганом Ирма.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "завод Nonoc",
+          "name_en": "Nonoc mine",
+          "canonical": "nonoc_mine"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "завод Comandante Rene Ramos Latour",
+          "name_en": "Comandante Rene Ramos Latour mine",
+          "canonical": "comandante_rene_ramos_latour_mine"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "завод Yabulu",
+          "name_en": "Yabulu mine",
+          "canonical": "yabulu_mine"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "завод в Punta Gorda",
+          "name_en": "Punta Gorda mine",
+          "canonical": "punta_gorda_mine"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "импортная руда",
+          "name_en": "imported ore",
+          "canonical": "imported_ore"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "аммиачное выщелачивание",
+          "name_en": "ammonia leaching",
+          "canonical": "ammonia_leaching"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "завод Yabulu (шт. Квинсленд, Австралия) компании Queensland Nickel, перерабатывавший импортную руду по технологии аммиачного выщелачивания"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "завод Comandante Rene Ramos Latour в Nicaro в 2012 г."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "технология аммиачного выщелачивания"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "завод в Punta Gorda, как сообщается из года в год на протяжении последних лет, «осуществляет программу расшивания узких мест», что позволит увеличить выпуск Ni+Co до 36 тыс т/г"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c7",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "х окончания ремонта и сути проделанных работ информации в нашем распоряжении очень мало; 2 – в 2017 г. была остановка завода в связи с ураганом Ирма. Отметим, что модернизация государственного завода в Punta Gorda была объявлена приоритетом. В первую очередь, чтобы сделать завод конкурентоспособным, надо снижать потребление энергии. Как сказал руководитель Министерства энергетики и горной отрасли, будут введены «технологические изменения в энергетическую матрицу». Изучается вопрос о возможности использования других видов топлива (уголь, кокс, газ) с целью снижения издержек. Кроме того, в планах – закупка оборудования и подготовка площадки для применения солнечной энергии для сушки. Конечно, планы включают и ремонт разного оборудования, включая восстановительные печи – эта работа, на которую было утверждено «китайское финансирование» должна быть завершена в 2019 г. Строится и новое хвостохранилище. Преимуществом процесса Карон можно назвать возможность переработки руды с более высоким содержанием магния, чем при АКВ, но издержки производства, при очень больших энергозатратах делает эту технологию неконкурентоспособной, особенно при текущем уровне цен на никель.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никельная руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "технология Карон",
+          "name_en": "Karon process",
+          "canonical": "karon_process"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "восстановительные печи",
+          "name_en": "reduction furnaces",
+          "canonical": "reduction_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "переработки руды с более высоким содержанием магния"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "ремонт разного оборудования, включая восстановительные печи"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "energy_consumption",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "kWh/t",
+          "condition": "высокие энергозатраты делают технологию неконкурентоспособной"
+        },
+        {
+          "entity_id": "e1",
+          "param": "magnesium_content",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "%",
+          "condition": "переработки руды с более высоким содержанием магния"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c8",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "В, но издержки производства, при очень больших энергозатратах делает эту технологию неконкурентоспособной, особенно при текущем уровне цен на никель. Источники Frank Crundwell, Michael Moats et al. Extractive Metallurgy of Nickel, Cobalt and Platinum-Group Metals. Elsevier, 2011, 609 pp М.Л.Вейзагер. Обзорная информация по теме «Методы переработки низкосортных сульфидных и окисленных никелевых руд. Новые проекты». На правах рукописи. ООО «Институт Гипроникель», 2012 г. Приложение 1 Процесс Карона впервые был внедрен на заводе Nicaro на Кубе для переработки местных латеритовых руд. Завод Nicaro перерабатывает латеритовые руды с содержанием, %: Ni – 1,3-1,4, Co – 0,07-0,09, Fe – 33-37, MgO – 9,5. Завод был построен в 1941 году. В 1944 году он был остановлен, производство никеля на нем было возобновлено в 1951 году, в этом же году была введена в строй вторая очередь завода. Технологическая схема завода представлена на рис.1. В силу трудности выделения раздельных фракций руды на заводе перерабатывают руду валового состава – латерито-серпентинитовую. Проектная производительность завода 23 тыс. т никеля в год.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевая руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "технология Карона",
+          "name_en": "Caron process",
+          "canonical": "caron_process"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание никеля в руде",
+          "name_en": "nickel content in ore",
+          "canonical": "nickel_content_in_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "содержание кобальта в руде",
+          "name_en": "cobalt content in ore",
+          "canonical": "cobalt_content_in_ore"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "содержание железа в руде",
+          "name_en": "iron content in ore",
+          "canonical": "iron_content_in_ore"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "содержание магния оксида в руде",
+          "name_en": "magnesium oxide content in ore",
+          "canonical": "magnesium_oxygen_content_in_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "перерабатывают руду валового состава – латерито-серпентинитовую"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "содержание, %: Ni – 1,3-1,4"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "nickel_content_in_ore",
+          "op": "range",
+          "value_min": 1.3,
+          "value_max": 1.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "cobalt_content_in_ore",
+          "op": "range",
+          "value_min": 0.07,
+          "value_max": 0.09,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "iron_content_in_ore",
+          "op": "range",
+          "value_min": 33.0,
+          "value_max": 37.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "magnesium_oxygen_content_in_ore",
+          "op": "eq",
+          "value_min": 9.5,
+          "value_max": 9.5,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c9",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "х фракций руды на заводе перерабатывают руду валового состава – латерито-серпентинитовую. Проектная производительность завода 23 тыс. т никеля в год. Однако, в связи с тем, что оборудование на заводе устарело и завод требует реконструкции, производство на заводе в настоящее время составляет только около 16 тыс. т/г. Руда сушится в 7 отапливаемых нефтяным топливом вращающихся сушилках, где влажность снижается с 38% до 5%. Восстановительный обжиг смеси железистой (70%) и магнезиальной (30%) фракций ведут при температуре 720-750С в 11 из 24 печах Герресгоффа. Охлажденная восстановленная руда выщелачивается аммиачно-карбонатным раствором при атмосферном давлении. Никель из раствора выделяют в виде основного карбоната, используя карбонат натрия. Карбонат никеля подвергают прокаливанию с получением товарной закиси никеля. До конца 1980-х годов кобальт по технологии завода не извлекался и являлся вредной примесью в готовой продукции завода – закиси никеля и синтере. Синтер получают (для удобства использования его в сталеплавильном производстве) восстановлением углем закиси никеля на аглоленте.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "латерито-серпентинитовая руда",
+          "name_en": "lateritic serpentinite ore",
+          "canonical": "lateritic_serpentinite_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "нефтяные вращающие сушилки",
+          "name_en": "oil-fired rotary driers",
+          "canonical": "rotary_drier"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "восстановительный обжиг",
+          "name_en": "reduction roasting",
+          "canonical": "reduction_roasting"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "печи Герресгоффа",
+          "name_en": "Herrschegger furnaces",
+          "canonical": "herrschegger_furnace"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "выщелачивание аммиачно-карбонатным раствором",
+          "name_en": "ammonia-carbonate leaching",
+          "canonical": "ammonia_carbonate_leaching"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "аммиачно-карбонатный раствор",
+          "name_en": "ammonia-carbonate solution",
+          "canonical": "ammonia_carbonate_solution"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "прокаливание карбоната никеля",
+          "name_en": "calcination of nickel carbonate",
+          "canonical": "nickel_carbonate_calcination"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "карбонат натрия",
+          "name_en": "sodium carbonate",
+          "canonical": "sodium_carbonate"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "восстановление углем закиси никеля на аглоленте",
+          "name_en": "reduction of nickel oxide on agglomerated belt",
+          "canonical": "nickel_oxide_reduction_on_agglomerated_belt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "х фракций руды на заводе перерабатывают руду валового состава – латерито-серпентинитовую"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Проектная производительность завода 23 тыс. т никеля в год"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Восстановительный обжиг смеси железистой (70%) и магнезиальной (30%) фракций ведут при температуре 720-750С в 11 из 24 печах Герресгоффа"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Восстановительный обжиг смеси железистой (70%) и магнезиальной (30%) фракций ведут при температуре 720-750С в 11 из 24 печах Герресгоффа"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Восстановительный обжиг смеси железистой (70%) и магнезиальной (30%) фракций ведут при температуре 720-750С в 11 из 24 печах Герресгоффа"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Охлажденная восстановленная руда выщелачивается аммиачно-карбонатным раствором при атмосферном давлении"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Никель из раствора выделяют в виде основного карбоната, используя карбонат натрия"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Синтер получают (для удобства использования его в сталеплавильном производстве) восстановлением углем закиси никеля на аглоленте"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 720.0,
+          "value_max": 750.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 720.0,
+          "value_max": 750.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c10": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c10",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "и никеля и синтере. Синтер получают (для удобства использования его в сталеплавильном производстве) восстановлением углем закиси никеля на аглоленте. В 1988 году на заводе Nicaro была введена в строй установка по осаждению из раствора выщелачивания кобальта в виде сульфида сульфидом аммония. Извлечение кобальта в получаемый концентрат составляет 30%. Около половины кобальта, извлекаемого в раствор, переходит в никелевый товарный продукт. В связи с тем, что перед осаждением Ni-Co концентрата раствор выщелачивания глубоко не очищается от железа, кобальтовый концентрат содержит до 10% Fe, а отношение никеля к кобальту составляет около 3-4:1. Получаемый кобальтовый концентрат складировался, т.к. был не решен способ его переработки, затем кобальтовый концентрат продавали. Однако производство кобальта в концентрате составляет менее 150 т/г, поэтому он может лишь незначительно повлиять на себестоимость никеля на Nicaro.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "закись никеля",
+          "name_en": "nickel oxide",
+          "canonical": "nickel_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "восстановление углем закиси никеля на аглоленте",
+          "name_en": "reduction of nickel oxide with carbon on agglomerate belt",
+          "canonical": "reduction_of_nickel_oxide"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сульфид аммония",
+          "name_en": "ammonium sulfide",
+          "canonical": "ammonium_sulfide"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "осаждение кобальта в сульфидах сульфидом аммония",
+          "name_en": "precipitation of cobalt as sulfides using ammonium sulfide",
+          "canonical": "cobalt_precipitation_with_ammonium_sulfide"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "восстановлением углем закиси никеля на аглоленте"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "осаждение кобальта в сульфидах сульфидом аммония"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "кобальтовый концентрат содержит до 10% Fe"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "recovery_of_cobalt",
+          "op": "le",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "fe_content",
+          "op": "le",
+          "value_min": 10.0,
+          "value_max": 10.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Куба_ПунтаГорда_2018::p1::c11": {
+    "chunk": {
+      "chunk_id": "Обзоры__Куба_ПунтаГорда_2018::p1::c11",
+      "doc_id": "Обзоры__Куба_ПунтаГорда_2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Куба_ПунтаГорда_2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Однако производство кобальта в концентрате составляет менее 150 т/г, поэтому он может лишь незначительно повлиять на себестоимость никеля на Nicaro. Рисунок 1 - Схема завода Nicaro Вторым заводом на Кубе, работающим по технологии аммиачно-карбонатного выщелачивания (процесс Карона), является завод Punta Gorda, который был спроектирован институтом «Гипроникель» и введен в эксплуатацию в начале 1990-х годов с помощью советских специалистов. Руда, добываемая открытым способом, содержит 1,27% никеля и 0,1% кобальта. Завод перерабатывал в . 3300 тыс. т руды (на сухой вес) и произвел 31,4 тыс. т никеля. Завод использует технологию, аналогичную заводу Nicaro с учетом внесенных в работу завода усовершенствований. Работает цех осаждения сульфидов (также без предварительной очистки от железа) раствором сернистого аммония, усовершенствован процесс обжига. Однако извлечение кобальта и там не превышает 30%, половина приходится на смешанные сульфиды, а половина кобальта переходит в синтер.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рудникобальта",
+          "name_en": "cobalt-nickel ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "аммиачно-карбонатное выщелачивание",
+          "name_en": "ammonia-carbonate leaching",
+          "canonical": "ammonia_carbonate_leaching"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "обжиг сульфидов",
+          "name_en": "roasting of sulfides",
+          "canonical": "roasting_of_sulfides"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "технология аммиачно-карбонатного выщелачивания"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "усовершенствован процесс обжига"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_concentration",
+          "op": "le",
+          "value_min": null,
+          "value_max": 150.0,
+          "unit": "t/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration_in_ore",
+          "op": "eq",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  }
+}

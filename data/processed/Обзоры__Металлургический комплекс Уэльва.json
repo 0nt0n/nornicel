@@ -1,0 +1,1182 @@
+{
+  "Обзоры__Металлургический комплекс Уэльва::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c0",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам ___________ Л.Б. Цымбулов « __ » ___________ 2019 ОБЗОР Металлургический комплекс Уэльва ОИП – 16 – 2019 Список исполнителей Главный специалист Евграфова А.К. Оглавление Металлургический комплекс Уэльва, Испания 4 Список использованных источников 9 Металлургический комплекс Уэльва, Испания Металлургический медный комплекс Уэльва испанской компании Atlantic Copper S.A., зарегистрированной в г. Уэльва, включает медеплавильный и рафинировочный заводы, сернокислотное производство, никелевый завод и прочие мощности. C 1998 г. единственным акционером компании является американский конгломерат Freeport McMoRan Copper&Gold, занимающий 2-е место в мире по выпуску меди и первое – по молибдену. Atlantic Copper – второй по величине производитель меди в Европе. Территория комплекса - 45 Га на берегу реки Odiel, прямо напротив лимана Marismas del Odiel, зарегистрированного ЮНЕСКО как биосферный заповедник и место обитания многих видов птиц и т.д. Комплекс расположен на территории земельных концессий от властей порта Уэльвы, срок действия которых истекает в 2039 г. Собственной рудной базы нет.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "меди",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "молибден",
+          "name_en": "molybdenum",
+          "canonical": "molybdenum"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "медеплавильный процесс",
+          "name_en": "smelting process",
+          "canonical": "smelting_process"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "рафинировочный завод",
+          "name_en": "refining plant",
+          "canonical": "refining_plant"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "серная кислота",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "сернокислотное производство",
+          "name_en": "sulfuric acid production",
+          "canonical": "sulfuric_acid_production"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "никелевый завод",
+          "name_en": "nickel plant",
+          "canonical": "nickel_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "медеплавильный и рафинировочный заводы"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "медеплавильный и рафинировочный заводы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "сернокислотное производство"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "никелевый завод"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c1",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Комплекс расположен на территории земельных концессий от властей порта Уэльвы, срок действия которых истекает в 2039 г. Собственной рудной базы нет. Медные концентраты доставляются по морю в порт Уэльва, где имеется причальная система для судов грузоподъемностью до 50 тыс т. После разгрузки с судна концентрат доставляется за завод на грузовиках. Часть концентратов поставляет Freeport со своих рудников в Северной Америке и Южной Америке, а также с рудника Grasberg (Индонезия), но основную массу концентратов закупают у третьих сторон. Таблица 1 – Концентраты для плавки Ист: Freeport Пропускная способность медеплавильного завода по концентрату – 1,2 млн т/г. По факту в 2018 г. было проплавлено 1 103 641 т концентратов, в 2017 г. – 1 025 155 млн т. Помимо концентратов, на заводе ежегодно переплавляют до 30 тыс т вторичного медного сырья (трубы, проволока, гранулированная медь, стружка и монеты). На медеплавильном заводе мощностью ~300-350 тыс т/г по анодам применяется технология взвешенной плавки по способу Outokumpu. Штейн (~64% Cu) поступает на конвертирование в конвертерах Пирса-Смита (два действующих конвертера, два – в резерве), где получают черновую медь 99%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "причальная система порта Уэльвы",
+          "name_en": "port quay system",
+          "canonical": "quay_system"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "грузовики",
+          "name_en": "trucks",
+          "canonical": "truck"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "взвешенная плавка",
+          "name_en": "flash smelting",
+          "canonical": "flash_smelting"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "конвертеры Пирса-Смита",
+          "name_en": "Pirque converters",
+          "canonical": "pirque_converter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "медные концентраты доставляются по морю в порт Уэльва"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "часть концентратов доставляется за завод на грузовиках"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "на медеплавильном заводе мощностью ~300-350 тыс т/г по анодам применяется технология взвешенной плавки по способу Outokumpu"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "annual_production",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1200000.0,
+          "unit": "t/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 350000.0,
+          "unit": "t/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c2",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Штейн (~64% Cu) поступает на конвертирование в конвертерах Пирса-Смита (два действующих конвертера, два – в резерве), где получают черновую медь 99%. Аноды с 99,6% Cu поступают на электрорафинирование, мощность передела – 285 тыс т/г катодной меди и 1 тыс т/г шлама, содержащего Au и Ag, МПГ. Рисунок 1 – Схема металлургического комплекса Уэльва Примечание: 1 - Склад приема сырья, 2 -Загрузочный бункер, 3 – Сушилки, 4 - Рукавные фильтры, 5 - Пневматические подъемные системы (Sistemas neumáticos elevación), 6 - Бункер для хранения концентрата, 7 - Печь взвешенной плавки, 8 – Конверторы, 9 - Анодная печь, 10 - Карусельно разливочная машина, 11 – Электролиз, 12 - Электрическая печь для обеднения шлака, 13 – Электрофильтры, 14 - Котел печи взвешенной плавки (Caldera Horno Flash), 15 – Электрофильтры, 16 - Камера смешивания отходящих газов (Газовая камера Camara de Gases), 17 - Фабрика по производству серной кислоты, 18 - Котел для нагрева пара (Caldera Sobrecalentadora), 19 - Тепловая электростанция, 20 - Замкнутый контур оборота пыли, 21 - Завод по производству гипса, 22 - Никелевый завод Ист: Atlantic Copper Катодная медь – это главный продукт металлургического комплекса.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "черновая медь",
+          "name_en": "rough copper",
+          "canonical": "rough_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлам",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "котел печи взвешенной плавки",
+          "name_en": "flash smelting furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "конвертирование в конвертерах Пирса-Смита",
+          "name_en": "Pirque converters process",
+          "canonical": "pirque_converters_process"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "электрорафинирование",
+          "name_en": "electrorefining",
+          "canonical": "electrorefining"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "печь взвешенной плавки",
+          "name_en": "flash smelting furnace",
+          "canonical": "flash_smelting_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "конвертирование в конвертерах Пирса-Смита"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "аноды с 99,6% Cu поступают на электрорафинирование"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c3",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "та пыли, 21 - Завод по производству гипса, 22 - Никелевый завод Ист: Atlantic Copper Катодная медь – это главный продукт металлургического комплекса. Медь Уэльвы сорта Grade A соответствует спецификации CU-CATH-1 и стандарту EN 1978:1998. Под маркой ‘FMS’ она зарегистрирована на ЛБМ, COMEX и Шанхайской фьючерсной бирже (SHFE). Катоды увязывают примерно по 60 штук общим весом ~3000 кг. При металлургическом комплексе имеются три сернокислотных завода постройки 1971 г., 1975 г. и 1996 г., все три – по технологии Outotec (Lurgi). Суммарный выпуск серной кислоты 98,5% – около 1 млн т/г. Анодный шлам продают производителям драгоценных металлов. Теллурид меди из шламов получают самостоятельно и продают (используется для получения теллура). Никель извлекают осаждением и продают в виде карбоната (сырье для приготовления катализаторов нефтехимической отрасли, добавки в стекольной и керамической отраслях). Образующиеся жидкие стоки направляют в цех по производству штукатурки, где их смешивают со слабой серной кислотой для получения продажной штукатурки. Побочным продуктом плавки медных концентратов является силикат железа, зарегистрированный в системе REACH.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катодная медь",
+          "name_en": "cathode copper",
+          "canonical": "copper_cathode"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серная кислота 98,5%",
+          "name_en": "sulfuric acid 98.5%",
+          "canonical": "sulfuric_acid_98p5"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "анодный шлам",
+          "name_en": "anode sludge",
+          "canonical": "anode_sludge"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "теллурид меди",
+          "name_en": "tellurium from copper sludge",
+          "canonical": "tellurium_from_copper_sludge"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "карбонат никеля",
+          "name_en": "nickel carbonate",
+          "canonical": "nickel_carbonate"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "осаждение никеля",
+          "name_en": "nickel precipitation",
+          "canonical": "nickel_precipitation"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "извлечение теллура из шлама",
+          "name_en": "tellurium extraction from sludge",
+          "canonical": "tellurium_extraction_from_sludge"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "извлечение никеля из концентратов меди",
+          "name_en": "nickel leaching from copper concentrates",
+          "canonical": "nickel_leaching_from_copper_concentrates"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "сернокислотные заводы",
+          "name_en": "sulfuric acid plants",
+          "canonical": "sulfuric_acid_plants"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "анодный шлам продают производителям драгоценных металлов"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "из теллурида меди получают теллур"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "осаждение никеля"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "извлечение теллура из шлама"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "извлечение никеля из концентратов меди"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "grade",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "ge",
+          "value_min": 98.5,
+          "value_max": 98.5,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c4",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "слотой для получения продажной штукатурки. Побочным продуктом плавки медных концентратов является силикат железа, зарегистрированный в системе REACH. Силикат железа используется в цементной отрасли в качестве источника железа. Часть силиката железа оставляют для своих нужд – сушат, классифицируют и используют при очистке шлифованием всех типов стальных или бетонных поверхностей. «Синтетический» гипс получают из растворов электролиза при обработке гидроксидом кальция. Получается 97% сульфат кальция, это чистый продукт белого цвета, зарегистрированный в системе REACH. Он имеет много областей применения, но главная их них – в цементной отрасли. При металлургическом комплексе имеется электростанция, где утилизируют тепло от плавки. Кроме того, имеется и необходимая логистическая инфраструктура, обеспечивающая возможность торговать ежегодно с более чем 20 странами. Таблица 2 – Фактический выпуск продукции в 2018 г.: Вся продукция делится примерно 50:50 между внутренним и международным рынками.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "продажная штукатурка",
+          "name_en": "saleable plaster",
+          "canonical": "saleable_plaster"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "силикат железа",
+          "name_en": "iron silicate",
+          "canonical": "iron_silicate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "гипс",
+          "name_en": "gypsum",
+          "canonical": "gypsum"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сульфат кальция",
+          "name_en": "calcium sulfate",
+          "canonical": "calcium_sulfate"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "плавка медных концентратов",
+          "name_en": "smelting of copper concentrates",
+          "canonical": "smelting_of_copper_concentrates"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "электролиз",
+          "name_en": "electrolysis",
+          "canonical": "electrolysis"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "электростанция",
+          "name_en": "power station",
+          "canonical": "power_station"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "побочным продуктом плавки медных концентратов является силикат железа"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "содержится в системе REACH и используется в цементной отрасли как источник железа"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "синтетический гипс получают из растворов электролиза при обработке гидроксидом кальция"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "97% сульфат кальция, это чистый продукт белого цвета и имеет много областей применения"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c5",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "е чем 20 странами. Таблица 2 – Фактический выпуск продукции в 2018 г.: Вся продукция делится примерно 50:50 между внутренним и международным рынками. На экспорт идет ~45% катодной меди (в первую очередь, в Средиземноморский бассейн, Средний Восток и Европу) и ~70% серной кислоты, а также весь анодный шлам, весь теллурид меди и 70% силиката железа. Компания уделяет большое внимание вопросам экологии, сокращая расход электроэнергии (0,551 МВт·ч/т концентрата в 2016 г. и 0,528 МВт·ч/т в 2018 г.), воды, материалов и т. д., а также выбросы в атмосферу. В 2018 году выбросы SO2 составили 2 647 т или 2,40 кг SO2 на 1 т концентрата, по сравнению с 2 340 т и 2,28 кг в 2017 году, соответственно. Рисунок 2 - Сокращение выбросов SO2, т/т переработанного концентрата, база – 100% 2004 г. Ист: Atlantic Copper Выбросы твердых частиц в 2018 году составили 36,1 т, или 0,033 кг на 1 т концентрата, по сравнению с 28,9 т и 0,028 кг в 2017 году, соответственно. Рисунок 3 - Сокращение выбросов твердых частиц, т/т переработанного концентрата, база – 100% 2004 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "выбросы SO2",
+          "name_en": "SO2 emissions",
+          "canonical": "so2_emissions"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "выбросы твердых частиц",
+          "name_en": "particulate matter emissions",
+          "canonical": "particulate_matter_emissions"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": " выбросы SO2 составили 2 647 т или 2,40 кг SO2 на 1 т концентрата"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "выбросы твердых частиц в 2018 году составили 36,1 т, или 0,033 кг на 1 т концентрата"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "so2_emissions",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2647.0,
+          "unit": "t/t concentrate",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "so2_emissions",
+          "op": "range",
+          "value_min": 2340.0,
+          "value_max": 2647.0,
+          "unit": "t/t concentrate",
+          "condition": "2017-2018"
+        },
+        {
+          "entity_id": "e2",
+          "param": "so2_emissions",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2.4,
+          "unit": "kg/t",
+          "condition": "2018"
+        },
+        {
+          "entity_id": "e3",
+          "param": "particulate_matter_emissions",
+          "op": "le",
+          "value_min": null,
+          "value_max": 36.1,
+          "unit": "t/t concentrate",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "particulate_matter_emissions",
+          "op": "range",
+          "value_min": 28.9,
+          "value_max": 36.1,
+          "unit": "t/t concentrate",
+          "condition": "2017-2018"
+        },
+        {
+          "entity_id": "e3",
+          "param": "particulate_matter_emissions",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.033,
+          "unit": "kg/t",
+          "condition": "2018"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c6",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "с 28,9 т и 0,028 кг в 2017 году, соответственно. Рисунок 3 - Сокращение выбросов твердых частиц, т/т переработанного концентрата, база – 100% 2004 г. Ист: Atlantic Copper Таблица 3 - Краткое описание основного оборудования металлургического комплекса Уэльва (по состоянию на 2004 г) Ист.: Brook Hunt 2004 Список использованных источников Freeport McMoRan Copper&Gold. Annual Report 2018 Form 10-K, 198 pp, Freeport McMoRan Copper&Gold. Quarterly Report Form 10-k for the Period Ended June 30, 2019, 73 pp, Atlantic Copper. Declaraciόn Ambiental Aňo 2018, 42 pp. Brook Hunt. Copper Smelters. Costs & Commercial Analysis. Volume 3 of 3. Europe, Australia, Africa, Asia. January 2004. Руководитель работ Начальник ОИП | Р.А.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "металлургическое оборудование",
+          "name_en": "metallurgical equipment",
+          "canonical": "metallurgical_equipment"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "mass",
+          "op": "le",
+          "value_min": null,
+          "value_max": 28.9,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "weight",
+          "op": "le",
+          "value_min": 0.028,
+          "value_max": null,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c7",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": ". Кузнецов Источник: | I п/г 2019 | 2018 | 2017 | 2016 Третьи стороны | 72% | 77% | 67% | 77% Североамер.рудники | 28% | 14 | 18 | 13 Южноамер.рудники | 28% | 5 | 15 | 7 Индонезия | 28% | 4 | - | 3 100% | 100% | 100% Катоды | 283 071 т Аноды (на продажу) | 12 873 т Серная кислота | 1 077 621 т Шламы | 972 т Силикат железа | 658,6 тыс т Гипс | 29,5 тыс т Карбонат никеля | 1176 т Оборудование для транспортировки материала | Концентраты из порта Уэльва транспортируются на плавильный завод на грузовых автомобилях вместимостью 70 и 15 тонн. Подъем на машины осуществляется фронтальными и грейферными погрузчиками. Оборудование для подготовки сырья/сушки | - 20 контейнеров для хранения концентрата, 150-220 т каждый - Одна барабанная сушилка производительностью 110 т/ч, с размерами 3 х 32 м, влажность продукта 0,2%. Используется природный газ и отходящие газы пароперегревателя - Две сушилки с паровым подогревом - 40 т/ч Плавильная печь | Одна печь взвешенной плавки Outokumpu, с размерами 7,5 х 22 м. Обогащение дутья кислородом 60%. Содержание Сu в штейне 63%. Оборудование для обеднения шлака | Одна электропечь (11 МВА) диаметром 12,2 м, нормальная мощность 4 МВт.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "грузовой автомобиль",
+          "name_en": "truck",
+          "canonical": "truck"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "фронтальный погрузчик",
+          "name_en": "front loader",
+          "canonical": "front_loader"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "грейферный погрузчик",
+          "name_en": "grapple loader",
+          "canonical": "grapple_loader"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "барабанная сушилка",
+          "name_en": "tubular dryer",
+          "canonical": "tubular_dryer"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "сырье",
+          "name_en": "raw material",
+          "canonical": "raw_material"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "сушилка с паровым подогревом",
+          "name_en": "steam-heated dryer",
+          "canonical": "steam_heated_dryer"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "штейн",
+          "name_en": "ingot",
+          "canonical": "ingot"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "плавильная печь взвешенной плавки Outokumpu",
+          "name_en": "Outokumpu flash smelting furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "электропечь",
+          "name_en": "electric furnace",
+          "canonical": "electric_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "грузовые автомобили вместимостью 70 и 15 тонн"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "фронтальные и грейферные погрузчики"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "одна барабанная сушилка производительностью 110 т/ч, с размерами 3 х 32 м, влажность продукта 0,2%"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "две сушилки с паровым подогревом - 40 т/ч"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "одна печь взвешенной плавки Outokumpu, с размерами 7,5 х 22 м. Обогащение дутья кислородом 60%. Содержание Cu в штейне 63%"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "одна электропечь (11 МВА) диаметром 12,2 м, нормальная мощность 4 МВт."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": 110.0,
+          "value_max": 110.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "length",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "width",
+          "op": "eq",
+          "value_min": 32.0,
+          "value_max": 32.0,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "product_moisture",
+          "op": "eq",
+          "value_min": 0.2,
+          "value_max": 0.2,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "t/h",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c8",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "кислородом 60%. Содержание Сu в штейне 63%. Оборудование для обеднения шлака | Одна электропечь (11 МВА) диаметром 12,2 м, нормальная мощность 4 МВт. Перерабатываются шлаки ПВП и конвертерные шлаки. Сливаемый шлак направляется на производство цемента и для использования при пескоструйной обработке. Конвертирование | 4 конвертера Пирса-Смита, размерами 4,0 х 10,1 м. Количество дутья 600 м3/мин. Анодная печь | 3 вращающиеся печи, одна размерами 4 х 9,1 м, две других - 4,6 х 11,0 м. В качестве восстановителя используется природный газ. Разлив анодов | - Одна карусельная машина Outokumpu с 20 изложницами. Скорость разливки 40 т/ч. - Одна карусельная машина Demag с 28 изложницами. Скорость разливки 80 т/ч. Автоматическая отливка Wenmec, масса анода 351 кг Обеспечен автоматический съем анодов. Кислородная установка | Две кислородные установки Air Liquide, производительностью 280 т/д и 320 т/д. Сернокислотное производство | - Три сернокислотных завода (Lurgi), номинальная мощность 600 т/сутки, 1250 т/сутки и 1700 т/сутки. Оборудование для охлаждения и промывки газа производит 98% серную кислоту. - Хранилище кислоты на 30 тыс т (дополнительно можно арендовать хранилище на 25 тыс т).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "штейн",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag refining",
+          "canonical": "slag_refining"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "электропечь ПВП",
+          "name_en": "flash_smelting_furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "шлак ПВП",
+          "name_en": "Pirie slag",
+          "canonical": "pirie_slag"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "конвертер Пирса-Смита",
+          "name_en": "Pirie converter",
+          "canonical": "pirie_converter"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "конвертирование шлака",
+          "name_en": "slag conversion",
+          "canonical": "slag_conversion"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "вращающаяся печь",
+          "name_en": "rotary furnace",
+          "canonical": "rotary_furnace"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "природный газ",
+          "name_en": "natural gas",
+          "canonical": "natural_gas"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "разлив анодов",
+          "name_en": "anode casting",
+          "canonical": "anode_casting"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "карусельная машина Outokumpu",
+          "name_en": "Outokumpu carousel machine",
+          "canonical": "outokumpu_carousel_machine"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "карусельная машина Demag",
+          "name_en": "Demag carousel machine",
+          "canonical": "demag_carousel_machine"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "автоматическая отливка анодов",
+          "name_en": "automatic anode casting",
+          "canonical": "automatic_anode_casting"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "анод",
+          "name_en": "anode",
+          "canonical": "anode"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "кислородная установка Air Liquide",
+          "name_en": "Air Liquide oxygen plant",
+          "canonical": "air_liquide_oxygen_plant"
+        },
+        {
+          "id": "e15",
+          "type": "Process",
+          "name_ru": "производство серной кислоты",
+          "name_en": "sulfuric acid production",
+          "canonical": "sulfuric_acid_production"
+        },
+        {
+          "id": "e16",
+          "type": "Material",
+          "name_ru": "серная кислота",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Перерабатываются шлаки ПВП и конвертерные шлаки"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "4 конвертера Пирса-Смита, размерами 4,0 х 10,1 м"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "В качестве восстановителя используется природный газ"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "Одна карусельная машина Outokumpu с 20 изложницами. Скорость разливки 40 т/ч."
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "Одна карусельная машина Demag с 28 изложницами. Скорость разливки 80 т/ч."
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e13",
+          "type": "operates_at_condition",
+          "evidence": "Автоматическая отливка Wenmec, масса анода 351 кг Обеспечен автоматический съем анодов"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e16",
+          "type": "produces_output",
+          "evidence": "Две кислородные установки Air Liquide, производительностью 280 т/д и 320 т/д"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e9",
+          "param": "casting_rate",
+          "op": "le",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "casting_rate",
+          "op": "le",
+          "value_min": 80.0,
+          "value_max": 80.0,
+          "unit": "t/h",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Металлургический комплекс Уэльва::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__Металлургический комплекс Уэльва::p1::c9",
+      "doc_id": "Обзоры__Металлургический комплекс Уэльва",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Металлургический комплекс Уэльва.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "для охлаждения и промывки газа производит 98% серную кислоту. - Хранилище кислоты на 30 тыс т (дополнительно можно арендовать хранилище на 25 тыс т). Энергоблок | Пар из котла-утилизатора ПВП и резервного котла. - Один генератор 11,5 МВт Пар используется для сушки концентратов и для нагрева электролита рафинировочного завода.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "серная кислота",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "хранилище кислоты",
+          "name_en": "acid storage tank",
+          "canonical": "acid_storage_tank"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "генератор",
+          "name_en": "generator",
+          "canonical": "generator"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "сушка концентратов",
+          "name_en": "concentrate drying",
+          "canonical": "concentrate_drying"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Хранилище кислоты на 30 тыс т (дополнительно можно арендовать хранилище на 25 тыс т)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 30000.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "power",
+          "op": "eq",
+          "value_min": 11.5,
+          "value_max": 11.5,
+          "unit": "MW",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  }
+}

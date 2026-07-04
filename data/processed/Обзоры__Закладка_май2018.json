@@ -1,0 +1,730 @@
+{
+  "Обзоры__Закладка_май2018::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c0",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Закладка цементированной породой Закладка пустой породой применяется уже более 80 лет, закладка породой с цементированием выработанного пространства («цементированная закладка») – с 1960-х годов, а с 1980-х годов всё шире применяется пастовая закладка, потеснившая закладку породой («сухую» и цементированную). Примером может послужить рудник Kidd Creek, где после 2004 г. пастовая закладка заменила цементированную закладку пустой породой по ряду причин. Приводим расширенную цитату из нашего обзора «Закладочные комплексы» (2017 г.): Рудник Kidd Creek был введен в строй в 1965 г., сначала вели открытую добычу, а с 1973 г. – подземную, которая становилась всё глубже. Метод добычи – подэтажная выемка с отбойкой глубокими скважинами. Бóльшую часть времени закладку вели цементированной пустой породой. Рудник Kidd Creek - второй крупнейший потребитель цементированной закладки (после Mt Isa в Австралии). Пустую породу от открытой добычи измельчали до содержания 75% щебня (каменной мелочи) и 25% более тонкой мелочи, а самую мелкую фракцию удаляли. Породу передавали вниз, в забой по системе конвейеров. Цементный раствор добавляли к породе под землей.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подэтажная выемка с отбойкой глубокими скважинами",
+          "name_en": "sublevel caving with deep hole blasting",
+          "canonical": "sublevel_caving"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "порода",
+          "name_en": "rock",
+          "canonical": "rock"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "закладка породой с цементированием",
+          "name_en": "cemented rockfill",
+          "canonical": "cemented_rockfill"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "закладка пустой породой",
+          "name_en": "void fill",
+          "canonical": "void_fill"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "система конвейеров",
+          "name_en": "conveyor system",
+          "canonical": "conveyor_system"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "метод добычи – подэтажная выемка с отбойкой глубокими скважинами"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "закладку вели цементированной пустой породой"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "пустую породу от открытой добычи измельчали до содержания 75% щебня (каменной мелочи) и 25% более тонкой мелочи, а самую мелкую фракцию удаляли"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "породу передавали вниз, в забой по системе конвейеров"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c1",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "онкой мелочи, а самую мелкую фракцию удаляли. Породу передавали вниз, в забой по системе конвейеров. Цементный раствор добавляли к породе под землей. С 2004 г., когда началось углубление рудника, закладу пустой породой постепенно свернули и заменили пастовой закладкой. Рудник Kidd достиг глубины ≈2000 м, а шахта Mine D планируется до глубины 3100 м. Переключение на пастовую закладку связано со следующими обстоятельствами: - по мере углубления растут напряжения в породе и быстрое заполнение пустот является критическим условием успешного развития добычи. У пастовой закладки длительность цикла короче, чем у закладки пустой породой или гидравлической закладки, забои могут быть быстро заполнены и не нужно ждать, пока пройдет дренирование и закладка затвердеет; - пастовая закладка отвечает требованиям по прочности; - затраты на закладку пустой породы на таких глубинах оказались выше, чем для пастовой закладки. Вообще говоря, затраты на закладку могут достигать, по некоторым оценкам, 30% суммарных затрат на добычу. Очевидно, что всё (или практически всё), что можно было сказать про цементированную закладку породой было сказано, в основном, лет 20 назад.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "закладка породой",
+          "name_en": "rock filling",
+          "canonical": "rock_filling"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "закладка пастой",
+          "name_en": "paste filling",
+          "canonical": "paste_filling"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "цементный раствор",
+          "name_en": "cement slurry",
+          "canonical": "cement_slurry"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "Переключение на пастовую закладку связано со следующими обстоятельствами:"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Цементный раствор добавляли к породе под землей"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "cycle_duration",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "hours",
+          "condition": "пастовая закладка отвечает требованиям по прочности и имеет короче цикл, чем пустая порода или гидравлическая закладка"
+        },
+        {
+          "entity_id": "e2",
+          "param": "cost",
+          "op": "le",
+          "value_min": 30.0,
+          "value_max": null,
+          "unit": "% of total mining cost",
+          "condition": "затраты на пастовую закладку могут достигать 30% суммарных затрат на добычу"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c2",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "добычу. Очевидно, что всё (или практически всё), что можно было сказать про цементированную закладку породой было сказано, в основном, лет 20 назад. В Канаде на многих рудниках применяется метод подэтажной выемки или какая-нибудь из его разновидностей: выемка с отбойкой скважинами, выемка обратным ходом с помощью вертикальной воронки или вертикальная выемка блока (ВВБ) для разработки круто падающих рудных тел. Во всех этих методах рудное тело делят на блоки или очистные выработки, которые вырабатывают по мере следования пирамидальному порядку отработки в обратном поперечном или продольно-обратном направлениях. Пустые блоки (после полной выработки) надо заполнять, например, пустой породой. Закладка широко распространена на канадских рудниках, где добывают металлы, как методом подэтажной выемки, так и методом разработки с закладкой.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подэтажная выемка",
+          "name_en": "sublevel caving",
+          "canonical": "sublevel_caving"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "выемка с отбойкой скважинами",
+          "name_en": "drill-and-blast mining",
+          "canonical": "drill_and_blast_mining"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "выемка обратным ходом с помощью вертикальной воронки",
+          "name_en": "reverse cycle mining with vertical shaft",
+          "canonical": "reverse_cycle_mining_with_vertical_shaft"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "вертикальная выемка блока (ВВБ) для разработки круто падающих рудных тел",
+          "name_en": "vertical block caving for steeply dipping ore bodies",
+          "canonical": "vertical_block_caving"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "закладка",
+          "name_en": "backfilling",
+          "canonical": "backfilling"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "метод подэтажной выемки или какая-нибудь из его разновидностей"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "метод подэтажной выемки или какая-нибудь из его разновидностей"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "метод подэтажной выемки или какая-нибудь из его разновидностей"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c3",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "остранена на канадских рудниках, где добывают металлы, как методом подэтажной выемки, так и методом разработки с закладкой. Типичные рецептура закладки с цементированием выработанного пространства для ряда Североамериканских рудников приведена ниже, цитируем по материалам диссертации на звание Магистра технических наук (Университет McGill) «Определение прочности цементированной породной закладки крупномасштабными тестами по определению прочности при неограниченном сжатии в условиях рудника». «Рудник» - это рудник Birchtree компании Vale. [I.Vennes. Determination of Cemented Rockfill Strength with Large Scale UCS Tests under In-Situ Conditions. McGill University, Montreal, Canada, July 2014] Таблица 1 – Рецептура цементированной закладки на Североамериканских рудниках *1’ = 2,54 см **тонкие – это частицы размером меньше 3/8’’ (1 см) ***целевое количество тонких частиц 25-40% К этим данным следует относиться с осторожностью, т.к. они фиксируют состояние дел на определенный исторический момент, а чтобы проверить их все нужно время. Что-то удалось уточнить.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подэтажная выемка",
+          "name_en": "sublevel caving",
+          "canonical": "sublevel_caving"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "метод разработки с закладкой",
+          "name_en": "block caving with fill",
+          "canonical": "block_caving_with_fill"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "породная закладка",
+          "name_en": "rockfill",
+          "canonical": "rockfill"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "тесты на прочность при неограниченном сжатии",
+          "name_en": "UCS tests under unconfined compression",
+          "canonical": "uc_tests"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "закладка с цементированием выработанного пространства"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "закладка с цементированием выработанного пространства"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c4",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "с осторожностью, т.к. они фиксируют состояние дел на определенный исторический момент, а чтобы проверить их все нужно время. Что-то удалось уточнить. Таблица 2 – Сведения о рудниках [1] с указанием года, к которому относится конкретная информация На руднике Kidd Creek сначала в качестве закладочного материала использовали пустую породу от открытой добычи (до 1965 г. вели открытую добычу). Каменную мелочь дробили и сортировали на крупную (15 см – 1 см) и тонкую (менее 1 см) и брали её в соотношении 3:1. Зимой начались проблемы – связующее замерзало и плохо покрывало каменную мелочь, в результате время выдержки росло. Противодействие этому – в добавке 2% хлорида кальция к связующему. Более подробная информация приведена в [1]. В диссертации [2] на звание Доктора Философии «Динамические характеристики цементированной породной закладки в условиях вибраций от взрывов» также приведен «свой» список рудников, дополняющий картину [M.Emad. Dynamic Performance of Cemented Rockfill under Blast-Induced Vibrations. McGill University, Canada, December 2013]: - на медных рудниках комплекса Mt Isa (Австралия) по состоянию дел на 1973 г.(!)",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пустая порода от открытой добычи",
+          "name_en": "overburden from open pit mining",
+          "canonical": "overburden"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "каменная мелочь",
+          "name_en": "rock fines",
+          "canonical": "rock_fines"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "сортировка каменной мелочи",
+          "name_en": "sorting of rock fines",
+          "canonical": "fines_sorting"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "хлорид кальция",
+          "name_en": "calcium chloride",
+          "canonical": "calcium_chloride"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "каменную мелочь дробили и сортировали на крупную (15 см – 1 см) и тонкую (менее 1 см)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "additive_percentage",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c5",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Blast-Induced Vibrations. McGill University, Canada, December 2013]: - на медных рудниках комплекса Mt Isa (Австралия) по состоянию дел на 1973 г.(!) вели разработку методом подэтажного обрушения с закладкой цементированным шлаком, породой и гидрозакладку - на Cu-Zn руднике Cayeli (Турция) (по информации 2001 г.) ведут добычу выемкой с отбойкой глубокими скважинами и с отсроченной закладкой. Используют 3 типа закладки: цементированную породную, нецементированную отвалом и цементированную пастовую - на Pb-Zn руднике Polaris (крайний север Канады) по информации конца 1990-х годов использовали в качестве закладки смесь 50:50 карьерной каменной мелочи и пустой породы (плюс 5% порланд-цемента и 2,5% хлорида кальция). Заметим, что рудник был закрыт на постоянной основе в 2004 г. - на Cu-Ni сульфидном руднике Namew Lake (Манитоба, Канада) использовали породную закладу, но, заметим, рудник был закрыт в 1990-е годы в связи с исчерпанием ресурсов. Рудник | Щебень | Связующее | % связующего | Предел прочности при неогранич. сжатии, ф/кв.дюйм Рудник | Остаток на сите, дюйм* | Грубые/тонкие** | % связующего | Предел прочности при неогранич.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подэтажное обрушение",
+          "name_en": "sublevel caving",
+          "canonical": "sublevel_caving"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "выемка с отбойкой глубокими скважинами",
+          "name_en": "deep hole blasting with backfilling",
+          "canonical": "deep_blasting_with_backfilling"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "гидрозакладка",
+          "name_en": "hydromulching",
+          "canonical": "hydromulching"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "цементированный шлак",
+          "name_en": "cemented tailings",
+          "canonical": "cemented_tailings"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "порода",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "карьерная каменная мелочь",
+          "name_en": "quarry fines",
+          "canonical": "quarry_fines"
+        },
+        {
+          "id": "id7",
+          "type": "Material",
+          "name_ru": "пустая порода",
+          "name_en": "void rock",
+          "canonical": "void_rock"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "пороланд-цемент",
+          "name_en": "portland cement",
+          "canonical": "portland_cement"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "хлорид кальция",
+          "name_en": "calcium chloride",
+          "canonical": "calcium_chloride"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "подэтажное обрушение с закладкой цементированным шлаком, породой и гидрозакладку"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "выемка с отбойкой глубокими скважинами и с отсроченной закладкой"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "гидрозакладку"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "process_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "process_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "process_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1973,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c6",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "bg",
+      "text": "Предел прочности при неогранич. сжатии, ф/кв.дюйм Рудник | Остаток на сите, дюйм* | Грубые/тонкие** | % связующего | Предел прочности при неогранич. сжатии, ф/кв.дюйм Deep Post | 3,5 | 70/30 | 6,75 | 800 Carlin East | 3,0 | 70/30 | 6,10 | 700 Deep Star | 3,0 | 75/25 | 6,10 | 700 Rodeo | 3,5 | 87/13 | 8,00 | 700 Meikle | 2,0 | 60/40 | 6,00 | 800 Bullfrog | 3,0 | 70/30 | 7,20 | 650 Turuoise Ridge | 3,0 | 70/30 | 7,50 | 700 Kidd Creek | 6,0 | 67/33 | 5,00 | 880 Bousquet | 6,0 | - | 5,00 | 750 Birchtree | 8,0 | 75/25*** | 4,00 | - Рудник/ компания | Год информ. | Где расположен | Целевой металл | Примечания Deep Post/ Newmont | Невада, США | Au Carlin East/ Newmont | Невада, США | Au Deep Star | ? | Нет информации Rodeo/ Amarok Res.(?) | Онтарио, Канада | Au Meikle/ Barrick Gold | 2001, 2007 | Невада, США | Au | Рудное тело залегает неглубоко. Метод-выемка с открытым забоем с «отсроченной» закладкой и выемка с закладкой месторождений – спутников Производительность 2800 т/сут.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник",
+          "name_en": "mine",
+          "canonical": "mine"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "предел прочности при неограниченном сжатии",
+          "name_en": "ultimate compressive strength",
+          "canonical": "ultimate_compressive_strength"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "остаток на筛网",
+          "name_en": "residue on sieve",
+          "canonical": "residue_on_sieve"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "грубые/тонкие частицы",
+          "name_en": "coarse/fine particles ratio",
+          "canonical": "coarse_fine_ratio"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "связующее",
+          "name_en": "binder",
+          "canonical": "binder"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Предел прочности при неогранич. сжатии, ф/кв.дюйм"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "остаток на сите, дюйм*"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Грубые/тонкие**"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "% связующего"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "ultimate_compressive_strength",
+          "op": "le",
+          "value_min": null,
+          "value_max": 800.0,
+          "unit": "ksi",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "residue_on_sieve",
+          "op": "range",
+          "value_min": 70.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "coarse_fine_ratio",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 87.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "binder_percentage",
+          "op": "le",
+          "value_min": 6.1,
+          "value_max": 8.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Закладка_май2018::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Закладка_май2018::p1::c7",
+      "doc_id": "Обзоры__Закладка_май2018",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Закладка_май2018.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ает неглубоко. Метод-выемка с открытым забоем с «отсроченной» закладкой и выемка с закладкой месторождений – спутников Производительность 2800 т/сут. Bullfrog/ Bullfrog Gold | 2017 | Невада, США | Au, Ag | В конце 1990-х гг.Barrick прекратила добычу, но экологич.обязательства остались: на месте карьера могло образоваться озеро и Barrick планомерно провела в 2000 г. закладку пустой породой. Современный владелец намерен возобновить добычу Turuoise Ridge/ Barrick | Невада, США | Au | В 2018 г. объявлено и планах строительства 3-й шахты Kidd Creek/ Glencore | 1989 | Онтарио, Канада | Cu, Zn | на ≈4,5 млн т/г руды. Метод разработки – подэтажная выемка с «отсроченной» закладкой цементированной породой Bousquet Birchtree/ Vale | Манитоба, Канада | Ni | подэтажная выемка с «отсроченной» закладкой цементированной породой. В 2016 г. на руднике добыто 503 тыс т руды с 1,36%Ni.",
+      "doc_type": "Обзоры",
+      "path_year": 2018,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "подэтажная выемка с отсроченной закладкой цементированной породой",
+          "name_en": "sublevel caving with delayed backfilling of cemented rockfill",
+          "canonical": "sublevel_caving_with_delayed_backfilling"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рудник Бускет-Бирчтре",
+          "name_en": "Bousquet Birchtree mine",
+          "canonical": "bousquet_birchtree_mine"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "установка для закладки цементированной породы",
+          "name_en": "cemented rockfill backfilling equipment",
+          "canonical": "cemented_rockfill_backfilling_equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "подэтажная выемка с «отсроченной» закладкой цементированной породой"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Bousquet Birchtree/ Vale | Манитоба, Канада | Ni"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production",
+          "op": "ge",
+          "value_min": 503.0,
+          "value_max": null,
+          "unit": "thousand tons of ore",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 1.36,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  }
+}

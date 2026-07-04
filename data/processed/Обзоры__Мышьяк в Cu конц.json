@@ -1,0 +1,1801 @@
+{
+  "Обзоры__Мышьяк в Cu конц::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p1::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам, к.г.-м.н. ___________ С.М. Козырев « __ » ___________ 2017 Справка Мышьяк в медных концентратах ОИП РО-17-2017 Руководитель работ Начальник ОИП Р.А. Кузнецов 2 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» Список исполнителей Главный специалист Евграфова А.К. 3 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» Содержание Введение ............................................................................................................... 4 1 Обжиг концентратов ........................................................................................ 6 1.1 Медеплавильные заводы ............................................................................ 6 1.2 Обжиг в КС Outotec .................................................................................... 7 2 Смешивание концентратов .............................................................................. 9 3 Ministro Hales ................................................................................................. 10 4 Гидрометаллургические способы ...................................................................",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг концентратов",
+          "name_en": "roasting of concentrates",
+          "canonical": "roasting_of_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "медеплавильный завод",
+          "name_en": "smelting plant",
+          "canonical": "smelting_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Обжиг концентратов"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Медеплавильные заводы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p4::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p4::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "4 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» ВВЕДЕНИЕ К вредным примесям в медных концентратах относят обычно: As, Sb, Bi, Pb, Zn, Hg, Cl, F и др.; иногда – (Ni+Co) и отклонение в ту или иную сторону от типичного уровня влажности (8-9%). «Сложными» обычно называют концентраты с несколькими вредными примесями. В случае, если концентрация какой-либо вредной примеси превышает определенный уровень, взимается штраф, т.е. начисляются вычеты из стоимости оплачиваемой меди в концентрате и, соответственно, стоимость такого концентрата снижается. Каких-либо международных стандартов непосредственно по предельному содержанию вредных примесей в медном концентрате, насколько нам известно, нет (за исключением Китая – стандарт GB 20424), но в остальных странах использование «грязных» концентратов ограничивается нормативами по выбросам в атмосферу и содержанию этих элементов в шлаках. Кроме того, имеется торговая практика и здравый смысл. Вообще говоря, может быть 0,1-0,3% As в медном концентрате, но общепринятая граница 0,2%, т.е. до 0,2% - без штрафов. При содержании As сверх 0,2% «стандартные» вычеты 2 –3 $/т (сух) концентрата за каждые 0,1%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "вредные примеси",
+          "name_en": "harmful impurities",
+          "canonical": "harmful_impurities"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "влажность",
+          "name_en": "moisture content",
+          "canonical": "moisture_content"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "асинтидий (As)",
+          "name_en": "arsenic (As)",
+          "canonical": "arsenic"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Мышьяк в медных концентратах"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "влажность (8-9%)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "arsenic_content",
+          "op": "range",
+          "value_min": 0.1,
+          "value_max": 0.3,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "arsenic_content",
+          "op": "le",
+          "value_min": 0.2,
+          "value_max": null,
+          "unit": "%",
+          "condition": "общепринятая граница"
+        },
+        {
+          "entity_id": "e4",
+          "param": "arsenic_content",
+          "op": "ge",
+          "value_min": 0.21,
+          "value_max": null,
+          "unit": "%",
+          "condition": "штрафы за превышение 0,2%"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p4::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p4::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "о общепринятая граница 0,2%, т.е. до 0,2% - без штрафов. При содержании As сверх 0,2% «стандартные» вычеты 2 –3 $/т (сух) концентрата за каждые 0,1%. Более высокие штрафы могут быть при As>0,5%, но в большинстве стран (в т.ч. в Китае – основном импортере концентратов) такие концентраты не принимаются. Отметим, что в Китае ещё в 2006 г. был введен в действие специальный стандарт GB 20424, устанавливающий предельные допустимые значения вредных примесей (As, Pb, Cd и др) в медном, никелевом, свинцовом и других концентратах [1]. Таким образом, установленная китайцами «очевидная» граница по мышьяку «As>0,5% - отказ» стала цитироваться всеми, как общепринятая торговая практика. В последние годы проблема мышьяка становится всё более острой, т.к. в строй вводятся месторождения с «повышенным» содержанием мышьяка: Ministro Hales (Чили) c 3-6% As в концентрате, Toromocho (Перу) с 1% As в концентрате и др. Конечно, при разработке месторождения можно постараться избежать добычи в богатых по мышьяку зонах, при обогащении – постараться вывести некоторые мышьяковистые минералы в хвосты. Так, например, в 2014 г. был введен в строй рудник Toromocho на 180 тыс. т/г Cu компании Chinalco.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание мышьяка",
+          "name_en": "arsenic content",
+          "canonical": "arsenic_content"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание свинца",
+          "name_en": "lead content",
+          "canonical": "lead_content"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "содержание цинка",
+          "name_en": "cadmium content",
+          "canonical": "cadmium_content"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "содержание As сверх 0,2%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "предельные допустимые значения вредных примесей (As, Pb, Cd и др) в медном, никелевом, свинцовом и других концентратах"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content",
+          "op": "le",
+          "value_min": 0.2,
+          "value_max": null,
+          "unit": "%",
+          "condition": "без штрафов"
+        },
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content",
+          "op": "ge",
+          "value_min": 0.5,
+          "value_max": null,
+          "unit": "%",
+          "condition": "отказ"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p4::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p4::c2",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "вывести некоторые мышьяковистые минералы в хвосты. Так, например, в 2014 г. был введен в строй рудник Toromocho на 180 тыс. т/г Cu компании Chinalco. Китайцы столкнулись с большими проблемами: извлечение меди в концентрат низкое, а содержание мышьяка в концентрате высокое (1,05% в 2015 г., 0,87% в 2016 г.). Пришлось корректировать календарь добычи: решено складировать (на неопределенное время) 169 млн т руды с высоким содержанием мышьяка. Так или иначе, «среднемировое» содержание мышьяка в медных концентратах (содержащих много энаргита), составлявшее 0,13% в 2000 г., повысилось до 0,20% в 2016 г. и, по прогнозу, достигнет 0,30% в 2020 г. [1]. Ситуация усугубляется тем, что мышьяк в таких количествах никому не нужен, т.е. удаление мышьяка в любом случае не только не дает «дополнительных денег» за побочную продукцию в виде какого-либо соединения мышьяка, а сопровождается дополнительными расходами на его иммобилизацию и безопасное захоронение. Возможные варианты «расправы» с мышьяковистыми медными концентратами: 1. Поставка на медеплавильный завод, способный их перерабатывать; 2. Организация смешивания мышьковистых и «чистых» концентратов;",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание мышьяка в медном концентрате",
+          "name_en": "arsenic content in copper concentrate",
+          "canonical": "arsenic_content_in_copper_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "содержание мышьяка в концентрате высокое (1,05% в 2015 г., 0,87% в 2016 г.)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "arsenic_content",
+          "op": "range",
+          "value_min": 0.87,
+          "value_max": 1.05,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p1::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": ".............................................. 10 4 Гидрометаллургические способы ................................................................... 11 Заключение ......................................................................................................... 12 Список использованных источников ..................................................................... 13",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Гидрометаллургические способы",
+          "name_en": "Hydrometallurgical methods",
+          "canonical": "Process"
+        },
+        {
+          "id": "e2",
+          "type": "Conclusion",
+          "name_ru": "Заключение",
+          "name_en": "Conclusion",
+          "canonical": "Conclusion"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Заключение ......................................................................................................... 12"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p5::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p5::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "5 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» 3. Организация частичного обжига «на месте», т.е. при руднике (пример Ministro Hales); 4. Гидрометаллургические технологии. 6 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» 1 ОБЖИГ КОНЦЕНТРАТОВ 1.1 Медеплавильные заводы Медеплавильных заводов, способных перерабатывать мышьяковистые концентраты, очень мало – собственно, в публикациях все сразу ссылаются на один и тот же завод Tsumeb в Намибии. Медеплавильные заводы, бравшие в переработку «грязные» концентраты до 1990-х годов, либо прекратили эту практику, либо закрылись по экологическим соображениям, в их числе: La Oroya (Перу), San Luis de Potosi (Мексика), Tacoma (США), Pasar (Филиппины), Kosaka (Япония). Как известно, распространенным способом удаления мышьяка из медных концентратов является их обжиг. Раньше обжиг веди в обжиговых печах Godfrey или Nickolas-Herreschoff, получали обожженный медный концентрат и триоксид мышьяка (был товарным продуктом). Обжиговые мощности могут быть расположены при медеплавильном заводе или при руднике. Приведем примеры.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг медного концентрата",
+          "name_en": "roasting of copper concentrate",
+          "canonical": "roasting_of_copper_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "обжиговая печь Godfrey",
+          "name_en": "Godfrey roaster",
+          "canonical": "godfrey_roaster"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "обжиговая печь Nickolas-Herreschoff",
+          "name_en": "Nickolas-Herreschoff roaster",
+          "canonical": "nickolas-herreschoff_roaster"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обжиг медного концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "в обжиговых печах Godfrey или Nickolas-Herreschoff"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p5::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p5::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "т и триоксид мышьяка (был товарным продуктом). Обжиговые мощности могут быть расположены при медеплавильном заводе или при руднике. Приведем примеры. До недавнего времени мышьяковистые концентраты перерабатывали на заводе El Indio (Чили) компании Barrick Gold. Обжиг 300 т/сут энаргитового концентрата (23%Cu, 15%Fe, 35% S, 10% As, 0,8% Sb) вели в многоподовых печах Nickolas-Herreschoff при температурах 500-700°С и <0,5% О2. [2]. В 2002 г. завод был закрыт на постоянной основе, причин закрытия много, но одна из главных – отсутствие спроса на оксид мышьяка. В 2003 г. был закрыт и медеплавильный завод Gaspe (пров. Квебек, Канада), через несколько лет после исчерпания ресурсов на руднике Gaspe, разрабатывавшегося с 1950-х годов. На заводе имелась обжиговая печь, отражательная печь, два конвертера и анодная печь. Обжиговые мощности составляли порядка 900 т/сут. Объем производства составлял около 72 тыс. т /г анодов плюс 200 тыс. т/г серной кислоты. Надежды Президента Перу Пабло Кучинского на возобновление эксплуатации Cu-Pb-Zn завода La Oroya (Перу), как стало ясно в последние месяцы, вряд ли осуществимы. Завод в настоящее время принадлежит кредиторам обанкротившейся в 2009 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "мышьяковистый концентрат",
+          "name_en": "arsenopyrite concentrate",
+          "canonical": "arsenopyrite_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "многоподовая печь Nickolas-Herreschoff",
+          "name_en": "Nickolas-Herreschoff furnace",
+          "canonical": "nickolas_herreschoff_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "оксид мышьяка",
+          "name_en": "arsenic oxide",
+          "canonical": "arsenic_oxide"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "отражательная печь",
+          "name_en": "reflective furnace",
+          "canonical": "reflective_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "конвертер",
+          "name_en": "converter",
+          "canonical": "converter"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "анодная печь",
+          "name_en": "anode furnace",
+          "canonical": "anode_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обжиг мышьяковистого концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "производство оксида мышьяка"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "le",
+          "value_min": 300.0,
+          "value_max": 300.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 500.0,
+          "value_max": 700.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "oxygen_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p5::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p5::c2",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "ода La Oroya (Перу), как стало ясно в последние месяцы, вряд ли осуществимы. Завод в настоящее время принадлежит кредиторам обанкротившейся в 2009 г. компании Doe Run Peru, которая так и не реализовала проекты модернизации (на медной линии: замену обжиговой и отражательной печей на печь Isasmelt, строительство сернокислотного завода и т.д.) [3]. Несмотря на продление сроков аукциона, желающих приобрести этот завод вместе с соседним медным рудником за 100 млн USD, не нашлось. Впрочем, мечты Кучинского имели определенный смысл: неподалеку расположен некий непоименованный им «крупный медный рудник» с мышьковистой рудой. Ясное дело, речь идет о руднике Toromocho, контроль над которым - у китайцев, а в концентратах содержание мышьяка выше, чем разрешено в Китае. Компания Lepanto Consolidated Mining (Филиппины) имела обжиговые мощности на 180 т/сут, где мышьяк удаляли из энаргитового концентрата (31%Cu, 11%As, 15% Fe, 34% S) с получением огарка, содержащего около 43% Cu, 23% Fe, 20-22% S и 0,3% As. В 1996 г. компания остановила добычу энаргитовой руды и сосредоточилась на своем основном бизнесе – добыче золота.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "энаргитовая руда",
+          "name_en": "enargite ore",
+          "canonical": "enargite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "обжиговая печь",
+          "name_en": "roast furnace",
+          "canonical": "roast_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "огарок",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "мышьяк удаляли из энаргитового концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "с получением огарка"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "copper_content",
+          "op": "eq",
+          "value_min": 31.0,
+          "value_max": 31.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content",
+          "op": "eq",
+          "value_min": 11.0,
+          "value_max": 11.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "eq",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfur_content",
+          "op": "eq",
+          "value_min": 34.0,
+          "value_max": 34.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "copper_content",
+          "op": "eq",
+          "value_min": 23.0,
+          "value_max": 23.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "iron_content",
+          "op": "eq",
+          "value_min": 20.0,
+          "value_max": 22.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sulfur_content",
+          "op": "eq",
+          "value_min": 20.0,
+          "value_max": 22.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "arsenic_content",
+          "op": "eq",
+          "value_min": 0.3,
+          "value_max": 0.3,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p5::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p5::c3",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "3% Cu, 23% Fe, 20-22% S и 0,3% As. В 1996 г. компания остановила добычу энаргитовой руды и сосредоточилась на своем основном бизнесе – добыче золота. Можно было бы привести больше примеров, но «в сухом остатке» всего 4 действующих медеплавильных завода, способных перерабатывать «сложные» концентраты.: Tsumeb (Намибия), Altonorte в Чили, Horne в Канаде",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медеплавильный концентрат",
+          "name_en": "smelting concentrate",
+          "canonical": "smelting_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "энаргитовая руда",
+          "name_en": "enargite ore",
+          "canonical": "enargite_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "переработка концентратов",
+          "name_en": "concentrate processing",
+          "canonical": "concentrate_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "перерабатывать «сложные» концентраты"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "переработка концентратов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p7::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p7::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "7 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» (перерабатывающий преимущественно вторичное сырье) и Guixi в Китае. При этом только один завод – Tsumeb перерабатывает значительные количества концентратов с очень высоким содержанием As (>1%), т.к. на этом заводе имеются собственные обжиговые мощности. В настоящее время завод Tsumeb и болгарский рудник Chelopech – в числе активов канадской компании Dundee Precious Metals (DMP). На руднике Chelopech производили и производят медные концентраты с повышенным содержанием мышьяка. До 1990 г. эти концентраты поставляли на медеплавильный завод Pirdop (Болгария), расположенный в 7-ми км от рудника. Там их смешивали с другими медными концентратами болгарских рудников и плавили. Завод Pirdop не был оборудован надлежащей системой газоочистки и в 1992 г. рудник Chelopech был законсервирован по требованию правительства страны. После нескольких попыток расконсервации, в 2003 г. рудник оказался в собственности DMP, проведшей большую работу по налаживанию добычи, уточнению ресурсов, модернизации оборудования и т.д. На руднике получают концентрат с ~16,5% Cu, 25-30 г/т Au и 5-6% As.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "мышьяк",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "концентрат с повышенным содержанием мышьяка",
+          "name_en": "concentrate with high arsenic content",
+          "canonical": "high_arsenic_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "обжиг",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "завод Tsumeb",
+          "name_en": "Tsumeb smelter",
+          "canonical": "tsumeb_smelter"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "рудник Chelopech",
+          "name_en": "Chelopech mine",
+          "canonical": "chelopech_mine"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "завод Pirdop",
+          "name_en": "Pirdop smelter",
+          "canonical": "pirdop_smelter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "перерабатывает медные концентраты"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "производят медный концентрат с повышенным содержанием мышьяка"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "перерабатывает значительные количества концентратов с очень высоким содержанием As (>1%)"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "концентраты с повышенным содержанием мышьяка"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "поставляли на медеплавильный завод Pirdop"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p7::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p7::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "аботу по налаживанию добычи, уточнению ресурсов, модернизации оборудования и т.д. На руднике получают концентрат с ~16,5% Cu, 25-30 г/т Au и 5-6% As. Основная часть концентрата поступает на завод Tsumeb, составляя до половины перерабатываемого на заводе сырья. Какая-то часть медного концентрата Chelopech поступает на мощности китайской компании Xiangguong Copper Co – основного получателя пиритного золотосодержащего концентрата рудника. [4] Завод в Намибии был приобретен DMP в 2010 г., проведена большая работа по модернизации мощностей, главным образом, с целью соблюдения экологических норм. Плавку ведут теперь только в печи Ausmelt (имевшаяся отражательная печь окончательно выведена из эксплуатации в 2013 г.). В 2015 г. введен в строй сернокислотный завод. В 2016 г. введены в строй новые конвертеры. В 2016 г. проплав сложных концентратов составил 200,3 тыс. т (+2% к уровню 2015 г.). Конечной продукцией завода до начала 2017 г. являлась черновая медь и As2O3. Оксид мышьяка продавали покупателям для использования при приготовлении соединений для обработки поверхностей и пестицидов. Однако в 3кв. 2016 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание Cu в концентрате",
+          "name_en": "Cu content in concentrate",
+          "canonical": "cu_content_in_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание Au в концентрате",
+          "name_en": "Au content in concentrate",
+          "canonical": "au_content_in_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "содержание As в концентрате",
+          "name_en": "As content in concentrate",
+          "canonical": "as_content_in_concentrate"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "пиритный золотосодержащий концентрат",
+          "name_en": "gold-bearing pyrite concentrate",
+          "canonical": "pyrite_gold_concentrate"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "печь Ausmelt",
+          "name_en": "Ausmelt furnace",
+          "canonical": "ausmelt_furnace"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "плавка в печи Ausmelt",
+          "name_en": "Ausmelt smelting",
+          "canonical": "ausmelt_smelting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "концентрат с ~16,5% Cu"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "25-30 г/т Au"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "5-6% As"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "пиритный золотосодержащий концентрат"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Плавку ведут теперь только в печи Ausmelt"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "cu_content",
+          "op": "eq",
+          "value_min": 16.5,
+          "value_max": 16.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "au_content",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 30.0,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "as_content",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 6.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p7::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p7::c2",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "O3. Оксид мышьяка продавали покупателям для использования при приготовлении соединений для обработки поверхностей и пестицидов. Однако в 3кв. 2016 г. было принято решение о прекращении производства As2O3 [5] из-за отсутствия сбыта. Долгосрочная цель компании: довести Tsumeb до международных экологических стандартов по выбросам, а также расширить мощности завода с ~240 до 370 тыс. т/г. Мощностей по удалению мышьяка из концентратов обжигом при медеплавильных заводах и, тем более, при рудниках недостаточно, а со временем потребность в них увеличится ещё больше. 1.2 Обжиг в КС Outotec Outotec предлагает различные способы обжига концентратов различных металлов, для меди, в частности: «частичный» обжиг медных концентратов в барботажном псевдоожиженном слое с целью удаления мышьяка. Обжиг «частичный», т.к. сера удаляется только частично. Процесс идет при температурах 550-700°С и О2<1% об. Удаляется основная часть мышьяка, содержание серы снижается с ~34% до ~20%. Типичные составы исходного концентрата, %: Cu – 30; Fe – 21; S – 35; As – 4; Sb – 1; Zn – 0,4 и огарка, %: Cu – 35; Fe – 23; S –20; As – 0,3; Sb – 0,2; Zn – 0,4.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "мышьяк",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "концентрат медный",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обжиг концентрата",
+          "name_en": "roasting of concentrate",
+          "canonical": "concentration_roasting"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "барботажный псевдоожиженный слой",
+          "name_en": "bubbling pseudo-melt layer",
+          "canonical": "pseudo_melt_layer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "частичный обжиг медных концентратов в барботажном псевдоожиженном слое с целью удаления мышьяка"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "удаляется основная часть мышьяка"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 550.0,
+          "value_max": 700.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "oxygen_content",
+          "op": "le",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "% by volume",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p8::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p8::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "8 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» Таблица 1.1 – Обжиг медных концентратов в КС с целью удаления мышьяка Клиент Outotec Ввод в строй Мощность т/сут S, % As, % В сырье В огарке В сырье В огарке Boliden 1980 1080 25-30 16-20 2,5 0,2 Lepanto 1983 180 34 22 10-12 0,3 Codelco 2013 1700 34 22 5,8 <0,3 Ист: Outotec В качестве побочного продукта получают серную кислоту с низким содержанием мышьяка (<1 ppm). 9 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» 2 СМЕШИВАНИЕ КОНЦЕНТРАТОВ Codelco некоторое время назад очень активно продвигала на рынке смешанные концентраты, мотивируя это тем, что не только концентраты с >0,5% As нельзя ввозить в Китай, но и с другими вредными примесями (Pb, Zn) тоже. Смешанные концентраты на рынке известны уже давно. Разбавление «грязных» концентратов чистыми концентратами проводят как медные заводы, так и торговцы концентратами. Например, известная торговая фирма Trafigura ввела в строй новые мощности по складированию и смешиванию концентратов в порту Уэльва (Испания) в 2016 г. Китайские медеплавильщики в 2016 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг медного концентрата",
+          "name_en": "roasting of copper concentrate",
+          "canonical": "roasting_of_copper_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "серная кислота",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "обжиг медных концентратов в КС с целью удаления мышьяка"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "в качестве побочного продукта получают серную кислоту"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content_in_feed",
+          "op": "range",
+          "value_min": 0.5,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content_in_ash",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content_in_feed",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5.8,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "arsenic_content_in_ash",
+          "op": "le",
+          "value_min": 0.3,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p8::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p8::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "figura ввела в строй новые мощности по складированию и смешиванию концентратов в порту Уэльва (Испания) в 2016 г. Китайские медеплавильщики в 2016 г. обратились с просьбой к правительству за разрешением на смешивание концентратов в специальных административных зонах в портах, чтобы можно было ввозить концентраты, в настоящее время запрещенные к ввозу в Китай. Смешивание позволяет не только «управиться» с вредными примесями, но также создать «правильное» соотношение элементов (Ag, Au, S и др.) в каком-либо конкретном концентрате для конкретного потребителя. Codelco продает 3 вида смесей, соответствующих требованиям разных покупателей. За 5 лет, начиная с 2012 года, мировые мощности по смешиванию концентратов увеличились на 83%. Рисунок 2.1 - Рост мощностей по смешиванию концентратов, тыс т Ист: Codelco [6] Наличие смешивающих мощностей, кроме всего прочего, облегчают проникновение на рынок мелких производителей. Для Codelco поставка на рынок смешанных концентратов дала «передышку» в связи с задержками при пуске нового обжигового завода Ministro Hales (см. далее).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентраты",
+          "name_en": "concentrates",
+          "canonical": "concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "смешивание концентратов",
+          "name_en": "concentrate blending",
+          "canonical": "concentration_blending"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "порт Уэльва",
+          "name_en": "Port of Vigo",
+          "canonical": "port_of_vigo"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "смешивание концентратов"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "новые мощности по складированию и смешиванию концентратов в порту Уэльва"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p10::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p10::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "10 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» 3 MINISTRO HALES Рудник Ministro Hales (MH) на ~ 550 тыс. т/г концентрата был введен в строй в 2013 г. В концентрате - повышенное содержание мышьяка (3-6%), для борьбы с ним решено было построить обжиговые мощности (при участии Outotec) – самые крупномасштабные в мире. Начиная с 2010 г. Outotec поставляла оборудование для обогатительной фабрики MH и обжигового завода. На обжиговом заводе применяется технология частичного обжига в КС (см. выше) для удаления ~90% мышьяка из концентрата (табл.1). Отходящие газы очищаются и идут в производство серной кислоты (около 250 тыс. т/г). Сточные воды обрабатывают для повторного использования на руднике, мышьяк осаждают в виде арсенита кальция (?). Схема включает концепцию процесса Outotec и запатентованную ею разработку нейтрализации шлама высокой плотности (High Density Sludge – HDS) c рециркуляцией шлама. Цель: как можно больше воды использовать повторно на обогатительной фабрике. Цель очевидна, т.к. в Чили остро стоит проблема снабжения водой горно- металлургических предприятий.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "мышьяк",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "частичный обжиг в КС",
+          "name_en": "partial calcination in a kiln",
+          "canonical": "partial_calcination_kiln"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "обжиговый завод",
+          "name_en": "kiln plant",
+          "canonical": "kiln_plant"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "арсенит кальция",
+          "name_en": "calcium arsenite",
+          "canonical": "calcium_arsenite"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "удаление ~90% мышьяка из концентрата"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "На обжиговом заводе применяется технология частичного обжига в КС"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "arsenic_removal_percentage",
+          "op": "ge",
+          "value_min": 90.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p10::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p10::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "использовать повторно на обогатительной фабрике. Цель очевидна, т.к. в Чили остро стоит проблема снабжения водой горно- металлургических предприятий. Завод по обработке сточных вод включает: специально изготовленные реакторы OKTOP® для осаждения, высокопроизводительный сгуститель Outotec, эффективный анализатор для контроля за процессом, рециркуляцию шлама, оптимизированную систему приготовления и дозирования флокулятора. Кроме того, содержание влаги в остатке может быть ещё больше понижено за счет использования автоматизированного фильтра для обезвоживания под давлением Larox и тогда больше воды вернется на О/Ф. Ввод в строй обжигового завода начался в январе 2014 г. Однако при пуске были выявлены недостатки при проектировании и эксплуатации, над ликвидацией которых работала специально созданная бригада специалистов –см. подробнее о процессе в презентации Outotec «Технология частичного обжига» [7] и в статье «Улучшении эксплуатации и проекта печи обжига в кипящем слое в отделении Ministro Hales» [8].",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка сточных вод",
+          "name_en": "wastewater treatment",
+          "canonical": "wastewater_treatment"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "реакторы OKTOP®",
+          "name_en": "OKTOP® reactors",
+          "canonical": "oktop_reactors"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "высокопроизводительный сгуститель Outotec",
+          "name_en": "Outotec high-performance flocculator",
+          "canonical": "outotec_flocculator"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "эффективный анализатор для контроля процесса",
+          "name_en": "process control analyzer",
+          "canonical": "process_control_analyzer"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "автоматизированный фильтр для обезвоживания под давлением Larox",
+          "name_en": "Larox pressure filter",
+          "canonical": "larox_pressure_filter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обработка сточных вод"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "специально изготовленные реакторы OKTOP® для осаждения"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "высокопроизводительный сгуститель Outotec"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "эффективный анализатор для контроля процесса"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "автоматизированный фильтр для обезвоживания под давлением Larox"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p10::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p10::c2",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "и Outotec «Технология частичного обжига» [7] и в статье «Улучшении эксплуатации и проекта печи обжига в кипящем слое в отделении Ministro Hales» [8]. Тем временем, Codelco воспользовалась вариантом смешивания концентратов – ведь рудник уже был введен в строй, а также временно снизила план наращивания добычи и продаж концентрата с Ministro Hales. По сообщениям в печати к середине 2015 г. обжиговые мощности вышли на проектную производительность. Помимо удаления ~90% мышьяка, также удаляется примерно на 60-70% сурьма.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "частичный обжиг",
+          "name_en": "partial roasting",
+          "canonical": "partial_roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "концентраты руды",
+          "name_en": "ore concentrates",
+          "canonical": "ore_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "печь обжига в кипящем слое",
+          "name_en": "flash roasting furnace",
+          "canonical": "flash_roasting_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "частичный обжиг"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "печь обжига в кипящем слое"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "weigted_removal_efficiency",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 70.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "arsenic",
+          "op": "le",
+          "value_min": null,
+          "value_max": 90.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p11::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p11::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "11 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» 4 ГИДРОМЕТАЛЛУРГИЧЕСКИЕ СПОСОБЫ Несмотря на то, что в последние годы был разработан ряд гидрометаллургических процессов удаления мышьяка из концентратов, ни одни из них внедрен не был. Гидрометаллургические методы, однако, применяются для переработки пылей. Так, например, заводы по обработке пылеуноса от плавки меди и удалению мышьяка и сурьмы компании EcoMetals перерабатывают пыли от плавки меди и другие твердые вредные отходы, образующиеся на медных плавильно- рафинировочных комплексах Chuquicamata, Potrerillos (Salvador) и Ventanas компании Codelco. В этих материалах может содержаться до 30% Cu, 5-17% As плюс Bi и Sb. Пыль выщелачивают с получением медьсодержащего раствора, который по трубопроводу длиной 7 км поступает на рудник Chuquicamatа, где он используется для производства катодной меди. Остаток выщелачивания с ~7% Cu высушивают, обрабатывают и отправляют на комплекс Chuquicamatа на плавку. Мышьяк захоранивается в виде скородита. Попытки применения атмосферного выщелачивания, биовыщелачивания и выщелачивания под давлением с целью удаления мышьяка из медных концентратов продолжаются.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медные концентраты",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "гидрометаллургический процесс удаления мышьяка",
+          "name_en": "hydro冶金学过程去除砷",
+          "canonical": "arsenic_removal_hydrometallurgical_process"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "пылеунос",
+          "name_en": "flue dust",
+          "canonical": "flue_dust"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "завод по обработке пылеуноса",
+          "name_en": "flue dust processing plant",
+          "canonical": "flue_dust_processing_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "гидрометаллургические методы, однако, применяются для переработки пылеуноса от плавки меди и удалению мышьяка и сурьмы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p11::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p11::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "и применения атмосферного выщелачивания, биовыщелачивания и выщелачивания под давлением с целью удаления мышьяка из медных концентратов продолжаются. Упомянем лишь о двух процессах. Многолетние совместные исследования вели компании Teck (Канада) и Aurubis (Германия), продвигающие процесс автоклавного окислительного выщелачивания CESL. Утверждается, что более 99% мышьяка остается в остатке выщелачивания, а медь растворяется и далее идет своим известным путем SXEW. Испытано в пилотном масштабе более 100 Cu-Au и Cu-As концентратов. «Революцию» в этом направлении намерена произвести австралийская компания Core Resources, разработавшая процесс Toowong (щелочное выщелачивание). Патент в США получен в 2014 г. В 2016 г. получен грант в Австралии на «ускоренную коммерциализацию процесса». Рисунок 4.1 - Схема процесса Toowong Ист: Core Res.[9] Пилотный завод был построен в 2012 г. Переработано около 1,5 т сырья из Болгарии, Филиппин и Чили. Степень удаления мышьяка составляет более 90% (при исходном 1,1% As получен концентрат с <0,1%), сурьмы ~80-90%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "автоклавное окислительное выщелачивание CESL",
+          "name_en": "autoclave oxidative leaching CESL",
+          "canonical": "cesl_autoclave_leaching"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "биовыщелачивание",
+          "name_en": "bioleaching",
+          "canonical": "bioleaching"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "выщелачивание под давлением",
+          "name_en": "pressurized leaching",
+          "canonical": "pressurized_leaching"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "щелочное выщелачивание Toowong",
+          "name_en": "Toowong alkaline leaching",
+          "canonical": "toowong_alkaline_leaching"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "сырье",
+          "name_en": "raw material",
+          "canonical": "raw_material"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "степень удаления мышьяка",
+          "name_en": "arsenic removal efficiency",
+          "canonical": "arsenic_removal_efficiency"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "автоклавное окислительное выщелачивание CESL"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "биовыщелачивание"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "выщелачивание под давлением"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "щелочное выщелачивание Toowong"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "arsenic_removal_efficiency",
+          "op": "ge",
+          "value_min": 99.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "arsenic_removal_efficiency",
+          "op": "ge",
+          "value_min": 90.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "arsenic_content_initial",
+          "op": "eq",
+          "value_min": 1.1,
+          "value_max": 1.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "arsenic_content_final",
+          "op": "le",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "sulfur_content",
+          "op": "ge",
+          "value_min": 80.0,
+          "value_max": 90.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p12::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p12::c0",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "12 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» ЗАКЛЮЧЕНИЕ Проблема мышьяка в медных концентратах никуда не уходит, а становится всё более острой. В настоящее время она решается всеми доступными способами: смешиванием «чистых» и «грязных» концентратов, частичным обжигом концентратов и разработкой новых, возможно, гидрометаллургических способов удаления мышьяка из концентратов. 13 2017 г Мышьяк в медных концентратах ООО «Институт Гипроникель» СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ 1. International Copper Study Group. Trends Affecting the Processing, Transport and Dispose of Copper Industry Impurities. Presentation at 2017 CESCO Week, Santiago, Chile, April 2017, 76 pp 2. P.R.Taylor. Pyrometallurgical Processing Technologies for Treating High Arsenic Copper Concentrates. Presentation at Perumin 31 Convencion Minera, 2014, 65 pp 3. EHP Consulting Inc. Review of La Oroya Smelter, February 18, 2014, 82 pp 4. CSA Global (UK) Ltd. NI 43-101 Technical Report: Mineral Reserves Update Chelopech Project, Chelopech, Bulgaria, 28/03/2016, 189 pp 5. Dundee Precious Metals. Annual Information Form 2016, 78 pp 6. Codelco.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "мышьяк",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медные концентраты",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Мышьяк в Cu конц::p12::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Мышьяк в Cu конц::p12::c1",
+      "doc_id": "Обзоры__Мышьяк в Cu конц",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Мышьяк в Cu конц.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "Reserves Update Chelopech Project, Chelopech, Bulgaria, 28/03/2016, 189 pp 5. Dundee Precious Metals. Annual Information Form 2016, 78 pp 6. Codelco. Presentation: Leading the Transformation to Solve the Problem of Complexity in Concentrates, November 2015, 24 pp 7. A.Charitos (Outotec). Partial Roasting Technology, Presentation, June 8th 2017, 28 pp 8. C.Caballero, J.Etchevery et al. Improvements to the Operation and Design of the Fluidized Bed Reactor – Ministro Hales Division. Copper 2016 (Proceedings), November 2016, Japan, pp 921-932 9. P.Rohner, J.Loraine et al. The Economics of Removing Arsenic from Copper Concentrates Using the Toowong Process. Presentation at ALTA 2017",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2017
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медь концентраты",
+          "name_en": "copper concentrates",
+          "canonical": "copper_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "частичное обжигание",
+          "name_en": "partial roasting",
+          "canonical": "partial_roasting"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "технология министро-хейлеса",
+          "name_en": "ministro hales technology",
+          "canonical": "ministro_hales_technology"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "жидкократная реактор",
+          "name_en": "fluidized bed reactor",
+          "canonical": "fluidized_bed_reactor"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "процесс тьюванга",
+          "name_en": "toowong process",
+          "canonical": "toowong_process"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Partial Roasting Technology"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Leading the Transformation to Solve the Problem of Complexity in Concentrates"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Improvements to the Operation and Design of the Fluidized Bed Reactor – Ministro Hales Division"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "The Economics of Removing Arsenic from Copper Concentrates Using the Toowong Process"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "medium"
+      }
+    }
+  }
+}

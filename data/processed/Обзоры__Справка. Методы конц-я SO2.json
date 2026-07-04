@@ -1,0 +1,914 @@
+{
+  "Обзоры__Справка. Методы конц-я SO2::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p1::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам, к.г.-м.н. ___________ С.М. Козырев « __ » ___________ 2016 ИНФОРМАЦИОННАЯ СПРАВКА ИС - 1 - 2016 Методы концентрирования SO2 с последующим получением элементарной серы Руководитель работ Начальник ОИП Р.А. Кузнецов 2 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Список исполнителей Специалист 1 кат. С.В. Подоханова 3 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Содержание Введение ...................................................................................................................................................... 4 1 Процесс Labsorb ........................................................................................................................................ 5 2 Система очистки газов Cansolv ................................................................................................................ 7 3 ClausMaster ™ (компания MECS) ..............................................................................................................",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Labsorb",
+          "name_en": "Labsorb process",
+          "canonical": "labsorb"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Система очистки газов Cansolv",
+          "name_en": "Cansolv gas cleaning system",
+          "canonical": "cansolv"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "ClausMaster ™ (компания MECS)",
+          "name_en": "ClausMaster ™ (MECS company)",
+          "canonical": "clausmaster"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "null",
+          "type": "uses_material",
+          "evidence": "Методы концентрирования SO2 с последующим получением элементарной серы"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "null",
+          "type": "uses_material",
+          "evidence": "Методы концентрирования SO2 с последующим получением элементарной серы"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "null",
+          "type": "uses_material",
+          "evidence": "Методы концентрирования SO2 с последующим получением элементарной серы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p4::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p4::c1",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "торного использования, в то же время извлекается концентрированный газ (SO2 90+%) в качестве побочного продукта для использования в других процессах. Другие преимущества включают в себя: • Низкие эксплуатационные затраты по сравнению с другими процессами десульфуризации дымовых газов и извлечения SO2; • поглощение SO2 не требует внешнего охлаждения газа перед абсорбером, сводя к минимуму затраты; • Термически и химически стабильный буфер; • Очень низкие потери и низкое потребление химических веществ; • Доступность хим. реагентов; • Отсутствие отходов, кроме небольших количеств сульфата натрия (Na2SO4), которые могут быть реализованы; • Высокая эффективность очистки SO2; Описание процесса Процесс Labsorb использует неорганический водный раствор, приготовленный из натриевой соли фосфорной кислоты для поглощения S02. Высокие концентрации буфера и высокие значения рН на протяжении всего процесса обеспечивают высокую эффективность поглощения SO2. Происходят следующие реакции:  Абсорбция SO2Г ↔ SO2Ж SO2Ж + HPO4 + H2O ↔ HSO3 + H2PO4  Восстановление HSO3 + H2PO4 ↔ SO2Ж + HPO4 + H2O SO2Ж ↔ SO2Г Г – газ, Ж – жидкость Основным буферным компонентом в процессе Labsorb является Na2HP04.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Labsorb",
+          "name_en": "Labsorb process",
+          "canonical": "labsorb_process"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "нерастворимый газ SO2",
+          "name_en": "unreacted gas SO2",
+          "canonical": "unreacted_gas_so2"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "концентрированный газ SO2",
+          "name_en": "concentrated SO2 gas",
+          "canonical": "concentrated_so2_gas"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "водный раствор натриевой соли фосфорной кислоты",
+          "name_en": "aqueous solution of sodium salt of phosphoric acid",
+          "canonical": "aqueous_solution_of_sodium_salt_of_phosphoric_acid"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфат натрия (Na2SO4)",
+          "name_en": "sodium sulfate (Na2SO4)",
+          "canonical": "sodium_sulfate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "торного использования, в то же время извлекается концентрированный газ (SO2 90+%) в качестве побочного продукта для использования в других процессах"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "торного использования, в то же время извлекается концентрированный газ (SO2 90+%) в качестве побочного продукта для использования в других процессах"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Процесс Labsorb использует неорганический водный раствор, приготовленный из натриевой соли фосфорной кислоты для поглощения S02"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "efficiency",
+          "op": "ge",
+          "value_min": null,
+          "value_max": 90.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "buffer_component",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p4::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p4::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "4 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Введение Для стадии концентрирования SO2 с последующим получением элементарной серы, на рынке наиболее известны следующие процессы:  Labsorb (ELSORB)  Cansolv  ClausMaster от MECS Основная область использования подобных процессов относится к нефтегазовой отрасли, но, по уверению разработчиков данных технологий, они могут применяться в различных промышленных целях, связанных с переработкой отходящих газов, содержащих SO2. /1/ 5 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» 1 Процесс Labsorb Процесс Labsorb - процесс извлечения SO2 из дымовых и отходящих газов на нефтеперерабатывающих заводах, металлургических заводах, и др. промышленных объектах. Этот запатентованный процесс удаляет SO2 из дымовых газов, при этом сводя к минимуму затраты на мокрую очистку газов. Используемый реагент (буфер) регенерируется для повторного использования, в то же время извлекается концентрированный газ (SO2 90+%) в качестве побочного продукта для использования в других процессах.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Labsorb",
+          "name_en": "Labsorb",
+          "canonical": "labsorb"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "дымовые и отходящие газы",
+          "name_en": "flue and off-gases",
+          "canonical": "flue_and_off_gases"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "процесс Labsorb - процесс извлечения SO2 из дымовых и отходящих газов на нефтеперерабатывающих заводах, металлургических заводах, и др. промышленных объектах"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p4::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p4::c2",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "Восстановление HSO3 + H2PO4 ↔ SO2Ж + HPO4 + H2O SO2Ж ↔ SO2Г Г – газ, Ж – жидкость Основным буферным компонентом в процессе Labsorb является Na2HP04. Буфер я является химически стабильным и не токсичен и имеет высокую растворимость в воде при соответствующих условиях. Описание установки Установка Labsorb состоит из EDV скруббера и установку регенерации буфера. Упрощенная блок-схема последовательности процесса показана на рис. 1.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Na2HP04",
+          "name_en": "sodium dihydrogen phosphate",
+          "canonical": "sodium_dihydrogen_phosphate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "буферное восстановление",
+          "name_en": "buffer reduction",
+          "canonical": "buffer_reduction"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "осаждение SO2Ж",
+          "name_en": "SO2 liquid absorption",
+          "canonical": "so2_liquid_absorption"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "конверсия SO2Ж в SO2Г",
+          "name_en": "SO2 gas conversion from liquid",
+          "canonical": "so2_conversion"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Основным буферным компонентом в процессе Labsorb является Na2HP04"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "основным буферным компонентом..."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "SO2Ж ↔ SO2Г"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "solubility",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p1::c1",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": ".... 7 3 ClausMaster ™ (компания MECS) .............................................................................................................. 8 Вывод ............................................................................................................................................................ 9 Список использованных источников ....................................................................................................... 10",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "ClausMaster ™ процесс (компания MECS)",
+          "name_en": "ClausMaster ™ process (company MECS)",
+          "canonical": "ClausMaster ™ process"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Компания MECS",
+          "name_en": "MECS company",
+          "canonical": "MECS company"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "ClausMaster ™ (компания MECS)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p6::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p6::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "6 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Рисунок 1 - Блок-схема последовательности процесса Labsorb Входящий газ охлаждается до температуры адиабатического насыщения в охлаждающей части скруббера. Чтобы свести к минимуму поглощение S02, рН циркулирующей воды в скруббере поддерживается на низком уровне. Абсорбция S02 осуществляется в основной части скруббера с использованием традиционной технологии мокрой очистки газов EDV. Регенерация буфера осуществляется в испарителе с принудительной циркуляцией с использованием теплообменника с водяным паром, после чего происходит разделение газ/жидкость. Диоксид серы и водяной пар направляются в десорбер и конденсатор. Насыщенный влагой концентрированный S02 выходит из конденсатора в качестве восстановленного продукта. Вода из конденсатора возвращается в процесс. Небольшие количества свежего буфера добавляются к процессу, чтобы восполнить потери. Потери буфера крайне малы (обычно менее 3%) из-за образования сульфата натрия. Эти твердые вещества выпадают в осадок и удаляются из процесса в виде обезвоженного твердого материала.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "абсорбция SO2",
+          "name_en": "SO2 absorption",
+          "canonical": "so2_absorption"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "регенерация буфера",
+          "name_en": "buffer regeneration",
+          "canonical": "buffer_regeneration"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "водяной пар",
+          "name_en": "steam",
+          "canonical": "steam"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "скруббер Labsorb",
+          "name_en": "Labsorb scrubber",
+          "canonical": "labsorb_scrubber"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "испаритель",
+          "name_en": "evaporator",
+          "canonical": "evaporator"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "десорбер",
+          "name_en": "desorber",
+          "canonical": "desorber"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "регенерация буфера осуществляется в испарителе"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Абсорбция S02 осуществляется в основной части скруббера с использованием традиционной технологии мокрой очистки газов EDV"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Регенерация буфера осуществляется в испарителе с принудительной циркуляцией с использованием теплообменника с водяным паром"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Диоксид серы и водяной пар направляются в десорбер и конденсатор"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "le",
+          "value_min": null,
+          "value_max": 374.25,
+          "unit": "C",
+          "condition": "adiabatic saturation temperature"
+        },
+        {
+          "entity_id": "e2",
+          "param": "steam_loss",
+          "op": "le",
+          "value_min": 0.03,
+          "value_max": 0.03,
+          "unit": "%",
+          "condition": "less than 3%"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p6::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p6::c1",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "менее 3%) из-за образования сульфата натрия. Эти твердые вещества выпадают в осадок и удаляются из процесса в виде обезвоженного твердого материала. Извлеченный S02 направляется на дальнейшую переработку, в том числе, на получение серной кислоты или элементарной серы. /2, 3/ Контакты: ООО «Дюпон Россия», 121614 Москва, Ул. Крылатская, 17/3, Тел.: +7 095 7972200 Факс: +7 095 7972201",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сульфат натрия",
+          "name_en": "sodium sulfate",
+          "canonical": "sodium_sulfate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение SO2",
+          "name_en": "SO2 extraction",
+          "canonical": "so2_extraction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "сульфат натрия выпадает в осадок и удаляется из процесса"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p7::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p7::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "7 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» 2 Система очистки газов Cansolv Система очистки SO2 Cansolv является регенерирующей: фирменная аминная технология обеспечивает захват и дальнейший выпуск SO2, преобразованного в товарные побочные продукты. Она вырабатывает небольшое количество отходов, в отличие от альтернативных процессов на основе щелочных реагентов без регенерации и потребляет гораздо меньше реагента. При этом не требуются дорогостоящие расходные абсорбенты, а стоки сводятся к минимуму. В данной запатентованной технологии применяется водный раствор амина, обеспечивающий высокоэффективную избирательную абсорбцию SO2 из дымового газа. Ключевые этапы процесса (Рисунок 1): 1. Поступающий газ резко охлаждается и насыщается в узле предварительной очистки с циркулирующей водой. 2. Газ вступает в соприкосновение с раствором бедного амина в противоточной абсорбционной колонне. 3. SO2 поглощается, и очищенный газ поступает из абсорбера в атмосферу. 4. Амин, насыщенный SO2, поступающий из абсорбционной колонны, прокачивается через теплообменник и поступает в регенерационную колонну. 5.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "система очистки SO2 Cansolv",
+          "name_en": "Cansolv SO2 scrubbing system",
+          "canonical": "cansolv_sulfur_dioxide_scrubbing_system"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "газ дымовой",
+          "name_en": "flue gas",
+          "canonical": "flue_gas"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "узел предварительной очистки",
+          "name_en": "pre-cleaning unit",
+          "canonical": "pre_cleaning_unit"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "противоточная абсорбционная колонна",
+          "name_en": "countercurrent absorber column",
+          "canonical": "countercurrent_absorber_column"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "абсорбер",
+          "name_en": "absorber",
+          "canonical": "absorber"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "теплообменник",
+          "name_en": "heat exchanger",
+          "canonical": "heat_exchanger"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "регенерационная колонна",
+          "name_en": "regeneration column",
+          "canonical": "regeneration_column"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "поступающий газ резко охлаждается и насыщается в узле предварительной очистки с циркулирующей водой"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "газ вступает в соприкосновение с раствором бедного амина в противоточной абсорбционной колонне"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "SO2 поглощается, и очищенный газ поступает из абсорбера в атмосферу"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "amin, насыщенный SO2, поступающий из абсорбционной колонны, прокачивается через теплообменник и поступает в регенерационную колонну"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p7::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p7::c1",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "атмосферу. 4. Амин, насыщенный SO2, поступающий из абсорбционной колонны, прокачивается через теплообменник и поступает в регенерационную колонну. 5. Очистка паром регенерирует раствор бедного амина, и SO2 восстанавливается в виде чистого водонасыщенного продукта. 6. Бедный амин перекачивается от ребойлера отпарной колонны и поступает в абсорбционную колонну через теплообменник. 7. Побочный продукт SO2 направляется в системы переработки побочных продуктов и преобразуется в различные продукты, в т.ч. в жидкий SO2, серную кислоту и элементарную серу. /4 – 7/ Рисунок 2 - Система очистки от SO2 Cansolv. Контакты: 8475, Christophe Colomb Avenue, Suite 2000, Montreal, Québec H2M 2N9, CANADA T.: +1 514.382.4411 / F.: +1 514.382.5363",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "абсорбция SO2",
+          "name_en": "SO2 absorption",
+          "canonical": "so2_absorption"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "регенерация амина",
+          "name_en": "amine regeneration",
+          "canonical": "amine_regeneration"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "амин, насыщенный SO2",
+          "name_en": "SO2-saturated amine",
+          "canonical": "so2_saturated_amine"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "абсорбционная колонна",
+          "name_en": "absorption tower",
+          "canonical": "absorption_tower"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "регенерационная колонна",
+          "name_en": "regeneration tower",
+          "canonical": "regeneration_tower"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "чистый водонасыщенный SO2",
+          "name_en": "water-saturated SO2",
+          "canonical": "water_saturated_so2"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "теплообменник",
+          "name_en": "heat exchanger",
+          "canonical": "heat_exchanger"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "бедный амин",
+          "name_en": "lean amine",
+          "canonical": "lean_amine"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "атмосферу"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "абсорбционная колонна"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "регенерационная колонна"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "прокачивается через теплообменник и поступает в регенерационную колонну"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "чистый водонасыщенного продукта"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "бедный амин перекачивается от ребойлера отпарной колонны и поступает в абсорбционную колонну через теплообменник"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p8::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p8::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "8 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» 3 ClausMaster ™ (компания MECS) Это специально разработанный запатентованный процесс физической абсорбции диоксида серы. Конструкции имеют высокую поглощающую способность, и являются неводными и экологически чистым. Спектр применения конструкций достаточно обширен и включает в себя различные операции, требующие извлечения SO2. Краткая технологическая схема: Остаточный газ из установки Клауса для регенерации серы, содержащий H2S и SO2, полностью окисляется термически или каталитически до SO2. Горячий газообразный SO2 затем охлаждают в мокром скруббере DynaWave® и башне охлаждения газа, и кислотный туман удаляется туманоуловителем Brink®. После прохождения через запатентованный SO2 физический абсорбент, чистый газ выпускается, SO2 удаляется из насыщенного абсорбента в отпарной колонне. Концентрированный SO2 возвращают обратно в процесс Клауса для извлечения серы. /8/ Рисунок 3 – Схема процесса ClausMaster ™ Рисунок 4 - Система физической абсорбции SO2 Контакты: Несколько офисов по всему миру, указаны в ссылке http://www.mecsglobal.com/global-offices.aspx",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "метод концентрирования SO2 ClausMaster ™",
+          "name_en": "ClausMaster ™ process for SO2 concentration",
+          "canonical": "clausmaster_process"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "остаточный газ из установки Клауса",
+          "name_en": "Klaus tail gas",
+          "canonical": "klaus_tail_gas"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "термическая или каталитическая окислительная установка",
+          "name_en": "thermal or catalytic oxidizer unit",
+          "canonical": "oxidation_unit"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "мокрый скруббер DynaWave®",
+          "name_en": "DynaWave® wet scrubber",
+          "canonical": "dynawave_scrubber"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "башня охлаждения газа",
+          "name_en": "gas cooling tower",
+          "canonical": "gas_cooling_tower"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "туманоуловитель Brink®",
+          "name_en": "Brink® mist eliminator",
+          "canonical": "brink_mist_eliminator"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "кислотный туман",
+          "name_en": "acid fog",
+          "canonical": "acid_fog"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "запатентованный физический абсорбент SO2",
+          "name_en": "patented physical SO2 absorber",
+          "canonical": "so2_absorber"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "остаточный газ из установки Клауса для регенерации серы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "термическая или каталитическая окислительная установка"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "горячий газообразный SO2 затем охлаждают в мокром скруббере DynaWave®"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "горячий газообразный SO2 затем охлаждают в башне охлаждения газа"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "кислотный туман удаляется туманоуловителем Brink®"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "удаление кислотного тумана"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "чистый газ выпускается, SO2 удаляется из насыщенного абсорбента в отпарной колонне"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Справка. Методы конц-я SO2::p9::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Справка. Методы конц-я SO2::p9::c0",
+      "doc_id": "Обзоры__Справка. Методы конц-я SO2",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Справка. Методы конц-я SO2.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "9 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Вывод Как уже было сказано, технологии концентрирования SO2 с последующем получением элементарной серы, кратко описанные выше, применяются, в основном, в нефтегазовой отрасли. Несмотря на то, что, по словам разработчиков, данные технологии достаточно гибки, и могут использоваться в том числе и в металлургической промышленности, аналогичный примеров не выявлено. 10 2016 г Методы концентрирования SO2 с последующим получением элементарной серы ООО «Институт Гипроникель» Список использованных источников 1. M. Rameshni, S. Santo. Production of Elemental Sulphur from SO2 RSR (Rameshni SO2 Reduction), WorleyParsons, California, USA 2. Sulphur № 293, July – August 2004, стр. 37 3. http://www.dupont.ru/ 4. www.cansolv.com 5. http://www.shell.com.ru 6. http://www.saimm.co.za/Journal/v109n08p485.pdf 7. http://staging.cansolv.openface.ca/rtecontent/document/Cansolv_Technologi es1.pdf 8. http://www.mecsglobal.com/global-offices.aspx",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2016
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "концентрирование SO2 с последующим получением элементарной серы",
+          "name_en": "concentration of SO2 followed by elemental sulfur production",
+          "canonical": "so2_concentration"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "SO2",
+          "name_en": "sulfur dioxide",
+          "canonical": "so2"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "элементарная соль",
+          "name_en": "elemental sulfur",
+          "canonical": "elemental_sulfur"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Методы концентрирования SO2 с последующим получением элементарной серы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "получение элементарной серы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  }
+}

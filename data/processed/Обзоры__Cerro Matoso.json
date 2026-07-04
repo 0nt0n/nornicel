@@ -1,0 +1,3734 @@
+{
+  "Обзоры__Cerro Matoso::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c0",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам, к.г.-м.н. ___________ С.М. Козырев « __ » ___________ 2018 СПРАВКА Cerro Matoso ОИП – 05 – 2018 Список исполнителей Главный специалист Евграфова А.К. Содержание Введение 4 1 Геология и минералогия 5 2 Запасы/ресурсы руды 7 3 Добыча и переработка руды 8 4 Производственные результаты 10 5 Проблемы Cerro Matoso 11 6 Стратегия 13 7 Контракты, лицензии и прочее 14 Приложение 16 Источники 19 Введение Горно-металлургический комплекс Cerro Matoso (Колумбия) принадлежит компании Cerro Matoso S.A., в которой 99,94% - у компании South32, сформировавшейся и получившей этот актив (среди прочих горных активов) в 2015 г., в результате реорганизации BHP Billiton и выделения части её активов в самостоятельную компанию. Заметим, что South32 – диверсифицированная компания, в структуре доходов за 2016-2017 финансовые годы (фин.год – по 30.06) доля Cerro Matoso составляет около 5%, в то время как на алюминиево-глиноземный бизнес, например, приходится более 40%, на уголь – около 27%, на марганец – 12%. Комплекс Cerro Matoso включает полный цикл производства – от открытой добычи руды до производства готового никеля в виде дроби ферроникеля.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство ферроникеля",
+          "name_en": "ferro-nickel production",
+          "canonical": "ferro_nickel_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "производства готового никеля в виде дроби ферроникеля"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c1",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ец – 12%. Комплекс Cerro Matoso включает полный цикл производства – от открытой добычи руды до производства готового никеля в виде дроби ферроникеля. Добыча руды началась в 1980 г., производство ферроникеля - в 1982 г. Производство ферроникеля осуществляется по хорошо известной и неоднократно описанной технологии RKEF – обжиг во вращающейся печи и плавка огарка в электропечи. Геология и минералогия Латеритовое месторождение Cerro Matoso расположено на северо-западе Колумбии, рядом с г.Монтелибано, в 260 км от порта Картахена. Месторождение обнаружено над перидотитовым протолитом, выходящим на поверхность в виде вытянутого холма высотой примерно 200 м на берегу реки. Профиль выветривания – переменный как по вертикали, так и в боковом направлении. В работе [1], посвященной минералогии и геохимии Cerro Matoso, охарактеризованы 10 отчетливых литостратиграфических единиц. Пробы были отобраны как из карьера №1 (богатая руда), так и №2 (бедная руда). Оказалось, что профили выветривания в двух карьерах существенно отличаются.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руды Cerro Matoso",
+          "name_en": "Cerro Matoso ores",
+          "canonical": "cerro_matoso_ores"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обжиг во вращающейся печи",
+          "name_en": "rotary kiln roasting",
+          "canonical": "rotary_kiln_roasting"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "плавка огарка в электропечи",
+          "name_en": "electro-melting of the residue",
+          "canonical": "electro_melting_of_residue"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "перидотитовый протолит",
+          "name_en": "peridotitic ultramafic body",
+          "canonical": "peridotitic_ultramafic_body"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "карьер №1",
+          "name_en": "mine pit 1",
+          "canonical": "mine_pit_1"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "карьер №2",
+          "name_en": "mine pit 2",
+          "canonical": "mine_pit_2"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обжиг во вращающейся печи и плавка огарка в электропечи"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "перидотитовый протолит, выходящий на поверхность в виде вытянутого холма высотой примерно 200 м на берегу реки"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "перидотитовый протолит, выходящий на поверхность в виде вытянутого холма высотой примерно 200 м на берегу реки"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c2",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ы были отобраны как из карьера №1 (богатая руда), так и №2 (бедная руда). Оказалось, что профили выветривания в двух карьерах существенно отличаются. Профиль карьера №1 (снизу-вверх) включает: слабо серпентизированный перидотитовый протолит → сапролитизированный перидотит → зеленый сапролит (основной рудный горизонт) → «тахилит» (геологи используют это название для описания загадочного железооксидного горизонта) → черный сапролит → желтый сапролит → красный сапролит. Порода кровли – феррикрет (от магнитного до немагнитного), известного под местным названием «канга» (‘canga’). Последовательность в карьере №2: серпентизированный перидотит → сапролитизированный перидотит → коричневый сапролит → желтый сапролит → красный сапролит; горизонта зеленого сапролита нет. Толщина горизонтов – самая разная, но большинство главных горизонтов имеет максимальную толщину порядка десятков метров. В обоих карьерах встречаются многочисленные минеральные силикатные жилы, отложенные в сбросовой трещине и силикатные жилки, заполняющие трещины отдельности, иногда – в прожилковых зонах, в нижней части разреза.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "перидотитовый протолит",
+          "name_en": "peridotitic gabbro",
+          "canonical": "peridotitic_gabbro"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сапролитизированный перидотит",
+          "name_en": "serpentinized peridotite",
+          "canonical": "serpentinized_peridotite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "зеленый сапролит",
+          "name_en": "green saprolite",
+          "canonical": "green_saprolite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "тахилит",
+          "name_en": "taeniolite",
+          "canonical": "taeniolite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "черный сапролит",
+          "name_en": "black saprolite",
+          "canonical": "black_saprolite"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "желтый сапролит",
+          "name_en": "yellow saprolite",
+          "canonical": "yellow_saprolite"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "красный сапролит",
+          "name_en": "red saprolite",
+          "canonical": "red_saprolite"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "феррикрет (канга)",
+          "name_en": "ferricrete ('canga')",
+          "canonical": "ferricrete_canga"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "коричневый сапролит",
+          "name_en": "brown saprolite",
+          "canonical": "brown_saprolite"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "минеральные силикатные жилы",
+          "name_en": "mineral silicate veins",
+          "canonical": "silicate_veins"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "силикатные жилки",
+          "name_en": "silicate stringers",
+          "canonical": "silicate_stringers"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "сапролитизированный перидотит"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "зеленый сапролит"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "тахилит"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "черный сапролит"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "желтый сапролит"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "красный сaprолит"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "феррикрет (канга)"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "коричневый сапролит"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "минеральные силикатные жилы"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "силикатные жилки"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c3",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "атные жилы, отложенные в сбросовой трещине и силикатные жилки, заполняющие трещины отдельности, иногда – в прожилковых зонах, в нижней части разреза. Эти жилы содержат зеленый минерал, известный под названием «гарниерит» (фактически пимелит, разновидность никельсодержащего талька), а также кварц и халцедон, содержание никеля в них может достигать 30-40%вес. «Валовая» геохимия большинства единиц обоих профилей имеет типичный латеритовый рисунок: по мере движения вверх MgO и SiO2 становится меньше, а FeO больше. Протолит в обоих карьерах частично (до 50%) представлен серпентизированным гарцбургитом. В карьере №1 основными никельсодержащими фазами профиля выветривания являются: никелевый сепиолит, никелевые серпентины и другие гидратированные силикаты. Гарниериты Cerro Matoso – это пимелит, в котором в разной степени Ni был замещен на Mg.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гарниерит (пимелит)",
+          "name_en": "pimelite (green clay)",
+          "canonical": "pimelite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кварц",
+          "name_en": "quartz",
+          "canonical": "quartz"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "халцедон",
+          "name_en": "chalcedony",
+          "canonical": "chalcedony"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никелевый сепиолит",
+          "name_en": "nickel sepiolite",
+          "canonical": "nickel_sepiolite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "никелевые серпентины",
+          "name_en": "nickel serpentines",
+          "canonical": "nickel_serpentines"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "зеленый минерал, известный под названием «гарниерит» (фактически пимелит, разновидность никельсодержащего талька)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 40.0,
+          "unit": "%w/w",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c4",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "тины и другие гидратированные силикаты. Гарниериты Cerro Matoso – это пимелит, в котором в разной степени Ni был замещен на Mg. В таблицах 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера №1 и №2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом, а также минералогический состав основных литологических единиц, полученный методом рентгеновской дифрактометрии с позиционно чувствительным детектором (РД ПЧД) [1]. В диссертации A.Bunjaku 2013 г. [2], посвященной изучению влияния минералогии и других факторов на восстановимость сапролитовых никелевых руд, в качестве примера приведен химический и минералогический состав двух проб (Колумбия-1 и Колумбия-2) с Сerro Matoso. Данные пробы, видимо, не являющиеся «представительными» в строгом смысле, все-таки дают некоторое представление о вариабельности составов. Таблица 1.1 - Химический состав двух проб руды Cerro Matoso, %вес Ист: Bunjaku [2] *Потери при прокаливании определены при нагреве до 1100°С в потоке сухого азота (дегидроксилирование гидросиликатов магния происходит при температурах выше 900°С).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гарниериты Cerro Matoso",
+          "name_en": "Cerro Matoso garnierites",
+          "canonical": "garnierite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "пимелит",
+          "name_en": "pimelite",
+          "canonical": "pimelite"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "химический состав",
+          "name_en": "chemical composition",
+          "canonical": "chemical_composition"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "атомно-эмиссионная спектрометрия с индуктивно связанной плазмой (ИСП АЭС)",
+          "name_en": "inductively coupled plasma atomic emission spectroscopy (ICP-AES)",
+          "canonical": "icp-aes"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "электронный микрозонд",
+          "name_en": "electron microprobe analysis (EMPA)",
+          "canonical": "empa"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "рентгеновская дифрактометрия с позиционно чувствительным детектором (РД ПЧД) [1]",
+          "name_en": "X-ray diffraction with position sensitive detector (XRD-PSD)",
+          "canonical": "xrd-psd"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "дегидроксилирование гидросиликатов магния",
+          "name_en": "dehydroxylation of magnesium hydroxysilicates",
+          "canonical": "dehydroxylation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "гарниериты Cerro Matoso – это пимелит, в котором в разной степени Ni был замещен на Mg"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "таблицы 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера №1 и №2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "таблицы 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера №1 и №2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "таблицы 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера №1 и №2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "таблицы 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера №1 и №2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Потери при прокаливании определены при нагреве до 1100°С в потоке сухого азота (дегидроксилирование гидросиликатов магния происходит при температурах выше 900°С)."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e7",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1100.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "temperature",
+          "op": "le",
+          "value_min": 900.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": "дегидроксилирование гидросиликатов магния происходит при температурах выше 900°С"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c5",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "окаливании определены при нагреве до 1100°С в потоке сухого азота (дегидроксилирование гидросиликатов магния происходит при температурах выше 900°С). Колумбийская руда представлена серпентином и минералами группы хлоритов (в отличие от, например, бразильской руды, представленной смесью глинистых минералов и серпентина). Таблица 1.2 - Основные фазы в двух пробах руды Cerro Matoso Ист: Bunjaku [2] Запасы/ресурсы руды Запасы/ресурсы руды, в соответствии с кодексом JORC 2012 года, приведены на 30.06.2017г. [3] Таблица 2.1 – Запасы и ресурсы руды Cerro Matoso Ист: South32 [3] Примечания: Извлечение из запасов в металл принято 83% Бортовое содержание Ni%: Ресурсы Запасы Латерит.руда 0,6% 0,6% Складир.руда 0,6% 0,6% Минерализ.матер. 0,12% В далеком 1979 году (незадолго до ввода проекта в строй) правительство Колумбии обратилось ко Всемирному банку с просьбой о займе 80 млн USD для финансирования работ по проекту. Банк, как и следовало ожидать, выполнил надлежащий анализ проекта и выпустил отчет [4], из которого следует, в частности, что ¾ доказанных запасов было представлено сапролитом со средним содержанием никеля 3,0%, MgO 10-15%, Fe 15%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "окаливание",
+          "name_en": "calcination",
+          "canonical": "calcination"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "дегидроксилирование гидросиликатов магния",
+          "name_en": "dehydroxylation of magnesium hydroxysilicates",
+          "canonical": "dehydroxylation_of_magnesium_hydroxysilicates"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "колумбийская руда",
+          "name_en": "Cerro Matoso ore",
+          "canonical": "cerro_matoso_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "серпентин",
+          "name_en": "serpentine",
+          "canonical": "serpentine"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "минералы группы хлоритов",
+          "name_en": "chlorite group minerals",
+          "canonical": "chlorite_group_minerals"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "латеритная руда",
+          "name_en": "lateritic ore",
+          "canonical": "lateritic_ore"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "складировальная руда",
+          "name_en": "stockpiled ore",
+          "canonical": "stockpiled_ore"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "минерализованный материал",
+          "name_en": "mineralized material",
+          "canonical": "mineralized_material"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "окаливании определены при нагреве до 1100°С в потоке сухого азота"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Колумбийская руда представлена серпентином и минералами группы хлоритов"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1100.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 900.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c6",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "[4], из которого следует, в частности, что ¾ доказанных запасов было представлено сапролитом со средним содержанием никеля 3,0%, MgO 10-15%, Fe 15%. Около 15% запасов было классифицировано как сапролитизированный перидотит, 10% - как трещины усыхания, заполненные различной рудой. По проекту предполагалось вести добычу руды со средней сортностью 2,7% Ni (в первые 9 лет – с 3,2% Ni). Cerro Matoso называли самым богатым (за исключением лишь некоторых месторождений Новой Каледонии) латеритовым месторождением. Собственно, так оно поначалу и было. Добыча и переработка руды Поскольку технология RKEF хорошо известна, ниже лишь кратко перечислены основные моменты. Открытую добычу руды ведут с использованием традиционной системы разработки с мехлопатами в сочетании с самосвалами. Главный карьер разбит на ряд карьеров меньшего размера. Добычу ведут как селективную, так и валовую. Руду отправляют либо непосредственно на дробильную станцию, либо складируют. Складированную руду забирают с помощью фронтального погрузчика и смешивают с рудой, поступающей непосредственно с рудника. Рудную смесь подвергают двухстадийному дроблению: сначала до -150 мм, затем до -50 мм.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "laterite",
+          "canonical": "laterite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "перидотит",
+          "name_en": "peridotite",
+          "canonical": "peridotite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "трещины усыхания",
+          "name_en": "desiccation cracks",
+          "canonical": "desiccation_cracks"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "рудная смесь",
+          "name_en": "ore blend",
+          "canonical": "ore_blend"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "дробление руды",
+          "name_en": "crushing of ore",
+          "canonical": "ore_crushing"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "мехлопаты",
+          "name_en": "shovels",
+          "canonical": "shovels"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "самосвалы",
+          "name_en": "dump trucks",
+          "canonical": "dump_trucks"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "фронтальный погрузчик",
+          "name_en": "front loader",
+          "canonical": "front_loader"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "содержание никеля"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "содержание никеля"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "содержание никеля"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "открытую добычу руды ведут с использованием традиционной системы разработки с мехлопатами"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "открытую добычу руды ведут с использованием традиционной системы разработки с мехлопатами"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Складированную руду забирают с помощью фронтального погрузчика и смешивают с рудой, поступающей непосредственно с рудника"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "ge",
+          "value_min": 3.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mgo_content",
+          "op": "range",
+          "value_min": 10.0,
+          "value_max": 15.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "fe_content",
+          "op": "ge",
+          "value_min": 15.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c7",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ка и смешивают с рудой, поступающей непосредственно с рудника. Рудную смесь подвергают двухстадийному дроблению: сначала до -150 мм, затем до -50 мм. Затем формируют два «суперштабеля», каждый ёмкостью примерно в 100 тыс т (влажн). Формирование осуществляется путем добавления слоев дробленой руды. В каждом штабеле – примерно 160 слоев, каждый слой – около 600 т (влажн). Смешанную и гомогенизированную руду сушат во вращающихся сушилках, влажность снижается до 11%. Подсушенная руда хранится в трех бункерах емкостью по 600 т. Отходящие от сушилок газы проходят очистку в электрофильтре, а мелочь из электрофильтра поступает в отдельный бункер. Высушенную руду смешивают с углем (закупается местный уголь), предварительно измельченным до <10 мм, а также мелочью с электрофильтра. Обжиг ведут во вращающихся печах длиной 185 м и диаметром 6,1. Обожженный и частично восстановленный огарок выгружается из печи при температуре 800-850°С. Отходящие газы поступают в циклоны и на мокрую газоочистку. Пульпу из скруббера сгущают и возвращают в сушилку. Рисунок 3.1- Схема Cerro Matoso Ист: Brook Hunt [5] Обожженная руда поступает в печь с тремя электродами.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудная смесь",
+          "name_en": "ore mix",
+          "canonical": "ore_mix"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "дробление руды",
+          "name_en": "ore crushing",
+          "canonical": "ore_crushing"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "сушилка",
+          "name_en": "drying kiln",
+          "canonical": "drying_kiln"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "уголь",
+          "name_en": "coal",
+          "canonical": "coal"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "обжиг руды",
+          "name_en": "ore calcination",
+          "canonical": "ore_calcination"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "вращающая печь",
+          "name_en": "rotary kiln",
+          "canonical": "rotary_kiln"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "дробление рудной смеси"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "сушат рудную смесь"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "смешивают с углем"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "обжиг ведут во вращающихся печах"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "product_size",
+          "op": "range",
+          "value_min": -150.0,
+          "value_max": -50.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "drying_temperature",
+          "op": "le",
+          "value_min": 800.0,
+          "value_max": 850.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c8",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "з скруббера сгущают и возвращают в сушилку. Рисунок 3.1- Схема Cerro Matoso Ист: Brook Hunt [5] Обожженная руда поступает в печь с тремя электродами. Отходящие газы проходят мокрую газоочистку, пульпа из скруббера поступает в сгуститель. Металл (черновой ферроникель) направляется в цех рафинирования (от серы, углерода и кремния). Готовый ферроникель (высокой чистоты, низкоуглеродистый) гранулируют и упаковывают. Ферроникель идет на экспорт - до порта Картахена 260 км. Линия №1 Cerro Matoso была введена в строй в 1982 г., линия №2 – в январе 2001 г. Обе печи – с защищенной дугой, мощностью по 75 МВт и удельной мощностью на поде (общая мощность: площадь пода) в 230 кВт/м2. Номинальная мощность завода – 50 тыс т/г Ni в FeNi, но, как подчеркивает компания, фактический выпуск зависит от сортности руды. В 2017 фин.г. на комплексе трудилось в среднем 1770 работников и подрядчиков. Производственные результаты В первые годы эксплуатации Cerro Matoso был самым низкозатратным производителем ферроникеля. После расширения мощностей вдвое (до 50 тыс т/г Ni) в 2001 г. Cerro Matoso стал крупнейшим (на тот момент) ферроникелевым заводом. Однако с тех пор многое изменилось.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "сгущение пульпы",
+          "name_en": "concentration of pulp",
+          "canonical": "pulp_concentration"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "сушилка руды",
+          "name_en": "roasting furnace",
+          "canonical": "roasting_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "печь с тремя электродами",
+          "name_en": "three-electrode furnace",
+          "canonical": "three_electrode_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "мокрая газоочистка",
+          "name_en": "wet gas cleaning",
+          "canonical": "wet_gas_cleaning"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "сгуститель",
+          "name_en": "settling tank",
+          "canonical": "settling_tank"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "рафинирование металла",
+          "name_en": "refining metal",
+          "canonical": "metal_refining"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "обожженная руда",
+          "name_en": "roasted ore",
+          "canonical": "roasted_ore"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "пульпа",
+          "name_en": "pulp",
+          "canonical": "pulp"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "черновой ферроникель",
+          "name_en": "raw ferronickel",
+          "canonical": "raw_ferronickel"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "готовый ферроникель",
+          "name_en": "finished ferronickel",
+          "canonical": "finished_ferronickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "обожженная руда поступает в печь с тремя электродами"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "пульпа из скруббера поступает в сгуститель"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "Металл (черновой ферроникель) направляется в цех рафинирования"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c9",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "мощностей вдвое (до 50 тыс т/г Ni) в 2001 г. Cerro Matoso стал крупнейшим (на тот момент) ферроникелевым заводом. Однако с тех пор многое изменилось. Рисунок 4.1 - Историческое производство ферроникеля Cerro Matoso (тыс т Ni) Ист: BHP Billiton Рисунок 4.2 - Издержки С1 и С3 (USD*/фунт Ni) по 2003 г. Ист: BHP Billiton *в долларах 2003 г. После рекордного 2013 фин.г. с выпуском 50,8 тыс т Ni в FeNi, наблюдается спад производства. Таблица 5.1 - Выпуск ферроникеля Cerro Matoso (доля South32) в 2014-2018 фин.гг.* Ист: South32 *финансовый год заканчивается 30.06; 9 мес.2018 фин.г. – это период с 01.07.2017 по 31.03.2018 календарного года. Проблемы Cerro Matoso Падение сортности руды, по всей видимости, является основной проблемой Cerro Matoso. По мере снижения сортности оставшейся руды, содержание никеля в отрезе, исходно равнявшееся 1,5%, было понижено до 1,1% в 2001 г., до 1,0% в 2005 г. и 0,7% в 2007 г., а в настоящее время составляет 0,6% (табл.2.1). Вскрышные породы с самого начала делили на отвал и низкосортную руду, которую складировали для последующей переработки.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никельная руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание никеля в отрезе",
+          "name_en": "nickel content in concentrate",
+          "canonical": "nickel_content_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "содержание никеля в отрезе, исходно равнявшееся 1,5%, было понижено до 1,0% в 2005 г. и 0,7% в 2007 г., а в настоящее время составляет 0,6%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 1.5,
+          "value_max": 0.6,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c10": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c10",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "я составляет 0,6% (табл.2.1). Вскрышные породы с самого начала делили на отвал и низкосортную руду, которую складировали для последующей переработки. В первые годы эксплуатации, когда бортовое содержание составляло 1,5% Ni, доля складированной руды в общем объеме добычи руды была выше, чем теперь, но в переработку шла свежедобытая руда. Переработка складированной руды началась в 2013 г. В 2014 г. из ≈3 млн т руды, поступившей на дробление, половина была представлена ранее складированной рудой. Помимо снижения сортности руды, большую проблему с точки зрения дальнейшей переработки на ферроникель представляет соотношение SiO2:MgO. Доступность руд с разным содержанием SiO2, MgO, Fe снижается и, соответственно, снижается гибкость по смешиванию с целью получения сырья, которое обеспечит надлежащий химический состав плавильного шлака. Особое беспокойство вызывает повышение содержания SiO2. Ведь что хорошо для плавки на ферроникель: Ni >1,8% (>2% в первые, скажем, пять лет для обеспечения окупаемости), Fe/Ni <12, Ni/Co >30, SiO2/MgO <1,9 [6]. До ≈2013 г. в Cerro Matoso на плавку поступало сырье с Ni>2,2%, Fe≈15%, Fe/Ni 6,8, но самым высоким отношением SiO2/MgO=2,8.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вскрышные породы",
+          "name_en": "overburden",
+          "canonical": "overburden"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "низкосортная руда",
+          "name_en": "low-grade ore",
+          "canonical": "low_grade_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "складированная руда",
+          "name_en": "stockpiled ore",
+          "canonical": "stockpiled_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "бортовое содержание никеля",
+          "name_en": "品位镍含量",
+          "canonical": "品位 nickel_content"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "содержание SiO2",
+          "name_en": "SiO2 content",
+          "canonical": "SiO2_content"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "содержание MgO",
+          "name_en": "MgO content",
+          "canonical": "MgO_content"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "содержание Fe",
+          "name_en": "Fe content",
+          "canonical": "Fe_content"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "отношение SiO2:MgO",
+          "name_en": "SiO2:MgO ratio",
+          "canonical": "SiO2_MgO_ratio"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "отношение Fe:Ni",
+          "name_en": "Fe:Ni ratio",
+          "canonical": "Fe_Ni_ratio"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "отношение Ni:Co",
+          "name_en": "Ni:Co ratio",
+          "canonical": "Ni_Co_ratio"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "вскрышные породы с самого начала делили на отвал и низкосортную руду"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "содержание Ni>2,2% до ≈2013 г."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "соотношение SiO2:MgO"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "соотношение SiO2:MgO"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "соотношение Fe:Ni и Ni:Co"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "nickel_content",
+          "op": "ge",
+          "value_min": 2.2,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "fe_content",
+          "op": "eq",
+          "value_min": 15.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "SiO2_MgO_ratio",
+          "op": "le",
+          "value_min": 1.9,
+          "value_max": 2.8,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "Fe_Ni_ratio",
+          "op": "le",
+          "value_min": 6.8,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "Ni_Co_ratio",
+          "op": "ge",
+          "value_min": 30.0,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c11": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c11",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": ">30, SiO2/MgO <1,9 [6]. До ≈2013 г. в Cerro Matoso на плавку поступало сырье с Ni>2,2%, Fe≈15%, Fe/Ni 6,8, но самым высоким отношением SiO2/MgO=2,8. Эта руда закончилась и теперь плавят более низкосортную руду с соотношением SiO2:MgO на уровне <1,9:1 [7]. В [7] сообщается о проекте обогащения руды – в отношении удаления части кремнезема отсеиванием крупных частиц, что ранее уже делала BHP Billiton. В 3кв.2018 г. был введен в строй проект Esmeralda. Это небольшое месторождение-спутник (ресурсы 9,3 млн т), но оно немного богаче. В результате, сортность поступающей на переработку руды, начиная уже с 2018 фин.г., временно (2018-2020 фин.гг) повысилась и увеличился выпуск ферроникеля (табл.5.1). План на 2018 фин.г. – 41,6 тыс т Ni. Снижение сортности руды влияет, естественно, и на издержки производства и, в конечном итоге, на прибыльность предприятия. Таблица 6.1 - Операционные издержки и финансовые показатели Cerro Matoso в 2014-2017 фин.г. Ист: South32 Примечания: 1 - включая побочную продукцию.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сырье Cerro Matoso",
+          "name_en": "Cerro Matoso ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "соотношение SiO2:MgO",
+          "name_en": "SiO2/MgO ratio",
+          "canonical": "si_o2_mg_o_ratio"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "плавка руды",
+          "name_en": "smelting of ore",
+          "canonical": "smelting_of_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "сортность руды",
+          "name_en": "ore grade",
+          "canonical": "ore_grade"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro nickel",
+          "canonical": "ferro_nickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "соотношение SiO2/MgO=2,8"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "поступало сырье с Ni>2,2%, Fe≈15%, Fe/Ni 6,8, но самым высоким отношением SiO2/MgO=2,8"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "после обогащения повысилась сортность руды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "si_o2_mg_o_ratio",
+          "op": "range",
+          "value_min": 1.9,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ore_grade",
+          "op": "ge",
+          "value_min": 2.2,
+          "value_max": null,
+          "unit": "% Ni",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c12": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c12",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Таблица 6.1 - Операционные издержки и финансовые показатели Cerro Matoso в 2014-2017 фин.г. Ист: South32 Примечания: 1 - включая побочную продукцию. Реализованная цена = выручка от продаж: объем продаж 2 – выручка минус прибыль от основной деятельности до уплаты налогов, процентов, износа и амортизации (EBITDA), поделанная на объем продаж оплачиваемого никеля Снижение издержек на 8% в 2017 фин.г. компания связывает с прекращением деятельности подрядчика, а также «с повышением сорности руды и снижением объемов переработки руды, приведших к скромному сокращению переменных затрат» [8]. Прибыль от основной деятельности до уплаты процентов и налогов EBIT в 2017 фин.г. увеличилась на 72 млн USD до убытков в размере 16 млн USD за счет роста средней цены реализации никеля (+45 млн USD) и затратной эффективности (+32 млн USD). Рисунок 6.1 - Расклад затрат в 2017 фин.г. Ист: South32 [9] Следует отметить, что по мере снижения сортности перерабатываемой руды снижается и содержание никеля в ферроникеле, составлявшее в начале эксплуатации завода до 45-50%, а в 2015 г. – уже около 30%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание никеля в ферроникеле",
+          "name_en": "nickel content in ferro-nickel",
+          "canonical": "nickel_content_ferro_nickle"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "содержание никеля в ферроникеле"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "снижение содержания никеля в ферроникеле"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 45.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "nickel_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2015,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c13": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c13",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "перерабатываемой руды снижается и содержание никеля в ферроникеле, составлявшее в начале эксплуатации завода до 45-50%, а в 2015 г. – уже около 30%. Очевидно: чем богаче ферроникель, тем ниже транспортные издержки (Cerro Matoso находится в 260 км от порта и сравнительно далеко от потребителей). Кроме того, есть определенные предпочтения потребителей. Стратегия Представляя стратегию компании в декабре 2017 г. [9], для Cerro Matoso компания South32 определила следующие задачи: - геологоразведка на Cu, Au в Puerto Libertador и выявление новых целей по поиску богатой никелевой латеритовой руды в пределах имеющейся лицензии; Рисунок 7.1 - Концессия 51 (Cerro Matoso) Ист: South32 [9] - продолжение исследований по проекту Planeta Rica, которое потенциально может последовать за Esmeralda; - расширение операционного окна по отношению Fe/Mg; - обогащение руды для максимизации выпуска на действующих мощностях; - оптимизация обеспечения энергией путем учреждения независимой энергетической компании и др. Стоимость электричества и газа растет. Контракты, лицензии и прочее Электричество поставляет Национальная энергосеть на основе контрактов, заключаемых обычно на пятилетний период.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro-nickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание никеля в ферроникеле",
+          "name_en": "nickel content in ferro-nickel",
+          "canonical": "nickel_content_ferro_nikel"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "геологоразведка",
+          "name_en": "geological exploration",
+          "canonical": "geological_exploration"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "латеритовая руда",
+          "name_en": "lateritic ore",
+          "canonical": "lateritic_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "содержание никеля в ферроникеле"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "геологоразведка на Cu, Au в Puerto Libertador и выявление новых целей по поиску богатой никелевой латеритовой руды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 45.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel_content",
+          "op": "le",
+          "value_min": 30.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c14": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c14",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "растет. Контракты, лицензии и прочее Электричество поставляет Национальная энергосеть на основе контрактов, заключаемых обычно на пятилетний период. Срок окончания действия очередного контракта – 2018 г. Контракт на поставку местного природного газа (для сушилок и обжиговых печей) действителен по декабрь 2021 г. Газ подается по принадлежащему компании трубопроводу. Новые условия горной концессии на добычу полезных ископаемых были согласованы между правительством Колумбии и «прежним руководством» компании, т.е. BHP Billiton и вступили в силу 01.10.2012г. Ставка роялти была повышена с 12% до 13%. Концессия действительна до 2029 г. и продление её до 2044 г. обусловлено увеличением пропускной способности по руде на 50% к 2022 г. Заметим, что в настоящий момент такое расширение выглядит сомнительно. В 2013 фин.г. объем производства Ni в FeNi составил рекордные 50,8 тыс т. BHP Billiton имела масштабные планы расширения производства: ввод в строй линий №3 и №4 на ферроникелевом заводе, а также мощностей по кучному выщелачиванию бедной руды.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "кучное выщелачивание бедной руды",
+          "name_en": "heap leaching of low-grade ore",
+          "canonical": "heap_leaching_low_grade_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "ферроникелевый завод",
+          "name_en": "ferro-nickel plant",
+          "canonical": "ferro_nickel_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "мощностей по кучному выщелачиванию бедной руды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "ввод в строй линий №3 и №4 на ферроникелевом заводе"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c15": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c15",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "асштабные планы расширения производства: ввод в строй линий №3 и №4 на ферроникелевом заводе, а также мощностей по кучному выщелачиванию бедной руды. Однако затем ситуация резко переменилась, BHP Billiton вообще потеряла интерес к никелю: комплекс Cerro Matoso наряду с другими активами был выделен в самостоятельную компанию South32 (август 2014г.), а никелевое отделение NiWest (Австралия) в мае 2014 г. BHP Billiton выставила на продажу, но, очевидно, не получив заманчивых предложений, в ноябре 2014 г. заявила, что отделение остается в собственности компании в качестве непрофильного актива. (Со временем BHP Billiton, видимо, поняла, что погорячилась и в 2016 г. «обдумала заново» перспективы развития никелевого бизнеса NiWest до до 2032 г. Новые перспективы включают, в частности, переориентацию отделения на выпуск сульфата никеля и строительство «крупнейшего в мире» завода по выпуску NiSO4∙6H2O мощностью 100 тыс. т/г). В период 2006-2012 гг. у BHP Billiton работали пилотные мощности по кучному выщелачиванию руды. В I п/г 2012 г. проект кучного выщелачивания Cerro Matoso «подошел к стадии ТЭО», как писала BHP Billiton в годовом отечете на 2011 фин.г. Однако в 2013 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "кучное выщелачивание руды",
+          "name_en": "heap leaching",
+          "canonical": "heap_leaching"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "рудные концентраты",
+          "name_en": "ore concentrates",
+          "canonical": "ore_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "завод по выпуску сульфата никеля",
+          "name_en": "NiSO4·6H2O plant",
+          "canonical": "ni_so4_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "кучное выщелачивание руды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "строительство «крупнейшего в мире» завода по выпуску NiSO4∙6H2O"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "tons/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "ge",
+          "value_min": 100000.0,
+          "value_max": null,
+          "unit": "t/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c16": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c16",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "г 2012 г. проект кучного выщелачивания Cerro Matoso «подошел к стадии ТЭО», как писала BHP Billiton в годовом отечете на 2011 фин.г. Однако в 2013 г. проект был заморожен, а в 2014 г. BHP Billiton приступила к выделению Cerro Matoso в самостоятельную компанию South32. В обзоре 2016 г. «Зачем кучно выщелачивать никелевые латериты?» [6] упоминается, что BHP Billiton выщелочила более 20 тыс т руды Cerro Matoso. Обращает на себя внимание приведенная в статье [6] таблица оценки капитальных затрат по проектам кучного выщелачивания латеритов, из которой следует, что капиталоёмкость по проекту Cerro Matoso на 20 тыс т/г Ni в 17,01 USD/фунт никеля значительно выше, чем у других аналогичных проектов. Так или иначе, новый владелец комплекса – компания South32 никаких «глобальных» планов расширения производства Cerro Matoso не составляет и, видимо, этот комплекс не входит в число приоритетов (см., например, «Стратегию» [9]). В 2018 г. ситуация вокруг Cerro Matoso усугубилась в связи с решением Конституционного суда Колумбии от 09.04.2018 г. в отношении вреда, нанесенного здоровью людей и окружающей среде в районе предприятия. Суд требует выплаты ущерба.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевая руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "кучное выщелачивание",
+          "name_en": "heap leaching",
+          "canonical": "heap_leaching"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "выщелочила более 20 тыс т руды Cerro Matoso"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c17": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c17",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ого суда Колумбии от 09.04.2018 г. в отношении вреда, нанесенного здоровью людей и окружающей среде в районе предприятия. Суд требует выплаты ущерба. Более того, суд признал, что обязательства по охране окружающей среды в Cerro Matoso нарушены, а Федеральный орган по экологическому лицензированию не настоял на осуществлении корректирующих действий, хотя и фиксировал нарушения. И, наконец, суд заявил, что лицензия, выданная в 1981 г., не отражает современные «конституционные стандарты по защите окружающей среды» и её следует обновить. На решение суда компания, конечно, готовит апелляцию. Оценить потенциальные финансовые, производственные и прочие последствия пока невозможно. Приложение Таблица 1. Результаты анализа проб (вес%) методом ИСП АЭС и микрозондом SiO2 Al2O3 Fe2O3 MgO CaO MnO TiO2 Ni Cr Co Cu Zn Sc Ba V La Sr Y Zr (вс %) (вс %) (вс %) (вс %) (вс %) (вс %) (вс %) (вс %) (вс %) (ppm) (ppm) (ppm) (ppm) (ppm) (ppm) (ppm) (ppm) (ppm) (ppm) Итого Карьер 1 Магнит. канга 2.71 7.39 73.55 0.35 <0.01 0.0539 0.153 0.862 1.68 48 168 261 65 <1 <3 <5 <2 <2 <10 86.84 Магн. канга 2.68 6.29 83.86 0.46 <0.01 0.4660 0.080 1.139 1.46 364 94 176 70 <1 <3 <5 <2 <2 <10 96.51 Нодуляр.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пробы",
+          "name_en": "samples",
+          "canonical": "samples"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "анализ проб методом ИСП АЭС и микрозондом",
+          "name_en": "ISP AES and microprobe analysis method",
+          "canonical": "isp_aes_and_microprobe_analysis"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание элементов в пробы",
+          "name_en": "element content in samples",
+          "canonical": "element_content_in_samples"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "анализ проб (вес%) методом ИСП АЭС и микрозондом"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c18": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c18",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "48 168 261 65 <1 <3 <5 <2 <2 <10 86.84 Магн. канга 2.68 6.29 83.86 0.46 <0.01 0.4660 0.080 1.139 1.46 364 94 176 70 <1 <3 <5 <2 <2 <10 96.51 Нодуляр. канга 1.69 10.15 77.15 0.70 <0.01 0.1895 0.089 0.881 1.25 410 190 240 64 <1 12 <5 <2 <2 <10 92.17 Желтый латерит 5.91 9.58 65.61 0.99 <0.01 0.9336 0.088 1.122 1.95 1424 339 353 106 95 28 <5 <2 8 <10 86.42 Черн.сапролит 10.82 10.20 67.59 0.99 <0.01 1.2408 0.098 1.991 1.86 2009 151 449 75 <1 <3 <5 <2 <2 <10 95.05 Окисл. Черн.сапролит 5.58 9.06 73.58 0.71 <0.01 0.4018 0.104 1.962 2.46 264 271 706 90 <1 45 <5 <2 18 <10 94.03 Черн.сапролит 10.39 13.30 71.81 0.83 <0.01 0.5166 0.191 1.369 1.52 375 181 197 83 <1 39 <5 <2 <2 15 100.04 Черн. сапролит/ тахилит 26.31 6.72 50.59 0.95 <0.01 0.6598 0.082 1.948 1.33 1133 152 188 50 <1 <3 <5 <2 <2 <10 88.75 Черн.сапролит/ тахилит 24.95 4.57 55.83 0.66 <0.01 1.3648 0.071 1.610 1.59 630 100 307 50 <1 <3 <5 <2 <2 <10 90.76 Tахилит 28.00 6.57 44.96 3.06 0.08 0.3482 0.078 2.663 3.26 983 121 436 57 54 165 62 21 28 15 89.14 Taхилит 37.11 3.89 25.28 17.44 0.21 0.1445 <0.001 4.283 1.47 892 75 1325 30 100 92 65 46 62 16 90.09 Taхилит 53.14 2.94 22.91 3.78 0.15 1.6573 <0.001 6.139 0.62 1032 47 588 25 104 63 45",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "магнитный канга",
+          "name_en": "magnetic kaolin",
+          "canonical": "magnetic_kaolin"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "нодулярный канга",
+          "name_en": "nodular kaolin",
+          "canonical": "nodular_kaolin"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "желтый латерит",
+          "name_en": "yellow laterite",
+          "canonical": "yellow_laterite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "черный сапролит",
+          "name_en": "black saprolite",
+          "canonical": "black_saprolite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "окисленный черный сапролит",
+          "name_en": "oxidized black saprolite",
+          "canonical": "oxidized_black_saprolite"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "черный сапролит/тахилит",
+          "name_en": "black saprolite/tahilite",
+          "canonical": "black_saprolite_tahilite"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "тахилит",
+          "name_en": "tahilite",
+          "canonical": "tahilite"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2.68,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 96.51,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.08,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.139,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.69,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 77.15,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.1895,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.089,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.881,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.25,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.99,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5.91,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 65.61,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.9336,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.088,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.122,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.95,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.99,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 10.82,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 67.59,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.99,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.01,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.991,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.86,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.71,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5.58,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 73.58,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.4018,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.104,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.962,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.83,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 10.39,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 71.81,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.5166,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.191,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.369,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.52,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3.06,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "al2o3",
+          "op": "le",
+          "value_min": null,
+          "value_max": 28.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "sio2",
+          "op": "le",
+          "value_min": null,
+          "value_max": 44.96,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "k2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3.06,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "na2o",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.21,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "caox",
+          "op": "le",
+          "value_min": null,
+          "value_max": 4.283,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "mgo",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.62,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c19": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c19",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "bg",
+      "text": "0.1445 <0.001 4.283 1.47 892 75 1325 30 100 92 65 46 62 16 90.09 Taхилит 53.14 2.94 22.91 3.78 0.15 1.6573 <0.001 6.139 0.62 1032 47 588 25 104 63 45 44 21 17 91.53 Taхилит 65.39 2.74 21.53 1.84 <0.01 0.3624 <0.001 1.686 1.07 580 39 385 24 41 89 35 12 10 11 94.73 Зелен.сапролит 52.39 0.96 15.18 11.07 0.19 0.0620 0.042 18.516 0.58 355 22 390 15 38 <3 <5 30 <2 <10 99.08 Зелен.сапролит 63.18 0.67 11.43 12.43 0.19 0.1693 <0.001 4.323 0.42 188 43 171 14 71 34 27 26 3 9 92.87 Зелен.сапролит 56.19 3.11 21.87 3.78 0.14 1.4902 <0.001 5.305 0.61 1002 65 569 25 88 61 40 39 21 12 92.69 Перидотит 41.29 0.39 9.01 42.66 0.28 0.1217 <0.001 0.262 0.29 131 35 32 9 9 10 34 <2 2 10 94.33 Перидотит 42.02 0.38 9.03 41.92 0.35 0.1203 <0.001 0.256 0.280 130 121 28 9 18 14 40 4 2 11 94.40 Перидотит 43.82 0.44 9.11 42.14 0.44 0.1316 <0.001 0.260 0.280 133 50 33 10 28 15 36 5 2 10 96.65 Жилы 12.87 16.95 62.04 0.77 <0.01 0.0963 0.192 1.044 1.091 307 109 179 70 <1 <3 <5 <2 <2 <10 95.14 Магнезит.жила 6.56 0.03 0.44 41.20 6.54 0.1800 0.008 0.023 0.027 13 21 <1 1 42 <3 8 54 <2 <10 55.02 Магнезит.жила 41.57 0.81 9.48 34.74 1.40 0.0900 0.015 0.267 0.288 126 13 42 9 40 15 4 11 <2 <10 88.66 Магнезит.жила 4.44 0.02",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "тахилит",
+          "name_en": "taconite",
+          "canonical": "taconite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "зеленый сапролит",
+          "name_en": "green saprolite",
+          "canonical": "green_saprolite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "перидотит",
+          "name_en": "peridotite",
+          "canonical": "peridotite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "жилы",
+          "name_en": "vein",
+          "canonical": "vein"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "магнезитовая жила",
+          "name_en": "magnesite vein",
+          "canonical": "magnesite_vein"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 53.14,
+          "value_max": 65.39,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 52.39,
+          "value_max": 63.18,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 41.29,
+          "value_max": 43.82,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 12.87,
+          "value_max": 16.95,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 6.56,
+          "value_max": 41.57,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "bg",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c20": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c20",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "mk",
+      "text": "42 <3 8 54 <2 <10 55.02 Магнезит.жила 41.57 0.81 9.48 34.74 1.40 0.0900 0.015 0.267 0.288 126 13 42 9 40 15 4 11 <2 <10 88.66 Магнезит.жила 4.44 0.02 0.31 44.93 2.60 0.0700 0.008 0.018 0.029 8 3 <1 1 13 <3 6 15 <2 <10 52.43 Силикатн.жила 40.95 0.28 10.92 33.88 <0.01 0.0964 <0.001 1.362 0.317 140 41 66 6 39 <3 26 <2 <2 6 87.83 Силикатн.жила 8.54 1.34 59.35 0.71 0.20 3.4840 0.048 0.721 0.508 450 68 199 15 14 <3 <5 5 <2 <10 75.00 Силикатн.жила 67.30 1.62 22.10 1.37 <0.01 0.6562 <0.001 0.897 0.456 615 97 119 14 39 42 33 9 8 11 94.49 Силикатн.жила 55.03 0.36 8.30 28.85 0.26 0.1082 <0.001 0.234 0.248 101 43 26 8 101 9 31 21 2 7 93.44 Силикатн.жила 14.77 5.23 64.43 1.05 <0.01 0.2567 0.068 2.743 0.833 643 314 311 37 27 <3 <5 <2 28 <10 89.51 Силикатн.жила 55.29 0.45 10.68 17.57 <0.01 0.1099 <0.001 7.540 0.158 509 31 509 7 23 3 33 7 20 9 91.91 Силикатн.жила 55.88 0.18 3.14 31.92 0.12 0.0798 <0.001 0.216 0.129 82 48 6 5 70 <3 36 21 2 7 91.69 Карьер 2 Красн.латерит 2.16 8.33 69.45 1.13 <0.01 0.9871 0.084 1.941 2.11 1870 183 581 72 <1 63 <5 <2 <2 <10 86.46 Красн.латерит 5.82 8.55 69.03 1.14 <0.01 0.3337 0.106 1.830 1.96 570 117 307 79 6 <3 <5 <2 <2 <10 88.88 Желт.латерит 70.27 0.92 21.85 0.34",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "магнезит.жилы",
+          "name_en": "magnesite concentrate",
+          "canonical": "magnesite_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "силикатные жилы",
+          "name_en": "silicate concentrates",
+          "canonical": "silicate_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "красный латерит",
+          "name_en": "red laterite",
+          "canonical": "red_laterite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "желтый латерит",
+          "name_en": "yellow laterite",
+          "canonical": "yellow_laterite"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "magnesia_content",
+          "op": "le",
+          "value_min": 42.0,
+          "value_max": 55.03,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "alumina_content",
+          "op": "ge",
+          "value_min": 8.0,
+          "value_max": 9.48,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": 0.267,
+          "value_max": 0.288,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 0.09,
+          "value_max": 0.15,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": 0.015,
+          "value_max": 0.267,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "chlorides_content",
+          "op": "le",
+          "value_min": 0.09,
+          "value_max": 0.288,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "fluorides_content",
+          "op": "le",
+          "value_min": 0.07,
+          "value_max": 0.15,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sodium_content",
+          "op": "le",
+          "value_min": 0.018,
+          "value_max": 0.267,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "potassium_content",
+          "op": "le",
+          "value_min": 0.029,
+          "value_max": 0.288,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "magnesia_content",
+          "op": "le",
+          "value_min": 40.0,
+          "value_max": 67.3,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "alumina_content",
+          "op": "ge",
+          "value_min": 10.92,
+          "value_max": 33.88,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": 0.721,
+          "value_max": 1.62,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 0.508,
+          "value_max": 3.484,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": 0.156,
+          "value_max": 0.721,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "fluorides_content",
+          "op": "le",
+          "value_min": 0.048,
+          "value_max": 0.2,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sodium_content",
+          "op": "le",
+          "value_min": 1.362,
+          "value_max": 7.54,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "potassium_content",
+          "op": "le",
+          "value_min": 0.317,
+          "value_max": 2.743,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "magnesia_content",
+          "op": "le",
+          "value_min": 55.88,
+          "value_max": 94.49,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "alumina_content",
+          "op": "ge",
+          "value_min": 0.18,
+          "value_max": 0.36,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": 0.216,
+          "value_max": 3.14,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 0.129,
+          "value_max": 0.268,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": 0.158,
+          "value_max": 0.248,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "fluorides_content",
+          "op": "le",
+          "value_min": 0.069,
+          "value_max": 0.1099,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "sodium_content",
+          "op": "le",
+          "value_min": 2.743,
+          "value_max": 8.34,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "potassium_content",
+          "op": "le",
+          "value_min": 0.833,
+          "value_max": 2.743,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "magnesia_content",
+          "op": "le",
+          "value_min": 55.29,
+          "value_max": 86.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "alumina_content",
+          "op": "ge",
+          "value_min": 10.68,
+          "value_max": 31.92,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": 7.54,
+          "value_max": 17.57,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 0.129,
+          "value_max": 0.268,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": 0.158,
+          "value_max": 0.248,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "mk",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c21": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c21",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "bg",
+      "text": "2 <10 86.46 Красн.латерит 5.82 8.55 69.03 1.14 <0.01 0.3337 0.106 1.830 1.96 570 117 307 79 6 <3 <5 <2 <2 <10 88.88 Желт.латерит 70.27 0.92 21.85 0.34 <0.01 0.2119 <0.001 0.465 0.73 488 55 135 22 38 33 20 <2 4 5 94.86 Желт.латерит 72.62 2.33 20.99 0.62 <0.01 0.0801 0.033 0.422 0.74 82 78 108 18 18 42 22 <2 2 3 97.83 Коричн.сапролит 51.57 1.33 38.56 0.43 <0.01 0.6566 <0.001 0.980 1.20 1087 48 261 24 115 83 15 <2 19 5 94.88 Коричн.сапролит 7.50 2.81 68.59 0.81 <0.01 1.0514 0.059 3.923 2.77 1903 53 328 63 127 <3 <5 <2 9 <10 87.76 Коричн.сапролит 57.27 2.85 28.83 1.38 <0.01 0.1798 0.039 1.135 1.29 634 26 312 30 17 74 15 <2 7 5 93.03 Геолог.изменен. 54.11 1.39 11.24 24.20 0.45 0.0747 <0.001 1.185 0.31 134 40 62 12 52 7 11 <2 <2 <10 93.00 Сапролитиз. перидотит 43.75 1.23 9.91 37.28 0.83 0.1271 <0.001 0.295 0.31 129 65 38 12 47 12 20 <2 <2 <10 93.76 Сапролитиз. перидотит 41.10 1.12 9.26 36.01 <0.01 0.1227 <0.001 0.300 0.27 134 24 29 111 33 12 24 <2 <2 6 88.22 Сапролитиз. перидотит 52.27 1.26 13.12 22.86 0.18 0.1145 0.025 1.401 0.39 190 29 84 13 46 13 58 <2 35 5 91.64 Сапролитиз.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "краснолатерит",
+          "name_en": "red laterite",
+          "canonical": "red_laterite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "желтолатерит",
+          "name_en": "yellow laterite",
+          "canonical": "yellow_laterite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "коричн.сапролит",
+          "name_en": "brown saprolite",
+          "canonical": "brown_saprolite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "геолог.изменен.",
+          "name_en": "geologically altered",
+          "canonical": "geologically_altered"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сапролитиз. перидотит",
+          "name_en": "saprolitized peridotite",
+          "canonical": "saprolitized_peridotite"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 86.46,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 70.27,
+          "value_max": 94.86,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 51.57,
+          "value_max": 97.83,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 54.11,
+          "value_max": 93.03,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 43.75,
+          "value_max": 93.76,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "bg",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c22": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c22",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "111 33 12 24 <2 <2 6 88.22 Сапролитиз. перидотит 52.27 1.26 13.12 22.86 0.18 0.1145 0.025 1.401 0.39 190 29 84 13 46 13 58 <2 35 5 91.64 Сапролитиз. перидотит 40.95 0.28 10.92 33.88 <0.01 0.0964 <0.001 0.423 0.27 129 104 43 11 49 9 17 <2 <2 <10 86.85 Таблица 2. Минералогический состав основных литологических единиц по данным РД ПЧД Источники S.A.Gleeson, R.J.Herrington. The Mineralogy and Geochemistry of the Cerro Matoso S.A. Ni Laterite Deposit, Montelibano, Colombia. Economic Geology, v.99, #6, 2004, pp. 1197-1213 A.Bunjaku. The Effect of Mineralogy, Sulphur and Reducing Gases on the Reducibility of Saprolitic Nickel Ores. Doctoral Dissertations, Aalto University (Finland), 2013, 62 pp South32. Annual Report 2017 World Bank (Industrial Projects Department). Report No.2149b-CO Staff Appraisal Report ‘Cerro Matoso Nickel Project’, September 24 1979, 101 pp Brook Hunt. …. A.Oxley, M.Smith, O.Caceres. Why Heap Leach Nickel Laterites? Mineral Engineering, 88 (2016), pp 53-60 Credit Suisse. Equity Research: South32, 19 May 2015, 91 pp South32. FY2017 Results (Appendix 4E), 24 August 2017, 41 pp. South 32.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сапролитизированный перидотит",
+          "name_en": "saprolitized peridotite",
+          "canonical": "saprolitized_peridotite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "нилурит",
+          "name_en": "nickel laterite",
+          "canonical": "nickel_laterite"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "range",
+          "value_min": 52.27,
+          "value_max": 40.95,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "fe_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 13.12,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "mg_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 22.86,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "al_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.18,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "ca_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.1145,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "k_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.025,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "na_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.401,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "p_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.39,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "range",
+          "value_min": 86.85,
+          "value_max": 84.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c23": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c23",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "(2016), pp 53-60 Credit Suisse. Equity Research: South32, 19 May 2015, 91 pp South32. FY2017 Results (Appendix 4E), 24 August 2017, 41 pp. South 32. South 32 Strategy and Business Update Presentation, 5 December 2017, 85 pp Руководитель работ Начальник ОИП | Р.А. Кузнецов Элемент | Колумбия-1 | Колумбия-2 Ni | 0,76 | 2,3 Feобщ | 7,4 | 12,4 Fe2+ | 1,0 | 2,5 SiO2 | 44,9 | 44,9 Al2O3 | 0,77 | 1,7 MgO | 26,6 | 14,7 CaO | 0,55 | 0,36 Cr2O3 | 0,20 | 0,70 Mn | н/д | н/д Co | 0,02 | 0,04 Cu | - | - S | 0,23 | 0,46 C | - | - ППП* | 13,4 | 9,4 SiO2/MgO | 1,69 | 3,05 Колумбия-1 | Колумбия-2 Клинохризолит Mg3Si2O5(OH)4 | + | + Антигорит Mg3Si2O5(OH)4 | + Лизардит (Mg,Al)3(Si,Al)2O5(OH)4 | + | + Клинохлор (лепидолит) (Mg,Al)6(Si,Al)4O10(OH)8 | + | + Кварц SiO2 | + | + Энстатит MgSiO3 | + Непуит (Ni,Mg)3Si2O5(OH)4 | + Гетит FeOOH | + | + Форстерит, содержащий закисное железо (Mg0,6Fe0,4)2SiO4 | + Ресурсы | Измеренные | Измеренные | Исчисленные | Исчисленные | Предполагаемые | Предполагаемые | Суммарные | Суммарные Тип руды | Млн т | %Ni | Млн т | %Ni | Млн т | %Ni | Млн т | %Ni латер. | 45 | 1,2 | 154 | 0,9 | 47 | 0,8 | 247 | 0,9 склад. | 10 | 1,0 | 35 | 0,9 | 45 | 0,9 минер.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "колумбия-1",
+          "name_en": "columbia-1",
+          "canonical": "columbia-1"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "колумбия-2",
+          "name_en": "columbia-2",
+          "canonical": "columbia-2"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "массовая доля никеля",
+          "name_en": "mass fraction of nickel",
+          "canonical": "mass_fraction_nickel"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "общий железо",
+          "name_en": "total iron",
+          "canonical": "total_iron"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "железо(II)",
+          "name_en": "iron(II)",
+          "canonical": "iron_ii"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "силикаты",
+          "name_en": "silicates",
+          "canonical": "silicates"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "альumdит",
+          "name_en": "alumina",
+          "canonical": "alumina"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "магний оксид",
+          "name_en": "magnesium oxide",
+          "canonical": "magnesium_oxide"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "кальций оксид",
+          "name_en": "calcium oxide",
+          "canonical": "calcium_oxide"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "хромиты",
+          "name_en": "chromites",
+          "canonical": "chromites"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "мanganese",
+          "name_en": "manganese",
+          "canonical": "manganese"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "сера",
+          "name_en": "sulfur",
+          "canonical": "sulfur"
+        },
+        {
+          "id": "e14",
+          "type": "Property",
+          "name_ru": "углерод",
+          "name_en": "carbon",
+          "canonical": "carbon"
+        },
+        {
+          "id": "e15",
+          "type": "Property",
+          "name_ru": "SiO2/MgO",
+          "name_en": "SiO2/MgO ratio",
+          "canonical": "sio2_mgo_ratio"
+        },
+        {
+          "id": "e16",
+          "type": "Material",
+          "name_ru": "клинохризолит",
+          "name_en": "clinohylite",
+          "canonical": "clinohylite"
+        },
+        {
+          "id": "e17",
+          "type": "Material",
+          "name_ru": "антигорит",
+          "name_en": "antigorite",
+          "canonical": "antigorite"
+        },
+        {
+          "id": "e18",
+          "type": "Material",
+          "name_ru": "лизардит",
+          "name_en": " lizardite",
+          "canonical": "lizardite"
+        },
+        {
+          "id": "e19",
+          "type": "Material",
+          "name_ru": "клинохлор (лепидолит)",
+          "name_en": "clinohalite (lepidolite)",
+          "canonical": "clinohalite_lepidolite"
+        },
+        {
+          "id": "e20",
+          "type": "Material",
+          "name_ru": "кварц",
+          "name_en": "quartz",
+          "canonical": "quartz"
+        },
+        {
+          "id": "e21",
+          "type": "Material",
+          "name_ru": "энстатит",
+          "name_en": "enstatite",
+          "canonical": "enstatite"
+        },
+        {
+          "id": "e22",
+          "type": "Material",
+          "name_ru": "непуит (никель, магний)3си2о5(oh)4",
+          "name_en": "nephyte (ni,mg)3si2o5(oh)4",
+          "canonical": "nephite"
+        },
+        {
+          "id": "e23",
+          "type": "Material",
+          "name_ru": "гетит FeOOH",
+          "name_en": "goethite FeOOH",
+          "canonical": "goethite"
+        },
+        {
+          "id": "e24",
+          "type": "Material",
+          "name_ru": "форстерит, содержащий закисное железо (Mg0,6Fe0,4)2SiO4",
+          "name_en": "forsterite containing ferric oxide (Mg0.6Fe0.4)2SiO4",
+          "canonical": "forsterite"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Ni | 0,76"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Feобщ | 7,4"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Fe2+ | 1,0"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "SiO2 | 44,9"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Al2O3 | 0,77"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "MgO | 26,6"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "CaO | 0,55"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "Cr2O3 | 0,20"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "Mn | н/д"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "Co | 0,02"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "S | 0,23"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e14",
+          "type": "produces_output",
+          "evidence": "C | -"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e15",
+          "type": "produces_output",
+          "evidence": "SiO2/MgO | 1,69"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Ni | 2,3"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Feобщ | 12,4"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Fe2+ | 2,5"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "SiO2 | 44,9"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Al2O3 | 1,7"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "MgO | 14,7"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "CaO | 0,36"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "Cr2O3 | 0,70"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "Mn | н/д"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "Co | 0,04"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "S | 0,46"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e14",
+          "type": "produces_output",
+          "evidence": "C | -"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e15",
+          "type": "produces_output",
+          "evidence": "SiO2/MgO | 3,05"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c24": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c24",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "т | %Ni | Млн т | %Ni | Млн т | %Ni | Млн т | %Ni латер. | 45 | 1,2 | 154 | 0,9 | 47 | 0,8 | 247 | 0,9 склад. | 10 | 1,0 | 35 | 0,9 | 45 | 0,9 минер. | 17 | 0,2 | 17 | 0,2 Запасы Доказанные | Доказанные | Вероятные | Вероятные | Суммарные | Суммарные Тип руды | Млн т | %Ni | Млн т | %Ni | Млн т | %Ni латер. | 13 | 1,4 | 6,2 | 1,2 | 19 | 1,3 | =12 ГОДАМ | =12 ГОДАМ склад. | 7,0 | 1,2 | 12 | 1,1 | 19 | 1,1 2014 | 2015 | 2016 | 2017 | 9мес 2018фг Добыто руды, тыс т (влажн) | 8490 | 6321 | 6009 | 4447 | 2918 Переработано руды, тыс. т (сух. вес) | 2493 | 2629 | 2699 | 2561 | 2012 Сортность перерабатываемой руды, % Ni | 1,9 | 1,67 | 1,54 | 1,59 | 1,81 Выпуск Ni в FeNi, тыс. т | 44,3 | 40,4 | 36,8 | 36,6 | 32,5 Показатель | 2014 | 2015 | 2016 | 2017 Продано Ni, тыс т | 45,1 | 40,6 | 36,8 | 36,6 Реализованная цена1 продажи, USD/фунт | 5,97 | 6,62 | 4,10 | 4,67 Операционные издержки | 4,082 USD/фунт | 3,772 USD/фунт Выручка от продаж, млн USD | 595 | 593 | 333 | 377 EBITDA | 93 | 133 | 2 | 74 EBIT | 5 | 58 | (88) | (16) Перидотит | 39.79 | 0.76 | 8.17 | 38.22 | <0.01 | 0.1067 | <0.001 | 0.217 | 0.29 | 114 | 21 | 20 | 10 | 7 | 4 | 16 | <2 | <2 | <10 | 87.58 Силикат.жилы | 73.32 | 0.16 |",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "перерабатываемая руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "FeNi",
+          "name_en": "iron-nickel alloy",
+          "canonical": "fe_ni_alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "сортность перерабатываемой руды",
+          "name_en": "ore grade",
+          "canonical": "ore_grade"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Сортность перерабатываемой руды, % Ni"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Выпуск Ni в FeNi, тыс. т"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "ore_grade",
+          "op": "range",
+          "value_min": 1.54,
+          "value_max": 1.9,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 87.58,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c25": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c25",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "| 0.76 | 8.17 | 38.22 | <0.01 | 0.1067 | <0.001 | 0.217 | 0.29 | 114 | 21 | 20 | 10 | 7 | 4 | 16 | <2 | <2 | <10 | 87.58 Силикат.жилы | 73.32 | 0.16 | 3.55 | 10.76 | <0.01 | 0.0460 | <0.001 | 0.875 | 0.039 | 50 | 80 | 15 | 3 | 19 | <3 | 14 | <2 | <2 | <10 | 88.77 Силикат.жилы | 43.90 | 0.47 | 10.07 | 32.82 | 0.04 | 0.1338 | <0.001 | 1.207 | 0.428 | 130 | 28 | 59 | 6 | 86 | <3 | 18 | <2 | <2 | <10 | 89.10 Силикат.жилы | 40.95 | 0.28 | 10.92 | 33.88 | <0.01 | 0.0964 | <0.001 | 1.362 | 0.317 | 140 | 41 | 66 | 6 | 39 | <3 | 26 | <2 | <2 | 6 | 87.83 Смещение zone1 | 50.62 | 1.00 | 9.33 | 25.08 | <0.01 | 0.0745 | <0.001 | 4.112 | 0.271 | 191 | 25 | 141 | 9 | 25 | <3 | 8 | <2 | <2 | <10 | 90.52 Геолог.изменен | 14.61 | 18.85 | 58.90 | 0.64 | <0.01 | 0.1044 | 0.210 | 1.213 | 0.863 | 336 | 146 | 216 | 66 | <1 | <3 | <5 | <2 | <2 | <10 | 95.51 Предел чувствит чувствит. (2σ) | 0.002 | 0.005 | 0.002 | 0.005 | 0.01 | 0.0002 | 0.001 | 0.001 | 0.001 | 5 | 2 | 1 | 1 | 1 | 3 | 5 | 2 | 2 | 10 К.1.1 | К.2 Зел. | Гарниерит | Гарниер.тт | Жила в зел. green | Черн. | Черн. | Сапролитизир. | Сапролитизир. | Коричн. | Коричн.сапр-т | Желт. | Краснн. минерал | Перидот. | Перидот.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "силикатные жилы",
+          "name_en": "silicate ores",
+          "canonical": "silicate_ores"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "геологические изменения",
+          "name_en": "geological changes",
+          "canonical": "geological_changes"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "предел чувствительности (2σ)",
+          "name_en": "detection limit (2σ)",
+          "canonical": "detection_limit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "87.58 Силикат.жилы"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "90.52 Геолог.изменен"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "detection_limit",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.002,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "detection_limit",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.005,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "detection_limit",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.002,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c26": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c26",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "bg",
+      "text": "ниер.тт | Жила в зел. green | Черн. | Черн. | Сапролитизир. | Сапролитизир. | Коричн. | Коричн.сапр-т | Желт. | Краснн. минерал | Перидот. | Перидот. | сапр-т | жила | жила | сапр-те | Taхилит | Taхилит | сапр-т | сапр-т | канга | канга | перидот. | перидот. | сапр-т | сапр-т | сапр-т | латер. | латер. кварц | <1 | <1 | 45 | 1 | 18 | 21 | <1 | 17 | <1 | <1 | <1 | <1 | <1 | 9 | <1 | 52 | <1 | 75 | <1 гематитe | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 магхемит | <1 | 8 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 77 | 98 | <1 | 11 | <1 | <1 | <1 | <1 | <1 гетит | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 7 | 100 | 5 | 16 Fe-оксид | 3 | <1 | 23 | <1 | <1 | 17 | 43 | 22 | 11 | 17 | <1 | <1 | <11 | <1 | 3 | 38 | <1 | 16 | 64 cидерит | <1 | <1 | 9 | <1 | <1 | <1 | <1 | 7 | 8 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 бавалит | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 25 | 16 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 сепиолит | <1 | <1 | 20 | <1 | <1 | 31 | <1 | 21 | <1 | <1 | <1 | <1 | <1 | 24 | <1 | <1 | <1 | <1 | <1 серпентин | 52 | 50 | <1 | 6 | 3 | 29 | 24 | <1 | <1 | <1 | <1 | <1 | 78 | 52 |",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "жилы",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация металлов в жилах",
+          "name_en": "metal concentration in ores",
+          "canonical": "metal_concentration_in_ores"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "color",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "iron_oxide",
+          "op": "le",
+          "value_min": 3.0,
+          "value_max": 64.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "magnetite",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "hematite",
+          "op": "le",
+          "value_min": 45.0,
+          "value_max": 75.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "goethite",
+          "op": "le",
+          "value_min": null,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "siderite",
+          "op": "le",
+          "value_min": 9.0,
+          "value_max": 38.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "bavinite",
+          "op": "le",
+          "value_min": 16.0,
+          "value_max": 25.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sepiolite",
+          "op": "le",
+          "value_min": 20.0,
+          "value_max": 31.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "serpentine",
+          "op": "ge",
+          "value_min": 50.0,
+          "value_max": 78.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "bg",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cerro Matoso::p1::c27": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cerro Matoso::p1::c27",
+      "doc_id": "Обзоры__Cerro Matoso",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cerro Matoso.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "| 31 | <1 | 21 | <1 | <1 | <1 | <1 | <1 | 24 | <1 | <1 | <1 | <1 | <1 серпентин | 52 | 50 | <1 | 6 | 3 | 29 | 24 | <1 | <1 | <1 | <1 | <1 | 78 | 52 | 52 | <1 | <1 | <1 | <1 гибсит | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 22 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 каолинит | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 7 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 тальк | <1 | <1 | <1 | <1 | <1 | <1 | 3 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 пимелит | <1 | <1 | <1 | 93 | 73 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 смектит | <1 | <1 | <1 | <1 | <1 | <1 | 23 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 16 магнетит | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 55 | 64 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 форстерит | 37 | 33 | <1 | <1 | <1 | <1 | 3 | <1 | <1 | <1 | <1 | <1 | 14 | <1 | 37 | <1 | <1 | <1 | <1 энстатит | 8 | 7 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 8 | <1 | <1 | <1 | <1 Итого: | 99 | 97 | 97 | 100 | 99 | 97 | 97 | 96 | 99 | 98 | 99 | 98 | 93 | 96 | 99 | 97 | 100 | 96 | 96",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "серпентин",
+          "name_en": "serpentine",
+          "canonical": "serpentine"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "гибсит",
+          "name_en": "gibbsite",
+          "canonical": "gibbsite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "каолинит",
+          "name_en": "kaolinite",
+          "canonical": "kaolinite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "тальк",
+          "name_en": "talc",
+          "canonical": "talc"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "пимелит",
+          "name_en": "pimelite",
+          "canonical": "pimelite"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "смектит",
+          "name_en": "smectite",
+          "canonical": "smectite"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "магнетит",
+          "name_en": "magnetite",
+          "canonical": "magnetite"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "форстерит",
+          "name_en": "forsterite",
+          "canonical": "forsterite"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "энстатит",
+          "name_en": "enstatite",
+          "canonical": "enstatite"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 23.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "content",
+          "op": "ge",
+          "value_min": 55.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "content",
+          "op": "le",
+          "value_min": 14.0,
+          "value_max": 37.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "content",
+          "op": "le",
+          "value_min": 8.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 1979,
+        "confidence": "low"
+      }
+    }
+  }
+}

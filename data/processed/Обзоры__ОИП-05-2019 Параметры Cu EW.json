@@ -1,0 +1,3179 @@
+{
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c0",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Заведующий лабораторией пирометаллургии, д.т.н. ___________ Л.Б. Цымбулов « __ » ___________ 2019 Тематическая информация Основные параметры процесса электроэкстракции меди на различных предприятиях по всему миру ОИП – 05 – 2019 Список исполнителей Специалист 1 категории Подоханова С.В. Содержание Основные параметры процесса электроэкстракции меди на различных предприятиях по всему миру Глубокое понимание фундаментальных взаимосвязей между параметрами процесса и требованиями к эксплуатационным характеристикам цикла электроэкстракции меди – одно из ключевых при проектировании и оценке стоимости передела. Авторами труда [4] был проведен масштабный анализ работы мировых производственных площадок, включающих участок Cu EW. Этот анализ лег в основу данного обзора, в котором приведены показатели электроэкстракции с получением товарной меди различных предприятий по всему миру (таблица 3). Опираясь на те же данные, авторы другой работы [1] выявили основные параметры проектирования цикла электроэкстракции для всех производственных мощностей (Таблица 1).",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция меди",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "товарная медь",
+          "name_en": "electrolytic copper",
+          "canonical": "electrolytic_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "получение товарной меди"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c1",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "е данные, авторы другой работы [1] выявили основные параметры проектирования цикла электроэкстракции для всех производственных мощностей (Таблица 1). Таблица 1 – Основные параметры проектирования цикла электроэкстракции для всех производственных мощностей * Расстояние указано от центра до центра указанных электродов Ист.: [1] Анализ мировых эксплуатационных данных для Cu EW [2,3,4] также позволил определить диапазоны количества катодов на ванну для каждого уровня производства (Таблица 2). Таблица 2 - диапазоны количества катодов на ванну для каждого уровня производства Ист.: [1] Таблица 3 – Параметры процесса электроэкстракции с получением товарной меди на различных предприятиях по всему миру Ист.: [4] Таблица 3 - (Продолжение) Ист.: [4] Таблица 3 (Продолжение) Ист.: [4] Таблица 3 (Продолжение) Ист.: [4] Таблица 3 (Продолжение) Ист.: [4] Таблица 3 (Продолжение) Ист.: [4] Основные источники литературы E.L. Forner, J. Scheepers, A.J. du Toit, and G.M. Miller. Copper electrowinning circuit design: optimized costing as a function of cell arrangement, productivity, rectiformer size, and throughput. The Journal of the Southem African Institute of Mining and metallurgy. Volume 118.",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция меди",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "товарная медь",
+          "name_en": "commercial copper",
+          "canonical": "commercial_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Параметры процесса электроэкстракции с получением товарной меди на различных предприятиях по всему миру"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c2",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "cell arrangement, productivity, rectiformer size, and throughput. The Journal of the Southem African Institute of Mining and metallurgy. Volume 118. November 2018; ANDERSON, C.G., GIRALICO, M.A., POST, T.A., ROBINSON, T.G., and TINKLER, O.S. 2009. An update: selection equipment sizing and flowsheet applications in copper solvent extraction. Recent Advances in Mineral Processing Plant Design. Malholtra, D., Taylor, P., Spiller, E., and LeVier, M. (eds). Society of Mining Engineers, Littleton, CO; ROBINSON, T., DAVENPORT, W.G., JENKINS, J., KING, M., and RASMUSSEN, S. 2003. Electrolytic copper electrowinning – 2003 world tankhouse operating data. Global Cu EW Survey spreadsheet. Proceedings of Copper 2003: Vol. V, Copper Electrorefining and Electrowinning. Dutriza, J.E. and Clements, C.G. (eds). Canadian Institute of Mining, Metallurgy and Petroleum, Montreal; ROBINSON, T.G., SOLE, K.C., SANDOVAL, S., MOATS, M.S., SIEGMUND, A., and DAVENPORT, W.G. 2013. Copper electrowinning – 2013 world tankhouse operating data. Global Cu EW survey spreadsheet. Proceedings of Copper-Cobre Conference 2013: Vol. 1. Gecamin, Santiago, Chile; Kathryn C. Sole, Owen Tinkler.",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция купра",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "танк-камера",
+          "name_en": "tankhouse",
+          "canonical": "tankhouse"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Electrolytic copper electrowinning – 2003 world tankhouse operating data"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c3",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "data. Global Cu EW survey spreadsheet. Proceedings of Copper-Cobre Conference 2013: Vol. 1. Gecamin, Santiago, Chile; Kathryn C. Sole, Owen Tinkler. Copper Solvent Extraction: Status, Operating Practices and Challenges in the African Copper Belt. Copper Cobalt Africa, incorporating the 8th Southern African Base Metals Conference Livingstone, Zambia, 6–8 July 2015; NI 43-101 Technical Report. Cobre Las Cruces Operation Andalucía, Spain. 2015; TECHNICAL REPORT. Mineral Resources and Mineral Reserves, Collahuasi Copper Mine, Tarapacá Region, Chile. XSTRATA CANADA CORPORATION. 29 March 2012; SUSTAINABLE DEVELOPMENT REPORT 2015. COMPAСНA MINERA DOСA INЙS DE COLLAHUASI. Руководитель работ Начальник ОИП | Р.А. Кузнецов Параметр | Единицы | Значение Мощность (проектная) | тыс. т/год Cu | Переменная величина Время процесса | час | 7884 Cu в поступающем электролите | г/л | 50 Cu в отработанном электролите | г/л | 35 Катод | Катод | Катод Количество катодов на ванну | шт.",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация Cu в поступающем электролите",
+          "name_en": "Cu concentration in incoming electrolyte",
+          "canonical": "cu_concentration_incoming_electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация Cu в отработанном электролите",
+          "name_en": "Cu concentration in spent electrolyte",
+          "canonical": "cu_concentration_spent_electrolyte"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "электроэкстракция кубита",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "ванна для катодов",
+          "name_en": "cathode tank",
+          "canonical": "cathode_tank"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Copper Solvent Extraction: Status, Operating Practices and Challenges in the African Copper Belt"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Количество катодов на ванну | шт."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "cu_concentration",
+          "op": "le",
+          "value_min": null,
+          "value_max": 35.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cu_concentration",
+          "op": "ge",
+          "value_min": 50.0,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2015,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c4",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "| час | 7884 Cu в поступающем электролите | г/л | 50 Cu в отработанном электролите | г/л | 35 Катод | Катод | Катод Количество катодов на ванну | шт. | Переменная величина Площадь покрытия | м2 | 2,2 Длина х ширина х толщина | мм | 1390 х 950 х 3 Анод | Анод | Анод Тип | - | Pb-Sn-Ca Длина х ширина х толщина | мм | 990 х 920 х 6 Показатели процесса | Показатели процесса | Показатели процесса Расстояние между анодом и катодом (анод-анод* = 100 мм) | мм | 45,5 Расстояние катод-катод* | мм | 100 Плотность тока | А/м2 | 320 Выход по току | % | 85 Напряжение на ванне (проектные) | В | 2,3 Напряжение на ванне (рабочее) | В | 2,1 Произ-во | тыс.т/г | 1-10 | 10-15 | 15-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70 (Anderson и др., 2009) | Катодов на ванну | 30-36 | 30-36 | - | 45 | - | 60-66 | 60-66 | 60-66 (Robinson и др., 2003) | Катодов на ванну | 30-48 | 21-64 | 33-60 | 33-60 | 66-68 | 57-66 | 60-66 | 63 (Robinson и др., 2013) | Катодов на ванну | 21-48 | - | 48-84 | 45-84 | 30-63 | 30-60 | 51-62 | 28-61 Произ-во | тыс.т/г | 70-80 | 80-90 | 90-100 | 100-120 | 120-150 | 150-180 | 180-225 | 225-300 (Anderson и др., 2009) | Катодов на ванну | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция кубита",
+          "name_en": "electrowinning of copper",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "анодная ванна",
+          "name_en": "anode cell",
+          "canonical": "anode_cell"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "плотность тока",
+          "name_en": "current density",
+          "canonical": "current_density"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "7884 Cu в поступающем электролите"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "анод Тип Pb-Sn-Ca Длина х ширина х толщина"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "eq",
+          "value_min": 320.0,
+          "value_max": 320.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "current_efficiency",
+          "op": "eq",
+          "value_min": 85.0,
+          "value_max": 85.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c5",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "bg",
+      "text": "| 90-100 | 100-120 | 120-150 | 150-180 | 180-225 | 225-300 (Anderson и др., 2009) | Катодов на ванну | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 | 60-66 (Robinson и др., 2003) | Катодов на ванну | - | 60 | - | 60 | 60-65 | 60 | 66 | 60-66 (Robinson и др., 2013) | Катодов на ванну | 60-84 | 50 | 48-89 | 48-72 | 60-69 | 60-69 | 48-66 | 60-66 Площадка | Collahuasi | Minera El Abra | Escondida Oxide | Escondida Sulfide | Gaby или Gabriela Mistral Местоположение | Чили | Чили | Чили | Чили | Чили Ввод в эксплуатацию | 1997 | 1996 | 2006 | 2008 Проектная мощность (т/г катодов) | 60 000 | 225 000 | 150 000 | 180 000 | 150 000 Производство катодов (т) | 22 200 (2015) | 146 963 (2015) | 151 000 (2012) | 226 000 (2012) | 125 009 (2015) Производство катодов (т) | 22 200 (2015) | 146 963 (2015) | 330 000 совокупно (2015) | 330 000 совокупно (2015) Катоды | Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 6 | 5 | 4-5 | 5 | 6,5 Матрица/Заготовка | НЖ | НЖ | НЖ | НЖ | НЖ Размеры (длина х ширина х толщина, мм) | 1220 х 1040 х 3 | 1018 х 1232 х 3 | 980 х 990 х 3,1 | 1010 х 990 х 3,15 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция кобальта",
+          "name_en": "electrowinning of cobalt",
+          "canonical": "cobalt_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "длительность процесса",
+          "name_en": "process duration",
+          "canonical": "process_duration"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "матрица/заготовка",
+          "name_en": "matrix/preform",
+          "canonical": "preform"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "размеры",
+          "name_en": "dimensions",
+          "canonical": "dimensions"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Производство катодов (т)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "duration",
+          "op": "range",
+          "value_min": 4.0,
+          "value_max": 6.5,
+          "unit": "days",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "material_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "length",
+          "op": "eq",
+          "value_min": 1220.0,
+          "value_max": 1232.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "width",
+          "op": "eq",
+          "value_min": 1040.0,
+          "value_max": 980.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "thickness",
+          "op": "eq",
+          "value_min": 3.15,
+          "value_max": 3.1,
+          "unit": "mm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c6",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": ") | 1220 х 1040 х 3 | 1018 х 1232 х 3 | 980 х 990 х 3,1 | 1010 х 990 х 3,15 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <1 | <3 | <3 | <3 S, ppm | 6 | <8 | <8 | <8 Fe, ppm | <10 | <0,8 | <0,8 Mn, ppm | <0,5 | <0,5 Co, ppm | <0,8 | <0,8 Ni, ppm | <1 | <0,8 | <0,8 Прочие, ppm | O2<100; Sn 0,1; Te<0.1 | Zn<1; Sn<0,2 | Zn<1; Sn<0,3 Аноды | Аноды | Аноды | Аноды | Аноды | Аноды Тип | Свинцовый сплав | Переход от свинцовых к титановым | Свинцовый сплав | Свинцовый сплав | Свинцовый сплав Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав | Состав | Состав | Состав | Состав | Состав Pb % | 98,5 | 98,6 | 98,6-98,4 Sn % | 1,375 | 1,35 | 1,5 | 1,30-1,45 | 1,25-1,50 Ca % | 0,075 | 0,065 | 0,08 | 0,065-0,085 | 0,06-0,10 Sb % Прочие | 0,02 Al | 0,005-0,02 Al Размеры (длина х ширина х толщина, мм) | 990 x 940 x 7,5 | 1074 х 940 х 6 | 1063 х 920 х 6(9) | 1084 х 930 х 6 | 1080 х 938 х 6 Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды Размеры (длина х ширина х толщина, мм) | 935 х 940 Ванны | Ванны | Ванны | Ванны",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кадмий",
+          "name_en": "cadmium",
+          "canonical": "cadmium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "арsen",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сера",
+          "name_en": "sulfur",
+          "canonical": "sulfur"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "оксид кремния",
+          "name_en": "silicon dioxide",
+          "canonical": "silica"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathodes"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "ванны",
+          "name_en": "baths",
+          "canonical": "baths"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Состав катодов"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Аноды"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "Ванны"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e9",
+          "param": "purity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.8,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "sulfur",
+          "op": "le",
+          "value_min": null,
+          "value_max": 8.0,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "arsenic",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.5,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "cobalt",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.8,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "nickel",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.8,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "lead_percentage",
+          "op": "range",
+          "value_min": 98.5,
+          "value_max": 98.6,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "tin_percentage",
+          "op": "range",
+          "value_min": 1.375,
+          "value_max": 1.45,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "calcium_percentage",
+          "op": "range",
+          "value_min": 0.065,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "antimony_percentage",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.02,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "aluminium_percentage",
+          "op": "range",
+          "value_min": 0.005,
+          "value_max": 0.02,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c7",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды Размеры (длина х ширина х толщина, мм) | 935 х 940 Ванны | Ванны | Ванны | Ванны | Ванны | Ванны Количество | 118 | 486 (3 батареи) | 480 | 568 | 504 Размеры (длина х ширина х глубина, м) | 6,3 х 1,27 х 1,4 | 6,57 х 1,30 х 1,40 | 6,516 х 1,268 х 1,45 | 6,41 х 1,25 х 1,28 | 6,420 х 1,300 х 1,386 Анодов/катодов на ванну | 61/60 | 67/66 | 61/60 | 61/60 | 60/61 Межосевое расстояние катод-катод, мм | 100 | 95 | 101,6 | 101,6 | 100 Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | 20 | 32 - 40 | 33 | 33,5-45 | 33 Плотность тока, А/м2 | 170 | 255 - 315 | 290-316 | 350 | 276,5/333,3 Катодный выход по току, % | 93 | 92 | 91 | 92 | 90 Напряжение на ванне, В | - | 1,89 | 1,9-2,0 | 2,0-2,3 | 1,95-2,14 Электролит | Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 3 000 | 11 700 | 10 000 | 11 000 Поток электролита в и из каждой ванны, м3/мин | 0,3 | 0,32 | 0,27 | 0,28 | 0,29 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит,",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электроэкстракция кобальта",
+          "name_en": "cobalt electrowinning",
+          "canonical": "cobalt_electrowinning"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "ванны для электроэкстракции",
+          "name_en": "electrolytic cells",
+          "canonical": "electrolytic_cells"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Электролит"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Ванны для электроэкстракции"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "le",
+          "value_min": 11700.0,
+          "value_max": 11000.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 170.0,
+          "value_max": 350.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "current_efficiency",
+          "op": "range",
+          "value_min": 90.0,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "voltage",
+          "op": "range",
+          "value_min": 1.89,
+          "value_max": 2.3,
+          "unit": "V",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "flow_rate_in",
+          "op": "le",
+          "value_min": 0.27,
+          "value_max": 0.32,
+          "unit": "m3/min",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "flow_rate_out",
+          "op": "le",
+          "value_min": 0.28,
+          "value_max": 0.3,
+          "unit": "m3/min",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c8",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ин | 0,3 | 0,32 | 0,27 | 0,28 | 0,29 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 39 | >36 | 42-43 | 42-43 | 50 H2SO4, г/л | 190 | 170 – 200 | 180 | 180-185 | 157 Температура электролита, °С | 47 | 40 – 44 | 50 | 50 | 44 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 37 | >34 | 40 | 40-41 | 35 H2SO4, г/л | 195 | 195 | 185 | 185 | 180 Температура, °С | 48 | 40-43 | 50 | 52 | 45 Fe+2, г/л | 0,2 | 0,5 | 0,2 | 0,2 Fe+3, г/л | 0,8 | 1,2 | 1,2 | 1 Co+2, мг/л | 150 | 180 | 150 | 140 | 150 Mn, мг/л | 60 | <40 Cl-, мг/л | 25 | <25 | 18 | 18 | <30 Прочие, мг/л Площадка | Lomas Bayas | Mantos Blancos | Manto Verde | Radomiro Tomic | Salvador Местоположение | Чили | Чили | Чили | Чили | Чили Ввод в эксплуатацию | 1995 | 1995 | 1997 | 1994 Проектная мощность (т/г катодов) | 75 000 | 60",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сульфат купра",
+          "name_en": "copper sulfate",
+          "canonical": "copper_sulfate"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание Cu",
+          "name_en": "copper content",
+          "canonical": "copper_content"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "концентрация H2SO4",
+          "name_en": "sulfuric acid concentration",
+          "canonical": "sulfuric_acid_concentration"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "температура электролита",
+          "name_en": "electrolyte temperature",
+          "canonical": "electrolyte_temperature"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "температура (отработанный электролит)",
+          "name_en": "temperature (spent electrolyte)",
+          "canonical": "spent_electrolyte_temperature"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "содержание Fe+2",
+          "name_en": "iron(II) content",
+          "canonical": "iron_ii_content"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "содержание Fe+3",
+          "name_en": "iron(III) content",
+          "canonical": "iron_iii_content"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "содержание Co+2",
+          "name_en": "cobalt(II) content",
+          "canonical": "cobalt_ii_content"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "содержание Mn",
+          "name_en": "manganese content",
+          "canonical": "manganese_content"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "содержание Cl-",
+          "name_en": "chloride content",
+          "canonical": "chloride_content"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Электролит, поступающий в ванну"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Cu, г/л"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "H2SO4, г/л"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "температура электролита, °С"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "температура, °С (отработанный электролит)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "copper_content",
+          "op": "range",
+          "value_min": 39.0,
+          "value_max": 50.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sulfuric_acid_concentration",
+          "op": "range",
+          "value_min": 170.0,
+          "value_max": 200.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "electrolyte_temperature",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 52.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "spent_electrolyte_temperature",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 52.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "iron_ii_content",
+          "op": "le",
+          "value_min": 0.2,
+          "value_max": 1.2,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "iron_iii_content",
+          "op": "le",
+          "value_min": 0.8,
+          "value_max": 1.2,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "cobalt_ii_content",
+          "op": "range",
+          "value_min": 150.0,
+          "value_max": 140.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 60.0,
+          "value_max": 40.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e11",
+          "param": "chloride_content",
+          "op": "le",
+          "value_min": 25.0,
+          "value_max": 30.0,
+          "unit": "mg/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c9",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "vador Местоположение | Чили | Чили | Чили | Чили | Чили Ввод в эксплуатацию | 1995 | 1995 | 1997 | 1994 Проектная мощность (т/г катодов) | 75 000 | 60 000 | 67 000 | 300 000 | 25 000 Производство катодов (т) | 71 000 (2015) | 26 700 (2014) | 60 000 (2015) | 315 747 (2015) | 24 399 (2009) Катоды | Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 4-5 | 6 | 5 | 6 | 6-7 Матрица/Заготовка | НЖ | НЖ | НЖ | НЖ | НЖ Размеры (длина х ширина х толщина, мм) | 1000 х 1030 х 3,1 | 1232 х 1018 х 3,25 | 1232 х 1018 х 3,25 | 1232 х 1018 х 3,25 | 1177 х 1036 х 3 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <2 | 0,5 | <1 | <2 | 1—2 S, ppm | <5 | 8,2 | 8 | <8 | 4,4 Fe, ppm | <0,5 | 2,9 | 1 | <3 | <1 Mn, ppm | <0,4 | 0,2 | <1 Co, ppm | <0,8 | - | <1 Ni, ppm | <0,8 | - | <1 Прочие, ppm | Cl- <5 Аноды | Аноды | Аноды | Аноды | Аноды | Аноды Тип | Свинцовый сплав | Свинцовый сплав | Свинцовый сплав | Свинцовый сплав | Свинцовый сплав Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав | Состав | Состав | Состав | Состав | Состав Pb % | 98,45 | 98,42 |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathodes"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция кубинского никеля",
+          "name_en": "nickel electrowinning from chilean ores",
+          "canonical": "nickel_electrowinning_from_chilean_ores"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "катоды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "аноды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "lead_content",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": 2.0,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": 8.0,
+          "value_max": 8.2,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": 3.0,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "manganese_content",
+          "op": "le",
+          "value_min": 0.4,
+          "value_max": 1.0,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cobalt_content",
+          "op": "le",
+          "value_min": 0.8,
+          "value_max": 0.8,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "le",
+          "value_min": 0.8,
+          "value_max": 0.8,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "lead_content",
+          "op": "eq",
+          "value_min": 98.45,
+          "value_max": 98.42,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c10": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c10",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "оды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав | Состав | Состав | Состав | Состав | Состав Pb % | 98,45 | 98,42 | 98,55 | 98,4 | 98,4-98,7 Sn % | 1,3-1,45 | 1,4 | 1,375 | 1,5 | 1,5-1,2 Ca % | 0,065-0,085 | 0,08 | 0,075 | 0,08 | 0,06-0,085 Sb % Прочие | 0,015% Al макс. | 0,02% Al Размеры (длина х ширина х толщина, мм) | 940 х 963 х 6 | 1227 х 1455 х 3,25 | 1106 х 940 х 6 | 1192 х 940 х 7,5 | 1005 х 940 х 6 Ванны | Ванны | Ванны | Ванны | Ванны | Ванны Количество | 196 | 166 | 168 | 1000 | 136 Размеры (длина х ширина х глубина, м) | 6,53 х 1,3 х 1,49 | 6,17 х 1,24 х 1,42 | 6,17 х 1,24 х 1,42 | 4,97 х 1,47 х 1,41 Анодов/катодов на ванну | 61/60 | 52/51 | 62/61 | 61/60 | 46/45 Межосевое расстояние катод-катод, мм | 101,6 | 104,6 | 104,6 | 100 | 100 Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | макс. 22 | 20 | 37 | 33-35 | 20-25 Плотность тока, А/м2 | пром. 297, макс.",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинцовый анод",
+          "name_en": "lead anode",
+          "canonical": "lead_anode"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция свинца",
+          "name_en": "electrowinning of lead",
+          "canonical": "lead_electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "состав анода",
+          "name_en": "anode composition",
+          "canonical": "anode_composition"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "плотность тока",
+          "name_en": "current density",
+          "canonical": "current_density"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "свинцовые аноды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "аноды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "плотность тока, А/м2"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "pb",
+          "op": "eq",
+          "value_min": 98.45,
+          "value_max": 98.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sn",
+          "op": "range",
+          "value_min": 1.3,
+          "value_max": 1.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ca",
+          "op": "range",
+          "value_min": 0.065,
+          "value_max": 0.085,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "sb",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 0.015,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "current_density",
+          "op": "le",
+          "value_min": 297.0,
+          "value_max": 37.0,
+          "unit": "A/m2",
+          "condition": "пром. 297, макс."
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c11": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c11",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ли процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | макс. 22 | 20 | 37 | 33-35 | 20-25 Плотность тока, А/м2 | пром. 297, макс. 366 | 214 | 300 | 230-290 | 220-280 Катодный выход по току, % | 90-94 | 90 | 93,3 | 92-94 | 93 Напряжение на ванне, В | 1,8-2,1 | 1,86 | 2,1 | 1,87 | 1,8-2,0 Электролит | Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 4 400 | 3 000 | 23 000 | 1 800 Поток электролита в и из каждой ванны, м3/мин | 0,286 | 0,3 | 0,3 | 0,3 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 44-46 | 31 | 41 | 40 | 56 H2SO4, г/л | 165-170 | 200 | 185 | 190-200 | 175 Температура электролита, °С | 45-48 | 48 | 48 | 47 | 46 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 43-44 | 30 | 39 | 38 | 41 H2SO4, г/л | 175-180 | 210 |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "ток на ванну",
+          "name_en": "current on the cathode",
+          "canonical": "current_on_cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "плотность тока",
+          "name_en": "current density",
+          "canonical": "current_density"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "катодный выход по току",
+          "name_en": "copper current efficiency",
+          "canonical": "copper_current_efficiency"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "напряжение на ванну",
+          "name_en": "voltage on the cathode",
+          "canonical": "voltage_on_cathode"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "ток на ванну"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "плотность тока"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "катодный выход по току"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "напряжение на ванну"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "current",
+          "op": "le",
+          "value_min": 20.0,
+          "value_max": 37.0,
+          "unit": "kA",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 214.0,
+          "value_max": 300.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "copper_current_efficiency",
+          "op": "range",
+          "value_min": 90.0,
+          "value_max": 94.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "voltage_on_cathode",
+          "op": "range",
+          "value_min": 1.8,
+          "value_max": 2.1,
+          "unit": "V",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c12": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c12",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "тролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 43-44 | 30 | 39 | 38 | 41 H2SO4, г/л | 175-180 | 210 | 188 | 180 | 195 Температура, °С | 37-40 | 49 | 49 | 47,5 | 48 Fe+2, г/л | 0,4 | 0,03 | 1,3 | до 0,1 | 0,5-1,0 все Fe Fe+3, г/л | 1,0-1,5 | 1,2 | 1,1 | 1,0-1,2 | 0,5-1,0 все Fe Co+2, мг/л | 180-200 | 112 | 235 | 180-200 | 140 Mn, мг/л | 23 Cl-, мг/л | 30-45 | 38 | 24 | 15-20 | 10-15 Прочие, мг/л | <75 ppm Mn Площадка | Lonmin Base Metal Refinery | Northam Base Metal Refinery | Cerro Verde | Toquepala | Bagdad Местоположение | ЮАР | ЮАР | Перу | Перу | США Ввод в эксплуатацию | 1992 | 1992 | 1977 | 1970 Проектная мощность (т/г катодов) | 4 400 | 1 085 | 90 000 | 56 200 | 16 000 Производство катодов (т) | 424 (2012) | 47 627 (2015) | 24 000 (2015) | 14 514 (2016) Катоды | Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 7-10 | 7 | 8 | 7 | 5 Матрица/Заготовка | НЖ | НЖ | Медь | НЖ Размеры (длина х ширина х толщина, мм) | 960 х 980 х 3 | 1180 х 1000 х 3 | 1150 х 1079 х 3,2 | 1245 х 1036 х 3,25 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <5 | 7 | <3",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "тролит",
+          "name_en": "cathode",
+          "canonical": "cathode"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "электролит Cu",
+          "name_en": "electrolyte Cu",
+          "canonical": "electrolyte_cu"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация Cu в электролите",
+          "name_en": "Cu concentration in electrolyte",
+          "canonical": "cu_concentration_in_electrolyte"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "концентрация H2SO4 в электролите",
+          "name_en": "H2SO4 concentration in electrolyte",
+          "canonical": "h2so4_concentration_in_electrolyte"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "температура электролиза",
+          "name_en": "electrolysis temperature",
+          "canonical": "electrolysis_temperature"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "концентрация Fe+2 в электролите",
+          "name_en": "Fe+2 concentration in electrolyte",
+          "canonical": "fe2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "концентрация Fe+3 в электролите",
+          "name_en": "Fe+3 concentration in electrolyte",
+          "canonical": "fe3_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "концентрация Co+2 в электролите",
+          "name_en": "Co+2 concentration in electrolyte",
+          "canonical": "co2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "хлориды",
+          "name_en": "chlorides",
+          "canonical": "chlorides"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "концентрация Cl- в электролите",
+          "name_en": "Cl- concentration in electrolyte",
+          "canonical": "cl_minus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "ванна для электролиза",
+          "name_en": "electrolysis tank",
+          "canonical": "electrolysis_tank"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e10",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "хлориды"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Электролит, покидающий ванну (отработанный) Cu, г/л"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Температура, °С"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Fe+2, г/л"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "Co+2, мг/л"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "Cl-, мг/л"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 43.0,
+          "value_max": 44.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 30.0,
+          "value_max": 39.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 37.0,
+          "value_max": 49.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 0.4,
+          "value_max": 1.3,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 180.0,
+          "value_max": 235.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 45.0,
+          "unit": "mg/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c13": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c13",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "9 х 3,2 | 1245 х 1036 х 3,25 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <5 | 7 | <3 | <1 | <3 S, ppm | <20 | <1 | <8 | <3 | <8 Fe, ppm | <10 | 35 | <3 | <1 Mn, ppm | - | <1 | <1 Co, ppm | <5 | <1 | <1 | <0,05 Ni, ppm | <60 | 30 | <1 | <1 Прочие, ppm | Se<20, Te<40 | <1 Ag; 60-71 кислород Аноды | Аноды | Аноды | Аноды | Аноды | Аноды Тип | Свинец | Свинец | Свинцовый сплав | Титан Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав | Состав | Состав | Состав | Состав | Состав Pb % | 92 | 91,9 | 99,9 | 98,54 Sn % | - | 0,04 | 1,2-1,5 Ca % | - | 0,06 | 0,05-0,06 Sb % | 8 | 8 Прочие | As 0,1% Размеры (длина х ширина х толщина, мм) | 880 х 840 х 14 | 1131 х 900 х 12 | 1077 х 940 х 6 | 1171 х 950 х 6,4 Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды Размеры (длина х ширина х толщина, мм) | 1118 х 813 х 3 Ванны | Ванны | Ванны | Ванны | Ванны | Ванны Количество | 48 | 12 | 162 | 52 Размеры (длина х ширина х глубина, м) | 4,8 х 1,3 х 1,2 | 5,6 х 1,15 х 1,25 | 5,241 х 1,29 х 1,387 | 6,39 х 1,47 х 1,54 | 5,3",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "асин",
+          "name_en": "arsenic",
+          "canonical": "arsenic"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сурьма",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathodes"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "ванны",
+          "name_en": "baths",
+          "canonical": "baths"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Состав катодов"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Аноды"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Ванны"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "purity",
+          "op": "ge",
+          "value_min": 98.54,
+          "value_max": 99.9,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 6.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "arsenic_content",
+          "op": "le",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "antimony_content",
+          "op": "ge",
+          "value_min": 8.0,
+          "value_max": 8.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c14": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c14",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "тво | 48 | 12 | 162 | 52 Размеры (длина х ширина х глубина, м) | 4,8 х 1,3 х 1,2 | 5,6 х 1,15 х 1,25 | 5,241 х 1,29 х 1,387 | 6,39 х 1,47 х 1,54 | 5,3 х 1,0 х 1,6 Анодов/катодов на ванну | 45/44 | 49/48 | 51/50 | 63/62 | 49/48 Межосевое расстояние катод-катод, мм | 102 | 110 | 100 | 95,25 | 101,6 Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | макс. 12,5 | 15 | А – 23,991 В – 23,962 | 35 | 30 Плотность тока, А/м2 | 140-160 | 156 | А – 220 В – 220 | 285 | 320 Катодный выход по току, % | 80 | 80 | 87,89 | 93 | 91 Напряжение на ванне, В | 1,8-2,2 | 1,894 | 1,9-2,0 | 1,6-2,0 Электролит | Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 450 | 500 | 7 000 | 3 300 | 400 Поток электролита в и из каждой ванны, м3/мин | 0,12 | 0,227 | 0,3 | 0,2 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 60-70 | 44 | 34 | 45 | 38 H2SO4, г/л | 20-35 | 30 | 170 | 165 | 160-170 Температура электролита,",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "катодный выход по току",
+          "name_en": "current efficiency",
+          "canonical": "current_efficiency"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Электролит"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Катодный выход по току, %"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 140.0,
+          "value_max": 320.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "current_efficiency",
+          "op": "range",
+          "value_min": 80.0,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c15": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c15",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Электролит, поступающий в ванну Содержание Cu, г/л | 60-70 | 44 | 34 | 45 | 38 H2SO4, г/л | 20-35 | 30 | 170 | 165 | 160-170 Температура электролита, °С | 50-55 | 65 | 44 | 45 | 43-49 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 30-35 | 30 | 32 | 35 | 36 H2SO4, г/л | 75-90 | 56 | 172 | 180 | 170-180 Температура, °С | 50-55 | 65 | 45 | 46 | 43-49 Fe+2, г/л | 0,7 все Fe | 0,5-1,0 г/л все Fe | 0,544 | 0,33 | 1,7-2,1 все Fe Fe+3, г/л | 0,7 все Fe | 0,5-1,0 г/л все Fe | 2,07 | 1,87 | 1,7-2,1 все Fe Co+2, мг/л | 300 | 131 | 110-120 | 0 Mn, мг/л | - | 62 Cl-, мг/л | 30 | 40 | 29 | <10 | 10-15 Прочие, мг/л | Ni 30-40 г/л | 0,47 Mg, 1,16 Al, 0,062 Mn Площадка | Chino | Miami | Morenci Central | Morenci Southside | Morenci Stargo Местоположение | США | США | США | США | США Ввод в эксплуатацию | 1986 | 1926 | 1991 | 1995 | 2000 Проектная мощность (т/г катодов) | 68 400 | 90 700 Производство катодов (т) | 68 038 (2016) | 65 958 (2013) | 209 230 (2013) |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание Cu в г/л",
+          "name_en": "Cu concentration in g/l",
+          "canonical": "cu_concentration_g_l"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание H2SO4 в г/л",
+          "name_en": "H2SO4 concentration in g/l",
+          "canonical": "h2so4_concentration_g_l"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "температура электролита в °С",
+          "name_en": "electrolyte temperature in C",
+          "canonical": "electrolyte_temperature_C"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "содержание Cu в г/л (отработанный)",
+          "name_en": "Cu concentration in g/l (spent)",
+          "canonical": "cu_concentration_spent_g_l"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "содержание H2SO4 в г/л (отработанный)",
+          "name_en": "H2SO4 concentration in g/l (spent)",
+          "canonical": "h2so4_concentration_spent_g_l"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "температура отработанного электролита в °С",
+          "name_en": "spent electrolyte temperature in C",
+          "canonical": "spent_electrolyte_temperature_C"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "содержание Fe+2 в г/л (все Fe)",
+          "name_en": "Fe+2 concentration in g/l (all Fe)",
+          "canonical": "fe2_plus_concentration_g_l_all_fe"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "содержание Fe+3 в г/л (все Fe)",
+          "name_en": "Fe+3 concentration in g/l (all Fe)",
+          "canonical": "fe3_plus_concentration_g_l_all_fe"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "содержание Co+2 в мг/л",
+          "name_en": "Co+2 concentration in mg/l",
+          "canonical": "co2_plus_concentration_mg_l"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "содержание Mn в мг/л",
+          "name_en": "Mn concentration in mg/l",
+          "canonical": "mn_concentration_mg_l"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "содержание Cl- в мг/л",
+          "name_en": "Cl- concentration in mg/l",
+          "canonical": "cl_minus_concentration_mg_l"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "содержание Ni в г/л",
+          "name_en": "Ni concentration in g/l",
+          "canonical": "ni_concentration_g_l"
+        },
+        {
+          "id": "e14",
+          "type": "Property",
+          "name_ru": "содержание Mg в мг/л",
+          "name_en": "Mg concentration in mg/l",
+          "canonical": "mg_concentration_mg_l"
+        },
+        {
+          "id": "e15",
+          "type": "Property",
+          "name_ru": "содержание Al в мг/л",
+          "name_en": "Al concentration in mg/l",
+          "canonical": "al_concentration_mg_l"
+        },
+        {
+          "id": "e16",
+          "type": "Facility",
+          "name_ru": "ванна Содержание Cu EW",
+          "name_en": "Cu EW cell",
+          "canonical": "cu_ew_cell"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e16",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Электролит, поступающий в ванну"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Температура электролита"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Электролит, покидающий ванну (отработанный)"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "Электролит, покидающий ванну (отработанный)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "cu_concentration_g_l",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 70.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "h2so4_concentration_g_l",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 35.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "electrolyte_temperature_C",
+          "op": "range",
+          "value_min": 50.0,
+          "value_max": 55.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "cu_concentration_spent_g_l",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 36.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "h2so4_concentration_spent_g_l",
+          "op": "range",
+          "value_min": 75.0,
+          "value_max": 180.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "spent_electrolyte_temperature_C",
+          "op": "range",
+          "value_min": 50.0,
+          "value_max": 55.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c16": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c16",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "26 | 1991 | 1995 | 2000 Проектная мощность (т/г катодов) | 68 400 | 90 700 Производство катодов (т) | 68 038 (2016) | 65 958 (2013) | 209 230 (2013) | 209 230 (2013) | 209 230 (2013) Катоды | Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 7 | 14 | 6 | 6 | 6 Матрица/Заготовка | Медь | НЖ | НЖ | НЖ Размеры (длина х ширина х толщина, мм) | 1297 х 1007 х 4,25 | 1297 х 1007 х 4,25 | 1297 х 1007 х 4,25 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <0,3 | <5 | 0-5 S, ppm | <8 | <8 | <8 Fe, ppm | <4 | <5 Mn, ppm | <1 | <1 | <1 Co, ppm | <1 | <1 | <1 Ni, ppm | <1 | <1 | <1 | <1 Прочие, ppm | BI<0.2, Ag<1.0, As<1.0 | BI<0.2, Ag<1.0, As<1.0 | BI<0.2, Ag<1.0, As<1.0 Аноды | Аноды | Аноды | Аноды | Аноды | Аноды Тип | Титан | Свинец | Свинец | Свинец | Свинец Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав | Состав | Состав | Состав | Состав | Состав Pb % | 98,6 | 98,5 | 98,5 | 98,5 Sn % | 1,3 | 1 | 1 | 1 Ca % | 0,1 | 0,5 | 0,5 | 0,5 Sb % Прочие Размеры (длина х ширина х толщина, мм) | 1143 х 952,5 х 6 | 1073 х 889 х 6 | 1073 х 889 х 6 |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кадмий",
+          "name_en": "cadmium",
+          "canonical": "cadmium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сера",
+          "name_en": "sulfur",
+          "canonical": "sulfur"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Проектная мощность (т/г катодов) и производство катодов (т)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ppm",
+          "op": "le",
+          "value_min": 0.3,
+          "value_max": null,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ppm",
+          "op": "le",
+          "value_min": 5.0,
+          "value_max": null,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "ppm",
+          "op": "le",
+          "value_min": 4.0,
+          "value_max": null,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ppm",
+          "op": "le",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "ppm",
+          "op": "le",
+          "value_min": 8.0,
+          "value_max": null,
+          "unit": "ppm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c17": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c17",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "1,3 | 1 | 1 | 1 Ca % | 0,1 | 0,5 | 0,5 | 0,5 Sb % Прочие Размеры (длина х ширина х толщина, мм) | 1143 х 952,5 х 6 | 1073 х 889 х 6 | 1073 х 889 х 6 | 1041 х 921 х 6 Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды | Титановые аноды Размеры (длина х ширина х толщина, мм) | 952,5 х 889 х 3,175 Ванны | Ванны | Ванны | Ванны | Ванны | Ванны Количество | 210 (80 работает) | 220 | 548 (138 работает) | 220 | 324 Размеры (длина х ширина х глубина, м) | 6,8 х 1,2 х 1,3 | 17,7 х 1,89 х 2,13 | 6,55 х 1,22 х 1,22 | 6,71 х 1,22 х 1,52 | 6,71 х 1,22 х 1,57 Анодов/катодов на ванну | 90/89 | 64/63 | 67/66 | 66/65 Межосевое расстояние катод-катод, мм | 101,6 | 101,6 | 101,6 | 101,6 Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | 40-44 | 35 | 36 (для 2 секций) | 45 | 45 Плотность тока, А/м2 | 250-300, макс.",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "титановые аноды",
+          "name_en": "titanium anodes",
+          "canonical": "titanium_anode"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ванна",
+          "name_en": "vat",
+          "canonical": "vat"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция кобальта",
+          "name_en": "cobalt electrowinning",
+          "canonical": "cobalt_electrowinning"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Титановые аноды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Ванны"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 250.0,
+          "value_max": 300.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "current",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 45.0,
+          "unit": "kA",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c18": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c18",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "роцесса | Показатели процесса | Показатели процесса Ток на ванну, кА | 40-44 | 35 | 36 (для 2 секций) | 45 | 45 Плотность тока, А/м2 | 250-300, макс. 360 | 194-215 | 290 | 320 | 260 Катодный выход по току, % | 93 | 91 | 88 | 88 | 88 Напряжение на ванне, В | 1,8 | 2 | 1,95 | 1,95 | 1,95 Электролит | Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 2 410 | 3 590 | 38 000 | 15 000 | 22 500 Поток электролита в и из каждой ванны, м3/мин | ~0,18 | 0,13 | 0,14 | 0,17 | 0,21 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 38 | 38 | 41 | 41 | 41 H2SO4, г/л | 170-180 | 165 | 185 | 185 | 185 Температура электролита, С | 32 | 35 | 41 | 41 | 41 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 35 | 35 | 35 | 35 | 35 H2SO4, г/л | 180-190 | 165 | 200 | 200 | 200",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "ток на ванну",
+          "name_en": "current on the cathode",
+          "canonical": "current_on_cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "плотность тока",
+          "name_en": "current density",
+          "canonical": "current_density"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "катодный выход по току",
+          "name_en": "copper current efficiency",
+          "canonical": "copper_current_efficiency"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "напряжение на ванну",
+          "name_en": "voltage on the cathode",
+          "canonical": "voltage_on_cathode"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "температура электролита",
+          "name_en": "electrolyte temperature",
+          "canonical": "electrolyte_temperature"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "ток на ванну"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "катодный выход по току"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "напряжение на ванне"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "current_on_cathode",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 44.0,
+          "unit": "kA",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 250.0,
+          "value_max": 360.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "copper_current_efficiency",
+          "op": "eq",
+          "value_min": 88.0,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "voltage_on_cathode",
+          "op": "range",
+          "value_min": 1.8,
+          "value_max": 2.0,
+          "unit": "V",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c19": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c19",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 35 | 35 | 35 | 35 | 35 H2SO4, г/л | 180-190 | 165 | 200 | 200 | 200 Температура, С | 33 | 35 | 45-48 | 45-48 | 45-48 Fe+2, г/л | 1,0-1,5 | 0,3 | 0,25 | 0,25 | 0,25 Fe+3, г/л | 2,0-2,5 | 1,8 | 2,5 | 2,5 | 2,5 Co+2, мг/л | 15 | 150 | 150-170 | 150-170 | 150-170 Mn, мг/л | 300-400 | 70-80 Cl-, мг/л | 25 | 30-35 | 10 | 10 | 10 Прочие, мг/л Площадка | Sierrita | Tyrone | Cobre las Cruces | Hellenic Copper | Nikkelverk Местоположение | США | США | Испания | Кипр | Норвегия Ввод в эксплуатацию | 1984 | 2008 | 1996 | 1910 Проектная мощность (т/г катодов) | 27 000 | 48 700 | 72 000 | 8 000 | 40 000 Производство катодов (т) | 3 800 (2010) | 38 101 (2015) | 70 029 (2015) | 3 000 (2010) | 37 900 (2012) Катоды | Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 7-10 | 7 | 7 | 10-12 | 7 Матрица/Заготовка | НЖ | НЖ | НЖ на Ti Размеры (длина х ширина х толщина, мм) | 1235 х 1025 х 3 | 1079 х 1036 х 3,25 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <3 | 1,5 | <0,005 | 3 S, ppm | <8 | 4,5 | <0,01 | 2 Fe, ppm | <1 | 0,06 | 1 Mn,",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация Cu в электролите",
+          "name_en": "Cu concentration in electrolyte",
+          "canonical": "cu_concentration_in_electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация H2SO4 в электролите",
+          "name_en": "H2SO4 concentration in electrolyte",
+          "canonical": "h2so4_concentration_in_electrolyte"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "электроэкстракция кубита",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "температура электролиза",
+          "name_en": "electrolysis temperature",
+          "canonical": "electrolysis_temperature"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "концентрация Fe+2 в электролите",
+          "name_en": "Fe+2 concentration in electrolyte",
+          "canonical": "fe2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "концентрация Fe+3 в электролите",
+          "name_en": "Fe+3 concentration in electrolyte",
+          "canonical": "fe3_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "концентрация Co+2 в электролите",
+          "name_en": "Co+2 concentration in electrolyte",
+          "canonical": "co2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "концентрация Mn в электролите",
+          "name_en": "Mn concentration in electrolyte",
+          "canonical": "mn_concentration_in_electrolyte"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "концентрация Cl- в электролите",
+          "name_en": "Cl- concentration in electrolyte",
+          "canonical": "cl_minus_concentration_in_electrolyte"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Электролит, покидающий ванну (отработанный)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "eq",
+          "value_min": 35.0,
+          "value_max": 35.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 180.0,
+          "value_max": 190.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 33.0,
+          "value_max": 45.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 1.5,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.5,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 15.0,
+          "value_max": 150.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 300.0,
+          "value_max": 400.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 35.0,
+          "unit": "mg/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c20": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c20",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "в катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | <3 | 1,5 | <0,005 | 3 S, ppm | <8 | 4,5 | <0,01 | 2 Fe, ppm | <1 | 0,06 | 1 Mn, ppm | <1 | <0,005 | <0,1 Co, ppm | <1 | <0,005 | 0,2 Ni, ppm | <1 | <0,05 | 1,5 Прочие, ppm | Ag 2, Bi 0,2, Te 0,5 Аноды | Аноды | Аноды | Аноды | Аноды | Аноды Тип | Свинцовый сплав | Свинец | Свинцовый сплав | Свинцовый сплав | Свинец Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав Pb % | 98,6 | 98-99 | 98,6 | 98,4 | 94 Sn % | 1,3 | 0-2 | 1,3 | 1,5 Ca % | 0,1 | 0-2 | 0,1 | 0,1 Sb % | 6 Прочие Размеры (длина х ширина х толщина, мм) | 1270 х 838 х 6 | 1168 х 914 х 6 | 1105 х 940 х 6 | 1092 х 920 х 6 | 1144 х 580 х 10 Ванны | Ванны | Ванны | Ванны | Ванны | Ванны Количество | 18 | 143 | 144 | 50 | 466 (спаренные ванны) Размеры (длина х ширина х глубина, м) | 5,486 х 1,067 х 1,524 | 6,76 х 1,17 х 1,35 | 9,15 х 3,1 х 1,7 | 3,48 х 1,25 х 1,5 | 3,8 х 0,8 х 1,3 Анодов/катодов на ванну | 52/51 | 61/60 | 85/84 | 31/30 | 31/30 Межосевое расстояние катод-катод, мм | 101,6 | 101,6 | 95 | 100 | 120 Показатели процесса | Показатели процесса | Показатели процесса | Показатели",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинцовый сплав",
+          "name_en": "lead alloy",
+          "canonical": "lead_alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "аноды",
+          "name_en": "anodes",
+          "canonical": "anodes"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathodes"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "ванна",
+          "name_en": "vat",
+          "canonical": "vat"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "свинцовый сплав"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "аноды"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "катоды"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "ванна"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "purity",
+          "op": "ge",
+          "value_min": 98.6,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "composition",
+          "op": "range",
+          "value_min": 1.3,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "composition",
+          "op": "range",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "length",
+          "op": "eq",
+          "value_min": 5.486,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "width",
+          "op": "eq",
+          "value_min": 1.067,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "depth",
+          "op": "eq",
+          "value_min": 1.524,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c21": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c21",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "/30 Межосевое расстояние катод-катод, мм | 101,6 | 101,6 | 95 | 100 | 120 Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса | Показатели процесса Ток на ванну, кА | 18-25 | 30 | 10-18 | 9 Плотность тока, А/м2 | 107-268 | макс. 330 | 320 | 150-275 | 220 Катодный выход по току, % | 90 | 88,5 | >93 | 88-95 | 90 Напряжение на ванне, В | 2 | 2,05 | 1,8 | 2 Электролит | Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 132 | 450 | 2 000 Поток электролита в и из каждой ванны, м3/мин | 0,17 | 0,19 | до 0,45 | 0,11 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 50 | 40 | 37-38 | 30 | 70 H2SO4, г/л | 140-145 | 180 | 180 | 165 | 90 Температура электролита, С | 37,8 | 33 | 45-50 | 35 | 60 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит,",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "катодный выход по току",
+          "name_en": "current efficiency",
+          "canonical": "current_efficiency"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "плотность тока",
+          "name_en": "current density",
+          "canonical": "current_density"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "плотность тока, А/м2"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "катодный выход по току"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 107.0,
+          "value_max": 330.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "current_efficiency",
+          "op": "ge",
+          "value_min": 88.5,
+          "value_max": 95.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c22": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c22",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 46 | 36 | 26 | 62 H2SO4, г/л | 150 | 185 | 175 | 105 Температура, С | 40,5-45 | 45 | 35 | 65 Fe+2, г/л | 0,44 | 0,5 | 0,5 все Fe Fe+3, г/л | 0,21 | 1,65 | 1,5 | 0,5 все Fe Co+2, мг/л | 80 | 165 | 80 | 3000 Mn, мг/л | ~10 | 90 | 10 Cl-, мг/л | 60 | 30 | 20 | 60 Прочие, мг/л | 20 г/л Ni Площадка | OMG | Kansanshi | Mutanda | Tenke Fungurume Местоположение | Финляндия | Замбия | ДР Конго | ДР Конго Ввод в эксплуатацию | 2001 | 2004 | 2009 Проектная мощность (т/г катодов) | 20 000 | 139 000 | 100 000 | 195 468 Производство катодов (т) | 104 677 (2012) | 83 720 (2012) | 158 106 (2013) Катоды | Катоды | Катоды | Катоды | Катоды Длительность процесса (дни) | 7 | 6-7 | 7-9 | 7 Матрица/Заготовка | НЖ | НЖ | НЖ | НЖ Размеры (длина х ширина х толщина, мм) | 1125 х 1000 х 3 | 1193 х 922 х 3 | 1350 х 980 х 3 | 1245 х 932 х 3 Состав катодов | Состав катодов | Состав катодов | Состав катодов | Состав катодов Pb, ppm | 1-4 | <3 S, ppm | 2-8 | <8 Fe, ppm | 0-1,5 | <0,8 Mn, ppm | - Co, ppm | 0-1,2 Ni, ppm |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация Cu в электролите",
+          "name_en": "Cu concentration in electrolyte",
+          "canonical": "cu_concentration_in_electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация H2SO4 в электролите",
+          "name_en": "H2SO4 concentration in electrolyte",
+          "canonical": "h2so4_concentration_in_electrolyte"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "температура электролиза",
+          "name_en": "electrolysis temperature",
+          "canonical": "electrolysis_temperature"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "концентрация Fe+2 в электролите",
+          "name_en": "Fe+2 concentration in electrolyte",
+          "canonical": "fe2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "концентрация Fe+3 в электролите",
+          "name_en": "Fe+3 concentration in electrolyte",
+          "canonical": "fe3_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "концентрация Co+2 в электролите",
+          "name_en": "Co+2 concentration in electrolyte",
+          "canonical": "co2_plus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "концентрация Mn в электролите",
+          "name_en": "Mn concentration in electrolyte",
+          "canonical": "mn_concentration_in_electrolyte"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "концентрация Cl- в электролите",
+          "name_en": "Cl- concentration in electrolyte",
+          "canonical": "cl_minus_concentration_in_electrolyte"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "отработанный электролит",
+          "name_en": "spent electrolyte",
+          "canonical": "spent_electrolyte"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathodes"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "плотность катодов",
+          "name_en": "cathode density",
+          "canonical": "cathode_density"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "ванна для электроэкстракции никеля",
+          "name_en": "nickel electrowinning tank",
+          "canonical": "nickel_electrowinning_tank"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e10",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "Электролит, покидающий ванну (отработанный)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "le",
+          "value_min": null,
+          "value_max": 62.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "ge",
+          "value_min": 150.0,
+          "value_max": 185.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 40.5,
+          "value_max": 65.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 0.44,
+          "value_max": 0.5,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 0.21,
+          "value_max": 1.65,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 80.0,
+          "value_max": 3000.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 10.0,
+          "value_max": 90.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 60.0,
+          "value_max": 60.0,
+          "unit": "mg/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c23": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c23",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "в | Состав катодов | Состав катодов | Состав катодов Pb, ppm | 1-4 | <3 S, ppm | 2-8 | <8 Fe, ppm | 0-1,5 | <0,8 Mn, ppm | - Co, ppm | 0-1,2 Ni, ppm | 0-1 Прочие, ppm | Особо чистая медь («5 девяток») Аноды | Аноды | Аноды | Аноды | Аноды Тип | Pb/Al/Ca | Свинец | Свинец Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды | Свинцовые аноды Состав Pb % | 98,6 | остаток | 98,0-98,5 | 98,58 Sn % | 1,3 | 1,25-1,75 | 1,25-1,75 | 1,35 Ca % | 0,1 | 0,05-0,10 | 0,05-0,1 | 0,065 Sb % | - Прочие | 0,0005-0,02 Al | 0,005-0,02 Al Размеры (длина х ширина х толщина, мм) | 1065 х 915 х 6 | 1193 х 922 х 6 | 1280 х 800 х 60 | 1194 х 872 х 8 Ванны | Ванны | Ванны | Ванны | Ванны Количество | 20+21 (41 – 2 секции) | 320 | 84 ванн для EW1, EW2 и EW3; 124 ванн для EW4, EW5 и EW6 | 560 Размеры (длина х ширина х глубина, м) | 9,15 х 1,3 х 1,7 | 7,06 х 1,144 х 1,57 | 5 х 1,2 х 1,55 | 7,3 х 1,3 х 1,8 Анодов/катодов на ванну | 85/84 | 70/69 | 49/48 | 67/66 Межосевое расстояние катод-катод, мм | 95 | 95 | 95 | 100 Параметры процесса | Параметры процесса | Параметры процесса | Параметры процесса | Параметры процесса Ток на ванну, кА | 34-54 | 20-25 | 41-68 Плотность тока, А/м2 | 200-320 |",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинцовые аноды",
+          "name_en": "lead anodes",
+          "canonical": "lead_anodes"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медные катоды",
+          "name_en": "copper cathodes",
+          "canonical": "copper_cathodes"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "ванна для электролиза",
+          "name_en": "electrolysis tank",
+          "canonical": "electrolysis_tank"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "электроэкстракция меди",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "свинцовые аноды для медных катодов"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "ванна для электролиза"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "lead_percentage",
+          "op": "ge",
+          "value_min": 98.0,
+          "value_max": 98.6,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "tin_percentage",
+          "op": "range",
+          "value_min": 1.25,
+          "value_max": 1.75,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "calcium_percentage",
+          "op": "range",
+          "value_min": 0.05,
+          "value_max": 0.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "antimony_percentage",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.02,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "nickel_percentage",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "ppm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 200.0,
+          "value_max": 320.0,
+          "unit": "A/m2",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c24": {
+    "chunk": {
+      "chunk_id": "Обзоры__ОИП-05-2019 Параметры Cu EW::p1::c24",
+      "doc_id": "Обзоры__ОИП-05-2019 Параметры Cu EW",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/ОИП-05-2019 Параметры Cu EW.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "етры процесса | Параметры процесса | Параметры процесса | Параметры процесса Ток на ванну, кА | 34-54 | 20-25 | 41-68 Плотность тока, А/м2 | 200-320 | 280 | 230-240 | 269-444 Катодный выход по току, % | >94-95 | 85 | ~80 | 88 Напряжение на ванне, В | 2 | 2 | 2,0 Электролит | Электролит | Электролит | Электролит | Электролит Общий объем, м3 | 5 000 | 13 265 Поток электролита в и из каждой ванны, м3/мин | до 0,4 | 0,25 Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну | Электролит, поступающий в ванну Содержание Cu, г/л | 35-38 | 50-60 | 45-55 | 43 H2SO4, г/л | 180 | 160-190 | 150-170 | 180 Температура электролита, °С | 45 | 50-55 | 35 | 48 Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) | Электролит, покидающий ванну (отработанный) Cu, г/л | 32-38 | 30-35 | 40 H2SO4, г/л | 180-200 | 180-200 | 187 Температура, °С | 40 | 45 | 50 Fe+2, г/л | 1-2 | 0,3 Fe+3, г/л | 3-4 | 0,9 Co+2, мг/л | 100-130 | 1200 Mn, мг/л | 350 | 250 Cl-, мг/л | 20 Прочие, мг/л",
+      "doc_type": "Обзоры",
+      "path_year": 2019,
+      "path_geo": null,
+      "meta_year": 2019
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция курина",
+          "name_en": "copper electrowinning",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "катодный выход по току",
+          "name_en": "current efficiency",
+          "canonical": "current_efficiency"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Электролит"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Катодный выход по току, %"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 200.0,
+          "value_max": 320.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "current_efficiency",
+          "op": "ge",
+          "value_min": 94.0,
+          "value_max": 95.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "voltage",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "V",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "copper_concentration",
+          "op": "range",
+          "value_min": 35.0,
+          "value_max": 60.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sulfuric_acid_concentration",
+          "op": "range",
+          "value_min": 150.0,
+          "value_max": 190.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 45.0,
+          "value_max": 45.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  }
+}

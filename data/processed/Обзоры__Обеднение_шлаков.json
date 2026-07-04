@@ -1,0 +1,1512 @@
+{
+  "Обзоры__Обеднение_шлаков::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c0",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ООО «ИНСТИТУТ ГИПРОНИКЕЛЬ» Санкт-Петербург УтверждаЮ: Директор Департамента по исследованиям и разработкам, к.г.-м.н. С.М. Козырев Справка Технологии обеднения шлаков ОИП РС-04-2013 Руководитель работы: Начальник ОИП Р.А. Кузнецов Санкт-Петербург 2013 годСписок исполнителей Процесс плавки/конвертирования медных концентратов El Teniente Converter включает плавку сухого концентрата (0,2% влаги) и частичное конвертирование до белого матта (богатого штейна). Степень окисления контролируется так, чтобы получить белый матт с ≈75% Cu и шлак с 7-10% Cu, 12-16% Fe. Белый матт разливается в ковши и отправляется на продувку до черновой меди в конвертерах Пирса-Смита. При интенсивной плавке/частичном конвертировании сухого концентрата до белого матта с ≈75% Cu в конвертере El Teniente получается сильно окисленный шлак с высоким содержанием магнетита. Потери меди со шлаком бывают механические (увлеченные частицы штейна) и физико-химические (растворенная «сульфидная» и «окисленная» медь). При 75% Cu в условиях El Teniente шлак близок к насыщению магнетитом и кремнеземом.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс плавки/конвертирования медных концентратов El Teniente Converter",
+          "name_en": "El_Teniente_Converter_smelting_and_conversion_process",
+          "canonical": "el_teniente_converter_smelting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сухой концентрат",
+          "name_en": "dry concentrate",
+          "canonical": "dry_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "белый матт",
+          "name_en": "white matte",
+          "canonical": "white_matte"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "степень окисления",
+          "name_en": "oxidation level",
+          "canonical": "oxidation_level"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "плавку сухого концентрата"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "белый матт разливается в ковши и отправляется на продувку до черновой меди"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "oxidation_level",
+          "op": "eq",
+          "value_min": 75.0,
+          "value_max": 75.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "copper_content",
+          "op": "range",
+          "value_min": 7.0,
+          "value_max": 10.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "iron_content",
+          "op": "range",
+          "value_min": 12.0,
+          "value_max": 16.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c1",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "изико-химические (растворенная «сульфидная» и «окисленная» медь). При 75% Cu в условиях El Teniente шлак близок к насыщению магнетитом и кремнеземом. Преимущественной формой потерь меди со шлаком являются механически захваченные частицы штейна [I.Imris, M.Sanchez , G.Achurra. Copper Losses to Slags Obtained from the El Teniente Process. VII International Conference on Molten Slags, Fluxes and Salts, SAIMM, 2004, pp 177-182]. При пирометаллургическом обеднении шлаков, используемых, например, чилийскими медеплавильными заводами, шлаки конвертера Teniente обедняют вдуванием пылевидного угля непосредственно в расплавленный шлак, температура которого поддерживается с помощью кислородных горелок (так называемая «обеднительная печь Teniente») . Магнетит восстанавливается углем, вязкость шлака снижается, что облегчает осаждение меди. Расплавленные продукты, полученные после отстаивания, представлены отвальным шлаком с <1% Cu и богатым штейном с 60-70% Cu (возвращается в конвертер Пирса-Смита). Другой пример – электропечи, где для нагрева и восстановления шлака дополнительно используется кокс.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "магнетит",
+          "name_en": "magnetite",
+          "canonical": "magnetite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кремнезем",
+          "name_en": "silica",
+          "canonical": "silica"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "штейн",
+          "name_en": "slag metal",
+          "canonical": "slag_metal"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "пылевидный уголь",
+          "name_en": "powdered coal",
+          "canonical": "powdered_coal"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "пирометаллургическое обеднение шлаков",
+          "name_en": "slag roasting",
+          "canonical": "slag_roasting"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "обеднительная печь Teniente",
+          "name_en": "Teniente smelting furnace",
+          "canonical": "teniente_smelting_furnace"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "электропечи",
+          "name_en": "electric furnaces",
+          "canonical": "electric_furnaces"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Магнетит восстанавливается углем, вязкость шлака снижается"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Магнетит восстанавливается углем, вязкость шлака снижается"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "вдуванием пылевидного угля непосредственно в расплавленный шлак"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "шлаки конвертера Teniente обедняют вдуванием пылевидного угля непосредственно в расплавленный шлак, температура которого поддерживается с помощью кислородных горелок"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "для нагрева и восстановления шлака дополнительно используется кокс"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c2",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "0-70% Cu (возвращается в конвертер Пирса-Смита). Другой пример – электропечи, где для нагрева и восстановления шлака дополнительно используется кокс. В общем, пирометаллургические способы стали общепринятыми: - механически захваченные частицы извлекаются отстаиванием в обеднительной электропечи; - «растворенная» медь извлекается восстановлением углем (углеводородом) и отстаиванием штейна. Альтернативный метод переработки конвертерных шлаков - медленное охлаждение/затвердевание, дробление, измельчение/пенная флотация. Медленно охлажденный и затвердевший шлак содержит как исходно захваченные частицы штейна и меди, так и частицы штейна и меди, высадившиеся из расплава по ходу охлаждения/затвердевания. Все они эффективно извлекаются из твердого шлака при флотации. Так и перерабатывали конвертерные шлаки, используя, в основном, оборудование и реагенты, предназначенные для обогащения медной руды. Аналогичным образом перерабатывали иногда и печные шлаки, а «старые» отвалы. Таблица 1. Примеры заводов, использующих флотацию шлаков Источник: Mark E. Schlesinger, Matthew J. King, Kathryn C. Sole and William G.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "конвертерные шлаки",
+          "name_en": "converter slag",
+          "canonical": "converter_slag"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обеднение шлаков флотацией",
+          "name_en": "flotation of converter slags",
+          "canonical": "flotation_of_converter_slags"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пирометаллургические способы",
+          "name_en": "pyrometallurgical processes",
+          "canonical": "pyrometallurgical_processes"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "восстановление углем (углеводородами)",
+          "name_en": "reduction with carbon (hydrocarbons)",
+          "canonical": "reduction_with_carbon_hydrocarbons"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "обеднительная электропечь",
+          "name_en": "reducing furnace",
+          "canonical": "reducing_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "отстаивание штейна",
+          "name_en": "leaching of matte",
+          "canonical": "leaching_of_matte"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "перерабатывали конвертерные шлаки"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "пирометаллургические способы стали общепринятыми"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "восстановление углем (углеводородами) и отстаиванием штейна"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "для нагрева и восстановления шлака дополнительно используется кокс"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c3",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "арые» отвалы. Таблица 1. Примеры заводов, использующих флотацию шлаков Источник: Mark E. Schlesinger, Matthew J. King, Kathryn C. Sole and William G. Davenport, Extractive Metallurgy of Copper (Fifth Edition), Elsevier Ltd, 2011 Примечания : * - немагнитные частица «белого матта» (Cu2S) после дробления отделяются магнитным способом, оставляя 5-6,5% Cu в шлаке, поступающем в шаровую мельницу. ** - переключается на все ячейки Jameson При обогащении шлаков флотацией используются современные мельницы (SAG), способы флотации (пневмофлотация, ячейки Jameson) и.т.д. Так, например, на медеплавильном заводе Mt Isa (Австралия) компании Glencore Xstrata конвертерные шлаки перерабатывались периодически – кампаниями на медной О/Ф с использованием одной линии измельчения и основной флотации. В 1970-1980гг. эти кампании проводили в период нехватки руды. Затем к конвертерным шлакам добавили шлаки печи-миксера. Затем в 1990- гг. на О/Ф заменили цепочку измельчения на мельницу самоизмельчения/полусамоизмельчения/шаровую. Исторически при флотации шлаков использовали для перечистки традиционную перечистную флотацию, затем её заменили колонной перечистной флотацией, а в 2002 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация шлаков",
+          "name_en": "flotation of slag",
+          "canonical": "slag_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "шаровая мельница",
+          "name_en": "ball mill",
+          "canonical": "ball_mill"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "мельница самоизмельчения/полусамоизмельчения",
+          "name_en": "self-grinding/crushing mill",
+          "canonical": "self_grinding_crushing_mill"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "измельчение шлаков",
+          "name_en": "slag grinding",
+          "canonical": "slag_grinding"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "конвертерные шлаки",
+          "name_en": "converter slag",
+          "canonical": "converter_slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "измельчение шлаков на медной О/Ф с использованием одной линии измельчения и основной флотации"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "заменили цепочку измельчения на мельницу самоизмельчения/полусамоизмельчения/шаровую"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c4",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ески при флотации шлаков использовали для перечистки традиционную перечистную флотацию, затем её заменили колонной перечистной флотацией, а в 2002 г. для перечистки шлаков установлена специально предназначенная Jameson Cell E2532/6. [M.F.Young, K.E.Barnes et al. Jameson Cell: The ‘Comeback’ in Base Metals Applications using Improved Design and Flow Sheets. 38th Annual Meeting of the Canadian Mineral Processors, 2006, pp 311-332]. Это позволило существенно повысить сортность продукта и извлечение меди. Рис.1 Схема обеднения шлаков на заводе Mt Isa В докладе М.Санчеса на конференции по шлакам (март 2013 г.) утверждается, что флотация шлаков «стала менее значительным (способом) в последнее время, потому что содержание меди в шлаке снизилось в результате оптимизации процессов плавки» [M.Sanchez, M.Sudbury. Reutilisation of Primary Metallurgical Wastes: Copper Slag as a Source of Copper, Molybdenum, and Iron – Brief Review of Test Work and the Proposed Way Forward. 3rd International Slag Valorisation Symposium, 2013, pp 135-146]. В [Mark E. Schlesinger, Matthew J. King, Kathryn C. Sole and William G.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация шлаков",
+          "name_en": "slag flotation",
+          "canonical": "slag_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "колонная перечистная флотация",
+          "name_en": "column flotation",
+          "canonical": "column_flotation"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "Jameson Cell E2532/6",
+          "name_en": "Jameson Cell E2532/6",
+          "canonical": "jameson_cell"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "флотация шлаков"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "колонная перечистная флотация"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "установлена специально предназначенная Jameson Cell E2532/6"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c5",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ay Forward. 3rd International Slag Valorisation Symposium, 2013, pp 135-146]. В [Mark E. Schlesinger, Matthew J. King, Kathryn C. Sole and William G. Davenport «Extractive Metallurgy of Copper (Fifth Edition)», Elsevier Ltd, 2011] приведены следующие причины падающей популярности этого метода: 1 – тенденция производства более богатых штейнов (более высокая доля меди в них присутствует скорее в виде растворенной, а не «захваченной» меди – эта медь не извлекается флотацией, нужна печь-отстойник); 2 – на обогатительных фабриках возрастает загрузка и уменьшается возможность перерабатывать шлаки. Преимуществом обеднения шлаков в электропечах является также то, что в них можно перерабатывать всякие обороты, остатки и пр. Зато при флотации шлаков медь извлекается более эффективно и есть возможность использовать имеющееся обогатительное оборудование. В нашем распоряжении не так много данных, но один пример можно выбрать. Возьмем данные из таблицы 1 и сравним с плавильным шлаком (6-8% Cu) чилийского завода Caletones, который перерабатывается во вращающейся обеднительной шлаковой печи El Teniente. Таблица 2. Показатели обеднительной печи Teniente на заводе Caletones, Чили Источник: Mark E.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация шлаков",
+          "name_en": "flotation of slag",
+          "canonical": "slag_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавление шлака в электропечи",
+          "name_en": "smelting of slag in an electric furnace",
+          "canonical": "electric_furnace_smelting_of_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "плавильный шлак (6-8% Cu)",
+          "name_en": "smelting slag (6-8% Cu)",
+          "canonical": "smelting_slag_6_8_cu"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "флотация шлаков"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "плавление шлака в электропечи"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c6",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "во вращающейся обеднительной шлаковой печи El Teniente. Таблица 2. Показатели обеднительной печи Teniente на заводе Caletones, Чили Источник: Mark E. Schlesinger, Matthew J. King, Kathryn C. Sole and William G. Davenport «Extractive Metallurgy of Copper (Fifth Edition)», Elsevier Ltd, 2011 Во «флотационном» варианте в лучшем (из четырех заводов) случае получим концентрат с 42% Cu, а при обеднении в печи Teniente – штейн с 72% Cu, но с более низким извлечением и более высоким содержанием меди в отвальном шлаке. Флотация - это сравнительно простой и дешевый способ. Следует помнить, однако, что при флотации в концентрат извлекается металлическая и сульфидная медь. Вопрос о форме потерь имеет ключевое значение. А далее – возможны варианты. Например, шлаки от взвешенной плавки на черновую медь (BFS) содержат 15-25% Cu. Стандартный вариант переработки шлаков – обеднительная электропечь, но восстановление шлака можно вести в один этап (тогда полученная черновая медь будет содержать некоторое количество железа), а можно в два этапа (в случае, когда надо извлекать прочие ценные металлы – Ni, Co и др).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "взвешенная плавка",
+          "name_en": "flash smelting",
+          "canonical": "flash_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обеднительная печь Teniente",
+          "name_en": "Teniente roasting furnace",
+          "canonical": "roasting_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "концентрат флотации",
+          "name_en": "flotation concentrate",
+          "canonical": "flotation_concentrate"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "штейн обеднительной печи Teniente",
+          "name_en": "Teniente roaster matte",
+          "canonical": "roaster_matte"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "отвальный шлак флотации",
+          "name_en": "flotation tailings",
+          "canonical": "flotation_tailings"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "черновая медь BFS",
+          "name_en": "BFS primary copper",
+          "canonical": "bfs_primary_copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "флотационном варианте в лучшем (из четырех заводов) случае получим концентрат с 42% Cu"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "при обеднении в печи Teniente – штейн с 72% Cu, но с более низким извлечением и более высоким содержанием меди в отвальном шлаке"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Вопрос о форме потерь имеет ключевое значение. А далее – возможны варианты."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "copper_content_in_concentrate",
+          "op": "eq",
+          "value_min": 42.0,
+          "value_max": 42.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "copper_content_in_matte",
+          "op": "eq",
+          "value_min": 72.0,
+          "value_max": 72.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c7",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "черновая медь будет содержать некоторое количество железа), а можно в два этапа (в случае, когда надо извлекать прочие ценные металлы – Ni, Co и др). Другой вариант двухэтапного подхода – частичное восстановление в электропечи, а затем обогащение шлака. Нельзя сказать, что какой-либо из этих методов устарел. Например, Outokumpu описывает обеднительную электропечь как «хорошо известный способ извлечения ценных металлов из шлака, это, однако, не означает, что это метод устарел», т.к. он непрерывно развивается. Аналогично и с методом флотации шлаков. При этом, во всяком случае в Чили, растущие энергозатраты и экологические проблемы, связанные с выбросами в атмосферу и с переработкой комплексных шлаков (с высоким содержанием, например, As, Sb) заставляют ещё раз пересмотреть все возможности. [Из реферата будущего доклада L.Voisin, W.Kracht et al. Characterization and Froth Flotation of Smelting Furnace Copper Slag на конференции Copper International Conference, Сантьяго, Чили 1-4 декабря 2013 г]. На заводе Potrerillos компании Codelco в 2011 г. было решено заменить заменить обеднение в электропечах на флотацию шлаков от конвертера Teniente, содержащих 8-10% Cu.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "черновая медь",
+          "name_en": "primary copper",
+          "canonical": "primary_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "электропечь",
+          "name_en": "smelting furnace",
+          "canonical": "smelting_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "обеднение шлака в электропечи",
+          "name_en": "slag leaching in smelting furnace",
+          "canonical": "slag_leaching_in_smelting_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "флотация шлаков",
+          "name_en": "flotation of slags",
+          "canonical": "flotation_of_slags"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "черновая медь будет содержать некоторое количество железа"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "обеднительная электропечь как «хорошо известный способ извлечения ценных металлов из шлака»"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "частичное восстановление в электропечи, а затем обогащение шлака"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "решено заменить обеднение в электропечах на флотацию шлаков от конвертера Teniente"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c8",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "los компании Codelco в 2011 г. было решено заменить заменить обеднение в электропечах на флотацию шлаков от конвертера Teniente, содержащих 8-10% Cu. Получится медный концентрат с 38% Cu и отвал с 0,4% Cu. Производительность линии 1530 т/сут шлака. Технологию предоставит Outotec, стоимость контракта 10 млн €. Outotec также поставит оборудование (собственной разработки) – 2 мельницы (SAG и шаровую), флотоячейки и пресс-фильтр, запчасти, а также обеспечит его установку и пуск. За счет реализации этого проекта извлечение меди на плавильном заводе увеличится с 95,5% до 97,4%. [Из реферата будущего доклада С.Queirolo. New Slag Flotation Plant for Potrerillos Smelter на конференции Copper International Conference, Сантьяго, Чили 1-4 декабря 2013 г]. На медеплавильном заводе Caletones компании Codelco намечен комплекс мер по улучшению экологических показателей и повышению конкурентоспособности. В рамках этой программы также предусмотрен переход на флотацию шлаков. [Из реферата будущего доклада G.Richter P., C. Carrasco O. Development Plan Caletones Smelter на конференции Copper International Conference, Сантьяго, Чили 1-4 декабря 2013 г].",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "флотация шлаков",
+          "name_en": "flotation of slag",
+          "canonical": "slag_flotation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак от конвертера Teniente",
+          "name_en": "Teniente converter slag",
+          "canonical": "teniente_converter_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медный концентрат",
+          "name_en": "copper concentrate",
+          "canonical": "copper_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "отвал",
+          "name_en": "tailings",
+          "canonical": "tailings"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "мельница SAG",
+          "name_en": "SAG mill",
+          "canonical": "sag_mill"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "шаровая мельница",
+          "name_en": "ball mill",
+          "canonical": "ball_mill"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "флотоячейка",
+          "name_en": "flotation cell",
+          "canonical": "flotation_cell"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "пресс-фильтр",
+          "name_en": "press-filter",
+          "canonical": "press_filter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "флотация шлаков от конвертера Teniente"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Получится медный концентрат с 38% Cu"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "отвал с 0,4% Cu"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "copper_content",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 10.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c9",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "а G.Richter P., C. Carrasco O. Development Plan Caletones Smelter на конференции Copper International Conference, Сантьяго, Чили 1-4 декабря 2013 г]. Отметим, что информации о стоимости завода по обеднению шлаков в нашем распоряжении нет. Руководитель работы, Начальник ОИП | Р.А. Кузнецов Главный специалист | А.К. Евграфова Horne, Канада | Saganoseki, Япония | Toyo, Япония | Pasar, Филиппины Перерабатываемые шлаки: Плавильный шлак, т/сут | 1700 | 0 | 0 | 0 % Cu | 6 Конвертерный шлак, т/сут | 300 | 450 | 450 | 370 %Cu | 8,33 | 6,5 | 10-15* Продукты: % Cu в конц-те | 42 | 21,8 | 28 | 29-33 % Cu в хвостах | 0,65 | 0,4 | 0,5-0,6 Извлечение Cu, % | 90-95 | 95 | 95 | 97-98 Затвердевание/охлаждение: Метод затвердевания | Охлаждение в ковше с/без водяного брызгала | Слитки по ≈150 кг на движущемся шлаковом конвейере | Слитки по ≈150 кг на движущемся шлаковом конвейере Охлаждение | На шлаковом конвейере | 1 час на воздухе, затем погружением в воду Дробление/измельчение: Оборудование | 80% - в SAG, 20% - дробление/ шаровая мельница | Вибрационная дробилка, конусная дробилка, шаровая мельница | Гираторная дробилка, конусная дробилка, шаровая мельница | Вибрационная дробилка, конусная",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "плавильный шлак",
+          "name_en": "smelting slag",
+          "canonical": "smelting_slag"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "конвертерный шлак",
+          "name_en": "converter slag",
+          "canonical": "converter_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "извлечение цинка из конвертерного шлака",
+          "name_en": "zinc extraction from converter slag",
+          "canonical": "zinc_extraction_from_converter_slag"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "процент содержания Cu в концентрате",
+          "name_en": "Cu content in concentrate",
+          "canonical": "cu_content_in_concentrate"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "процент содержания Cu в хвостах",
+          "name_en": "Cu content in tailings",
+          "canonical": "cu_content_in_tailings"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "извлечение Cu",
+          "name_en": "Cu recovery",
+          "canonical": "cu_recovery"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "ковш для охлаждения шлака",
+          "name_en": "slag cooling trough",
+          "canonical": "slag_cooling_trough"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "водяной брызгало",
+          "name_en": "water sprayer",
+          "canonical": "water_sprayer"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "движущийся шлаковый конвейер",
+          "name_en": "moving slag conveyor",
+          "canonical": "moving_slag_conveyor"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "SAG-мельница",
+          "name_en": "SAG mill",
+          "canonical": "sag_mill"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "шаровая мельница",
+          "name_en": "ball mill",
+          "canonical": "ball_mill"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "вибрационная дробилка",
+          "name_en": "vibrating crusher",
+          "canonical": "vibrating_crusher"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "конусная дробилка",
+          "name_en": "cone crusher",
+          "canonical": "cone_crusher"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Затвердевание/охлаждение: Слитки по ≈150 кг на движущемся шлаковом конвейере Охлаждение: 1 час на воздухе, затем погружением в воду"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "% Cu в конц-те: 42; 21,8; 28; 29-33"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "% Cu в хвостах: 0,65; 0,4; 0,5-0,6"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Извлечение Cu, %: 90-95; 95; 95; 97-98"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_rate",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1700.0,
+          "unit": "t/day",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "production_rate",
+          "op": "ge",
+          "value_min": 300.0,
+          "value_max": 450.0,
+          "unit": "t/day",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c10": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c10",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ибрационная дробилка, конусная дробилка, шаровая мельница | Гираторная дробилка, конусная дробилка, шаровая мельница | Вибрационная дробилка, конусная дробилка, шаровые мельницы (первичн.и доизмельчения) Размер частиц после измельчения | 78% -44мкм | 40-50% - 44 мкм | 90% - 44 мкм | 65-75% - 45 мкм Флотация: Оборудование | Ячейки с механическим перемешиванием | Ячейки с механическим перемешиванием | Ячейки с механическим перемешиванием | Мех.мешалка Agitair 48, ячейка Jameson ** Время выдержки | 60 мин | 30 мин (основная +контр.) Реагенты для флотации: Активатор | NH4+ и Na+ дибутил-дитиофосфат Коллектор | Тионокарбамат, SIPX | Na изопропил ксантат, UZ200 | Тионокабамат, PAX | а)Danafloat 245, Penfloat TM3 б)K-амилксантат Вспениватель | Пропилен гликоль | Сосновое масло, MF550 | Сосновое масло | Сосновое масло NF 183 CaO+ | Нет | Нет | Да pH | 8-9 | 7-8 | 7-8 | 8,5-9,5 Расход энергии, квт×час/т шлака | 32,5 | 58,4 | 64 | 40 Характеристика шлака : Плавильный шлак, т/сут | 3000 % Cu | 6-8 Конвертерный шлак, т/сут | 0 Продукты: Шлак, % Cu | 1 Штейн, % Cu | 72 Получатель штейна | Конвертеры Пирса-Смита Плав.печь Teniente Извлечение Cu, % | 85% Характеристика печей: Число обеднительных",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "вibrационная дробилка",
+          "name_en": "vibrating crusher",
+          "canonical": "vibrating_crusher"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "конусная дробилка",
+          "name_en": "cone crusher",
+          "canonical": "cone_crusher"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "шаровая мельница",
+          "name_en": "ball mill",
+          "canonical": "ball_mill"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "гираторная дробилка",
+          "name_en": "gyratory crusher",
+          "canonical": "gyratory_crusher"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "ячейки с механическим перемешиванием",
+          "name_en": "mechanically agitated cells",
+          "canonical": "mechanically_agitated_cells"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "мех.мешалка Agitair 48",
+          "name_en": "agitair 48 mechanical mixer",
+          "canonical": "agitair_48_mechanical_mixer"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "ячейка Jameson",
+          "name_en": "jameson cell",
+          "canonical": "jameson_cell"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "время выдержки",
+          "name_en": "holding time",
+          "canonical": "holding_time"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "NH4+ и Na+ дибутил-дитиофосфат",
+          "name_en": "ammonium and sodium dibutyl dithiophosphate",
+          "canonical": "nh4_and_sodium_dibutyl_dithiophosphate"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "тионокарбамат, SIPX",
+          "name_en": "thiocarbamate, sipx",
+          "canonical": "thiocarbamate_sipx"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "Na изопропил ксантат, UZ200",
+          "name_en": "sodium isopropyl xanthate, uz200",
+          "canonical": "sodium_isopropyl_xanthate_uz200"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "тионокабамат, PAX",
+          "name_en": "thiocarbamate, pax",
+          "canonical": "thiocarbamate_pax"
+        },
+        {
+          "id": "e14",
+          "type": "Material",
+          "name_ru": "Danafloat 245, Penfloat TM3",
+          "name_en": "danafloat 245, penfloat tm3",
+          "canonical": "danafloat_245_penfloat_tm3"
+        },
+        {
+          "id": "e15",
+          "type": "Material",
+          "name_ru": "K-амилксантат",
+          "name_en": "k-amylxanthate",
+          "canonical": "k_amylxanthate"
+        },
+        {
+          "id": "e16",
+          "type": "Property",
+          "name_ru": "вспениватель",
+          "name_en": "foamer",
+          "canonical": "foamer"
+        },
+        {
+          "id": "e17",
+          "type": "Material",
+          "name_ru": "пропилен гликоль",
+          "name_en": "propylene glycol",
+          "canonical": "propylene_glycol"
+        },
+        {
+          "id": "e18",
+          "type": "Material",
+          "name_ru": "сосновое масло",
+          "name_en": "pine oil",
+          "canonical": "pine_oil"
+        },
+        {
+          "id": "e19",
+          "type": "Material",
+          "name_ru": "mf550",
+          "name_en": "mf550",
+          "canonical": "mf550"
+        },
+        {
+          "id": "e20",
+          "type": "Property",
+          "name_ru": "cao+",
+          "name_en": "ca2+",
+          "canonical": "ca2+"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "вibrационная дробилка, шаровая мельница (первичн.и доизмельчения)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "конусная дробилка, шаровая мельница (первичн.и доизмельчения)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "шаровая мельница (первичн.и доизмельчения)"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "гираторная дробилка, шаровые мельницы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "флотация: ячейки с механическим перемешиванием"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "флотация: ячейка Jameson"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e17",
+          "type": "uses_material",
+          "evidence": "флотация: вспениватель пропилен гликоль"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e18",
+          "type": "uses_material",
+          "evidence": "флотация: вспениватель сосновое масло"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e19",
+          "type": "uses_material",
+          "evidence": "флотация: вспениватель mf550"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "particle_size_after_crushing",
+          "op": "range",
+          "value_min": 44.0,
+          "value_max": 78.0,
+          "unit": "microns",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "holding_time",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 60.0,
+          "unit": "minutes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "pH",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 9.0,
+          "unit": "-",
+          "condition": ""
+        },
+        {
+          "entity_id": "e12",
+          "param": "pH",
+          "op": "range",
+          "value_min": 7.0,
+          "value_max": 8.0,
+          "unit": "-",
+          "condition": ""
+        },
+        {
+          "entity_id": "e14",
+          "param": "pH",
+          "op": "range",
+          "value_min": 8.5,
+          "value_max": 9.5,
+          "unit": "-",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Обеднение_шлаков::p1::c11": {
+    "chunk": {
+      "chunk_id": "Обзоры__Обеднение_шлаков::p1::c11",
+      "doc_id": "Обзоры__Обеднение_шлаков",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Обеднение_шлаков.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Cu | 1 Штейн, % Cu | 72 Получатель штейна | Конвертеры Пирса-Смита Плав.печь Teniente Извлечение Cu, % | 85% Характеристика печей: Число обеднительных печей | 4 Форма | Горизонтальный цилиндр Диаметр (внутри футеровки), м | 4,6 Длина (внутри футеровки), м | 3×10,7; 1×12,7 Число фурм | 4 Диаметр фурмы, см | 6,35 Характеристики процесса: Время выдержки шлака, час | 2 Восстановитель | Уголь, нефть, природный газ Кг на 1 т шлака | 6 Толщина шлакового слоя , м | 1,4 Толщина слоя штейна, м | 0,4 Топливо | Бункерное нефтяное топливо С Кг на 1 т шлака | 8,8",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "штейн",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "уголь",
+          "name_en": "coal",
+          "canonical": "coal"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обеднение шлаков в конвертерах Пирса-Смита и плавильной печи Тенiente",
+          "name_en": "smelting process in Pierce-Smith converters and Teniente smelting furnace",
+          "canonical": "smelting_process"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "конвертеры Пирса-Смита",
+          "name_en": "Pierce-Smith converters",
+          "canonical": "pierce_smith_converters"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "плавильная печь Тенiente",
+          "name_en": "Teniente smelting furnace",
+          "canonical": "teniente_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Извлечение Cu, % | 85%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Число обеднительных печей | 4"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Характеристика печей: Число обеднительных печей | 4"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "copper_recovery",
+          "op": "eq",
+          "value_min": 85.0,
+          "value_max": 85.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "number_of_converters",
+          "op": "eq",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "number_of_furnaces",
+          "op": "eq",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "cylinder_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Горизонтальный цилиндр"
+        },
+        {
+          "entity_id": "e5",
+          "param": "cylinder_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Горизонтальный цилиндр"
+        },
+        {
+          "entity_id": "e4",
+          "param": "internal_diameter",
+          "op": "eq",
+          "value_min": 4.6,
+          "value_max": 4.6,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "internal_diameter",
+          "op": "eq",
+          "value_min": 31.78,
+          "value_max": 38.78,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "length",
+          "op": "range",
+          "value_min": 32.1,
+          "value_max": 38.78,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "length",
+          "op": "eq",
+          "value_min": 12.7,
+          "value_max": 12.7,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "number_of_crucibles",
+          "op": "eq",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "crucible_diameter",
+          "op": "eq",
+          "value_min": 6.35,
+          "value_max": 6.35,
+          "unit": "cm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "holding_time_of_slag",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "hours",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "fuel_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Бункерное нефтяное топливо"
+        },
+        {
+          "entity_id": "e5",
+          "param": "fuel_type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "Уголь, нефть, природный газ"
+        },
+        {
+          "entity_id": "e4",
+          "param": "coal_consumption_per_ton_of_slag",
+          "op": "eq",
+          "value_min": 6.0,
+          "value_max": 6.0,
+          "unit": "kg/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "fuel_consumption_per_ton_of_slag",
+          "op": "eq",
+          "value_min": 8.8,
+          "value_max": 8.8,
+          "unit": "kg/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "slag_layer_thickness",
+          "op": "eq",
+          "value_min": 1.4,
+          "value_max": 1.4,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "slag_layer_thickness",
+          "op": "eq",
+          "value_min": 0.4,
+          "value_max": 0.4,
+          "unit": "m",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  }
+}
