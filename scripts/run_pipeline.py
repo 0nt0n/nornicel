@@ -23,7 +23,6 @@ from src.embeddings import get_embedder
 from src.graph.loader import get_driver, load_processed
 from src.graph.indexes import init_schema
 
-
 def run_extract(limit=None, subdir=None, force=False):
     chunks = parse_dir(config.RAW_DIR, subdir=subdir, skip_processed=not force)
     by_doc = defaultdict(list)
@@ -37,7 +36,6 @@ def run_extract(limit=None, subdir=None, force=False):
         print(f"[extract] {doc_id} ({len(doc_chunks)} чанков)...")
         extract_document(doc_id, doc_chunks, model=config.LLM_MODEL_MAIN, resume=True)
     print("[extract] готово, результаты в", config.PROCESSED_DIR)
-
 
 def run_load():
     embedder = get_embedder()
@@ -53,7 +51,6 @@ def run_load():
             load_processed(session, processed, embedder)
     driver.close()
     print("[load] граф собран. Открой Neo4j Browser: http://localhost:7474")
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

@@ -14,14 +14,13 @@ ROUTER_SYSTEM = """Ты разбираешь запрос исследовате
 - year_from/year_to: если есть временной диапазон ("за последние 5 лет" -> year_from = текущий_год-5).
 - comparison: true если это сравнительный запрос (вариант А vs Б, РФ vs мир)."""
 
-
 def route(question: str, model: str = None) -> dict:
     slots = chat_json(
         system=ROUTER_SYSTEM,
         user=f"Запрос: {question}",
         schema_name="query_slots",
         schema=QUERY_SLOTS_JSON_SCHEMA,
-        model=model or config.LLM_MODEL_FAST,   # роутинг дешёвой моделью
+        model=model or config.LLM_MODEL_FAST,
     )
     slots.setdefault("materials", [])
     slots.setdefault("processes", [])

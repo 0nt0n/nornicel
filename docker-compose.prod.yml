@@ -1,20 +1,8 @@
-# Продакшен-контур для удалённого сервера: Neo4j + приложение (Streamlit UI).
-#
-# Сценарий: extraction гоняется где угодно (локально у команды), на сервер
-# заливаются только готовые data/processed/*.json, из них строится граф + векторная БД.
-#
-#   docker compose -f docker-compose.prod.yml up -d --build     # поднять
-#   docker compose -f docker-compose.prod.yml run --rm app \
-#       python scripts/run_pipeline.py --load-only              # загрузить JSON в граф
-#
-# Подробности: DEPLOY.md
 
 services:
   neo4j:
     image: neo4j:5.26-community
     container_name: minekg-neo4j
-    # Порты привязаны к 127.0.0.1: с сервера наружу Neo4j не торчит,
-    # для отладки — SSH-туннель: ssh -L 7474:localhost:7474 -L 7687:localhost:7687 user@server
     ports:
       - "127.0.0.1:7474:7474"
       - "127.0.0.1:7687:7687"
@@ -38,12 +26,10 @@ services:
     container_name: minekg-app
     env_file: .env
     environment:
-      # внутри compose-сети Neo4j доступен по имени сервиса — перекрывает localhost из .env
       - NEO4J_URI=bolt://neo4j:7687
     ports:
       - "8501:8501"
     volumes:
-      # обработанные JSON заливаются на хост и подхватываются без пересборки образа
       - ./data/processed:/app/data/processed
       - ./data/raw:/app/data/raw
     depends_on:

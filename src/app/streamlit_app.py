@@ -13,14 +13,12 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspa
 
 import streamlit as st
 
-# Streamlit Community Cloud отдаёт секреты через st.secrets, а config.py читает
-# os.environ. Пробрасываем ДО импорта проектных модулей (config исполняется на импорте).
 try:
     for _k, _v in st.secrets.items():
         if isinstance(_v, (str, int, float)):
             os.environ.setdefault(_k, str(_v))
-except Exception:  # noqa: BLE001
-    pass  # локально secrets.toml может отсутствовать — не страшно
+except Exception:
+    pass
 
 import streamlit.components.v1 as components
 from pyvis.network import Network
@@ -36,10 +34,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# ---------------------------------------------------------------- палитра
-# Категориальная палитра типов сущностей — валидирована для тёмной поверхности
-# (dataviz: lightness band, chroma floor, contrast >= 3:1; CVD 10.3 в допустимой
-# полосе — вторичное кодирование обеспечивают подписи узлов и текстовая легенда)
 ENTITY_COLORS = {
     "Material": "#3987e5", "Process": "#199e70", "Equipment": "#c98500",
     "Experiment": "#008300", "Property": "#9085e9", "Expert": "#e66767",
@@ -68,7 +62,6 @@ LEVEL_META = {
 
 st.markdown(f"""
 <style>
-  /* убираем «прототипную» обвязку Streamlit — выглядит как продукт, а не демо */
   #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"],
   [data-testid="stStatusWidget"] {{ display: none !important; }}
 
@@ -84,7 +77,6 @@ st.markdown(f"""
   }}
   .block-container {{ padding-top: 1.4rem; max-width: 1360px; }}
 
-  /* базовый текст — светлый, не зависим от того, подхватилась ли тёмная тема Streamlit */
   .stApp, .stMarkdown, .stMarkdown p, .stMarkdown li,
   [data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p,
   .stCaption, [data-testid="stCaptionContainer"], label {{ color: {TEXT}; }}
@@ -92,13 +84,11 @@ st.markdown(f"""
   h1, h2, h3, h4 {{ color: {TEXT}; }}
   .stCaption, [data-testid="stCaptionContainer"] {{ color: {TEXT_MUTED} !important; }}
 
-  /* заголовки секций — тонкий акцентный маркер слева */
   .stMarkdown h3 {{
     font-size: 1.12rem; margin: 1.4rem 0 .5rem; padding-left: .7rem;
     border-left: 3px solid {ACCENT}; color: {TEXT};
   }}
 
-  /* герой-шапка */
   .hero {{
     background: linear-gradient(135deg, #16294356 0%, #10201c99 55%, {SURFACE} 100%);
     border: 1px solid {BORDER}; border-radius: 18px;
@@ -114,7 +104,6 @@ st.markdown(f"""
     font-variant-numeric: tabular-nums;
   }}
 
-  /* вкладки */
   .stTabs [data-baseweb="tab-list"] {{ gap: .3rem; border-bottom: 1px solid {BORDER}; }}
   .stTabs [data-baseweb="tab"] {{
     padding: .5rem 1rem; border-radius: 10px 10px 0 0; font-weight: 600;
@@ -123,7 +112,6 @@ st.markdown(f"""
   .stTabs [data-baseweb="tab"]:hover {{ color: {TEXT}; }}
   .stTabs [aria-selected="true"] {{ background: {CARD_BG}; color: {TEXT}; }}
 
-  /* кнопки — принудительно тёмная поверхность + светлый текст (не зависим от темы) */
   .stButton > button, .stDownloadButton > button {{
     border-radius: 10px; border: 1px solid {BORDER}; font-weight: 500;
     background: {CARD_BG}; color: {TEXT};
@@ -141,7 +129,6 @@ st.markdown(f"""
   .stButton > button[kind="primary"] p {{ color: #ffffff; }}
   .stButton > button[kind="primary"]:hover {{ background: linear-gradient(180deg, #6cb0ff, #5aa6ff); }}
 
-  /* поля ввода и экспандеры */
   .stTextArea textarea {{
     background: {CARD_BG}; border: 1px solid {BORDER}; border-radius: 12px;
     color: {TEXT};
@@ -152,7 +139,6 @@ st.markdown(f"""
   }}
   [data-testid="stExpander"] summary, [data-testid="stExpander"] summary p {{ color: {TEXT}; }}
 
-  /* карточки уровней ReAct */
   .lvl-card {{
     border: 1px solid {BORDER}; border-left: 4px solid {ACCENT};
     background: {CARD_BG}; border-radius: 12px;
@@ -168,21 +154,18 @@ st.markdown(f"""
   .chip.miss {{ border-color: rgba(230,103,103,.5); color: #f0b5b5; }}
   .chip.ok   {{ border-color: rgba(25,158,112,.5);  color: #a9dcc7; }}
 
-  /* карточка ответа */
   .answer-card {{
     border: 1px solid {BORDER}; background: {CARD_BG};
     border-radius: 14px; padding: 1.2rem 1.4rem;
     box-shadow: 0 10px 40px -28px rgba(0,0,0,.7);
   }}
 
-  /* легенда графа */
   .legend {{ display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: .4rem 0 .6rem; }}
   .legend span {{ font-size: .82rem; color: {TEXT_MUTED}; }}
   .dot {{ display:inline-block; width:10px; height:10px; border-radius:50%;
           margin-right:.35rem; vertical-align:-1px; }}
   iframe {{ border-radius: 12px; border: 1px solid {BORDER}; }}
 
-  /* источники */
   .src-card {{
     border: 1px solid {BORDER}; background: {CARD_BG}; border-radius: 10px;
     padding: .55rem .8rem; margin-bottom: .45rem; font-size: .86rem;
@@ -198,12 +181,9 @@ st.markdown(f"""
 </style>
 """, unsafe_allow_html=True)
 
-
-# ---------------------------------------------------------------- данные
 @st.cache_resource
 def _driver():
     return get_driver()
-
 
 @st.cache_data(ttl=60)
 def _graph_stats():
@@ -219,16 +199,14 @@ def _graph_stats():
                 """
             ).single()
             return dict(row) if row else {}
-    except Exception:  # noqa: BLE001
+    except Exception:
         return {}
-
 
 def _entity_type(labels):
     for l in labels or []:
         if l != "Entity":
             return l
     return "Entity"
-
 
 @st.cache_resource(show_spinner="Первый запуск: строю граф из data/processed/ …")
 def _ensure_graph():
@@ -238,7 +216,7 @@ def _ensure_graph():
     try:
         with _driver().session() as s:
             n = s.run("MATCH (c:Chunk) RETURN count(c) AS n").single()["n"]
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         return {"state": "no_db", "error": str(e)}
     if n and n > 0:
         return {"state": "ready", "chunks": n}
@@ -246,11 +224,9 @@ def _ensure_graph():
         from src.graph.loader import load_all_processed
         res = load_all_processed()
         return {"state": "built", **res}
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         return {"state": "build_error", "error": str(e)}
 
-
-# ---------------------------------------------------------------- шапка
 _boot = _ensure_graph()
 if _boot.get("state") == "no_db":
     st.error("Нет связи с Neo4j. Проверь секреты NEO4J_URI / NEO4J_USER / "
@@ -287,7 +263,6 @@ EXAMPLES = [
     "Выполнить литературный обзор методов очистки шахтных вод горно-рудных предприятий цветной металлургии. Отечественная и мировая практика.",
 ]
 
-# ---------------------------------------------------------------- поиск
 with tab_search:
     st.caption("Примеры запросов — нажми, чтобы подставить:")
     ex_cols = st.columns(2)
@@ -323,7 +298,7 @@ with tab_search:
                 "question": question, "slots": slots, "context": context,
                 "answer": answer, "contradictions": contradictions,
             }
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             st.error(f"Ошибка выполнения запроса: {e}")
 
     last = st.session_state.get("last")
@@ -341,7 +316,6 @@ with tab_search:
                 data=f"# Вопрос\n{last['question']}\n\n# Ответ\n{answer}",
                 file_name="answer.md", mime="text/markdown",
             )
-            # ---------- цепочка рассуждений ReAct
             st.markdown("### Цепочка рассуждений")
             for lvl in context.get("levels", []):
                 ln = lvl.get("level", 0)
@@ -374,13 +348,11 @@ with tab_search:
                 </div>
                 """, unsafe_allow_html=True)
 
-            # ---------- противоречия
             if last.get("contradictions"):
                 st.warning("В графе знаний зафиксированы противоречия:")
                 for c in last["contradictions"][:5]:
                     st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence', '')}")
 
-            # ---------- сравнение РФ / зарубеж
             comparison = context.get("comparison_chunks")
             if comparison:
                 st.markdown("### Отечественная vs зарубежная практика")
@@ -395,7 +367,6 @@ with tab_search:
                                 unsafe_allow_html=True,
                             )
 
-            # ---------- подграф знаний
             st.markdown("### Подграф знаний")
             if context.get("entities"):
                 legend = '<div class="legend">'
@@ -444,7 +415,6 @@ with tab_search:
             else:
                 st.info("Сущности не найдены в контексте — граф пуст.")
 
-            # ---------- пробелы
             if context.get("gaps"):
                 with st.expander(f"Пробелы в исследованиях ({len(context['gaps'])})"):
                     st.caption("Процессы без экспериментальной проверки в корпусе — кандидаты на новые НИР")
@@ -481,7 +451,6 @@ with tab_search:
                                 unsafe_allow_html=True)
                     st.caption(ch.get("text", "")[:350] + "…")
 
-# ---------------------------------------------------------------- аналитика
 with tab_analytics:
     try:
         with _driver().session() as session:
@@ -508,7 +477,6 @@ with tab_analytics:
                     import pandas as pd
                     df = pd.DataFrame(rows)
                     df["type_ru"] = df["type"].map(lambda t: ENTITY_LABELS_RU.get(t, t))
-                    # одна серия -> один цвет (магнитуда), прямые подписи значений
                     chart = (
                         alt.Chart(df).mark_bar(color=ACCENT, cornerRadiusEnd=4, height=18)
                         .encode(
@@ -584,5 +552,5 @@ with tab_analytics:
                     data=_json.dumps(doc, ensure_ascii=False, indent=2),
                     file_name="knowledge_graph.jsonld", mime="application/ld+json",
                 )
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         st.error(f"Ошибка подключения к Neo4j: {e}")

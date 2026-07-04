@@ -1,7 +1,6 @@
 """Индексы и ограничения Neo4j. Векторный индекс создаётся под размерность эмбеддера."""
 import config
 
-
 def create_constraints(session):
     session.run(
         "CREATE CONSTRAINT entity_key IF NOT EXISTS "
@@ -11,7 +10,6 @@ def create_constraints(session):
         "CREATE CONSTRAINT chunk_id IF NOT EXISTS "
         "FOR (c:Chunk) REQUIRE c.chunk_id IS UNIQUE"
     )
-
 
 def create_vector_index(session, dim: int):
     session.run(
@@ -25,13 +23,11 @@ def create_vector_index(session, dim: int):
         """
     )
 
-
 def create_fulltext_index(session):
     session.run(
         f"CREATE FULLTEXT INDEX {config.FULLTEXT_INDEX} IF NOT EXISTS "
         "FOR (c:Chunk) ON EACH [c.text]"
     )
-
 
 def init_schema(session, dim: int):
     create_constraints(session)

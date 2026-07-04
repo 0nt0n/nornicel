@@ -4,17 +4,14 @@
 from src.embeddings import get_embedder
 from src.graph import queries as Q
 
-
 def retrieve(session, question: str, slots: dict, top_k: int = 8) -> dict:
     embedder = get_embedder()
     geo = slots.get("geography") if slots.get("geography") != "unknown" else None
     year_from = slots.get("year_from")
 
-    # 1) семантический старт
     qvec = embedder.embed_query(question)
     chunks = Q.vector_search(session, qvec, top_k=top_k, geography=geo, year_from=year_from)
 
-    # 2) числовые ограничения -> точный поиск по графу
     constraint_hits = []
     for c in slots.get("constraints", []):
         constraint_hits += Q.find_by_constraint(
@@ -26,7 +23,6 @@ def retrieve(session, question: str, slots: dict, top_k: int = 8) -> dict:
             geography=geo,
         )
 
-    # 3) эксперименты/публикации для обзорных и list-запросов
     exp_pubs = []
     if slots.get("intent") in ("literature_review", "list_experiments"):
         kws = slots.get("materials", []) + slots.get("processes", [])
@@ -35,14 +31,11 @@ def retrieve(session, question: str, slots: dict, top_k: int = 8) -> dict:
                 session, keywords=kws, year_from=year_from, geography=geo
             )
 
-    # 4) собрать источники для цитирования (dedup по doc_id)
     sources = {}
     for ch in chunks:
         sources[ch["doc_id"]] = {"doc_id": ch["doc_id"], "geography": ch.get("geography"),
                                  "year": ch.get("year")}
 
-    # 5) сравнительный запрос (РФ vs зарубеж) — явно берём оба среза, а не полагаемся
-    # только на инструкцию в промпте синтеза
     comparison_chunks = None
     if slots.get("comparison"):
         comparison_chunks = {
@@ -50,11 +43,8 @@ def retrieve(session, question: str, slots: dict, top_k: int = 8) -> dict:
             "foreign": Q.vector_search(session, qvec, top_k=top_k, geography="foreign", year_from=year_from),
         }
 
-    # 6) пробелы в исследованиях: процессы без экспериментальной проверки
     gaps = Q.find_gaps(session, limit=10)
 
-    # 7) сущности из найденных чанков + подграф связей вокруг них — для визуализации
-    # цепочек материал -> процесс -> оборудование -> результат
     chunk_ids = [ch["chunk_id"] for ch in chunks]
     entities = Q.entities_for_chunks(session, chunk_ids)
     entity_keys = [e["key"] for e in entities]

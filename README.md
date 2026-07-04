@@ -1,139 +1,204 @@
-# Карта знаний R&D — Норникель AI Science Hack
+# Карта знаний R&D — горно-металлургия
 
-GraphRAG-система для горно-металлургии: разнородные документы (PDF/PPTX/DOCX, RU+EN) →
-извлечение сущностей/связей/**числовых ограничений** → граф знаний Neo4j (+ векторный индекс) →
-ответы на естественном языке с источниками и уровнем достоверности.
+GraphRAG-система для НИОКР горно-металлургии. Разнородные документы (PDF / PPTX / DOCX,
+русский + английский) превращаются в граф знаний Neo4j с векторным и полнотекстовым
+индексом, а поверх него работает многоуровневая ReAct-цепочка рассуждений, которая
+отвечает на вопросы на естественном языке — с источниками, числовыми ограничениями и
+уровнем достоверности.
 
-Движок — **Yandex AI Studio** (OpenAI-совместимый API, structured output, эмбеддинги). Всё в контуре заказчика.
-
----
-
-## Быстрый старт (вертикальный срез — сначала это)
-
-```bash
-# 1. Зависимости
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# 2. Neo4j
-docker compose up -d           # Neo4j Browser: http://localhost:7474 (neo4j / password123)
-
-# 3. Ключи
-cp .env.example .env           # заполни YANDEX_API_KEY и YANDEX_FOLDER_ID
-
-# 4а. Проверка графа БЕЗ извлечения — грузим готовую фикстуру
-python -c "import json,sys; sys.path.insert(0,'.'); \
-from src.graph.loader import get_driver, load_processed; \
-from src.graph.indexes import init_schema; from src.embeddings import get_embedder; \
-e=get_embedder(); d=get_driver(); s=d.session(); init_schema(s,e.dim()); \
-load_processed(s, json.load(open('fixtures/sample_extraction.json')), e); print('fixture loaded')"
-
-# 4б. Полный прогон корпуса (положи файлы в data/raw/)
-python scripts/run_pipeline.py --limit 1                              # 1 документ end-to-end
-python scripts/run_pipeline.py --subdir "Доклады"                     # конкретная подпапка
-python scripts/run_pipeline.py                                        # весь корпус
-python scripts/run_pipeline.py --subdir "Доклады" --force             # перепарсить, игнорируя чекпоинты
-
-# 5. Спросить
-python scripts/ask.py "Какие методы обессоливания при сульфатах 200-300 мг/л и сухом остатке <=1000?"
-streamlit run src/app/streamlit_app.py       # UI
-```
-
-> **Порядок работы (из гайда):** сначала прогони фикстуру (4а) и убедись, что граф + ретрив + синтез
-> работают на одном чанке. Только потом включай реальное извлечение (4б). Вертикальный срез раньше ширины.
+Движок — **Yandex AI Studio** (OpenAI-совместимый API: chat, structured output, эмбеддинги).
+Весь контур поднимается локально в Docker.
 
 ---
 
-## Архитектура
+## Как это устроено
 
 ```
 data/raw/*.pdf,pptx,docx
-   │  src/ingest/parse.py            парсинг + чанкинг + язык
+   │  src/ingest/parse.py        парсинг + чанкинг + определение языка/года
    ▼
 чанки
-   │  src/extract/extract.py         Yandex structured output → JSON по контракту (чекпоинты!)
-   ▼
+   │  src/extract/extract.py     Yandex structured output → JSON по онтологии-контракту
+   ▼                             (чекпоинт после каждого чанка)
 data/processed/*.json
-   │  src/graph/loader.py            дедуп сущностей, связи, ограничения, эмбеддинги
+   │  src/graph/loader.py        дедуп сущностей, связи, ограничения, эмбеддинги
    ▼
-Neo4j (граф + vector index)
-   │  src/retrieve/router.py         NL-запрос → слоты (интент + числовые/гео/врем. фильтры)
-   │  src/retrieve/retriever.py      вектор находит старт → Cypher-шаблоны обходят граф
-   │  src/retrieve/synthesize.py     подграф + источники → ответ с цитатами и достоверностью
+Neo4j  (граф + vector index + fulltext index)
+   │  src/retrieve/router.py       запрос → слоты (интент, числовые/гео/врем. фильтры)
+   │  src/retrieve/react_chain.py  4 уровня: разведка → углубление → кросс-проверка → синтез
+   │  src/retrieve/synthesize.py   подграф + источники → ответ с цитатами и достоверностью
    ▼
-Streamlit / CLI
+Streamlit UI / CLI
 ```
 
-**Контракт** (`schema/ontology.py`) — единая форма извлечения. Меняется только по согласованию команды.
-Сущности: Material, Process, Equipment, Property, Experiment, Publication, Expert, Facility,
+**Онтология-контракт** (`schema/ontology.py`) — единая форма извлечения. Сущности:
+Material, Process, Equipment, Property, Experiment, Publication, Expert, Facility,
 Conclusion, Recommendation. Связи: uses_material, operates_at_condition, produces_output,
 described_in, validated_by, contradicts, expert_in.
 
-**Ретрив без риска:** LLM НЕ пишет Cypher. Он подставляет параметры в руками написанные шаблоны
-(`src/graph/queries.py`). Хотите новый тип вопроса — добавьте туда шаблон.
+**Ретрив без риска:** LLM не пишет Cypher. Роутер извлекает параметры, которые
+подставляются в написанные вручную шаблоны запросов (`src/graph/queries.py`). Новый тип
+вопроса = новый шаблон.
+
+**Соответствие рекомендациям организаторов:**
+
+| Рекомендация | Решение |
+|---|---|
+| Графовые БД (Neo4j / Neptune / JanusGraph) | Neo4j 5.26 — граф, vector index и Lucene fulltext в одной БД |
+| Поиск (Elasticsearch / Vespa) | Lucene fulltext внутри Neo4j + гибридный ретрив (RRF-слияние с вектором) |
+| NLP (DeepPavlov / spaCy / ruBERT) | LLM structured output (YandexGPT) + langdetect — извлекаются сущности, связи и числовые ограничения из двуязычного корпуса |
+| Онтологии (OWL / RDF / SHACL) | онтология-контракт в коде + экспорт в JSON-LD (`scripts/export_jsonld.py`) |
+
+Подробнее — `SOLUTION_ARCHITECTURE_AND_TECH_STACK.md`.
 
 ---
 
-## Структура
+## Быстрый старт (локально)
 
-| Путь | Назначение | Ответственный |
-|---|---|---|
-| `schema/ontology.py` | ⭐ контракт: сущности/связи/ограничения + JSON-схемы | все (по согласованию) |
-| `src/ingest/parse.py` | PDF/PPTX/DOCX → чанки | A |
-| `src/extract/` | извлечение через Yandex + промпты + чекпоинты | A, B |
-| `src/yandex.py` | клиент Yandex (chat + structured output + ретраи) | B |
-| `src/embeddings.py` | эмбеддинги: yandex или локальный e5 | B |
-| `src/graph/` | загрузчик, индексы, Cypher-шаблоны | C |
-| `src/retrieve/` | роутер, ретривер, синтез | D |
-| `src/app/streamlit_app.py` | интерфейс: поиск, подграф сущностей, сравнение РФ/зарубеж, дашборд, экспорт | E |
-| `scripts/run_pipeline.py` | офлайн-прогон корпуса | C |
-| `scripts/ask.py` | вопрос из терминала | D |
+```bash
+# 1. Окружение
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# 2. Neo4j (только база)
+docker compose up -d          # Neo4j Browser: http://localhost:7474 (neo4j / password123)
+
+# 3. Ключи
+cp .env.example .env          # заполнить YANDEX_API_KEY и YANDEX_FOLDER_ID
+
+# 4. Загрузить готовый граф из закоммиченных data/processed/*.json
+python scripts/run_pipeline.py --load-only
+
+# 5. Спросить
+python scripts/ask.py "Какие методы обессоливания при сульфатах 200-300 мг/л и сухом остатке <=1000?"
+streamlit run src/app/streamlit_app.py        # веб-интерфейс: http://localhost:8501
+```
+
+Проверить связку граф + ретрив + синтез на одном чанке, без реального извлечения:
+
+```bash
+python scripts/load_fixture.py                # грузит fixtures/sample_extraction.json
+```
+
+---
+
+## Обработка корпуса
+
+В репозитории уже лежат предобработанные JSON (`data/processed/`), поэтому граф строится
+без обращения к LLM. Чтобы обработать свои документы, положите их в `data/raw/` и запустите
+пайплайн:
+
+```bash
+python scripts/run_pipeline.py --limit 1                    # 1 документ end-to-end (проверка)
+python scripts/run_pipeline.py --subdir "Доклады"           # конкретная подпапка
+python scripts/run_pipeline.py                              # весь корпус
+python scripts/run_pipeline.py --subdir "Доклады" --force   # перепарсить, игнорируя чекпоинты
+python scripts/run_pipeline.py --extract-only               # только извлечь в data/processed
+python scripts/run_pipeline.py --load-only                  # только загрузить JSON в граф
+```
+
+- Извлечение чекпоинтит после каждого чанка — обрыв не теряет прогон, повторный запуск
+  пропускает уже обработанные файлы.
+- Загрузка идемпотентна (`MERGE` по `chunk_id` / `key`, уже загруженные чанки пропускаются) —
+  дублей и лишних пересчётов эмбеддингов не будет.
+- Год и география документа определяются из структуры пути и метаданных файла, а не
+  гадаются LLM по каждому чанку — единое значение на документ.
+- Поддерживаются PDF / PPTX / DOCX (+ `.zip` разворачивается). `.rar` / `.xls` / `.xlsx` /
+  старый бинарный `.doc` пропускаются, список — в лог.
+
+---
+
+## Развёртывание
+
+### Публичная демо-ссылка (ngrok)
+
+Neo4j и приложение крутятся в Docker, наружу отдаёт ngrok по статическому домену. Нужен
+бесплатный токен ngrok и, для фиксированного адреса, зарезервированный домен.
+
+```bash
+# в .env: YANDEX_API_KEY, YANDEX_FOLDER_ID, NGROK_AUTHTOKEN
+# в docker-compose.tunnel.yml подставьте свой --domain (или уберите его для случайного адреса)
+docker compose -f docker-compose.tunnel.yml up -d --build
+```
+
+При старте приложение строит граф из закоммиченных `data/processed/*.json` (идемпотентно)
+и поднимает Streamlit. Локально доступно на http://localhost:8501, публично — по домену ngrok.
+
+### Свой сервер (прод)
+
+Extraction гоняется где угодно (локально у команды), на сервер заливаются только готовые
+`data/processed/*.json` — сырые документы серверу не нужны. Neo4j наружу не торчит (привязан
+к 127.0.0.1), UI на порту 8501.
+
+```bash
+# на сервере: git clone, затем
+cp .env.example .env                                        # YANDEX_API_KEY, YANDEX_FOLDER_ID, NEO4J_PASSWORD
+rsync -av data/processed/ user@server:~/nornicel/data/processed/   # с локальной машины
+docker compose -f docker-compose.prod.yml up -d --build
+docker compose -f docker-compose.prod.yml run --rm app \
+    python scripts/run_pipeline.py --load-only             # построить граф из JSON
+# UI: http://<server-ip>:8501
+```
+
+Neo4j Browser с локальной машины — через SSH-туннель:
+`ssh -L 7474:localhost:7474 -L 7687:localhost:7687 user@server`.
+
+### Долить новые документы
+
+```bash
+python scripts/run_pipeline.py --extract-only --subdir "Статьи"   # обработать локально
+git add data/processed && git commit                              # (по желанию)
+docker compose -f docker-compose.tunnel.yml restart app           # подхватить новые JSON
+```
+
+Контейнер грузит только готовые JSON; сырые файлы из `data/raw/` он сам не извлекает.
+
+---
+
+## Структура репозитория
+
+| Путь | Назначение |
+|---|---|
+| `schema/ontology.py` | онтология-контракт: сущности, связи, ограничения + JSON-схемы |
+| `src/ingest/parse.py` | PDF / PPTX / DOCX → чанки |
+| `src/extract/` | извлечение через Yandex + промпты + чекпоинты |
+| `src/yandex.py` | клиент Yandex (chat, structured output, ретраи, rate limit) |
+| `src/embeddings.py` | эмбеддинги: Yandex или локальный e5 |
+| `src/graph/` | загрузчик, индексы, Cypher-шаблоны |
+| `src/retrieve/` | роутер, ReAct-цепочка, синтез |
+| `src/app/streamlit_app.py` | веб-интерфейс: поиск, цепочка рассуждений, подграф, аналитика, экспорт |
+| `scripts/run_pipeline.py` | офлайн-прогон корпуса (extract / load) |
+| `scripts/ask.py` | вопрос из терминала |
+| `scripts/load_fixture.py` | загрузка тест-фикстуры в граф |
+| `scripts/export_jsonld.py` | экспорт графа в JSON-LD (RDF-совместимо, FAIR) |
+| `config.py` | вся конфигурация, читается из `.env` |
+| `docker-compose.yml` | только Neo4j (локальная разработка) |
+| `docker-compose.tunnel.yml` | Neo4j + приложение + ngrok (публичная демо) |
+| `docker-compose.prod.yml` | Neo4j + приложение для своего сервера |
 
 ---
 
 ## Настройки (`.env`)
 
-- **Модели:** `LLM_MODEL_MAIN=yandexgpt` (Pro) для извлечения/синтеза, `LLM_MODEL_FAST=yandexgpt-lite` для роутинга.
-  Тяжёлые чанки с числами можно гнать через `qwen3-235b-a22b-fp8` (доступна в Studio) — поставь в `LLM_MODEL_MAIN`.
-- **Эмбеддинги:** `EMBED_BACKEND=yandex` (в контуре) или `e5` (локально, офлайн — тогда `pip install sentence-transformers`).
-- **Приватность:** клиент шлёт заголовок `x-data-logging-enabled: false` — провайдер не логирует запросы (аргумент для питча по ИБ).
+Все параметры — в `config.py`, значения по умолчанию рабочие. Ключевое:
 
-## Заметки
+- **Ключи Yandex:** `YANDEX_API_KEY`, `YANDEX_FOLDER_ID` (обязательны — эмбеддинги при
+  загрузке, роутинг и синтез при ответах).
+- **Модели:** `LLM_MODEL_MAIN=yandexgpt` (извлечение / синтез), `LLM_MODEL_FAST=yandexgpt-lite`
+  (роутинг). В Studio доступны и тяжёлые модели (`qwen3-235b-a22b-fp8` и др.) для спорных чанков.
+- **Эмбеддинги:** `EMBED_BACKEND=yandex` (в контуре) или `e5` (локально, офлайн —
+  `pip install sentence-transformers`).
+- **Neo4j:** `NEO4J_URI` / `NEO4J_USER` / `NEO4J_PASSWORD`. Внутри Docker-сети URI
+  перекрывается на `bolt://neo4j:7687`.
+- **Конкурентность:** `MAX_WORKERS=1` — Yandex AI Studio плохо переносит конкурентные
+  запросы с одного ключа (тротлинг, ретраи стакаются). Поднимать осторожно.
+- **ngrok:** `NGROK_AUTHTOKEN` — для публичной демо-ссылки.
 
-- Векторный индекс создаётся под размерность эмбеддера автоматически (`init_schema`).
-- Извлечение чекпоинтит после **каждого** чанка в `data/processed/` — обрыв не теряет прогон.
-- `parse_dir()` пропускает файлы, для которых уже есть чекпоинт (`--force` — принудительный перепарсинг),
-  и разворачивает `.zip` перед парсингом. `.rar`/`.xls`/`.xlsx`/старый бинарный `.doc` — не поддерживаются,
-  список пропущенных типов печатается в лог.
-- Год/география документа определяются в первую очередь из структуры пути (`Журналы/.../2020/`,
-  `ОИП-03-2022...`), а не гадаются LLM независимо по каждому чанку — единое значение на весь документ
-  (`src/extract/extract.py::_finalize_metadata`).
-- `MAX_WORKERS` (по умолчанию 1) — Yandex AI Studio плохо переносит конкурентные запросы с одного ключа,
-  поднимайте только после проверки на практике.
-- `data/` и `.env` — в `.gitignore`. Ключ в репозиторий не коммитить; при утечке — перевыпустить в AI Studio.
-- Опциональный апгрейд: официальный пакет `neo4j-graphrag-python` (готовые `VectorCypherRetriever`).
+`.env` и `data/` — в `.gitignore`; ключи в репозиторий не попадают (и в образ тоже — см. `.dockerignore`).
 
-## Соответствие рекомендациям организаторов
+---
 
-| Рекомендация | Наше решение | Почему так |
-|---|---|---|
-| Графовые БД: Neo4j, Neptune, JanusGraph | **Neo4j 5.26** | vector index + Lucene fulltext + Cypher в одной БД, локальный docker |
-| Поиск: Elasticsearch, Vespa | **Lucene fulltext-индекс внутри Neo4j** + гибридный ретрив (RRF-слияние с вектором) | тот же поисковый движок (Lucene), что в Elasticsearch, но без второй инфраструктуры; точные термины и аббревиатуры (ПВП, Cu-EW) ловятся полнотекстом, смысл — вектором |
-| NLP: DeepPavlov, spaCy, ruBERT | **LLM structured output** (YandexGPT) + langdetect | корпус двуязычный (RU+EN), извлекаются не только сущности, но и связи + числовые ограничения с нормализацией единиц — классические NER-модели потребовали бы разметки и дообучения под домен |
-| Онтологии: OWL, RDF, SHACL | онтология-контракт в коде (`schema/ontology.py`) + **экспорт в JSON-LD** (`scripts/export_jsonld.py`) | JSON-LD — сериализация RDF: граф загружается в Apache Jena/GraphDB, совместим с принципами FAIR |
+## Ссылки
 
-## Развёртывание
-
-- **Публичная демо-ссылка без карт и регистраций** — всё в docker + Cloudflare quick tunnel
-  (Neo4j и приложение локально, наружу отдаёт `cloudflared`, граф строится из
-  закоммиченных `data/processed/*.json`): **[CLOUDFLARE_TUNNEL.md](CLOUDFLARE_TUNNEL.md)**,
-  одна команда `docker compose -f docker-compose.tunnel.yml up --build`.
-- **Свой сервер** (Neo4j наружу не торчит) — **[DEPLOY.md](DEPLOY.md)**
-  (`Dockerfile` + `docker-compose.prod.yml`). Extraction гоняется локально, на сервер
-  заливаются только готовые `data/processed/*.json`, из них строится граф.
-
-## Полезные ссылки
-
-- Yandex AI Studio structured output: https://ai.api.cloud.yandex.net/v1 (см. доки AI Studio)
-- Neo4j vector index: https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/
-- neo4j-graphrag-python: https://neo4j.com/docs/neo4j-graphrag-python/current/
+- Yandex AI Studio — https://ai.api.cloud.yandex.net/v1
+- Neo4j vector index — https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/

@@ -5,10 +5,7 @@ import re
 
 import config
 
-# Спецсимволы Lucene-синтаксиса — экранируем, чтобы пользовательский текст
-# не ломал полнотекстовый запрос
 _LUCENE_SPECIAL = re.compile(r'[+\-!(){}\[\]^"~*?:\\/]|&&|\|\|')
-
 
 def vector_search(session, query_embedding, top_k=8, geography=None, year_from=None):
     """Семантический старт: ближайшие чанки по вектору + необязательные фильтры.
@@ -31,7 +28,6 @@ def vector_search(session, query_embedding, top_k=8, geography=None, year_from=N
         k=k_fetch, emb=query_embedding, geo=geography, yf=year_from, out=top_k,
     )
     return [r.data() for r in rows]
-
 
 def fulltext_search(session, query_text, top_k=8, geography=None, year_from=None):
     """Полнотекстовый поиск по Lucene-индексу (тот же движок, что в Elasticsearch).
@@ -57,7 +53,6 @@ def fulltext_search(session, query_text, top_k=8, geography=None, year_from=None
     )
     return [r.data() for r in rows]
 
-
 def hybrid_search(session, query_embedding, query_text, top_k=8,
                   geography=None, year_from=None):
     """Гибридный поиск: вектор + полнотекст, слияние Reciprocal Rank Fusion.
@@ -66,7 +61,7 @@ def hybrid_search(session, query_embedding, query_text, top_k=8,
                         geography=geography, year_from=year_from)
     ft = fulltext_search(session, query_text, top_k=top_k,
                          geography=geography, year_from=year_from)
-    K = 60  # стандартная константа RRF
+    K = 60
     scores, by_id = {}, {}
     for rank, ch in enumerate(vec):
         cid = ch["chunk_id"]
@@ -83,7 +78,6 @@ def hybrid_search(session, query_embedding, query_text, top_k=8,
         ch["score"] = scores[cid]
         out.append(ch)
     return out
-
 
 def find_by_constraint(session, param, op, value=None, value_max=None,
                        geography=None, limit=25):
@@ -113,7 +107,6 @@ def find_by_constraint(session, param, op, value=None, value_max=None,
     )
     return [r.data() for r in rows]
 
-
 def neighborhood(session, entity_keys, hops=2, limit=60):
     """Подграф вокруг найденных сущностей: цепочки материал->процесс->оборудование->результат."""
     rows = session.run(
@@ -130,7 +123,6 @@ def neighborhood(session, entity_keys, hops=2, limit=60):
     )
     return [r.data() for r in rows]
 
-
 def entities_for_chunks(session, chunk_ids, limit=40):
     """Сущности, упомянутые в данных чанках — стартовые узлы для визуализации подграфа."""
     if not chunk_ids:
@@ -146,7 +138,6 @@ def entities_for_chunks(session, chunk_ids, limit=40):
         ids=chunk_ids, limit=limit,
     )
     return [r.data() for r in rows]
-
 
 def find_experiments_publications(session, keywords, year_from=None, geography=None, limit=30):
     """Эксперименты и публикации по теме (для запросов 'покажите все ... за N лет')."""
@@ -168,7 +159,6 @@ def find_experiments_publications(session, keywords, year_from=None, geography=N
     )
     return [r.data() for r in rows]
 
-
 def find_contradictions(session, limit=25):
     """Дёшево и эффектно: пары сущностей со связью contradicts."""
     rows = session.run(
@@ -180,7 +170,6 @@ def find_contradictions(session, limit=25):
         limit=limit,
     )
     return [r.data() for r in rows]
-
 
 def find_gaps(session, material_key=None, limit=25):
     """Пробелы: процессы, у которых нет привязанных экспериментов (глобально или для конкретного материала)."""

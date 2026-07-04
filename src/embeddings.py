@@ -11,17 +11,15 @@ from functools import lru_cache
 import config
 from src.yandex import get_client, wait_rate_limit
 
-
 class Embedder:
-    def embed_documents(self, texts):  # -> list[list[float]]
+    def embed_documents(self, texts):
         raise NotImplementedError
 
-    def embed_query(self, text):        # -> list[float]
+    def embed_query(self, text):
         raise NotImplementedError
 
     def dim(self) -> int:
         return len(self.embed_query("проба"))
-
 
 class YandexEmbedder(Embedder):
     def __init__(self):
@@ -37,12 +35,10 @@ class YandexEmbedder(Embedder):
         for attempt in range(max_retries):
             try:
                 wait_rate_limit()
-                # У Yandex эмбеддинги считаются по одному тексту за вызов.
                 r = self.client.embeddings.create(model=self._emb_uri(model), input=text, encoding_format="float")
                 return r.data[0].embedding
             except Exception as e:
                 last = e
-                # Ждем перед ретраем (exponential backoff)
                 time.sleep(0.5 * (2 ** attempt))
         if last is not None:
             raise last
@@ -50,17 +46,14 @@ class YandexEmbedder(Embedder):
 
     def embed_documents(self, texts):
         with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as pool:
-            # map сохраняет порядок результатов == порядку texts
             return list(pool.map(lambda t: self._embed_one(t, config.EMBED_MODEL_DOC), texts))
 
     def embed_query(self, text):
         return self._embed_one(text, config.EMBED_MODEL_QUERY)
 
-
 class E5Embedder(Embedder):
     """Локальный fallback. e5 требует префиксов 'passage:' / 'query:'."""
     def __init__(self):
-        # pyrefly: ignore [missing-import]
         from sentence_transformers import SentenceTransformer
         self.model = SentenceTransformer(config.E5_MODEL)
 
@@ -71,7 +64,6 @@ class E5Embedder(Embedder):
     def embed_query(self, text):
         v = self.model.encode(f"query: {text}", normalize_embeddings=True)
         return v.tolist()
-
 
 @lru_cache(maxsize=1)
 def get_embedder() -> Embedder:

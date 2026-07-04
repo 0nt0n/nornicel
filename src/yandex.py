@@ -18,7 +18,6 @@ _rate_limit_lock = threading.Lock()
 _last_request_time = 0.0
 _RPS_LIMIT = 9.0
 
-
 def wait_rate_limit():
     """Глобальный ограничитель RPS для всех запросов к Yandex API (9 RPS)."""
     global _last_request_time
@@ -34,7 +33,6 @@ def wait_rate_limit():
     if wait_time > 0:
         time.sleep(wait_time)
 
-
 @lru_cache(maxsize=1)
 def get_client() -> OpenAI:
     config.require_yandex()
@@ -44,14 +42,12 @@ def get_client() -> OpenAI:
         project=config.YANDEX_FOLDER_ID,
         default_headers={
             "x-folder-id": config.YANDEX_FOLDER_ID,
-            "x-data-logging-enabled": "false",  # приватность: не логировать запросы
+            "x-data-logging-enabled": "false",
         },
     )
 
-
 def _model_uri(model: str) -> str:
     return f"gpt://{config.YANDEX_FOLDER_ID}/{model}/latest"
-
 
 def _extract_json(raw: str) -> dict:
     """Достаёт JSON из ответа: снимает ```-ограждения и берёт объект между первой { и последней }."""
@@ -64,7 +60,6 @@ def _extract_json(raw: str) -> dict:
     if a != -1 and b != -1:
         s = s[a : b + 1]
     return json.loads(s)
-
 
 def chat_text(system: str, user: str, model: str = None,
               temperature: float = None, max_retries: int = 4) -> str:
@@ -85,13 +80,12 @@ def chat_text(system: str, user: str, model: str = None,
                 max_tokens=config.MAX_TOKENS,
             )
             return resp.choices[0].message.content
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             last = e
             time.sleep(0.5 * (2 ** attempt))
     if last is not None:
         raise last
     raise RuntimeError("API max_retries exhausted")
-
 
 def chat_json(system: str, user: str, schema_name: str, schema: dict,
               model: str = None, max_retries: int = 4) -> dict:
@@ -119,14 +113,13 @@ def chat_json(system: str, user: str, schema_name: str, schema: dict,
     for attempt in range(max_retries):
         try:
             return _extract_json(_call(rf_schema))
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             last = e
             time.sleep(0.5 * (2 ** attempt))
-    # запасной режим: json_object
     messages[1]["content"] += "\n\nВерни ТОЛЬКО валидный JSON строго по описанной схеме, без пояснений."
     try:
         return _extract_json(_call({"type": "json_object"}))
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         if last is not None:
             raise last
         raise e

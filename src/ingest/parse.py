@@ -16,12 +16,8 @@ import config
 
 SUPPORTED_EXT = {".pdf", ".pptx", ".docx", ".docm", ".doc"}
 _YEAR_RE = re.compile(r"(19|20)\d{2}")
-# конец предложения: .!?… с возможной закрывающей скобкой/кавычкой, за которым пробел
 _SENT_END_RE = re.compile(r"[.!?…][)»\"']?\s")
-# "Tony_Keating_..." / "Aurelien_Louis_..." — латиница + подчёркивания в начале имени файла,
-# типичный паттерн для докладов иностранных спикеров в "Материалы конференций".
 _FOREIGN_AUTHOR_RE = re.compile(r"^[A-Za-z]+([_ ][A-Za-z.]+)+_")
-
 
 @dataclass
 class Chunk:
@@ -31,14 +27,13 @@ class Chunk:
     page: int
     lang: str
     text: str
-    doc_type: str = "unknown"          # верхнеуровневая папка: Доклады/Журналы/Статьи/...
-    path_year: Optional[int] = None    # год, если он читается из пути/имени файла
-    path_geo: Optional[str] = None     # "foreign", если эвристика по имени сработала, иначе None
-    meta_year: Optional[int] = None    # год из метаданных файла (PDF info / OOXML core properties)
+    doc_type: str = "unknown"
+    path_year: Optional[int] = None
+    path_geo: Optional[str] = None
+    meta_year: Optional[int] = None
 
     def dict(self):
         return asdict(self)
-
 
 def _detect_lang(text: str) -> str:
     try:
@@ -46,7 +41,6 @@ def _detect_lang(text: str) -> str:
         return detect(text[:500])
     except Exception:
         return "unknown"
-
 
 def _year_from_path(rel_path: str) -> Optional[int]:
     """Ищет 4-значный год в компонентах пути, начиная с самого специфичного (ближе к файлу)."""
@@ -59,7 +53,6 @@ def _year_from_path(rel_path: str) -> Optional[int]:
                 return y
     return None
 
-
 def _geo_from_path(rel_path: str, doc_type: str) -> Optional[str]:
     """Слабая эвристика: явно иностранное имя файла в 'Материалы конференций'.
     Возвращает None (а не 'RU'), если сигнала нет — пусть решает LLM по содержимому."""
@@ -67,7 +60,6 @@ def _geo_from_path(rel_path: str, doc_type: str) -> Optional[str]:
     if doc_type == "Материалы конференций" and _FOREIGN_AUTHOR_RE.match(name):
         return "foreign"
     return None
-
 
 def _file_meta_year(path: str) -> Optional[int]:
     """Год из встроенных метаданных файла (PDF Info / OOXML core properties).
@@ -79,7 +71,6 @@ def _file_meta_year(path: str) -> Optional[int]:
             import fitz
             with fitz.open(path) as doc:
                 meta = doc.metadata or {}
-            # 'D:20200115...' — приоритет дате создания, затем модификации
             for key in ("creationDate", "modDate"):
                 m = _YEAR_RE.search(meta.get(key) or "")
                 if m:
@@ -98,17 +89,15 @@ def _file_meta_year(path: str) -> Optional[int]:
             for dt in (props.created, props.modified):
                 if dt and 1950 <= dt.year <= 2030:
                     return dt.year
-    except Exception:  # noqa: BLE001
+    except Exception:
         pass
     return None
-
 
 def _doc_id(rel_path: str) -> str:
     """doc_id из относительного пути (не только имени файла) — чтобы избежать коллизий
     одинаковых/похожих имён файлов в разных папках."""
     stem = os.path.splitext(rel_path)[0]
     return stem.replace("\\", "/").replace("/", "__")
-
 
 def _extract_archives(raw_dir: str) -> None:
     """Разворачивает .zip рядом с самим архивом в <имя>__extracted/, один раз (идемпотентно).
@@ -127,9 +116,8 @@ def _extract_archives(raw_dir: str) -> None:
                 with zipfile.ZipFile(zpath) as zf:
                     zf.extractall(out_dir)
                 print(f"[parse] распакован архив: {os.path.relpath(zpath, raw_dir)}")
-            except Exception as e:  # noqa: BLE001
+            except Exception as e:
                 print(f"[parse] не удалось распаковать {f}: {e}")
-
 
 def _read_docx_text(path: str) -> str:
     """Текст DOCX: параграфы + ТАБЛИЦЫ. Таблицы в отраслевых обзорах несут основную
@@ -145,10 +133,9 @@ def _read_docx_text(path: str) -> str:
                 line = " | ".join(c for c in cells if c)
                 if line:
                     parts.append(line)
-        except Exception:  # noqa: BLE001
-            continue  # битая таблица не должна ронять весь документ
+        except Exception:
+            continue
     return "\n".join(parts)
-
 
 def _read_pages(path: str):
     """Возвращает список (page_number, text) для одного файла любого поддерживаемого формата."""
@@ -174,13 +161,12 @@ def _read_pages(path: str):
                 for sh in slide.shapes
                 if getattr(sh, "has_text_frame", False)
             ]
-            # заметки спикера — часто содержат основной текст доклада, терять нельзя
             try:
                 if slide.has_notes_slide and slide.notes_slide.notes_text_frame:
                     notes = slide.notes_slide.notes_text_frame.text.strip()
                     if notes:
                         parts.append(notes)
-            except Exception:  # noqa: BLE001
+            except Exception:
                 pass
             pages.append((i, "\n".join(parts)))
 
@@ -196,7 +182,6 @@ def _read_pages(path: str):
 
     return pages
 
-
 def _chunk_text(text: str, size: int, overlap: int) -> List[str]:
     """Режет текст на куски ~size символов, стараясь НЕ рвать предложения:
     граница ищется по концу предложения в последней трети окна, затем по пробелу.
@@ -208,12 +193,11 @@ def _chunk_text(text: str, size: int, overlap: int) -> List[str]:
         return [text]
 
     out, start, n = [], 0, len(text)
-    min_cut = int(size * 0.6)   # не дробим слишком мелко: граница не раньше 60% окна
+    min_cut = int(size * 0.6)
     while start < n:
         end = start + size
         if end >= n:
             tail = text[start:].strip()
-            # хвост меньше overlap — доклеиваем к предыдущему куску вместо отдельного мини-чанка
             if out and len(tail) < max(overlap, 120):
                 out[-1] = out[-1] + " " + tail
             elif tail:
@@ -223,14 +207,13 @@ def _chunk_text(text: str, size: int, overlap: int) -> List[str]:
         window = text[start:end]
         cut = None
         for m in _SENT_END_RE.finditer(window, min_cut):
-            cut = m.end()          # последняя граница предложения в допустимой зоне
+            cut = m.end()
         if cut is None:
             sp = window.rfind(" ", min_cut)
             cut = sp if sp != -1 else size
         out.append(window[:cut].strip())
-        start += max(cut - overlap, min_cut)   # гарантия продвижения вперёд
+        start += max(cut - overlap, min_cut)
     return out
-
 
 def _group_small_pages(pages, size: int):
     """Соседние 'мелкие' страницы (слайды, титульники) склеиваются в один блок
@@ -254,7 +237,6 @@ def _group_small_pages(pages, size: int):
         groups.append((buf_page, buf_text))
     return groups
 
-
 def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chunk]:
     rel_path = rel_path or os.path.basename(path)
     doc_id = doc_id or _doc_id(rel_path)
@@ -269,7 +251,7 @@ def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chun
     for page_no, page_text in grouped:
         for j, piece in enumerate(_chunk_text(page_text, config.CHUNK_SIZE, config.CHUNK_OVERLAP)):
             if len(piece) < config.MIN_CHUNK_CHARS:
-                continue  # обрывки без смысловой нагрузки не несут знаний — только шум в векторах
+                continue
             chunks.append(Chunk(
                 chunk_id=f"{doc_id}::p{page_no}::c{j}",
                 doc_id=doc_id,
@@ -283,7 +265,6 @@ def parse_file(path: str, doc_id: str = None, rel_path: str = None) -> List[Chun
                 meta_year=meta_year,
             ))
     return chunks
-
 
 def parse_dir(raw_dir: str = None, subdir: str = None, skip_processed: bool = True) -> List[Chunk]:
     """Парсит корпус.
@@ -319,7 +300,7 @@ def parse_dir(raw_dir: str = None, subdir: str = None, skip_processed: bool = Tr
 
             try:
                 chunks.extend(parse_file(path, doc_id=doc_id, rel_path=rel_path))
-            except Exception as e:  # noqa: BLE001
+            except Exception as e:
                 print(f"[parse] пропущен {rel_path}: {e}")
 
     if skipped_ext:

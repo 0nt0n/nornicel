@@ -12,9 +12,6 @@ from src.yandex import chat_text
 from src.embeddings import get_embedder
 from src.graph import queries as Q
 
-
-# --- Промпты для каждого уровня ---
-
 REASON_L1_SYSTEM = """Ты — аналитик R&D горно-металлургической отрасли.
 Тебе дан исследовательский ЗАПРОС и набор НАЙДЕННЫХ ФРАГМЕНТОВ из корпуса документов.
 
@@ -78,7 +75,6 @@ SYNTH_MULTI_SYSTEM = """Ты — старший аналитик R&D горно-
 - Пиши по-русски, деловым языком, объёмно и информативно. Минимум 300 слов.
 - Если данных мало — честно скажи, но выжми максимум из того, что есть."""
 
-
 def _fmt_chunks(chunks, max_chars=600):
     """Форматирует чанки для промпта."""
     parts = []
@@ -88,7 +84,6 @@ def _fmt_chunks(chunks, max_chars=600):
         text = ch.get("text", "")[:max_chars]
         parts.append(f"{header} {text}")
     return "\n\n".join(parts)
-
 
 def _parse_json_safe(text):
     """Безопасный парсинг JSON из ответа LLM."""
@@ -108,7 +103,6 @@ def _parse_json_safe(text):
                 "contradictions": [], "verified_facts": [],
                 "confidence_assessment": "medium"}
 
-
 def _dedup_chunks(all_chunks):
     """Дедупликация чанков по chunk_id."""
     seen = set()
@@ -119,7 +113,6 @@ def _dedup_chunks(all_chunks):
             seen.add(cid)
             result.append(ch)
     return result
-
 
 def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=None):
     """ReAct-цепочка: многоуровневый поиск с промежуточными рассуждениями.
@@ -139,8 +132,8 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
         if progress_cb:
             try:
                 progress_cb(level, msg)
-            except Exception:  # noqa: BLE001
-                pass  # сбой UI-коллбека не должен ронять поиск
+            except Exception:
+                pass
 
     embedder = get_embedder()
     geo = slots.get("geography") if slots.get("geography") != "unknown" else None
@@ -149,15 +142,12 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
     all_chunks = []
     levels = []
 
-    # ===================== УРОВЕНЬ 1: Разведка =====================
     _notify(1, "Разведка: гибридный поиск (вектор + полнотекст)...")
     qvec = embedder.embed_query(question)
-    # гибрид: вектор ловит смысл, Lucene-полнотекст — точные термины и аббревиатуры
     l1_chunks = Q.hybrid_search(session, qvec, question, top_k=10,
                                 geography=geo, year_from=year_from)
     all_chunks.extend(l1_chunks)
 
-    # Числовые ограничения
     constraint_hits = []
     for c in slots.get("constraints", []):
         constraint_hits += Q.find_by_constraint(
@@ -165,7 +155,6 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
             value=c.get("value"), value_max=c.get("value_max"), geography=geo,
         )
 
-    # Эксперименты/публикации
     exp_pubs = []
     if slots.get("intent") in ("literature_review", "list_experiments"):
         kws = slots.get("materials", []) + slots.get("processes", [])
@@ -174,7 +163,6 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
                 session, keywords=kws, year_from=year_from, geography=geo
             )
 
-    # Reason-шаг: анализ покрытия
     _notify(1, f"Разведка: найдено {len(l1_chunks)} фрагментов, анализирую покрытие запроса...")
     ctx_text = _fmt_chunks(l1_chunks)
     reason_prompt = f"ЗАПРОС:\n{question}\n\nНАЙДЕННЫЕ ФРАГМЕНТЫ:\n{ctx_text}"
@@ -197,8 +185,7 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
         return _build_result(session, question, slots, all_chunks, levels,
                              constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
-    # ===================== УРОВЕНЬ 2: Углубление =====================
-    sub_queries = l1_reason.get("sub_queries", [])[:3]  # макс. 3 подзапроса
+    sub_queries = l1_reason.get("sub_queries", [])[:3]
     l2_chunks = []
 
     for i, sq in enumerate(sub_queries, 1):
@@ -223,15 +210,13 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
         return _build_result(session, question, slots, all_chunks, levels,
                              constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
-    # ===================== УРОВЕНЬ 3: Перекрёстная проверка =====================
     _notify(3, "Перекрёстная проверка фактов на противоречия между источниками...")
     all_deduped = _dedup_chunks(all_chunks)
-    all_ctx = _fmt_chunks(all_deduped[:20])  # топ-20 для проверки
+    all_ctx = _fmt_chunks(all_deduped[:20])
     verify_prompt = f"ЗАПРОС:\n{question}\n\nВСЕ НАЙДЕННЫЕ ФРАГМЕНТЫ:\n{all_ctx}"
     verify_response = chat_text(REASON_L3_SYSTEM, verify_prompt, model=config.LLM_MODEL_FAST)
     l3_reason = _parse_json_safe(verify_response)
 
-    # Если есть противоречия — делаем ещё один поиск
     l3_extra_chunks = []
     contradictions = l3_reason.get("contradictions", [])
     for contr in contradictions[:2]:
@@ -253,7 +238,6 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
         "reasoning": l3_reason.get("reasoning", ""),
     })
 
-    # ===================== УРОВЕНЬ 4: Финальная сборка =====================
     _notify(4, "Финальная сборка контекста и подграфа...")
     all_chunks = _dedup_chunks(all_chunks)
 
@@ -267,30 +251,25 @@ def multi_level_retrieve(session, question, slots, max_levels=4, progress_cb=Non
     return _build_result(session, question, slots, all_chunks, levels,
                          constraint_hits, exp_pubs, geo, year_from, embedder, qvec)
 
-
 def _build_result(session, question, slots, all_chunks, levels,
                   constraint_hits, exp_pubs, geo, year_from, embedder, qvec=None):
     """Собирает финальный результат с сущностями и подграфом."""
-    # Сравнительный запрос
     comparison_chunks = None
     if slots.get("comparison"):
-        if qvec is None:  # вектор вопроса уже посчитан на уровне 1 — не жжём API повторно
+        if qvec is None:
             qvec = embedder.embed_query(question)
         comparison_chunks = {
             "RU": Q.vector_search(session, qvec, top_k=8, geography="RU", year_from=year_from),
             "foreign": Q.vector_search(session, qvec, top_k=8, geography="foreign", year_from=year_from),
         }
 
-    # Пробелы
     gaps = Q.find_gaps(session, limit=10)
 
-    # Сущности и подграф
     chunk_ids = [ch["chunk_id"] for ch in all_chunks if ch.get("chunk_id")]
     entities = Q.entities_for_chunks(session, chunk_ids)
     entity_keys = [e["key"] for e in entities]
     subgraph_edges = Q.neighborhood(session, entity_keys, hops=1) if entity_keys else []
 
-    # Источники
     sources = {}
     for ch in all_chunks:
         did = ch.get("doc_id")
@@ -311,12 +290,10 @@ def _build_result(session, question, slots, all_chunks, levels,
         "levels": levels,
     }
 
-
 def synthesize_multi(question, context, model=None):
     """Финальный синтез с многоуровневым контекстом."""
     parts = []
 
-    # Основные чанки
     for ch in context.get("chunks", [])[:20]:
         conf = ch.get("confidence", "medium")
         parts.append(
@@ -324,7 +301,6 @@ def synthesize_multi(question, context, model=None):
             f"{ch.get('year', '?')} | conf={conf}] {ch.get('text', '')[:600]}"
         )
 
-    # Сравнительные данные
     comparison = context.get("comparison_chunks")
     if comparison:
         ru_part = "\n".join(
@@ -338,7 +314,6 @@ def synthesize_multi(question, context, model=None):
         parts.append("ОТЕЧЕСТВЕННАЯ ПРАКТИКА (RU):\n" + (ru_part or "(нет данных)"))
         parts.append("ЗАРУБЕЖНАЯ ПРАКТИКА (foreign):\n" + (foreign_part or "(нет данных)"))
 
-    # Числовые совпадения
     if context.get("constraint_hits"):
         parts.append("ЧИСЛОВЫЕ СОВПАДЕНИЯ: " +
                       json.dumps(context["constraint_hits"][:10], ensure_ascii=False)[:1500])
@@ -349,7 +324,6 @@ def synthesize_multi(question, context, model=None):
         parts.append("ПРОБЕЛЫ: " +
                       json.dumps(context["gaps"][:10], ensure_ascii=False)[:1000])
 
-    # Цепочка рассуждений
     reasoning_chain = []
     for lvl in context.get("levels", []):
         reasoning_chain.append(

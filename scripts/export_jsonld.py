@@ -29,11 +29,9 @@ CONTEXT = {
        for rel in RELATION_TYPES},
 }
 
-
 def export(session):
     graph = []
 
-    # Сущности с типами из онтологии
     rows = session.run(
         """
         MATCH (e:Entity)
@@ -52,7 +50,6 @@ def export(session):
                 node[field] = r[field]
         graph.append(node)
 
-    # Связи между сущностями (типизированы по онтологии)
     rows = session.run(
         """
         MATCH (a:Entity)-[r:REL]->(b:Entity)
@@ -66,7 +63,6 @@ def export(session):
             rel_type: BASE_IRI + "entity/" + (r["dst"] or "").replace(" ", "_"),
         })
 
-    # Числовые ограничения с провенансом
     rows = session.run(
         """
         MATCH (e:Entity)-[:HAS_CONSTRAINT]->(c:Constraint)-[:FROM_CHUNK]->(ch:Chunk)
@@ -88,7 +84,6 @@ def export(session):
         })
 
     return {"@context": CONTEXT, "@graph": graph}
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

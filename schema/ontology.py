@@ -21,12 +21,10 @@ RELATION_TYPES = [
     "uses_material", "operates_at_condition", "produces_output",
     "described_in", "validated_by", "contradicts", "expert_in",
 ]
-OPS = ["le", "ge", "eq", "range"]  # <=, >=, =, диапазон [min..max]
+OPS = ["le", "ge", "eq", "range"]
 GEO = ["RU", "foreign", "unknown"]
 CONFIDENCE = ["high", "medium", "low"]
 
-
-# --- Pydantic-модели (валидация после парсинга ответа LLM) ---
 class Entity(BaseModel):
     id: str = Field(description="Локальный id в пределах чанка, напр. e1")
     type: str = Field(description="Один из ENTITY_TYPES")
@@ -34,13 +32,11 @@ class Entity(BaseModel):
     name_en: str = ""
     canonical: str = Field("", description="Канонический термин для сведе́ния синонимов RU<->EN")
 
-
 class Relation(BaseModel):
     source_id: str
     target_id: str
     type: str = Field(description="Один из RELATION_TYPES")
     evidence: str = Field("", description="Фрагмент текста, подтверждающий связь")
-
 
 class Constraint(BaseModel):
     entity_id: str
@@ -51,13 +47,11 @@ class Constraint(BaseModel):
     unit: str = ""
     condition: str = Field("", description="Контекст условия, напр. 'холодный климат'")
 
-
 class Metadata(BaseModel):
     lang: str = "ru"
-    geography: str = "unknown"       # RU | foreign | unknown
+    geography: str = "unknown"
     year: Optional[int] = None
-    confidence: str = "medium"       # high | medium | low
-
+    confidence: str = "medium"
 
 class ChunkExtraction(BaseModel):
     entities: List[Entity] = []
@@ -65,8 +59,6 @@ class ChunkExtraction(BaseModel):
     constraints: List[Constraint] = []
     metadata: Metadata = Metadata()
 
-
-# --- Явная JSON-схема для response_format (надёжнее, чем авто-экспорт pydantic) ---
 EXTRACTION_JSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -127,8 +119,6 @@ EXTRACTION_JSON_SCHEMA = {
     "required": ["entities", "relations", "constraints", "metadata"],
 }
 
-
-# --- Схема для роутера запросов (NL -> структурные слоты) ---
 QUERY_SLOTS_JSON_SCHEMA = {
     "type": "object",
     "properties": {

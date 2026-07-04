@@ -15,7 +15,6 @@ from src.yandex import chat_json
 from src.extract.prompts import (EXTRACT_SYSTEM, EXTRACT_USER_TMPL,
                                  EXTRACT_RETRY_SYSTEM, EXTRACT_RETRY_USER_TMPL)
 
-
 def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
     user = EXTRACT_USER_TMPL.format(
         lang=chunk.lang, doc_id=chunk.doc_id, page=chunk.page, text=chunk.text
@@ -28,18 +27,16 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
             schema=EXTRACTION_JSON_SCHEMA,
             model=model or config.LLM_MODEL_MAIN,
         )
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         print(f"[extract] запрос к модели упал для {chunk.chunk_id}: {e!r}")
         return ChunkExtraction()
 
     try:
         result = ChunkExtraction(**raw)
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         print(f"[extract] невалидный JSON от модели для {chunk.chunk_id}: {e} | raw={str(raw)[:300]}")
         return ChunkExtraction()
 
-    # Retry с упрощённым промптом, если извлечение вернуло пустой результат,
-    # а текст достаточно содержательный (не оглавление/пустышка)
     if not result.entities and len(chunk.text.strip()) > 100:
         print(f"[extract] retry для {chunk.chunk_id}: пустой результат, текст {len(chunk.text)} символов")
         retry_user = EXTRACT_RETRY_USER_TMPL.format(
@@ -57,12 +54,10 @@ def extract_chunk(chunk, model: str = None) -> ChunkExtraction:
             if retry_result.entities:
                 print(f"[extract] retry для {chunk.chunk_id}: извлечено {len(retry_result.entities)} сущностей")
                 return retry_result
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             print(f"[extract] retry тоже не сработал для {chunk.chunk_id}: {e!r}")
 
     return result
-
-
 
 def _finalize_metadata(chunks: List, done: dict) -> None:
     """Год/география должны быть едиными для всего документа, а не гадаться независимо
@@ -72,7 +67,6 @@ def _finalize_metadata(chunks: List, done: dict) -> None:
     вариант. География: путь -> LLM."""
     struct_year = next((ch.path_year for ch in chunks if ch.path_year), None)
     struct_geo = next((ch.path_geo for ch in chunks if ch.path_geo), None)
-    # getattr — чекпоинты, созданные до появления meta_year, при resume не имеют этого поля
     file_meta_year = next((getattr(ch, "meta_year", None) for ch in chunks
                             if getattr(ch, "meta_year", None)), None)
 
@@ -91,7 +85,6 @@ def _finalize_metadata(chunks: List, done: dict) -> None:
             m["year"] = doc_year
         if not m.get("geography") or m.get("geography") == "unknown":
             m["geography"] = doc_geo
-
 
 def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool = True) -> dict:
     """Извлекает все чанки одного документа параллельно (config.MAX_WORKERS воркеров).
@@ -118,7 +111,6 @@ def extract_document(doc_id: str, chunks: List, model: str = None, resume: bool 
             for future in as_completed(futures):
                 ch = futures[future]
                 ext = future.result()
-                # чекпоинтим после КАЖДОГО чанка — потеря прогона недопустима
                 with lock:
                     done[ch.chunk_id] = {"chunk": ch.dict(), "extraction": ext.model_dump()}
                     _checkpoint()

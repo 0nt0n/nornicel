@@ -12,18 +12,14 @@ from neo4j import GraphDatabase
 
 import config
 
-
 def get_driver():
     return GraphDatabase.driver(config.NEO4J_URI, auth=(config.NEO4J_USER, config.NEO4J_PASSWORD))
-
 
 def _entity_key(e: dict) -> str:
     return (e.get("canonical") or e.get("name_en") or e.get("name_ru") or e.get("id")).strip().lower()
 
-
 def load_chunk(session, chunk: dict, extraction: dict, embedding):
     meta = extraction.get("metadata", {}) or {}
-    # 1) узел чанка + эмбеддинг
     session.run(
         """
         MERGE (c:Chunk {chunk_id: $chunk_id})
@@ -38,7 +34,6 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
         emb=embedding,
     )
 
-    # 2) сущности (дедуп по key) + связь MENTIONS
     localid_to_key = {}
     for e in extraction.get("entities", []):
         key = _entity_key(e)
@@ -57,7 +52,6 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
             chunk_id=chunk["chunk_id"],
         )
 
-    # 3) связи между сущностями
     for r in extraction.get("relations", []):
         sk, tk = localid_to_key.get(r["source_id"]), localid_to_key.get(r["target_id"])
         if not sk or not tk:
@@ -71,7 +65,6 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
             sk=sk, tk=tk, type=r.get("type", "related"), ev=r.get("evidence", ""),
         )
 
-    # 4) числовые ограничения + провенанс
     for c in extraction.get("constraints", []):
         ek = localid_to_key.get(c["entity_id"])
         if not ek:
@@ -90,7 +83,6 @@ def load_chunk(session, chunk: dict, extraction: dict, embedding):
             unit=c.get("unit", ""), cond=c.get("condition", ""),
         )
 
-
 def _chunks_already_embedded(session, chunk_ids):
     """chunk_id-ы, у которых в графе уже есть вектор — их не пересчитываем."""
     rows = session.run(
@@ -101,7 +93,6 @@ def _chunks_already_embedded(session, chunk_ids):
         ids=list(chunk_ids),
     )
     return {r["chunk_id"] for r in rows}
-
 
 def load_all_processed(processed_dir: str = None) -> dict:
     """Строит граф из ВСЕХ data/processed/*.json (для деплоя: JSON закоммичены в git).
@@ -127,7 +118,6 @@ def load_all_processed(processed_dir: str = None) -> dict:
             files += 1
     driver.close()
     return {"files": files, "dim": dim}
-
 
 def load_processed(session, processed: dict, embedder):
     """processed = {chunk_id: {chunk, extraction}} (как в data/processed/<doc>.json).
