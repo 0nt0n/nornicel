@@ -1,12 +1,9 @@
-# Полностью локальный контур + публичная ссылка через Cloudflare quick tunnel.
-# Ни карты, ни регистраций, ни Aura: Neo4j и приложение крутятся у тебя,
-# наружу отдаёт cloudflared (аккаунт не нужен).
+# Полностью локальный контур + публичная ссылка через Ngrok.
 #
 #   docker compose -f docker-compose.tunnel.yml up --build
-#   # публичную ссылку смотри в логах cloudflared:
-#   docker compose -f docker-compose.tunnel.yml logs -f cloudflared | grep trycloudflare.com
+#   # приложение будет доступно по вашей статической ссылке Ngrok.
 #
-# Требуется .env с YANDEX_API_KEY / YANDEX_FOLDER_ID (API вернули).
+# Требуется .env с YANDEX_API_KEY / YANDEX_FOLDER_ID и NGROK_AUTHTOKEN.
 
 services:
   neo4j:
@@ -40,11 +37,11 @@ services:
       neo4j:
         condition: service_healthy
 
-  cloudflared:
-    image: cloudflare/cloudflared:latest
-    # protocol http2 = TCP вместо QUIC/UDP. QUIC часто режется (особенно под VPN) и
-    # рвёт долгие запросы (ReAct — десятки секунд). HTTP/2 стабильнее.
-    command: tunnel --no-autoupdate --url http://app:8501
+  ngrok:
+    image: ngrok/ngrok:latest
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    command: http app:8501 --domain=direction-unusual-joyous.ngrok-free.dev
     depends_on:
       - app
 
