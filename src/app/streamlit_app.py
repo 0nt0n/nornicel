@@ -32,7 +32,6 @@ from src.graph import queries as Q
 
 st.set_page_config(
     page_title="Карта знаний R&D — Норникель",
-    page_icon="🧭",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -61,10 +60,10 @@ TEXT = "#eef2f5"
 TEXT_MUTED = "#aab6c0"
 
 LEVEL_META = {
-    1: ("🔍", "Разведка", "Гибридный поиск (вектор + полнотекст) и анализ покрытия запроса"),
-    2: ("🔬", "Углубление", "Дополнительные подзапросы по непокрытым аспектам"),
-    3: ("⚖️", "Перекрёстная проверка", "Поиск противоречий между источниками"),
-    4: ("🧩", "Финальный синтез", "Сборка всего контекста в экспертный ответ"),
+    1: ("Разведка", "Гибридный поиск (вектор + полнотекст) и анализ покрытия запроса"),
+    2: ("Углубление", "Дополнительные подзапросы по непокрытым аспектам"),
+    3: ("Перекрёстная проверка", "Поиск противоречий между источниками"),
+    4: ("Финальный синтез", "Сборка всего контекста в экспертный ответ"),
 }
 
 st.markdown(f"""
@@ -264,22 +263,22 @@ pills = ""
 if stats:
     pills = (
         f'<div class="stat-pills">'
-        f'<span class="pill">📄 Документов: {stats.get("docs", 0)}</span>'
-        f'<span class="pill">🧩 Фрагментов: {stats.get("chunks", 0)}</span>'
-        f'<span class="pill">🔗 Сущностей: {stats.get("entities", 0)}</span>'
-        f'<span class="pill">🔢 Ограничений: {stats.get("constraints", 0)}</span>'
+        f'<span class="pill">Документов: {stats.get("docs", 0)}</span>'
+        f'<span class="pill">Фрагментов: {stats.get("chunks", 0)}</span>'
+        f'<span class="pill">Сущностей: {stats.get("entities", 0)}</span>'
+        f'<span class="pill">Ограничений: {stats.get("constraints", 0)}</span>'
         f'</div>'
     )
 st.markdown(f"""
 <div class="hero">
-  <h1>🧭 Карта знаний R&D — горно-металлургия</h1>
+  <h1>Карта знаний R&D — горно-металлургия</h1>
   <p>Вопрос на естественном языке → 4-уровневая ReAct-цепочка рассуждений по графу знаний
      Neo4j → ответ с источниками, числами и уровнем достоверности</p>
   {pills}
 </div>
 """, unsafe_allow_html=True)
 
-tab_search, tab_analytics = st.tabs(["🔎 Поиск", "📊 Аналитика графа"])
+tab_search, tab_analytics = st.tabs(["Поиск", "Аналитика графа"])
 
 EXAMPLES = [
     "Какие методы обессоливания воды подходят при сульфатах/хлоридах 200–300 мг/л и сухом остатке ≤1000 мг/дм³?",
@@ -300,25 +299,25 @@ with tab_search:
         "Ваш запрос:", value=st.session_state.get("q", ""),
         height=90, placeholder="Например: какие реагенты применяются при флотации медно-никелевых руд?",
     )
-    run = st.button("🚀 Найти ответ", type="primary", width="stretch")
+    run = st.button("Найти ответ", type="primary", width="stretch")
 
     if run and question.strip():
         try:
-            with st.status("🧠 ReAct-цепочка работает...", expanded=True) as status:
+            with st.status("ReAct-цепочка работает...", expanded=True) as status:
                 st.write("Разбор запроса на структурные слоты...")
                 slots = route(question)
 
                 def _progress(level, msg):
-                    icon, name, _ = LEVEL_META.get(level, ("•", f"Уровень {level}", ""))
-                    st.write(f"{icon} **Уровень {level} · {name}:** {msg}")
+                    name, _ = LEVEL_META.get(level, (f"Уровень {level}", ""))
+                    st.write(f"**Уровень {level} · {name}:** {msg}")
 
                 with _driver().session() as session:
                     context = multi_level_retrieve(session, question, slots,
                                                    progress_cb=_progress)
                     contradictions = Q.find_contradictions(session)
-                st.write("📝 Синтез финального ответа...")
+                st.write("Синтез финального ответа...")
                 answer = synthesize_multi(question, context)
-                status.update(label="✅ Готово", state="complete", expanded=False)
+                status.update(label="Готово", state="complete", expanded=False)
 
             st.session_state["last"] = {
                 "question": question, "slots": slots, "context": context,
@@ -333,29 +332,29 @@ with tab_search:
         col_main, col_side = st.columns([2.1, 1])
 
         with col_main:
-            st.markdown("### 💬 Ответ")
+            st.markdown("### Ответ")
             st.markdown(f'<div class="answer-card">', unsafe_allow_html=True)
             st.markdown(answer)
             st.markdown("</div>", unsafe_allow_html=True)
             st.download_button(
-                "📥 Скачать ответ (Markdown)",
+                "Скачать ответ (Markdown)",
                 data=f"# Вопрос\n{last['question']}\n\n# Ответ\n{answer}",
                 file_name="answer.md", mime="text/markdown",
             )
             # ---------- цепочка рассуждений ReAct
-            st.markdown("### 🧠 Цепочка рассуждений")
+            st.markdown("### Цепочка рассуждений")
             for lvl in context.get("levels", []):
                 ln = lvl.get("level", 0)
-                icon, name, sub = LEVEL_META.get(ln, ("•", lvl.get("action", ""), ""))
+                name, sub = LEVEL_META.get(ln, (lvl.get("action", ""), ""))
                 chips = ""
                 for a in lvl.get("covered_aspects", []):
-                    chips += f'<span class="chip ok">✓ {a}</span>'
+                    chips += f'<span class="chip ok">{a}</span>'
                 for a in lvl.get("missing_aspects", []):
-                    chips += f'<span class="chip miss">✗ {a}</span>'
+                    chips += f'<span class="chip miss">{a}</span>'
                 for sq in lvl.get("sub_queries_used", []):
-                    chips += f'<span class="chip">→ {sq}</span>'
+                    chips += f'<span class="chip">{sq}</span>'
                 for f in lvl.get("verified_facts", [])[:4]:
-                    chips += f'<span class="chip ok">✓ {f}</span>'
+                    chips += f'<span class="chip ok">{f}</span>'
                 facts_meta = []
                 if lvl.get("chunks_found") is not None:
                     facts_meta.append(f"найдено фрагментов: {lvl['chunks_found']}")
@@ -368,7 +367,7 @@ with tab_search:
                 meta = (" · ".join(facts_meta)) or sub
                 st.markdown(f"""
                 <div class="lvl-card">
-                  <div class="lvl-head">{icon} Уровень {ln} · {name}</div>
+                  <div class="lvl-head">Уровень {ln} · {name}</div>
                   <div class="lvl-sub">{meta}</div>
                   <div>{lvl.get("reasoning", "")}</div>
                   <div>{chips}</div>
@@ -377,16 +376,16 @@ with tab_search:
 
             # ---------- противоречия
             if last.get("contradictions"):
-                st.warning("⚠️ В графе знаний зафиксированы противоречия:")
+                st.warning("В графе знаний зафиксированы противоречия:")
                 for c in last["contradictions"][:5]:
                     st.write(f"• {c['a']} ↔ {c['b']}: {c.get('evidence', '')}")
 
             # ---------- сравнение РФ / зарубеж
             comparison = context.get("comparison_chunks")
             if comparison:
-                st.markdown("### 🌍 Отечественная vs зарубежная практика")
+                st.markdown("### Отечественная vs зарубежная практика")
                 cru, cf = st.columns(2)
-                for col, key, title in ((cru, "RU", "🇷🇺 РФ"), (cf, "foreign", "🌍 Зарубеж")):
+                for col, key, title in ((cru, "RU", "РФ"), (cf, "foreign", "Зарубеж")):
                     with col:
                         st.markdown(f"**{title}**")
                         for ch in comparison.get(key, [])[:5]:
@@ -397,7 +396,7 @@ with tab_search:
                             )
 
             # ---------- подграф знаний
-            st.markdown("### 🕸️ Подграф знаний")
+            st.markdown("### Подграф знаний")
             if context.get("entities"):
                 legend = '<div class="legend">'
                 used_types = {_entity_type(e.get("labels")) for e in context["entities"]}
@@ -447,7 +446,7 @@ with tab_search:
 
             # ---------- пробелы
             if context.get("gaps"):
-                with st.expander(f"🕳️ Пробелы в исследованиях ({len(context['gaps'])})"):
+                with st.expander(f"Пробелы в исследованиях ({len(context['gaps'])})"):
                     st.caption("Процессы без экспериментальной проверки в корпусе — кандидаты на новые НИР")
                     for g in context["gaps"][:10]:
                         st.write(f"• {g.get('process') or g.get('canonical')}")
@@ -460,12 +459,13 @@ with tab_search:
             if l3.get("confidence"):
                 st.metric("Достоверность (кросс-проверка)", l3["confidence"])
 
-            st.markdown("#### 📄 Источники")
+            st.markdown("#### Источники")
             for s in context.get("sources", [])[:12]:
-                geo_icon = {"RU": "🇷🇺", "foreign": "🌍"}.get(s.get("geography"), "❔")
+                geo = {"RU": "РФ", "foreign": "зарубеж"}.get(s.get("geography"), "")
+                meta = " · ".join(x for x in [s.get("year") or "год неизвестен", geo] if x)
                 st.markdown(
-                    f'<div class="src-card">{geo_icon} {s["doc_id"]}'
-                    f'<div class="src-meta">{s.get("year") or "год неизвестен"}</div></div>',
+                    f'<div class="src-card">{s["doc_id"]}'
+                    f'<div class="src-meta">{meta}</div></div>',
                     unsafe_allow_html=True,
                 )
 
@@ -475,9 +475,8 @@ with tab_search:
             with st.expander("Провенанс: найденные чанки"):
                 for ch in context.get("chunks", [])[:15]:
                     conf = ch.get("confidence", "medium")
-                    badge = {"high": "🟢", "medium": "🟡", "low": "🔴"}.get(conf, "⚪")
                     st.markdown(f"**{ch['doc_id']} · стр.{ch.get('page', '?')}** "
-                                f"{badge} <span class='conf-{conf}'>{conf}</span> "
+                                f"<span class='conf-{conf}'>{conf}</span> "
                                 f"· score {ch.get('score', 0):.3f}",
                                 unsafe_allow_html=True)
                     st.caption(ch.get("text", "")[:350] + "…")
@@ -487,10 +486,10 @@ with tab_analytics:
     try:
         with _driver().session() as session:
             c1, c2, c3, c4 = st.columns(4)
-            c1.metric("📄 Документов", stats.get("docs", 0))
-            c2.metric("🧩 Фрагментов", stats.get("chunks", 0))
-            c3.metric("🔗 Сущностей", stats.get("entities", 0))
-            c4.metric("🔢 Ограничений", stats.get("constraints", 0))
+            c1.metric("Документов", stats.get("docs", 0))
+            c2.metric("Фрагментов", stats.get("chunks", 0))
+            c3.metric("Сущностей", stats.get("entities", 0))
+            c4.metric("Ограничений", stats.get("constraints", 0))
 
             st.markdown("---")
             colA, colB = st.columns([1.2, 1])
@@ -556,7 +555,7 @@ with tab_analytics:
             st.markdown("---")
             colC, colD = st.columns(2)
             with colC:
-                st.subheader("⚠️ Противоречия в данных")
+                st.subheader("Противоречия в данных")
                 contras = Q.find_contradictions(session)
                 if contras:
                     for c in contras[:8]:
@@ -564,7 +563,7 @@ with tab_analytics:
                 else:
                     st.caption("Противоречий типа contradicts в графе не зафиксировано.")
             with colD:
-                st.subheader("🕳️ Пробелы в знаниях")
+                st.subheader("Пробелы в знаниях")
                 gaps = Q.find_gaps(session)
                 if gaps:
                     for g in gaps[:8]:
@@ -573,7 +572,7 @@ with tab_analytics:
                     st.caption("Явных пробелов не найдено (или мало данных).")
 
             st.markdown("---")
-            st.subheader("📦 Экспорт")
+            st.subheader("Экспорт")
             st.caption("JSON-LD — RDF-совместимый формат (FAIR): граф можно загрузить "
                        "в Apache Jena / GraphDB или опубликовать как Linked Data.")
             if st.button("Сформировать JSON-LD"):
@@ -581,7 +580,7 @@ with tab_analytics:
                 from scripts.export_jsonld import export as _export_jsonld
                 doc = _export_jsonld(session)
                 st.download_button(
-                    "📥 Скачать knowledge_graph.jsonld",
+                    "Скачать knowledge_graph.jsonld",
                     data=_json.dumps(doc, ensure_ascii=False, indent=2),
                     file_name="knowledge_graph.jsonld", mime="application/ld+json",
                 )
