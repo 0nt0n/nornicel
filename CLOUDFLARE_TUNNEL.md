@@ -19,6 +19,12 @@ docker compose -f docker-compose.tunnel.yml up --build
 
 ## Где взять ссылку
 
+**Для Windows (PowerShell):**
+```powershell
+docker compose -f docker-compose.tunnel.yml logs cloudflared | Select-String -Pattern 'https://[a-z0-9-]*\.trycloudflare\.com' | ForEach-Object { $_.Matches.Value }
+```
+
+**Для Linux/Mac:**
 ```bash
 docker compose -f docker-compose.tunnel.yml logs cloudflared | grep -o 'https://[a-z0-9-]*\.trycloudflare\.com'
 ```
