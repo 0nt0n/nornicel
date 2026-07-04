@@ -1,0 +1,3262 @@
+{
+  "Обзоры__Cunico Resources::p4::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p4::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "4 2018 г Cunico Resources ООО «Институт Гипроникель» ВВЕДЕНИЕ Cunico Resources N.V. занимается геологоразведкой, добычей никелевой руды и производством ферроникеля. Компания считала себя «крупнейшим производителем ферроникеля в Европе». Прошедшее время употребляем потому, что ситуация недавно (октябрь-ноябрь 2017 г.) изменилась, о чем речь пойдет ниже. Главный офис – в Амстердаме, маркетинговое подразделение (Cunico Marketing) – в Дубаи, ОАЭ. Компания – частная, да ещё голландская. Информацию о себе в открытой печати дает по минимуму. На сайте нет ни годовых отчетов, ни раздела «новости компании», ни многого другого. Приводим то, что удалось откопать. Основные никелевые активы Cunico и даты их приобретения: - ферроникелевый комплекс Drenas или NewCo Ferronikeli (рудники, завод) в Косово; 2006 г. - ферроникелевый завод FENI в Kavadarchi, Македония; 2005 г. - рудники в Гватемале: Guaxilan (2012 г.) и Mayaniquel S.A. (2014 г.). Товарная никелевая продукция: ферроникелевая дробь с 17-25% Ni, окисленная руда из Гватемалы с 1,8-2,0% Ni.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникелевая дробь",
+          "name_en": "ferro-nickel powder",
+          "canonical": "ferro_nickel_powder"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "окисленная руда",
+          "name_en": "oxidized ore",
+          "canonical": "oxidized_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство ферроникеля",
+          "name_en": "ferro-nickel production",
+          "canonical": "ferro_nickel_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "товарная никелевая продукция: ферроникелевая дробь с 17-25% Ni, окисленная руда из Гватемалы с 1,8-2,0% Ni"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 17.0,
+          "value_max": 25.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 1.8,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p5::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p5::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "5 2018 г Cunico Resources ООО «Институт Гипроникель» 1 ФЕРРОНИКЕЛЕВЫЙ ЗАВОД FENI Завод в Kavadarchi (Македония) с момента приобретения его в 2005 г. компанией Cunico увеличил объем производства с ~5 тыс т/г до 20 тыс т/г Ni в FeNi. Напомним, что в 2001 г., когда производство было возобновлено, работала одна линия «вращающаяся печь – электропечь». Руду брали с местного рудника Rzanovo. Вторая производственная линия была запущена в 2006 г. (уже Cunico), но финансовый кризис 2008 г. вынудил временно одну линию остановить: в предшествующий период (2006-2007 гг.) высоких цен на никель были увеличены закупки импортных руд, которые надо было сушить из-за высокой влажности. Цена мазута (тогда) была высокой (~600 €/т), а цена никеля в 2008 г. резко снизилась. Импорт руд начался, вообще говоря, с 2005 г. В руде местного рудника Rzanovo 0,91%Ni (влажность 2%), а в сочетании с импортируемой рудой из Индонезии и Филиппин содержание никеля удалось дотянуть до ~2%. Однако влажность этих руд ~35%, потребовались дополнительные сушилки. В 2006 г. был налажен выпуск гранул (до 2006 г. выпускали только слитки). С 2013 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник Rzanovo",
+          "name_en": "Rzanovo mine",
+          "canonical": "rzanovo_mine"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "импортная руда из Индонезии и Филиппин",
+          "name_en": "imported ore from Indonesia and the Philippines",
+          "canonical": "imported_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "вращающаяся печь – электропечь",
+          "name_en": "rotary furnace - electric furnace",
+          "canonical": "rotary_furnace_electric_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "сушилка руды",
+          "name_en": "ore dryer",
+          "canonical": "ore_dryer"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "линия производства FeNi",
+          "name_en": "FeNi production line",
+          "canonical": "fe_ni_production_line"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Руду брали с местного рудника Rzanovo"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "импортируемой рудой из Индонезии и Филиппин"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "в 2006 г., когда производство было возобновлено, работала одна линия «вращающаяся печь – электропечь»"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "eq",
+          "value_min": 0.91,
+          "value_max": 0.91,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "ge",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p5::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p5::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "ко влажность этих руд ~35%, потребовались дополнительные сушилки. В 2006 г. был налажен выпуск гранул (до 2006 г. выпускали только слитки). С 2013 г. в качестве заменителя части ископаемого твердого топлива (бурые угли, энергетический уголь) стали использовать биомассу (отходы производства оливкового масла). Также в 2013 г. были установлены новые горелки для вращающихся обжиговых печей, работающие на смеси мазут/нефтяной кокс (нефтяной кокс дешевле мазута, во всяком случае, тогда был дешевле). Отметим, что на этом заводе, в отличие от завода в Косово, компанией предприняты хоть какие-то усилия по соответствию экологическим нормативам, предусмотренным ЕС и даже был выпущен отчет CSR – «отчет по корпоративной социальной ответственности» (один-единственный) за 2016 г., откуда мы и заимствовали данные. На заводе в Косово никаких таких усилий не приложено, отчетов, соответственно, никаких нет, как и данных. В 2016 г. «из-за продолжительного кризиса» (полагаем, из-за низких цен на никель), несмотря на все предпринимаемые компанией меры, на Kavadarchi пришлось сокращать базовую зарплату и отправлять работников в отпуска. Выпуск никеля сократился вдвое – до 10 тыс т.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "сушилка руды",
+          "name_en": "drying of ores",
+          "canonical": "ore_drying"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "горелки для обжиговых печей",
+          "name_en": "furnace burners",
+          "canonical": "furnace_burners"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "бурые угли, энергетический уголь",
+          "name_en": "lignite, energy coal",
+          "canonical": "coal"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "ко влажность этих руд ~35%, потребовались дополнительные сушилки"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "в 2013 г. стали использовать биомассу (отходы производства оливкового масла) и бурые угли, энергетический уголь как заменитель части ископаемого твердого топлива"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "в 2013 г. были установлены новые горелки для вращающихся обжиговых печей, работающие на смеси мазут/нефтяной кокс"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "moisture_content",
+          "op": "le",
+          "value_min": 35.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "$/ton",
+          "condition": "нефтяной кокс дешевле мазута, во всяком случае, тогда был дешевле"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p1::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам, к.г.-м.н. ___________ С.М. Козырев « __ » ___________ 2018 СПРАВКА Cunico Resources ОИП – 01 – 2018 Руководитель работ Начальник ОИП Р.А. Кузнецов 2 2018 г Cunico Resources ООО «Институт Гипроникель» Список исполнителей Главный специалист Евграфова А.К. 3 2018 г Cunico Resources ООО «Институт Гипроникель» Содержание Введение ............................................................................................................... 4 1 Ферроникелевый завод FENI ............................................................................ 5 2 Ферроникелевый завод в Косово ..................................................................... 7 3 Гватемала ...................................................................................................... 10 Заключение ......................................................................................................... 19 Список использованных источников ..................................................................... 22",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Директор Департамента по исследованиям и разработкам, к.г.-м.н.",
+          "name_en": "Director of Research and Development Department, Dr.S.M. Kozhrev",
+          "canonical": "expert_in"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Начальник ОИП Р.А. Кузнецов",
+          "name_en": "Head of OIP R.A. Kuznetsov",
+          "canonical": "expert_in"
+        },
+        {
+          "id": "e3",
+          "type": "Publication",
+          "name_ru": "Справка Cunico Resources ОИП – 01 – 2018",
+          "name_en": "Cunico Resources OIP - 01 - 2018 Report",
+          "canonical": "described_in"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Ферроникелевый завод FENI",
+          "name_en": "Ferro Nickel Plant FENI",
+          "canonical": "operates_at_condition"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Ферроникелевый завод в Косово",
+          "name_en": "Ferro Nickel Plant in Kosovo",
+          "canonical": "operates_at_condition"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Институт Гипроникель",
+          "name_en": "Institute Gipronikel",
+          "canonical": "operates_at_condition"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам, к.г.-м.н."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "руководитель работ Начальник ОИП Р.А. Кузнецов"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "date",
+          "op": "range",
+          "value_min": 2018.0,
+          "value_max": 2018.0,
+          "unit": "year",
+          "condition": "="
+        },
+        {
+          "entity_id": "e2",
+          "param": "date",
+          "op": "range",
+          "value_min": 2018.0,
+          "value_max": 2018.0,
+          "unit": "year",
+          "condition": "="
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p6::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p6::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "6 2018 г Cunico Resources ООО «Институт Гипроникель» Рисунок 1.1 – Выпуск Ni в FeNi завода FENI в Kavadarchi (т) и цена никеля (USD/т) Ист: Cunico [1] Напомним, что в 2014 г. вступил в силу знаменитый Закон о добыче №4, принятый парламентом Индонезии ещё в 2009 г., предусматривающий запрет на экспорт не переработанных руд (никелевых, медных и др.). Таким образом, этот источник импортной руды «отпал», но компания в 2012 г.-2014 г. приобрела рудники в Гватемале. Как следует из обновленной схемы технологического процесса – по состоянию дел на декабрь 2016 г., сырьем для завода теперь является руда Косово, Албании и Гватемалы. Рисунок 1.2 – Схема завода FENI в Kavadarchi Ист: Cunico [2] 7 2018 г Cunico Resources ООО «Институт Гипроникель» 2 ФЕРРОНИКЕЛЕВЫЙ ЗАВОД В КОСОВО В 2006 г. был приватизирован ферроникелевый комплекс Drenas (бывш. Glogovac) в Косово, который перешел в собственность СП IMR/Alferon за 33 млн € и обязательство инвестировать в комплекс ещё 20 млн € в течение трех лет и обеспечить занятость, по крайней мере, 1000 рабочих. Рудники в Косово, по сообщениям в печати, содержат никеля «более чем на 2 млрд USD».",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевая руда",
+          "name_en": "nickel ore",
+          "canonical": "nickel_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "завод FENI в Кавадарчхи",
+          "name_en": "FENI plant in Kavadarchi",
+          "canonical": "feni_plant_kavadarchi"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro-nickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Выпуск Ni в FeNi завода FENI в Kavadarchi"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "сырьем для завода теперь является руда Косово, Албании и Гватемалы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p6::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p6::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "трех лет и обеспечить занятость, по крайней мере, 1000 рабочих. Рудники в Косово, по сообщениям в печати, содержат никеля «более чем на 2 млрд USD». Как следует из представленного на сайте компании графика суммарного выпуска никеля двумя заводами, ежегодный объем производства косовского завода не превышал 7-8 тыс т, за исключением, пожалуй, 2015 г. – около 11,5 тыс т. Рисунок 2.1 – Схема FeNi завода в Косово Ист: Cunico [2] Завод был построен по «Советской технологии», но, чтобы не подумали чего плохого, ключевое оборудование (электропечи, вращающиеся печи и др.), всё-таки - «по Западным проектам». На заводе – 2 производственные линии. Качество ферроникеля Оба завода выпускают ферроникель высокого качества, «один из лучших в мире ферроникелей». Особо компания подчеркивает «сверхнизкое» содержание углерода в FeNi. Таблица 1.1 – Спецификация на FeNi гранулы Типичный состав, % Примерный состав,% Ni 17-25 22 Co 1,2 max 0,8 Si 0,02 max 0,01 C 0,02 max 0,01 P 0,020 max 0,002 As 0,15 max 0,10",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferronickel",
+          "canonical": "ferronickel"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство ферроникеля",
+          "name_en": "ferronickel production",
+          "canonical": "ferronickel_production"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "электропечи",
+          "name_en": "electro-melting furnaces",
+          "canonical": "electro_melting_furnaces"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "содержание углерода в ферроникеле",
+          "name_en": "carbon content in ferronickel",
+          "canonical": "carbon_content_in_ferronickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Оба завода выпускают ферроникель высокого качества, «один из лучших в мире ферроникелей»."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Ключевое оборудование (электропечи, вращающиеся печи и др.), всё-таки - «по Западным проектам». На заводе – 2 производственные линии."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "carbon_content",
+          "op": "le",
+          "value_min": 0.01,
+          "value_max": 0.02,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p8::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p8::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "8 2018 г Cunico Resources ООО «Институт Гипроникель» Типичный состав, % Примерный состав,% S 0,25 max 0,22 Cu 0,10 max 0,06 Cr 0,003 max 0,002 Fe Остальное остальное Ист: Cunico Форма выпуска: гранулы 3-40 мм (95%), остаточная влажность 0,2% макс., не радиоактивны. Продажа FENI Kavadarchi О финансовом положении компании Cunico, естественно, информации в нашем распоряжении нет. Однако есть намеки, что ситуация совсем не блестящая. Объем производства ферроникеля в 2016-2017 гг. резко сократился по причине «продолжительного кризиса». По сообщениям информагентства Македонии (mia.mk) у Cunico в 2017 г. неисполненных финансовых обязательств было на 400 млн € трем банкам плюс ещё 20 млн € другим кредиторам. У комплекса FENI неисполненных обязательств было на 60 млн €. Cunico приняла решение и, без газетной шумихи, продала FENI некой болгарской компании Enekod в конце октября 2017 г. Enekod обещала возобновить работу завода после обеспечения его углем. Однако в конце ноября заявила, что не сможет выплачивать зарплату рабочим (~1000 чел.). Рабочие провели забастовку против начала процедуры банкротства завода. Чем все-таки дело закончилось в Kavadarchi – неизвестно.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferronickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "завод FENI",
+          "name_en": "FENI plant",
+          "canonical": "feni_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Объем производства ферроникеля в 2016-2017 гг. резко сократился"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p8::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p8::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "рабочим (~1000 чел.). Рабочие провели забастовку против начала процедуры банкротства завода. Чем все-таки дело закончилось в Kavadarchi – неизвестно. Информации о ситуации в Косово нет вообще. Руда с гватемальских рудников Стремясь получить гарантированные поставки руды и стать «вертикально интегрированным производителем», Cunico приобрела в Гватемале два рудника. О руднике Guaxilan информации нет никакой, о проекте Mayaniquel – см.далее. Имеется лишь спецификация на «руду из Гватемалы». Таблица 1.2 – Спецификация руды из Гватемалы Типичный состав, % Примерный состав, % Fe 13-22 18,0 Ni 1,8-2,0 1,95 Co 0,03-0,05 0,04 Cr 0,9-1,1 1,0 CaO 1,0-2,0 1,5 MgO 16-22 18,0 Al2O3 2,0-3,5 2,7 SiO2 30-40 35,0 S <0,05 0,05 P <0,01 0,01 Влага 32-37 35 TML* 38 Ист: Cunico",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда из Гватемалы",
+          "name_en": "Guatemalan ore",
+          "canonical": "guatemalan_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "содержание железа",
+          "name_en": "iron content",
+          "canonical": "iron_content"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание никеля",
+          "name_en": "nickel content",
+          "canonical": "nickel_content"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "содержание кобальта",
+          "name_en": "cobalt content",
+          "canonical": "cobalt_content"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "содержание хрома",
+          "name_en": "chromium content",
+          "canonical": "chromium_content"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "содержание кальция оксида",
+          "name_en": "calcium oxide content",
+          "canonical": "cao_content"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "содержание магния оксида",
+          "name_en": "magnesium oxide content",
+          "canonical": "mgo_content"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "содержание оксида алюминия",
+          "name_en": "aluminum oxide content",
+          "canonical": "al2o3_content"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "содержание кремния диоксида",
+          "name_en": "silicon dioxide content",
+          "canonical": "sio2_content"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "содержание серы",
+          "name_en": "sulfur content",
+          "canonical": "sulfur_content"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "содержание фосфора",
+          "name_en": "phosphorus content",
+          "canonical": "phosphorus_content"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "влажность",
+          "name_en": "moisture content",
+          "canonical": "moisture_content"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "range",
+          "value_min": 13.0,
+          "value_max": 22.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "range",
+          "value_min": 1.8,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cobalt_content",
+          "op": "range",
+          "value_min": 0.03,
+          "value_max": 0.05,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "chromium_content",
+          "op": "range",
+          "value_min": 0.9,
+          "value_max": 1.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cao_content",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "mgo_content",
+          "op": "range",
+          "value_min": 16.0,
+          "value_max": 22.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "al2o3_content",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 3.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sio2_content",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 40.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfur_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.05,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "phosphorus_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.01,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "moisture_content",
+          "op": "range",
+          "value_min": 32.0,
+          "value_max": 37.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p9::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p9::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "9 2018 г Cunico Resources ООО «Институт Гипроникель» *предельная влажность для транспортировки Гранулометрия: Классы, мм Распределение по массе, % +25 25 -25+9,5 25 -9,5 50 Руда с гватемальских рудников, как считает компания, обладает необычным для сапролита cоставом: высокое содержание как никеля, так и железа. Такой состав, с относительно высоким железом, высоким содержанием оксида магния и кальция на фоне сравнительно низкого содержания SiO2 (т.е. высокая основность) «позволяют существенно сократить удельный расход энергии». Руда вывозится из порта Tomas de Castillas на Атлантическом побережье Гватемалы. Компания может поставлять до 100 тыс т/мес руды. Доставка по морю до порта Салоники занимает ~25 дней. 10 2018 г Cunico Resources ООО «Институт Гипроникель» 3 ГВАТЕМАЛА В районе озера Исабаль (Izabal) в Гаватемале, на так называемом «Никелевом поясе Гватемалы» располагается ряд месторождений латеритовой никелевой руды. Добычей латеритовой руды и производством никеля в Гватемале более 30-ти лет назад занималась канадская компания Inco (ныне Vale) на горно- металлургическом комплексе Exmibal. Завод расположен в г. El Estor, на берегу озера.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гватемальская руда",
+          "name_en": "Guatemalan ore",
+          "canonical": "guatemalan_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "предельная влажность для транспортировки",
+          "name_en": "maximum moisture for transportation",
+          "canonical": "max_moisture_for_transportation"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "добыча латеритовой руды",
+          "name_en": "latite ore mining",
+          "canonical": "latite_ore_mining"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "завод на горно-металлургическом комплексе Exmibal",
+          "name_en": "Exmibal metallurgical complex plant",
+          "canonical": "exmibal_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "предельная влажность для транспортировки Гранулометрия"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "добычей латеритовой руды и производством никеля"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "max_moisture",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p9::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p9::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "т назад занималась канадская компания Inco (ныне Vale) на горно- металлургическом комплексе Exmibal. Завод расположен в г. El Estor, на берегу озера. Комплекс включал: перерабатывающий завод, погрузочные портовые мощности, дома для рабочих, офисы, школы, больницу, церковь и спортивные сооружения. На заводе Exmibal компания Inco плавила окисленную руду на файнштейн по собственной технологии, которая и по сию пору применяется на другом заводе компании – Sorowako (Индонезия). Проектная мощность завода составляла около 11,3 – 12,7 тыс т/г никеля (по разным источникам). В 1980 г. объем производства Exmibal был сокращен на 50% по причине снижения мировых цен на никель. В конце концов, в 1982 г. завод был законсервирован. Издержки производства никеля были слишком высокими, учитывая низкие цены на никель и высокие цены на нефть. В последующие годы никелевые проекты в Гватемале неоднократно переходили из рук в руки и переименовывались. Сейчас даже трудно иногда сказать с уверенностью «кто есть кто». Так, например, в 2011 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавление окисленной руды на файнштейне",
+          "name_en": "fine smelting of oxidized ore",
+          "canonical": "fine_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "завод Exmibal",
+          "name_en": "Exmibal plant",
+          "canonical": "exmibal_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "плавление окисленной руды на файнштейне"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "на заводе Exmibal компания Inco плавила окисленную руду на файнштейне"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_capacity",
+          "op": "range",
+          "value_min": 11300.0,
+          "value_max": 12700.0,
+          "unit": "t/g",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p9::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p9::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "неоднократно переходили из рук в руки и переименовывались. Сейчас даже трудно иногда сказать с уверенностью «кто есть кто». Так, например, в 2011 г. Solway Investment Group – частная горно-металлургическая компания, базирующаяся в Швейцарии, приобрела проект Fenix у компании HudBay Minerals за 140 млн USD наличными «сразу» плюс 30 млн USD после выполнения ряда условий. Проект Fenix – это «старый» новый проект на базе горно-металлургического комплекса Exmibal, после ухода Inco и до HudBay им владела компания Skye Resources. На новом заводе было решено производить ферроникель по традиционной технологии RKEF (вращающаяся обжиговая печь и плавка огарка в электропечи Elkem, рафинирование ферроникеля в ковшевых печах). Конечным продуктом является ферроникель с 35% Ni в виде дроби (3-30 мм). C 2011 г. Solway инвестировала в проект ProNiCo (так теперь называется FeNi-завод по проекту Fenix) более 600 млн. USD. Завод на 22 тыс. т/г Ni в FeNi был введен в строй в августе 2014 г. В 2015 финансовом году выпуск Ni в FeNi на заводе ProNiCo составил 10,83 тыс. т. Выход на проектную мощность был запланирован на 2017 г., однако в 2016 г. было произведено только 8,7 тыс.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro-nickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "вращающаяся обжиговая печь",
+          "name_en": "rotary kiln",
+          "canonical": "rotary_kiln"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "плавка огарка в электропечи Elkem",
+          "name_en": "smelting of sponge nickel in Elkem electric furnace",
+          "canonical": "sponge_nickel_smelting"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "ковшевая печа для рафинирования ферроникеля",
+          "name_en": "kettle furnace for refining ferro-nickel",
+          "canonical": "refining_ferro_nickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "вращающаяся обжиговая печь и плавка огарка в электропечи Elkem, рафинирование ферроникеля"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "плавка огарка в электропечи Elkem, рафинирование ферроникеля"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "рафинирование ферроникеля"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 35.0,
+          "value_max": 35.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p9::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p9::c3",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "i на заводе ProNiCo составил 10,83 тыс. т. Выход на проектную мощность был запланирован на 2017 г., однако в 2016 г. было произведено только 8,7 тыс. т Ni в FeNi из-за аварии в августе 2016 г. (взрыв котла №3, погибли 5 человек). Планы Solway по дельнейшему наращиванию производства никеля в Гватемале включают возможность строительства гидрометаллургического завода (АКВ!, а не аммиачное выщелачитвание) для переработки низкосортной руды Fenix, но пока ничего конкретного. 3.1 Проект Mayaniquel Проект Mayaniquel принадлежит гватемальской Mayaniquel S.A., которая до 2014 г. была 100% дочкой канадской компании Anfield Nickel Corp. В апреле 2014 г. проект, т.е. компанию Mayaniquel S.A. выкупила Cunico за 15 млн USD (по 3 млн в год на протяжении пяти лет). Заметим, что «как раз» в декабре 2014 г. правительство Гватемалы обнародовало Закон о налоговых мерах, являющийся частью Закона о бюджете на 2015 г. В частности, роялти по производству никеля были повышены с 1% до 5%.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "гидрометаллургический процесс",
+          "name_en": "hydrometallurgical process",
+          "canonical": "hydrometallurgical_process"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "проект Mayaniquel для переработки низкосортной руды Fenix"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p11::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p11::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "11 2018 г Cunico Resources ООО «Институт Гипроникель» Страна до сих пор не оправилась от гражданской войны, длившейся 36 лет и налоговая реформа должна хоть как-то содействовать пополнению бюджета. Проект Mayaniquel, судя по всему, это бывший проект Sechol (или его часть). В январе 2006 г. дочерняя компания BHP Billiton приобрела 100% акций компании Jaguar Nickel и, таким образом, стала владельцем изыскательских лицензий, включая лицензию на месторождение Sechol. По завершении сделки Jaguar Nickel была переименована в Mayaniquel S.A. В мае 2009 г. Anfield выкупила все акции Mayaniquel S.A. у BHP Billiton, а в 2014 г. её перекупила Cunico. Поскольку Cunico – частная, да ещё и голландская компания, то она никакой существенной информации о своих проектах в отрытой печати не дает. Единственный источник – предыдущий владелец проекта - канадская компания Anfield, успевшая до продажи выпустить предварительное ТЭО по проекту [3]. Итак, состояние дел на конец 2012 года таково. По проекту предполагалось получать ферроникель с 22,5% Ni: первые 4 года около 20 тыс т/г Ni в FeNi, с 5-го года – 40 тыс т/г Ni.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro nickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение ферроникаля",
+          "name_en": "ferro-nickel production",
+          "canonical": "ferro_nikel_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "получать ферроникель с 22,5% Ni"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 22.5,
+          "value_max": 22.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "production",
+          "op": "ge",
+          "value_min": 20000.0,
+          "value_max": null,
+          "unit": "t/yr",
+          "condition": "4 года"
+        },
+        {
+          "entity_id": "e2",
+          "param": "production",
+          "op": "ge",
+          "value_min": 40000.0,
+          "value_max": null,
+          "unit": "t/yr",
+          "condition": "5-й год"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p11::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p11::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "ц 2012 года таково. По проекту предполагалось получать ферроникель с 22,5% Ni: первые 4 года около 20 тыс т/г Ni в FeNi, с 5-го года – 40 тыс т/г Ni. Территория проекта охвачена 4-мя лицензиями на разведку/добычу, но из них только на двух проведена разведка в объемах, позволяющих оценить никелевые ресурсы, а именно: Sechol II и Chatala. На каждом из указанных лицензионных участков имеется ряд индивидуальных никелевых месторождений. Минерализация Mayaniquel типична для никелевого латеритового месторождения в тропиках. Латеритовый профиль включает три отчетливые зоны: лимонитовую, переходную и сапролитовую, причем в гватемальских месторождениях лимонита меньше, а зоны переходной руды и сапролита – толще. В среднем, по оценкам Anfield, 30% по объему – лимонит, 10% - переходная руда, 60% - сапролит. Рисунок 3.1 – Типичный вертикальный разрез латеритового месторождения и гватемальских месторождений Ист: Anfield",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферроникель",
+          "name_en": "ferro-nickel",
+          "canonical": "ferro_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никелевый латерит",
+          "name_en": "nickel laterite",
+          "canonical": "nickel_laterite"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "минерализация",
+          "name_en": "mineralization",
+          "canonical": "mineralization"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "лимонит",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "переходная руда",
+          "name_en": "transitional ore",
+          "canonical": "transitional_ore"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "По проекту предполагалось получать ферроникель с 22,5% Ni"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p12::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p12::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "12 2018 г Cunico Resources ООО «Институт Гипроникель» Ресурсы оценены для 6-ти месторождений (Sechol, Nueva Caledonia, Amanecer, Tres Juanes Norte, Tres Juanes Rio и Poza Azul). Рисунок 3.2 – Латеритовые месторождения Гватемалы Для определения типа материала были выбраны нижеследующие критерии. Таблица 3.1 – Критерии для определения типа материала Марки ровка вид Хим.критерий Почвенный слой 1 MgO<7% Fe2O3 >35% K2O >0,02 Лимонит 2 Красно-желто-коричневые глинистые гематит- лимониты Ni<0,5% MgO<7% Fe2O3 >35% Переходный 3 Красновато-коричн., оксиды железа, аморфн.SiO2 Ni>0,5% MgO 7-15% Fe2O3 22-35% Al2O3 >20% 13 2018 г Cunico Resources ООО «Институт Гипроникель» Марки ровка вид Хим.критерий Землистый сапролит 4 Похож на землю, от красноватого до темно- зеленого цвета Ni>0,5% MgO 15-20% Fe2O3 11-35% Породный сапролит 4 Породные валуны реликтового перидотита в матрице землистого сапролита Ni>0,5% MgO 20-32% Fe2O3 11-35% Подстилающая порода 5 Свежая ультрамафическая порода Ni<0,5% MgO >32% Fe2O3<11 Оценка суммарных ресурсов по проекту в базовом варианте (бортовое содержание 1,0% Ni) приведена ниже. Таблица 3.2 – Ресурсы Mayaniquel на 2012 г. Измеренные Лимонит Переходн. Сапролит Сумм.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "лимонит",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "переходный сапролит",
+          "name_en": "transitional saprolite",
+          "canonical": "transitional_saprolite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "землистый сапролит",
+          "name_en": "clayey saprolite",
+          "canonical": "clayey_saprolite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "породный сапролит",
+          "name_en": "rocky saprolite",
+          "canonical": "rocky_saprolite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "подстилающая порода",
+          "name_en": "underlying rock",
+          "canonical": "underlying_rock"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "бортовое содержание никеля",
+          "name_en": "ore grade of nickel",
+          "canonical": "nickel_grade"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Оценка суммарных ресурсов по проекту в базовом варианте (бортовое содержание 1,0% Ni)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "mgo",
+          "op": "le",
+          "value_min": 7.0,
+          "value_max": 7.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "fe2o3",
+          "op": "ge",
+          "value_min": 35.0,
+          "value_max": 35.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "k2o",
+          "op": "ge",
+          "value_min": 0.02,
+          "value_max": 0.02,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mgo",
+          "op": "le",
+          "value_min": 7.0,
+          "value_max": 15.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "fe2o3",
+          "op": "ge",
+          "value_min": 35.0,
+          "value_max": 35.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "ni",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "mgo",
+          "op": "ge",
+          "value_min": 15.0,
+          "value_max": 20.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": 35.0,
+          "value_max": 35.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "ni",
+          "op": "ge",
+          "value_min": 0.5,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "mgo",
+          "op": "ge",
+          "value_min": 20.0,
+          "value_max": 32.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": 11.0,
+          "value_max": 11.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "ni",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "mgo",
+          "op": "ge",
+          "value_min": 32.0,
+          "value_max": 32.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "fe2o3",
+          "op": "le",
+          "value_min": 11.0,
+          "value_max": 11.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p12::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p12::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "азовом варианте (бортовое содержание 1,0% Ni) приведена ниже. Таблица 3.2 – Ресурсы Mayaniquel на 2012 г. Измеренные Лимонит Переходн. Сапролит Сумм. Тыс т Ni, % Тыс т Ni, % Тыс т Ni, % Тыс т Ni, % Sechol 2350 1,23 267 1,83 3909 1,79 6526 1,59 исчисленные Sechol 4712 1,15 1197 1,54 15605 1,54 21514 1,45 Сумм.* 21752 1,17 2615 1,46 45941 1,47 70307 1,38 предполагаемые Sechol 1351 1,15 707 1,36 6966 1,43 9024 1,38 Сумм.** 10504 1,16 3259 1,33 28023 1,40 41786 1,33 *Sechol + Tres Juanes Norte, Tres Juanes Rio, Tres Juanes Sur, N Concepcion, Chiis ** Sechol + Tres Juanes Norte, Tres Juanes Rio, Tres Juanes Sur, N Concepcion, Chiis, Chatala, N Caledonia Для информации приводим для ресурсов Sechol в категории «измеренные» содержание основных компонентов, дополняющие табл.3.2. Таблица 3.3 – Содержание основных компонентов в измеренных ресурсах Sechol Тип Тыс т Ni, % Fe2O3, % SiO2, % Al2O3, % MgO, % Co,% Лимонит 2350 1,23 59,35 12,29 9,81 2,03 0,11 Переходн 267 1,83 32,82 33,33 4,79 12,77 0,05 Сапролит 3909 1,79 18,65 38,65 2,63 23,77 0,02 Суммарн. 6526 1,59 33,89 28,94 5,30 15,49 0,05 В ресурсы включено и лимонитовое оруднение, т.к.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "лимонит",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "переходник",
+          "name_en": "transitional rock",
+          "canonical": "transition_rock"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "бортовое содержание никеля",
+          "name_en": "in-situ nickel content",
+          "canonical": "in_situ_nickel_content"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "азовом варианте (бортовое содержание 1,0% Ni)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 1.83,
+          "value_max": 1.83,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "nickel_content",
+          "op": "eq",
+          "value_min": 1.79,
+          "value_max": 1.79,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p12::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p12::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "7 0,05 Сапролит 3909 1,79 18,65 38,65 2,63 23,77 0,02 Суммарн. 6526 1,59 33,89 28,94 5,30 15,49 0,05 В ресурсы включено и лимонитовое оруднение, т.к. металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта. И, наконец, приводим оценку доказанных и вероятных запасов Sechol. Добычу решено начать на месторождения Sechol с участка El Inicio. Ещё для двух",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "лимонит",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "лимонитовое оруднение",
+          "name_en": "limonite deposit",
+          "canonical": "limonite_deposit"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "металлургическое опробование",
+          "name_en": "metallurgical testing",
+          "canonical": "metallurgical_testing"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "FeNi завод",
+          "name_en": "FeNi plant",
+          "canonical": "fe_ni_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "до 30% сырья для FeNi завода может быть представлено лимонитами"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p14::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p14::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 14,
+      "lang": "ca",
+      "text": "14 2018 г Cunico Resources ООО «Институт Гипроникель» месторождений (Tres Juanes Norte и Nueva Concepcion) оценены запасы в категории вероятные. 15 2018 г Cunico Resources ООО «Институт Гипроникель» Таблица 3.4 – Запасы Mayaniquel ss Low-Grade Material High-Grade Material All Material Cla Area Rock Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Proven Sechol Overburden 27.7 1.06 46.59 19.46 3.35 14.41 0.073 0.0 0.00 0.00 0.00 0.00 0.00 0.000 27.7 1.06 46.59 19.46 3.35 14.41 0.073 Limonite 2,331.5 1.19 58.68 12.97 2.09 9.87 0.105 44.1 1.67 56.56 15.22 2.72 7.88 0.097 2,375.7 1.20 58.64 13.01 2.10 9.83 0.105 Transition 73.1 1.50 32.34 36.02 11.67 5.07 0.046 191.4 1.95 33.30 32.01 13.09 4.75 0.047 264.5 1.83 33.03 33.11 12.70 4.84 0.047 Saprolite 1,376.3 1.38 19.23 38.82 23.11 2.89 0.026 2,456.6 2.03 19.12 38.15 23.58 2.69 0.024 3,832.9 1.80 19.16 38.39 23.41 2.76 0.025 Bedrock 182.9 1.17 11.71 39.01 30.67 1.94 0.014 5.3 1.79 9.80 39.99 32.37 1.53 0.011 188.1 1.19 11.66 39.04 30.72 1.93 0.014 Proven Sechol Totals 3,991.5 1.26 42.36 23.54 10.83 7.04 0.072 2,697.4 2.02 20.72",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "себашиловый породный слой",
+          "name_en": "sechol overburden",
+          "canonical": "sechol_overburden"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "лимонит",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "транзитный слой",
+          "name_en": "transition layer",
+          "canonical": "transition_layer"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сапролит",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кристаллическая порода",
+          "name_en": "bedrock",
+          "canonical": "bedrock"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "себашиловый породный слой"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "лимонит"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "транзитный слой"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "сапролит"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "кристаллическая порода"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p14::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p14::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "9.80 39.99 32.37 1.53 0.011 188.1 1.19 11.66 39.04 30.72 1.93 0.014 Proven Sechol Totals 3,991.5 1.26 42.36 23.54 10.83 7.04 0.072 2,697.4 2.02 20.72 37.34 22.51 2.92 0.027 6,688.9 1.57 33.63 29.11 15.54 5.38 0.054 Probable Sechol Overburden 153.4 1.11 45.90 20.89 4.37 13.12 0.063 0.5 1.47 43.33 22.47 6.47 12.37 0.061 153.9 1.11 45.89 20.89 4.38 13.11 0.063 Limonite 4,562.0 1.12 59.93 11.72 2.29 9.65 0.108 29.1 1.67 50.18 21.13 4.35 8.70 0.075 4,591.1 1.12 59.86 11.78 2.31 9.64 0.108 Transition 770.3 1.36 34.45 35.54 10.65 5.25 0.053 400.8 1.85 36.55 32.05 11.45 4.86 0.053 1,171.1 1.53 35.17 34.34 10.93 5.12 0.053 Saprolite 9,165.1 1.32 19.12 39.82 23.65 2.63 0.028 5,562.2 1.92 18.38 38.90 24.86 2.23 0.026 14,727.2 1.55 18.84 39.47 24.11 2.48 0.027 Bedrock 405.6 1.19 11.07 39.60 31.80 1.49 0.021 13.1 1.56 8.80 40.51 33.62 0.76 0.036 418.7 1.21 11.00 39.62 31.86 1.47 0.022 Probable Sechol Totals 15,056.4 1.26 32.32 30.88 16.53 4.97 0.054 6,005.7 1.91 19.72 38.36 23.89 2.43 0.028 21,062.1 1.44 28.73 33.02 18.63 4.24 0.046 Proven + Probable Sechol Totals 19,047.9 1.26 34.43 29.35 15.34 5.40 0.058 8,703.0 1.94 20.03 38.05 23.46 2.58 0.028 27,751.0 1.47 29.91 32.07 17.89 4.52 0.048",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сечол",
+          "name_en": "sechol",
+          "canonical": "sechol"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "первоначальный материал (limonite, transition, saprolite, bedrock)",
+          "name_en": "initial material (limonite, transition, saprolite, bedrock)",
+          "canonical": "initial_material"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "объемные показатели",
+          "name_en": "volume-based indicators",
+          "canonical": "volume_based_indicators"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "сечол из первоначального материала (limonite, transition, saprolite, bedrock)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "proven_sechol_totals",
+          "op": "eq",
+          "value_min": 3991.5,
+          "value_max": 3991.5,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "probable_sechol_overburden",
+          "op": "eq",
+          "value_min": 153.4,
+          "value_max": 153.4,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "limonite",
+          "op": "eq",
+          "value_min": 4562.0,
+          "value_max": 4562.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "transition",
+          "op": "eq",
+          "value_min": 770.3,
+          "value_max": 770.3,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "saprolite",
+          "op": "eq",
+          "value_min": 9165.1,
+          "value_max": 9165.1,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "bedrock",
+          "op": "eq",
+          "value_min": 405.6,
+          "value_max": 405.6,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p14::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p14::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "Probable Sechol Totals 19,047.9 1.26 34.43 29.35 15.34 5.40 0.058 8,703.0 1.94 20.03 38.05 23.46 2.58 0.028 27,751.0 1.47 29.91 32.07 17.89 4.52 0.048 Probable Tres Juanes Norte Overburden 67.2 0.98 46.38 18.82 2.69 16.05 0.058 67.2 0.98 46.38 18.82 2.69 16.05 0.058 Limonite 10,043.4 1.17 62.66 8.03 2.01 9.84 0.097 369.1 1.72 57.08 14.22 2.76 8.18 0.093 10,412.5 1.19 62.46 8.25 2.04 9.78 0.097 Transition 471.4 1.33 44.56 23.36 9.45 7.47 0.065 273.5 1.89 37.75 28.76 11.92 5.99 0.059 744.9 1.54 42.06 25.34 10.36 6.93 0.063 Saprolite 11,451.8 1.29 19.27 37.52 25.65 3.02 0.028 6,272.6 1.99 18.83 37.68 25.76 2.49 0.028 17,724.3 1.54 19.11 37.58 25.69 2.83 0.028 Bedrock 198.4 1.20 11.10 39.89 32.41 1.59 0.016 55.1 1.91 9.14 41.47 33.39 0.66 0.014 253.5 1.36 10.68 40.23 32.62 1.39 0.016 Probable Tres Juanes Norte Totals 22,232.1 1.24 39.42 23.86 14.62 6.22 0.060 6,970.3 1.97 21.52 36.12 24.06 2.91 0.033 29,202.4 1.41 35.15 26.79 16.87 5.43 0.053 Probable Nueva Con- cepcion Overburden 30.1 1.04 50.76 16.15 3.18 13.28 0.098 30.1 1.04 50.76 16.15 3.18 13.28 0.098 Limonite 4,690.5 1.11 60.72 10.66 2.42 8.23 0.131 13.8 1.76 61.51 12.99 2.62 4.36 0.084 4,704.2 1.11 60.72 10.67 2.42 8.22 0.130",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Probable Sechol Totals",
+          "name_en": "Probable Sechol Totals",
+          "canonical": "probable_sechol_totals"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Probable Tres Juanes Norte Overburden",
+          "name_en": "Probable Tres Juanes Norte Overburden",
+          "canonical": "probable_tres_juanes_norte_overburden"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Limonite",
+          "name_en": "Limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Transition",
+          "name_en": "Transition",
+          "canonical": "transition"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "Saprolite",
+          "name_en": "Saprolite",
+          "canonical": "saprolite"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "Bedrock",
+          "name_en": "Bedrock",
+          "canonical": "bedrock"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "Probable Tres Juanes Norte Totals",
+          "name_en": "Probable Tres Juanes Norte Totals",
+          "canonical": "probable_tres_juanes_norte_totals"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Probable Nueva Concepcion Overburden",
+          "name_en": "Probable Nueva Concepcion Overburden",
+          "canonical": "probable_nueva_concepcion_overburden"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "value",
+          "op": "eq",
+          "value_min": 19047.9,
+          "value_max": 19047.9,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "value",
+          "op": "eq",
+          "value_min": 67.2,
+          "value_max": 67.2,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "value",
+          "op": "eq",
+          "value_min": 10043.4,
+          "value_max": 10043.4,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "value",
+          "op": "eq",
+          "value_min": 471.4,
+          "value_max": 471.4,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "value",
+          "op": "eq",
+          "value_min": 11451.8,
+          "value_max": 11451.8,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "value",
+          "op": "eq",
+          "value_min": 198.4,
+          "value_max": 198.4,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "value",
+          "op": "eq",
+          "value_min": 22232.1,
+          "value_max": 22232.1,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "value",
+          "op": "eq",
+          "value_min": 30.1,
+          "value_max": 30.1,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p14::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p14::c3",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "6.15 3.18 13.28 0.098 Limonite 4,690.5 1.11 60.72 10.66 2.42 8.23 0.131 13.8 1.76 61.51 12.99 2.62 4.36 0.084 4,704.2 1.11 60.72 10.67 2.42 8.22 0.130 Transition 253.6 1.26 40.22 26.39 11.17 6.21 0.093 6.3 1.72 39.27 27.31 12.73 3.76 0.062 259.9 1.28 40.20 26.42 11.21 6.15 0.092 Saprolite 6,267.0 1.27 19.67 36.83 25.91 2.64 0.061 1,140.0 1.82 17.83 37.75 27.24 1.37 0.032 7,407.0 1.36 19.39 36.97 26.12 2.45 0.057 Bedrock 515.9 1.17 12.15 39.12 32.37 1.54 0.049 18.4 1.75 10.33 39.96 33.57 0.46 0.020 534.3 1.19 12.09 39.15 32.41 1.50 0.048 Probable Nueva Concepcion Totals 11,757.1 1.20 36.24 26.21 16.45 4.93 0.089 1,178.4 1.82 18.33 37.44 26.97 1.40 0.033 12,935.4 1.26 34.61 27.23 17.40 4.61 0.084 Probable for All Totals 49,045.6 1.24 36.48 26.58 15.65 5.53 0.065 14,154.3 1.93 20.50 37.18 24.23 2.58 0.031 63,199.9 1.39 32.90 28.96 17.57 4.87 0.057 Proven + Probable for All Totals 53,037.1 1.24 36.92 26.35 15.28 5.64 0.065 16,851.7 1.94 20.53 37.21 23.95 2.64 0.030 69,888.8 1.41 32.97 28.97 17.37 4.92 0.057",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "limonite",
+          "name_en": "limonite",
+          "canonical": "limonite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "transition",
+          "name_en": "transition",
+          "canonical": "transition"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "saprolite",
+          "name_en": "saprolite",
+          "canonical": "saprolite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "bedrock",
+          "name_en": "bedrock",
+          "canonical": "bedrock"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "probable_nueva_concepcion",
+          "name_en": "probable_nueva_concepcion",
+          "canonical": "probable_nueva_concepcion"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "proven_plus_probable_all",
+          "name_en": "proven_plus_probable_all",
+          "canonical": "proven_plus_probable_all"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "total",
+          "op": "eq",
+          "value_min": 4690.5,
+          "value_max": 4690.5,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "total",
+          "op": "eq",
+          "value_min": 253.6,
+          "value_max": 253.6,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "total",
+          "op": "eq",
+          "value_min": 6267.0,
+          "value_max": 6267.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "total",
+          "op": "eq",
+          "value_min": 515.9,
+          "value_max": 515.9,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "total",
+          "op": "eq",
+          "value_min": 1178.4,
+          "value_max": 1178.4,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "total",
+          "op": "eq",
+          "value_min": 16851.7,
+          "value_max": 16851.7,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "ru",
+      "text": "16 2018 г Cunico Resources ООО «Институт Гипроникель» Запасы приведены не только с разбивкой по типам материала (вскрыша, лимонит, переходный, сапролит, подстилающая порода), но и разбавкой на «низкосортный» материал и «богатый» материал. Это связано с тем, что по проекту решено было производить ферроникель (22,5% Ni). Предпочтительный состав сырья был определен как: Ni 1,67%; Fe2O3 30,4%; SiO2 29,0%, MgO 17,6% т.е. Fe/Ni <12. Поскольку значительная часть руды содержит <1,6% Ni, были проведены исследования по возможности обогащения руды и выбран способ (рентгенолюминисцентный метод сортировки). При руднике предусматривался большой шихтовочный склад для обогащенного материала и богатой руды. На обогатительные мощности предполагалось отправлять бедную руду (1,0-1,6% Ni), где 35% материала отбраковывалось.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "низкосортный материал",
+          "name_en": "low-grade material",
+          "canonical": "low_grade_material"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "богатый материал",
+          "name_en": "rich material",
+          "canonical": "rich_material"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рудная масса",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore beneficiation",
+          "canonical": "ore_beneficiation"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "сортировка с помощью рентгенолюминесценции",
+          "name_en": "X-ray fluorescence sorting",
+          "canonical": "x_ray_fluorescence_sorting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "низкосортный материал"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "богатый материал"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "обогащение руды"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "способ (рентгенолюминисцентный метод сортировки)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.6,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "ge",
+          "value_min": 1.6,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "et",
+      "text": "щности предполагалось отправлять бедную руду (1,0-1,6% Ni), где 35% материала отбраковывалось. 17 2018 г Cunico Resources ООО «Институт Гипроникель» Таблица 3.5 – График разработки Sechol Period High-Grade to Stockpile Low-Grade to Upgrader Total Ore Mined Waste Tonnes 000's Total Tonnes 000's Strip Ratio O:W Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Tonnes 000's Ni % Fe2O3 % SiO2 % MgO % Al2O3 % Co % Pre- production 21 1.94 22.22 36.24 21.76 3.24 0.030 59 1.19 54.38 14.00 5.61 9.22 0.105 81 1.39 45.86 19.89 9.89 7.63 0.085 59 140 0.73 Qtr 1 67 2.05 21.25 36.16 22.60 2.95 0.029 117 1.28 51.46 16.90 7.46 7.58 0.091 185 1.56 40.42 23.94 12.99 5.88 0.068 104 289 0.57 Qtr 2 125 2.04 23.71 35.06 21.47 3.31 0.033 175 1.24 48.55 18.97 9.22 7.28 0.079 299 1.57 38.21 25.67 14.32 5.63 0.060 106 279 0.35 Qtr 3 208 1.98 22.59 36.62 21.40 3.20 0.030 235 1.24 47.31 19.18 10.04 7.27 0.079 443 1.59 35.69 27.38 15.38 5.36 0.056 80 388 0.18 Qtr 4 245 2.05 20.73 37.45 22.57 2.90 0.026 235 1.25 43.07 22.89 11.24 6.89 0.070 480 1.66 31.66 30.33 17.03 4.85 0.047 60 379 0.12 Year 1 645 2.03 21.96 36.59 21.98 3.08 0.029 761 1.25 46.93 19.93",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бедная руда",
+          "name_en": "low-grade ore",
+          "canonical": "low_grade_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "процент никеля в руде",
+          "name_en": "nickel content in ore",
+          "canonical": "ni_content_in_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "щности предполагалось отправлять бедную руду (1,0-1,6% Ni)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 1.6,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c3",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "tr",
+      "text": "79 39.19 23.17 2.70 0.025 621 1.27 31.06 30.94 16.21 5.64 0.049 872 1.44 27.52 33.32 18.22 4.79 0.042 146 1,018 0.17 Year 5 625 2.03 18.89 36.40 25.43 2.51 0.025 986 1.22 41.64 22.94 12.18 6.83 0.077 1,610 1.54 32.82 28.16 17.32 5.16 0.057 136 1,746 0.08 Year 6 888 1.90 18.25 38.08 25.68 2.47 0.025 1,113 1.27 35.06 27.22 16.02 5.67 0.061 2,001 1.55 27.60 32.04 20.30 4.25 0.045 162 2,163 0.08 Year 7 683 1.92 21.13 36.55 23.47 2.49 0.030 1,244 1.25 33.27 29.71 15.95 5.07 0.060 1,927 1.49 28.97 32.14 18.62 4.15 0.049 500 2,428 0.26 Year 8 501 1.87 20.02 38.24 23.84 2.33 0.033 1,369 1.25 30.72 32.42 17.03 4.54 0.058 1,869 1.42 27.85 33.98 18.86 3.95 0.051 549 2,419 0.29 Year 9 550 1.96 19.02 38.38 23.92 2.37 0.032 1,106 1.27 36.61 27.15 13.78 6.27 0.065 1,656 1.50 30.77 30.88 17.15 4.98 0.054 477 2,133 0.29 Year 10 606 2.03 17.87 40.06 24.03 1.92 0.029 1,277 1.24 32.99 30.55 15.90 5.09 0.057 1,884 1.49 28.13 33.61 18.52 4.07 0.048 659 2,542 0.35 Year 11 620 1.89 19.60 39.79 22.46 2.78 0.028 1,244 1.28 24.21 38.61 18.84 4.02 0.040 1,864 1.48 22.68 39.01 20.04 3.61 0.036 433 2,297 0.23 Year 12 384 1.90 18.48 39.02 25.15 2.27 0.025 1,168 1.27 29.34 33.26 18.02 4.57 0.048 1,552 1.43 26.65",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "chlorides",
+          "op": "le",
+          "value_min": null,
+          "value_max": 38.24,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfates",
+          "op": "le",
+          "value_min": null,
+          "value_max": 39.79,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "tr",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "1.25 43.07 22.89 11.24 6.89 0.070 480 1.66 31.66 30.33 17.03 4.85 0.047 60 379 0.12 Year 1 645 2.03 21.96 36.59 21.98 3.08 0.029 761 1.25 46.93 19.93 9.82 7.20 0.078 1,406 1.61 35.47 27.57 15.40 5.31 0.055 350 1,335 0.25 Qtr 1 152 2.07 20.62 38.09 22.24 2.94 0.025 230 1.26 42.69 22.84 11.31 7.07 0.070 382 1.58 33.88 28.93 15.68 5.42 0.052 57 327 0.15 Qtr 2 182 2.05 19.65 37.26 23.72 2.75 0.024 232 1.28 34.09 28.04 16.17 5.53 0.054 414 1.62 27.75 32.09 19.49 4.31 0.041 37 279 0.09 Qtr 3 238 2.04 19.81 37.79 22.74 2.79 0.025 238 1.25 37.73 25.88 13.58 6.26 0.065 476 1.65 28.75 31.84 18.17 4.52 0.045 61 332 0.13 Qtr 4 163 2.11 20.05 37.81 23.01 2.85 0.026 256 1.29 37.31 25.58 14.19 6.29 0.066 419 1.61 30.60 30.33 17.61 4.95 0.050 43 331 0.10 Year 2 735 2.07 19.99 37.73 22.94 2.82 0.025 955 1.27 37.92 25.59 13.83 6.28 0.064 1,690 1.62 30.12 30.87 17.79 4.78 0.047 198 1,269 0.12 Year 3 815 2.04 21.24 37.59 21.66 2.98 0.029 1,043 1.29 42.66 23.77 10.09 7.23 0.074 1,859 1.62 33.26 29.83 15.17 5.36 0.054 211 2,070 0.11 Year 4 252 1.88 18.79 39.19 23.17 2.70 0.025 621 1.27 31.06 30.94 16.21 5.64 0.049 872 1.44 27.52 33.32 18.22 4.79 0.042 146 1,018 0.17 Year 5 625 2.03 18.89 36.40 25.43",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "",
+          "name_en": "Quarterly data for years 1 to 5",
+          "canonical": "Quarterly Data"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Copper, Zinc, Lead, Silver",
+          "canonical": "Metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Quarterly data for years 1 to 5 contain values for metals such as copper, zinc, lead, and silver."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "years",
+          "condition": "Quarterly data"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p18::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p18::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 18,
+      "lang": "ru",
+      "text": "18 2018 г Cunico Resources ООО «Институт Гипроникель» В первые 4 года объем переработки руды составил бы 1,3 млн т/г при выпуске ~20 тыс т/г Ni FeNi, с 5-го года объемы удвоились бы после подключения к Sechol других участков добычи. 19 2018 г Cunico Resources ООО «Институт Гипроникель» ЗАКЛЮЧЕНИЕ С Cunico всё не ясно. По личному мнению автора данной справки компания Cunico и её основатели имеют не слишком благовидную репутацию. Компания была учреждена в 2005 г. как СП Beny Steinmetz Group Resources (BSGR) и International Mineral Resources (IMR) и сразу стала известна, как участник «непрозрачной» (мягко говоря) сделки – по приватизации рудников/завода в Косово. Как упоминалось выше, в 2006 г. был приватизирован ферроникелевый комплекс Drenas (Glogovac) в Косово, который перешел в собственность СП IMR/Alferon за 33 млн € и обязательство инвестировать в комплекс ещё 20 млн € в течение трех лет и обеспечить занятость, по крайней мере, 1000 рабочих.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "ферроникелевый комплекс Drenas (Glogovac)",
+          "name_en": "ferro-nickel complex Drenas (Glogovac)",
+          "canonical": "ferro_nikel_complex_drenas_glogovac"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "факт использования руды в комплексе Drenas (Glogovac)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c4",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "tr",
+      "text": ".48 22.68 39.01 20.04 3.61 0.036 433 2,297 0.23 Year 12 384 1.90 18.48 39.02 25.15 2.27 0.025 1,168 1.27 29.34 33.26 18.02 4.57 0.048 1,552 1.43 26.65 34.69 19.79 4.00 0.042 289 1,842 0.19 Year 13 360 1.84 22.42 37.63 22.49 2.91 0.029 1,278 1.25 31.06 31.53 18.00 4.56 0.048 1,637 1.38 29.16 32.87 18.98 4.20 0.044 445 2,082 0.27 Year 14 225 1.78 21.42 38.12 23.55 2.22 0.029 1,277 1.27 28.87 34.52 18.16 3.92 0.042 1,503 1.35 27.76 35.06 18.97 3.67 0.040 768 2,271 0.51 Year 15 526 1.84 21.69 39.16 22.19 2.39 0.028 1,391 1.28 27.45 34.93 18.93 3.95 0.036 1,916 1.43 25.87 36.09 19.82 3.52 0.034 564 2,480 0.29 Year 16 242 1.76 21.34 37.55 22.98 2.75 0.028 1,588 1.22 40.16 24.48 13.63 6.03 0.066 1,829 1.29 37.67 26.21 14.86 5.60 0.061 521 2,350 0.28 Year 17 23 1.70 20.90 39.46 23.36 2.65 0.025 103 1.26 24.83 36.11 20.86 3.63 0.032 125 1.34 24.12 36.72 21.31 3.45 0.031 15 141 0.12 Year 18 - - - - - - - - - - - - - - - - - - - - - - - Year 19 - - - - - - - - - - - - - - - - - - - - - - - Year 20 - - - - - - - - - - - - - - - - - - - - - - - Year 21 - - - - - - - - - - - - - - - - - - - - - - - Year 22 - - - - - - - - - - - - - - - - - - - - - - - Totals 8,700 1.94 20.04 38.05 23.46 2.58",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "Year 12",
+          "name_en": "Year 12",
+          "canonical": "Year"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "Year 13",
+          "name_en": "Year 13",
+          "canonical": "Year"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "Year 14",
+          "name_en": "Year 14",
+          "canonical": "Year"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "Year 15",
+          "name_en": "Year 15",
+          "canonical": "Year"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Year 16",
+          "name_en": "Year 16",
+          "canonical": "Year"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "Year 17",
+          "name_en": "Year 17",
+          "canonical": "Year"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "Year 18",
+          "name_en": "Year 18",
+          "canonical": "Year"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "Year 19",
+          "name_en": "Year 19",
+          "canonical": "Year"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "Year 20",
+          "name_en": "Year 20",
+          "canonical": "Year"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "Year 21",
+          "name_en": "Year 21",
+          "canonical": "Year"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "Year 22",
+          "name_en": "Year 22",
+          "canonical": "Year"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "Totals",
+          "name_en": "Totals",
+          "canonical": "Total"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "tr",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p16::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p16::c5",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "- Year 21 - - - - - - - - - - - - - - - - - - - - - - - Year 22 - - - - - - - - - - - - - - - - - - - - - - - Totals 8,700 1.94 20.04 38.05 23.46 2.58 0.028 18,583 1.26 33.93 29.61 15.66 5.31 0.057 27,282 1.48 29.50 32.30 18.14 4.44 0.048 6,691 33,973 0.25",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "Годы",
+          "name_en": "Years",
+          "canonical": "Year"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "Общие показатели",
+          "name_en": "Totals",
+          "canonical": "Totals"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "Значения",
+          "name_en": "Values",
+          "canonical": "Value"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "- Year 21 - - - - - - - - - - - - - - - - - Year 22 - - - - - - - - - - - - - - - - - - - - - - - Totals"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "8,700 1.94 20.04 38.05 23.46 2.58 0.028 18,583 1.26 33.93 29.61 15.66 5.31 0.057 27,282 1.48 29.50 32.30 18.14 4.44 0.048 6,691 33,973 0.25"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "values",
+          "op": "range",
+          "value_min": 6691.0,
+          "value_max": 33973.0,
+          "unit": "units",
+          "condition": "Totals"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2022,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p18::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p18::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 18,
+      "lang": "ru",
+      "text": "R/Alferon за 33 млн € и обязательство инвестировать в комплекс ещё 20 млн € в течение трех лет и обеспечить занятость, по крайней мере, 1000 рабочих. Сначала комплекс хотели передать другой компании – американо-албанской фирме Adi Nikel, предлагавшей за него 50 млн €, однако Комиссия по приватизации Косово «вдруг» пересмотрела своё первоначальное решение, заявив, что эта компания «финансово нестабильна» и приняла предложение Alferon за 33 млн €. Adi Nikel намекала на коррупцию и вымогание взяток, но, конечно, ничего не было расследовано. Комплекс оказался, в результате, у Cunico (СП IMR/BSG). Alferon Management – управляющая компания, ответственная за управление активами IMR в Казахстане. Alferon принадлежит трем казахским бизнесменам – А.Машкевичу, имеющему также и Израильское гражданство; П.Шодиеву и И.Ибрагимову. Члены этой «Тройки» являются учредителями крупной горно- металлургической компании ENRC (Евразийская Корпорация Природных Ресурсов).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "А.Машкевич",
+          "name_en": "A. Mashkevich",
+          "canonical": "A_Mashkevich"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "П.Шодиев",
+          "name_en": "P. Shodiyev",
+          "canonical": "P_Shodiyev"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "И.Ибрагимов",
+          "name_en": "I. Ibrahimov",
+          "canonical": "I_Ibrahimov"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Комплекс",
+          "name_en": "Complex",
+          "canonical": "complex"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "активы IMR в Казахстане",
+          "name_en": "IMR assets in Kazakhstan",
+          "canonical": "imr_assets_kazakhstan"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Alferon принадлежит трем казахским бизнесменам – А.Машкевичу..."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Alferon принадлежат П.Шодиев и И.Ибрагимов"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Alferon принадлежат трем казахским бизнесменам – А.Машкевичу..."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p18::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p18::c3",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 18,
+      "lang": "ru",
+      "text": "а, а в Совет менеджеров компании, помимо «Тройки», входит Министр финансов и Министр оборонной и аэрокосмической промышленности Республики Казахстан. Активы по меди и кобальту ENRC в Конго и Замбии включают, среди прочих, и бывшие конголезские активы компании First Quantum, среди которых – проект переработки хвостов Kolwezi. В январе 2010 г. правительство ДР Конго в лице государственной конголезской компании Gecamines отозвало лицензию по проекту у канадской компании First Quantum, работавшей тогда над проектом, под предлогом «невыполнения в срок контрактных обязательств». First Quantum предполагала перерабатывать 2,5 млн. т/г хвостов с получением 35 тыс. т/г Cu кат.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "хвосты Kolwezi",
+          "name_en": "Kolwezi tailings",
+          "canonical": "tailings"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "переработка хвостов",
+          "name_en": "processing of tailings",
+          "canonical": "tailings_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "проект переработки хвостов Kolwezi"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p20::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p20::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 20,
+      "lang": "ru",
+      "text": "20 2018 г Cunico Resources ООО «Институт Гипроникель» и 7 тыс. т/г гидроксида кобальта. На момент отзыва лицензии у First Quantum работы по проекту были выполнены на 75%. Сразу после этого Gecamines в обстановке строгой секретности передала 70% в проект группе компаний, ассоциированных с печально известным воротилой и большим другом Президента ДРК израильтянином Дэном Гертлером. Все эти компании зарегистрированы на Британских Виргинских островах. Они выплатили «подписной бонус» в размере 60 млн USD. В августе 2010 г. «часть» Kolwezi приобрела ENRC – 50,5% за 175 млн USD, а двумя годами позднее – выкупила оставшуюся долю за 550 млн USD. По оценкам аналитиков убытки от этой сделки для Конго превысили 600 млн USD. Последовательность событий заставляет подозревать, что Гертлер знал о возможном отзыве лицензии ещё до того, как это было объявлено. В январе 2012 г. ENRC выплатила 1,2 млрд USD компании First Quantum, чтобы урегулировать спор по суду. Ещё одним примером сомнительных сделок ENRC, опять-таки связанных с Гертлером, является приобретение 50% в компании SMKK (Societe Miniere de Kabolela et de Kipese) [Global Witness. Out of Africa. May 2016, 20 pp].",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гидроксид кобальта",
+          "name_en": "cobalt hydroxide",
+          "canonical": "cobalt_hydroxide"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "First Quantum",
+          "name_en": "First Quantum",
+          "canonical": "first_quantum"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Gecamines",
+          "name_en": "Gecamines",
+          "canonical": "gecamines"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "ENRC",
+          "name_en": "ENRC",
+          "canonical": "enrc"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Global Witness",
+          "name_en": "Global Witness",
+          "canonical": "global_witness"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "выполняли работы по проекту"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "передала 70% в проект"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "приобрела оставшуюся долю за 550 млн USD"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p20::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p20::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 20,
+      "lang": "ru",
+      "text": "х с Гертлером, является приобретение 50% в компании SMKK (Societe Miniere de Kabolela et de Kipese) [Global Witness. Out of Africa. May 2016, 20 pp]. Benny Steinmetz Group (BSG) Resources носит имя основателя – израильского магната Benny Steinmetz, но он не зарегистрирован как владелец фирмы и неоднократно заявлял, что не принимает никаких решений. Однако в мировом бизнес-сообществе эта группа считается корпорацией, контролируемой Cтейнмецом, одним из самых богатых людей в мире. Румынские дела: BSG владеет 16% в компании Gabriel Resources, которой принадлежит 80% в проекте добычи золота Rosia Montana (Румыния). Проект открытой добычи вызвал большой резонанс, протесты экологов и жителей региона были самыми массовыми в посткоммунистический период истории Румынии. Обещаниям сделать всё экологически дружелюбно не верится – достаточно посмотреть на убийственную экологическую ситуацию в Косово, где на завод невозможно попасть никому – колючая проволока, специальная израильская охрана. Подчеркнем, что эти компании предпочитают приобретать проекты в странах «третьего мира» со слабым экологическим законодательством. В 2016 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Бенни Стейнмец",
+          "name_en": "Benny Steinmetz",
+          "canonical": "benny_steinmetz"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "завод в Косово",
+          "name_en": "factory in Kosovo",
+          "canonical": "kosovo_factory"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Benny Steinmetz Group (BSG) Resources носит имя основателя – израильского магната Benny Steinmetz, но он не зарегистрирован как владелец фирмы и неоднократно заявлял, что не принимает никаких решений."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p18::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p18::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 18,
+      "lang": "ru",
+      "text": "и И.Ибрагимову. Члены этой «Тройки» являются учредителями крупной горно- металлургической компании ENRC (Евразийская Корпорация Природных Ресурсов). ENRC – диверсифицированная горно-металлургическая компания с активами в Казахстане (ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно- обогатительное производственное объединение, Алюминий Казахстана и т.п) и зарубежными активами, преимущественно в Африке, по производству меди и кобальта и т.д. Напомним, что руководство компании имело настолько сомнительную репутацию, что в 2013 г. в Великобритании было начато антикоррупционное расследование, которое ведет Британское Бюро по борьбе с мошенничеством в особо крупных размерах. ENRC прошла делистинг на ФБ Лондона (LSE) и вновь превратилась из публичной компании в закрытую частную. В настоящее время ENRC на 100% принадлежит Eurasian Resources Group (ERG – «Евразийская группа») – частной компании с главным офисом в Люксембурге. К ERG не подкопаешься. Она владеет третью всей горно-металлургической отрасли Казахстана, а в Совет менеджеров компании, помимо «Тройки», входит Министр финансов и Министр оборонной и аэрокосмической промышленности Республики Казахстан.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "И. Ибрагимову",
+          "name_en": "I. Ibragimovu",
+          "canonical": "I. Ibragimovu"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "горно-металлургическая компания ENRC (Евразийская Корпорация Природных Ресурсов)",
+          "name_en": "ENRC (Eurasian Resources Group) mining and metallurgical company",
+          "canonical": "ENRC"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно-обогатительное производственное объединение, Алюминий Казахстана",
+          "name_en": "TNK Kazakhchrome, Zhayrym GOK, Sokolsko-Sarbaiskoe concentrator plant, Alumina Kazakhstan",
+          "canonical": "TNK Kazakhchrome, Zhayrym GOK, Sokolsko-Sarbaiskoe concentrator plant, Alumina Kazakhstan"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "горно-металлургическая компания ENRC (Евразийская Корпорация Природных Ресурсов)",
+          "name_en": "ENRC (Eurasian Resources Group) mining and metallurgical company",
+          "canonical": "ENRC"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "предметы, преимущественно в Африке, по производству меди и кобальта",
+          "name_en": "assets in Africa primarily producing copper and cobalt",
+          "canonical": "copper and cobalt production"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "предметы, преимущественно в Африке, по производству меди и кобальта",
+          "name_en": "assets in Africa primarily producing copper and cobalt",
+          "canonical": "copper and cobalt production"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "ФБ Лондона (LSE)",
+          "name_en": "London Stock Exchange (LSE)",
+          "canonical": "London Stock Exchange (LSE)"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Eurasian Resources Group (ERG – «Евразийская группа»)",
+          "name_en": "Eurasian Resources Group (ERG - 'Euroasia Group')",
+          "canonical": "Eurasian Resources Group"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "горно-металлургической отрасли Казахстана",
+          "name_en": "Kazakhstan mining and metallurgical industry",
+          "canonical": "Kazakhstan mining and metallurgical industry"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "и И.Ибрагимову. Члены этой «Тройки» являются учредителями крупной горно- металлургической компании ENRC (Евразийская Корпорация Природных Ресурсов)."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "ENRC – диверсифицированная горно-металлургическая компания с активами в Казахстане (ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно- обогатительное производственное объединение, Алюминий Казахстана и т.п)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "ENRC – диверсифицированная горно-металлургическая компания с активами в Казахстане (ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно- обогатительное производственное объединение, Алюминий Казахстана и т.п)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "ENRC – диверсифицированная горно-металлургическая компания с активами в Казахстане (ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно- обогатительное производственное объединение, Алюминий Казахстана и т.п) и зарубежными активами, преимущественно в Африке, по производству меди и кобальта и т.д."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "ENRC – диверсифицированная горно-металлургическая компания с активами в Казахстане (ТНК Казхром, Жайремский ГОК, Соколовско-Сарбайское горно- обогатительное производственное объединение, Алюминий Казахстана и т.п) и зарубежными активами, преимущественно в Африке, по производству меди и кобальта и т.д."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "ENRC прошла делистинг на ФБ Лондона (LSE) и вновь превратилась из публичной компании в закрытую частную."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "В настоящее время ENRC на 100% принадлежит Eurasian Resources Group (ERG – «Евразийская группа») – частной компании с главным офисом в Люксембурге."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "К ERG не подкопаешься. Она владеет третью всей горно-металлургической отрасли Казахстана, а в Совет менеджеров компании, помимо «Тройки», входит Министр финансов и Министр оборонной и аэрокосмической промышленности Республики Казахстан."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e7",
+          "param": "location",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "London"
+        },
+        {
+          "entity_id": "e8",
+          "param": "ownership_percentage",
+          "op": "eq",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "full ownership"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p21::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p21::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 21,
+      "lang": "ru",
+      "text": "21 2018 г Cunico Resources ООО «Институт Гипроникель» 1. Ферроникелевый завод в Македонии продан, работает ли в настоящее время завод в Косово – неизвестно. 2. У компании большие (по её меркам) долги. 3. За гватемальский рудник Mayaniquel надо ещё выплачивать деньги (условия покупки рудника Guaxilan в 2012 г. неизвестны). 4. В такой ситуации компания, конечно, хочет продавать гватемальскую руду – что ещё-то ей делать. Из спецификации не понять происхождение этой руды. Если предположить, что она именно с Mayaniquel, то из представленных выше материалов следует, что это ‘high-grade’ руда, которая пошла бы прямо в производство ферроникеля. Остается ‘low-grade’, которую предыдущий владелец – компания Anfield планировала обогащать и тоже пускать в производство ферроникеля в смеси с богатой рудой. Cunico, естественно, никаких ферроникелевых заводов в Гватемале не построила и, полагаем, не ведет и обогащение бедной руды. 5. Полагаем, что вопрос упирается именно в бедную руду. Заметим, что на Кубе её достаточно, зачем они стали бы покупать импортную руду?",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "гватемальская руда",
+          "name_en": "Guatemalan ore",
+          "canonical": "guatemalan_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Mayaniquel руда",
+          "name_en": "Mayaniquel ore",
+          "canonical": "mayaniquel_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Anfield обогащенная руда",
+          "name_en": "Anfield enriched ore",
+          "canonical": "anfield_enriched_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "полагаем, что гватемальская руда именно с Mayaniquel"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "предыдущий владелец – компания Anfield планировала обогащать и тоже пускать в производство ферроникеля"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p21::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p21::c1",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 21,
+      "lang": "ru",
+      "text": "бедной руды. 5. Полагаем, что вопрос упирается именно в бедную руду. Заметим, что на Кубе её достаточно, зачем они стали бы покупать импортную руду? Завод в Punta Gorda, даже с учетом проводимой модернизации, имеет относительно высокие издержки – топливо, реагенты, сложная пиро- гидрометаллургическая технология, а на выходе – не первоклассный никель, извлечение никеля и кобальта – низкое. Кроме того, вызывает вопросы применимость гватемальской руды к переработке по технологии аммиачного выщелачивания (MgO, SiO2?). 6. В чем интерес Норникеля? Как бы потом не оказаться в эпицентре какой-нибудь сомнительной сделки.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бедная руда",
+          "name_en": "low-grade ore",
+          "canonical": "low_grade_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "пирогидрометаллургическая технология",
+          "name_en": "pyrohydro metallurgical technology",
+          "canonical": "pyrohydro_metallography"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "импортная руда",
+          "name_en": "imported ore",
+          "canonical": "imported_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "гватемальская руда",
+          "name_en": "Guatemalan ore",
+          "canonical": "guatemalan_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "бедная руда... сложная пирогидрометаллургическая технология"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "Завод в Punta Gorda, даже с учетом проводимой модернизации, имеет относительно высокие издержки – топливо, реагенты, сложная пирогидрометаллургическая технология, а на выходе – не первоклассный никель, извлечение никеля и кобальта – низкое."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2016,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p20::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p20::c2",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 20,
+      "lang": "ru",
+      "text": "охрана. Подчеркнем, что эти компании предпочитают приобретать проекты в странах «третьего мира» со слабым экологическим законодательством. В 2016 г. румынская прокуратура собиралась привлечь Стейнмеца, вместе с тремя другими бизнесменами по делу о нелегальной реституции леса вблизи Бухареста. Стейнмец обвиняется в создании преступной группы, отмывании денег и др. Другой пример: правительство Гвинеи обвиняет BSGR в коррупции – речь идет о «сенсационной» покупке одного из самых богатых по мировым меркам железорудного месторождения Simandou. После двух лет расследования BSGR лишили концессии, а затем Rio Tinto обвинила BSGR и Vale в краже концессии по мошеннической схеме. Rio Tinto лишили «половины прав» на Simandou в 2008 г. и они были быстро подобраны BSGR за маленькую плату незадолго до смерти бывшего президента Контэ. Половина прав была продана компании Vale в 2010 г. – уже за 2,5 млрд USD – так называемая «сделка века». Однако BSGR выпихнули из страны в 2014 г., когда правительство заключило, что BSGR давала взятки, чтобы приобрести права. BSGR, как всегда, заявила о невиновности и обратилась в суд с контр иском и т.д. Подводим итоги по Cunico:",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Стейнмец",
+          "name_en": "Steinmezer (assuming from context, as not explicitly stated in the text)",
+          "canonical": "Steinmezer"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Бухарест",
+          "name_en": "Bucharest",
+          "canonical": "Bucharest"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "лес",
+          "name_en": "forest",
+          "canonical": "Forest"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "железная руда",
+          "name_en": "iron ore",
+          "canonical": "Iron Ore"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "BSGR",
+          "name_en": "BSGR (Business and Social Governance Research)",
+          "canonical": "BSGR"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Rio Tinto",
+          "name_en": "Rio Tinto",
+          "canonical": "Rio Tinto"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Vale",
+          "name_en": "Vale",
+          "canonical": "Vale"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "Simandou",
+          "name_en": "Simandou",
+          "canonical": "Simandou"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "BSGR was accused of corruption in the context of a 'sensational' purchase of one of the world's richest iron ore deposits near Simandou."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Rio Tinto was accused of being involved in a scheme to steal rights over Simandou from BSGR and Vale."
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Vale acquired half the rights over Simandou for 2.5 billion USD in what was called 'the deal of the century'."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e7",
+          "param": "year_of_acquisition",
+          "op": "eq",
+          "value_min": 2010.0,
+          "value_max": 2010.0,
+          "unit": "year",
+          "condition": "Vale acquired half the rights over Simandou in 2010."
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2016,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Cunico Resources::p22::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Cunico Resources::p22::c0",
+      "doc_id": "Обзоры__Cunico Resources",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Cunico Resources.pdf",
+      "page": 22,
+      "lang": "en",
+      "text": "22 2018 г Cunico Resources ООО «Институт Гипроникель» СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ 1. Cunico Resources N.V. CSR Report 2016/FENI Industries, 32 pp, 2. Cunico Resources N.V. Company Brochure, August 2016, 20 pp, 3. MTB Project Management Professionals, Inc. NI 43-101 Technical Report: Prefeasibility Study Mayaniquel Project, Guatemala. December 7, 2012, 215 pp.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2018
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "CSR Report 2016",
+          "name_en": "Cunico Resources N.V. CSR Report 2016",
+          "canonical": "Cunico Resources N.V. CSR Report 2016"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Компанийный брошюра",
+          "name_en": "Company Brochure",
+          "canonical": "Cunico Resources N.V. Company Brochure"
+        },
+        {
+          "id": "e3",
+          "type": "Publication",
+          "name_ru": "NI 43-101 Technical Report: Prefeasibility Study Mayaniquel Project, Guatemala",
+          "name_en": "MTB Project Management Professionals, Inc. NI 43-101 Technical Report: Prefeasibility Study Mayaniquel Project, Guatemala",
+          "canonical": "MTB Project Management Professionals, Inc. NI 43-101 Technical Report: Prefeasibility Study Mayaniquel Project, Guatemala"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "high"
+      }
+    }
+  }
+}

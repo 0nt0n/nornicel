@@ -1,0 +1,2421 @@
+{
+  "Обзоры__Sheba's Ridge::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p1::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "ент вводила в строй небольшой подземный МПГ-рудник Blue Ridge, а также являлась владельцем доли в МПГ-проекте Sheba’s Ridge. В настоящее время Aquarius, которой принадлежит 50% акций Blue Ridge Platinum (Pty) Ltd и 39% Sheba’s Ridge Platinum (Pty) Ltd, является владельцем 50% в горно-обогатительном предприятии Blue Ridge (50% у «черной» компании Imbani Platinum) и 39% в проекте Sheba’s Ridge (35% - у Anglo Platinum, 26% - у государственного Южноафриканского финансо- вого института Industrial Development Corporation). Компания Aquarius, помимо Blue Ridge и Sheba’s Ridge, владеет: 50% в рудниках Kroondal и Maricana (ЮАР), 50% в руднике Mimosa (Зим- бабве), 100% в новом руднике Everest (ЮАР), 50% в заводе по переработке хромитовых хвостов CTRP (ЮАР), 50% в компании Platinum Mile Re- sources (ЮАР), оказывающей услуги по переработке хвостов и отходов. Кроме того, Aquarius является владельцем ряда новых проектов (Everest North, Chieftains Plain, Walhalla и др), находящихся на ранних этапах про- работки. В 2010 финансовом году (по 30.06.2010) на долю Aquarius пришлось в сумме 422,6 тыс унц МПГ, в 2011 фин.г. – 487,4 тыс унц.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Blue Ridge (50% у «черной» компании Imbani Platinum)",
+          "name_en": "Blue Ridge (50% owned by the 'black' company Imbani Platinum)",
+          "canonical": "blue_ridge_mine"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Sheba’s Ridge (39% - у Anglo Platinum, 26% - у государственного Южноафриканского финансо- вого института Industrial Development Corporation)",
+          "name_en": "Sheba's Ridge (39% owned by Anglo Platinum, 26% owned by the South African financial institute Industrial Development Corporation)",
+          "canonical": "shebas_ridge_project"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Kroondal и Maricana (ЮАР) (50%)",
+          "name_en": "Kroondal and Maricana (South Africa, 50%)",
+          "canonical": "kroondal_and_maranica_mines"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Mimosa (Зимбабве) (50%)",
+          "name_en": "Mimosa (Zimbabwe, 50%)",
+          "canonical": "mimosa_mine"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Everest (ЮАР) (100%)",
+          "name_en": "Everest (South Africa, 100%)",
+          "canonical": "everest_mine"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "CTRP (ЮАР) (50%)",
+          "name_en": "CTRP (South Africa, 50%)",
+          "canonical": "ctrp_plant"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "Platinum Mile Resources (ЮАР), оказывающей услуги по переработке хвостов и отходов (100%)",
+          "name_en": "Platinum Mile Resources (South Africa, 100%), providing tailings and waste processing services",
+          "canonical": "platinum_mile_resources_company"
+        },
+        {
+          "id": "e9",
+          "type": "Facility",
+          "name_ru": "Everest North, Chieftains Plain, Walhalla и др.",
+          "name_en": "Everest North, Chieftains Plain, Walhalla and others",
+          "canonical": "new_projects"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Aquarius owns Blue Ridge Platinum (Pty) Ltd"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Aquarius owns Sheba’s Ridge Platinum (Pty) Ltd"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Aquarius owns Kroondal and Maricana mines"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Aquarius owns Mimosa mine"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Aquarius owns Everest mine"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Aquarius owns CTRP plant"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Aquarius owns Platinum Mile Resources company"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p1::c2",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "анних этапах про- работки. В 2010 финансовом году (по 30.06.2010) на долю Aquarius пришлось в сумме 422,6 тыс унц МПГ, в 2011 фин.г. – 487,4 тыс унц. Отметим, что Aquarius является 4-м по величине производителем МПГ в ЮАР, но на рудниках производит МПГ только в концентрате. Пе- реработка концентратов осуществляется либо на мощностях Impala, либо Anglo Platinum. Такова стратегия компании – строительство небольших рудников, добычу на которых ведут подрядчики, обогащение руды (с ис- пользованием, в частности, тяжелосредного разделения) и переработка концентратов на плавильных мощностях третьих сторон, что обеспечивает снижение рисков за счет исключения металлургического передела (плав- ка/рафинирование) и маркетинга МПГ. Начиналось всё в рудника Kroondal, введенном в строй в 1999г. Aquarius известна своим умением в сжатые сроки успешно вводить в строй рудники (все сравнительно не- большие) и производить МПГ в концентрате со сравнительно низкими из- держками (ниже были только у Impala). Однако с Blue Ridge и Sheba’s Ridge всё получилось не так уж удачно. 2.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медь-пallадий-гальций (МПГ)",
+          "name_en": "copper-palladium-gold (CPG)",
+          "canonical": "cpg"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore dressing",
+          "canonical": "ore_dressing"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "плавильные мощности третьих сторон",
+          "name_en": "third-party smelting facilities",
+          "canonical": "third_party_smelting_facilities"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "переработка концентратов на плавильных мощностях третьих сторон"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "переработка концентратов на плавильных мощностях третьих сторон"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p1::c3",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "концентрате со сравнительно низкими из- держками (ниже были только у Impala). Однако с Blue Ridge и Sheba’s Ridge всё получилось не так уж удачно. 2. Blue Ridge Банковское ТЭО по небольшому подземному руднику Blue Ridge было выполнено предыдущим владельцем - Ridge Mining в ноябре 2005 г., в мае 2006 г. было подписано соглашение с Impala Refining Services о пе- реработке всего выпускаемого на руднике концентрата.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Ridge Mining",
+          "name_en": "Ridge Mining",
+          "canonical": "ridge_mining"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Impala Refining Services",
+          "name_en": "Impala Refining Services",
+          "canonical": "impala_refining_services"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Банковское ТЭО по небольшому подземному руднику Blue Ridge было выполнено предыдущим владельцем - Ridge Mining в ноябре 2005 г."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p1::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 1,
+      "lang": "bg",
+      "text": "ООО «ИНСТИТУТ ГИПРОНИКЕЛЬ» СПРАВКА Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge ОИП РC – 05 - 2011 Начальник ТУ Колосова Г.К. Санкт-Петербург Октябрь 2011 2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 2 ООО «Институт Гипроникель» Исполнители: Начальник ОИП А.К.Евграфова Главный специалист Р.А.Кузнецов 2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 3 ООО «Институт Гипроникель» Оглавление 1. Введение 4 2. Blue Ridge 4 3. Sheba’s Ridge 12 Источники 17 2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 4 ООО «Институт Гипроникель» 1. Введение В июле 2009 г. компания Aquarius Platinum завершила приобрете- ние Ridge Mining plc, которая на тот момент вводила в строй небольшой подземный МПГ-рудник Blue Ridge, а также являлась владельцем доли в МПГ-проекте Sheba’s Ridge.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "ООО «Институт Гипроникель»",
+          "name_en": "OJSC Institute Gipronikel",
+          "canonical": "OJSC Institute Gipronikel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge Mine",
+          "canonical": "Blue Ridge Mine"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "проект Sheba’s Ridge",
+          "name_en": "Sheba's Ridge Project",
+          "canonical": "Sheba's Ridge Project"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "ООО «Институт Гипроникель» СПРАВКА Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "ООО «Институт Гипроникель» СПРАВКА Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "underground metal mine"
+        },
+        {
+          "entity_id": "e3",
+          "param": "status",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "project status"
+        }
+      ],
+      "metadata": {
+        "lang": "bg",
+        "geography": "RU",
+        "year": 2011,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p5::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p5::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": ".1 Расположение Blue Ridge и Sheba’s Ridge 2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 6 ООО «Институт Гипроникель» Таблица 1. Ресурсы и запасы (100%) Blue Ridge на 30.06.2010 (SAMREС) после учета геологич.потерь категория млн т 4Е*, г/т 4Е, млн унц млн т 4Е, г/т 4Е, млн унц Ресурсы: измеренные 34,23 3,30 3,64 29,78 3,30 3,16 исчисленные 47,99 3,09 4,77 37,30 3,10 3,71 предполагаемые 16,65 3,17 1,70 14,28 3,17 1,45 сумм.ресурсы 98,87 3,18 10,10 81,36 3,18 8,33 Запасы: доказанные 21,84 2,83 1,99 вероятные 1,79 2,82 0,16 сумм.запасы 23,63 2,83 2,15 * - 4E = Σ Pt, Pd, Rh, Au Таблица 2. Ресурсы и запасы (100%) Blue Ridge по участкам на 30.06.2010 (SAMREС) Blaauwbank Millenium Σ (Blue Ridge) категор млн т 4Е, г/т 4Е, млн унц млн т 4Е, г/т 4Е, млн унц млн т 4Е, г/т Ресурсы: измерен 34,23 3,30 3,64 34,23 3,30 исчисл 9,51 3,18 0,97 38,48 3,07 3,80 47,99 3,09 предпол 9,61 3,24 1,00 7,04 3,07 0,70 16,65 3,17 сумм.ресурсы 53,35 3,27 5,61 45,52 3,07 4,49 98,87 3,18 Запасы: доказанные 21,84 2,83 1,99 21,84 2,83 вероятные 1,79 2,82 0,16 1,79 2,82 сумм.запасы 23,63 2,83 2,15 0 0 0 23,63 2,83 Соотношение МПГ (4E) в руде Blue Ridge: Pt – 60,8% Pd – 27,8% Rh - 10,1% Au –",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Pt, Pd, Rh, Au",
+          "name_en": "Pt, Pd, Rh, Au",
+          "canonical": "pt_pd_rh_auprecious_metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "соотношение МПГ (4E) в руде Blue Ridge"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p5::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p5::c2",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "ые 1,79 2,82 0,16 1,79 2,82 сумм.запасы 23,63 2,83 2,15 0 0 0 23,63 2,83 Соотношение МПГ (4E) в руде Blue Ridge: Pt – 60,8% Pd – 27,8% Rh - 10,1% Au – 1,3%. Оруднение прослежено на глубину более 1000 м. По первому ТЭО 2003 г. предполагалось вести сплошную разработку рифа UG2 обычными методами. Проектом предусматривалось строитель-",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда Blue Ridge",
+          "name_en": "Blue_Ridge_ore",
+          "canonical": "blue_ridge_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "соотношение МПГ (4E)",
+          "name_en": "precious_metals_ratio",
+          "canonical": "precious_metals_ratio"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Соотношение МПГ (4E) в руде Blue Ridge: Pt – 60,8% Pd – 27,8% Rh - 10,1% Au – 1,3%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "pt_content",
+          "op": "eq",
+          "value_min": 60.8,
+          "value_max": 60.8,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "pd_content",
+          "op": "eq",
+          "value_min": 27.8,
+          "value_max": 27.8,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "rh_content",
+          "op": "eq",
+          "value_min": 10.1,
+          "value_max": 10.1,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "au_content",
+          "op": "eq",
+          "value_min": 1.3,
+          "value_max": 1.3,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p7::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p7::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 7 ООО «Институт Гипроникель» ство подземного рудника со спаренным наклонным стволом и обогати- тельной фабрики. Обогатительная фабрика имела обычную для рифа UG2 схему – MF2 (измельчение/флотация×2). Руду предполагалось измельчать до сравнительно грубого помола 40% <75 мкм. МПГ-содержащие сульфи- ды и сульфиды базовых металлов извлекались на первой стадии флотации, хвосты которой повторно измельчались до 70% <75 мкм с целью дополни- тельного извлечения МПГ, за этим следовала вторичная флотация. В опы- тах достигалось высокое среднее извлечение в концентрат 83%. Ориентировочный срок эксплуатации рудника был оценен в 18 лет, проектный объем производства 4Е в концентрате - в 4,4 т/г. Капитальные затраты – 143 млн US$, NPV (10%) 83 млн US$, IRR 20,3%, период оку- паемости – 5 лет. Однако, по завершении ТЭО в конце 2003 г., компания сообщила, что показатели Blue Ridge «не отвечают целям компании по прибыльности». С целью улучшения экономических показателей проекта было решено изменить его концепцию в части добычи – вести селектив- ную разработку более узкой, но более богатой по МПГ хромитовой зоны рифа UG2.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда UG2",
+          "name_en": "UG2 ore",
+          "canonical": "ug2_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "извлечение металлов",
+          "name_en": "metal recovery",
+          "canonical": "metal_recovery"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "измельчитель",
+          "name_en": "crusher",
+          "canonical": "crusher"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "извлекались на первой стадии флотации"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "высокое среднее извлечение в концентрат 83%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "руду предполагалось измельчать до сравнительно грубого помола"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "metal_recovery",
+          "op": "ge",
+          "value_min": 83.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "grind_size_first_stage",
+          "op": "le",
+          "value_min": 75.0,
+          "value_max": null,
+          "unit": "microns",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "grind_size_second_stage",
+          "op": "le",
+          "value_min": 70.0,
+          "value_max": null,
+          "unit": "microns",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p5::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p5::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 5 ООО «Институт Гипроникель» В октябре 2006 г. Ridge Mining продала около 20% акций китайской компании Zijin Mining Group за 120 млн R (рэндов) – путем подписки Zijin на 16 млн акций Ridge Mining по курсу 45 пенсов за штуку (премия к курсу на закрытие торгов 29.09.06 в 28,5%) и права на варранты на покупку ак- ций по 70 пенсов (до 10 млн штук). Фактически Zijin было реализовано 7 млн варрантов Ridge в августе 2009 г. на общую сумму 4,9 млн фунтов стерлингов. Рудник Blue Ridge был введен в строй в 2009 г. Рудник расположен на юго-западной оконечности Восточного крыла Бушвельдского комплек- са в муниципалитете Sekhukhune, примерно в 15 км от г.Groblersdal и 200 км к западу от Йоханнесбурга. Рис.1 Расположение Blue Ridge и Sheba’s Ridge 2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 6 ООО «Институт Гипроникель» Таблица 1.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge Mine",
+          "canonical": "rudnik Blue Ridge"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ruda"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "ООО «Институт Гипроникель»",
+          "name_en": "OJSC 'Institute Gipronikel'",
+          "canonical": "OOO 'Institut Gipronikel'"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "ввод в строй",
+          "name_en": "commissioning",
+          "canonical": "vvedenie_v_stoy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "рудник Blue Ridge был введен в строй в 2009 г."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "ООО «Институт Гипроникель» В октябре 2006 г. Ridge Mining продала около 20% акций китайской компании Zijin Mining Group за 120 млн R (рэндов)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "date",
+          "op": "eq",
+          "value_min": 2009.0,
+          "value_max": 2009.0,
+          "unit": "год",
+          "condition": "введено в строй"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2011,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p7::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p7::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "кта было решено изменить его концепцию в части добычи – вести селектив- ную разработку более узкой, но более богатой по МПГ хромитовой зоны рифа UG2. Это позволило бы повысить сортность поступающего на обо- гащение сырья с 2,83 г/т МПГ (по ТЭО 2003 г.) примерно до 3,3 г/т, увели- чить извлечение МПГ в концентрат при флотации. Сокращение необходи- мой пропускной способности обогатительной фабрики привело бы т к снижению капзатрат. Однако выпуск МПГ по сравнению с ТЭО 2003 г. снизился бы при этом до 3,9 т/г 4Е. С целью проверки эффективности но- вого варианта добычи в мае-августе 2005 г. вели пробную добычу. Проб- ная добыча прошла вполне успешно и в ноябре 2005 г. компания объявила о завершении пересмотренного ТЭО. ТЭО 2005 г. базировалось на суммарных ресурсах (всех категорий изученности) в 51,1 млн т с 3,2 г/т 4Е; суммарные запасы оценивались в 21,7 млн т с 3,3 г/т 4Е. Предусматривалась пропускная способность обога- тительного передела 120 тыс т/мес по руде сортностью 3,3 грамм 4Е на тонну в расчете на получение 3,9 тонн в год 4Е в концентрате. При составлении экономической модели проекта брали средние цены на металлы и обменный курс – средние за период с 01.10.2005 по 11.11.2005.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "хромитовая руда",
+          "name_en": "chromite ore",
+          "canonical": "chromite_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "сортность сырья",
+          "name_en": "ore grade",
+          "canonical": "ore_grade"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "извлечение МПГ в концентрате",
+          "name_en": "magnetite recovery in concentrate",
+          "canonical": "magnetite_recovery"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "извлечение МПГ в концентрат при флотации"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "сортность поступающего на обогащение сырья с 2,83 г/т МПГ (по ТЭО 2003 г.) примерно до 3,3 г/т"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ore_grade_initial",
+          "op": "le",
+          "value_min": 2.83,
+          "value_max": null,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "ore_grade_final",
+          "op": "ge",
+          "value_min": 3.3,
+          "value_max": null,
+          "unit": "g/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2005,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p8::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p8::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 8 ООО «Институт Гипроникель» Таблица 3. Цены на металлы, заложенные в экономические оценки 2003 г. и 2005 г. ТЭО 2003 г. Вариант 2005 г. Pt, USD/г 17,7 24,1 Pd, USD/г 8,0 8,0 Rh, USD/г 22,5 38,6 Корзина, USD/г 15,2 21,0 Курс R/USD 8,50 6,25 Стоимость корзи- ны в рэндах, R/г 129 131 Таблица 4. Экономическая модель Blue Ridge по ТЭО 2005 г. ТЭО 2003 г. Предв.оценка нового варианта 2005 г. Годовой объем произ- водства, т 4Е 4,2 3,4 Период окупаемости 10 лет 5 лет NPV (3%) 8,5 млн USD 74 млн USD IRR 3,8% 20,6% По завершении ТЭО 2005 г. компания приняла решение о реализа- ции проекта. Капитальные затраты по проекту оценивались в 1,3 млрд R (165 млн USD), из которых займ на 98 млн USD предоставили Standard Bank, Investec и Industrial Development Corp. Важным шагом на пути реа- лизации проекта стало подписание в мае 2006 г. соглашения с Impala Refin- ing Services о переработке всего выпускаемого на руднике концентрата, т.к. наличие такого соглашения является ключевым условием получения банковского кредита. К концу августа 2006 г. принципиальные договорен- ности по финансированию проекта были завершены.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина (Pt)",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "пallадий (Pd)",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рутений (Rh)",
+          "name_en": "rhodium",
+          "canonical": "rhodium"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "корзина металлов",
+          "name_en": "metal basket",
+          "canonical": "metal_basket"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "экономическая оценка проекта",
+          "name_en": "economic evaluation of the project",
+          "canonical": "economic_evaluation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Цены на металлы, заложенные в экономические оценки"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Цены на металлы, заложенные в экономические оценки"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Цены на металлы, заложенные в экономические оценки"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Цены на металлы, заложенные в экономические оценки"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 17.7,
+          "value_max": 24.1,
+          "unit": "USD/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": 8.0,
+          "value_max": 8.0,
+          "unit": "USD/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "le",
+          "value_min": 22.5,
+          "value_max": 38.6,
+          "unit": "USD/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "price",
+          "op": "le",
+          "value_min": 15.2,
+          "value_max": 21.0,
+          "unit": "USD/g",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p8::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p8::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "ся ключевым условием получения банковского кредита. К концу августа 2006 г. принципиальные договорен- ности по финансированию проекта были завершены. Компания Imbani Platinum обязалась предоставить 42 млн USD (300 млн R) в обмен на 50% в проекте, а заключение соглашения с Imbani, в свою очередь, сняло по- следнее препятствие на пути получения кредита от консорциума Южноаф- риканских банков. Кроме того, Ridge Mining, имея «черного» партнера могла уже не беспокоиться по поводу предстоящей в 2009 г. конверсии «старых» прав на права нового образца. Ввод проекта в строй предпола- гался в июне 2008 г., но, как это обычно бывает, сроки были отодвинуты. Вступившая в середине 2009 г. в свои права компания Aquarius пе- ресмотрела проект рудника с целью повышения эффективности, решила модернизировать обогатительную фабрику и привести проект в целом в соответствие со своими производственными стандартами. Угол падения с запада на восток рифа UG2 в Blue Ridge - 17˚. Риф включает 3 прослойка (A, B, C), общая разрабатываемая ширина – 1,22 м при средней сортности руды 2,64 г/т. Добыча в 2009/2010 финансовом году",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore dressing",
+          "canonical": "ore_dressing"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "сортность руды",
+          "name_en": "ore grade",
+          "canonical": "ore_grade"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обогатительная фабрика"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "средняя сортность руды 2,64 г/т"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ore_grade",
+          "op": "eq",
+          "value_min": 2.64,
+          "value_max": 2.64,
+          "unit": "g/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p9::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p9::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 9 ООО «Институт Гипроникель» (01.07.2009-30.06.2010) велась на глубине до 275 м, но в планах – углубле- ние примерно до 800 м. При разработке висячего бока используется без- рельсовое мобильное оборудование, а сплошную выемку ведут узкими (по ширине рифа) забоями. Использование гибридной добычи связано с необ- ходимостью оптимизации сортности руды. Добыча на руднике, как это принято у Aquarius была с апреля 2010 г. поручена подрядчику - MRC (Murray&Roberts), численность работников на 01.06.2010г. составляла 1665 человек, в.т.ч 1651 – подрядчики. На хвостохранилище и О/Ф также опера- торами являются подрядчики – в общем, как это принято на всех Южноаф- риканских предприятиях Aquarius. В 2009/10 фин.г. основные усилия были сосредоточены на том, что- бы обеспечить достаточную длину забоя и провести модернизацию О/Ф. Полностью обновленная О/Ф была введена в строй в июне 2010 г. В декабре 2009 г. на руднике произошел несчастный случай. Руко- водство рудника обеспокоилось наличием геологического трещинообразо- вания в висячем боке, пришлось расширить вруб, чтобы это устранить.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge mine",
+          "canonical": "blue_ridge_mine"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "гидрометаллургический процесс",
+          "name_en": "hydrometallurgical process",
+          "canonical": "hydrometallurgy"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "оборудование для добычи руды",
+          "name_en": "mining equipment",
+          "canonical": "mining_equipment"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "хвостохранилище и О/Ф",
+          "name_en": "tailings dam and OF",
+          "canonical": "of_facility"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "добыча на руднике"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "операторами являются подрядчики"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2010,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p9::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p9::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "лучай. Руко- водство рудника обеспокоилось наличием геологического трещинообразо- вания в висячем боке, пришлось расширить вруб, чтобы это устранить. В результате, сортность поступающей на обогащение руды снизилась.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore beneficiation",
+          "canonical": "ore_beneficiation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "сортность поступающей на обогащение руды снизилась"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p10::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p10::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 10 ООО «Институт Гипроникель» Таблица 5. Показатели рудника Blue Ridge (100% выпуска) ед.измерения 2010 ф.г. (по 30.06.10) 2011 ф.г. (по 30.06.11) обогащено руды млн т 1,1 0,33 средняя сортность г/т 2,36 2,30 извлечение % 71 73 вырученная стоимость корзины МПГ US$/унц 1183 1428 R/унц 8955 цена Ni US$/фунт 8,80 11,37 цена Cu US$/фунт 3,04 4,01 средний курс R/US$ 7,03 7,57 произведено в концентрате, унц: Pt 35179 10664 Pd 17340 5181 Rh 5525 1680 Au 573 183 всего МПГ (4Е) 58617 17707 доля Aquarius 4E (50%) 29309 8854 Ir 646 2073 Ru 3208 10078 5E 21561 70768 Ni т 40 - Cu т 26 - Капзатраты: текущие/на поддержание (100%) тыс US$ 11882 6986 на расширение (100%) тыс US$ 55329 24272 За 2010 фин.г. с рудника было получено (100% выпуска) 35,2 тыс унц Pt и 17,3 тыс унц Pd. Проектный объем производства – около 125 тыс унц МПГ в год. Однако 29.06.2010 Aquarius сообщила, что добыча, видимо, будет приостановлена примерно на 8 месяцев в связи с необходимостью усиле- ния мер безопасности (на руднике были несчастные случаи) и проведения работ по реконструкции на фоне текущих низких (в рэндах) цен на МПГ. С августа 2010 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "pt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "пallадий",
+          "name_en": "palladium",
+          "canonical": "pd"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рутений",
+          "name_en": "ruthenium",
+          "canonical": "ru"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "иридий",
+          "name_en": "iridium",
+          "canonical": "ir"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "ni"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "cu"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore dressing",
+          "canonical": "ore_dressing"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "установка обогащения",
+          "name_en": "concentration plant",
+          "canonical": "concentration_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обогащение платины"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "обогащение палладия"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "обогащение рутения"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "обогащение ирида"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "производство платины в концентрате"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "производство палладия в концентрате"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production",
+          "op": "ge",
+          "value_min": 35.2,
+          "value_max": null,
+          "unit": "thou oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "production",
+          "op": "ge",
+          "value_min": 17.3,
+          "value_max": null,
+          "unit": "thou oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "production",
+          "op": "le",
+          "value_min": 40.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "production",
+          "op": "le",
+          "value_min": 26.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p11::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p11::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 11 ООО «Институт Гипроникель» ства МПГ может быть увеличен примерно до 140 тыс унц МПГ в год, а выход на этот уровень был запланирован на 2013 фин.г. 0 59 6 0 20 40 60 80 100 120 140 160 2009 2010 2011 2012 2013 Рис. 2 Планы по наращиванию производства МПГ на руднике Blue Ridge Ист: Aquarius, November 2010 В 1 кв. 2011 г. продолжались работы по проекту улучшения работы рудника, в т.ч.совершенствования инфраструктуры, системы транспорти- ровки руды, санитарно-технических условий и др. В январе 2011 г. была временно возобновлена эксплуатация О/Ф с тем, чтобы убедиться в её го- товности к моменту возобновления выемки – часть складированного к этому моменту сырья была переработана и за квартал произведено 6,7 тыс унц МПГ. Для того, чтобы обеспечить своевременное выполнение проекта ре- конструкции рудника Aquarius профинансировала 100% необходимых ка- питальных затрат. В феврале 2011 г. была достигнута договоренность с финансистами о пересмотре графика выплат Ridge Mining по долгу под проценты для рудника Blue Ridge.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge mine",
+          "canonical": "blue_ridge_mine"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство МПГ",
+          "name_en": "production of PGMs (platinum group metals)",
+          "canonical": "pgm_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "производство МПГ на руднике Blue Ridge"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p12::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p12::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 12 ООО «Институт Гипроникель» компания Aquarius, рудник может по-прежнему быть маргинальным (ма- лодоходным, почти убыточным). За 2 кв. 2011 г. (это 4 кв.2011 фин.г.) было произведено всего 3 тыс унц МПГ (4Е). По завершении квартала Aquarius 01.06.2011 г. подвела ре- зультаты анализа ситуации, которые приведены ниже. По ходу реализации проекта реконструкции пришло понимание, что при текущих низких ценах на МПГ в рэндах невозможна прибыльная экс- плуатация рудника. Рекомендовано законсервировать рудник до за- вершения полного детального анализа его экономической жизнеспо- собности. До завершения этого анализа Ridge Mining приостанавливает финансирование работ и начинает переговоры о реструктуризации долга с Industrial Development Corporation и Development Bank of Southern Africa (общая сумма задолженности 370 млн рэндов). Подрядчик – MRC начала процесс переговоров с профсоюзами по сокращению рабочей силы. Чтобы оценить стоимость рудника, Aquarius рассматривала как соб- ственную «внутреннюю» модель, а также внешнюю модель чистого капи- тала активов Blue Ridge.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "эксплуатация рудника",
+          "name_en": "mine operation",
+          "canonical": "mine_operation"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Aquarius Platinum",
+          "name_en": "Aquarius Platinum",
+          "canonical": "aquarius_platinum"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "производилось всего 3 тыс унц МПГ (4Е)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Aquarius, рудник может по-прежнему быть маргинальным"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p10::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p10::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "безопасности (на руднике были несчастные случаи) и проведения работ по реконструкции на фоне текущих низких (в рэндах) цен на МПГ. С августа 2010 г. добыча была остановлена. Проект реконструкции должен был обеспечить длину забоя достаточную для наращивания жизне- способных в нынешних экономических условиях объемов добычи руды, а также включал строительство третьего наклонного ствола (в дополнение к имеющимся двум – один для конвейера и один для вагонеток). В результа- те реализации проекта, как полагала Aquarius, проектный объем производ-",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "МПГ",
+          "name_en": "MPG",
+          "canonical": "Material"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "добыча руды",
+          "name_en": "mining ore",
+          "canonical": "Process"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "реконструкция",
+          "name_en": "reconstruction",
+          "canonical": "Process"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "наклонный ствол",
+          "name_en": "inclined shaft",
+          "canonical": "Equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "В результа- те реализации проекта, как полагала Aquarius, проектный объем производ-"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "включал строительство третьего наклонного ствола (в дополнение к имеющимся двум – один для конвейера и один для вагонеток)."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "rand",
+          "condition": "low"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p12::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p12::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "ценить стоимость рудника, Aquarius рассматривала как соб- ственную «внутреннюю» модель, а также внешнюю модель чистого капи- тала активов Blue Ridge. На базе этих данных руководство заключило, что активы Ridge Mining должны быть списаны на 1,8 млрд R (100%), чтобы отражать чистую стоимость в 1 млрд R. 50% ослабления капитала прихо- дится на долю Aquarius, что приведет к убыткам от снижения стоимости для неё в 159,8 млн US$. 3. Sheba’s Ridge Что касается проекта - Sheba's Ridge, то в начале 2009 г. предыдущий владелец - Ridge Mining заявила, что проект, включающий металлургиче- ский завод, не может быть реализован до тех пор, пока государственная компания Eskom не обеспечит гарантированные поставки электроэнергии, т.е., во всяком случае, работы даже теоретически не могли бы начаться ра- нее 2013-2014 г. Aquarius о своих планах по проекту пока не сообщает, за исключением туманной фразы «.. проект анализируется…». Проект Sheba’s Ridge расположен примерно в 30 км к югу от г.Groblersdal на восточном крыле Бушвельдского комплекса. Таблица 6.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рудник Aquarius",
+          "name_en": "Aquarius mine",
+          "canonical": "aquarius_mine"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "активы Ridge Mining",
+          "name_en": "Ridge Mining assets",
+          "canonical": "ridge_mining_assets"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "металлургический завод",
+          "name_en": "smelting plant",
+          "canonical": "smelting_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "активы Ridge Mining должны быть списаны на 1,8 млрд R (100%)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "проект Sheba's Ridge включает металлургический завод"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p11::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p11::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "феврале 2011 г. была достигнута договоренность с финансистами о пересмотре графика выплат Ridge Mining по долгу под проценты для рудника Blue Ridge. В результате, доля второго владельца рудника – Imbani будет разводнена, о чем с Imbani достигнуто соглаше- ние, которое должно быть подтверждено Комиссией по конкуренции. По итогам 1 кв.2011 г. (это 3 кв.2011 фин.г.) цена корзины МПГ в рэндах для Blue Ridge равнялась 10300 R/унц МПГ и, как подчеркнула",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "рудник Blue Ridge",
+          "name_en": "Blue Ridge Mine",
+          "canonical": "Ridge Mining"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "унц МПГ",
+          "name_en": "ounce of gold",
+          "canonical": "ounce of gold"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p12::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p12::c2",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "роект анализируется…». Проект Sheba’s Ridge расположен примерно в 30 км к югу от г.Groblersdal на восточном крыле Бушвельдского комплекса. Таблица 6. Ресурсы Sheba’s Ridge после учета геологических потерь (100%)* категория млн т 3Е, г/т 3Е, млн унц Ni, % Cu, % измеренные 394,99 0,86 10,94 0,19 0,07 исчисленные 366,72 0,95 11,21 0,19 0,07 предполагаемые 2,63 0,85 0,07 0,17 0,07 сумм.ресурсы 764,33 0,90 22,23 0,19 0,07 * - данные Aquarius",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_grade",
+          "op": "eq",
+          "value_min": 0.86,
+          "value_max": 0.95,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "cu_grade",
+          "op": "eq",
+          "value_min": 0.19,
+          "value_max": 0.19,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p13::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p13::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 13 ООО «Институт Гипроникель» Проведенные в 2002 г. исследования позволили получить более чет- кое представление о геологической структуре и последовательности зале- гания рифов (от основания наверх): «Нижний» Platreef, «Верхний» Platreef, промежуточный хромитовый, Platchro (аналогичен UG2) и UMP (аналоги- чен Меренски). Выяснилось, что рифы Меренски и Platchro прерывисты, поэтому основные изыскания были сосредоточены на рифе Platreef. В фев- рале 2003 г. было принято решение об ускорении изысканий с целью оконтуривания «конверта» Platreef на глубинах 50-250 м. По состоянию дел на июль 2003 г. была подтверждена непрерывность оруднения на рифе Platreef и уточнена его структура. Риф Platreef – с большими колебаниями по содержанию МПГ, но зато имеет среднюю толщину порядка 80 м, включая непрерывную зону (слой) более богатого оруднения толщиной примерно 30 м, что удобно для добычи. В марте 2005 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платриф",
+          "name_en": "platreef",
+          "canonical": "platreef"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь-пalladium-gold (МПГ)",
+          "name_en": "copper-palladium-gold (CPG)",
+          "canonical": "cpg"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "содержание МПГ"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "thickness",
+          "op": "ge",
+          "value_min": 80.0,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "rich_zone_thickness",
+          "op": "eq",
+          "value_min": 30.0,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2005,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p13::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p13::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "среднюю толщину порядка 80 м, включая непрерывную зону (слой) более богатого оруднения толщиной примерно 30 м, что удобно для добычи. В марте 2005 г. предыдущим владельцем было завершено предвари- тельное ТЭО по проекту Sheba’s Ridge, который стали рассматривать не как «МПГ-проект», а, скорее, как никелевый проект со значительным ко- личеством «побочных» МПГ (как, например, рудник Nkomati). Предварительным ТЭО предусматривалась открытая добыча 1,5 млн т руды в месяц на карьере 1 км длиной, 1 км шириной и глубиной 400 м. На обогатительной фабрике - 3 отдельных линии по 500 тыс т/мес. Таблица 7. Основные производственно/финансовые показатели про- екта Sheba’s Ridge по предварительному ТЭО (2005 г.) Способ добычи Открытая добыча Объем добычи 1,5 млн т/мес Срок эксплуатации карьера 18+ лет Нал.опер.издержки производства Ni после учета поб.продукции 2,9 USD/кг Объем производства: Файнштейн, т/мес 4500 Ni, т/г 23700 Cu, т/г 12000 Co, т/г 400 Pt, т/г 2,9 Pd, т/г 8,5 Rh, т/г 0,16 Au, т/г 0,7 Капзатраты, млн USD 691",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "пallадий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "руда",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "открытая добыча",
+          "name_en": "open-pit mining",
+          "canonical": "open_pit_mining"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore dressing",
+          "canonical": "ore_dressing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "открытая добыча"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "обогатительная фабрика"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production",
+          "op": "ge",
+          "value_min": 4500.0,
+          "value_max": null,
+          "unit": "t/month",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "production",
+          "op": "ge",
+          "value_min": 23700.0,
+          "value_max": null,
+          "unit": "t/month",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "production",
+          "op": "ge",
+          "value_min": 12000.0,
+          "value_max": null,
+          "unit": "t/month",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "production",
+          "op": "ge",
+          "value_min": 400.0,
+          "value_max": null,
+          "unit": "t/month",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "production",
+          "op": "ge",
+          "value_min": 2.9,
+          "value_max": 8.5,
+          "unit": "t/month",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "production",
+          "op": "ge",
+          "value_min": 1500000.0,
+          "value_max": null,
+          "unit": "t/month",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2005,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p14::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p14::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 14,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 14 ООО «Институт Гипроникель» Модель предв.ТЭО Цена на 13/5/05* Cu, USD/т 2097 3200 Pt, USD/г 24,1 28,1 Pd, USD/г 8,0 6,1 Rh, USD/г 38,6 48,2 Au, USD/г 13,5 13,7 R/USD 7,20 6,30 * - на момент презентации предв.ТЭО Цена Ni, USD/т NPV (дисконт 5%), млн USD IRR, % 8830 225 9,7 9934 388 12,8 11038 549 15,8 12141 709 18,7 17506 (13/5/2005) 1500 28,7 Сначала предполагалось, что конечной продукцией Sheba's Ridge на первом этапе будет флотационный концентрат, который могла бы перера- батывать Anglo Platinum. Однако проектный объем производства – 600+ тыс т/г концентрата, причем с высоким содержанием базовых металлов - вряд ли может быть переработан на действующих мощностях Anglo Platinum или какой-либо другой Южноафриканской платиновой компании. С другой стороны, речь идет о крупном месторождении, вполне «оправды- вающем», как полагали предыдущие владельцы, строительство собствен- ного металлургического комплекса. В июне 2008 г. было завершено ТЭО проекта в части «от горы до концентрата» и принято решение о выполнении ТЭО по строительству «независимых плавильных мощностей» - проект ISF (Independent Smelting Facilities).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "флотация",
+          "name_en": "flotation",
+          "canonical": "flotation"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "пловильный комплекс",
+          "name_en": "smelting facility",
+          "canonical": "smelting_facility"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "флотационный концентрат"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "независимые плавильные мощности"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price_ni",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2097.0,
+          "unit": "USD/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "ge",
+          "value_min": 600000.0,
+          "value_max": null,
+          "unit": "t/y",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p14::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p14::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 14,
+      "lang": "ru",
+      "text": "о концентрата» и принято решение о выполнении ТЭО по строительству «независимых плавильных мощностей» - проект ISF (Independent Smelting Facilities). В ТЭО 2008 г. уточнена оценка ресурсов (измерен- ные+исчисленные): 716 млн т с 0,19% Ni, 0,07% Cu, 0,21г/т Pt, 0,62г/т Pd, 0,08 г/т Au плюс дополнительные, не заложенные в ТЭО ресурсы в 48 млн т с 0,19% Ni, 0,07% Cu, 0,25 г/т Pt, 0,58 г/т Pd, 0,05 г/т Au. Оценка выпол- нялась на базе прогнозных показателей извлечения и следующих цен на металлы: Pt - 962 USD/унц, Pd – 353 USD/унц, Ni – 5,60 USD/фунт, Cu – 2,26 USD/фунт. Доказанные и вероятные запасы (включены в ресурсы), подлежащие открытой добыче, составляют 390 млн т с 0,19% Ni, 0,07% Cu, 0,20 г/т Pt, 0,59 г/т Pd, 0,06 г/т Au. Проектный объем добычи (открытым способом) – 18 млн т/г в тече- ние 20-ти лет. Конфигурация обогатительной фабрики – MF2. Объем про-",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "пallадий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "обогащение",
+          "name_en": "concentration",
+          "canonical": "concentration"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "обогатительная фабрика MF2",
+          "name_en": "MF2 concentrator",
+          "canonical": "mf2_concentrator"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "извлечение никеля"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "извлечение меди"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "извлечение платины"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "извлечение палладия"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "извлечение золота"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "ni_content",
+          "op": "eq",
+          "value_min": 0.19,
+          "value_max": 0.19,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "cu_content",
+          "op": "eq",
+          "value_min": 0.07,
+          "value_max": 0.07,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "pt_content",
+          "op": "eq",
+          "value_min": 0.21,
+          "value_max": 0.25,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "pd_content",
+          "op": "eq",
+          "value_min": 0.62,
+          "value_max": 0.58,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "au_content",
+          "op": "eq",
+          "value_min": 0.08,
+          "value_max": 0.05,
+          "unit": "g/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2008,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p15::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p15::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 15 ООО «Институт Гипроникель» изводства – 630 тыс т/г концентрата или 23 тыс т/г Ni, 11 тыс т/г Cu, 85 тыс унц/г Pt, 243 тыс унц/г Pd, 20 тыс унц/г Au (352 тыс унц/г 4Е) в концентра- те. Проект завода ISF предположительно должен был включать плав- ку/конвертирование и, возможно, рафинировочный завод базовых метал- лов. В предварительном ТЭО по проекту ISF речь шла о двух печах по 35 МВА (по 6 электродов). На первом этапе файнштейн предполагалось отправлять на рафини- ровочные заводы третьих сторон. Наряду с традиционной плавкой рас- сматривалась технология Activox, Ridge Mining также внимательно следи- ла за развитием работ по проекту строительства «независимого» плавиль- ного комплекса по технологии Mintek-Atomaer – ныне Jubilee Platinum (процесс Conroast). Естественно, строительство металлургического комплекса делало проект довольно дорогим: капзатраты в 2008 г. оценивались примерно в 4,5 млрд рэндов.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "нильсодержащий концентрат",
+          "name_en": "nickel-bearing concentrate",
+          "canonical": "nickel_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "платиново-пallадиево-золотой концентрат",
+          "name_en": "platinum-palladium-gold concentrate",
+          "canonical": "ppg_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "плавка",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "печь по технологии ISF",
+          "name_en": "ISF furnace",
+          "canonical": "isf_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "630 тыс т/г концентрата"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "85 тыс унц/г Pt, 243 тыс унц/г Pd, 20 тыс унц/г Au (352 тыс унц/г 4Е) в концентра- те"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "плавку/конвертирование и, возможно, рафинировочный завод базовых метал- лов"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "ge",
+          "value_min": 23.0,
+          "value_max": null,
+          "unit": "thousand tons per million tons of concentrate",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "cu_content",
+          "op": "ge",
+          "value_min": 11.0,
+          "value_max": null,
+          "unit": "thousand tons per million tons of concentrate",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p15::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p15::c1",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": ". Естественно, строительство металлургического комплекса делало проект довольно дорогим: капзатраты в 2008 г. оценивались примерно в 4,5 млрд рэндов. В начале 2009 г., как упоминалось выше, руководство Ridge Mining заявило, что проект Sheba's Ridge, включающий металлурги- ческий завод, не может быть реализован до тех пор, пока государственная энергетическая компания Eskom не обеспечит гарантированные поставки электроэнергии. Затем Ridge Mining была поглощена компанией Aquarius и проект «завис». Заметим, что конечным продуктом переработки руд, добываемых Aquarius на своих рудниках, является флотационный концентрат, который отправляется на плавку на мощностях других Южноафриканских компа- ний – Anglo Platinum или Impala Platinum. По всей видимости, строитель- ство самостоятельного «традиционного» плавильно/рафинировочного ком- плекса для переработки руды Sheba’s Ridge вряд ли является целесообраз- ным, учитывая ситуацию с электроэнергией в ЮАР.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "флотационный концентрат",
+          "name_en": "flotation concentrate",
+          "canonical": "flotation_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавка",
+          "name_en": "smelting",
+          "canonical": "smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "плавильный/рафинировочный комплекс",
+          "name_en": "smelting/refining complex",
+          "canonical": "smelting_refining_complex"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "флотационный концентрат отправляется на плавку"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "самостоятельный плавильно/рафинировочный комплекс для переработки руды Sheba’s Ridge"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p15::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p15::c2",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": "лавильно/рафинировочного ком- плекса для переработки руды Sheba’s Ridge вряд ли является целесообраз- ным, учитывая ситуацию с электроэнергией в ЮАР. С другой стороны, пе- реработать весь объем концентратов (порядка 600 тыс т/г), да ещё с таким высоким (по меркам платиновой отрасли ЮАР) содержанием базовых ме- таллов (в первую очередь, никеля) на плавильных заводах какой-либо од- ной ведущей Южноафриканской платиновой компании вряд ли возможно. Так, например, у партнера по проекту - крупнейшей платиновой компании Anglo Platinum 3 плавильных завода: Mortimer на 180 тыс т/г по концен- трату, Waterval – на 650 тыс т/г и сравнительно новый завод (2003г.) Polokwane на 650 тыс т/г – единственный плавильный завод на Восточном крыле Бушвельдского комплекса. Выпуск готового никеля Anglo Platinum – около 20 тыс т/г. Какие-то резервы по пропускной способности, конечно, имеются, например на Polokwane, но, полагаем, будущее проекта может быть связано с развитием новых технологий переработки МПГ-руд в ЮАР. Однако и здесь всё не просто, т.к. Jubilee, например, ввела первый коммер- ческий завод Conroast в 2011 г., в течение 5-ти лет должно быть построено 2 печи по 10 МВА (8МВт).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавление руды",
+          "name_en": "smelting of ores",
+          "canonical": "ore_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "печь Conroast",
+          "name_en": "Conroast furnace",
+          "canonical": "conroast_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "содержанием базовых металлов (в первую очередь, никеля)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 10.0,
+          "unit": "MV",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel_production",
+          "op": "le",
+          "value_min": 20.0,
+          "value_max": 20.0,
+          "unit": "thousand tons/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p15::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p15::c3",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 15,
+      "lang": "ru",
+      "text": "осто, т.к. Jubilee, например, ввела первый коммер- ческий завод Conroast в 2011 г., в течение 5-ти лет должно быть построено 2 печи по 10 МВА (8МВт). Конечная цель – переработка 360 тыс т/г кон-",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "переработка руды",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "печь Conroast",
+          "name_en": "Conroast furnace",
+          "canonical": "conroast_furnace"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "переработка 360 тыс т/г кон-"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p16::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p16::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 16,
+      "lang": "ru",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 16 ООО «Институт Гипроникель» центрата с получением примерно до 1 млн унц/год МПГ, до 30 тыс т/г Ni и 15 тыс т/г Cu. Кроме того, Jubilee, предполагавшая ранее перерабатывать только стороннее сырье, выполняет ТЭО по собственному проекту добычи МПГ - Tijate на 335 тыс унц/г 4Е (в руде 0,22% Ni, 0,13% Cu, 5 г/т 3 МПГ+Au). И, наконец, у Jubilee пока нет конкретных планов по достраи- ванию технологической цепочки до получения готовых металлов из сплава - по гидрометаллургической схеме или с использованием газофазного про- цесса карбонилирования. Заметим, что неблагоприятная ситуация с энергоснабжением и рост тарифов на электроэнергию, а также необходимость переработки сложных по составу концентратов может способствовать возобновлению интереса и к таким разработкам, как, например, процесс Kell. Интересно, что автором запатентованной (в ЮАР, США и Канаде) технологии является Keith Lid- dell – бывший исполнительный директор Aquarius.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "платина-пallадий (МПГ)",
+          "name_en": "platinum-palladium (PGE)",
+          "canonical": "pge"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "гидрометаллургическая схема",
+          "name_en": "hydrometallurgical process",
+          "canonical": "hydrometallurgical_process"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "газофазный процесс карбонилирования",
+          "name_en": "gas-phase carbothermal reduction process",
+          "canonical": "carbothermal_reduction_process"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Кевин Лидделл",
+          "name_en": "Keith Liddell",
+          "canonical": "keith_liddell"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "до 30 тыс т/г Ni и 15 тыс т/г Cu"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "до 1 млн унц/год МПГ"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "expert_in",
+          "evidence": "запатентованной (в ЮАР, США и Канаде) технологии является Keith Liddell – бывший исполнительный директор Aquarius"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "ni_content",
+          "op": "le",
+          "value_min": 0.22,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "pge_content",
+          "op": "le",
+          "value_min": 0.22,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Sheba's Ridge::p17::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Sheba's Ridge::p17::c0",
+      "doc_id": "Обзоры__Sheba's Ridge",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Sheba's Ridge.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "2011 г Aquarius Platinum: рудник Blue Ridge и проект Sheba’s Ridge 17 ООО «Институт Гипроникель» Источники Ridge Mining plc. Annual Report 2005 Ridge Mining plc. Presentation to RBC Platinum Conference: Developing a Fo- cused Platinum and Associated Metals Producer etc., 18 May 2005 Aquarius Platinum Ltd. Presentation at Deutsche Bank BRICS Investor Confer- ence, London, November 2010 Aquarius Platinum Ltd. Annual Report 2010 Aquarius Platinum Ltd. Third Quarter 2011 – Production Results Aquarius Platinum Ltd. Fourth Quarter 2011 – Production Results Aquarius Platinum Ltd. Preliminary Final Report for the Year ended 30 June 2011 Aquarius Platinum Ltd. ASX Release: Update on South African Assets, 1 June 2011 K.Liddell, T.Newton et al. Energy Consumption for Kell Hydrometallurgical Refining Versus Conventional Pyrometallurgical Smelting and Refining of PGM Concentrates. The Journal of the SAIMM, v.111, February 2011, pp 127-132",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2011
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "PGM концентраты",
+          "name_en": "PGM concentrates",
+          "canonical": "pgm_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "киль-гидрометаллургический метод редукции",
+          "name_en": "kell hydrometallurgical refining",
+          "canonical": "kell_hydrometallurgical_refining"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пирометаллургическая плавка и редукция",
+          "name_en": "pyrometallurgical smelting and refining",
+          "canonical": "pyrometallurgical_smelting_and_refining"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Energy Consumption for Kell Hydrometallurgical Refining Versus Conventional Pyrometallurgical Smelting and Refining of PGM Concentrates."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "medium"
+      }
+    }
+  }
+}

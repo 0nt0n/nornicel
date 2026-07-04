@@ -1,0 +1,4615 @@
+{
+  "Обзоры__Las Cruces (последний вариант)::p1::c0": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c0",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "УТВЕРЖДАЮ Директор Департамента по исследованиям и разработкам ___________ Л.Б. Цымбулов « __ » ___________ 2020 ОБЗОР Cobre Las Cruces ОИП – 06 – 2020 Список исполнителей Главный специалист Евграфова А.К. Оглавление 1 Cobre Las Cruces 4 1.1 Ресурсы/запасы руды 4 1.2 Производство 4 1.3 Схема гидрометаллургического завода 5 1.4 Основные операции и показатели процесса 6 1.5 Основные операции 7 1.5.1 Выщелачивание 7 1.5.2 Обезвоживание хвостов 7 1.5.3 Жидкостная экстракция 8 1.5.4 Нейтрализация 9 1.5.5 Резервуарный парк (tank farm) SX-EW и реагенты 9 1.5.6 Электролиз 10 1.6 Основное оборудование и показатели (по проекту) 10 Вместо заключения 19 Основные источники информации 20 Cobre Las Cruces Владельцем и оператором рудника и завода Las Cruces является испанская компания Cobre Las Cruces (CLC). В 2005 г. Компания Inmet приобрела 70% косвенных в Cobre Las Cruces у MK Resources, а в 2010 г. выкупила и оставшиеся 30%. В марте 2013 г. First Quantum Minerals поглотила Inmet и теперь Cobre Las Cruces – косвенная 100%-ая дочерняя компания First Quantum (дочернее общество, опосредованно находящееся в полной собственности First Quantum).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руды",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "выщелачивание",
+          "name_en": "leaching",
+          "canonical": "leaching"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обезвоживание хвостов",
+          "name_en": "dewatering of tailings",
+          "canonical": "tailings_dewatering"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция",
+          "name_en": "aqueous extraction",
+          "canonical": "aqueous_extraction"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "нейтрализация",
+          "name_en": "neutralization",
+          "canonical": "neutralization"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "оборудование гидрометаллургического завода",
+          "name_en": "hydrometallurgical plant equipment",
+          "canonical": "hydrometallurgical_plant_equipment"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "завод Las Cruces",
+          "name_en": "Las Cruces plant",
+          "canonical": "las_cruces_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Cobre Las Cruces operates the Las Cruces mine and plant"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "The leaching process is part of the operations at the Las Cruces plant"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Dewatering of tailings is an operation at the Las Cruces plant"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Aqueous extraction is part of the operations at the Las Cruces plant"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Neutralization is an operation at the Las Cruces plant"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c1": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c1",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "e Las Cruces – косвенная 100%-ая дочерняя компания First Quantum (дочернее общество, опосредованно находящееся в полной собственности First Quantum). CLC владеет правами на минеральные ресурсы на площади 1006 Га. По проекту есть все необходимые разрешения. Ставка роялти, установленная для Las Cruces – 1,5% при цене меди ≥0,80 USD/фунт. Строительство по проекту началось в 2006 г., рудник (открытый) введен в строй в 2008 г., а перерабатывающий гидрометаллургический завод – в феврале 2009 г. Ресурсы/запасы руды Проект располагается в 20 км к северо-западу от г. Севилья (Андалусия). До порта Уэльва – примерно 90 км по трассе. Месторождение Las Cruces - “слепое”, выхода на поверхность нет. Геологоразведка затруднена толстым слоем вскрыши. Минеральные ресурсы и запасы приводятся по отдельности для разных типов руды: по состоянию дел на 31.12.2019 г. измеренные и исчисленные ресурсы вторичных сульфидов – 1,4 млн т с 6,69% Cu, исчисленные ресурсы верхней окисленной части (железной шляпы) – 0,01 млн т с 1,51 г/т Au, 1,08% Pb, 28,80 г/т Ag; предполагаемые ресурсы первичной сульфидной руды – 34,5 млн т с 1,12% Cu, 1,23% Pb, 28,83 г/т Ag, 2,64% Zn.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медная руда",
+          "name_en": "copper ore",
+          "canonical": "copper_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железная шляпа",
+          "name_en": "iron cap",
+          "canonical": "iron_cap"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "первоначальная сульфидная руда",
+          "name_en": "primary sulfide ore",
+          "canonical": "primary_sulfide_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "гидрометаллургический процесс",
+          "name_en": "hydrometallurgical process",
+          "canonical": "hydrometallurgy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "перерабатывающий гидрометаллургический завод"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "исчисленные ресурсы верхней окисленной части (железной шляпы)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "предполагаемые ресурсы первичной сульфидной руды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "cu_content",
+          "op": "eq",
+          "value_min": 6.69,
+          "value_max": 6.69,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "au_content",
+          "op": "eq",
+          "value_min": 0.0151,
+          "value_max": 0.0151,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "pb_content",
+          "op": "eq",
+          "value_min": 1.08,
+          "value_max": 1.08,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "ag_content",
+          "op": "eq",
+          "value_min": 28.8,
+          "value_max": 28.8,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "cu_content",
+          "op": "eq",
+          "value_min": 1.12,
+          "value_max": 1.12,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "pb_content",
+          "op": "eq",
+          "value_min": 1.23,
+          "value_max": 1.23,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "ag_content",
+          "op": "eq",
+          "value_min": 28.83,
+          "value_max": 28.83,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "zn_content",
+          "op": "eq",
+          "value_min": 2.64,
+          "value_max": 2.64,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c2": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c2",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "т с 1,51 г/т Au, 1,08% Pb, 28,80 г/т Ag; предполагаемые ресурсы первичной сульфидной руды – 34,5 млн т с 1,12% Cu, 1,23% Pb, 28,83 г/т Ag, 2,64% Zn. Открытый рудник Las Cruces, с добычей вторичной сульфидной руды, считался (и считается) самым богатым медным открытым рудником с содержанием меди 5-6%. Оставшиеся на конец 2019 г. суммарные запасы руды, подлежащие открытой добыче, 1,7 млн т с Cu 4,84%. Кроме того, имеются складированные на поверхности запасы – около 0,8 млн т “не первичной” сульфидной руды с 4,24% Cu. Так называемая “главная зона” вторичной сульфидной минерализация с высоким содержанием меди расположена под железной шляпой. Основной медьсодержащий минерал – халькоцит, немного борнита и ковеллина. Толщина этого оруднения – порядка 40 м, протяженность – 1000 м Зона первичного сульфидного оруднения залегает под “главной зоной”. Основные сульфидные минералы – сфалерит и халькопирит. Выполнено предварительное ТЭО по разработке этой зоны в будущем. Исследования по проекту рафинировочных мощностей для полиметаллической руды продолжаются, но это уже другая история. Так или иначе, по оценкам компании от 31.12.2019 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "первоначальная сульфидная руда",
+          "name_en": "primary sulfide ore",
+          "canonical": "primary_sulfide_ore"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "вторичная сульфидная руда",
+          "name_en": "secondary sulfide ore",
+          "canonical": "secondary_sulfide_ore"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "первоначальная сульфидная руда с Cu 4,84%",
+          "name_en": "primary sulfide ore with 4.84% Cu",
+          "canonical": "primary_sulfide_ore_with_4.84_percent_cu"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "не первичная сульфидная руда с Cu 4,24%",
+          "name_en": "non-primary sulfide ore with 4.24% Cu",
+          "canonical": "non_primary_sulfide_ore_with_4.24_percent_cu"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "первоначальное сульфидное оруднение",
+          "name_en": "primary sulfide deposit",
+          "canonical": "primary_sulfide_deposit"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "вторичное сульфидное оруднение",
+          "name_en": "secondary sulfide deposit",
+          "canonical": "secondary_sulfide_deposit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "первоначальная сульфидная руда и вторичная сульфидная руда"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "первоначальное сульфидное оруднение под вторичным сульфидным оруднением"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "Au",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.51,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "Pb",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.08,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "Ag",
+          "op": "le",
+          "value_min": null,
+          "value_max": 28.8,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Cu",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.12,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Pb",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.23,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Ag",
+          "op": "le",
+          "value_min": null,
+          "value_max": 28.83,
+          "unit": "g/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Zn",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2.64,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "Cu",
+          "op": "le",
+          "value_min": null,
+          "value_max": 4.84,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2019,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c3": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c3",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "екту рафинировочных мощностей для полиметаллической руды продолжаются, но это уже другая история. Так или иначе, по оценкам компании от 31.12.2019 г. при текущих объемах переработки (~1,6 млн т/г) запасов “главной зоны” (халькоцитовой руды) и складированной руды хватит до конца 2020 г. 2020 год – последний годы открытой добычи медной (халькоцитовой) руды. Производство Выпускается катодная медь качества ЛБМ. Проектная мощность – 72 тыс т/г катодной меди. 2019 год был неудачным для Las Cruces. В январе 2019 г. на северном склоне карьера произошел оползень, добыча в полном объеме была возобновлена только в июле 2019г. Тем временем на заводе перерабатывали низкосортную складированную руду. Таблица 1.1 – Производство катодной меди в 2018-2019 гг. и план на 2020 г. Схема гидрометаллургического завода В 2001 г. инжиниринговая фирма Bechtel выполнила ТЭО по проекту гидрометаллургического завода, в основе которого лежала технология автоклавного выщелачивания Dynatec. В 2003 г. CLC поручила Lurgi Metallurgie GmbH и Outokumpu Technology Group (теперь это всё – Outotec) оптимизировать затраты и упростить схему.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катодная медь",
+          "name_en": "cathode copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "автоклавное выщелачивание Dynatec",
+          "name_en": "Dynatec autoclave leaching",
+          "canonical": "dynatec_autoclave_leaching"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "автоматизированная схема гидрометаллургического завода",
+          "name_en": "automated hydrometallurgical plant scheme",
+          "canonical": "hydrometallurgical_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "инжиниринговая фирма Bechtel выполнила ТЭО по проекту гидрометаллургического завода, в основе которого лежала технология автоклавного выщелачивания Dynatec"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c4": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c4",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "atec. В 2003 г. CLC поручила Lurgi Metallurgie GmbH и Outokumpu Technology Group (теперь это всё – Outotec) оптимизировать затраты и упростить схему. Был предложен вариант атмосферного выщелачивания в сочетании с жидкостной экстракцией Outotec. На тот момент Outotec уже три года применяла атмосферное выщелачивание для прямого выщелачивания цинковых концентратов в Финляндии. Были выполнены опыты в периодическом режиме по атмосферному выщелачиванию кислородом в реакторах OKTOP при повышенной температуре, извлечение меди и экстракция железа превышали 92% и 3%, соответственно. Наилучшие результаты были получены при концентрациях Fe3+ 20-25 г/л, температуре 90°С и продолжительности выщелачивания около 8 часов. Опыты были продолжены в пилотном масштабе на мощностях Outotec в Пори. В 2003 г. выпущено обновленное ТЭО. Проектная пропускная способность завода по руде – 1,5 млн т/г. Проектом предусматривается работа завода 365 дней в год, 24 часа в сутки. Сортность руды колеблется от в интервале 5-10% Cu, средняя сортность 6,02% Cu (по проекту, по факту теперь значительно ниже). Медь присутствует преимущественно в халькоците, совсем немного меди – в халькопирите, теннантите, энаргите.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "атмосферное выщелачивание",
+          "name_en": "atmospheric leaching",
+          "canonical": "atmospheric_leaching"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция Outotec",
+          "name_en": "Outotec liquid extraction",
+          "canonical": "outotec_liquid_extraction"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "цинковые концентраты",
+          "name_en": "zinc concentrates",
+          "canonical": "zinc_concentrates"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "концентрация Fe3+",
+          "name_en": "Fe3+ concentration",
+          "canonical": "fe3+_concentration"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "temperature"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "продолжительность выщелачивания",
+          "name_en": "leaching duration",
+          "canonical": "leaching_duration"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "атмосферное выщелачивание для прямого выщелачивания цинковых концентратов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "выполнялись опыты по атмосферному выщелачиванию кислородом"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "экстракция железа превышала 92%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "value_min",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 25.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "value_min",
+          "op": "eq",
+          "value_min": 90.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "value_min",
+          "op": "eq",
+          "value_min": 8.0,
+          "value_max": null,
+          "unit": "hours",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2003,
+        "confidence": "high"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c5": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c5",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "оекту, по факту теперь значительно ниже). Медь присутствует преимущественно в халькоците, совсем немного меди – в халькопирите, теннантите, энаргите. Технология переработки руды базируется на атмосферном выщелачивании сульфатом трехвалентного железа меди из богатой вторичной сульфидной халькоцитовой минерализации. Cu2Sтв + 2Fe(SO4)3водн = 2CuSO4водн + 4FeSO4водн + S0 4FeSO4водн+ 2H2SO4 = 2Fe(SO4)3водн + H2O Уникальной чертой является применение каскада из 8-ми реакторных баков (по 350 м3) с перемешиванием OKTOP, где идет растворение меди в условиях высоких температур и высокой кислотности. В реакторы также вводится кислород. Сырье, поступающее на выщелачивание – это халькоцитовая руда, которую предварительно дробят (в 3 стадии), измельчают (в одну стадию), сгущают (для удаления максимально возможного количества технологической воды) и направляют в три смесительных бака, где начинаются реакции. После выщелачивания жидкость отделяют от твердого и направляют на жидкостную экстракцию. Медь переходит в органическую фазу, а затем в электролит. Электроэкстракцией получают катоды качества ЛБМ весом примерно по 50 кг (автоматизированная крановая служба и обдирочная машина).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "халькоцит",
+          "name_en": "chalcopyrite",
+          "canonical": "chalcopyrite"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "халькопирит",
+          "name_en": "pyrite",
+          "canonical": "pyrite"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "теннантит",
+          "name_en": "tennantite",
+          "canonical": "tennantite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "энаргит",
+          "name_en": "cinnabar",
+          "canonical": "cinnabar"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфат трехвалентного железа",
+          "name_en": "Fe2(SO4)3",
+          "canonical": "fe2so43"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "водная сульфатная кислота",
+          "name_en": "aqueous sulfuric acid",
+          "canonical": "aqueous_sulfuric_acid"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "атмосферное выщелачивание",
+          "name_en": "atmospheric leaching",
+          "canonical": "atmospheric_leaching"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "реакторный бак",
+          "name_en": "reactor tank",
+          "canonical": "reactor_tank"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "OKTOP",
+          "name_en": "OKTOP",
+          "canonical": "oktop"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "дробление",
+          "name_en": "crushing",
+          "canonical": "crushing"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "измельчение",
+          "name_en": "grinding",
+          "canonical": "grinding"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "сгущение",
+          "name_en": "concentration",
+          "canonical": "concentration"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "смесительный бак",
+          "name_en": "mixing tank",
+          "canonical": "mixing_tank"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция",
+          "name_en": "liquid-liquid extraction",
+          "canonical": "liquid_liquid_extraction"
+        },
+        {
+          "id": "e15",
+          "type": "Equipment",
+          "name_ru": "автоматизированная крановая служба",
+          "name_en": "automated crane service",
+          "canonical": "automated_crane_service"
+        },
+        {
+          "id": "e16",
+          "type": "Equipment",
+          "name_ru": "обдирочная машина",
+          "name_en": "stripping machine",
+          "canonical": "stripping_machine"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "атмосферное выщелачивание сульфатом трехвалентного железа меди из богатой вторичной сульфидной халькоцитовой минерализации"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Cu2S + 2Fe(SO4)3водн = 2CuSO4водн + 4FeSO4водн + S0 4FeSO4водн+ 2H2SO4 = 2Fe(SO4)3водн + H2O"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Cu2S + 2Fe(SO4)3водн = 2CuSO4водн + 4FeSO4водн + S0 4FeSO4водн+ 2H2SO4 = 2Fe(SO4)3водн + H2O"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "каскад из 8-ми реакторных баков (по 350 м3)"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "каскад из 8-ми реакторных баков (по 350 м3) с перемешиванием OKTOP"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "сырье, поступающее на выщелачивание – это халькоцитовая руда, которую предварительно дробят (в 3 стадии)"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "сырье, поступающее на выщелачивание – это халькоцитовая руда, которую предварительно дробят (в 3 стадии), измельчают (в одну стадию)"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "сырье, поступающее на выщелачивание – это халькоцитовая руда, которую предварительно дробят (в 3 стадии), измельчают (в одну стадию), сгущают (для удаления максимально возможного количества технологической воды)"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "сырье, поступающее на выщелачивание – это халькоцитовая руда, которую предварительно дробят (в 3 стадии), измельчают (в одну стадию), сгущают (для удаления максимально возможного количества технологической воды) и направляют в три смесительных бака, где начинаются реакции"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "после выщелачивания жидкость отделяют от твердого и направляют на жидкостную экстракцию"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "электроэкстракцией получают катоды качества ЛБМ весом примерно по 50 кг (автоматизированная крановая служба и обдирочная машина)"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "электроэкстракцией получают катоды качества ЛБМ весом примерно по 50 кг (автоматизированная крановая служба и обдирочная машина)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e8",
+          "param": "volume",
+          "op": "le",
+          "value_min": null,
+          "value_max": 350.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e12",
+          "param": "technology_water",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "%",
+          "condition": "для удаления максимально возможного количества технологической воды"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c6": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c6",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "затем в электролит. Электроэкстракцией получают катоды качества ЛБМ весом примерно по 50 кг (автоматизированная крановая служба и обдирочная машина). От момента поступления на завод сырья до получения катодов проходит в среднем 8 суток. В 2013-2014 гг. были ликвидированы “узкие места” с тем, чтобы перерабатывать более бедное сырье по мере исчерпания ресурсов карьера. Так, например, продолжительность выщелачивания была увеличена с 8 часов до 10-12 часов, что привело к росту извлечения с проектных 90% до 92-94%. В схеме получается два типа хвостов, требующих размещения: отфильтрованный остаток выщелачивания и отфильтрованная твердая фаза из цепочки нейтрализации. Остатки выщелачивания – это примерно 92% всех хвостов, остатки имеют сильно выраженную склонность к образованию кислоты и металлсодержащих фильтратов (?). Остаток выщелачивания состоит на ~80% из сульфидных минералов – в первую очередь, пирита и малых количеств халькоцита и халькопирита, а также мышьяка и ртути. Остальные 8% хвостов – инертны, содержат преимущественно гипс и магнетит плюс некоторое количество гидроксидов металлов.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катоды",
+          "name_en": "cathodes",
+          "canonical": "cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "автоматизированная крановая служба и обдирочная машина",
+          "name_en": "automated crane service and deburring machine",
+          "canonical": "crane_service_and_deburring_machine"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сырье",
+          "name_en": "raw material",
+          "canonical": "raw_material"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "продолжительность выщелачивания",
+          "name_en": "leaching duration",
+          "canonical": "leaching_duration"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "остатки выщелачивания",
+          "name_en": "leach residue",
+          "canonical": "leach_residue"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "отфильтрованный остаток выщелачивания",
+          "name_en": "filtered leach residue",
+          "canonical": "filtered_leach_residue"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "остатки твердой фазы из цепочки нейтрализации",
+          "name_en": "solid phase from the neutralization chain",
+          "canonical": "neutralization_chain_solid_phase"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "электроэкстракцией получают катоды"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "от момента поступления на завод сырья до получения катодов проходит в среднем 8 суток"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "duration",
+          "op": "range",
+          "value_min": 10.0,
+          "value_max": 12.0,
+          "unit": "hours",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "percentage_of_total_waste",
+          "op": "eq",
+          "value_min": 92.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c7": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c7",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "та, а также мышьяка и ртути. Остальные 8% хвостов – инертны, содержат преимущественно гипс и магнетит плюс некоторое количество гидроксидов металлов. Имеется Южное и Западное хвостохранилища для инертных отходов (мергель, песчаник) и Северное хвостохранилище для хвостов с завода и пустой породы. Заводские хвосты отфильтровывают и размещают в “Северном” хвостохранилище. Размещение их в виде пасты было одним из требований при выдаче разрешений на реализацию проекта. В 2015 г. на станции фильтрования хвостов вакуумные ленточные фильтры заменены на пресс-фильтры. Хвостохранилище “Северное” ограждено с помощью уплотненной оградительной дамбы (вала) из мергеля, нижнего и верхнего уплотнений. Нижнее уплотнение – 1,5 м уплотненного мергеля, покрытого облицовкой из полиэтилена высокой плотности 1,5 мм толщиной и слоем песка 0,5 м толщиной и геотекстильного материала, позволяющего влаге проникать в слой песка. Любое просочившееся в слой песка нечто направляется в пруд сбора протечек и затем перекачивается в пруд контактной воды на территории завода. Хвосты доставляют в хвостохранилище на 40-тонных самосвалах.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "инертные отходы",
+          "name_en": "inert waste",
+          "canonical": "inert_waste"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "гипс",
+          "name_en": "gypsum",
+          "canonical": "gypsum"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "магнетит",
+          "name_en": "magnetite",
+          "canonical": "magnetite"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлические гидроксиды",
+          "name_en": "metallic hydroxides",
+          "canonical": "metallic_hydroxides"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "мергель",
+          "name_en": "shale",
+          "canonical": "shale"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "песчаник",
+          "name_en": "sandstone",
+          "canonical": "sandstone"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "вакуумные ленточные фильтры",
+          "name_en": "vacuum belt filters",
+          "canonical": "vacuum_belt_filters"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "пресс-фильтры",
+          "name_en": "press filters",
+          "canonical": "press_filters"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "уплотненный мергель",
+          "name_en": "compacted shale",
+          "canonical": "compacted_shale"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "полиэтилен высокой плотности",
+          "name_en": "high-density polyethylene (HDPE)",
+          "canonical": "hdpe"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "песок",
+          "name_en": "sand",
+          "canonical": "sand"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "геотекстильный материал",
+          "name_en": "geotextile material",
+          "canonical": "geotextile_material"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "пруд сбора протечек",
+          "name_en": "leak collection pond",
+          "canonical": "leak_collection_pond"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "пруд контактной воды",
+          "name_en": "contact water pond",
+          "canonical": "contact_water_pond"
+        },
+        {
+          "id": "e15",
+          "type": "Material",
+          "name_ru": "хвосты",
+          "name_en": "tailings",
+          "canonical": "tailings"
+        },
+        {
+          "id": "e16",
+          "type": "Equipment",
+          "name_ru": "40-тонные самосвалы",
+          "name_en": "40-ton trucks",
+          "canonical": "40_ton_trucks"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e9",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "уплотненный мергель"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "полиэтилен высокой плотности"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "песок"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "геотекстильный материал"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "пруд сбора протечек"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "пруд контактной воды"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e15",
+          "type": "uses_material",
+          "evidence": "хвосты доставляют в хвостохранилище на 40-тонных самосвалах"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c8": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c8",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "пруд сбора протечек и затем перекачивается в пруд контактной воды на территории завода. Хвосты доставляют в хвостохранилище на 40-тонных самосвалах. Завод потребляет 60 л/сек пром.воды, 40% которой – это “контактная вода” (вода, которая контактировала с сульфидными минералами – обычно со дна карьера), остальная вода – перекачивается с завода по обработке жидких канализационных стоков, расположенного в 18,6 км от Севильи. Поскольку вода с этого завода недоступна в сухое время года, при заводе имеется пруд на 1,3 млн кубометров воды. Загрязненную воду обрабатывают химикатами и отправляют на станцию обратного осмоса, после чего перекачивают в различные скважины, расположенные в 1-2,5 км от карьера. Основные операции и показатели процесса Нынешний владелец проекта – компания First Quantum выпустила в 2015 г. один-единственный Технический отчет по Las Cruces, в части описания гидрометаллургической схемы полностью копирующий Технический отчет 2012 года, выпущенный для Inmet (см. ”Основные источники информации”). Всё описание занимает 1,5 стр. общими словами.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обработка жидких канализационных стоков",
+          "name_en": "treatment of liquid sewage effluents",
+          "canonical": "liquid_sewage_treatment"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "контактная вода",
+          "name_en": "contact water",
+          "canonical": "contact_water"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "пруд сбора протечек",
+          "name_en": "leak collection pond",
+          "canonical": "leak_collection_pond"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сульфидные минералы",
+          "name_en": "sulfide minerals",
+          "canonical": "sulfide_minerals"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "пром.вода",
+          "name_en": "industrial water",
+          "canonical": "industrial_water"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "пруд контактной воды",
+          "name_en": "contact water pond",
+          "canonical": "contact_water_pond"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "химикаты",
+          "name_en": "chemicals",
+          "canonical": "chemicals"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "станция обратного осмоса",
+          "name_en": "reverse osmosis station",
+          "canonical": "ro_station"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "хвосты доставляют в хвостохранилище на 40-тонных самосвалах"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "перекачивается с завода по обработке жидких канализационных стоков, расположенного в 18,6 км от Севильи"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "пруд сбора протечек и затем перекачивается в пруд контактной воды на территории завода"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "хвосты доставляют в хвостохранилище на 40-тонных самосвалах"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "flow_rate",
+          "op": "eq",
+          "value_min": 60.0,
+          "value_max": 60.0,
+          "unit": "l/sec",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "percentage",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c9": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c9",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ью копирующий Технический отчет 2012 года, выпущенный для Inmet (см. ”Основные источники информации”). Всё описание занимает 1,5 стр. общими словами. В связи с этим мы решили воспользоваться отчетом 2004 г., выпущенном до реализации проекта, но уже после выбора технологии Outotec, выполненным для предшествующего владельца проекта – MK Resources, понимая, что параметры могли измениться по ходу реализации проекта и в последующие годы эксплуатации. Так, например, баков первичного выщелачивания OKTOP установлено 8, а не 5, как предполагалось в 2004 г., продолжительность выщелачивания – 8 часов, а затем увеличена до 10-12 часов, а не 7 часов и т.д. Все-таки эти “старые” данные дают хотя бы полуколичественные представления о процессе. Основные операции Выщелачивание Измельченная руда в виде пульпы поступает в сгуститель. Нижний слив пульпы из сгустителя перекачивают в бак для подготовки сырья, где он смешивается с серной кислотой, пеногасителем и бедным электролитом, возвращенным из цепочки электролиза. Затем смесь поступает в первые из реакторов OKTOP, где она смешивается с кислородом и нагретым до 90°С раствором рафината, возращенным из цепочки жидкостной экстракции.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "выщелачивание",
+          "name_en": "leaching",
+          "canonical": "leaching"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "измельченная руда, пульпа, серная кислота, пеногаситель, бедный электролит, рафинат",
+          "name_en": "mineral ore, pulp, sulfuric acid, foaming agent, dilute electrolyte, raffinate",
+          "canonical": "pulp"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "сгуститель, бак для подготовки сырья, реакторы OKTOP",
+          "name_en": "settler, feed preparation tank, OKTOP reactors",
+          "canonical": "settler"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Выщелачивание Измельченная руда в виде пульпы поступает в сгуститель"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Нижний слив пульпы из сгустителя перекачивают в бак для подготовки сырья, где он смешивается с серной кислотой, пеногасителем и бедным электролитом"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 90.0,
+          "value_max": 90.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "duration",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 12.0,
+          "unit": "hours",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c10": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c10",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ет в первые из реакторов OKTOP, где она смешивается с кислородом и нагретым до 90°С раствором рафината, возращенным из цепочки жидкостной экстракции. Продолжительность выщелачивания – 7 часов (теперь больше – см. далее). Содержание твердого в пульпе реакторов выщелачивания обычно около 500 г/л. Для выщелачивания используется кислый железосодержащий раствор с концентрацией Fe3+~25 г/л и общей концентрацией железа ~50 г/л. Первые два бака оснащены подогревом, чтобы поддерживать адекватное тепло в системе. Каждый стальной бак облицован резиной и слоем керамических кирпичей. Реакторы снабжены осевыми/радиальными двойными 6-лопастными мешалками с моторами на 275 кВт. Такой способ перемешивания призван достичь эффективности усвоения кислорода на проектном уровне в 90%. Обезвоживание хвостов Выщелоченная пульпа поступает в сгуститель хвостов (диаметром 25 м). Верхний слив сгустителя – это насыщенный раствор выщелачивания (PLS), его перекачивают в две градирни с целью понижения температуры до менее 38°С. Затем раствор поступает в бассейн выдержки (отстаивания) PLS примерно на 6 часов, бассейн – бетонный, облицованный полиэтиленом высокой плотности.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "выщелачивание",
+          "name_en": "leaching",
+          "canonical": "leaching"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "рафинат",
+          "name_en": "refined solution",
+          "canonical": "refined_solution"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "твердое вещество в пульпе",
+          "name_en": "solid content in pulp",
+          "canonical": "solid_content_in_pulp"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "кислый железосодержащий раствор",
+          "name_en": "acidic iron-containing solution",
+          "canonical": "acidic_iron_solution"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "реакторы OKTOP",
+          "name_en": "OKTOP reactors",
+          "canonical": "oktop_reactors"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "сгуститель хвостов",
+          "name_en": "tailings settler",
+          "canonical": "tailings_settler"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "градирни",
+          "name_en": "cooling towers",
+          "canonical": "cooling_towers"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "бассейн выдержки (отстаивания) PLS",
+          "name_en": "PLS holding basin",
+          "canonical": "plsholding_basin"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "выщелачивание используется в первых из реакторов OKTOP"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "смешивается с кислородом и нагретым до 90°С раствором рафината"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "содержание твердого в пульпе реакторов выщелачивания обычно около 500 г/л"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "fe3+",
+          "op": "le",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "total_fe",
+          "op": "le",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "solid_content",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 500.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "diameter",
+          "op": "eq",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "cooling_temperature",
+          "op": "le",
+          "value_min": 38.0,
+          "value_max": 38.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "holding_time",
+          "op": "eq",
+          "value_min": 6.0,
+          "value_max": 6.0,
+          "unit": "hours",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c11": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c11",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "С. Затем раствор поступает в бассейн выдержки (отстаивания) PLS примерно на 6 часов, бассейн – бетонный, облицованный полиэтиленом высокой плотности. На случай каких-либо утечек имеется аварийный бассейн PLS. При охлаждении PLS формируется ил из гипса. Этот ил, вычищенный из охлаждающих башен и осажденный в бассейне PLS, собирают и перекачивают назад – в сгуститель хвостов. Охлажденный PLS из отстойника с целью удаления остаточных частиц твердого перекачивают в два фильтра окончательной очистки/осветления, работающих параллельно, а затем направляют в резервуар хранения до того, как отправить в цепочку жидкостной экстракции. Твердое, собранное с фильтров, собирают с перекачивают в сгуститель хвостов. Нижний слив сгустителя хвостов перекачивают в питающий бак фильтрования хвостов, где он объединяется с глинистым шламом от систем предварительной обработки органики и обработки “сгустков” (?crud). Пульпу затем перекачивают на 4 вакуумных резино-ленточных фильтра, работающих параллельно, и промывающих и отфильтровывающих хвосты при максимальной загрузке завода (4 тыс т/сут).",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "предварительная обработка органики",
+          "name_en": "pre-treatment of organic matter",
+          "canonical": "pre_treatment_of_organic_matter"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "предварительная обработка ‘сгустков’",
+          "name_en": "pre-treatment of 'crud'",
+          "canonical": "pre_treatment_of_crud"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "бассейн выдержки (отстаивания) PLS",
+          "name_en": "PLS settling basin",
+          "canonical": "pl_s_settling_basin"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "гипс",
+          "name_en": "gypsum",
+          "canonical": "gypsum"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "фильтры окончательной очистки/осветления",
+          "name_en": "final clarification/flocculation filters",
+          "canonical": "final_clarification_filters"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "резервуар хранения",
+          "name_en": "storage tank",
+          "canonical": "storage_tank"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "фильтрыания хвостов",
+          "name_en": "tailings filtration",
+          "canonical": "tailings_filtration"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "глинистый шлам",
+          "name_en": "clay slurry",
+          "canonical": "clay_slurry"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "4 вакуумных резино-ленточных фильтра",
+          "name_en": "4 vacuum rubber belt filters",
+          "canonical": "vacuum_rubber_belt_filters"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "На случай каких-либо утечек имеется аварийный бассейн PLS"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "На случай каких-либо утечек имеется аварийный бассейн PLS"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "При охлаждении PLS формируется ил из гипса"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Охлажденный PLS из отстойника с целью удаления остаточных частиц твердого перекачивают в два фильтра окончательной очистки/осветления, работающих параллельно"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "а затем направляют в резервуар хранения до того, как отправить в цепочку жидкостной экстракции"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Твердое, собранное с фильтров, собирают с перекачивают в сгуститель хвостов"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Пульпу затем перекачивают на 4 вакуумных резино-ленточных фильтра, работающих параллельно"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c12": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c12",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "вакуумных резино-ленточных фильтра, работающих параллельно, и промывающих и отфильтровывающих хвосты при максимальной загрузке завода (4 тыс т/сут). Кек (примерно 10% влаги по весу) по конвейеру поступает на участок хранения кеков, затем его перевозят на участок размещения. Фильтрационные воды собирают и возвращают в бассейн PLS или перекачивают в цепочку вторичной жидкостной экстракции. Жидкостная экстракция Цепочка первичной жидкостной экстракции состоит из одного ряда, включающего два экстракционых смесителя-отстойника, работающих последовательно; два десорбционых смесителя-отстойника; один смеситель-отстойник для промывки органики; бак, загруженный органикой. Смесители-отстойники – типа OutoCompact, они глубже обычных и вообще лучше. Также применяется технология Outotec “вертикального плавного течения” (VSF), включающая один дисперсионный переливной насос (?DOP) и два двойных спиральных смесителя Spirok с покрытием для минимизации захвата воздуха.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "вакуумные резино-ленточные фильтры",
+          "name_en": "vacuum rubber belt filters",
+          "canonical": "vacuum_rubber_belt_filters"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "фильтрация хвостов",
+          "name_en": "filtration of tailings",
+          "canonical": "tailings_filtration"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кек (хвосты)",
+          "name_en": "cake (tailings)",
+          "canonical": "tailings_cake"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "конвейер",
+          "name_en": "conveyor",
+          "canonical": "conveyor"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "участок хранения кеков",
+          "name_en": "cake storage area",
+          "canonical": "cake_storage_area"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "смесители-отстойники типа OutoCompact",
+          "name_en": "OutoCompact settlers",
+          "canonical": "outocompact_settlers"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция",
+          "name_en": "liquid extraction",
+          "canonical": "liquid_extraction"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "дисперсионный переливной насос (?DOP)",
+          "name_en": "dispersion overflow pump (?DOP)",
+          "canonical": "dispersion_overflow_pump"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "спиральные смесители Spirok с покрытием",
+          "name_en": "Spirok spiral mixers with coating",
+          "canonical": "spirok_spiral_mixers"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "вакуумные резино-ленточные фильтра, работающих параллельно, и промывающих и отфильтровывающих хвосты"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "отфильтровывающих хвосты"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Кек по конвейеру поступает на участок хранения кеков"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "затем его перевозят на участок размещения"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Фильтрационные воды собирают и возвращают в бассейн PLS или перекачивают в цепочку вторичной жидкостной экстракции"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "также применяется технология Outotec “вертикального плавного течения” (VSF), включающая один дисперсионный переливной насос (?DOP) и два двойных спиральных смесителя Spirok с покрытием"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "для минимизации захвата воздуха"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c13": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c13",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "” (VSF), включающая один дисперсионный переливной насос (?DOP) и два двойных спиральных смесителя Spirok с покрытием для минимизации захвата воздуха. Раствор PLS, содержащий 40 г/л меди и 25 г/л серной кислоты, перекачивают из резервуара хранения/накопления в первое звено цепочки экстракции, где он смешивается с органикой, загруженной “на половину” (смесь разбавителя типа керосина и селективного для меди органического реагента), исходящей из второго экстракционного звена. Отстойник обеспечивает разделение органической и водной фаз. Водная фаза (бедный PLS), выходящая из первого экстракционного звена, поступает во второе звено, где она смешивается с десорбированной органикой. Водный раствор, покидающий второе звено, это раствор рафината, содержащий около 67 г/л серной кислоты и 11 г/г меди. Таким образом, порядка 70% меди, поступившей на экстракцию, было удалено органикой. Поток рафината из второго звена самотеком двигается в бассейн хранения рафината на 2000 м3 до того, как от будет возвращен в цепочку атмосферного выщелачивания. Загруженная органика, выходящая из первого экстракционного звена, направляется в бак для загруженной органики, оснащенный системой циркуляции (промывной?",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "дисперсионный переливной насос",
+          "name_en": "dispersion overflow pump",
+          "canonical": "dispersion_overflow_pump"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "двойные спиральные смесители Spirok с покрытием",
+          "name_en": "Spirok double helical mixers with coating",
+          "canonical": "spirok_double_helical_mixer"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "раствор PLS",
+          "name_en": "PLS solution",
+          "canonical": "plss_solution"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "органика (смесь разбавителя типа керосина и селективного для меди органического реагента)",
+          "name_en": "organic phase (blend of diluent type kerosene and selective for copper organic reagent)",
+          "canonical": "organic_phase"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "водная фаза (бедный PLS)",
+          "name_en": "aqueous phase (lean PLS)",
+          "canonical": "aqueous_phase"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "раствор рафината",
+          "name_en": "refined solution",
+          "canonical": "refined_solution"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "экстракция",
+          "name_en": "extraction",
+          "canonical": "extraction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "VSF, включающая один дисперсионный переливной насос"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "двойные спиральные смесители Spirok с покрытием"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "PLS, содержащий 40 г/л меди и 25 г/л серной кислоты"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "перекачивают из резервуара хранения/накопления в первое звено цепочки экстракции"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "отстойник обеспечивает разделение органической и водной фаз"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "водная фаза (бедный PLS), выходящая из первого экстракционного звена, поступает во второе звено"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "водный раствор, покидающий второе звено, это раствор рафината"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "экстракция"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "concentration_metal",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration_acid",
+          "op": "eq",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration_metal",
+          "op": "eq",
+          "value_min": 11.0,
+          "value_max": 11.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration_acid",
+          "op": "eq",
+          "value_min": 67.0,
+          "value_max": 67.0,
+          "unit": "g/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c14": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c14",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "уженная органика, выходящая из первого экстракционного звена, направляется в бак для загруженной органики, оснащенный системой циркуляции (промывной? Scrub) воды для улучшения удаления примесей (марганец, железо) из органики. Очищенная органика затем поступает в промывочный отстойник, аналогичный по конструкции экстракционным отстойникам. Перед поступлением в промывочный отстойник к органике добавляют бедный раствор электролита и серную кислоту. Промытую-загруженную органику затем перекачивают в первый десорбционный смеситель-отстойник, где она контактирует с “полу-богатым” раствором электролита, выходящим из второго десорбционного звена. Медь переходит из загруженной органики в электролит, благодаря разницам в кислотности между двух фаз. Водная фаза (богатый электролит) содержит около 50 г/л меди и 145 г/л серной кислоты. Органику перекачивают во второе десорбционное звено, где она контактирует с бедным электролитом, содержащим 175 г/л кислоты и 35 г/л меди. После десорбции органику перекачиваю назад – в первое экстракционное звено. Богатый электролит самотеком поступает на участок “резервуарного парка”.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "экстракция меди из органики",
+          "name_en": "extraction of copper from organic phase",
+          "canonical": "copper_extraction_from_organic_phase"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "органика",
+          "name_en": "organic phase",
+          "canonical": "organic_phase"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "марганец, железо",
+          "name_en": "manganese, iron",
+          "canonical": "manganese_iron"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "серная кислота",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "богатый электролит",
+          "name_en": "rich electrolyte",
+          "canonical": "rich_electrolyte"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "бедный электролит",
+          "name_en": "lean electrolyte",
+          "canonical": "lean_electrolyte"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "бак для загруженной органики",
+          "name_en": "vessel for loaded organic phase",
+          "canonical": "loaded_organic_phase_vessel"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "промывочный отстойник",
+          "name_en": "clarifier for wash liquid",
+          "canonical": "wash_liquid Clarifier"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "десорбционный смеситель-отстойник",
+          "name_en": "desorption mixer-settler",
+          "canonical": "desorption_mixer_settler"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "уженная органика, выходящая из первого экстракционного звена"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "удаление примесей (марганец, железо) из органики"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "добавляют бедный раствор электролита и серную кислоту"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "водная фаза (богатый электролит) содержит около 50 г/л меди и 145 г/л серной кислоты"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "бедный электролит, содержащий 175 г/л кислоты и 35 г/л меди"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "перекачивают во второе десорбционное звено"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "copper_concentration",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "sulfuric_acid_concentration",
+          "op": "le",
+          "value_min": 145.0,
+          "value_max": 145.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "copper_concentration",
+          "op": "ge",
+          "value_min": 35.0,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "sulfuric_acid_concentration",
+          "op": "le",
+          "value_min": 175.0,
+          "value_max": 175.0,
+          "unit": "g/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c15": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c15",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "После десорбции органику перекачиваю назад – в первое экстракционное звено. Богатый электролит самотеком поступает на участок “резервуарного парка”. Рафинат требуется для контроля за количеством железа и цинка в растворах цепочки выщелачивания. Этот сбросной поток содержит много меди (11 г/л), которую желательно извлечь до обработки и сброса. Обработанный раствор, называемый “вторичный PLS”, при рН 2,0 выходящий из цепочки предварительной нейтрализации, перекачивают в фильтры окончательной очистки и затем в цепочку вторичной жидкостной экстракции, состоящей из одного звена смеситель-отстойник. Сбросный раствор смешивается с некоторым количеством десорбированной органики из цепочки десорбции с целью удаления ~87% содержащейся в нем меди. Загруженая органика затем перекачивается в бак загруженной органики. Рафинат, содержащий около 0,5 г/л меди, до поступления на обработку перекачивают в резервуар хранения вторичного рафината. Какие-либо “сгустки” (смесь органики/железа/взвешенных твердых частиц), которые удалось собрать из смесителей-отстойников или бассейна рафината, перекачивают в систему обработки органики.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "десорбция",
+          "name_en": "desorption",
+          "canonical": "desorption"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "органика",
+          "name_en": "organic solvent",
+          "canonical": "organic_solvent"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "рафинат",
+          "name_en": "raffinate",
+          "canonical": "raffinate"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "богатый электролит",
+          "name_en": "rich electrolyte",
+          "canonical": "rich_electrolyte"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "извлечение меди",
+          "name_en": "molybdenum extraction",
+          "canonical": "molybdenum_extraction"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медная руда",
+          "name_en": "copper ore",
+          "canonical": "copper_ore"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "экстракция",
+          "name_en": "extraction",
+          "canonical": "extraction"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "резервуарный парк",
+          "name_en": "park reservoirs",
+          "canonical": "park_reservoirs"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "предварительная нейтрализация",
+          "name_en": "pre-neutralization",
+          "canonical": "pre_neutralization"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "раствор цепочки выщелачивания",
+          "name_en": "leach solution chain",
+          "canonical": "leach_solution_chain"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "обработка органики",
+          "name_en": "organic processing",
+          "canonical": "organic_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "перекачиваю назад – в первое экстракционное звено"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "рафинат требуется для контроля за количеством железа и цинка"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "желательно извлечь до обработки и сброса"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "богатый электролит самотеком поступает на участок “резервуарного парка”"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "выходящий из цепочки предварительной нейтрализации"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "загруженая органика затем перекачивается в бак загруженной органики"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "copper_concentration",
+          "op": "ge",
+          "value_min": 11.0,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "copper_concentration",
+          "op": "le",
+          "value_min": 0.5,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c16": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c16",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "елеза/взвешенных твердых частиц), которые удалось собрать из смесителей-отстойников или бассейна рафината, перекачивают в систему обработки органики. Сгустки смешивают с бентонитом, другой органикой, требующей обработки и серной кислотой, а затем перекачивают через фильтр. Обработанную органику, прошедшую сквозь фильтр, собирают и используют вторично. Твердое с фильтра собирают и направляют на фильтрование остатков выщелачивания для дальнейшего размещения. Нейтрализация Поток первичного рафината сначала предварительно нейтрализуют до рН 2,0 с использованием известкового молока, сгущают. Верхний слив сгустителя перекачивают в смеситель-отстойник вторичной жидкостной экстракции с целью извлечения меди. После удаления меди рафинат перекачивают обратно в цепочку нейтрализации, рН раствора повышают примерно до 10,0 (добавки известкового молочка) и затем перекачивают в сгуститель нейтрализации. Нижний слив сгустителя предварительной нейтрализации поступает на вакуумный фильтр, гипс получается в виде кека. Нижний слив сгустителя нейтрализации также идет на отдельный фильтр с целью извлечения гидроксидов металлов и гипса в виде кека.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "нейтрализация",
+          "name_en": "neutralization",
+          "canonical": "neutralization"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "первичный рафинат",
+          "name_en": "primary leachate",
+          "canonical": "primary_leachate"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "смеситель-отстойник",
+          "name_en": "mixer-settler",
+          "canonical": "mixer_settler"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "бентонит",
+          "name_en": "bentonite",
+          "canonical": "bentonite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "известковое молоко",
+          "name_en": "lime milk",
+          "canonical": "lime_milk"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "сгущение",
+          "name_en": "concentration",
+          "canonical": "concentration"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "сгуститель нейтрализации",
+          "name_en": "neutralization flocculator",
+          "canonical": "neutralization_flocculator"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "гипс",
+          "name_en": "gypsum",
+          "canonical": "gypsum"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Нейтрализация Поток первичного рафината"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "с использованием известкового молока"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "сгущают"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "Нижний слив сгустителя нейтрализации также идет на отдельный фильтр с целью извлечения гидроксидов металлов и гипса в виде кека"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "pH",
+          "op": "le",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "-",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "pH",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": 10.0,
+          "unit": "-",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c17": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c17",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "учается в виде кека. Нижний слив сгустителя нейтрализации также идет на отдельный фильтр с целью извлечения гидроксидов металлов и гипса в виде кека. Кеки по конвейеру направляют на участок хранения хвостов. Верхний слив сгустителя нейтрализации считается обработанным стоком и его сливают посредством пруда-накопителя. Резервуарный парк (tank farm) SX-EW и реагенты Богатый электролит перетекает в следующую за отстойником емкость (?), оснащенную преградами коалесценции, с целью отделения электролита от захваченной органики. Органику собирают поверх слоя раствора и перекачивают в систему обработки органики. Богатый электролит перекачивают сквозь два фильтра тонкой очистки, содержащие песок и антрацит, чтобы удалить оставшиеся частицы твердого и органики. Фильтры периодически промывают бедным электролитом. Электролит собирают и возвращают в процесс. Отфильтрованный богатый электролит с 52 г/л меди и 38°С поступает в двухкамерный бак циркуляции электролита. В одном отделении бака богатый электролит смешивают с бедным электролитом (36 г/л меди, 50°С), возвращающимся из электролизера, в пропорции 1ч. богатого на 6 ч. бедного электролита.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "нейтрализация",
+          "name_en": "neutralization",
+          "canonical": "neutralization"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сгуститель нейтрализации",
+          "name_en": "neutralization coagulant",
+          "canonical": "coagulant"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "фильтр",
+          "name_en": "filter",
+          "canonical": "filter"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "кек",
+          "name_en": "cake",
+          "canonical": "cake"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "хранение хвостов",
+          "name_en": "tailings storage",
+          "canonical": "tailings_storage"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "резервуарный парк (tank farm)",
+          "name_en": "tank farm",
+          "canonical": "tank_farm"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "бедный электролит",
+          "name_en": "lean electrolyte",
+          "canonical": "lean_electrolyte"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "богатый электролит",
+          "name_en": "rich electrolyte",
+          "canonical": "rich_electrolyte"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "фильтр тонкой очистки",
+          "name_en": "fine filter",
+          "canonical": "fine_filter"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "песок",
+          "name_en": "sand",
+          "canonical": "sand"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "антрацит",
+          "name_en": "anthracite",
+          "canonical": "anthracite"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "бак циркуляции электролита",
+          "name_en": "electrolyte circulation tank",
+          "canonical": "electrolyte_circulation_tank"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "нейтрализация сгустителя нейтрализации"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "сгуститель нейтрализации также идет на отдельный фильтр"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "фильтры по конвейеру направляют на участок хранения хвостов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "верхний слив сгустителя нейтрализации считается обработанным стоком и его сливают посредством пруда-накопителя"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "резервуарный парк (tank farm) SX-EW и реагенты Богатый электролит перетекает в следующую за отстойником емкость"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Богатый электролит перекачивают сквозь два фильтра тонкой очистки, содержащие песок и антрацит"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Богатый электролит перекачивают сквозь два фильтра тонкой очистки, содержащие песок и антрацит"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "Богатый электролит перекачивают сквозь два фильтра тонкой очистки, содержащие песок и антрацит"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "Фильтры периодически промывают бедным электролитом"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "density",
+          "op": "le",
+          "value_min": null,
+          "value_max": 52.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit": "°C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c18": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c18",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "лектролит смешивают с бедным электролитом (36 г/л меди, 50°С), возвращающимся из электролизера, в пропорции 1ч. богатого на 6 ч. бедного электролита. Смесь (питающий EW раствор) при 37 г/л меди и 48°С поступает в цепочку электролиза. Цепочке EW требуется добавка двух реагентов: лигносульфоната аммония (гуар) – для выравнивания поверхности катода и в качестве уплотняющего агента, а также гептагидрата сульфата кобальта – для предотвращения коррозии анода и стабилизации слоя оксида свинца на поверхности анода, минимизируя загрязнение катодов свинцом. Добавки гуара: ~150-250 г/т на тонну произведенной меди, сульфата кобальта – чтобы поддерживался уровень ~100 мг/л кобальта в растворе. На границе органики с водными растворами обычно образуется “сгусток” из взвешенных твердых частиц и прочих примесей. Эту грязь удаляют из отстойников периодически с помощью пневматического диафрагменного насоса и перекачивают в бак для сбора, где смешивают с подкисленной водой, способствующей разделению фаз и выдерживают некоторое время. Органику из бака направляют на “глиняный” фильтр (активированная кислотой бентонитовая глина), который используется также при обработке органики.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бедный электролит",
+          "name_en": "poor electrolyte",
+          "canonical": "poor_electrolyte"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "гидрат сульфата кобальта",
+          "name_en": "cobalt sulfate heptahydrate",
+          "canonical": "cobalt_sulfate_heptahydrate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "гуар (лигносульфонат аммония)",
+          "name_en": "guar (ammonium lignosulfonate)",
+          "canonical": "guar_ammonium_lignosulfonate"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "электроэкстракция меди",
+          "name_en": "electrowinning of copper",
+          "canonical": "copper_electrowinning"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "пневматический диафрагменный насос",
+          "name_en": "pneumatic diaphragm pump",
+          "canonical": "pneumatic_diaphragm_pump"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "активированная кислотой бентонитовая глина",
+          "name_en": "activated acid bentonite clay",
+          "canonical": "activated_bentonite_clay"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "лектролит смешивают с бедным электролитом"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "для предотвращения коррозии анода и стабилизации слоя оксида свинца на поверхности анода, минимизируя загрязнение катодов свинцом"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "для выравнивания поверхности катода и в качестве уплотняющего агента"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "удаляют из отстойников периодически с помощью пневматического диафрагменного насоса"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "concentration_metal",
+          "op": "le",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "concentration_metal",
+          "op": "eq",
+          "value_min": 37.0,
+          "value_max": 37.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 48.0,
+          "value_max": 48.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "mg/l",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c19": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c19",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "мя. Органику из бака направляют на “глиняный” фильтр (активированная кислотой бентонитовая глина), который используется также при обработке органики. Обработка органики и возврат её в цепочку жидкостной экстракции – важный элемент схемы завода. На случай утечек/дренажа из резервуаров резервуарного парка имеется накопительная емкость, оснащенная насосами. Электролиз Аноды – свинцовые, катоды – из нержавеющей стали. Суммарная мощность двух водоохлаждаемых трансформаторов-выпрямителей, подающих ток в электролизер, 53 кА. Они рассчитаны на номинальную нагрузку в 280 А/м2 и эффективность тока 92%. Цех электролиза - “однопролетный”, с двумя рядами по 77 ванн в каждом. Каждая ванна облицована полимербетоном и содержит 85 анодов и 84 постоянных катода из нержавеющей стали. Площадь осадка меди на каждом катоде – 1 м2. Катоды снабжены пластиковыми окантовками, чтобы легче было удалять. Аноды – из сплава Pb-Ca-Sn. Ванны укрыты колпаками для улавливания газов и кислотного тумана. Электролит из бака с циркуляцией закачивается во все электролизеры. 2-3 г/л меди уходит из раствора c самотеком бедного электролита назад – в бак циркуляции. Медные катоды растят 7 дней.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "органика",
+          "name_en": "organic matter",
+          "canonical": "organic_matter"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "глиняный фильтр (активированная кислотой бентонитовая глина)",
+          "name_en": "clay filter (acid-activated bentonite clay)",
+          "canonical": "clay_filter"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обработка органики",
+          "name_en": "organic matter treatment",
+          "canonical": "organic_matter_treatment"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "накопительная емкость с насосами",
+          "name_en": "waste collection tank with pumps",
+          "canonical": "waste_collection_tank"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "нержавеющая сталь",
+          "name_en": "stainless steel",
+          "canonical": "stainless_steel"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "водоохлаждаемые трансформаторы-выпрямители",
+          "name_en": "water-cooled rectifier transformers",
+          "canonical": "rectifier_transformers"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "электролиз",
+          "name_en": "electrolysis",
+          "canonical": "electrolysis"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "ванна электролизера",
+          "name_en": "electrolyzer cell",
+          "canonical": "electrolyzer_cell"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "сплав Pb-Ca-Sn",
+          "name_en": "Pb-Ca-Sn alloy",
+          "canonical": "pb-ca-sn_alloy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обработка органики и возврат её в цепочку жидкостной экстракции"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "на случай утечек/дренажа из резервуаров резервуарного парка имеется накопительная емкость, оснащенная насосами"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "накопительная емкость с насосами"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "аноды – из сплава Pb-Ca-Sn"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "катоды – из нержавеющей стали"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "суммарная мощность двух водоохлаждаемых трансформаторов-выпрямителей, подающих ток в электролизер, 53 кА"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "цех электролиза - “однопролетный”, с двумя рядами по 77 ванн в каждом"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "каждая ванна облицована полимербетоном и содержит 85 анодов и 84 постоянных катода из нержавеющей стали"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "каждая ванна облицована полимербетоном и содержит 85 анодов и 84 постоянных катода из нержавеющей стали"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "каждая ванна облицована полимербетоном и содержит 85 анодов и 84 постоянных катода из нержавеющей стали"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "Площадь осадка меди на каждом катоде – 1 м2"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e7",
+          "param": "current_density",
+          "op": "le",
+          "value_min": null,
+          "value_max": 280.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "efficiency",
+          "op": "eq",
+          "value_min": 92.0,
+          "value_max": 92.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "cell_count",
+          "op": "eq",
+          "value_min": 154.0,
+          "value_max": 154.0,
+          "unit": "cells",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c20": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c20",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "чивается во все электролизеры. 2-3 г/л меди уходит из раствора c самотеком бедного электролита назад – в бак циркуляции. Медные катоды растят 7 дней. После промывки катоды транспортируют к обдирочной машине на 300 катодов в час. В целом цех электролиза аналогичен цеху завода Коккола, введённому в 2001 г. Основное оборудование и показатели (по проекту) Таблица 1.2 – Основное оборудование (исключая горно-обогатительную часть) Таблица 1.3 – Основные параметры Рисунок 1.1 - Общий вид завода Рисунок 1.2 - Цех электролиза Рисунок 1.3 - Схема завода Las Cruces 2004 г. (проект) Ист: [3] Рисунок 1.4 - Размещение объектов Las Cruces (проект) Ист: [3] Рисунок 1.5 - Современная схема завода Cobre Las Cruces Ист: [1] Вместо заключения “Ответственность” за успех данного предприятия несет, в первую очередь, Outotec, разработавшая схему переработки и основное оборудование (OKTOP, DOP, SPIROK, OutoCompact). Свой вклад внесла и компания First Quantum, которая приобрела предприятие в 2013 г., когда уже начиналось снижение сортности руды. Она предприняла адекватные меры по сохранению объема производства на проектном уровне (70-72 тыс т/г катодной меди качества ЛБМ). 2020 г.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "меди",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электролиз меди",
+          "name_en": "electrolysis of copper",
+          "canonical": "electrolysis_of_copper"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "электролизер",
+          "name_en": "electrolyzer",
+          "canonical": "electrolyzer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "2-3 г/л меди уходит из раствора c самотеком бедного электролита назад – в бак циркуляции"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Цех электролиза аналогичен цеху завода Коккола, введённому в 2001 г."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 3.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "cathode_growth_time",
+          "op": "eq",
+          "value_min": 7.0,
+          "value_max": null,
+          "unit": "days",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "cathode_transport_rate",
+          "op": "eq",
+          "value_min": 300.0,
+          "value_max": null,
+          "unit": "pcs/hour",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2004,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c21": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c21",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ности руды. Она предприняла адекватные меры по сохранению объема производства на проектном уровне (70-72 тыс т/г катодной меди качества ЛБМ). 2020 г. - последний год работы завода по схеме атмосферное выщелачивание/SX-EW, т.к. ресурсы халькоцитовой руды, для переработки которой и была разработана данная схема, практически исчерпаны. Осталась сульфидная руда иного типа/типов, исследования по возможности её переработки каким-либо способом с получением Pb, Cu, Ag и Zn идут полным ходом при поддержке ЕС – испанцы не хотят терять рабочие места, инфраструктурные объекты и т.д. С другой стороны, для быстро прогрессирующей в последние годы компании First Quantum это предприятие было не №1; план выпуска меди компанией в 2020г., тыс т: Cobre Panama -285-310; Kansanshi – 220-235; Sentinel – 230-240 (все три введены в последние годы); Las Cruces – 52; все прочие – 43. Основные источники информации 1. Cobre Las Cruces NI 43-101 Technical Report, 30th June 2015, 123 pp; 2. Ore Reserves Engineering. Technical Report for the Las Cruces Copper Mine (for Inmet Corporation), June 14, 2012, 138 pp; 3. Pincock, Allen&Holt.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катодная меди качества ЛБМ",
+          "name_en": "primary cathode copper of LB grade",
+          "canonical": "primary_cathode_copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "атмосферное выщелачивание/SX-EW",
+          "name_en": "atmospheric leaching/SX-EW",
+          "canonical": "atmospheric_leaching_sx_ew"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "халькоцитовая руда",
+          "name_en": "chalcopyrite ore",
+          "canonical": "chalcopyrite_ore"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "сульфидная руда иного типа/типов",
+          "name_en": "other sulfide ores",
+          "canonical": "other_sulfide_ores"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "атмосферное выщелачивание/SX-EW"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "переработка халькоцитовой руды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_volume",
+          "op": "range",
+          "value_min": 70000.0,
+          "value_max": 72000.0,
+          "unit": "t/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c22": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c22",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "en",
+      "text": "2. Ore Reserves Engineering. Technical Report for the Las Cruces Copper Mine (for Inmet Corporation), June 14, 2012, 138 pp; 3. Pincock, Allen&Holt. CNI 43-101 Technical Report Las Cruces Copper Project (for MK Resources), July 8, 2004, 135 pp; 4. First Quantum Minerals. Annual Report 2019; 5. First Quantum Minerals. Annual Information Form as at December 31, 2019; March 30, 2020, 137 pp; 6. CLC Digs Deep in Innovative Drive. International Mining, September 2019, pp 40-43. Руководитель работ Начальник ОИП | Р.А. Кузнецов 2018 | 2019 | 1 кв.2020 | План 2020 г. Переработано руды, тыс т (сух) | 1544 | 1354 | 355 % Cu в руде | 4,95 | 4,17 | 4,97 Извлечение меди, % | 93 | 85 | 87 Выпуск катодов, тыс т | 70,74 | 48,09 | 15,29 | 52 С1, USD/фунт | 0,90 | 1,17 | 1,25 С3, USD/фунт | 2,25 | 3,08 Наименование | Кол-во | Описание Сгуститель для измельч.руды | 1 | Диаметр 20 м Бак для подготовки сырья | 1 | 75м3 Баки для атм.выщелачивания с подогревом | 2 | Эффективная емкость 500 м3 Баки для атм.выщелачивания | 3 | Эффективная емкость 500 м3 Теплообменник рафината | 2 | 123 м2 каждый Сгуститель атм.выщелачивания | 1 Охлаждающая башня (градирня ?)",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "руды",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение меди",
+          "name_en": "copper extraction",
+          "canonical": "copper_extraction"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "сгуститель для измельчения руды",
+          "name_en": "grinding mill thickener",
+          "canonical": "grinding_mill_thickener"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "бак для подготовки сырья",
+          "name_en": "raw material preparation tank",
+          "canonical": "raw_material_preparation_tank"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "баки для атм.выщелачивания с подогревом",
+          "name_en": "atmospheric leaching tanks with heating",
+          "canonical": "atmospheric_leaching_tanks_with_heating"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "баки для атм.выщелачивания",
+          "name_en": "atmospheric leaching tanks",
+          "canonical": "atmospheric_leaching_tanks"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "теплообменник рафината",
+          "name_en": "refining heat exchanger",
+          "canonical": "refining_heat_exchanger"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "сгуститель атм.выщелачивания",
+          "name_en": "atmospheric leaching thickener",
+          "canonical": "atmospheric_leaching_thickener"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Извлечение меди, %"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "сгуститель для измельчения руды"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "бак для подготовки сырья"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "баки для атм.выщелачивания с подогревом"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "баки для атм.выщелачивания"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "теплообменник рафината"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "сгуститель атм.выщелачивания"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "cu_content",
+          "op": "range",
+          "value_min": 4.95,
+          "value_max": 4.97,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "copper_recovery",
+          "op": "range",
+          "value_min": 85.0,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c23": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c23",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "лачивания | 3 | Эффективная емкость 500 м3 Теплообменник рафината | 2 | 123 м2 каждый Сгуститель атм.выщелачивания | 1 Охлаждающая башня (градирня ?) | 2 | 310 м3 Бассейн выдержки насыщ.раствора выщелачивания (PLS) | 1 | Объем 2000 м3 Аварийный бассейн PLS | 1 | Объем 2000 м3 Фильтр окончательной очистки раствора выщелачивания | 2 | 8459 мм*1800 мм Резервуар для хранения PLS | 1 | 100м3 Фильтр для пульпы (хвосты) | 4 | 125м2 каждый Фильтр пульпы гипса | 1 | 9,2 м2 Фильтр пульпы гипса | 1 | 21 м2 Конвейер для выгрузки | 1 | Длина 70 м Первичный отстойник жидкостной экстракции (SX) OutoCompact | 5 | 326 м2 площадь отстаивания для каждого Вторичный смеситель-отстойник SX | 1 | 33 м2 площадь отстаивания Электролит.ванны | 154 | 85 анодов и 84 катода в каждой Обдирочная машина | 1 | 350 катодов в час Электролит.фильтр | 2 | 4880 мм*1525 мм Электролит.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "теплообменник рафината",
+          "name_en": "refining heat exchanger",
+          "canonical": "heat_exchanger"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "сгуститель атм.выщелачивания",
+          "name_en": "atmospheric leaching thickener",
+          "canonical": "atmospheric_thickener"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "охлаждающая башня (градирня)",
+          "name_en": "cooling tower",
+          "canonical": "cooling_tower"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "бассейн выдержки насыщенного раствора выщелачивания (PLS)",
+          "name_en": "percolation leaching solution holding tank (PLS)",
+          "canonical": "pl_solutions_holding_tank"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "аварийный бассейн PLS",
+          "name_en": "emergency PLS tank",
+          "canonical": "emergency_pls_tank"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "фильтр окончательной очистки раствора выщелачивания",
+          "name_en": "final leaching solution filter",
+          "canonical": "final_leaching_solution_filter"
+        },
+        {
+          "id": "e7",
+          "type": "Facility",
+          "name_ru": "резервуар для хранения PLS",
+          "name_en": "PLS storage tank",
+          "canonical": "pls_storage_tank"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "фильтр для пульпы (хвосты)",
+          "name_en": "tailings filter",
+          "canonical": "tailings_filter"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "фильтр пульпы гипса",
+          "name_en": "gypsum pulp filter",
+          "canonical": "gypsum_pulp_filter"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "конвейер для выгрузки",
+          "name_en": "unloading conveyor",
+          "canonical": "unloading_conveyor"
+        },
+        {
+          "id": "e11",
+          "type": "Facility",
+          "name_ru": "первичный отстойник жидкостной экстракции (SX) OutoCompact",
+          "name_en": "primary liquid-liquid extraction (LLE) thickener OutoCompact",
+          "canonical": "primary_liquid_liquid_extraction_thickener"
+        },
+        {
+          "id": "e12",
+          "type": "Facility",
+          "name_ru": "вторичный смеситель-отстойник SX",
+          "name_en": "secondary mixer-settler SX",
+          "canonical": "secondary_mixer_settler"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "электролит.ванны",
+          "name_en": "electrolytic cells",
+          "canonical": "electrolytic_cells"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "обдирочная машина",
+          "name_en": "stripping machine",
+          "canonical": "stripping_machine"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "теплообменник рафината"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "охлаждающая башня (градирня)"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "аварийный бассейн PLS"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "резервуар для хранения PLS"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "фильтр для пульпы (хвосты)"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "первичный отстойник жидкостной экстракции (SX) OutoCompact"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "электролит.ванны"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "heat_exchange_area",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 123.0,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "settling_area",
+          "op": "eq",
+          "value_min": 326.0,
+          "value_max": 326.0,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "cooling_tower_volume",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 310.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "volume",
+          "op": "eq",
+          "value_min": 2000.0,
+          "value_max": 2000.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "emergency_tank_volume",
+          "op": "eq",
+          "value_min": 2000.0,
+          "value_max": 2000.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "filter_area",
+          "op": "eq",
+          "value_min": 8459.0,
+          "value_max": 8459.0,
+          "unit": "mm*1800 mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "storage_tank_volume",
+          "op": "eq",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "filter_area",
+          "op": "eq",
+          "value_min": 125.0,
+          "value_max": 125.0,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "filter_area",
+          "op": "eq",
+          "value_min": 9.2,
+          "value_max": 9.2,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "conveyor_length",
+          "op": "eq",
+          "value_min": 70.0,
+          "value_max": 70.0,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e11",
+          "param": "settling_area",
+          "op": "eq",
+          "value_min": 326.0,
+          "value_max": 326.0,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e12",
+          "param": "settling_area",
+          "op": "eq",
+          "value_min": 33.0,
+          "value_max": 33.0,
+          "unit": "m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e13",
+          "param": "cell_count_anode",
+          "op": "eq",
+          "value_min": 85.0,
+          "value_max": 85.0,
+          "unit": "pcs",
+          "condition": ""
+        },
+        {
+          "entity_id": "e13",
+          "param": "cell_count_cathode",
+          "op": "eq",
+          "value_min": 84.0,
+          "value_max": 84.0,
+          "unit": "pcs",
+          "condition": ""
+        },
+        {
+          "entity_id": "e14",
+          "param": "stripping_capacity",
+          "op": "eq",
+          "value_min": 350.0,
+          "value_max": 350.0,
+          "unit": "pcs/hour",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "low"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c24": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c24",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ванны | 154 | 85 анодов и 84 катода в каждой Обдирочная машина | 1 | 350 катодов в час Электролит.фильтр | 2 | 4880 мм*1525 мм Электролит. Теплообменник | 2 | 138 м2 каждый Бассейн рафината | 1 | Объем 2000 м3 Реактор предварительной нейтрализации | 2 | 24 м3 Реактор нейтрализации | 2 | 40 м3 Сгуститель гипса | 1 | Диаметр 10 м Сгуститель хвостов | 1 | Диаметр 25 м Фильтр окончательной очистки | 2 | 6450 мм*1800 мм Котел, обогрев газом | 1 | 30 т/час Бункер для извести на сутки | 1 | 500 м3 Шаровая мельница для извести | 1 | Диаметр 1400 мм*4000 мм Резервуар для перемешивания извести | 2 | 30 м3 каждый Бак для хранения серной кислоты | 1 | 250 м3 Установка обратного осмоса | 1 | 35,3 м3 /час Кислородная станция | 1 | 5500 нм3/час при 93% О2 Воздушный компрессорв | 2 | 830 м3/час Система для флокулянта | 2 | - Выпадение осадков (средн) | Мм/год | 543 Испарение (средн) | Мм/год | 1160 Эксплуатация завода | Часов в сутки | 24 Смен в сутки | 3 Недель в году | 52 Тех.готовность оборудования | (проект) Дробление | 70% Измельчение | 90% Выщелачивание/SX | 90% Цех электролиза | 98% Дробление | Частицы руды исх.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "ванны",
+          "name_en": "baths",
+          "canonical": "baths"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "обдирочная машина",
+          "name_en": "stripping machine",
+          "canonical": "stripping_machine"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "электролитический фильтр",
+          "name_en": "electrolyte filter",
+          "canonical": "electrolyte_filter"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "электролитический теплообменник",
+          "name_en": "electrolyte heat exchanger",
+          "canonical": "electrolyte_heat_exchanger"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "бассейн рафината",
+          "name_en": "refining basin",
+          "canonical": "refining_basin"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "реактор предварительной нейтрализации",
+          "name_en": "pre-neutralization reactor",
+          "canonical": "pre_neutralization_reactor"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "реактор нейтрализации",
+          "name_en": "neutralization reactor",
+          "canonical": "neutralization_reactor"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "сгуститель гипса",
+          "name_en": "gypsum flocculator",
+          "canonical": "gypsum_flocculator"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "сгуститель хвостов",
+          "name_en": "tailings flocculator",
+          "canonical": "tailings_flocculator"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "фильтр окончательной очистки",
+          "name_en": "final filter",
+          "canonical": "final_filter"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "котел, обогрев газом",
+          "name_en": "gas-fired heater",
+          "canonical": "gas_fired_heater"
+        },
+        {
+          "id": "e12",
+          "type": "Equipment",
+          "name_ru": "бункер для извести на сутки",
+          "name_en": "lime storage bin for one day",
+          "canonical": "lime_storage_bin"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "шаровая мельница для извести",
+          "name_en": "ball mill for lime",
+          "canonical": "lime_ball_mill"
+        },
+        {
+          "id": "e14",
+          "type": "Equipment",
+          "name_ru": "резервуар для перемешивания извести",
+          "name_en": "lime mixing tank",
+          "canonical": "lime_mixing_tank"
+        },
+        {
+          "id": "e15",
+          "type": "Equipment",
+          "name_ru": "бак для хранения серной кислоты",
+          "name_en": "sulfuric acid storage tank",
+          "canonical": "sulfuric_acid_storage_tank"
+        },
+        {
+          "id": "e16",
+          "type": "Equipment",
+          "name_ru": "установка обратного осмоса",
+          "name_en": "reverse osmosis unit",
+          "canonical": "ro_unit"
+        },
+        {
+          "id": "e17",
+          "type": "Equipment",
+          "name_ru": "кислородная станция",
+          "name_en": "oxygen station",
+          "canonical": "oxygen_station"
+        },
+        {
+          "id": "e18",
+          "type": "Equipment",
+          "name_ru": "воздушный компрессор",
+          "name_en": "air compressor",
+          "canonical": "air_compressor"
+        },
+        {
+          "id": "e19",
+          "type": "Property",
+          "name_ru": "выпадение осадков",
+          "name_en": "precipitation",
+          "canonical": "precipitation"
+        },
+        {
+          "id": "e20",
+          "type": "Property",
+          "name_ru": "испарение",
+          "name_en": "evaporation",
+          "canonical": "evaporation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "85 анодов и 84 катода в каждой"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "4880 мм*1525 мм"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "138 м2 каждый"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "Объем 2000 м3"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "40 м3"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "10 м"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "25 м"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "6450 мм*1800 мм"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "30 т/час"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e13",
+          "type": "operates_at_condition",
+          "evidence": "500 м3"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "1400 мм*4000 мм"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e15",
+          "type": "operates_at_condition",
+          "evidence": "30 м3 каждый"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e16",
+          "type": "operates_at_condition",
+          "evidence": "250 м3"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e17",
+          "type": "operates_at_condition",
+          "evidence": "35,3 м3 /час"
+        },
+        {
+          "source_id": "e17",
+          "target_id": "e18",
+          "type": "operates_at_condition",
+          "evidence": "5500 нм3/час при 93% О2"
+        },
+        {
+          "source_id": "e18",
+          "target_id": "e19",
+          "type": "operates_at_condition",
+          "evidence": "830 м3/час"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e16",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 35.3,
+          "unit": "m3/hour",
+          "condition": ""
+        },
+        {
+          "entity_id": "e19",
+          "param": "precipitation",
+          "op": "eq",
+          "value_min": 543.0,
+          "value_max": 543.0,
+          "unit": "mm/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e20",
+          "param": "evaporation",
+          "op": "eq",
+          "value_min": 1160.0,
+          "value_max": 1160.0,
+          "unit": "mm/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c25": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c25",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "2 Тех.готовность оборудования | (проект) Дробление | 70% Измельчение | 90% Выщелачивание/SX | 90% Цех электролиза | 98% Дробление | Частицы руды исх. | Мм | Менее 1000 Скорость подачи сырья | Т/час | 162-212 Конечный размер | Р100 в мм | 15 Измельчение Скорость подачи | Т/час | 85-165 Расход электроэнер. | кВт/т (проект) | 15 Продукт | Р80 мкм | 80 Сгуститель | Диаметр, м | 20 Выщелачивание Продолжительность | Часы | 7 Плотность | Г/л твердого | 300-500 Потребление кислорода | Нм3/час (93%) | 4888 Температура | С | 90 Окисление железа | % | 3 Окисление серы | % | 1,7 Сгуститель хвостов | Диаметр, м | 25 PLS Насыщ.раствор выщелачивания Содержание меди | Г/л Cu | 40 Содержание Fe3+ | Г/л Fe3+ | 25 Содержание Fe2+ | г\\л Fe2+ | 25 Содержание кислоты | Г/л H2SO4 | 25 Фильтры хвостов | Влажность конечн.",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "измельчение руды",
+          "name_en": "roasting",
+          "canonical": "roasting"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "выщелачивание/SX",
+          "name_en": "leaching/SX",
+          "canonical": "leaching_sx"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электролиз",
+          "name_en": "electrowinning",
+          "canonical": "electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "сгуститель",
+          "name_en": "floculator",
+          "canonical": "floculator"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "частицы руды исх.",
+          "name_en": "raw ore particles",
+          "canonical": "raw_ore_particles"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "скорость подачи сырья",
+          "name_en": "feed rate of raw material",
+          "canonical": "feed_rate_raw_material"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "конечный размер",
+          "name_en": "final size",
+          "canonical": "final_size"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "расход электроэнергии",
+          "name_en": "electricity consumption",
+          "canonical": "electricity_consumption"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "продукт",
+          "name_en": "product",
+          "canonical": "product"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "скорость подачи",
+          "name_en": "feed rate",
+          "canonical": "feed_rate"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "потребление кислорода",
+          "name_en": "oxygen consumption",
+          "canonical": "oxygen_consumption"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "temperature"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e14",
+          "type": "Property",
+          "name_ru": "окисление серы",
+          "name_en": "sulfur oxidation",
+          "canonical": "sulfur_oxidation"
+        },
+        {
+          "id": "e15",
+          "type": "Property",
+          "name_ru": "содержание меди",
+          "name_en": "copper content",
+          "canonical": "copper_content"
+        },
+        {
+          "id": "e16",
+          "type": "Property",
+          "name_ru": "содержание Fe3+",
+          "name_en": "Fe3+ content",
+          "canonical": "fe3+_content"
+        },
+        {
+          "id": "e17",
+          "type": "Property",
+          "name_ru": "содержание Fe2+",
+          "name_en": "Fe2+ content",
+          "canonical": "fe2+_content"
+        },
+        {
+          "id": "e18",
+          "type": "Property",
+          "name_ru": "содержание кислоты",
+          "name_en": "acid content",
+          "canonical": "acid_content"
+        },
+        {
+          "id": "e19",
+          "type": "Equipment",
+          "name_ru": "фильтры хвостов",
+          "name_en": "tailings filters",
+          "canonical": "tailings_filters"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "измельчение частиц руды исх."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "выщелачивание/SX"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "Цех электролиза"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "Скорость подачи сырья"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Измельчение"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Дробление"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "90% Измельчение"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "Расход электроэнергии"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Выщелачивание/SX"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "Скорость подачи сырья"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Потребление кислорода"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Температура"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Окисление железа"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Окисление серы"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Содержание меди"
+        },
+        {
+          "source_id": "e16",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Содержание Fe3+"
+        },
+        {
+          "source_id": "e17",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Содержание Fe2+"
+        },
+        {
+          "source_id": "e18",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Содержание кислоты"
+        },
+        {
+          "source_id": "e19",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Фильтры хвостов"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 162.0,
+          "value_max": 212.0,
+          "unit": "t/hour",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "value",
+          "op": "eq",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit": "kW/t (project)",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "value",
+          "op": "eq",
+          "value_min": 80.0,
+          "value_max": 80.0,
+          "unit": "microns",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 85.0,
+          "value_max": 165.0,
+          "unit": "t/hour",
+          "condition": ""
+        },
+        {
+          "entity_id": "e11",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 4888.0,
+          "value_max": 4888.0,
+          "unit": "Nm3/hour (93%)",
+          "condition": ""
+        },
+        {
+          "entity_id": "e12",
+          "param": "value_min",
+          "op": "eq",
+          "value_min": 90.0,
+          "value_max": 90.0,
+          "unit": "Celsius",
+          "condition": ""
+        },
+        {
+          "entity_id": "e13",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e14",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 1.7,
+          "value_max": 1.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e15",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "g/l Cu",
+          "condition": ""
+        },
+        {
+          "entity_id": "e16",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "g/l Fe3+",
+          "condition": ""
+        },
+        {
+          "entity_id": "e17",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "g/l Fe2+",
+          "condition": ""
+        },
+        {
+          "entity_id": "e18",
+          "param": "value_min",
+          "op": "le",
+          "value_min": 25.0,
+          "value_max": 25.0,
+          "unit": "g/l H2SO4",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c26": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c26",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "| г\\л Fe2+ | 25 Содержание кислоты | Г/л H2SO4 | 25 Фильтры хвостов | Влажность конечн. | % вес | 10 Продолжительность пребывания в бассейне PLS | Часы | 6,4 Продолжительность пребывания в бассейне рафината | Часы | 7,1 Температура в градирне PLS | С | 38 Жидкостная экстракция (SX) первичная Количество экстракторов | 2 Органика | % экстрагента | 45 Органика | % разбавителя | 55 Орг/водн | 4:1 Рафинат | Г/л Cu | 11-13 Извлечение Cu | % | 70 Число промывных единиц | 1 Число десорбц.единиц | 2 Бедный электролит | Г/л Cu | 36 Богатый электролит | Г/л Cu | 52 Электролиз Число электролизеров | 154 Катодов в электролизере | 84 Анодов в электролизере | 85 Плотность тока (номинал.) | А/м2 | 280 Эффективность тока (номинальн.) | % | 92 Катодный цикл | Сутки (?) | 7 Температура электролита | С | 48 Поток электролита | Л/мин/электролиз. | 387 Обеднение по меди | Г/л Cu | 2 Производительность цеха | Т/г катодов | 66000 Макс.производительность | Т/г катодов | 70000 Обработка стоков Поток рафината | М3/час | 30 Содержание железа в рафинате | Г/л Fe | 50 Содержание кислоты | Г/л H2SO4 | 70 Содержание Zn | Г/Л Zn | 8 Скорость подачи CaO | Т/час | 4,2 Нейтрализация До нейтрализации (?)",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рафинат",
+          "name_en": "refined solution",
+          "canonical": "refined_solution"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кислота H2SO4",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "цинк Zn",
+          "name_en": "zinc",
+          "canonical": "zinc"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "фильтры хвостов",
+          "name_en": "tailings filters",
+          "canonical": "tailings_filters"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция (SX)",
+          "name_en": "liquid-liquid extraction (SX)",
+          "canonical": "liquid_liquid_extraction"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "электролизер",
+          "name_en": "electrolyzer",
+          "canonical": "electrolyzer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Жидкостная экстракция (SX) первичная"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Электролиз"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "ge",
+          "value_min": 70.0,
+          "value_max": null,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "sulfuric_acid_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 70.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "concentration",
+          "op": "le",
+          "value_min": 8.0,
+          "value_max": null,
+          "unit": "mg/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "extractant_concentration",
+          "op": "eq",
+          "value_min": 45.0,
+          "value_max": 45.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "diluent_concentration",
+          "op": "eq",
+          "value_min": 55.0,
+          "value_max": 55.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "current_density",
+          "op": "eq",
+          "value_min": 280.0,
+          "value_max": 280.0,
+          "unit": "A/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "number_of_extractors",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "number_of_anodes",
+          "op": "eq",
+          "value_min": 85.0,
+          "value_max": 85.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "number_of_cathodes",
+          "op": "eq",
+          "value_min": 84.0,
+          "value_max": 84.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "organic_content",
+          "op": "eq",
+          "value_min": 45.0,
+          "value_max": 45.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "efficiency",
+          "op": "eq",
+          "value_min": 92.0,
+          "value_max": 92.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "cycle_time",
+          "op": "eq",
+          "value_min": 7.0,
+          "value_max": 7.0,
+          "unit": "days",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 48.0,
+          "value_max": 48.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "electrolyte_flow_rate",
+          "op": "eq",
+          "value_min": 387.0,
+          "value_max": 387.0,
+          "unit": "L/min/electrolyzer",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "copper_content",
+          "op": "ge",
+          "value_min": 11.0,
+          "value_max": 13.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "number_of_washing_units",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "number_of_desorption_units",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "copper_content_in_rich_liquid",
+          "op": "ge",
+          "value_min": 52.0,
+          "value_max": 52.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "copper_content_in_poor_liquid",
+          "op": "le",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "number_of_electrolyzers",
+          "op": "eq",
+          "value_min": 154.0,
+          "value_max": 154.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "copper_content_in_rich_liquid",
+          "op": "ge",
+          "value_min": 52.0,
+          "value_max": 52.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "copper_content_in_poor_liquid",
+          "op": "le",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "flow_rate",
+          "op": "eq",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "m³/hour",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "copper_production",
+          "op": "eq",
+          "value_min": 66000.0,
+          "value_max": 66000.0,
+          "unit": "t/cathode",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "max_copper_production",
+          "op": "eq",
+          "value_min": 70000.0,
+          "value_max": 70000.0,
+          "unit": "t/cathode",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "lime_flow_rate",
+          "op": "eq",
+          "value_min": 4.2,
+          "value_max": 4.2,
+          "unit": "t/hour",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Обзоры__Las Cruces (последний вариант)::p1::c27": {
+    "chunk": {
+      "chunk_id": "Обзоры__Las Cruces (последний вариант)::p1::c27",
+      "doc_id": "Обзоры__Las Cruces (последний вариант)",
+      "source": "/content/drive/MyDrive/minekg/raw/Обзоры/Las Cruces (последний вариант).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ате | Г/л Fe | 50 Содержание кислоты | Г/л H2SO4 | 70 Содержание Zn | Г/Л Zn | 8 Скорость подачи CaO | Т/час | 4,2 Нейтрализация До нейтрализации (?) | рН | 2 Сгуститель гипса | Диаметр, м | 10 Фильтры гипса | Тип | Вакуумн.ленточн. Нейтрализация | рН | 10 Нейтрализация | Время пребывания, час | 1 Подкисление сточной воды | Корректировка рН | 5,5-9 Фильтр для гипса | Влажность | % вес | 50 Жидкостная экстракция – вторичн Количество экстракторов | 1 PLS | Г/л Cu | 5 Рафинат | Г/л Cu | 0,5",
+      "doc_type": "Обзоры",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2020
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "калийная кислота (H2SO4)",
+          "name_en": "sulfuric acid",
+          "canonical": "sulfuric_acid"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "жидкая сточная вода",
+          "name_en": "liquid wastewater",
+          "canonical": "wastewater"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "нейтрализация",
+          "name_en": "neutralization",
+          "canonical": "neutralization"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "фильтры гипса",
+          "name_en": "gypsum filters",
+          "canonical": "gypsum_filters"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "гипс",
+          "name_en": "gypsum",
+          "canonical": "gypsum"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "жидкостная экстракция",
+          "name_en": "liquid-liquid extraction",
+          "canonical": "liquid_liquid_extraction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "нейтрализация до нейтрализации"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "нейтрализация сточной воды"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "фильтры гипса"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "concentration",
+          "op": "le",
+          "value_min": null,
+          "value_max": 70.0,
+          "unit": "g/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "pH",
+          "op": "range",
+          "value_min": 5.5,
+          "value_max": 9.0,
+          "unit": "-",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "diameter",
+          "op": "eq",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "number_of_extractors",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "-",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2020,
+        "confidence": "medium"
+      }
+    }
+  }
+}
