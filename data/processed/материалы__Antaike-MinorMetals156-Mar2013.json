@@ -1,0 +1,1956 @@
+{
+  "материалы__Antaike-MinorMetals156-Mar2013::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p2::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "most the same with that before Spring Festival. Affected by increasing antimony ingot price, some antimony oxide suppliers slightly raised quotation. There were some enquiries in market, but most purchasers just aimed to get price tendency, rather than to purchase products. Sellers and buyers just returned to market and held watching attitude for future market. Chinese exporter maintained the quotation for exported antimony ingot (2#) in the range of US$11,500-11,600/t (FOB), being equal with that before Spring Festival. Currently, the export quotation of antimony oxide (99.5%) is US$9,800-9,900/t (FOB), up by US$100/t. Chinese exporters just returned to market. There were some enquires, but order forms were few. The overseas market is holding watching and waiting attitude to watch any changes in Chinese market. In accordance with price statistics collected by Antaike, the average quotation of antimony ingot (2#) in February 2013 was 67,400-68,400yuan/t. The average price was 67,900yuan/t, up by 0.6% m-o-m and down by 15.2% y-0-y.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец (в виде свинцовых слитков)",
+          "name_en": "lead (as lead ingots)",
+          "canonical": "lead_ingot"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена свинцовых слитков (2#)",
+          "name_en": "price of lead ingots (2#)",
+          "canonical": "price_lead_ingot_2"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 67400.0,
+          "value_max": 68400.0,
+          "unit": "yuan/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "eq",
+          "value_min": 67900.0,
+          "value_max": null,
+          "unit": "yuan/t",
+          "condition": "up by 0.6% m-o-m and down by 15.2% y-0-y"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p2::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 2 Antimony Market Overview Price Review The antimony market appeared to be in clam in February 2013. Due to Spring Festival holidays in February, the transaction of antimony market was not active. Although the market strongly expected the price to grow up, the market demand remained weak. Quotations of domestic antimony ingot (2#) and antimony oxide (99.5%) were maintained in the range of 67,000-68,000yuan/t and 60,000-62,000yuan/t at most of time. After Spring Festival, domestic market was not positive to give quotation. Partial suppliers just returned to market and wanted to watch the market tendency to determine how to give quotation. In later February, antimony ingot suppliers raised ex-work quotation for antimony ingot (2#) to 68,000-69,000yuan/t, up by 1,000yuan/t compared with that before Spring Festival. However, the main-stream quotation of antimony oxide (99.5%) was 60,000-62,000yuan/t, being almost the same with that before Spring Festival. Affected by increasing antimony ingot price, some antimony oxide suppliers slightly raised quotation.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonная кислота (99.5%)",
+          "name_en": "antimony oxide (99.5%)",
+          "canonical": "antimony_oxide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "quotations of domestic antimony ingot and antimony oxide were maintained in the range"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 67000.0,
+          "value_max": 68000.0,
+          "unit": "yuan/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 60000.0,
+          "value_max": 62000.0,
+          "unit": "yuan/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p1::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Website: www.antaike.com This issue was dispatched on Feb. 21, 2012 INSIDE THIS ISSUE Antimony Market Overview..............2 Cobalt Market Overview……….........5 Indium Market Overview………….....7 News in brief A lithium iron phosphate battery project started in Hunan………………….……….8 A domestic large vanadium trader reduces ferrovanadium price again……………….9 Shanluo high energy reserve vanadium battery electrolyte production line to be commissioned……................................9 Hsikwangshan establishes new target for 2013………………………………………..9 Gansu has abundant nonferrous metals resource………………………………….10 Statistics Imp&Exp (Sb, Co, V, Ferroalloys)………….…………..............10 The Most Essential and Authoritative Source for Chinese Metals Market Minor Metals Monthly Mar. 2013 No. 156 All Rights Reserved Published monthly by Beijing Antaike Information Development Co., Ltd. Chief editor: Xu Aidong Editor: Linda Xu Sales Manager: Mandy Niu Tel: +86-10-62560921 Fax: +86-10-62560631 Web site: http://www.antaike.com Email: cmm@antaike.com Address: 7th Floor, No. 31 Suzhou Street, Haidian District, Beijing, P. R. China Post code: 100080 Disclaimer This document has been prepared with care.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Минеральные металлы вmonthly",
+          "name_en": "Minor Metals Monthly",
+          "canonical": "Minor Metals Monthly"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "Sb (Antimony)",
+          "canonical": "Antimony"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "Co (Cobalt)",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "In (Indium)",
+          "canonical": "Indium"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "литий-феррофосфатная батарея",
+          "name_en": "lithium iron phosphate battery",
+          "canonical": "Lithium iron phosphate battery"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "феррованадий",
+          "name_en": "ferrovanadium",
+          "canonical": "Ferrovanadium"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "ванадиевая батарея электролитная линия",
+          "name_en": "high energy reserve vanadium battery electrolyte production line",
+          "canonical": "High energy reserve vanadium battery electrolyte production line"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Xu Aidong",
+          "name_en": "Xu Aidong",
+          "canonical": "Xu Aidong"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "Antimony Market Overview"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "Cobalt Market Overview"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Indium Market Overview"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "described_in",
+          "evidence": "A lithium iron phosphate battery project started in Hunan"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "described_in",
+          "evidence": "A domestic large vanadium trader reduces ferrovanadium price again"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "described_in",
+          "evidence": "Shanluo high energy reserve vanadium battery electrolyte production line to be commissioned"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Chief editor: Xu Aidong"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "issue_number",
+          "op": "eq",
+          "value_min": 156.0,
+          "value_max": 156.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "issue_date",
+          "op": "eq",
+          "value_min": 2013.0,
+          "value_max": 2013.0,
+          "unit": "year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p2::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p2::c2",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "tation of antimony ingot (2#) in February 2013 was 67,400-68,400yuan/t. The average price was 67,900yuan/t, up by 0.6% m-o-m and down by 15.2% y-0-y. In Feb., 2013, the quotation of MB standard Ⅱ antimony and low bismuth-antimony was maintained in the range of US$10,700-11,200/t and US$10,800-11,300/t. The average price of standard Ⅱ antimony in February was US$10,700-11,200/t, down by 1.9% m-o-m and 13.7% y-o-y.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена",
+          "name_en": "price",
+          "canonical": "price"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 67400.0,
+          "value_max": 68400.0,
+          "unit": "yuan/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 10700.0,
+          "value_max": 11300.0,
+          "unit": "USD/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p1::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "ress: 7th Floor, No. 31 Suzhou Street, Haidian District, Beijing, P. R. China Post code: 100080 Disclaimer This document has been prepared with care. However, Beijing Antaike Information Development Co., Ltd. (hereinafter Antaike) makes no warranty of any kind in regard to the contents and shall not be liable for incidental or consequential damages, financial or otherwise, arising out of the use of this document. Copyright The contents of this presentation are copyright Antaike ©2012 Antaike",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "ress: 7th Floor, No. 31 Suzhou Street, Haidian District, Beijing, P. R. China",
+          "name_en": "ress: 7th Floor, No. 31 Suzhou Street, Haidian District, Beijing, P. R. China",
+          "canonical": "Facility"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Beijing Antaike Information Development Co., Ltd.",
+          "name_en": "Beijing Antaike Information Development Co., Ltd.",
+          "canonical": "Expert"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p3::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 3 Antaike quotation in Aug. 2011-Jan. 2013 Table 1 Antimony monthly average price in Feb. 2012-Feb. 2013. Antimony (99.65% ) monthly average price (yuan/t) from Antaike m-o-m （%） 《MB》standard Ⅱantimony monthly average price (US$/t) m-o-m (%) Lowest Highest Lowest Highest Feb. 2012 79100 81100 -13.7 12500 12878 -7.8 Mar. 2012 77955 79955 -24.6 12611 13011 -18.7 Apr. 2012 78500 80500 -26.0 12614 13071 -22.5 May 2012 77470 79470 -24.5 13667 14167 -13.2 Jun. 2012 72200 74200 -22.7 13456 13956 -7.7 Jul. 2012 68300 70000 -21.0 12950 13375 -6.7 Aug.2012 68500 70000 -24.0 12270 12600 -15.2 Sept. 2012 70575 72050 -25.5 12275 12588 -19.9 Oct.2012 71500 72500 -18.4 12355 12655 -14.7 Nov. 2012 69045 70932 -16.5 12089 12389 -9.1 Dec. 2012 67800 69300 -11.8 11733 12033 -7.1 Jan.2013 67000 68000 -5.2 10933 11389 -7.0 Minor Metals Monthly No.156 Website: www.antaike.com 4 Feb.2013 67400 68400 -15.2 10700 11200 -13.7 (Source: Antaike) Supply and demand Due to Chinese Spring Festival Holidays, the domestic antimony market was not active in February and market participants were holding watching and waiting attitude.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "наблюдение за рынком",
+          "name_en": "market observation",
+          "canonical": "market_observation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "the domestic antimony market was not active in February and market participants were holding watching and waiting attitude."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p3::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "Spring Festival Holidays, the domestic antimony market was not active in February and market participants were holding watching and waiting attitude. After Spring Festival, partial smelters of antimony opened operation. As the supply of antimony concentrate was tight and its price was high, purchase activity and order forms in antimony concentrate market was rare. The overseas and domestic antimony market demand in February remained weak. The domestic down-stream antimony consumption enterprises’ demand for antimony didn’t turn better. When seeing sufficient stock, most of purchasers were holding watching attitude in order to avoid price dropping, so transactions are difficult to increase. Overseas antimony market participants are concerning Chinese market’s change and believe the market won’t keep the current situation. It is hoped that Chinese antimony market would become clear after Spring Festival holidays. The current antimony market remains in oversupply. Therefore, it still needs time to break the stagnant situation. Policies On Feb. 16, 2013, National Development and Reform Commission issued a determination to revise industry structure adjustment guidance content.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство антимония",
+          "name_en": "antimony production",
+          "canonical": "antimony_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "supply of antimony concentrate was tight and its price was high"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p3::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p3::c2",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "olicies On Feb. 16, 2013, National Development and Reform Commission issued a determination to revise industry structure adjustment guidance content. According to which, Greenfield and expansion W, Mo, Sn, Sb mining and smelting projects will be listed in restriction projects. Import and Export Import In accordance with statistics released by China Customs, China imported 6,026t antimony products in January 2013, down by 8.96% m-o-m and up by 41.22% y-o-y. The import of antimony concentrate in Jan. was about 5,560t, down by 11.58% m-o-m and up by 57.78% y-o-y. The antimony concentrate was mainly imported from Russia, Australia, Burma and Tajikistan in Jan. 2013, respectively being 1,267t, 1,057t, 1,040t and 855t, accounting for 75.9% of the total. Export In accordance with statistics released by China Customs, China imported 3,064t antimony products in January, down by 47.43% m-o-m and down by 20.42% y-o-y. Antimony oxide, antimony ingot and antimony sulfide are major exported products. In Jan. 2013, the export of antimony oxide was 2,540t, down by 41.38% m-o-m and down by 30.71% y-o-y.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "концентрат антимония",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "оксид антимония",
+          "name_en": "antimony oxide",
+          "canonical": "antimonyoxide"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "антimonий в виде слитка",
+          "name_en": "antimony ingot",
+          "canonical": "antimony_ingot"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфид антимония",
+          "name_en": "antimony sulfide",
+          "canonical": "antimony_sulfide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The import of antimony concentrate in Jan. was about 5,560t"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "In Jan. 2013, the export of antimony oxide was 2,540t"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Antimony oxide, antimony ingot and antimony sulfide are major exported products"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Antimony oxide, antimony ingot and antimony sulfide are major exported products"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "import_quantity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 6026.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "export_quantity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2540.0,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p3::c3": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p3::c3",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "d antimony sulfide are major exported products. In Jan. 2013, the export of antimony oxide was 2,540t, down by 41.38% m-o-m and down by 30.71% y-o-y. It was mainly exported to USA, China Taiwan, Japan and China Hong Kong, respectively being 1,055t, 648t, 330t and 212t, accounting for 88.4% of the total. In Jan., the export of unwrought antimony was about 470t, down by 68.01% m-o-m. It was mainly exported to the Netherlands, USA, China Hong Kong, South Korea, respectively being 250t, 80t, 60t and 40t, accounting for 91.5% of the total export. Seen from which, Chinese antimony products export in January obviously decreased, especially for the antimony oxide, seeing the largest decrease scale. Seen from the statistics,",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий оксид",
+          "name_en": "antimony oxide",
+          "canonical": "antimony_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "необработанный антимон",
+          "name_en": "unwrought antimony",
+          "canonical": "unwrought_antimony"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export_quantity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2540.0,
+          "unit": "t",
+          "condition": "m-o-m"
+        },
+        {
+          "entity_id": "e1",
+          "param": "export_quantity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3687.92,
+          "unit": "t",
+          "condition": "y-o-y"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p5::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 5 the current antimony products export situation is not optimistic. Outlook Up to now, the general antimony market supply and demand has not seen fundamental changes, especially when the down-stream demand is resuming. The stagnant market and unclear trend made more market participants waver in determination. Overseas market concerns a lot about Chinese market how to change. By considering the inactive Chinese market now, overseas purchasers hold cautious attitude. After Chinese New Year, the domestic antimony market didn’t resume as expected. Overseas antimony market price and demand were maintained steady. The global economy is resuming. European Debt Crisis and USA Financial Crisis have not been solved, but partial economy field started to turn better. Antaike believes the antimony market in Mar. is difficult to become more active. The down-stream demand still needs a period time to recover. The domestic antimony concentrate supply remains tight and the price remains strong, which will form support for the antimony market. The antimony price is predicted to be steady.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p5::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p5::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "ate supply remains tight and the price remains strong, which will form support for the antimony market. The antimony price is predicted to be steady. It is estimated the whole antimony market will fluctuate in high and narrow scale. The domestic antimony ingot (99.65%) price is forecasted to be around 68,000yuan/t, while the international standard II antimony price would be around US$11,000/t. Cobalt Market Overview Domestic Market Market review Affected by the Chinese Spring Festival Vacation in February, the global cobalt market was silent relatively, and the demand from end using fields almost maintained unchanged. In that case, the global cobalt price was stable in early and middle February. In last of the month, Chinese market participators came back to the market, which made the market worry about potential excessive supply, which led to a decline of the cobalt price. On domestic market, the cobalt spot price was stable too in February, and there was almost no gap between domestic and overseas prices. The monthly average Chinese cobalt quotation was 210,000yuan/t in February.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 68000.0,
+          "value_max": null,
+          "unit": "yuan/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "le",
+          "value_min": 210000.0,
+          "value_max": null,
+          "unit": "yuan/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p5::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p5::c2",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "bruary, and there was almost no gap between domestic and overseas prices. The monthly average Chinese cobalt quotation was 210,000yuan/t in February. Average Quotation of Cobalt on Chinese Spot Market Changjiang (yuan/t) 2008 630,000-647,300 2009 328,800-345,300 2010 346,600-369,900 2011 281,200-299,900",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 281200.0,
+          "value_max": 345300.0,
+          "unit": "yuan/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p6::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p6::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 6 2012 224,000-237,300 2013-1 203,100-215,000 2013-2 201,000-215,000 Source: Antaike Comparison of Changjiang Spot Market and MB Quotation Source: MB, Antaike Import The import of Chinese cobalt ores & conc. was 13,242t (cobalt content, the same below) in January, 2013, down by 5.8% y-o-y; the import of intermediate products of cobalt wet-processing metallurgy was 5,691t in the same month, up by 78.35%; the import of cobalt alloys was 149t, down by 18.56%. Meanwhile, the import of refined cobalt was 295t in January, up by 25% y-o-y; the cobalt salts import was 21t, down by 27.59%. The key products of imported cobalt salts are cobalt tetroxide and cobalt oxide. Import of Cobalt ores & conc. in Jan., 2013 Unit：t Area Cobalt ores & conc. Intermediate products of cobalt wet-processing metallurgy Beijing 1,173 — Liaoning 11 — Shanghai 466 — Jiangsu 2,259 1,279 Zhejiang 6,599 691 Anhui — 107 Fujian 24 — Jiangxi 2,150 605 Hubei — 1,080 Guangdong 227 990",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальтовые концентраты",
+          "name_en": "cobalt ores & concentrates",
+          "canonical": "cobalt_ores_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "промежуточные продукты обработки кобальта",
+          "name_en": "intermediate products of cobalt wet-processing metallurgy",
+          "canonical": "intermediate_products_cobalt_wet_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кобальтовые сплавы",
+          "name_en": "cobalt alloys",
+          "canonical": "cobalt_alloys"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "чистый кобальт",
+          "name_en": "refined cobalt",
+          "canonical": "refined_cobalt"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кобальтовые соли",
+          "name_en": "cobalt salts",
+          "canonical": "cobalt_salts"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "import_quantity",
+          "op": "le",
+          "value_min": 22400.0,
+          "value_max": 237300.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "import_quantity",
+          "op": "ge",
+          "value_min": 5691.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "import_quantity",
+          "op": "le",
+          "value_min": 149.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "import_quantity",
+          "op": "le",
+          "value_min": 295.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "import_quantity",
+          "op": "le",
+          "value_min": 21.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p7::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 7 Gansu 333 939 Total 13,242 5,691 Source: the Customs Export The export of refined cobalt and power was 198t in January, 2013, down by 6.6%; the export of cobalt salts was 565t, up by 124% y-o-y. The tetroxide export was 486t, accounting for 86% of total cobalt export. Outlook The end users purchased a batch of cobalt material in January, which will use the stocks rather than purchase more in a short term. Meanwhile, the supply from Ambatovy, Ramu and other cobalt projects will become more and more, which causes a worry about over much supply. It is estimated the cobalt price will be in a relative low level in the coming month, and will be strong possible to slip further. Indium Market Overview Indium After fluctuating for a relative long term, the domestic indium price climbed slowly recently. Usually, the indium price is in uptrend in spring of a year, but the growth space is limited. At the end of February, the domestic refined indium quotation was RMB 3,550-3,600/kg, up by RMB 50/kg or 1.42% m-o-m. Meanwhile, the crude indium quotation was RMB 3,300-3,350/kg, up by RMB 90/kg or 2.78% m-o-m.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export",
+          "op": "le",
+          "value_min": null,
+          "value_max": 198.0,
+          "unit": "t",
+          "condition": "2013-01"
+        },
+        {
+          "entity_id": "e1",
+          "param": "export_change",
+          "op": "range",
+          "value_min": -6.6,
+          "value_max": -6.6,
+          "unit": "%",
+          "condition": "y-o-y 2013-01"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p7::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p7::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "was RMB 3,550-3,600/kg, up by RMB 50/kg or 1.42% m-o-m. Meanwhile, the crude indium quotation was RMB 3,300-3,350/kg, up by RMB 90/kg or 2.78% m-o-m. The Chinese FOB quotation of refined indium was US$ 540-580/kg, up by US$ 25/kg or 4.67% m-o-m. Indium products quotation by Indium, Bismuth & Germanium Branch of CNIA",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на кг индия",
+          "name_en": "indium price per kg",
+          "canonical": "indium_price_per_kg"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "the crude indium quotation was RMB 3,300-3,350/kg, up by RMB 90/kg or 2.78% m-o-m"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 3300.0,
+          "value_max": 3350.0,
+          "unit": "RMB/kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 540.0,
+          "value_max": 580.0,
+          "unit": "USD/kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p8::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 8 There were 3 key reasons led to the growth of indium price: Firstly, the domestic crude indium smelters suspended production during Spring Festival Holidays. As a result, the crude indium supply became tight, and was in uptrend. Refined indium producers disclosed they were still using the raw material stocks when they just came back to work after the Spring Festival Holidays, and would soon purchase a batch of crude indium. The settlement price of crude indium was at about RMB 3,350/kg. Secondly, the traders and investors came back to indium market after the festival, which brought more inquires. Investors brought refined indium at the price of RMB 3,600/kg, and expected the price to climb to RMB 3,800/kg. Thirdly, the growth of overseas indium price encouraged the domestic price. The overseas refined indium quotation increased by US$ 85/kg or 18.89% to US$ 535/kg by the end of February from US$ 450/kg at the beginning of the year. The latest Customs statistics show that the indium export was still difficult, while the import increased rapidly.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "сырьевая переработка индия",
+          "name_en": "indium smelting",
+          "canonical": "indium_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сырой индий",
+          "name_en": "raw indium",
+          "canonical": "raw_indium"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "обработанный индий",
+          "name_en": "refined indium",
+          "canonical": "refined_indium"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "国内粗铟冶炼厂在春节期间停产，导致粗铟供应紧张"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "精铟生产商表示他们刚复工时仍在使用库存的原料，并将很快购买一批粗铟"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3350.0,
+          "unit": "RMB/kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "price",
+          "op": "ge",
+          "value_min": 3600.0,
+          "value_max": 3800.0,
+          "unit": "RMB/kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p8::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p8::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "0/kg at the beginning of the year. The latest Customs statistics show that the indium export was still difficult, while the import increased rapidly. The indium export was zero in January, while the data was only 1 kg in December of 2012. On the contrary, the import was 7,404 kg in January, up by 3,658% y-o-y and down by 39.92% m-o-m. Among all indium products, the unwrought refined indium import quantity was 7,252 kg, while the wrought indium was 152 kg. The import brought a stress on domestic indium market. However, the real demand from overseas market was much weak than domestic market participators’ anticipation. The domestic investing demand could absorb the excessive indium supply. But, the price growth will not go on in a long term without the support of real consumption. The Chinese TFT-LCD plate capacity is developing fast, and some enterprises are engaged in R&D of upstream raw materials. Unless the technologies are developed, the Chinese indium price would not get support from real consumption on domestic market.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не применимо",
+          "name_en": "not applicable",
+          "canonical": "not_applicable"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export",
+          "op": "le",
+          "value_min": 0.0,
+          "value_max": 0.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "import",
+          "op": "ge",
+          "value_min": 7404.0,
+          "value_max": null,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p8::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p8::c2",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "stream raw materials. Unless the technologies are developed, the Chinese indium price would not get support from real consumption on domestic market. News in Brief Lithium China Aviation Lithium Power invests 200mln yuan in new generation lithium battery It is reported that China Aviation Lithium Power (Luoyang) Research Base announced on Feb. 20 that it invested 200mln yuan in a lithium ion production line and a ceramic membrane, which will be put into production recently. A lithium iron phosphate battery project started in Hunan Hunan Yuanling Qingshan Electric Vehicle Science & Technology Development Co., Ltd started a lithium iron phosphate battery project on Feb. 27, source told Antaike. The project will be constructed by two stages. The investment in the first stage is 800mln yuan, and it is planned to build a lithium battery and its suited cathode material base up to 2015, and a 5MW solar PV power generation project will also be built.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "литий",
+          "name_en": "lithium",
+          "canonical": "lithium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство литиевых батарей",
+          "name_en": "production of lithium batteries",
+          "canonical": "lithium_batteries_production"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "линейка по производству литий-ионных батарей",
+          "name_en": "lithium-ion battery production line",
+          "canonical": "lithium_ion_battery_production_line"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "керамическая мембрана",
+          "name_en": "ceramic membrane",
+          "canonical": "ceramic_membrane"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "lithium iron phosphate battery project"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "production of lithium batteries"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "a ceramic membrane, which will be put into production recently"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "investment_first_stage",
+          "op": "le",
+          "value_min": null,
+          "value_max": 800.0,
+          "unit": "mnyuan",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "ge",
+          "value_min": 5.0,
+          "value_max": null,
+          "unit": "MW",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p9::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p9::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 9 Vanadium An all vanadium redox flow battery project to be built in Deyang City Recently, it is reported Huaxu Energy Science & Technology Co., Ltd (Huaxu Energy) and Australia NSI signed an agreement at Deyang City, Sichuan Province to construct an all vanadium redox flow battery project. The total investment in the project is 3.0billion yuan. Huaxu Energy is engaged in solar photovoltaic industry. A domestic large vanadium trader reduces ferrovanadium price again It is reported that due to large stock and sales pressure, a domestic large vanadium trader, Pancheng Vanadium Trade Co., Ltd reduced the quotation of ferrovanadium (50% V) once more to 93,000yuan/t (tax contained, redemption), down by 1,000yuan/t compared with that in last week. It should be the fourth time of reducing quotation since the middle January, totally reducing 6,000yuan/t. Currently, the main stream quotation is 94,000-96,000yuan/t (tax contained, redemption). Pancheng Vanadium Trade Co., Ltd is founded in Beijing in 2007. It is the largest supplier of vanadium products around the world.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "феррованадий",
+          "name_en": "ferrovanadium",
+          "canonical": "ferrovanadium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "изменение цены на металл",
+          "name_en": "price change of metal",
+          "canonical": "price_change"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ваний",
+          "name_en": "vanadium",
+          "canonical": "vanadium"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "all vanadium redox flow battery project",
+          "name_en": "all vanadium redox flow battery project",
+          "canonical": "all_vanadium_redox_flow_battery_project"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "ferrovanadium (50% V) reduced the quotation"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "all vanadium redox flow battery project"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 92000.0,
+          "value_max": 96000.0,
+          "unit": "yuan/t",
+          "condition": "tax contained, redemption"
+        },
+        {
+          "entity_id": "e1",
+          "param": "reduction",
+          "op": "range",
+          "value_min": 5000.0,
+          "value_max": 6000.0,
+          "unit": "yuan/t",
+          "condition": "since the middle January"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p9::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p9::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "ained, redemption). Pancheng Vanadium Trade Co., Ltd is founded in Beijing in 2007. It is the largest supplier of vanadium products around the world. Shanluo high energy reserve vanadium battery electrolyte production line to be commissioned It is reported that Shaanxi Province will invest in 2.45trillion yuan in building 450 projects. In 2013, the investment will be 302.9billion yuan. Among all the projects, Shangluo high energy reserve vanadium battery electrolyte project and Jinxin Mining Shanluo V-Ti magnetite ore mining & concentrating project are in the list and planned to be started construction and put into production this year. For the latter one project, the investment will be 200mln yuan. Xichang Steel Vanadium produces 24kt vanadium slag It is reported that Pangang Group Xichang Steel Vanadium steel plant produced 12.5kt vanadium slag in Feb. 2013, and the total output in Jan.-Feb. was 24kt. The plant’s yearly designed capacity of vanadium slag is 150kt, and the target output task in 2013 is 115kt.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ванадий",
+          "name_en": "vanadium",
+          "canonical": "vanadium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство электролита для ванадиевых аккумуляторов",
+          "name_en": "vanadium battery electrolyte production",
+          "canonical": "vanadium_battery_electrolyte_production"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "извлечение ванадия из магнетитовых руд",
+          "name_en": "vanadium extraction from magnetite ores",
+          "canonical": "vanadium_extraction_from_magnetite_ores"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "завод по производству электролита для ванадиевых аккумуляторов",
+          "name_en": "vanadium battery electrolyte production line",
+          "canonical": "vanadium_battery_electrolyte_production_line"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "ванадий-титановая руда",
+          "name_en": "V-Ti magnetite ore",
+          "canonical": "v-ti_magnetite_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "vanadium battery electrolyte production"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "V-Ti magnetite ore mining & concentrating project"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 200.0,
+          "unit": "milion yuan",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "vanadium_production",
+          "op": "le",
+          "value_min": 12.5,
+          "value_max": 24.0,
+          "unit": "kt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p9::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p9::c2",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "the total output in Jan.-Feb. was 24kt. The plant’s yearly designed capacity of vanadium slag is 150kt, and the target output task in 2013 is 115kt. Pangang Group plans to produce 31kt vanadium products Pangang Group is reported to rely on technology creation and project construction to accelerate the development of V-Ti industry. The group plans to organize scale production to yield 31kt vanadium products and 520kt titanium concentrate in 2013. Pangang Group is the largest vanadium enterprise in China. Antimony Hsikwangshan establishes new target for 2013 Hsikwangshan Twinkling Star Company (Hsikwagnshan) announced recently that it plans to realize a new target in 2013. It will strive to carry out various works well and finish 24,000t antimony products in 2013, and realize 5.14mln yuan of profit. Hsikwangshan is a subsidiary of China Minmetals Non-ferrous Metals Co., Ltd. It announces to have capacity of 40ktpy antimony products.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ванадий",
+          "name_en": "vanadium",
+          "canonical": "vanadium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинец-титановый шлак",
+          "name_en": "vanadium-titanium slag",
+          "canonical": "v-t_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство ванадия",
+          "name_en": "vanadium production",
+          "canonical": "vanadium_production"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "свинец-титановый концентрат",
+          "name_en": "titanium concentrate",
+          "canonical": "ti_concentrate"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Pangang Group",
+          "name_en": "Pangang Group",
+          "canonical": "pangang_group"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Hsikwangshan Twinkling Star Company (Hsikwagnshan)",
+          "name_en": "Hsikwangshan Twinkling Star Company (Hsikwagnshan)",
+          "canonical": "hsikwangshan_twinkling_star"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Pangang Group plans to produce 31kt vanadium products and 520kt titanium concentrate in 2013"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Hsikwangshan is reported to have capacity of 40ktpy antimony products"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "output",
+          "op": "le",
+          "value_min": 31.0,
+          "value_max": 31.0,
+          "unit": "kt",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "target_output",
+          "op": "le",
+          "value_min": 520.0,
+          "value_max": 520.0,
+          "unit": "kt",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p10::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p10::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 10 Others Gansu has abundant nonferrous metals resource It is reported that Gansu Province planned to strengthen geological prospecting for three years since 2012. Much good news said that Gansu Province had abundant non-ferrous metals resource, having great developing potentiality. Currently, the province has prospected 18.8mlnt dolomite, 116kt cobalt ore, 130kt antimony ore and so on. Statistics Imports and Exports of Antimony Products in Jan. 2013 Commodity Quantity in Jan. 13 Quantity in Jan-Jan. 13 Y-o-Y Jan-Jan. Value in Jan. 13 Value in Jan-Jan. 13 Y-o-Y Jan-Jan. Import kg kg % USD USD % Antimony ores & conc. 5,560,152 5,560,152 57.78 16,295,658 16,295,658 83.50 Antimony oxide 140,663 140,663 -79.95 1,486,646 1,486,646 -82.56 Antimony sulphide 44,960 44,960 107.86 538,619 538,619 82.14 Unwrought antimony 80,007 80,007 300.04 905,341 905,341 248.21 Other antimony product 9 9 -88.46 12,935 12,935 -24.28 Export kg kg % USD USD % Antimony oxide 2,539,918 2,539,918 -30.72 25,084,744 25,084,744 -40.31 Antimony sulphide 54,000 54,000 170.00 581,700 581,700 196.48 Unwrought antimony 469,768 469,768 186.44 5,302,041 5,302,041",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий орехи и концентраты",
+          "name_en": "antimony ores & concentrates",
+          "canonical": "antimony_ores_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonий оксид",
+          "name_en": "antimony oxide",
+          "canonical": "antimonyoxide"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "антimonий сульфид",
+          "name_en": "antimony sulphide",
+          "canonical": "antimony_sulphide"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "необработанный антимон",
+          "name_en": "unwrought antimony",
+          "canonical": "unwrought_antimony"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_import",
+          "op": "eq",
+          "value_min": 5560152.0,
+          "value_max": 5560152.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value_import",
+          "op": "eq",
+          "value_min": 16295658.0,
+          "value_max": 16295658.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_export",
+          "op": "eq",
+          "value_min": 2539918.0,
+          "value_max": 2539918.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "value_export",
+          "op": "eq",
+          "value_min": 25084744.0,
+          "value_max": 25084744.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity_import",
+          "op": "eq",
+          "value_min": 44960.0,
+          "value_max": 44960.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "value_import",
+          "op": "eq",
+          "value_min": 538619.0,
+          "value_max": 538619.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "quantity_export",
+          "op": "eq",
+          "value_min": 469768.0,
+          "value_max": 469768.0,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p10::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p10::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": ",084,744 25,084,744 -40.31 Antimony sulphide 54,000 54,000 170.00 581,700 581,700 196.48 Unwrought antimony 469,768 469,768 186.44 5,302,041 5,302,041 200.23 Source: the Customs General Administration of P.R.C Imports and Exports of Cobalt Products in Jan. 2013 Commodity Quantity in Jan. 13 Quantity in Jan-Jan. 13 Y-o-Y Jan-Jan. Value in Jan. 13 Value in Jan-Jan. 13 Y-o-Y Jan-Jan. Import kg kg % USD USD % Cobalt ores & conc. 13,241,630 13,241,630 -5.81 25,679,751 25,679,751 -16.93 Cobalt tetroxide 26,820 26,820 570.16 234,929 234,929 353.58 Unwrought cobalt and powder 367,569 367,569 -12.21 11,138,118 11,138,118 23.91 Other cobalt products and scraps 21,309 21,309 70.15 4,223,349 4,223,349 88.28 Export kg kg % USD USD % Cobalt tetroxide 656,640 656,640 201.83 13,915,010 13,915,010 159.29",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец сульфид",
+          "name_en": "antimony sulfide",
+          "canonical": "antimony_sulfide"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальтовые руды и концентраты",
+          "name_en": "cobalt ores & concentrates",
+          "canonical": "cobalt_ores_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кобальтовая тетроксид",
+          "name_en": "cobalt tetroxide",
+          "canonical": "cobalt_tetroxide"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "необработанный кобальт и порошок",
+          "name_en": "unwrought cobalt and powder",
+          "canonical": "unwrought_cobalt_and_powder"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "другие продукты и отходы кобальта",
+          "name_en": "other cobalt products and scraps",
+          "canonical": "other_cobalt_products_scraps"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 54000.0,
+          "value_max": 54000.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 13241630.0,
+          "value_max": 13241630.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 26820.0,
+          "value_max": 26820.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 367569.0,
+          "value_max": 367569.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 21309.0,
+          "value_max": 21309.0,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p11::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p11::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 11 Unwrought cobalt and powder 197,527 197,527 -6.65 5,489,067 5,489,067 -23.59 Other cobalt products and scraps 1,590 1,590 2464.52 173,240 173,240 1121.72 Source: the Custom Generals Administration of P.R.C. Imports and Exports of Ferroalloys Products in Jan. 2013 Commodity Quantity in Jan. 13 Quantity in Jan-Jan. 13 Y-o-Y Jan-Jan. Value in Jan. 13 Value in Jan-Jan. 13 Y-o-Y Jan-Jan. Import kg kg % USD USD % Ferro-silicon*1 1,867,062 1,867,062 98.78 1,934,578 1,934,578 47.43 Ferro-silicon*2 721,692 721,692 283.12 518,181 518,181 298.36 Ferro-molybdenum 10,000 10,000 -50.01 160,108 160,108 -66.75 Ferro-tungsten 28 28 -80.42 2,708 2,708 -52.52 Ferro-vanadium*3 0 0 - 0 0 - Ferro-niobium 1,764,200 1,764,200 42.62 45,390,413 45,390,413 43.19 Export kg kg % USD USD % Ferro-silicon*1 27,738,967 27,738,967 26.20 38,144,962 38,144,962 18.11 Ferro-silicon*2 2,948,060 2,948,060 -11.29 5,331,510 5,331,510 -13.59 Ferro-molybdenum 20,000 20,000 - 340,000 340,000 - Ferro-tungsten 2,400 2,400 -76.70 119,289 119,289 -74.43 Ferro-vanadium*3 346,325 346,325 103.72 6,559,018 6,559,018 87.72 Ferro-niobium 9,000 9,000 - 254,204 254,204 - Note :*1.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферросилиций",
+          "name_en": "ferrosilicon",
+          "canonical": "ferrosilicon"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "феррованадий",
+          "name_en": "ferrovanadium",
+          "canonical": "ferrovanadium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "феррохром",
+          "name_en": "ferrochrome",
+          "canonical": "ferrochrome"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_import",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 1867062.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "quantity_export",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 27738967.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_import",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 0.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_export",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 346325.0,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p11::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p11::c1",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "6.70 119,289 119,289 -74.43 Ferro-vanadium*3 346,325 346,325 103.72 6,559,018 6,559,018 87.72 Ferro-niobium 9,000 9,000 - 254,204 254,204 - Note :*1. Silicon content more than 55%. *2. Silicon content not more than 55%. *3. Vanadium content not less than 75% *4. Source: the Customs General Administration of P.R.C. Imports and Exports of Indium Products in Jan. 2013 Commodity Quantity in Jan. 13 Quantity in Jan-Jan. 13 Y-o-Y Jan-Jan. Value in Jan. 13 Value in Jan-Jan. 13 Y-o-Y Jan-Jan. Import kg kg % USD USD % Unwrought indium, scraps and powder 7,252 7,252 10260.00 3,300,774 3,300,774 6427.27 Wrought indium and products 152 152 19.69 216,599 216,599 9.70 Export kg kg % USD USD % Unwrought indium, scraps and powder 0 0 - 0 0 - Wrought indium and 0 0 - 571 571 -",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "унварочное индийское сырье (сырье, опилки и порошок)",
+          "name_en": "unwrought indium, scraps and powder",
+          "canonical": "unwrought_indium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сварочное индийское сырье (продукция)",
+          "name_en": "wrought indium and products",
+          "canonical": "wrought_indium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 7252.0,
+          "value_max": 7252.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value",
+          "op": "eq",
+          "value_min": 3300774.0,
+          "value_max": 3300774.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity",
+          "op": "eq",
+          "value_min": 152.0,
+          "value_max": 152.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "value",
+          "op": "eq",
+          "value_min": 216599.0,
+          "value_max": 216599.0,
+          "unit": "USD",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals156-Mar2013::p12::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals156-Mar2013::p12::c0",
+      "doc_id": "материалы__Antaike-MinorMetals156-Mar2013",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals156-Mar2013.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.156 Website: www.antaike.com 12 products Source: the Customs General Administration of P.R.C. Imports and Exports of Vanadium Products in Jan. 2013 Commodity Quantity in Jan. 13 Quantity in Jan-Jan. 13 Y-o-Y Jan-Jan. Value in Jan. 13 Value in Jan-Jan. 13 Y-o-Y Jan-Jan. Import kg kg % USD USD % Vanadium pentoxide 200 200 19900.00 18,532 18,532 28856.25 Export Vanadium pentoxide 815,408 815,408 -52.91 8,905,271 8,905,271 -56.46 Source: the Customs General Administration of P.R.C.",
+      "doc_type": "материалы",
+      "path_year": 2013,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ванадий пентоксид",
+          "name_en": "vanadium pentoxide",
+          "canonical": "vanadium_pentoxide"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_import",
+          "op": "eq",
+          "value_min": 200.0,
+          "value_max": 200.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "quantity_export",
+          "op": "eq",
+          "value_min": 815408.0,
+          "value_max": 815408.0,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  }
+}

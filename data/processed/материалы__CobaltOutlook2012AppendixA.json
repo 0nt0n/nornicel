@@ -1,0 +1,2926 @@
+{
+  "материалы__CobaltOutlook2012AppendixA::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p1::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 CRU International Limited confidential Appendix A: Industrial and economic outlook, 2012-2016 1. Eurozone malaise takes a further toll The rerun of the Greek election on 17 June changed surprisingly little. It probably did no more than delay Greece’s slow descent into effective default. Meanwhile the malaise is spreading, to Spain, and even to Germany. As a result our Eurozone forecasts remain well below the consensus. Maintaining our bearish stance we’ve downgraded several of our emerging market forecasts, because of first quarter growth in the cases of Brazil and India, and second quarter indicators in China. Elsewhere we’ve trimmed modestly to reflect the debilitating effects of the uncertainty surrounding the Eurozone, which is holding back production plans, investment and hiring at firms globally. Worryingly, the outlook is as clouded as ever by downside risk. Thus the shortcomings of the plan to recapitalise Spain’s banks highlights a greater threat than that of political failure in Greece, because it tells us that contagion is already at work. The real concern is that events are moving beyond the reach of policy makers.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "Негативное влияние еврозоны на прогнозы",
+          "name_en": "Negative impact of the Eurozone on forecasts",
+          "canonical": "Eurozone malaise"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Греческие выборы",
+          "name_en": "Greek election",
+          "canonical": "Greek election"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Падение Греции в дефолт",
+          "name_en": "Greece's slow descent into effective default",
+          "canonical": "slow descent into effective default"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Испания",
+          "name_en": "Spain",
+          "canonical": "Spain"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Распространение мрачного настроения",
+          "name_en": "Spreading of the malaise",
+          "canonical": "malaise is spreading"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "Германия",
+          "name_en": "Germany",
+          "canonical": "Germany"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "Снижение прогнозов для развивающихся рынков",
+          "name_en": "Downgrading of emerging market forecasts",
+          "canonical": "downgraded several of our emerging market forecasts"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Бразилия",
+          "name_en": "Brazil",
+          "canonical": "Brazil"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "Первый квартал роста в Бразилии",
+          "name_en": "First quarter growth in the cases of Brazil and India",
+          "canonical": "first quarter growth"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "Индия",
+          "name_en": "India",
+          "canonical": "India"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "Второй квартал индикаторов в Китае",
+          "name_en": "Second quarter indicators in China",
+          "canonical": "second quarter indicators"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "Китай",
+          "name_en": "China",
+          "canonical": "China"
+        },
+        {
+          "id": "e13",
+          "type": "Process",
+          "name_ru": "Снижение производственных планов, инвестиций и найма",
+          "name_en": "Holding back production plans, investment and hiring at firms globally",
+          "canonical": "holding back production plans, investment and hiring"
+        },
+        {
+          "id": "e14",
+          "type": "Process",
+          "name_ru": "Угроза от катастрофы в банках Испании",
+          "name_en": "Threat of the plan to recapitalise Spain’s banks",
+          "canonical": "shortcomings of the plan to recapitalise Spain's banks"
+        },
+        {
+          "id": "e15",
+          "type": "Process",
+          "name_ru": "Политическая неудача в Греции",
+          "name_en": "Political failure in Greece",
+          "canonical": "political failure in Greece"
+        },
+        {
+          "id": "e16",
+          "type": "Process",
+          "name_ru": "Контагион",
+          "name_en": "Contagion",
+          "canonical": "contagion is already at work"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e14",
+          "target_id": "e15",
+          "type": "contradicts",
+          "evidence": "because it tells us that contagion is already at work. The real concern is that events are moving beyond the reach of policy makers."
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e16",
+          "type": "uses_material",
+          "evidence": "because it tells us that contagion is already at work"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e7",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 4.0,
+          "unit": "quarter",
+          "condition": "first quarter growth in the cases of Brazil and India, and second quarter indicators in China"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p1::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "ilure in Greece, because it tells us that contagion is already at work. The real concern is that events are moving beyond the reach of policy makers. Our downside scenario, to which we attach a probability close to 50%, assumes that the Eurozone’s defences are soon overrun, leading to the chaotic exit of several members, and a crunching recession.  Eurozone-driven uncertainty, compounded by the approaching ‘fiscal cliff’, is sapping corporate confidence in the USA, which in turn is inhibiting hiring and investment, and undermining what little confidence households have. We see this remaining a drag on US growth through 2013 and beyond.  Early in June Spain conceded that its financial sector was in deep crisis and applied for support. Almost inevitably the subsequent promise of €100 bn of funding was sufficiently vague that Spain’s borrowing costs rose to unsustainable rates anyway. The Eurozone – half of which is already in recession – appears locked into a cycle of muddling through at the cost of relentless austerity compounded by unrelenting uncertainty.  Neither is Asia immune from the Eurozone malaise. Japan has just recorded its first ever Eurozone deficit.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "Констатация о распространении кризиса",
+          "name_en": "Consequence of contagion spreading",
+          "canonical": "Contagion"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Политическая реакция на кризис",
+          "name_en": "Policy response to the crisis",
+          "canonical": "Policy makers' actions"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "Нижняя сценарий",
+          "name_en": "Downside scenario",
+          "canonical": "Downside scenario"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Еврозоны",
+          "name_en": "Eurozone",
+          "canonical": "Eurozone"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Выход из Еврозоны",
+          "name_en": "Exit from the Eurozone",
+          "canonical": "Exit from the Eurozone"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "Кризис в финансовой сфере Испании",
+          "name_en": "Financial sector crisis in Spain",
+          "canonical": "Financial sector crisis in Spain"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "Испания",
+          "name_en": "Spain",
+          "canonical": "Spain"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "Заявление о получении финансовой помощи",
+          "name_en": "Request for financial support",
+          "canonical": "Request for funding"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "Япония",
+          "name_en": "Japan",
+          "canonical": "Japan"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "Падение экспорта в Японию",
+          "name_en": "Decrease in Japanese exports",
+          "canonical": "Decrease in Japanese exports to Eurozone"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "because it tells us that contagion is already at work."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Our downside scenario, to which we attach a probability close to 50%, assumes that the Eurozone’s defences are soon overrun"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Our downside scenario, to which we attach a probability close to 50%, assumes that the Eurozone’s defences are soon overrun"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "leading to the chaotic exit of several members, and a crunching recession."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Our downside scenario, to which we attach a probability close to 50%, assumes that the Eurozone’s defences are soon overrun"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Early in June Spain conceded that its financial sector was in deep crisis and applied for support."
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Almost inevitably the subsequent promise of €100 bn of funding was sufficiently vague that Spain’s borrowing costs rose to unsustainable rates anyway."
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Neither is Asia immune from the Eurozone malaise. Japan has just recorded its first ever Eurozone deficit."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "probability",
+          "op": "eq",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": "close to"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p1::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p1::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "y compounded by unrelenting uncertainty.  Neither is Asia immune from the Eurozone malaise. Japan has just recorded its first ever Eurozone deficit. Weaker shipments to the Eurozone are compounding the effects of the policy-induced slowdown in China. Growth prospects are suffering as a result. What’s more the downside risk for China, from the Eurozone, and too little too late policy-wise, is fostering concerns that the soft landing could harden up.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "уровень неопределенности",
+          "name_en": "uncertainty level",
+          "canonical": "uncertainty"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Еврозоnе",
+          "name_en": "Eurozone",
+          "canonical": "Eurozone"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "экономический рост Китая",
+          "name_en": "China's growth prospects",
+          "canonical": "growth prospects"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "unrelenting uncertainty. Neither is Asia immune from the Eurozone malaise."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Weaker shipments to the Eurozone are compounding the effects of the policy-induced slowdown in China. Growth prospects are suffering as a result."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "risk",
+          "op": "ge",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": "The downside risk for China, from the Eurozone, and too little too late policy-wise, is fostering concerns that the soft landing could harden up."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p2::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "100 The Outlook for Cobalt 2012 CRU International Limited confidential 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 USA 1.9 -0.3 -3.5 3.0 1.7 2.2 2.3 2.8 2.8 2.7 Japan 2.2 -1.1 -5.5 4.5 -0.7 1.7 1.7 1.9 1.8 1.8 Germany 3.4 0.8 -5.1 3.6 3.1 0.6 1.1 2.1 2.2 2.3 France 2.3 -0.2 -3.0 1.6 1.7 -0.3 0.1 1.6 2.2 2.3 Italy 1.5 -1.2 -5.5 1.8 0.5 -2.7 -0.5 1.2 1.7 2.3 UK 3.5 -1.1 -4.4 2.1 0.7 0.0 1.5 2.7 2.9 3.0 Canada 2.2 0.7 -2.8 3.2 2.4 2.1 2.1 1.9 2.0 2.3 G-7 2.3 -0.4 -4.1 3.1 1.3 1.3 1.7 2.3 2.4 2.5 Belgium 2.8 0.9 -2.7 2.2 2.0 0.0 0.6 1.5 2.1 2.5 Netherlands 3.9 1.8 -3.5 1.6 1.3 -1.3 0.4 2.1 2.0 2.5 Spain 3.5 0.9 -3.7 -0.1 0.7 -2.3 -2.7 1.1 2.4 2.9 Austria 3.7 1.1 -3.5 2.5 3.0 0.3 0.9 2.0 2.2 2.3 Sw eden 3.4 -0.8 -5.0 5.9 4.0 1.1 2.6 3.3 2.5 2.1 Sw itzerland 3.6 2.1 -1.9 2.7 2.1 1.5 1.7 2.0 1.6 2.2 Eurozone 3.0 0.3 -4.4 1.9 1.5 -0.9 0.0 1.7 2.2 2.5 EU 27 3.2 0.2 -4.3 2.0 1.6 -0.1 1.0 2.1 2.4 2.3 Europe 3.5 0.5 -4.5 2.2 1.7 -0.2 0.7 2.1 2.5 2.7 OECD 2.7 0.0 -3.9 3.1 1.6 1.1 1.6 2.5 2.7 2.7 Australia 4.7 2.5 1.4 2.5 2.1 3.1 2.4 3.4 3.6 3.0 Mexico 3.2 1.2 -6.0 5.6 3.9 3.8 3.6 4.9 4.7 3.5 Brazil 6.1 5.2 -0.3 7.5 2.7 2.4 4.8 4.3 4.3 4.3 Argentina 8.7 6.8 0.9 9.2 8.9 3.3 3.2 4.3 3.8 3.4",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p2::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "3.0 Mexico 3.2 1.2 -6.0 5.6 3.9 3.8 3.6 4.9 4.7 3.5 Brazil 6.1 5.2 -0.3 7.5 2.7 2.4 4.8 4.3 4.3 4.3 Argentina 8.7 6.8 0.9 9.2 8.9 3.3 3.2 4.3 3.8 3.4 Central & South America 6.3 4.7 -0.4 4.4 5.1 3.2 3.8 4.2 4.3 4.0 Latin America OE 6.2 4.8 -0.1 5.0 5.1 3.1 3.9 4.3 4.3 4.0 China 14.2 9.6 9.2 10.4 9.2 8.0 8.7 8.0 7.9 7.6 India 9.7 7.5 7.6 8.2 7.5 6.2 7.9 8.1 8.1 8.0 South Korea 5.1 2.3 0.3 6.3 3.6 2.5 4.1 5.4 4.9 4.7 Indonesia 6.3 6.0 4.6 6.2 6.5 6.1 6.7 6.1 5.8 5.6 Taiw an 6.0 0.7 -1.8 10.7 4.0 1.8 4.0 4.3 4.3 4.3 Turkey 4.7 0.7 -4.8 9.2 8.5 2.1 4.5 6.1 5.9 5.6 Asia 6.5 3.4 0.9 7.2 4.5 4.4 5.3 5.3 5.3 5.2 Asia excluding Japan 9.1 6.0 4.3 8.6 7.0 5.6 6.8 6.7 6.6 6.4 Africa and Middle East 5.6 4.5 0.5 5.5 4.6 3.8 4.7 5.0 4.9 4.7 Developing Economies 8.6 6.2 2.5 6.8 6.2 5.3 5.9 6.1 6.1 5.9 World 4.0 1.4 -2.4 4.1 2.8 2.2 2.9 3.5 3.7 3.7 Data : OE, CRU Table A.1: World economic growth (percentage change in real GDP/GNP year-on-year)",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "",
+          "name_en": "Economic growth calculation",
+          "canonical": "economic_growth_calculation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Data : OE, CRU Table A.1: World economic growth (percentage change in real GDP/GNP year-on-year)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": -2.4,
+          "value_max": 14.2,
+          "unit": "% year-on-year change in real GDP/GNP",
+          "condition": "year-on-year"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p3::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 101 CRU International Limited confidential Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 USA 2.2 3.3 3.5 3.1 2.2 1.6 1.5 1.6 2.0 2.2 2.3 2.2 Japan 4.9 4.5 5.3 3.3 -0.1 -1.7 -0.6 -0.5 2.7 2.5 0.7 1.1 Germany 2.4 4.1 4.0 3.8 4.6 2.9 2.7 2.0 1.2 0.6 0.0 0.4 France 1.0 1.6 1.9 1.8 2.4 1.7 1.5 1.2 0.3 -0.2 -0.6 -0.7 Italy 1.1 1.8 1.9 2.2 1.2 1.0 0.4 -0.4 -1.3 -2.8 -3.6 -3.0 UK 1.2 2.5 3.0 1.7 1.5 0.4 0.3 0.5 -0.1 -0.1 -0.1 0.3 Canada 2.1 3.6 3.8 3.3 2.9 2.0 2.5 2.2 1.8 2.5 1.9 2.0 G-7 2.4 3.3 3.6 3.0 2.0 1.1 1.1 1.1 1.5 1.4 1.0 1.1 Belgium 2.0 2.8 2.1 2.0 3.0 2.2 1.8 1.2 0.5 -0.1 -0.3 0.0 Netherlands 0.5 2.4 1.7 2.0 2.2 1.8 1.2 -0.2 -1.1 -1.7 -1.5 -1.1 Spain -1.3 0.0 0.3 0.7 0.9 0.8 0.8 0.3 -0.4 -1.7 -3.2 -3.9 Austria 0.9 2.4 3.2 3.4 4.3 4.1 2.5 1.4 0.7 0.2 0.2 0.2 Sw eden 3.3 5.3 7.0 7.8 6.0 4.9 4.0 1.2 1.5 0.7 0.3 1.8 Sw itzerland 2.4 2.9 2.8 2.8 2.5 2.3 1.8 1.8 2.0 1.5 1.3 1.2 Eurozone 1.0 2.2 2.2 2.2 2.4 1.6 1.3 0.7 -0.1 -0.9 -1.5 -1.3 EU 27 1.0 2.3 2.5 2.3 2.5 1.7 1.4 0.8 0.1 -0.3 -0.4 0.1 Europe 1.3 2.5 2.5 2.4 2.5 1.7 1.6 1.1 0.5 -0.1 -0.6 -0.4 OECD 2.5 3.4 3.4 3.0 2.2 1.4 1.5 1.2 1.5 1.3 0.8 1.0 Australia 2.5 3.0 2.4 2.2 1.1 1.9 2.6 2.5 4.3 3.3 2.6 2.4 Mexico",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "export",
+          "name_en": "export",
+          "canonical": "Export"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "The Outlook for Cobalt 2012"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p3::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "5 1.7 1.6 1.1 0.5 -0.1 -0.6 -0.4 OECD 2.5 3.4 3.4 3.0 2.2 1.4 1.5 1.2 1.5 1.3 0.8 1.0 Australia 2.5 3.0 2.4 2.2 1.1 1.9 2.6 2.5 4.3 3.3 2.6 2.4 Mexico 5.6 7.2 5.2 4.3 3.9 3.8 4.2 3.9 4.7 3.6 3.5 3.7 Brazil 9.3 8.8 6.9 5.3 4.2 3.3 2.1 1.4 0.8 1.8 2.7 4.2 Argentina 6.8 11.8 8.6 9.2 9.9 9.1 9.3 7.3 4.2 3.1 3.0 3.1 Central & South America 1.9 4.1 5.6 5.8 6.1 5.2 4.7 4.2 3.6 3.4 2.9 3.0 Latin America OE 2.7 4.6 6.1 6.4 6.1 5.4 4.7 4.2 3.3 3.2 2.8 3.0 China 12.1 10.4 9.7 9.9 9.7 9.5 9.0 8.9 8.1 7.7 8.0 8.3 India 8.6 8.5 7.6 8.2 9.2 8.0 6.7 6.1 5.3 7.0 6.6 6.0 South Korea 8.6 7.4 4.5 5.0 4.0 3.5 3.7 3.4 3.0 2.3 2.0 2.7 Indonesia 5.9 6.3 5.8 6.8 6.4 6.5 6.5 6.5 6.3 5.9 6.0 6.2 Taiw an 12.9 13.0 11.2 6.5 6.6 4.5 3.4 1.8 0.4 0.2 2.1 4.2 Turkey 12.6 10.4 5.3 9.3 11.9 9.1 8.4 5.2 3.0 1.9 1.6 2.1 Asia 8.1 7.5 6.9 6.6 5.1 4.2 4.4 4.3 4.5 4.5 4.0 4.7 Asia excluding Japan 9.8 9.0 7.7 8.1 7.8 7.1 6.9 6.4 5.3 5.4 5.5 6.2 Africa and Middle East 5.7 5.6 4.8 5.8 5.0 4.7 4.7 4.1 4.1 3.8 3.8 3.8 Developing Economies 6.7 6.8 6.5 7.1 6.8 6.3 6.1 5.8 5.3 5.3 5.1 5.4 World 3.6 4.3 4.3 4.1 3.4 2.6 2.6 2.5 2.4 2.3 2.0 2.3 Data : OE, CRU Table A.1 (continued): World economic growth (percentage change in real",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "World economic growth (percentage change in real data)",
+          "canonical": "World economic growth"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "percentage_change",
+          "op": "range",
+          "value_min": 2.5,
+          "value_max": 13.0,
+          "unit": "%",
+          "condition": "real data"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p3::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p3::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "3 5.1 5.4 World 3.6 4.3 4.3 4.1 3.4 2.6 2.6 2.5 2.4 2.3 2.0 2.3 Data : OE, CRU Table A.1 (continued): World economic growth (percentage change in real GDP/GNP year-on-year) 2012 2010 2011",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "World economic growth (percentage change in real GDP/GNP year-on-year)",
+          "name_en": "World economic growth (percentage change in real GDP/GNP year-on-year)",
+          "canonical": "World economic growth"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "year",
+          "op": "range",
+          "value_min": 2010.0,
+          "value_max": 2012.0,
+          "unit": "year-on-year",
+          "condition": "inclusive"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p4::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "102 The Outlook for Cobalt 2012 CRU International Limited confidential 2. Regional developments 2.1 The Americas: USA suffers summer doldrums again The indications are that the USA is experiencing its third bout of summer softness in a row. In recent weeks first quarter GDP growth was revised down from 2.2% annualised to 1.9%, thanks to changes in the estimates of the contributions made by trade, stocks and public spending. High frequency data suggests that the second quarter’s performance won’t be much different. We have it at 2.2% annualised, but the risks are that it could come in around 20 basis points lower. For an economy which should be able to grow by 2.5% on trend, and somewhat above that during the recovery phase of its cycle, this is soft. Last year the key problem was the dampening effects on spending caused by high oil prices. This year the problem is mainly to do with the Eurozone’s downswing, and with the debilitating effects of the uncertainty emanating from the Eurozone on confidence. One positive consequence is that inflation is falling back, which should support real spending in the second half of 2012.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "испытания",
+          "name_en": "GDP growth revision process",
+          "canonical": "GDP growth revision"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "экономика США",
+          "name_en": "US economy",
+          "canonical": "US economy"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "изменение оценок вклада",
+          "name_en": "changes in the estimates of the contributions made by trade, stocks and public spending",
+          "canonical": "estimates revision"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "высокочастотные данные",
+          "name_en": "high frequency data",
+          "canonical": "high-frequency data"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "рост ВВП",
+          "name_en": "GDP growth",
+          "canonical": "GDP growth"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "изменение оценок",
+          "name_en": "revised down from 2.2% annualised to 1.9%",
+          "canonical": "revision"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "уровень цен на нефть",
+          "name_en": "oil prices",
+          "canonical": "oil prices"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "падение инфляции",
+          "name_en": "inflation is falling back",
+          "canonical": "inflation decrease"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "The Outlook for Cobalt 2012 CRU International Limited confidential 2. Regional developments 2.1 The Americas: USA suffers summer doldrums again"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "In recent weeks first quarter GDP growth was revised down from 2.2% annualised to 1.9%, thanks to changes in the estimates of the contributions made by trade, stocks and public spending."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "High frequency data suggests that the second quarter’s performance won’t be much different. We have it at 2.2% annualised, but the risks are that it could come in around 20 basis points lower."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "The Outlook for Cobalt 2012 CRU International Limited confidential 2. Regional developments 2.1 The Americas: USA suffers summer doldrums again"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "In recent weeks first quarter GDP growth was revised down from 2.2% annualised to 1.9%, thanks to changes in the estimates of the contributions made by trade, stocks and public spending."
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Last year the key problem was the dampening effects on spending caused by high oil prices."
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "One positive consequence is that inflation is falling back, which should support real spending in the second half of 2012."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "expected_growth_rate",
+          "op": "range",
+          "value_min": 2.2,
+          "value_max": 2.5,
+          "unit": "% annualised",
+          "condition": "during the recovery phase of its cycle"
+        },
+        {
+          "entity_id": "e6",
+          "param": "revised_value",
+          "op": "range",
+          "value_min": 1.9,
+          "value_max": 2.2,
+          "unit": "% annualised",
+          "condition": "thanks to changes in the estimates of the contributions made by trade, stocks and public spending"
+        },
+        {
+          "entity_id": "e8",
+          "param": "decrease_rate",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 20.0,
+          "unit": "basis points",
+          "condition": "but the risks are that it could come in around 20 basis points lower"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p4::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "he Eurozone on confidence. One positive consequence is that inflation is falling back, which should support real spending in the second half of 2012. As a result we’ve only shaved 10 basis points off our growth forecast for this year, trimming it to 2.2%. The strong affinity to muddling through shown by policy makers in the Eurozone leads us to think that uncertainty will remain a dominant feature of the outlook for some time yet, however, and the dampening effect this will have on confidence has led us to trim 10-20 basis points off our US growth forecasts through to 2016 as well. The evidence of deceleration is widespread. Industrial production eased down by 0.1% m- o-m in May, led by a broad-based 0.4% drop in manufacturing output. In part this was payback for the unusual strength of production in the first quarter. But on trend manufacturing has decelerated from double digit growth in the New Year to low single-digit growth now. Further deceleration is likely: bookings for factory goods dropped in April, by 0.6% m-o-m for the third time in four months. The USA’s dividend from rebalancing towards its external sector is diminishing as the crisis in the Eurozone intensifies.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "индустриальное производство",
+          "name_en": "industrial production",
+          "canonical": "Industrial Production"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство промышленных товаров",
+          "name_en": "manufacturing output",
+          "canonical": "Manufacturing Output"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "заказы на производственные товары",
+          "name_en": "bookings for factory goods",
+          "canonical": "Bookings for Factory Goods"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p4::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p4::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "third time in four months. The USA’s dividend from rebalancing towards its external sector is diminishing as the crisis in the Eurozone intensifies. This isn’t because of a serious loss of competitiveness, which is still high, although it’s being eroded at the margins by the weakening €, but because of sharp absolute falls in demand and heightened uncertainty. In April the 0.8% m-o-m fall back in exports was concentrated in capital goods and industrial supplies and materials. The main weak spot in the USA’s markets was Europe, where demand for American goods has slumped dramatically on an annualised basis, from almost 15% growth in August 2011 to a contraction of almost 5% in April. In contrast exports to China are still rising. The slump in output is reflected in the labour market. In May payrolls expanded at a very subdued rate for the third month in a row. The increase was revised down from 115,000 in April to 77,000. May hirings only increased by a net 69,000, which edged the unemployment rate back up to 8.2%. Since then jobless claims have continued to trend gently upwards from the lows they hit in February and March.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "capital goods and industrial supplies and materials",
+          "name_en": "capital goods and industrial supplies and materials",
+          "canonical": "materials"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2011.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "during"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p4::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p4::c3",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "the unemployment rate back up to 8.2%. Since then jobless claims have continued to trend gently upwards from the lows they hit in February and March. The payback from the mild winter should have run its course by now, so the deceleration in job creation points to underlying issues in the corporate sector. Anecdotal evidence, plus surveys of corporate entities, indicates that the perception that policy making in the Eurozone is stymied, and the resultant uncertainty that belief fosters, exacerbated by worries about the approaching fiscal cliff at home, which we discussed last",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "unemployment rate",
+          "name_en": "unemployment rate",
+          "canonical": "Unemployment Rate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "jobless claims have continued to trend gently upwards",
+          "name_en": "jobless claims have continued to trend gently upwards",
+          "canonical": "Jobless Claims Trending Upwards"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "payback from the mild winter",
+          "name_en": "payback from the mild winter",
+          "canonical": "Payback from Mild Winter"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "deceleration in job creation points to underlying issues in the corporate sector",
+          "name_en": "deceleration in job creation points to underlying issues in the corporate sector",
+          "canonical": "Deceleration in Job Creation"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "anecdotal evidence, plus surveys of corporate entities",
+          "name_en": "anecdotal evidence, plus surveys of corporate entities",
+          "canonical": "Anecdotal Evidence and Surveys"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "policy making in the Eurozone is stymied",
+          "name_en": "policy making in the Eurozone is stymied",
+          "canonical": "Stymied Policy Making in the Eurozone"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "uncertainty that belief fosters",
+          "name_en": "uncertainty that belief fosters",
+          "canonical": "Uncertainty Fostered by Belief"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "worry about the approaching fiscal cliff at home",
+          "name_en": "worry about the approaching fiscal cliff at home",
+          "canonical": "Worry About Approaching Fiscal Cliff"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "contradicts",
+          "evidence": "The deceleration in job creation points to underlying issues in the corporate sector."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Anecdotal evidence, plus surveys of corporate entities, indicates that the perception that policy making in the Eurozone is stymied"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Anecdotal evidence, plus surveys of corporate entities, indicates that the perception that policy making in the Eurozone is stymied, and the resultant uncertainty that belief fosters"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Anecdotal evidence, plus surveys of corporate entities, indicates that the perception that policy making in the Eurozone is stymied, and the resultant uncertainty that belief fosters, exacerbated by worries about the approaching fiscal cliff at home"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "trend direction",
+          "op": "ge",
+          "value_min": 0.0,
+          "value_max": null,
+          "unit": "%/month",
+          "condition": "gentle upwards"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p5::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 103 CRU International Limited confidential month, are leading firms to delay hiring and investment decisions, which is reflected also in orders for durables. On present evidence this drag is likely to persist through 2012 and into 2013 and beyond. Consumer confidence has taken a knock as a result. The Michigan University index of consumer sentiment dropped to 74.1 in June from 79.3 in May, a six month low, weighed down by a number of real economy factors, but by explicit concerns about conditions in Europe as well. The sogginess in consumer sentiment is reflected in spending. Headline retail sales fell by another 0.2% m-o-m in May, chiefly as a result of lower sales of gasoline. Excluding the three most volatile components of retail sales they inched ahead by a meagre 0.1%. But on some trend measures they are clearly decelerating. In consequence we expect consumer spending to remain subdued through this year, and, as fiscal retrenchment cranks up, through next year as well. In contrast with the Eurozone, however, the recovery in the USA retains a modicum of momentum, despite all the drags.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "потребительская уверенность",
+          "name_en": "consumer confidence",
+          "canonical": "Consumer Confidence"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "нефть",
+          "name_en": "gasoline",
+          "canonical": "Gasoline"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "индекс оптимизма потребителей",
+          "name_en": "Michigan University index of consumer sentiment",
+          "canonical": "Michigan University Index of Consumer Sentiment"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "изменение уровня потребительской уверенности",
+          "name_en": "drop in consumer confidence",
+          "canonical": "Drop in Consumer Confidence"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "потребление розничных товаров",
+          "name_en": "retail sales",
+          "canonical": "Retail Sales"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "уменьшение потребления розничных товаров",
+          "name_en": "fell by another 0.2% m-o-m in May",
+          "canonical": "Fell by Another 0.2% MoM in May"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "уменьшение потребления розничных товаров (без учета трех самых волатильных компонентов)",
+          "name_en": "inched ahead by a meagre 0.1%.",
+          "canonical": "Inched Ahead by Meagre 0.1%"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "экономическая реальность",
+          "name_en": "real economy factors",
+          "canonical": "Real Economy Factors"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "The Michigan University index of consumer sentiment dropped to 74.1 in June from 79.3 in May, a six month low, weighed down by a number of real economy factors, but by explicit concerns about conditions in Europe as well."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Excluding the three most volatile components of retail sales they inched ahead by a meagre 0.1%. But on some trend measures they are clearly decelerating."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "The Michigan University index of consumer sentiment dropped to 74.1 in June from 79.3 in May, a six month low, weighed down by a number of real economy factors, but by explicit concerns about conditions in Europe as well."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Headline retail sales fell by another 0.2% m-o-m in May, chiefly as a result of lower sales of gasoline."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Excluding the three most volatile components of retail sales they inched ahead by a meagre 0.1%."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "month-on-month change",
+          "op": "eq",
+          "value_min": -0.2,
+          "value_max": -0.2,
+          "unit": "% MoM in May",
+          "condition": "fell by another 0.2% m-o-m in May"
+        },
+        {
+          "entity_id": "e7",
+          "param": "month-on-month change",
+          "op": "eq",
+          "value_min": 0.1,
+          "value_max": 0.1,
+          "unit": "% MoM",
+          "condition": "inched ahead by a meagre 0.1%"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p5::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p5::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "of domestic demand is one reason why the Institute of Supply Management’s manufacturing index is still at a reading consistent with around 2% growth. One of the reasons the US economy retains a degree of buoyancy, which the Eurozone can only dream of, is that policy remains supportive. On the fiscal front that will change early in 2013, but monetary policy is set to stay accommodating well beyond then. The Federal Reserve’s (Fed’s) main policy rate is due to stay very low until late 2014. But there’s more: in June the Fed launched a further phase of Operation Twist, whereby it sells short dated Treasury bills out to a maturity of three years and buys long-dated bills of a maturity of six years or more with the proceeds, thereby bearing down on long term yields and interest rates, but without expanding its balance sheet. This operation could continue for another 3-4 months at present rates. Beyond that, the Fed has a further round of quantitative easing (QE) in reserve, especially if the Eurozone’s dominos start to fall.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Operation Twist",
+          "name_en": "Operation Twist",
+          "canonical": "operation_twist"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Treasury bills",
+          "name_en": "Treasury bills",
+          "canonical": "treasury_bills"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "In June the Fed launched a further phase of Operation Twist, whereby it sells short dated Treasury bills out to a maturity of three years and buys long-dated bills of a maturity of six years or more with the proceeds."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "duration",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 4.0,
+          "unit": "months",
+          "condition": "present_rates"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p5::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p5::c3",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "t present rates. Beyond that, the Fed has a further round of quantitative easing (QE) in reserve, especially if the Eurozone’s dominos start to fall. In summary, the US economy is on a low growth trajectory to be sure, but barring a self- inflicted fiscal wound, we can be fairly confident it will continue to grow at least moderately. Despite a raft of stimulus and protectionist measures, economic growth in Brazil has been much weaker than expected in the first half of 2012. Brazil has achieved some success in stimulating job, income and credit growth through these policies but this has largely been through short-term incentives to consumption rather than structural policies aimed at improving investment.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "квантитативное ослабление (qe)",
+          "name_en": "quantitative easing (QE)",
+          "canonical": "quantitative easing"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "экономика США",
+          "name_en": "US economy",
+          "canonical": "US economy"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "стимулирование экономики",
+          "name_en": "stimulus and protectionist measures",
+          "canonical": "stimulus and protectionist measures"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "экономика Бразилии",
+          "name_en": "Brazilian economy",
+          "canonical": "Brazilian economy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Beyond that, the Fed has a further round of quantitative easing (QE) in reserve, especially if the Eurozone’s dominos start to fall."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Despite a raft of stimulus and protectionist measures, economic growth in Brazil has been much weaker than expected in the first half of 2012."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "first half"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p5::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p5::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "up, through next year as well. In contrast with the Eurozone, however, the recovery in the USA retains a modicum of momentum, despite all the drags. The recent slump in productivity growth, evident in the 0.9% annualised q-o-q fall in the first quarter, indicates that firms will continue hiring to a degree at least. Indeed, a recent survey of hiring intentions suggested that US firms could step up the pace of job creation in the third quarter. Meanwhile household finances continue to improve gradually. There are signs that house prices are bottoming out, which should draw a line under household wealth, and the ratio of household debt to disposable income is heading back towards its long run value. What’s more, inflation continues to fall, which should provide a real boost to discretionary spending as the year advances. The consumer price index (CPI) fell m-o-m in May by 0.3% which reduced the annual rate of consumer price inflation to 1.7%. The relative resilience of domestic demand is one reason why the Institute of Supply Management’s manufacturing index is still at a reading consistent with around 2% growth.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": null,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p6::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p6::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "104 The Outlook for Cobalt 2012 CRU International Limited confidential Lately Brazil’s credit-fuelled consumer growth has seemed to be running out of steam, however. Credit creation, for example, decelerated to 1.2% m-o-m in April from 1.9% in March and appears to be slowing spending. Retail sales, for instance, increased by less than 1% m-o-m in April over March. In another indication that domestic consumption has slowed, the consumer price index measure of inflation fell back to below 5%. While the engine of growth in Brazil, domestic consumption, has fallen back other sectors of the economy have also performed weakly. Agricultural output fell sharply, contracting 7.3% q-o-q in the January-March period. In contrast industrial production in the first quarter picked up by 1.7% q-o-q. However, this was in comparison with a very weak prior quarter. The HSBC manufacturing Purchasing Managers’ Index (PMI) was unchanged in May at 49.3. This was the second consecutive month of the index in contractionary territory. It has reinforced our view that the manufacturing sector has continued to struggle of late. Investment in infrastructure would certainly help Brazil.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "кредитование",
+          "name_en": "credit creation",
+          "canonical": "Credit creation"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "рост потребления",
+          "name_en": "consumer growth",
+          "canonical": "Consumer growth"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "снижение темпов кредитования",
+          "name_en": "deceleration of credit creation",
+          "canonical": "Deceleration of credit creation"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "рост розничных продаж",
+          "name_en": "retail sales growth",
+          "canonical": "Retail sales"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "уменьшение темпов роста розничных продаж",
+          "name_en": "deceleration of retail sales growth",
+          "canonical": "Deceleration of retail sales"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "инфляция",
+          "name_en": "consumer price index measure of inflation",
+          "canonical": "Consumer price index measure of inflation"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "снижение темпов роста инфляции",
+          "name_en": "fall back to below 5%",
+          "canonical": "Fall back to below 5%"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "производство сельского хозяйства",
+          "name_en": "agricultural output",
+          "canonical": "Agricultural output"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "снижение объемов производства сельского хозяйства",
+          "name_en": "fall sharply",
+          "canonical": "Fall sharply"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "производство промышленности",
+          "name_en": "industrial production",
+          "canonical": "Industrial production"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "рост объемов производства промышленности",
+          "name_en": "pick up by 1.7% q-o-q",
+          "canonical": "Pick up by 1.7% q-o-q"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "индекс HSBC PMI",
+          "name_en": "HSBC manufacturing Purchasing Managers' Index (PMI)",
+          "canonical": "HSBC manufacturing Purchasing Managers' Index (PMI)"
+        },
+        {
+          "id": "e13",
+          "type": "Process",
+          "name_ru": "снижение объемов производства промышленности",
+          "name_en": "contractionary territory",
+          "canonical": "Contractionary territory"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Credit creation, for example, decelerated to 1.2% m-o-m in April from 1.9% in March and appears to be slowing spending."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Credit creation, for example, decelerated to 1.2% m-o-m in April from 1.9% in March and appears to be slowing spending."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Retail sales, for instance, increased by less than 1% m-o-m in April over March. In another indication that domestic consumption has slowed"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Retail sales, for instance, increased by less than 1% m-o-m in April over March. In another indication that domestic consumption has slowed"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "In another indication that domestic consumption has slowed, the consumer price index measure of inflation fell back to below 5%"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "In another indication that domestic consumption has slowed, the consumer price index measure of inflation fell back to below 5%"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "While the engine of growth in Brazil, domestic consumption, has fallen back other sectors of the economy have also performed weakly. Agricultural output fell sharply, contracting 7.3% q-o-q in the January-March period."
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "While the engine of growth in Brazil, domestic consumption, has fallen back other sectors of the economy have also performed weakly. Agricultural output fell sharply, contracting 7.3% q-o-q in the January-March period."
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "In contrast industrial production in the first quarter picked up by 1.7% q-o-q. However, this was in comparison with a very weak prior quarter."
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "In contrast industrial production in the first quarter picked up by 1.7% q-o-q. However, this was in comparison with a very weak prior quarter."
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "The HSBC manufacturing Purchasing Managers’ Index (PMI) was unchanged in May at 49.3. This was the second consecutive month of the index in contractionary territory."
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e12",
+          "type": "operates_at_condition",
+          "evidence": "The HSBC manufacturing Purchasing Managers’ Index (PMI) was unchanged in May at 49.3. This was the second consecutive month of the index in contractionary territory."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e10",
+          "param": "q-o-q",
+          "op": "ge",
+          "value_min": 1.7,
+          "value_max": 1.7,
+          "unit": "%",
+          "condition": "quarter-over-quarter"
+        },
+        {
+          "entity_id": "e9",
+          "param": "q-o-q",
+          "op": "le",
+          "value_min": -7.3,
+          "value_max": -7.3,
+          "unit": "%",
+          "condition": "quarter-over-quarter"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p6::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p6::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "It has reinforced our view that the manufacturing sector has continued to struggle of late. Investment in infrastructure would certainly help Brazil. Currently Brazil’s total investment is less than 19% of GDP, one of the lowest ratios among emerging economies. Furthermore, Brazil spends only 2% of GDP on infrastructure, compared with 10% in China. The reason for this is that high interest rates have attracted foreign capital and driven up the value of the Brazilian real, which has made manufacturing and services uncompetitive and dampened investment. The Brazilian central bank is currently in a monetary loosening cycle which should help keep at bay some foreign inflows and this is expected to continue to be the policy stance for the immediate future. As a result of the worse than expected first quarter and poor high frequency data into the second quarter, we now forecast growth to be slower in 2012 than 2011 and have revised down our outlook for growth this year to 2.4% (from 3.1% last month). However, we expect the impact of loose fiscal and monetary policies on private and government consumption to push growth higher in 2013.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "Прогнозируемая скорость роста в 2012 году будет меньше, чем в 2011 году.",
+          "name_en": "Forecasted growth in 2012 will be slower than in 2011.",
+          "canonical": "Conclusion"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "Инвестиции в инфраструктуру ниже 19% ВВП, что является одним из самых низких показателей среди развивающихся экономик.",
+          "name_en": "Total investment is less than 19% of GDP, one of the lowest ratios among emerging economies.",
+          "canonical": "Property"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "Инвестиции в инфраструктуру составляют всего 2% ВВП.",
+          "name_en": "Infrastructure spending is only 2% of GDP.",
+          "canonical": "Property"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Высокие процентные ставки привлекают иностранные инвестиции, увеличивают стоимость бразильского реала.",
+          "name_en": "High interest rates attract foreign capital and drive up the value of the Brazilian real.",
+          "canonical": "Material"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Бразильский центральный банк проводит денежную политику ослабления.",
+          "name_en": "The Brazilian central bank is currently in a monetary loosening cycle.",
+          "canonical": "Process"
+        },
+        {
+          "id": "e6",
+          "type": "Experiment",
+          "name_ru": "Ожидается, что более лояльная денежно-кредитная политика будет способствовать росту частного и государственного потребления.",
+          "name_en": "We expect the impact of loose fiscal and monetary policies on private and government consumption to push growth higher in 2013.",
+          "canonical": "Experiment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "validated_by",
+          "evidence": "The Brazilian central bank is currently in a monetary loosening cycle which should help keep at bay some foreign inflows and this is expected to continue to be the policy stance for the immediate future."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "forecasted_growth_2012",
+          "op": "le",
+          "value_min": 3.1,
+          "value_max": 3.1,
+          "unit": "%",
+          "condition": "last_month"
+        },
+        {
+          "entity_id": "e6",
+          "param": "expected_growth_2013",
+          "op": "ge",
+          "value_min": 2.4,
+          "value_max": 2.4,
+          "unit": "%",
+          "condition": "next_year"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p6::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p6::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "last month). However, we expect the impact of loose fiscal and monetary policies on private and government consumption to push growth higher in 2013. The slowdown in Brazil, Argentina’s top trading partner, has meant growth in its neighbour has cooled considerably. Argentina’s economy barely grew at all in the first quarter with growth of just 0.9% q-o-q. With industrial exports in May falling by 12% y-o-y, the second quarter trade data isn’t looking too strong either. Our forecast is for just over 3% GDP growth this year. 2.2 Europe: Spain takes centre stage An imminent Greek exit from the Eurozone has been averted following the relatively positive outcome of the Greek elections in early June. However, the new coalition that has been formed will find it difficult to negotiate a myriad of issues, ranging from its own internal differences, to a strong opposition, and an increasingly impatient population suffering under the weight of a crippled economy. This means a disorderly Greek default is still likely to happen, and remains our base case. However, we also assume policymakers will do enough to avoid the worst of the contagion effects following this event.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "Прогнозируемый рост экономики Аргентины в 2013 году",
+          "name_en": "Forecasted GDP growth in Argentina for 2013",
+          "canonical": "GDP growth forecast"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Греческая экономика",
+          "name_en": "Greek economy",
+          "canonical": "Economy of Greece"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Экспорт промышленной продукции из Греции",
+          "name_en": "Industrial exports from Greece",
+          "canonical": "Industrial exports"
+        },
+        {
+          "id": "e4",
+          "type": "Experiment",
+          "name_ru": "Греческие выборы в июне 2012 года",
+          "name_en": "Greek elections in June 2012",
+          "canonical": "Elections"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Инфляция и монетарная политика",
+          "name_en": "Inflation and monetary policy",
+          "canonical": "Fiscal and monetary policies"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "However, we expect the impact of loose fiscal and monetary policies on private and government consumption to push growth higher in 2013."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "With industrial exports in May falling by 12% y-o-y, the second quarter trade data isn’t looking too strong either."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "forecasted_growth_rate",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 3.05,
+          "unit": "%",
+          "condition": "This year"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p6::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p6::c3",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "pen, and remains our base case. However, we also assume policymakers will do enough to avoid the worst of the contagion effects following this event. Meanwhile, latest news of a Spanish banking bail-out is unlikely to make a material difference, and this view is echoed by financial markets which are still demanding high yields on Spanish (and Italian) debt. In this climate of uncertainty, the real economy is showing signs of contraction in the second quarter of this year, with confidence effects now starting to impact on previously robust Germany.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пен",
+          "name_en": "pen",
+          "canonical": "Pen"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "уровень доверия в реальной экономике",
+          "name_en": "confidence in the real economy",
+          "canonical": "Confidence in Real Economy"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p7::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 105 CRU International Limited confidential The result of the Greek election on 17 June, although broadly viewed as the best possible outcome in that it averted an imminent Greek exit from the Eurozone, has not led us to change our view that Greece will eventually have to default. The new national unity government is likely to face major problems. Pushing a consensus line on how to tackle the crisis will be difficult, as the coalition is formed of three disparate parties, coming together due to a shared fear of the catastrophic impact of a Greek exit from the euro. They also have different ideologies on how to return Greece to economic growth. The Syriza party will take up the position of opposition, and with the ever-present issues of austerity-fatigue and the failing Greek economy, the new government is likely to be under permanent attack. There is also the threat of new elections always on the horizon if one of the coalition partners drops out – a likely outcome even before the year-end. Furthermore, a renegotiation of the bailout terms will, at best, only buy the new government some extra time.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Experiment",
+          "name_ru": "Греческие выборы 17 июня",
+          "name_en": "Greek election on 17 June",
+          "canonical": "Greek election on 17 June"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Кобальт",
+          "name_en": "Cobalt",
+          "canonical": "Cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "The Outlook for Cobalt 2012"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p7::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p7::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "ikely outcome even before the year-end. Furthermore, a renegotiation of the bailout terms will, at best, only buy the new government some extra time. And despite some tinkering with the agreement (slightly lower interest rates; extending the debt repayment period; possibly even easing the deficit targets slightly and stumping up some funds for investment), the core aims will ultimately stay the same. This means the agreement will remain unachievable, ineffective and poorly targeted on the real problems in Greece (namely competitiveness and systemic administration flaws). Uncertainty will continue to prevail. The controversial opposition will benefit as the government struggles with the adjustment programme. Furthermore, as Greece approaches a balanced budget and a more stable banking sector (though still messy), an exit will look increasingly attractive – particularly if the alternative for Athens is to permanently give up economic and political sovereignty. Therefore, a disorderly default remains our base case, Uncertainty dominates the outlook and is reflected in recent asset price movements",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "неординарный дефолт",
+          "name_en": "disorderly default",
+          "canonical": "disorderly default"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "недостигнутый и неэффективный договор",
+          "name_en": "unachievable, ineffective and poorly targeted agreement",
+          "canonical": "agreement"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "переговоры о реструктуризации долга",
+          "name_en": "renegotiation of the bailout terms",
+          "canonical": "renegotiation of the bailout terms"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "неопределенность",
+          "name_en": "uncertainty",
+          "canonical": "uncertainty"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "The core aims will ultimately stay the same. This means the agreement will remain unachievable, ineffective and poorly targeted on the real problems in Greece (namely competitiveness and systemic administration flaws)."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Uncertainty dominates the outlook and is reflected in recent asset price movements"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "core aims",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": "will ultimately stay the same"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p8::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "106 The Outlook for Cobalt 2012 CRU International Limited confidential but with policymakers doing enough to limit the worst of the contagion effects of this event. Meanwhile, apart from the election in Greece, the focus in recent weeks has been on Spain. The agreement of a €100 bn bailout of Spanish banks (via the Spanish government) is likely to provide much needed assistance to a sector that is struggling under the weight of a deteriorating economy, a crippled housing market, and massive capital outflows. However, the financial market response has been muted because of fears that the new loans will rank above existing Spanish bonds in the case of a default (therefore investors would demand higher yields to compensate), and that the loans will simply not be large enough. Yields on 10-year government debt remain close to the critical 7% level which is deemed unsustainable. These pressures make it more likely that the European Central Bank (ECB) will cut interest rates at its next meeting in July. However, this may well have a limited impact, since interbank rates are already low.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "bailout of Spanish banks",
+          "name_en": "bailout of Spanish banks",
+          "canonical": "Bailout of Spanish Banks"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "10-year government debt yields close to 7%",
+          "name_en": "10-year government debt yields close to 7%",
+          "canonical": "Yields on 10-year government debt"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "cut interest rates",
+          "name_en": "cut interest rates",
+          "canonical": "Cut Interest Rates"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "agreement of a €100 bn bailout of Spanish banks (via the Spanish government) is likely to provide much needed assistance to a sector that is struggling under the weight of a deteriorating economy, a crippled housing market, and massive capital outflows."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "These pressures make it more likely that the European Central Bank (ECB) will cut interest rates at its next meeting in July. However, this may well have a limited impact, since interbank rates are already low."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "level",
+          "op": "eq",
+          "value_min": 7.0,
+          "value_max": 7.0,
+          "unit": "%",
+          "condition": "critical"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p8::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p8::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "Bank (ECB) will cut interest rates at its next meeting in July. However, this may well have a limited impact, since interbank rates are already low. Furthermore, plans for the Eurozone bail-out fund to purchase sovereign debt look unlikely to have a lasting effect on governments’ borrowing costs, unless accompanied by a significant increase in firepower. In terms of the real economy, the uncertainty surrounding the crisis is continuing to have detrimental effects. The composite PMI was unchanged at 46.0 in June, and therefore remains well below the 50 ‘no-change’ reading and points to a second quarter fall in GDP of almost 0.5%. Furthermore, April’s 0.8% m-o-m fall (2.3% y-o-y) in industrial production provides a further sign that the Eurozone’s narrow escape from technical recession in the first quarter will not last very long. Needless to say, the peripheral economies are seeing the biggest falls in production (Spain -8.3% y-o-y, Italy -9.2%), but even Germany’s super-competitive industrial sector has contracted by 0.8% over the last year.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "снижение процентных ставок",
+          "name_en": "cut interest rates",
+          "canonical": "Cut interest rates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "бюджетные дефициты государств",
+          "name_en": "sovereign debt",
+          "canonical": "Sovereign debt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "покупка государственного долга",
+          "name_en": "purchase sovereign debt",
+          "canonical": "Purchase sovereign debt"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "композитный индекс PMI",
+          "name_en": "composite PMI",
+          "canonical": "Composite PMI"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "уменьшение ВВП",
+          "name_en": "fall in GDP",
+          "canonical": "Fall in GDP"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "производство промышленности",
+          "name_en": "industrial production",
+          "canonical": "Industrial production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "plans for the Eurozone bail-out fund to purchase sovereign debt look unlikely to have a lasting effect on governments’ borrowing costs"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "plans for the Eurozone bail-out fund to purchase sovereign debt look unlikely to have a lasting effect on governments’ borrowing costs"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "The composite PMI was unchanged at 46.0 in June, and therefore remains well below the 50 'no-change' reading and points to a second quarter fall in GDP of almost 0.5%"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "April’s 0.8% m-o-m fall (2.3% y-o-y) in industrial production provides a further sign that the Eurozone’s narrow escape from technical recession in the first quarter will not last very long"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "magnitude",
+          "op": "range",
+          "value_min": -0.5,
+          "value_max": 0.5,
+          "unit": "%",
+          "condition": "second quarter fall in GDP"
+        },
+        {
+          "entity_id": "e6",
+          "param": "change_monthly",
+          "op": "range",
+          "value_min": -0.8,
+          "value_max": 0.0,
+          "unit": "%",
+          "condition": "April’s 0.8% m-o-m fall"
+        },
+        {
+          "entity_id": "e6",
+          "param": "change_yearly",
+          "op": "range",
+          "value_min": -9.2,
+          "value_max": -8.3,
+          "unit": "%",
+          "condition": "y-o-y"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p8::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p8::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "lls in production (Spain -8.3% y-o-y, Italy -9.2%), but even Germany’s super-competitive industrial sector has contracted by 0.8% over the last year. Our baseline projection still assumes that there will be a disorderly Greek default sometime in the near future (although the relatively positive outcome of the Greek election may have pushed this date into 2013). We also assume further bail-outs for Ireland and Portugal, as well as some assistance for Spain and Italy (most likely to control bond yields via debt purchases) coming from the stability fund. The contagion effects of a Greek default will be significant, although we still assume the ECB, under the direction of Germany, will intervene to limit the worst of these effects. This could involve full blown quantitative easing by the ECB, which so far has been opposed by Germany on the grounds of inflationary effects and moral hazard, or more significant moves to the idea of a fiscal union via the issuance of Eurobonds. Under these assumptions, we retain our below consensus Eurozone GDP forecast of around 1% contraction this year, and stagnation in 2013.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "Прогнозируемое сокращение ВВП Еврозоны",
+          "name_en": "Forecasted Eurozone GDP contraction",
+          "canonical": "Eurozone GDP forecast"
+        },
+        {
+          "id": "e2",
+          "type": "Experiment",
+          "name_ru": "Прогнозирование сценария дефолта Греции",
+          "name_en": "Default scenario for Greece",
+          "canonical": "Greek default scenario"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Бonds",
+          "name_en": "Bonds",
+          "canonical": "bonds"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Покупка государственного долга",
+          "name_en": "Debt purchases",
+          "canonical": "debt purchases"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "Контагионные эффекты дефолта Греции",
+          "name_en": "Contagion effects of Greek default",
+          "canonical": "contagion effects"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "Квантизационное смягчение",
+          "name_en": "Quantitative easing",
+          "canonical": "quantitative easing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "This could involve full blown quantitative easing by the ECB, which so far has been opposed by Germany on the grounds of inflationary effects and moral hazard, or more significant moves to the idea of a fiscal union via the issuance of Eurobonds."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "as well as some assistance for Spain and Italy (most likely to control bond yields via debt purchases)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "as well as some assistance for Spain and Italy (most likely to control bond yields via debt purchases)"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "contradicts",
+          "evidence": "This could involve full blown quantitative easing by the ECB, which so far has been opposed by Germany on the grounds of inflationary effects and moral hazard"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "forecasted_contraction",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 0.0,
+          "unit": "%",
+          "condition": "this year"
+        },
+        {
+          "entity_id": "e1",
+          "param": "forecasted_stagnation",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": "2013"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p8::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p8::c3",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "f Eurobonds. Under these assumptions, we retain our below consensus Eurozone GDP forecast of around 1% contraction this year, and stagnation in 2013. Meanwhile, Germany is increasingly showing signs that it is not immune to problems in the rest of the continent. Amidst a climate of uncertainty, business investment is weak and exports to the rest of the continent, as well as to Asia are slowing. The headline ZEW index of investor confidence plunged in June from +10.8 to a five-month low of -16.9, the sharpest monthly decline since October 1998. Furthermore, the German PMI fell for a fifth month running, from 49.3 to 48.5, suggesting that at least some of the first quarter’s 0.5% rise in GDP will be reversed this quarter. Finally, June’s Ifo survey reinforced this message, with the index falling to its lowest level since March 2010. Overall, we expect growth of 0.6% in Germany this year, and 1.1% in 2013.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "GDP forecast",
+          "name_en": "GDP forecast",
+          "canonical": "forecast"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Eurobonds",
+          "name_en": "Eurobonds",
+          "canonical": "Eurobonds"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "business investment",
+          "name_en": "business investment",
+          "canonical": "investment"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "exports to the rest of the continent, as well as to Asia are slowing",
+          "name_en": "exports to the rest of the continent, as well as to Asia are slowing",
+          "canonical": "export"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "ZEW index of investor confidence plunged in June from +10.8 to a five-month low of -16.9, the sharpest monthly decline since October 1998",
+          "name_en": "ZEW index of investor confidence plunged in June from +10.8 to a five-month low of -16.9, the sharpest monthly decline since October 1998",
+          "canonical": "index"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "German PMI fell for a fifth month running, from 49.3 to 48.5, suggesting that at least some of the first quarter’s 0.5% rise in GDP will be reversed this quarter",
+          "name_en": "German PMI fell for a fifth month running, from 49.3 to 48.5, suggesting that at least some of the first quarter’s 0.5% rise in GDP will be reversed this quarter",
+          "canonical": "index"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "Ifo survey reinforced this message, with the index falling to its lowest level since March 2010",
+          "name_en": "Ifo survey reinforced this message, with the index falling to its lowest level since March 2010",
+          "canonical": "index"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Under these assumptions, we retain our below consensus Eurozone GDP forecast of around 1% contraction this year, and stagnation in 2013."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Meanwhile, Germany is increasingly showing signs that it is not immune to problems in the rest of the continent. Amidst a climate of uncertainty, business investment is weak and exports to the rest of the continent, as well as to Asia are slowing."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Meanwhile, Germany is increasingly showing signs that it is not immune to problems in the rest of the continent. Amidst a climate of uncertainty, business investment is weak and exports to the rest of the continent, as well as to Asia are slowing."
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The headline ZEW index of investor confidence plunged in June from +10.8 to a five-month low of -16.9, the sharpest monthly decline since October 1998."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Furthermore, the German PMI fell for a fifth month running, from 49.3 to 48.5, suggesting that at least some of the first quarter’s 0.5% rise in GDP will be reversed this quarter."
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Finally, June’s Ifo survey reinforced this message, with the index falling to its lowest level since March 2010."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "value",
+          "op": "range",
+          "value_min": -16.9,
+          "value_max": -16.9,
+          "unit": "%",
+          "condition": "plunged in June from +10.8 to a five-month low of -16.9, the sharpest monthly decline since October 1998."
+        },
+        {
+          "entity_id": "e6",
+          "param": "value",
+          "op": "range",
+          "value_min": 48.5,
+          "value_max": 48.5,
+          "unit": "%",
+          "condition": "German PMI fell for a fifth month running, from 49.3 to 48.5, suggesting that at least some of the first quarter’s 0.5% rise in GDP will be reversed this quarter."
+        },
+        {
+          "entity_id": "e7",
+          "param": "value",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": -1.0,
+          "unit": "%",
+          "condition": "Ifo survey reinforced this message, with the index falling to its lowest level since March 2010."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p9::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p9::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 107 CRU International Limited confidential In the UK, recent problems have been concentrated in the manufacturing sector, stemming from a sharp drop in orders, both from home and abroad. Service sector firms have also reported a notable deterioration in sentiment following the latest developments in the Eurozone. Looking ahead, growth will be bumpy because of the impact of the Diamond Jubilee and the Olympic games. Falling inflation should help give consumers some extra spending power; however the risks from the Eurozone crisis continue to overshadow any positive developments. We now forecast stagnation this year, and growth of 1.5% in 2013. In Russia, survey readings have remained buoyant this year with the labour market also remaining fairly strong. However, the economy is at risk from the recent slide in oil prices, considering half of budget revenues come from oil and gas. We now forecast growth of 4.1% this year and 2.9% in 2013. Central Europe has not fared so well this year, with the Eurozone crisis sapping confidence in the region.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "изменение заказов вmanufacturing sector",
+          "name_en": "change in orders in manufacturing sector",
+          "canonical": "Change in Orders"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Eurozone crisis",
+          "name_en": "Eurozone crisis",
+          "canonical": "Eurozone Crisis"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "опыт работы вservice sector firms",
+          "name_en": "experience of service sector firms",
+          "canonical": "Service Sector Experience"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "изменение инфляции",
+          "name_en": "change in inflation",
+          "canonical": "Inflation Change"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "stemming from a sharp drop in orders, both from home and abroad. Service sector firms have also reported a notable deterioration in sentiment following the latest developments in the Eurozone."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Falling inflation should help give consumers some extra spending power; however the risks from the Eurozone crisis continue to overshadow any positive developments."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "direction",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 0.5,
+          "unit": "% per year",
+          "condition": "<"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p9::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p9::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "growth of 4.1% this year and 2.9% in 2013. Central Europe has not fared so well this year, with the Eurozone crisis sapping confidence in the region. However there was a range of outcomes in the first quarter, with reasonable growth in Poland, Slovakia and the Baltics, but shrinking GDP in the Czech Republic, Hungary and Romania. We expect this pattern to persist through the balance of 2012. 2.3 Asia: forecasts trimmed after first quarter data Since the rude awakening provided by the release of April’s data there have been signs that China’s economy is beginning to take a turn for the better, driven by government policy. Infrastructure investment is again being relied upon by the authorities to support growth, with rail, power and water projects to the fore. Meanwhile, some targeted easing of house purchase restrictions plus improving affordability have seen housing sales strengthen since the start of May. These developments are likely to be too little, too late as far as the second quarter is concerned, particularly for industrial production; we now expect GDP to grow by 7.7% year-on-year in the current quarter, with industrial production expanding by 9.7%.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "релиз данных в апреле",
+          "name_en": "release of April’s data",
+          "canonical": "Release of April's Data"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "принятие мер по стимулированию покупки недвижимости",
+          "name_en": "targeted easing of house purchase restrictions",
+          "canonical": "Targeted Easing of House Purchase Restrictions"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "улучшение доступности жилья",
+          "name_en": "improving affordability",
+          "canonical": "Improving Affordability"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "усиление инфраструктурных инвестиций",
+          "name_en": "infrastructure investment is again being relied upon by the authorities to support growth",
+          "canonical": "Infrastructure Investment"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "рост промышленного производства",
+          "name_en": "industrial production expanding",
+          "canonical": "Industrial Production Expanding"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "квартальный рост ВВП",
+          "name_en": "GDP to grow by 7.7% year-on-year in the current quarter",
+          "canonical": "GDP Growth Year-on-Year"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "рост промышленного производства",
+          "name_en": "industrial production expanding by 9.7%",
+          "canonical": "Industrial Production Growth"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "Since the rude awakening provided by the release of April’s data there have been signs that China’s economy is beginning to take a turn for the better, driven by government policy."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "validated_by",
+          "evidence": "Since the rude awakening provided by the release of April’s data there have been signs that China’s economy is beginning to take a turn for the better, driven by government policy."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "Since the rude awakening provided by the release of April’s data there have been signs that China’s economy is beginning to take a turn for the better, driven by government policy."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "validated_by",
+          "evidence": "Meanwhile, some targeted easing of house purchase restrictions plus improving affordability have seen housing sales strengthen since the start of May. These developments are likely to be too little, too late as far as the second quarter is concerned, particularly for industrial production;"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "validated_by",
+          "evidence": "Meanwhile, some targeted easing of house purchase restrictions plus improving affordability have seen housing sales strengthen since the start of May. These developments are likely to be too little, too late as far as the second quarter is concerned, particularly for industrial production;"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "validated_by",
+          "evidence": "We now expect GDP to grow by 7.7% year-on-year in the current quarter"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "industrial production expanding by 9.7%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e6",
+          "param": "year-on-year growth rate",
+          "op": "eq",
+          "value_min": 7.7,
+          "value_max": 7.7,
+          "unit": "%",
+          "condition": "current quarter"
+        },
+        {
+          "entity_id": "e7",
+          "param": "growth rate",
+          "op": "eq",
+          "value_min": 9.7,
+          "value_max": 9.7,
+          "unit": "%",
+          "condition": "second quarter"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p9::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p9::c2",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "larly for industrial production; we now expect GDP to grow by 7.7% year-on-year in the current quarter, with industrial production expanding by 9.7%. Our full year GDP forecast is marked down from 8.2% to 8.0% and that for industrial production from 11.8% to 11.4% as a result. The government has been easing policy since the spring but has accelerated the process since early May when it became apparent that the economy was undershooting expectations. Subsidies for purchases of energy efficient appliances, light bulbs and cars have been extended. More significantly, investment projects in the Five Year Plan are being brought forward, particularly infrastructure investment in Central and Western China, and banks are being asked to lend to local governments. The utilities sector is seeing strong investment across the board with an increase of 19.4% this year, the fastest rate of growth since the end of 2009. By our calculations infrastructure Fixed Asset Investment (FAI) increased by nearly 5% y-o-y in real terms in May, which was a sharp turnaround from the 7% decline recorded in the second half of last year.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "经济增长",
+          "name_en": "GDP growth",
+          "canonical": "economic_growth"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "工业生产增长",
+          "name_en": "industrial production expansion",
+          "canonical": "industrial_production_growth"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "国内生产总值",
+          "name_en": "GDP",
+          "canonical": "gdp"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "政策放松",
+          "name_en": "policy easing",
+          "canonical": "policy_easing"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "提前实施投资计划",
+          "name_en": "accelerating investment projects in the Five Year Plan",
+          "canonical": "accelerating_investment_projects"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "节能家电、节能灯泡和汽车",
+          "name_en": "energy efficient appliances, light bulbs and cars",
+          "canonical": "energy_efficient_appliances"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "基础设施固定资产投资增长",
+          "name_en": "infrastructure Fixed Asset Investment (FAI) growth",
+          "canonical": "infrastructure_fixed_asset_investment_growth"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "we now expect GDP to grow by 7.7% year-on-year in the current quarter"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "industrial production expanding by 9.7%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "The government has been easing policy since the spring but has accelerated the process since early May"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Subsidies for purchases of energy efficient appliances, light bulbs and cars have been extended. More significantly, investment projects in the Five Year Plan are being brought forward"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "By our calculations infrastructure Fixed Asset Investment (FAI) increased by nearly 5% y-o-y in real terms in May, which was a sharp turnaround from the 7% decline recorded in the second half of last year"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "expected_growth_rate",
+          "op": "eq",
+          "value_min": 7.7,
+          "value_max": 7.7,
+          "unit": "%/year-on-year",
+          "condition": "current quarter"
+        },
+        {
+          "entity_id": "e2",
+          "param": "growth_rate",
+          "op": "eq",
+          "value_min": 9.7,
+          "value_max": 9.7,
+          "unit": "%/year-on-year",
+          "condition": "current quarter"
+        },
+        {
+          "entity_id": "e3",
+          "param": "full_year_forecast",
+          "op": "eq",
+          "value_min": 8.0,
+          "value_max": 8.0,
+          "unit": "%/year-on-year",
+          "condition": "current year"
+        },
+        {
+          "entity_id": "e4",
+          "param": "start_time",
+          "op": "eq",
+          "value_min": 2019.0,
+          "value_max": 2019.0,
+          "unit": "year",
+          "condition": "spring"
+        },
+        {
+          "entity_id": "e4",
+          "param": "acceleration_time",
+          "op": "eq",
+          "value_min": 2019.0,
+          "value_max": 2019.0,
+          "unit": "year",
+          "condition": "early May"
+        },
+        {
+          "entity_id": "e7",
+          "param": "growth_rate",
+          "op": "eq",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit": "%/year-on-year (real terms)",
+          "condition": "May"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2019,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p9::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p9::c3",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "t (FAI) increased by nearly 5% y-o-y in real terms in May, which was a sharp turnaround from the 7% decline recorded in the second half of last year. A particularly notable policy development in June was the 25 basis points reduction in banks’ deposit and lending interest rates, to a one year lending rate of 6.31%, and a one year deposit rate of 3.25%. This sent a strong signal that the government is serious about supporting the economy. But more than that, the banks were given greater leeway to vary rates around the benchmarks. On the lending side they are now allowed to charge as low as 0.8 times the benchmark rate, compared to 0.9 times previously. On the deposit side banks can now offer up to 1.1 times the benchmark deposit rate having not had flexibility previously. These",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "уменьшение процентных ставок по депозитам и кредитам",
+          "name_en": "reduction in deposit and lending interest rates",
+          "canonical": "reduces_interest_rates"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "ставка по однолетним депозитам",
+          "name_en": "one year deposit rate",
+          "canonical": "deposit_rate_1_year"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "ставка по кредитам",
+          "name_en": "lending rate",
+          "canonical": "lending_rate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "one year deposit rate of 3.25%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "one year lending rate of 6.31%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "幅度",
+          "op": "range",
+          "value_min": -0.25,
+          "value_max": -0.07,
+          "unit": "%",
+          "condition": "基准利率的80%至90%"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p10::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p10::c0",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "108 The Outlook for Cobalt 2012 CRU International Limited confidential seemingly modest changes are an indication that gradual economic reform, in this case in the direction of a more market orientated banking system, is still progressing despite the changeover of leadership through this year. Slowing inflation remains a bright spot as softer economic growth and falling commodity prices brought the increase in consumer prices down to a two-year low of 3.0% in May. Over the summer, base effects will help drag food price inflation lower, pulling headline inflation down to below 2.5% in the third quarter. This will be positive for consumer confidence and for real spending power. Moreover, the benign inflation backdrop means that the authorities have plenty of scope to further stimulate the economy should the anticipated recovery fail to materialise. We expect to see additional reductions in banks’ Required Reserve Ratios and possibly in benchmark interest rates too, while investment and fiscal policy may also be utilised further.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "экономическая реформа",
+          "name_en": "economic reform",
+          "canonical": "economic reform"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "инфляция",
+          "name_en": "inflation",
+          "canonical": "inflation"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "уменьшение инфляции",
+          "name_en": "decrease in inflation",
+          "canonical": "decrease in inflation"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "повышение уверенности потребителей",
+          "name_en": "consumer confidence boost",
+          "canonical": "consumer confidence boost"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "стимулирование экономики",
+          "name_en": "economic stimulus",
+          "canonical": "economic stimulus"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Despite the changeover of leadership through this year, gradual economic reform is still progressing."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Slowing inflation remains a bright spot as softer economic growth and falling commodity prices brought the increase in consumer prices down to a two-year low of 3.0% in May."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "This will be positive for consumer confidence and for real spending power."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Moreover, the benign inflation backdrop means that the authorities have plenty of scope to further stimulate the economy should the anticipated recovery fail to materialise."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "year",
+          "condition": "low"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012AppendixA::p10::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012AppendixA::p10::c1",
+      "doc_id": "материалы__CobaltOutlook2012AppendixA",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012AppendixA.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "ions in banks’ Required Reserve Ratios and possibly in benchmark interest rates too, while investment and fiscal policy may also be utilised further. Some additional loosening of housing market restrictions could also be introduced, but we expect a targeted approach given the effort that has been expended in taming the housing market over the past two years. We also take the view that the RMB is unlikely to be allowed to slide against the $ due to the US Presidential elections in November. Despite the early signs that activity is beginning to improve, not least in the modest improvement in output growth, there remain good reasons to be cautious about the outlook. For a start, leading indicators have yet to recover and HSBC/Markit’s ‘flash’ PMI reading for June dropped to 48.1 from 48.4 the prior month to indicate a deceleration in activity. A decline in the PMI sub-index for new export orders led the fall, likely a result of the continuing problems in the Eurozone. Separately a recent survey showed that businesses are more downbeat about demand from overseas than at home, although they’re not particularly optimistic about the outlook for home orders either.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "уменьшение резервных требований банков",
+          "name_en": "decrease in banks' Required Reserve Ratios",
+          "canonical": "decrease in banks' Required Reserve Ratios"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "корректировка базовых ставок процентов",
+          "name_en": "adjustment of benchmark interest rates",
+          "canonical": "adjustment of benchmark interest rates"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "инвестиционная и финансовая политика",
+          "name_en": "investment and fiscal policy",
+          "canonical": "investment and fiscal policy"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "уменьшение ограничений на рынке недвижимости",
+          "name_en": "additional loosening of housing market restrictions",
+          "canonical": "additional loosening of housing market restrictions"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "уменьшение производственной активности",
+          "name_en": "deceleration in activity",
+          "canonical": "deceleration in activity"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "производственный индекс (PMI)",
+          "name_en": "HSBC/Markit’s ‘flash’ PMI reading",
+          "canonical": "HSBC/Markit’s ‘flash’ PMI reading"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "индекс новых заказов на экспорт",
+          "name_en": "new export orders sub-index",
+          "canonical": "new export orders sub-index"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "A decline in the PMI sub-index for new export orders led the fall, likely a result of the continuing problems in the Eurozone."
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "A decline in the PMI sub-index for new export orders led the fall, likely a result of the continuing problems in the Eurozone."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "A decline in the PMI sub-index for new export orders led the fall, likely a result of the continuing problems in the Eurozone."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "A decline in the PMI sub-index for new export orders led the fall, likely a result of the continuing problems in the Eurozone."
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "HSBC/Markit’s ‘flash’ PMI reading for June dropped to 48.1 from 48.4 the prior month to indicate a deceleration in activity."
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "HSBC/Markit’s ‘flash’ PMI reading for June dropped to 48.1 from 48.4 the prior month to indicate a deceleration in activity."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "value",
+          "op": "range",
+          "value_min": 48.1,
+          "value_max": 48.4,
+          "unit": "%",
+          "condition": "previous month"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  }
+}

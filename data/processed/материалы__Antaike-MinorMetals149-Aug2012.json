@@ -1,0 +1,3379 @@
+{
+  "материалы__Antaike-MinorMetals149-Aug2012::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p2::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "et review in H1 The domestic antimony price started to experience obvious decrease process since June, and the decrease scale was around 9,000yuan/t. After entering July, the general domestic antimony market operated in stagnant, showing three features including being more reluctant to sell products, weak market demand and relatively steady price. In early July, major antimony oxide suppliers saw export growth to Europe, which pushed domestic antimony ingot operation and promoted antimony ingot producers to raise the quotation by around 2,000yuan/t. However, due to being lack of support from down-stream demand, the domestic antimony ingot quotation remained lack of motivation to increase and after experiencing short-time growth, fell down, basically returning the previous 68,000-70,000yuan/t and maintained the level to the end of July. The price of antimony oxide slipped a little compared with that at the beginning of July. The demand from down-stream market was weak and market participants commonly predicted the future market not good. By considering cost factor, market participants believe there is limited space for antimony ingot price to drop.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа антимония",
+          "name_en": "selling antimony",
+          "canonical": "selling_antimony"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "domestic antimony price started to experience obvious decrease process since June, and the decrease scale was around 9,000yuan/t."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p2::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 2 Highlight Tianqi Lithium adds investment to expand the original lithium hydroxide project Sichuan Tianqi Lithium Industries Inc. (Tianqi Lithium) announced on Jul. 16 that in order to satisfy market’s demand, it planned to add the investment in a lithium hydroxide production line to 53.9mln yuan from the original 51.8mlm yuan, and the project’s capacity of lithium hydroxide will also be raised to 5ktpy from the previous 4ktpy. The 5kpy capacity includes 3kt for battery and 2kt for industry. It is expected to realize 16.58mln yuan of net profit after seeing the project operated at full capacity. Tianqi Lithium was founded in October 1995. It is located in Shehong County, Southwest China, the center of Chengdu-Chongqing Economic Development Zone. The company has been focusing on the development, production and sales of lithium chemicals products for more than 10 years. Antimony Market Overview for H1 Antimony market builds price bottom under pressure Market review in H1 The domestic antimony price started to experience obvious decrease process since June, and the decrease scale was around 9,000yuan/t.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "литий",
+          "name_en": "lithium",
+          "canonical": "lithium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство гидроксида лития",
+          "name_en": "production of lithium hydroxide",
+          "canonical": "lithium_hydroxide_production"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "свинец (II) кислота",
+          "name_en": "antimony trioxide",
+          "canonical": "antimony_trioxide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "lithium hydroxide production line"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Antimony Market Overview for H1"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "range",
+          "value_min": 4000.0,
+          "value_max": 5000.0,
+          "unit": "kt/yr",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "net_profit",
+          "op": "ge",
+          "value_min": 16580000.0,
+          "value_max": null,
+          "unit": "yuan",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p1::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Website: www.antaike.com This issue was dispatched on Aug. 10, 2012 INSIDE THIS ISSUE Highlight Tianqi Lithium adds investment to expand the original lithium hydroxide project…...2 Antimony Market Overview..............2 Cobalt Market Overview……….........7 Indium Market Overview…………...10 News in brief Western Resource’s subsidiary extends 2 years lithium mine’s mining right.………13 Lengshuijiang City’s antimony enterprises supervised well……………….………….13 The second batch of W-Sb-In-Mo export quota to be released…………………….13 Gansu to accelerate Cu-Ni-Co-W-Mo nonferrous metals deep-processing….14 Shan Steel Group creates new low V-N alloy price in Aug.…………………….….14 l6.5kt ferroalloy capacity in Ningxia to be washed out……………………………….15 Yunnan Germanium realizes 44.21mln yuan net profit in H1………………..…..15 Statistics Imp&Exp (Sb, Co, V, Ferroalloys)………….…………..............16 The Most Essential and Authoritative Source for Chinese Metals Market Minor Metals Monthly Aug. 2012 No. 149 All Rights Reserved Published monthly by Beijing Antaike Information Development Co., Ltd.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Минеральные металлы вmonthly",
+          "name_en": "Minor Metals Monthly",
+          "canonical": "Minor Metals Monthly"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "свинец-арсений-индий-молибден",
+          "name_en": "W-Sb-In-Mo",
+          "canonical": "W-Sb-In-Mo"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железоалюминий",
+          "name_en": "ferroalloy",
+          "canonical": "Ferroalloy"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "арсений",
+          "name_en": "antimony",
+          "canonical": "Antimony"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "лютеций",
+          "name_en": "indium",
+          "canonical": "Indium"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "литий",
+          "name_en": "lithium",
+          "canonical": "Lithium"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "расширение проекта литиевой гидроксида",
+          "name_en": "expansion of the original lithium hydroxide project",
+          "canonical": "Expansion of the original lithium hydroxide project"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "экспортная квота",
+          "name_en": "export quota",
+          "canonical": "Export quota"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "выпуск",
+          "name_en": "release",
+          "canonical": "Release"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "обработка нерудных металлов на глубину",
+          "name_en": "deep-processing",
+          "canonical": "Deep-processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "described_in",
+          "evidence": "The second batch of W-Sb-In-Mo export quota to be released"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Tianqi Lithium adds investment to expand the original lithium hydroxide project"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e11",
+          "type": "operates_at_condition",
+          "evidence": "Gansu to accelerate Cu-Ni-Co-W-Mo nonferrous metals deep-processing"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e9",
+          "param": "batch",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p1::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "inese Metals Market Minor Metals Monthly Aug. 2012 No. 149 All Rights Reserved Published monthly by Beijing Antaike Information Development Co., Ltd. Chief editor: Xu Aidong Editor: Linda Xu Sales Manager: Mandy Niu Tel: +86-10-62560921 Fax: +86-10-62560631 Web site: http://www.antaike.com Email: cmm@antaike.com Address: 7th Floor, No. 31 Suzhou Street, Haidian District, Beijing, P. R. China Post code: 100080 Disclaimer This document has been prepared with care. However, Beijing Antaike Information Development Co., Ltd. (hereinafter Antaike) makes no warranty of any kind in regard to the contents and shall not be liable for incidental or consequential damages, financial or otherwise, arising out of the use of this document. Copyright The contents of this presentation are copyright Antaike ©2012 Antaike",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Материалы Antaike-MinorMetals Monthly",
+          "name_en": "Materials Minor Metals Monthly",
+          "canonical": "Minor Metals Monthly"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Xu Aidong",
+          "name_en": "Xu Aidong",
+          "canonical": "Chief editor: Xu Aidong"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Linda Xu",
+          "name_en": "Linda Xu",
+          "canonical": "Editor: Linda Xu"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Mandy Niu",
+          "name_en": "Mandy Niu",
+          "canonical": "Sales Manager: Mandy Niu"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Chief editor: Xu Aidong"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "expert_in",
+          "evidence": "Editor: Linda Xu"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Sales Manager: Mandy Niu"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "date",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "Aug. 2012"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p2::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p2::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "redicted the future market not good. By considering cost factor, market participants believe there is limited space for antimony ingot price to drop. Seen from antimony products export market, the export price of antimony ingot (99.65%) dropped to US$12,300-12,600/t at the end of July from US$12,900-13,200/t at the beginning of the month. The export price of antimony oxide (99.5%) stabilized at US$9,900-10,100/t at most time of July and slipped to US$9,800-10,000/t at the end of the July. Purchasers in major consumption region replenished small volume of stock before leaving market to have summer holidays, affected by which, the market transaction situation at the beginning of July turned better in short term. In accordance with price collected by Antaike, the quotation of antimony ingot (99.65%) in July kept lingering in the range of 68,000-71,000yuan/t. The quotation appeared to rise in small scale at the beginning of July, but still seemed to be steady in the whole month. The average quotation of antimony ingot (99.65% in Jualy was 68,300-70,000yuan/t, down by 5.5% m-o-m and 21%",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonиевая кислота (99.5%)",
+          "name_en": "antimony oxide (99.5%)",
+          "canonical": "antimony_oxide"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "продажа антимония",
+          "name_en": "sale of antimony",
+          "canonical": "sale_of_antimony"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "export price of antimony ingot (99.65%) dropped to US$12,300-12,600/t at the end of July from US$12,900-13,200/t at the beginning of the month"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "export price of antimony oxide (99.5%) stabilized at US$9,900-10,100/t"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 12300.0,
+          "value_max": 12600.0,
+          "unit": "USD/t",
+          "condition": "end of July"
+        },
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 12900.0,
+          "value_max": 13200.0,
+          "unit": "USD/t",
+          "condition": "beginning of the month"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 9800.0,
+          "value_max": 10000.0,
+          "unit": "USD/t",
+          "condition": "end of July"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p3::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 3 y-o-y. Table 1 Antimony monthly average price in Jan.-Jul. 2012. Antimony (99.65% ) monthly average price (yuan/t) from Antaike m-o-m （%） 《MB》standard Ⅱantimony monthly average price (US$/t) m-o-m (%) Lowest Highest Lowest Highest Jan.2012 70,200 72,200 -19.5 11,800 12,200 -7.4 Feb. 2012 79,100 81,100 -13.7 12,500 12,878 -7.8 Mar. 2012 77,955 79,955 -24.6 12,611 13,011 -18.7 Apr. 2012 78,500 80,500 -26.0 12,614 13,071 -22.5 May 2012 77,470 79,470 -24.5 13,667 14,167 -13.2 Jun. 2012 72,200 74,200 -22.7 13,456 13,956 -7.7 Jul. 2012 68,300 70,000 -21.0 12,950 13,375 -6.7 Antaike’s quotation on antimony in Nov. 2011-Jul. 2012 Supply and demand In the recent two months, except for several large size antimony products producers in domestic market kept normal production, the middle and small size smelters in major production region Hunan Province remained in suspension. Only two antimony products enterprises in Guaangxi were permitted to resume production after environment-protection survey, and the output there should be limited. Some antimony oxide plant also cut production in different scale.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство антимония",
+          "name_en": "antimony production",
+          "canonical": "antimony_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Supply and demand In the recent two months, except for several large size antimony products producers in domestic market kept normal production,"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p4::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 4 smelters, the transaction in antimony concentrate market was slow recently, and both the price and transaction volume didn’t see obvious change. Currently, producers of antimony products face large pressure from stock. Under the current market consumption capability, the stock still needs half year to be digested if there wasn’t any new output. However, the current antimony price led enterprises to have no profit to obtain, even suffer deficit. Due to cost factor, producers and traders would like to hold products to wait rather than reducing price sell products. Seen from the down-stream market, domestic market remained in weak situation and the operation rate of antimony down-stream related industry was commonly as low as 40%-60%. Domestic purchasers hold watching and waiting attitude, hoping to see price to continue to slip. Market transactions kept at low level, which had negative influence on the demand for antimony products.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство антимонных продуктов",
+          "name_en": "production of antimony products",
+          "canonical": "antimony_product_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "producers of antimony products face large pressure from stock"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p4::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "de, hoping to see price to continue to slip. Market transactions kept at low level, which had negative influence on the demand for antimony products. Due to summer holidays, foreign customers are having holidays without will to purchase products, so overseas demand is in weak period, and most market participants hold negative attitude on future market. Therefore, it is predicted that the demand will be in low level recently and the whole market will be in watching and waiting situation. Policies In accordance with Cargo Import and Export Regulations and Export Commodity Quota Management Approach, MOFCOM recently issued the second batch of export quota for non-ferrous metals in 2012, and the volume accounts for 40% of the yearly total, which mainly counted by referring to the output, export and export quota from 2009 to 2011. Meanwhile, in order to supply convenience to exporters, it is regulated that since Aug. 1, 2012, exporters of tungsten, antimony and molybdenum could apply for quota adjustment function on relative website in accordance with market demand, and they don’t need to submit an application to COMFOM anymore.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "экспортная квота",
+          "name_en": "export quota",
+          "canonical": "export_quota"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "export quota for non-ferrous metals in 2012, and the volume accounts for 40% of the yearly total, which mainly counted by referring to the output, export and export quota from 2009 to 2011."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p4::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p4::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "y for quota adjustment function on relative website in accordance with market demand, and they don’t need to submit an application to COMFOM anymore. Products： antimony (including antimony alloy) and their products Unit:t Province or enterprise Quota (t) Among which Hunan 710 Hsikwangshan Twinkling Star Company 3 Hunan Zhongnan Antimony & Tungsten Tradings Co., Ltd 707 Yunan 29 Yunnan Lianhe Antimony Co., Ltd 29 Guizhou 388 Guizhou Provincial Metals & Minerals I/E Co., Ltd 388 Guangdong 343 Guangdong Metals & Minerals Import & Export Group Corporation 343 Sichuan 11 Sichuan Xinju Mineral Resource Development Co., Ltd 11 Guangxi Zhuang Autonomous Region 3,409 Guangxi China Tin Group Co. Ltd 3,409",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "свинец",
+          "name_en": "lead",
+          "canonical": "lead"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "регулирование квоты",
+          "name_en": "quota adjustment",
+          "canonical": "quota_adjustment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "regulation of quota for antimony and its products"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p3::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "uction after environment-protection survey, and the output there should be limited. Some antimony oxide plant also cut production in different scale. Therefore, domestic antimony supply continued to be tight. Affected by suspension of antimony",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "environment-protection survey",
+          "name_en": "environment-protection survey",
+          "canonical": "environment-protection survey"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "antimony oxide",
+          "name_en": "antimony oxide",
+          "canonical": "antimony oxide"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "cut production",
+          "name_en": "cut production",
+          "canonical": "cut production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "The environment-protection survey affected the output of antimony oxide plants."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "The environment-protection survey led to cutting production in some antimony oxide plants."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "scale",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "different scale",
+          "condition": "Some antimony oxide plants cut production in different scales."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p5::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 5 China Minmetals Nonferrous Metals Co., Ltd 1,051 Total 5,941 Products: antimony oxide Unit:t Province or enterprise quota Among which Hunan 10,672 Hsikwangshan Twinkling Star Company 6,932 Hunan Zhongnan Antimony & Tungsten Tradings Co., Ltd 3,740 Yunnan 1,053 Yunnan Lianhe Antimony Co., Ltd 1,053 Guangdong 1,832 Guangdong Metals & Minerals Import & Export Group Corporation 1,260 Guangdong Sanguo Antimony Co., Ltd 442 Dongguan Jiefu Flame-Retardant Materials Co., Ltd 130 Guizhou 1,253 Guizhou Provincial Metals & Minerals I/E Co., Ltd 1,253 Guangxi Zhuang Autonomous Region 1,962 Guangxi China Tin Group Co. Ltd 611 Guangxi YoungSun Chemicals Co. Ltd 1,351 Gansu 418 Lanzhou Goldsea Antimony Industries Ltd 418 China Minmetals Nonferrous Metals Co., Ltd 3,775 Total 20,965 Statistics Output In accordance with statistic released by CNIA, China produced about 23kt antimony products in Jun., up by 28.63% y-o-y. The total output of antimony products in Jan.-Jun. was 99.8kt, up by 3.3% y-o-y. The output of antimony concentrate in June was 9,738t (metal content), up by 27.46% m-o-m.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство антимония",
+          "name_en": "antimony production",
+          "canonical": "antimony_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "China produced about 23kt antimony products in Jun."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "le",
+          "value_min": null,
+          "value_max": 23000.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "range",
+          "value_min": 99800.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": "Jan.-Jun."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p5::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p5::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "timony products in Jan.-Jun. was 99.8kt, up by 3.3% y-o-y. The output of antimony concentrate in June was 9,738t (metal content), up by 27.46% m-o-m. The total output of antimony concentrate in H1 was 46.8kt (metal content), down by 4.12% y-o-y. Antimony output released by CNIA have double counting problem. Antaike adjusted the output statistics as following: Antimony products (metal content) output was 11kt, up by 22.2% y-o-y, while the total output in H1 was 59kt, down by 20.3% y-o-y. Table 2 Antimony and antimony concentrate outputs in Jan.-Jun. 2012 (Unit: t) Regions Antimony concentrate output(metal content) *Antimony products output (metal content) Jun. Jan.-Jun. y-o-y（%） Jun. Jan.-Jun. y-o-y（%） Total 9,738 46,757 -4.12 23,043 99,773 3.30",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonий продукция (металл)",
+          "name_en": "antimony products (metal content)",
+          "canonical": "antimony_products_metal_content"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Antimony concentrate in June was 9,738t (metal content)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "output",
+          "op": "le",
+          "value_min": null,
+          "value_max": 9738.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "output",
+          "op": "le",
+          "value_min": null,
+          "value_max": 23043.0,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p6::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p6::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 6 Jiangxi - - - 983 4,331 17.70 Henan 101 437 27.41 Hubei 67 200 0.00 Hunan 8,230 40,119 0.31 17,848 78,463 13.16 Guangdong 98 347 66.83 183 1,057 -27.02 Guangxi 551 1,995 -28.42 1,247 4,026 -56.43 Guizhou - - - 397 1,049 -2.65 Yunnan 467 2,737 -32.07 2,137 9,581 -0.51 Shaanxi 105 522 -1.14 Gansu 119 401 6.01 248 1,267 13.84 Source: CNIA *It includes domestic and imported antimony concentrate Import & Export In accordance with statistics released by China Customs, China imported 5,212t antimony products in Jun. and 31,682t in Jan.-Jun., down by 2.16% y-o-y. Among which, the import of antimony concentrate in June was 5,112t, up by 56.95% m-o-m and 30,251t in H1, down by 2.75% y-o-y. In Jun. 2012, China mainly imported antimony concentrate from Russia, Thailand, Tajikistan, Myanmar and Australia. The export to those five countries accounts for 94% of the total. China exported 5,601t antimony products in June and 24,871t in Jan.-Jun., up by 0.53% y-o-y. Among which, the export of antimony oxide was 3,466t in Jun., down by 9.67% y-o-y, and it was mainly exported to USA, Taiwan Province, Hongkong and Japan.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonий оксид",
+          "name_en": "antimony oxide",
+          "canonical": "antimonyoxide"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "экспорт",
+          "name_en": "export",
+          "canonical": "export"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "импорт",
+          "name_en": "import",
+          "canonical": "import"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "China exported 5,601t antimony products in June and 24,871t in Jan.-Jun., up by 0.53% y-o-y."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Among which, the import of antimony concentrate in June was 5,112t, up by 56.95% m-o-m and 30,251t in H1, down by 2.75% y-o-y."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "value",
+          "op": "le",
+          "value_min": null,
+          "value_max": 31682.0,
+          "unit": "t",
+          "condition": "Jan.-Jun."
+        },
+        {
+          "entity_id": "e4",
+          "param": "value",
+          "op": "ge",
+          "value_min": 5212.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": "June"
+        },
+        {
+          "entity_id": "e3",
+          "param": "value",
+          "op": "le",
+          "value_min": 24871.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": "Jan.-Jun."
+        },
+        {
+          "entity_id": "e3",
+          "param": "value",
+          "op": "ge",
+          "value_min": 5601.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": "June"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p6::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p6::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "which, the export of antimony oxide was 3,466t in Jun., down by 9.67% y-o-y, and it was mainly exported to USA, Taiwan Province, Hongkong and Japan. The total export of antimony oxide in H1 was 20,197t, down by 6.38% y-o-y. The export of unwrought antimony in June was 2,095t, up by 26.74% m-o-m and total export of it in H1 was 4,562t, up by 76.48% y-o-y. Both the import and export of Chinese antimony products saw obvious growth compared with that in May, especially the antimony concentrate, seeing 57% growth m-o-m. The total export of antimony concentrate in H1 dropped a little. The export in Jun, that of unwrought antimony continued to grow, while that of antimony oxide slipped a little. The major feather of antimony products export in H1 should be the surge of unwrought antimony export. Outlook In according to above analysis, the current antimony market features could be concluded as antimony concentrate supply steady, antimony products output continued to shrink and antimony products consumption obviously weakened.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий оксид",
+          "name_en": "antimony oxide",
+          "canonical": "antimony_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "необработанный антимон",
+          "name_en": "unwrought antimony",
+          "canonical": "unwrought_antimony"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "null",
+          "type": "produces_output",
+          "evidence": "export of antimony oxide"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "null",
+          "type": "produces_output",
+          "evidence": "export of unwrought antimony"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "null",
+          "type": "produces_output",
+          "evidence": "export of antimony concentrate"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export_amount",
+          "op": "le",
+          "value_min": 3466.0,
+          "value_max": 3466.0,
+          "unit": "t",
+          "condition": "Jun, down by 9.67% y-o-y"
+        },
+        {
+          "entity_id": "e2",
+          "param": "export_amount",
+          "op": "ge",
+          "value_min": 2095.0,
+          "value_max": 2095.0,
+          "unit": "t",
+          "condition": "up by 26.74% m-o-m"
+        },
+        {
+          "entity_id": "e3",
+          "param": "export_amount",
+          "op": "le",
+          "value_min": null,
+          "value_max": 18465.0,
+          "unit": "t",
+          "condition": "H1 dropped a little"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p6::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p6::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "e concluded as antimony concentrate supply steady, antimony products output continued to shrink and antimony products consumption obviously weakened. Therefore, under the continuous gloomy economy environment, domestic antimony major production region objectively suspended or cut production to tighten the supply, which should play positive role in stabilizing antimony price. Both the global and domestic demand was weak and market operation was slow, and down-stream customers held watching and waiting attitude in order to avoid price slipping risk. It is predicted that the situation wouldn’t be improved until the end of the third quarter. Most of market participants are watching now, and partial traders are preparing to purchase products after price going down. However, considering the current economy future is not clear, Antaike believes the slow market won’t last long time. Seen from the antimony price in July, the drop scale has shrunken, and it is predicted the price",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий концентрат",
+          "name_en": "antimony concentrate",
+          "canonical": "antimony_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство антимоний продуктов",
+          "name_en": "production of antimony products",
+          "canonical": "antimony_product_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "antimony concentrate supply steady, antimony products output continued to shrink"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p7::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 7 may slip down in small scale in short term. However, considering cost, the market held attitude of being reluctant to sell products. Antimony price in July appeared to have capability to defend drop trend, which indicates that antimony price is likely to be steady in short and middle time. Generally, Antaike believes that the domestic antimony price will become more difficult to be steady in August and remains under large pressure of going down. The current antimony price is around cost line, so it has limited space to drop. It is forecasted that the average price of antimony ingot (99.65%) in August will be around 69,000yuan/t, and the average price of domestic antimony ingot (99.65%0 in the third quarter will be in the range of 65,000-70,000yuan/t, and the international market standard II antimony average price will be above US$ 12,300/t.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена антимония",
+          "name_en": "antimony price",
+          "canonical": "antimony_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Antimony price in July appeared to have capability to defend drop trend, which indicates that antimony price is likely to be steady in short and middle time."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 65000.0,
+          "value_max": 70000.0,
+          "unit": "yuan/t",
+          "condition": "in the third quarter"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 69000.0,
+          "unit": "yuan/t",
+          "condition": "in August"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p7::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p7::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "hird quarter will be in the range of 65,000-70,000yuan/t, and the international market standard II antimony average price will be above US$ 12,300/t. Cobalt Market Overview Domestic Market Market review Currently many domestic smelters have stopped or cut production, as the producers lacked profit or stayed in a state of loss, thus they were not willing to sell the products at a lower price; however due to lack of order in the field of domestic terminal consumption, the demand for cobalt decreased, the downstream consumers basically bought products for instant consumption and the transaction was not active, leading domestic cobalt followed the downward trend with international market. The average domestic cobalt price was 222,700yuan/t in Jul., down by 5.44% m-o-m. In terms of comparison of Changjiang spot market and MB quotation, due to serious domestic supply surplus, the price in the first two months of 2012 and that in Q2 2012 was upside down.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "the producers lacked profit or stayed in a state of loss, thus they were not willing to sell the products at a lower price"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 230970.0,
+          "unit": "yuan/t",
+          "condition": "in Jul., down by 5.44% m-o-m"
+        },
+        {
+          "entity_id": "e1",
+          "param": "international_price",
+          "op": "ge",
+          "value_min": 12300.0,
+          "value_max": null,
+          "unit": "USD/t",
+          "condition": "US$ 12,300/t"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p7::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p7::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "spot market and MB quotation, due to serious domestic supply surplus, the price in the first two months of 2012 and that in Q2 2012 was upside down. Entering Jul., the spreads at home and abroad has narrowed down, domestic cobalt price gained support from cobalt raw material cost, the decreasing rate was less than global market, which led domestic cobalt price to be higher than global price in July. Table1 Average Quotation of Cobalt on Chinese Spot Market Changjiang (yuan/t) 2005 334,100-351,100 2006 323,400-356,000 2007 521,500-540,600 2008 630,000-647,300 2009 328,800-345,300 2010 346,600-369,900 2011 281,200-299,900 2012-1 237,000-252,000 2012-2 240,200-257,800 2012-3 239,500-255,200 2012-4 237,600-250,000 2012-5 240,000-250,000",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 237000.0,
+          "value_max": 257800.0,
+          "unit": "yuan/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p8::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 8 2012-6 230,500-240,500 2012-7 215,900-229,500 Source: Antaike Chart1 Comparison of Chinese Cobalt Quotation Source: Antaike Chart1 Comparison of Changjiang Spot Market and MB Quotation Source: Antaike 1.1Suppy Import of domestic cobalt raw material decreases by 25.3% y-o-y in H1 2012 According to the statistics from the Customs, import of domestic cobalt ores & conc. reached 97,365t in H1 2012, equivalent to 5,842t of metal content, down by 47.6% y-o-y; import of Minor Metals Monthly No.149 Website: www.antaike.com 9 intermediate products of cobalt wet-processing metallurgy was 36,529t, equivalent to 5,845t of metal content, up by 17.5% y-o-y; import of alliage blanc was about 4,469t, equivalent to 894t of metal content, up by 24.8% y-o-y. In conclusion, import of cobalt raw material was about 12,581t in H1 2012, down by 25.3% y-o-y compared with 16,849t in the same period of 2011.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальтовые руды и концентраты",
+          "name_en": "cobalt ores & concentrates",
+          "canonical": "cobalt_ores_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "промежуточные продукты обработки кобальта в растворе",
+          "name_en": "intermediate products of cobalt wet-processing metallurgy",
+          "canonical": "intermediate_products_cobalt_wet_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "белый сплав",
+          "name_en": "white alloy",
+          "canonical": "white_alloy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "import of domestic cobalt ores & conc. reached 97,365t in H1 2012"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "import of alliage blanc was about 4,469t"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "metal_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5842.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "metal_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5845.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "metal_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": 894.0,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p8::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p8::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "o-y. In conclusion, import of cobalt raw material was about 12,581t in H1 2012, down by 25.3% y-o-y compared with 16,849t in the same period of 2011. In respect of import raw material, as domestic smelters basically stayed in a state of loss operation and thinking about reducing cost, they adhered to import high cobalt content products such as intermediate products of cobalt wet-processing metallurgy and alliage blanc, thus import increased. The main reason for the decreasing import was that cobalt price stayed at a low level in H2 2012, domestic smelters proved less willing to import raw material and they began to consume inventory or adhered to purchase domestic cobalt salt as production raw material; besides, partial domestic smelters stopped or reduced production, which also lowered the demand for cobalt material. 1.2 Consumption 1.2.1 Export of lithium cobalt oxide ups 79.1% y-o-y in H1 2012 Export of lithium cobalt oxide was 3,406t in H1 2012, up by 79.1% y-o-y, export in 2012 is expected to approach 7,000t, mainly export to battery producers South Korea and Japan.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство лихенитов кобальта",
+          "name_en": "cobalt hydroxide production",
+          "canonical": "cobalt_hydroxide_production"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "лихениты кобальта",
+          "name_en": "cobalt hydroxides",
+          "canonical": "cobalt_hydroxides"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "соль кобальта",
+          "name_en": "cobalt salt",
+          "canonical": "cobalt_salt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "export of lithium cobalt oxide ups 79.1% y-o-y in H1 2012"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "import high cobalt content products such as intermediate products of cobalt wet-processing metallurgy and alliage blanc"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "production_change",
+          "op": "le",
+          "value_min": -25.3,
+          "value_max": -25.3,
+          "unit": "% y-o-y",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "expected_production",
+          "op": "ge",
+          "value_min": 7000.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p8::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p8::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "de was 3,406t in H1 2012, up by 79.1% y-o-y, export in 2012 is expected to approach 7,000t, mainly export to battery producers South Korea and Japan. In respect of lithium cobalt oxide export data, as the largest cobalt consumption field in the world (30% shares), cobalt consumption demand in the field of battery still kept a strong growth in H1 2012. 1.2.2 High temperature alloy crude steel output reaches 3,942t in H1 2012 According to the statistics from Stainless Council of China Special Steel Enterprises Association, domestic high temperature alloy crude steel output in H1 2012 was 3,942t, down by 9% y-o-y. Affected by the decreasing domestic economic growth rate, high temperature alloy output in 2012 will decrease and cobalt consumption in that field is expected to be 900t. 1.3 Ministry of Finance and the Customs surveys JNMC Ministry of Finance of the People’s Republic of China and the Customs surveyed Jinchuan Group Co., Ltd. (JNMC) on July 26, 2012 within China Nonferrous Metals Industry Association Cobalt Branch co-ordination.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "кобальт",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "выпуск высокотемпературных сплавов",
+          "name_en": "production of high-temperature alloys",
+          "canonical": "high_temperature_alloy_production"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "crude steel",
+          "name_en": "粗钢",
+          "canonical": "crude_steel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "高镍合金粗钢产量达到3,942吨"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "国内高温合金粗钢产量在2012年上半年为3,942吨"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "consumption",
+          "op": "le",
+          "value_min": null,
+          "value_max": 900.0,
+          "unit": "t",
+          "condition": "预计2012年该领域的钴消费量将减少"
+        },
+        {
+          "entity_id": "e3",
+          "param": "output",
+          "op": "le",
+          "value_min": 3942.0,
+          "value_max": 3942.0,
+          "unit": "t",
+          "condition": "2012年上半年国内高温合金粗钢产量为3,942吨，同比下降9%"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p8::c3": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p8::c3",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "he Customs surveyed Jinchuan Group Co., Ltd. (JNMC) on July 26, 2012 within China Nonferrous Metals Industry Association Cobalt Branch co-ordination. Accompanied by the leaders, the research people visited ore concentrating plant, nickel oxidation-rich top blowing refining project, nickel refining pressure leaching project, 10ktpy cobalt project, 200ktpy refined copper project and their mine park on the morning of Jul. 26. Relative leaders of JNMC reported basic information, problems and policy. The major operation problems are as follows: firstly, sharp decreasing of main product price, reducing earning power; secondly, capital gap, contradiction of supply and demand; thirdly, high transportation cost and stock insurance saving cost; fourthly, decreasing ore grade of owned mines and increasing ore cost; fifth, tension raw material supply, less high quality raw material, difficult for purchasing; sixthly, backward relevant facility directly affected development. The leaders of the People’s Republic of China and the Customs proposed some suggestion.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обогащение руды",
+          "name_en": "ore concentrating",
+          "canonical": "ore_concentrating"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "оксидация никеля, обогащенный верхний поджигание редуцирования",
+          "name_en": "nickel oxidation-rich top blowing refining",
+          "canonical": "nickel_oxidation_top_blowing_refining"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "давление leaching никеля",
+          "name_en": "pressure leaching of nickel",
+          "canonical": "pressure_leaching_nickel"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "производство кобальта 10 ktpy",
+          "name_en": "10 ktpy cobalt production project",
+          "canonical": "10_ktpy_cobalt_production_project"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "производство чистой меди 200 ktpy",
+          "name_en": "200 ktpy refined copper project",
+          "canonical": "200_ktpy_refined_copper_project"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "ore concentrating plant"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "nickel oxidation-rich top blowing refining project"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "nickel refining pressure leaching project"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "10ktpy cobalt project"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "200ktpy refined copper project"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p8::c4": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p8::c4",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "ly, backward relevant facility directly affected development. The leaders of the People’s Republic of China and the Customs proposed some suggestion. The import tariff question for refined cobalt import policy and to cancel 6.5% import tariff for intermediate products of cobalt wet-processing metallurgy (less than 20%), the People’s",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "wet-processing metallurgy",
+          "name_en": "wet processing metallurgy",
+          "canonical": "wet_processing_metallurgy"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "import_tariff",
+          "op": "le",
+          "value_min": null,
+          "value_max": 6.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "cobalt_content",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 20.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p10::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p10::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 10 Republic of China and the Customs said cobalt was scarce, firstly we should understand the damage of import refined cobalt to domestic market, although main African refined producers were large-scale European and American mining companies, from the level of national policy, to share African refined cobalt import favorable policy was mainly based on product origin; in terms of intermediate products of cobalt wet-processing metallurgy, in order to limit some enterprises for importing waste slag, waste slag has originally required to be listed on import tax items, but according to the reflection of enterprises, the Customs set single tax code and 20% import threshold, due to the decreasing grade of import cobalt raw material, but to consider the authority of policy, they cannot often modify them, thus they hope to find a reasonable method to solve the problem. 1.4 Import & export 1.4.1 Import data Chinese refined cobalt import reached 1,151t in H1 2012, down by 33% y-o-y.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка влажного кобальта",
+          "name_en": "wet processing of cobalt",
+          "canonical": "wet_processing_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "intermediate products of cobalt wet-processing metallurgy"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p10::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p10::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "onable method to solve the problem. 1.4 Import & export 1.4.1 Import data Chinese refined cobalt import reached 1,151t in H1 2012, down by 33% y-o-y. Import of cobalt salt reached 372t, up by 74.6% y-o-y, of which, import of cobalt dioxide and cobalt hydroxide accounted for 72.3% of total, import of cobalt tetroxide accounted for 27.4% of total. The sharp decreasing of refined cobalt import was mainly due to the serious supply surplus on domestic refined cobalt market and the demand for refined cobalt still maintained a downward trend, refined cobalt price stayed a low level in recent years, leading a decline in domestic importers’ willingness to import. 1.4.2 Export data Export of refined cobalt was 1,721t in H1 2012, up by 11% y-o-y; export of cobalt powder was 280t, down by 2.1% y-o-y; export of cobalt salt was 2,214t, up by 10.2% y-o-y, among which, export of cobalt tetroxide was 1,554t, up by 20.4% y-o-y; export of cobalt carbonate was 278t, down by 39% y-o-y; export of cobalt oxalate was 234t, up by 179% y-o-y; export of cobalt dioxide and cobalt hydroxide was 127t, down by 3.1% y-o-y.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "refined cobalt",
+          "name_en": "refined cobalt",
+          "canonical": "refined_cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "cobalt salt",
+          "name_en": "cobalt salt",
+          "canonical": "cobalt_salt"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "cobalt dioxide",
+          "name_en": "cobalt dioxide",
+          "canonical": "cobalt_dioxide"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "cobalt hydroxide",
+          "name_en": "cobalt hydroxide",
+          "canonical": "cobalt_hydroxide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "cobalt tetroxide",
+          "name_en": "cobalt tetroxide",
+          "canonical": "cobalt_tetroxide"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "cobalt powder",
+          "name_en": "cobalt powder",
+          "canonical": "cobalt_powder"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "cobalt carbonate",
+          "name_en": "cobalt carbonate",
+          "canonical": "cobalt_carbonate"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "cobalt oxalate",
+          "name_en": "cobalt oxalate",
+          "canonical": "cobalt_oxalate"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p10::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p10::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": ", down by 39% y-o-y; export of cobalt oxalate was 234t, up by 179% y-o-y; export of cobalt dioxide and cobalt hydroxide was 127t, down by 3.1% y-o-y. As a whole, import of domestic refined cobalt, cobalt powder, cobalt salt was 4,215t, up by 9.6% y-o-y. The reason for increasing export was mainly due to serious surplus on domestic market, a slowdown in cobalt demand led global cobalt price was almost higher than domestic price and the exporting enterprises lifted their willing to export. 1.5 Outlook Overall, domestic cobalt price will followed the trend of global market; domestic smelters obtained support from high production cost, they preferred to reduce production rather than further cut cobalt price. Domestic cobalt price looks unlikely to decrease in future. Indium Market Overview The indium price increased a bit in July. The refined indium price increased to RMB 3,550-3,600/kg from RMB 3,500-3,600/kg during the month, up by 0.7%. Meanwhile, the crude indium price climbed by RMB 50/kg to RMB 3,250-3,300/kg. The FOB of refined indium",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт оксалат",
+          "name_en": "cobalt oxalate",
+          "canonical": "cobalt_oxalate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальтовая кислота и гидроксид кобальта",
+          "name_en": "cobalt dioxide and cobalt hydroxide",
+          "canonical": "cobalt_dioxide_and_cobalt_hydroxide"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кристаллизованный кобальт",
+          "name_en": "refined cobalt",
+          "canonical": "refined_cobalt"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "кристаллизованный кобальт, коксированный кобальт, кобальтовая пудра",
+          "name_en": "refined cobalt, sintered cobalt, cobalt powder",
+          "canonical": "refined_cobalt"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "export of cobalt oxalate"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "export of cobalt dioxide and cobalt hydroxide"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "import of domestic refined cobalt, cobalt powder, cobalt salt"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export",
+          "op": "le",
+          "value_min": 234.0,
+          "value_max": 234.0,
+          "unit": "t",
+          "condition": "up by 179% y-o-y"
+        },
+        {
+          "entity_id": "e2",
+          "param": "export",
+          "op": "le",
+          "value_min": 127.0,
+          "value_max": 127.0,
+          "unit": "t",
+          "condition": "down by 3.1% y-o-y"
+        },
+        {
+          "entity_id": "e3",
+          "param": "import",
+          "op": "ge",
+          "value_min": 4215.0,
+          "value_max": 4215.0,
+          "unit": "t",
+          "condition": "up by 9.6% y-o-y"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p11::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p11::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 11 maintained at US$ 510-540/kg. 400 500 600 700 800 900 1000 2560 3060 3560 4060 4560 5060 5560 6060 1-6-2011 2-6-2011 3-6-2011 4-6-2011 5-6-2011 6-6-2011 7-6-2011 8-6-2011 9-6-2011 10-6-2011 11-6-2011 12-6-2011 1-6-2012 2-6-2012 3-6-2012 4-6-2012 5-6-2012 6-6-2012 7-6-2012 Source: Indium Branch of CNIA; Exchange: US$1=RMB6.4 Chinese Indium Ingot Price in Jan. 2011-Jul. 2012 国内精铟 FOB中国 RMB/kg USD/kg FOB Price Domestic Price The indium supply and demand almost maintained unchanged in July. The demand is mainly from investing requirement. The domestic indium price increased and represented stronger than overseas market after May. The market participations were activity in domestic trade at that time. In the first half of this year, there were several tonnes of indium injected into market from smelters that eased the press of smelters in a range. Because of the differential between domestic and foreign indium price, it was difficult to export the product, which may impact applying for export quota in 2013. The Ministry of Commerce of P.R.C. should consider the situation when drafting the export quota plan for the next year.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на FOB China",
+          "name_en": "FOB China price",
+          "canonical": "fob_china_price"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "цена на domestic market",
+          "name_en": "domestic market price",
+          "canonical": "domestic_market_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "国内精铟 FOB中国 RMB/kg USD/kg FOB Price"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "国内精铟 国内价格"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 510.0,
+          "value_max": 540.0,
+          "unit": "CNY/kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "CNY/kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p11::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p11::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "ing for export quota in 2013. The Ministry of Commerce of P.R.C. should consider the situation when drafting the export quota plan for the next year. It is the hardest year in 2012 for indium export after 2009. The global ITO plants’ combined operation rate is less than 70% so far this year. The smuggle is also the common issues. According to the related countries’ statistics, Japan imported 5.92 tonnes of indium from China in H1, 2012; South Korea imported 26.51 tonnes; the United States imported 12 tonnes, which totaled 44.43 tonnes, about 12 times of the statistics from China Customs. This year, the investors paid more attentions on the product. There were some market participators joined in the indium market with big capital, which supported the indium price, and were against the potential decline.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "экспортная квота",
+          "name_en": "export quota",
+          "canonical": "export_quota"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "indium export quota in 2013"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p12::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p12::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 12 Chinese indium export data from China Customs The market confidence is not enough in the coming month that may draw down the indium price, while the market fundamentals are still weak. The domestic refined iudium price would be at RMB 3,500-3,550/kg. The FOB price would be US$ 500/kg. News in Brief Lithium Lithium cobalt oxide export in H1 2012 reaches 3.4kt In according to the latest statistics released by China Customs, China exported 629t lithium cobalt oxide in Jun. 2012 and 3,406t in H1. There are three companies having large export volume, including Tianjin Bamo Technology Co., Ltd, Hunan Ruixiang New Material Co., Ltd and Beijing Dangsheng Material Technology Co., Ltd. Ganfeng Lithium sees 38.34% growth in net profit in H1 Ganfeng Lithium Co., Ltd (Ganfeng Lithium, SZ: 002460) released short report about revenue on Jul. 23. According to which, the company realized 32.6mln yuan of net profit, up by 38.34% y-o-y. Ganfeng Lithium created 299mln yuan of operation revenue in H1, up by 51.96% y-o-y and realized 0.22yuan EPS, up by 37.5% y-o-y.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "литий кобальт оксид",
+          "name_en": "lithium cobalt oxide",
+          "canonical": "lithium_cobalt_oxide"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price domestic refined",
+          "op": "le",
+          "value_min": 3500.0,
+          "value_max": 3550.0,
+          "unit": "CNY/kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "FOB price",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 500.0,
+          "unit": "USD/kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p12::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p12::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "up by 38.34% y-o-y. Ganfeng Lithium created 299mln yuan of operation revenue in H1, up by 51.96% y-o-y and realized 0.22yuan EPS, up by 37.5% y-o-y. According to the company, the purchasing cost growth of raw material and increasing labor cost lead to profit growth rate being lower than that of revenue. Based in Zhejiang Province, Ganfeng Lithium is engaged in smelting and die-casting industry of non-ferrous metals. Western Resource’s Sichuan Western Resources Holding Co., Ltd. (Western Resources, SH:",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "не указана",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": " smelting and die-casting",
+          "name_en": "smelting and die-casting",
+          "canonical": "smelting_and_die_casting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Ganfeng Lithium is engaged in smelting and die-casting industry of non-ferrous metals"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p13::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p13::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 13 subsidiary extends 2 years lithium mine’s mining right 600139) announced on Jul. 24 that its wholly-owned subsidiary Jiangxi Western Resources Lithium Co., Ltd (Jiangxi Lithium) recently received Mining License issued by Jiangxi MLR. The mining license validity got extended by 2 years from Jul. 27 2012 to Jul. 27 2014. Jiangxi Lithium was founded by Western Resources in March 2010. Take Jiangxi Lithium as the main body, Western Resources acquired 100% shares of Ganzhou Jingtai Lithium Co., Ltd and Ningdu taili Lithium Co., Ltd’s mining right of Heyuan Spodumene Mine which is reported to have 59.5kt Li2O reserve (metal content). Based in Sichuan Province, Western Resources is engaged in mining and concentrating of non-ferrous metals industry. Antimony A 500ktpy multi-metals demonstration project passed test It is reported that Sichuan Xinyuan Mining Co., Ltd constructed a concentration demonstration project which has 500ktpy treating capacity of Copper-lead-zinc multi-metals deposit rich of As-Sb metals. And the project passed the test recently.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "лиเธйум",
+          "name_en": "lithium",
+          "canonical": "lithium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение лиเธйума",
+          "name_en": "lithium extraction",
+          "canonical": "lithium_extraction"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "концентрационный проект для полиметаллов",
+          "name_en": "concentration demonstration project for polymetals",
+          "canonical": "polymetal_concentration_project"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Jiangxi Lithium recently received Mining License issued by Jiangxi MLR."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "eq",
+          "value_min": 500.0,
+          "value_max": 500.0,
+          "unit": "kt/yr",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "reserve",
+          "op": "eq",
+          "value_min": 59.5,
+          "value_max": 59.5,
+          "unit": "kt Li2O",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p13::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p13::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "project which has 500ktpy treating capacity of Copper-lead-zinc multi-metals deposit rich of As-Sb metals. And the project passed the test recently. Lengshuijiang City’s antimony enterprises supervised well It is reported that South China Supervision Center’s official carried out site supervision on Jul. 6 on the company of related leaders from Hunan Emergency Center and Loudi City Environment Protection Bureau. At the end of 2010, Environment Protection Department implemented supervision for 8 enterprises involved in antimony in Xikuangshan Region, Lengshuijiang City, Loudi City, Hunan Province. After two years rectification, there have been 75 antimony smelters shut down and 145 small size manual concentration workshops. Up to now, among the 8 enterprises, 6 ones has passed the test and other two ones are re-choosing address to prepare for re-construction. The export of unwrought antimony in Jun. 2012 up by 27% m-o-m In accordance with statistics released by China Customs, China exported 2,095t unwrought antimony in Jun. 2012, up by 26.7% m-o-m.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка руды",
+          "name_en": "ore processing",
+          "canonical": "ore_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": " smelter",
+          "name_en": "smelter",
+          "canonical": "smelter"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "project which has 500ktpy treating capacity of Copper-lead-zinc multi-metals deposit rich of As-Sb metals"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "smelter"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "ge",
+          "value_min": 500.0,
+          "value_max": null,
+          "unit": "kt/yr",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "export",
+          "op": "range",
+          "value_min": 2095.0,
+          "value_max": 2095.0,
+          "unit": "t",
+          "condition": "up by 27% m-o-m"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p13::c2": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p13::c2",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "12 up by 27% m-o-m In accordance with statistics released by China Customs, China exported 2,095t unwrought antimony in Jun. 2012, up by 26.7% m-o-m. They were mainly exported to USA, Netherlands, South Korea and Mexico, respectively being 1,139t, 247t, 160t and 146t, accounting for 81% of the total export volume. The total export of unwrought antimony in H1 was 4,562t, up by 76.5% y-o-y. The first top countries the unwrought antimony exported to in H1 was respectively USA, Japan, Hong Kong and Netherlands. The second batch of W-Sb-In-Mo export quota to be released MOFCOM announced that it planned to issue the second batch export quota for tungsten, antimony, tin, silver, indium and molybdenum in 2012. The second batch quota accounted for 40% of the yearly total. Among which, the export quota for antimony (physical weight) is planned to be 26,905t. According to MOFCOM, the allocation ration between antimony ingot and",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий",
+          "name_en": "antimony",
+          "canonical": "unwrought_antimony"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "тungsten, antimony, tin, silver, indium and molybdenum",
+          "name_en": "tungsten, antimony, tin, silver, indium and molybdenum",
+          "canonical": "tungsten_antimony_tin_silver_indium_molybdenum"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "MOFCOM",
+          "name_en": "MOFCOM",
+          "canonical": "mofcom"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The second batch quota accounted for 40% of the yearly total. Among which, the export quota for antimony (physical weight) is planned to be 26,905t."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export_volume_june_2012",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2095.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "yearly_export_quota",
+          "op": "le",
+          "value_min": null,
+          "value_max": 26905.0,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p14::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p14::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 14 antimony oxide would be adjusted back to the previous 25% : 75% from the recent 20% : 80%, which is mainly due to the fast growth in antimony ingot export. Cobalt Gansu to accelerate Cu-Ni-Co-W-Mo nonferrous metals deep-processing It is reported that Gansu Government recently issued Gansu Implements Western Development “The Twelfth Five Years” Plan’s Implementation Opinion which suggested to accelerate development in regions rich in resources and construct a batch of bases for important mineral resources development. According to the opinion, the province’s Hexi Region will accelerate Ni-Cu-Co nonferrous metals deep-processing base will be promoted to be constructed. Vanadium Shan Steel Group creates new low V-N alloy price in Aug. It is reported that Shandong Iron-steel Group Co., Ltd purchased 170t V-N alloy in August this year at the price of 118,000yuan/t ( concluding tax, redemption price), creating new low record. Among the total 170t, the group bought 40t from Jinan Steel Group, 90t from Laisteel Group and 40t from Zhangsteel Group. The purchase price in Jul. was 124,600yuan/t.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий оксид",
+          "name_en": "antimony oxide",
+          "canonical": "antimony_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка никеля, кобальта, молибдена и ванадия",
+          "name_en": "processing of nickel, cobalt, molybdenum and vanadium",
+          "canonical": "processing_of_nickel_cobalt_molybdenum_vanadium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "никель, кобальт, молибден и ванадий",
+          "name_en": "nickel, cobalt, molybdenum and vanadium",
+          "canonical": "nickel_cobalt_molybdenum_vanadium"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "железо-стальная группа Шаньдун",
+          "name_en": "Shandong Iron-steel Group Co., Ltd",
+          "canonical": "shandong_iron_steel_group"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "adjustment of antimony oxide production"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Hexi Region will accelerate Ni-Cu-Co nonferrous metals deep-processing"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p14::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p14::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "0t, the group bought 40t from Jinan Steel Group, 90t from Laisteel Group and 40t from Zhangsteel Group. The purchase price in Jul. was 124,600yuan/t. It is predicted that affected by the low price from Shan Steel Group, the V-N alloy price may go on slipping in the near future. Indium The second batch of Chinese In export quota for 2012 released The Ministry of Commerce of P.R.C. (MOFCOM) released the second batch of indium export quota for 2012 on July 20th. The details are as following: Chinese second batch of Chinese indium export quota for 2012, kg",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вольфрам-никельовый сплав",
+          "name_en": "V-N alloy",
+          "canonical": "v-n_alloy"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "purchase_price",
+          "op": "eq",
+          "value_min": 124600.0,
+          "value_max": 124600.0,
+          "unit": "yuan/t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "export_quota",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p15::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p15::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 15,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 15 Ferroalloy l6.5kt ferroalloy capacity in Ningxia to be washed out Recently, MIIT released the first batch of washing out capacity enterprises in 2012. According to which, there are 24 enterprises in the list that comprises 5 coke enterprises with 2.35Mtpy capacity; only one ferroalloy enterprise with 6.5ktpy capacity and other capacities. Germanium Yunnan Germanium realizes 44.21mln yuan net profit in H1 Yunnan Germanium Corporation (SZ: 002428) released the half year financial report in H1 2012 on Jul. 29. According to the report, the company realized 115mln yuan of operation income, down by 5.79% y-o-y. The net profit belonging to listed company’s share holders was 44.21mln yuan, up by 0.41% y-o-y. The EPS was 0.14yuan. The company also announced the operation profit suffered 20.85% decrease, mainly due to the acquisition of Beijing Zhongke Jiaying Semiconductor Co., Ltd’s 65% shares. The company acquired suffered 2.32mln yuan of deficit in H1 2012. In addition, more raw material were purchased from overseas market, which increased the cost.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство ферроалюминия",
+          "name_en": "ferroalloy production",
+          "canonical": "ferroalloy_production"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "установка для производства ферроалюминия",
+          "name_en": "ferroalloy production unit",
+          "canonical": "ferroalloy_production_unit"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "6.5kt ferroalloy capacity in Ningxia to be washed out"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "6.5ktpy capacity"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 6.5,
+          "unit": "kt/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p15::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p15::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 15,
+      "lang": "en",
+      "text": "y acquired suffered 2.32mln yuan of deficit in H1 2012. In addition, more raw material were purchased from overseas market, which increased the cost. Yunnan Germanium is engaged in producing, smelting and selling germanium products and other metallurgical products, mineral products.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство, плавка и продажа германиевых продуктов",
+          "name_en": "production, smelting and sale of germanium products",
+          "canonical": "germanium_production_smelting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Yunnan Germanium is engaged in producing, smelting and selling germanium products and other metallurgical products, mineral products."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p16::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p16::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 16 Statistics Imports and Exports of Antimony Products in Jun. 2012 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import t t % USD USD % Antimony ores & conc. 5,112.47 30,761.27 -1.12 16,821,706 91,362,936 -1.54 Antimony oxide 90.07 1,211.97 17.01 1,106,875 15,051,812 89.35 Antimony sulphide 9.02 92.15 54.21 124,732 1,329,673 144.92 Unwrought antimony 0.00 101.01 -29.63 669 1,278,804 7.81 Other antimony product 0.31 5.34 -45.33 35,580 158,254 -37.68 Export t t % USD USD % Antimony oxide 3,466.40 20,197.25 6186.57 38,315,053 225,003,849 11709.64 Antimony sulphide 40.00 111.60 -99.48 460,150 1,140,025 -99.57 Unwrought antimony 2,095.02 4,562.19 1802.78 27,313,704 57,987,390 3631.74 Other antimony product 0.00 0.00 -100.00 0 0 -100.00 Source: the Customs General Administration of P.R.C Imports and Exports of Cobalt Products in Jun. 2012 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import t t % USD USD % Cobalt ores & conc.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "антimonий окид",
+          "name_en": "antimony oxide",
+          "canonical": "antimony_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "антimonий сульфид",
+          "name_en": "antimony sulfide",
+          "canonical": "antimony_sulfide"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "необработанный антимон",
+          "name_en": "unwrought antimony",
+          "canonical": "unwrought_antimony"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_june_2012",
+          "op": "eq",
+          "value_min": 3466.4,
+          "value_max": 3466.4,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "quantity_jan_to_jun_2012",
+          "op": "eq",
+          "value_min": 20197.25,
+          "value_max": 20197.25,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value_june_2012",
+          "op": "le",
+          "value_min": 38315053.0,
+          "value_max": 38315053.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value_jan_to_jun_2012",
+          "op": "le",
+          "value_min": 225003849.0,
+          "value_max": 225003849.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_june_2012",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_jan_to_jun_2012",
+          "op": "le",
+          "value_min": 111.6,
+          "value_max": 111.6,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity_june_2012",
+          "op": "eq",
+          "value_min": 2095.02,
+          "value_max": 2095.02,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity_jan_to_jun_2012",
+          "op": "le",
+          "value_min": 4562.19,
+          "value_max": 4562.19,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p16::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p16::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "ity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import t t % USD USD % Cobalt ores & conc. 13,766.19 97,392.33 -47.62 29,238,011 209,813,508 -53.76 Cobalt tetroxide 77.00 137.73 -15.01 1,771,669 3,150,521 -26.26 Unwrought cobalt and powder 707.92 5,619.70 6.00 9,663,500 74,311,780 -21.34 Other cobalt products and scraps 11.48 97.35 -2.12 2,342,758 16,816,756 1.64 Export t t % USD USD % Cobalt tetroxide 565.10 2,100.64 20.30 14,052,709 52,625,762 0.64 Unwrought cobalt and powder 258.34 2,001.08 8.91 8,859,569 72,195,479 -3.91 Other cobalt products and scraps 1.15 13.75 -78.51 54,988 615,221 -74.49 Source: the Custom Generals Administration of P.R.C. Imports and Exports of Ferroalloys Products in Jun. 2012 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import t t % USD USD %",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальтовые концентраты и руды",
+          "name_en": "cobalt ores & concentrates",
+          "canonical": "cobalt_ores_concentrates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальтовая тетраоксид",
+          "name_en": "cobalt tetroxide",
+          "canonical": "cobalt_tetroxide"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "необработанный кобальт и порошок",
+          "name_en": "unwrought cobalt and powder",
+          "canonical": "unwrought_cobalt_powder"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "другие продукты и отходы кобальта",
+          "name_en": "other cobalt products and scraps",
+          "canonical": "other_cobalt_products_scraps"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_jun2012",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 13766.19,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "quantity_jan-jun2012",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 97392.33,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value_jun2012",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 29238011.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "value_jan-jun2012",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 209813508.0,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_jun2012",
+          "op": "eq",
+          "value_min": 77.0,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_jan-jun2012",
+          "op": "eq",
+          "value_min": 137.73,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "value_jun2012",
+          "op": "eq",
+          "value_min": 1771669.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "value_jan-jun2012",
+          "op": "eq",
+          "value_min": 3150521.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity_jun2012",
+          "op": "eq",
+          "value_min": 707.92,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "quantity_jan-jun2012",
+          "op": "eq",
+          "value_min": 5619.7,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "value_jun2012",
+          "op": "eq",
+          "value_min": 9663500.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "value_jan-jun2012",
+          "op": "eq",
+          "value_min": 74311780.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "quantity_jun2012",
+          "op": "eq",
+          "value_min": 11.48,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "quantity_jan-jun2012",
+          "op": "eq",
+          "value_min": 97.35,
+          "value_max": null,
+          "unit": "t",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "value_jun2012",
+          "op": "eq",
+          "value_min": 2342758.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "value_jan-jun2012",
+          "op": "eq",
+          "value_min": 16816756.0,
+          "value_max": null,
+          "unit": "USD",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p17::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p17::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 17 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Ferro-silicon*1 1,866.24 6,870.52 -6.26 1,853,475 8,214,807 -24.17 Ferro-silicon*2 658.93 4,736.67 6.20 663,674 3,543,509 10.39 Ferro-molybdenum 10.00 114.35 -20.79 280,312 3,046,075 -11.11 Ferro-tungsten 0.03 24.97 1401.74 3,116 379,799 471.26 Ferro-vanadium*3 3.00 5.50 - 84,302 153,390 - Ferro-niobium 1,756.00 8,471.85 -23.26 45,565,075 219,181,673 -20.10 Export t t % USD USD % Ferro-silicon*1 33,055.10 184,930.63 -42.72 47,837,468 269,088,084 -46.94 Ferro-silicon*2 3,629.96 21,475.05 -0.76 6,886,961 39,287,293 2.52 Ferro-molybdenum 30.00 142.00 -11.48 900,000 4,124,658 6.95 Ferro-tungsten 104.00 423.30 -33.96 4,504,753 18,268,669 -27.73 Ferro-vanadium*3 413.00 2,061.50 -50.53 7,893,719 39,454,025 -61.84 Ferro-niobium 0.50 1.00 -99.19 25,200 50,700 -98.57 Note :*1. Silicon content more than 55%. *2. Silicon content not more than 55%. *3. Vanadium content not less than 75% *4. Source: the Customs General Administration of P.R.C. Imports and Exports of Indium Products in Jun.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ферросилиций",
+          "name_en": "ferrosilicon",
+          "canonical": "ferrosilicon"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "феррованадий",
+          "name_en": "ferrovanadium",
+          "canonical": "ferrovanadium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "ферромолибден",
+          "name_en": "ferromolybdenum",
+          "canonical": "ferromolybdenum"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "ферровольфрам",
+          "name_en": "ferrotungsten",
+          "canonical": "ferrotungsten"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "феррониобий",
+          "name_en": "ferroniobium",
+          "canonical": "ferroniobium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "silicon_content",
+          "op": "ge",
+          "value_min": 55.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "vanadium_content",
+          "op": "le",
+          "value_min": 75.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "silicon_content",
+          "op": "le",
+          "value_min": 55.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p17::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p17::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "n 55%. *3. Vanadium content not less than 75% *4. Source: the Customs General Administration of P.R.C. Imports and Exports of Indium Products in Jun. 2012 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import kg kg % USD USD % Unwrought indium, scraps and powder 101 905 -1.74 71,566 718,861 32.31 Wrought indium and products 195 1,433 -4.40 176,260 1,302,670 -25.29 Export kg kg % USD USD % Unwrought indium, scraps and powder 304 3,448 -94.98 161,699 1,812,449 -95.91 Wrought indium and products 0 33 -94.23 0 20,712 -94.72 Source: the Customs General Administration of P.R.C. Imports and Exports of Vanadium Products in Jun. 2012 Commodity Quantity in Jun. 12 Quantity in Jan-Jun. 12 Y-o-Y Jan-Jun. Value in Jun. 12 Value in Jan-Jun. 12 Y-o-Y Jan-Jun. Import kg kg % USD USD %",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "ванадий",
+          "name_en": "vanadium",
+          "canonical": "vanadium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "quantity_import_jun_2012",
+          "op": "le",
+          "value_min": null,
+          "value_max": 304.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "quantity_export_jun_2012",
+          "op": "le",
+          "value_min": null,
+          "value_max": 33.0,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "quantity_import_jun_2012",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p18::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p18::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 18 Vanadium pentoxide 20 27 -99.89 1,212 4,704 -98.83 Export kg kg % USD USD % Vanadium pentoxide 839,001 4,965,919 18.67 9,948,730 58,565,104 9.33 Source: the Customs General Administration of P.R.C. China Metal Seminar October 17th Summary , 2012 London Antaike, the leading information provider and consulting company for nonferrous metals industry in Beijing, China, with twenty year-history in the field, will bring the top analysts of LME-traded metals and officials from top traders and producers from China to London during the LME week. Ten presentations will be delivered in one day to give you insight into Chinese base metal market and minor metal market. – Registration fee: £800 – Early-bird discount Register before August 31, 10% discount – Discount for multiple registers: Additional 10% discount for two or more registers from the same company Fees include all seminar materials and refreshments. All registration fees must be paid prior to the event. Please note that the dress code is smart casual.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "ванадий пентоксид",
+          "name_en": "vanadium pentoxide",
+          "canonical": "vanadium_pentoxide"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "export",
+          "op": "le",
+          "value_min": 839001.0,
+          "value_max": 4965919.0,
+          "unit": "kg",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p18::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p18::c1",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "clude all seminar materials and refreshments. All registration fees must be paid prior to the event. Please note that the dress code is smart casual. The presentations will be delivered in English Programme 08:30-09:30 Registration 09:30-09:40 Welcome speech 09:40-10:00 How to read China’s metal market metrics?",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Регистрация участников",
+          "name_en": "Registration",
+          "canonical": "registration"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Приветственная речь",
+          "name_en": "Welcome speech",
+          "canonical": "welcome_speech"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Демонстрация презентаций",
+          "name_en": "Presentations delivery",
+          "canonical": "presentations_delivery"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "Время начала регистрации",
+          "name_en": "Registration start time",
+          "canonical": "registration_start_time"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Время окончания регистрации",
+          "name_en": "Registration end time",
+          "canonical": "registration_end_time"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "Время начала приветственной речи",
+          "name_en": "Welcome speech start time",
+          "canonical": "welcome_speech_start_time"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "Время окончания приветственной речи",
+          "name_en": "Welcome speech end time",
+          "canonical": "welcome_speech_end_time"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "Время начала демонстрации презентаций",
+          "name_en": "Presentations delivery start time",
+          "canonical": "presentations_delivery_start_time"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "08:30-09:30 Registration"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "08:30-09:30 Registration"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "09:40-09:40 Welcome speech"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "09:40-09:40 Welcome speech"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "09:40-10:00 How to read China’s metal market metrics?"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "start_time",
+          "op": "eq",
+          "value_min": 8.3,
+          "value_max": 8.3,
+          "unit": "hours",
+          "condition": "exact"
+        },
+        {
+          "entity_id": "e5",
+          "param": "end_time",
+          "op": "eq",
+          "value_min": 9.3,
+          "value_max": 9.3,
+          "unit": "hours",
+          "condition": "exact"
+        },
+        {
+          "entity_id": "e6",
+          "param": "start_time",
+          "op": "eq",
+          "value_min": 9.4,
+          "value_max": 9.4,
+          "unit": "hours",
+          "condition": "exact"
+        },
+        {
+          "entity_id": "e7",
+          "param": "end_time",
+          "op": "eq",
+          "value_min": 9.4,
+          "value_max": 9.4,
+          "unit": "hours",
+          "condition": "exact"
+        },
+        {
+          "entity_id": "e8",
+          "param": "start_time",
+          "op": "eq",
+          "value_min": 9.4,
+          "value_max": 10.0,
+          "unit": "hours",
+          "condition": "exact"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Antaike-MinorMetals149-Aug2012::p19::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Antaike-MinorMetals149-Aug2012::p19::c0",
+      "doc_id": "материалы__Antaike-MinorMetals149-Aug2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Antaike-MinorMetals149-Aug2012.pdf",
+      "page": 19,
+      "lang": "en",
+      "text": "Minor Metals Monthly No.149 Website: www.antaike.com 19 10:00-10:25 Outlook for Chinese copper consumption in 5-10 years 10:25-10:40 Coffee break 10:40-11:05 How to Feed Chinese Copper Smelters? 11:05-11:30 What is the Most Interesting Topic on China Aluminum Market in 2012? 11:30-11:55 Current Scenario of the Chinese Lead Industry & Market 11:55-12:10 Q&A 12:10-13:30 Lunch 13:30-13:55 Current Investment Status &amp; Development Prospect of China’s Molybdenum industry is currently a senior analyst with Antaike and also the Assistant to General Manager. 13:55-14:20 Analysis on China’s Nickel Market in 2013 Science. 14:20-14:45 Tin: Raw Materials Bottleneck to Continue 14:45-14:55 Coffee break 14:55-15:20 Analysis on China’s Cobalt Market in 2013 Minor Metals Monthly No.149 Website: www.antaike.com 20 15:20-15:50 Development and Outlook for the Chinese Zinc Market many international conference. He is the manager of Lead & Zinc department, Antaike now. 15:50-16:20 Q&A Please go to http://cms.antaike.com/register to register the conference if you are interested.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "senior analyst with Antaike and also the Assistant to General Manager",
+          "name_en": "a senior analyst with Antaike and also the Assistant to General Manager",
+          "canonical": "expert_in"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Antaike",
+          "name_en": "Antaike",
+          "canonical": ""
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "Current Scenario of the Chinese Lead Industry & Market, Current Investment Status & Development Prospect of China’s Molybdenum industry, Analysis on China’s Nickel Market in 2013, Analysis on China’s Cobalt Market in 2013, Development and Outlook for the Chinese Zinc Market",
+          "name_en": "Current Scenario of the Chinese Lead Industry & Market, Current Investment Status & Development Prospect of China’s Molybdenum industry, Analysis on China’s Nickel Market in 2013, Analysis on China’s Cobalt Market in 2013, Development and Outlook for the Chinese Zinc Market",
+          "canonical": ""
+        },
+        {
+          "id": "e4",
+          "type": "Publication",
+          "name_ru": "Minor Metals Monthly No.149 Website: www.antaike.com",
+          "name_en": "Minor Metals Monthly No.149 Website: www.antaike.com",
+          "canonical": ""
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Q&A, Coffee break",
+          "name_en": "Q&A, Coffee break",
+          "canonical": ""
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "He is the manager of Lead & Zinc department, Antaike now."
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Minor Metals Monthly No.149 Website: www.antaike.com"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "duration",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 60.0,
+          "unit": "minutes",
+          "condition": "Coffee break, Q&A"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  }
+}

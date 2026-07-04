@@ -1,0 +1,77 @@
+{
+  "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p7::c0": {
+    "chunk": {
+      "chunk_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p7::c0",
+      "doc_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии",
+      "source": "/content/drive/MyDrive/minekg/raw/Материалы конференций/Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "Tax law General remarks regarding tax law in New Caledonia Main taxes in New Caledonia Specific mining tax law The “pacte de stabilité” and the “mining and metallurgical tax” Main taxes in New Caledonia Principal taxes due by Companies (general law): • Company Income Tax (IS): 30% • Additional solidarity contribution (Contribution sociale additionnelle - CSA): from 5% to 15% applicable to companies subject to the 30% tax rate, for profits in excess of XPF 200 M • Withholding tax on dividends (Impôt sur les Revenus de Valeurs Mobiliers - IRVM): distribution tax of 13.25 % • Business licence tax (Contribution à la Patente - Patente) • Tax on services (Taxe de Solidarité sur les Services - TSS) : 5% on services • Import taxes and duties: up to 60% Mining Tax Law Specificities of mining tax law: IS tax rate: 35% for mining and metallurgical operatives (exploration, extraction, exploitation and operation) TSS: general law exemptions granted to the mining industry Import taxes and duties: exemption regime granted in the context of the construction of plants TSS: exemption regime granted in the context of the construction of plants “Taxe superficiaire” Tax incentive regimes",
+      "doc_type": "Материалы конференций",
+      "path_year": null,
+      "path_geo": "foreign",
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p1::c0": {
+    "chunk": {
+      "chunk_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p1::c0",
+      "doc_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии",
+      "source": "/content/drive/MyDrive/minekg/raw/Материалы конференций/Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Descombes & Salans Noumea – New Caledonia GENERAL OVERVIEW ON LEGAL ISSUES FOR MINING PROJECTS IN NEW CALEDONIA 5th NEW CALEDONIA NICKEL CONFERENCE Outline Introduction Environmental Sensitivity Corporate aspects Employment law aspects Tax aspects Mining Law Introduction General presentation of New Caledonian institutions The laws applicable in New Caledonia – Division of power (general) – Mining law in particular Environmental sensitivity Environment: Legislative power essentially held by the Provinces Sensitivity regarding the mining industry Corporate aspects Conditions for carrying on a mining activity in New Caledonia • An individual whose domicile is in New Caledonia • A company with its registered office in New Caledonia • Branch office of a European law company • Choice of legal structure Foreign investment Employment law aspects Types of employment contracts • Open ended contracts • Fixed term contracts • Site contracts Remuneration Working hours • Legal working hours: 39 hours per week • Quota of additional hours Protection of New Caledonian job market",
+      "doc_type": "Материалы конференций",
+      "path_year": null,
+      "path_geo": "foreign",
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p10::c0": {
+    "chunk": {
+      "chunk_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии::p10::c0",
+      "doc_id": "Материалы конференций__Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии",
+      "source": "/content/drive/MyDrive/minekg/raw/Материалы конференций/Frederic_Descombes_Юридические аспекты работы горных предприятий в Новой Каледонии.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "Specificities in Mining Law Pacte de stabilité Mining and metallurgical contribution Mining regulation The Plan for the Development of Mining Resources The Mining Code The Mining Code Personal Mining Authorisation (APM) Research Permit Authorisation for research works Authorisation to occupy the land Mining Concession Ore export regulations Acquiring an interest in a mining company or in mining titles Contact  Frédéric DESCOMBES Managing Partner Avocat f.descombes@descombes-salans.com Descombes & Salans Noumea, NEW CALEDONIA Tel: +687 26 04 04 Fax: +687 26 04 05 www.descombes-salans.com",
+      "doc_type": "Материалы конференций",
+      "path_year": null,
+      "path_geo": "foreign",
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  }
+}

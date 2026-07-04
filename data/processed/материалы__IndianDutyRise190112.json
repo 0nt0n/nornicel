@@ -1,0 +1,659 @@
+{
+  "материалы__IndianDutyRise190112::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p1::c0",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "New York: 200 Park Avenue, New York, NY 10166 0130 Tel: +1 212 878 4122 London: 4th Floor, St Martins Court, 10 Paternoster Row, London EC4M 7BB Tel: +44 20 7489 6767 Singapore: 80 Robinson Road, #15-02, Singapore, 068898 Tel: +65 6372 8050 Tokyo: 2-1 Ohtemachi 1-Chome, Chiyoda-Ku, Tokyo 100 Tel: +81 33 285 3407 Hong Kong: Suite 1306, Two Exchange Square, 8 Connaught Place, Central, Hong Kong Tel: +852 2899 2026 David Jollie david.jollie@mitprecious.com Tel: +44 20 7489 6767 19 January 2012 • On January the 17th, the Indian Government an- nounced that it was increasing the import duty on silver and gold to six per cent and two per cent of the metal’s value respectively. • In the short term, addition of extra taxes is negative for metal demand. A duty rise is unattractive but will be forgotten in a few weeks or months at the long- est. Worryingly for the gold price in the short term, this short-lived weakness in the physical market is likely to come just as China winds down ahead of Chinese New Year, leading to weakness in two of the major physical centres of buying. • Over the longer term, we expect to see relatively little impact on precious metal demand from these moves.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "złото",
+          "name_en": "gold",
+          "canonical": "gold"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "import_duty",
+          "op": "range",
+          "value_min": 6.0,
+          "value_max": 6.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "import_duty",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p2::c0",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "2 Mitsui Global Precious Metals | Indian Gold and Silver Tariffs 19 January 2012 Overview On January the 17th, the Indian Government announced that it was increasing the import duty on silver and gold. These duties were last increased in February 2010 with very little impact on consumer buying behaviour. The recent changes have increased the import duty on gold from 300 Rupees per ten grams (or just under US$18 per ounce) to two per cent of the gold value (currently roughly $33). For silver, duty is being increased from 1,500 Rupees per kg to six per cent of the metal value (from roughly 90 US cents per ounce to closer to $2 at current prices). Import duty is being imposed on diamonds at two per cent of value. Interestingly, the duty has changed from being a flat fee per kg or per gram to a percent- age of the metal price. We expect this to make the import process slightly more complex and it may in the very short term delay shipments of metal into India as customs officials and importers try to understand the new system which was imposed with almost no notice period. In the short term, addition of extra taxes is negative for metal demand.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "драгоценные камни",
+          "name_en": "diamonds",
+          "canonical": "diamonds"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "import duty on gold"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "import duty on silver"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Import duty is being imposed on diamonds"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "duty",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2.0,
+          "unit": "% of value",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "duty",
+          "op": "le",
+          "value_min": 6.0,
+          "value_max": null,
+          "unit": "% of value",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "duty",
+          "op": "le",
+          "value_min": 2.0,
+          "value_max": null,
+          "unit": "% of value",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p1::c1",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "of the major physical centres of buying. • Over the longer term, we expect to see relatively little impact on precious metal demand from these moves. There will, of course, be some price sensi- tivity and with the Rupee currently extremely weak, domestic metal prices are already high. The imposi- tion of additional duties is therefore marginally (but only marginally) negative for longer term demand for silver and gold in India. • It is typically the case with governments that taxes are rather more likely to rise once imposed than fall and, for this and other reasons, we feel that these tax hikes are unlikely to be reversed quickly. Indian gold and silver tariffs The effect of duty increases January 2012 Mitsui Global Precious Metals",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "złото",
+          "name_en": "gold",
+          "canonical": "gold"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p2::c1",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "to understand the new system which was imposed with almost no notice period. In the short term, addition of extra taxes is negative for metal demand. Over the longer term, we expect to see relatively little impact on precious metal demand from these moves. There will, of course, be some price sensitivity and with the Rupee currently extremely weak, domestic metal prices are already high. As we noted in our recent annual report on the precious metals markets, this has led to some price sensitivity in the gold and silver markets and addition of further duty to the metal price can only increase this price sensitivity. Some of this behaviour is short term but higher prices do genuinely affect affordability of silver leaf or of gold jewellery and will have some negative impact on demand. For most investors and many purchasers of jewellery, buying behaviour is much more short term in nature with high prices deterring purchasing only for a short period of time. This might well be called bargain-hunting and replicates the behaviour of British motorists after fuel duty increases.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "złoto",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price_sensitivity",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_sensitivity",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p2::c2": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p2::c2",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "ly for a short period of time. This might well be called bargain-hunting and replicates the behaviour of British motorists after fuel duty increases. They refuse to buy initially but eventually become used to the new prices and revert to very similar buying patterns as before (albeit with some slight degree of price sensitivity or demand erosion as mentioned above). For these consumers, a duty rise is unattractive but will be forgotten in a few weeks or months at the longest. Worryingly for the gold price in the short term, this short-lived weakness in the physical market is likely to come just as China winds down ahead of Chinese New Year, leading to weakness in two of the major physical centres of buying. The rationale behind buying gold or silver will also be important, though. Given that this is a change to import duty rather than an imposition of purchase taxes, it should be a one-off charge on an ounce of metal. Little or no gold is produced in India and there should be no differential in price between locally-produced gold and imported gold.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p2::c3": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p2::c3",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "ounce of metal. Little or no gold is produced in India and there should be no differential in price between locally-produced gold and imported gold. (Unfortunately, the imposition of further import duties will lead to greater smuggling of gold into India but this metal will then be traded at the conventional, legal price.) There is some silver production in India and the imposition of additional import duties should be positive for local producers. However, the amount of metal produced is much lower than the weight of metal consumed and, to a rough approximation, silver should be priced at the international price plus import duties within the domestic market. For an investor who only buys and sell metal domestically, additional duties simply in- crease the metal’s price and can effectively be redeemed when the metal is sold. The only impact is one of affordability in that the investor can buy fewer ounces of metal. Given that jewellery can also be a form of savings, this will apply to many jewellery purchases too.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "złoto",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "ounce of metal",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "international price plus import duties",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 1901,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p2::c4": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p2::c4",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "that the investor can buy fewer ounces of metal. Given that jewellery can also be a form of savings, this will apply to many jewellery purchases too. However, if an investor is holding gold as a hedge against foreign currency or with the aim of selling it abroad in whatever fashion, the imposition of duties may make this unattrac- tive. As we mentioned above, these changes could encourage smuggling but will make this form of investment less attractive, rather like taxing foreign currency transactions. Potential impact",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "хеджирование валюты",
+          "name_en": "currency hedging",
+          "canonical": "currency_hedging"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "with the aim of selling it abroad in whatever fashion, the imposition of duties may make this unattrac- tive."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p3::c0",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "3 Mitsui Global Precious Metals | Indian Gold and Silver Tariffs 19 January 2012 However, an investor’s behaviour will also depend on their views of future government behaviour. If they believe that these duties or taxes will eventually be removed, they may lose some motivation to buy in the short term, as they would be paying more than they should for the metal. If they believe the government will increase duties, they may buy ahead of duty increases. It is typically the case with governments that taxes are rather more likely to rise once imposed than fall (the introduction of the UK income tax, for in- stance, was initially only temporary several hundred years ago). If duty rates change, we would expect them to rise rather than fall, so we feel that investors may not be deterred too much from buying gold. To judge the prospects of raising or lowering the duty rates, we need to ask why they have been imposed. There are several likely reasons. India has a balance-of-payments issue which is exacerbated by Dollars and other foreign currency leaving the country with gold returning in its place.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "баланс платежей",
+          "name_en": "balance of payments",
+          "canonical": "balance_of_payments"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Dollars and other foreign currency leaving the country with gold returning in its place."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p3::c1",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "ndia has a balance-of-payments issue which is exacerbated by Dollars and other foreign currency leaving the country with gold returning in its place. Reducing the size of gold imports is therefore one way to im- prove the balance of payments. Reversing these duty increases would worsen the bal- ance of payments, something that is unlikely to happen in the short term. Of course, if gold really does count as a form of currency, then perhaps it should not ap- pear in balance of payments calculations. However, if this view is taken, then India might face a Vietnamese-style situation where gold plays a much more important financial role in the domestic market. Given the controls that the Indian Government places on its do- mestic economy and on foreign exchange, having an uncontrolled currency (gold) active in the domestic market may be unattractive. Control of the gold market is therefore impor- tant. Finally, as with almost all taxes, the Government can bring in additional revenue. Taxes on fuel or oil or income are all unpopular whereas taxing gold or financial assets seems to make fewer enemies.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "баланс платежей",
+          "name_en": "balance of payments",
+          "canonical": "balance_of_payments"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "India has a balance-of-payments issue which is exacerbated by Dollars and other foreign currency leaving the country with gold returning in its place."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p3::c2": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p3::c2",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "an bring in additional revenue. Taxes on fuel or oil or income are all unpopular whereas taxing gold or financial assets seems to make fewer enemies. Overall, we feel that these duty increases are unlikely to be re- versed any time soon and that gold and silver demand will therefore only be marginally negatively affected in the longer term by additional price elasticity. Likelihood of future duty changes",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "material_2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p4::c0",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "4 Mitsui Global Precious Metals | Indian Gold and Silver Tariffs 19 January 2012 Disclaimer: This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or in- vesting in, whether directly or indirectly, any financial instrument referred to within it. This briefing is only directed at investment professionals as contemplated in Article 19 of the Financial Services and Markets Act 2000 (Financial Promotions Order) 2000 and to high net worth companies as contemplated in Article 49 of the Order and may not be relied upon by any other person. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an offi- cial confirmation of any transaction. All market prices, data and other information are not warranted as to completeness or accuracy and are subject to change without notice. Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Met- als, Inc., its subsidiaries and affiliates.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Митсуи и Ко.",
+          "name_en": "Mitsui & Co., Ltd.",
+          "canonical": "Mitsui & Co., Ltd."
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Финансовый инструмент",
+          "name_en": "Financial instrument",
+          "canonical": "financial instrument"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or investing in, whether directly or indirectly, any financial instrument referred to within it."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "type",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__IndianDutyRise190112::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__IndianDutyRise190112::p4::c1",
+      "doc_id": "материалы__IndianDutyRise190112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/IndianDutyRise190112.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": ". Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Met- als, Inc., its subsidiaries and affiliates. We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the precious metals referred to in this briefing or derivatives thereof. No part of this briefing may be (i) copied, photocopied or duplicated in any form by any means or (ii) redistributed without the prior written consent of Mitsui and Co. Precious Met- als, Inc. Mitsui Global Precious Metals Contact Details: New York: 200 Park Avenue, New York, NY 10166 0130 Tel: +1 212 878 4122 London: 4th Floor, St Martins Court, 10 Paternoster Row, London EC4M 7BB Tel: +44 20 7489 6767 Singapore: 80 Robinson Road, #15-02, Singapore, 068898 Tel: +65 6372 8050 Hong Kong: Suite 1306 Two Exchange Square, 8 Connaught Place, Central, Hong Kong Tel: +852 2899 2026 Tokyo: 2-1 Ohtemachi 1-Chome, Chiyoda-Ku, Tokyo 100 Tel: +81 33 285 3407",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Mitsui and Co. Precious Metals, Inc."
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Нью-Йоркский офис Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "New York office of Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "New York"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Лондонский офис Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "London office of Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "London"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Сингапурский офис Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "Singapore office of Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Singapore"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Хонг-Конгский офис Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "Hong Kong office of Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Hong Kong"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Токийский офис Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "Tokyo office of Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Tokyo"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "материалы__Stainless-outlook::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p3::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at Table of Contents 1. Status Quo 2. Good News - Short Term Outlook 3. Long Term Outlook – all bad news? - 2 - © Copyright SMR GmbH 2013 http://www.smr.at Choose your Battlefield - Global Stainless Steel Products 2012 Stainless Steel Flat Products have 3 times the value of Long Products. - 3 - Total World: 175 Total World: 455 Total World: 1.860 Share: 31% Total World: 765 Total World: 160 Total World: 1.380 Total World: 5.965 Total World: 2.325 Share: 19% Share: 39% Total World: 1.095 Total World: 1.780 Total World: 1.135 Share: 30% 36.100 88% Total World: 550 31.765 1,3% Total World: 20.520 Total World: 3.570 2,5% Share: 80% Total World: 16.250 Welded Tube & Pipe Total World: 25.800 Total World: 3.410 Share: 81% Total World: 2.990 * incl. non-Industrial CrMn steels ** excl. 13 Cr OCTG Total World: 5.280 Total World: 1.000 *** excl. CRR to reporting companies Share: 20% **** incl. 'rolled slab' 1) incl.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "стainless steel products",
+          "name_en": "stainless steel products",
+          "canonical": "stainless_steel_products"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "rolled slab",
+          "name_en": "rolled slab",
+          "canonical": "rolled_slab"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "value_ratio_flat_to_long",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 3.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p3::c1",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "Mn steels ** excl. 13 Cr OCTG Total World: 5.280 Total World: 1.000 *** excl. CRR to reporting companies Share: 20% **** incl. 'rolled slab' 1) incl. sub-standard products in Tube & Pipe in China Total World: 1.290 Profiles 13 Cr OCTG Tube Seamless Tube** Semis1) Forged Products CR Flat* CR Strip Peeled Bars Long Products Rolled Bars CF-Bars Wire Rod Wire All Products Crude Steel: Precision Strip Yield: Total World: PMP**** CR Sheet Flat Products HRC*** HR Flat Decoiled Sheet +2% -3%",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сталь Mn",
+          "name_en": "Mn steel",
+          "canonical": "mn_steel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "rolled slab",
+          "name_en": "rolled slab",
+          "canonical": "rolled_slab"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "Tube & Pipe",
+          "name_en": "Tube & Pipe",
+          "canonical": "tube_and_pipe"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "rolled slab"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Tube & Pipe"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p1::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at Long Term Outlook for Stainless Steels A Nightmare Scenario for the Ferroalloys Industry? presented by Markus A. Moll Managing Director Steel & Metals Market Research Confidentiality: This data collection was exclusively prepared for Metal Pages. It may not be copied, published or disclosed to third parties - without the permission of SMR GmbH. 13th March 2013 NiCoMo 2013 London - United Kingdom © Copyright SMR GmbH 2013 http://www.smr.at - 1 - SERVICES / CONFERENCES MARKET RESEARCH LOCATION Type of Research Products Steel Grades Single Client 85 % Multi Client 15 % Long Products 50 % Flat Products 50 % Stainless Steel 70 % Tool Steels, Eng. Steels, Nickel Alloys & Carbon Steels 30 % OUR TEAM O. Spaltmann B. Blitz T. Windberger E. Pfeifer P. Moll M. Moll W. Lipp S. Posch A. Racu M. Buchner R.-P. Hammerle U. Weirather A. Sikman I. Spaltmann Joy Tio W. Bulla B.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "不锈钢",
+          "name_en": "Stainless Steel",
+          "canonical": "stainless steel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "镍合金",
+          "name_en": "Nickel Alloys",
+          "canonical": "nickel alloys"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "碳钢",
+          "name_en": "Carbon Steels",
+          "canonical": "carbon steels"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Markus A. Moll",
+          "name_en": "Markus A. Moll",
+          "canonical": "markus a. moll"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "presented by Markus A. Moll Managing Director Steel & Metals Market Research"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "presented by Markus A. Moll Managing Director Steel & Metals Market Research"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "presented by Markus A. Moll Managing Director Steel & Metals Market Research"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "stainless steel type",
+          "op": "range",
+          "value_min": 70.0,
+          "value_max": 70.0,
+          "unit": "%",
+          "condition": "Single Client"
+        },
+        {
+          "entity_id": "e2",
+          "param": "nickel alloys type",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": "Single Client"
+        },
+        {
+          "entity_id": "e3",
+          "param": "carbon steels type",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": "Single Client"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p1::c1",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "z T. Windberger E. Pfeifer P. Moll M. Moll W. Lipp S. Posch A. Racu M. Buchner R.-P. Hammerle U. Weirather A. Sikman I. Spaltmann Joy Tio W. Bulla B. Hunter Jo Zhu Enduse Focused Single-Client Research www.smr.at Multi-Client Projects & Stainless Steel Seminars www.steel-intelligence.com Conferences 8th Asian Stainless Steel Conference Kaohsiung, Taiwan June ‘13 12th International Stainless & Special Steel Summit London, UK September ’13 in association with 27th Stainless & Its Alloys Conference Chicago, USA September ’13",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "",
+          "name_en": "T. Windberger E. Pfeifer P. Moll M. Moll W. Lipp S. Posch A. Racu M. Buchner R.-P. Hammerle U. Weirather A. Sikman I. Spaltmann Joy Tio W. Bulla B. Hunter Jo Zhu",
+          "canonical": "T. Windberger, E. Pfeifer, P. Moll, M. Moll, W. Lipp, S. Posch, A. Racu, M. Buchner, R.-P. Hammerle, U. Weirather, A. Sikman, I. Spaltmann, Joy Tio, W. Bulla, B. Hunter, Jo Zhu"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "",
+          "name_en": "www.smr.at Multi-Client Projects & Stainless Steel Seminars www.steel-intelligence.com Conferences 8th Asian Stainless Steel Conference Kaohsiung, Taiwan June ‘13 12th International Stainless & Special Steel Summit London, UK September ’13 in association with 27th Stainless & Its Alloys Conference Chicago, USA September ’13",
+          "canonical": "SMR website, Multi-Client Projects and Stainless Steel Seminars website, Conferences: 8th Asian Stainless Steel Conference (Kaohsiung, Taiwan, June '13), 12th International Stainless & Special Steel Summit (London, UK, September '13) in association with 27th Stainless & Its Alloys Conference (Chicago, USA, September '13)"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p5::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at - 300 600 900 1.200 1.500 1.800 2.100 2.400 2.700 3.000 3.300 [´000 tonnes] 2012 2014 * HRC, CRC, Plate, rolled products ´Top 15` Global Stainless Steel Flat* Product Producers 2012 & 2014 Assumption that APERAM will acquire AST - 4 - Capacity Utilisation 2012: 73% Capacity Utilisation 2014: 80% © Copyright SMR GmbH 2013 http://www.smr.at Regional Growth Dynamics All regions will grow faster in 2013 TOTAL WORLD OTHERS* OTHER ASIA CHINA EUROPE * incl. India Black = Change ´10 -´11 Green = Growth 2012 Red = Forecast 2013 - 5 - +20kt - 50kt +850kt +150kt +225kt +1255kt Absolute Changes 2013 +75kt Other America USA © Copyright SMR GmbH 2013 http://www.smr.at Table of Contents 1. Status Quo 2. Good News - Short Term Outlook 3. Long Term Outlook – all bad news? - 6 - © Copyright SMR GmbH 2013 http://www.smr.at TOTAL Stainless Steel Demand to 2020 (finished products, not crude steel) Market will reach ist peak at around 60 mill t crude in about 2050 - 7 - 20.000 24.000 28.000 32.000 36.000 40.000 44.000 [‘000 metric tonnes] Period G.R. (% p.a.) 2004-2012 4.8% 2013-2020 3.8%",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "стainless steel",
+          "name_en": "stainless steel",
+          "canonical": "stainless_steel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "production of stainless steel flat products",
+          "name_en": "production of stainless steel flat products",
+          "canonical": "stainless_steel_flat_product_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Global Stainless Steel Flat Product Producers"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p9::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p9::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at Consolidation: STS FP Market vs. No. Meltshops by Region (status / target*) The European capacity utilization could be the highest in the World - 8 - Used Capacity 68% Unused Capacity 32% North America Used Capacity 72% Unused Capacity 28% Europe Used Capacity 65% Unused Capacity 35% China - 1 2 3 4 5 6 7 8 9 10 [No. Of Meltshops] - 1 2 3 4 5 6 7 8 9 10 [No. Of Meltshops] - 5 10 15 20 25 30 [No. Of Meltshops] Capacity 2012: 3,1mt Capacity 2012: 18,1mt Capacity 2012: 7,5mt * assumption: regions are self-sufficient (no imports and exports) - 4 - 3 - 9 © Copyright SMR GmbH 2013 http://www.smr.at Consolidation: STS FP Market vs. No. Meltshops by Region (status / target*) There will be about 22 Plants too many globally, of which 4 are obsolete in Europe - 9 - Used Capacity 65% Unused Capacity 35% Rest of Asia Used Capacity 81% Unused Capacity 19% World 2020 - 1 2 3 4 5 6 7 8 9 10 [No. Of Meltshops] - 10 20 30 40 50 60 [No.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "плавка никеля",
+          "name_en": "nickel smelting",
+          "canonical": "nickel_smelting"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "использованная емкость",
+          "name_en": "used capacity",
+          "canonical": "used_capacity"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "неиспользуемая емкость",
+          "name_en": "unused capacity",
+          "canonical": "unused_capacity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "nickel smelting"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Used Capacity"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Unused Capacity"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "used_capacity",
+          "op": "le",
+          "value_min": 68.0,
+          "value_max": 72.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "unused_capacity",
+          "op": "ge",
+          "value_min": 32.0,
+          "value_max": 28.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p11::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p11::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at -1.000 -500 - 500 1.000 1.500 2.000 2.500 3.000 2012 2013 2014 2015 2016 2017 2018 2019 2020 Capacity Additions per Year Europe America China Other Asia ROW Global Capacity Additions vs. Consolidation – Flat Products Between 2012 and 2020 - 10 - © Copyright SMR GmbH 2013 http://www.smr.at Global Capacity Utilization Outlook Stainless Steel (all products) Capacity vs. Utilization – It will take a long time to reach 80% 60% 65% 70% 75% 80% 85% - 10.000 20.000 30.000 40.000 50.000 60.000 70.000 80.000 90.000 100.000 [ ´000 metric tonnes] Capaticy Utilization (%) - 11 - © Copyright SMR GmbH 2013 http://www.smr.at Demand & Capacity of Primary Nickel (2005 - 2015) - 200 400 600 800 1.000 1.200 1.400 1.600 1.800 2.000 2.200 2.400 2.600 2.800 3.000 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 [ in kt ] Others Plating Alloy Steel Nickel Alloys Stainless Steel Capacity* Full Capacity* Realistic 83% Capacity Utilization 72% 73% 78% 75% 78% 72% 102% 84% 93% 93% *assumption red line: only a portion of all announced projects will reach start-up phase (~ 50% of projects after 2010 will be kept on hold / suspended) Capacity Development &",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "производительность",
+          "name_en": "capacity utilization",
+          "canonical": "capacity_utilization"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Capacity Utilization Outlook Stainless Steel (all products)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "capacity_utilization",
+          "op": "range",
+          "value_min": 72.0,
+          "value_max": 102.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "le",
+          "value_min": 83.0,
+          "value_max": 93.0,
+          "unit": "%",
+          "condition": "assumption red line: only a portion of all announced projects will reach start-up phase (~ 50% of projects after 2010 will be kept on hold / suspended)"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p11::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p11::c1",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "y a portion of all announced projects will reach start-up phase (~ 50% of projects after 2010 will be kept on hold / suspended) Capacity Development & Demand for Primary Nickel It takes no rocket science to see the weak fundamentals for Nickel - 12 -",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p14::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p14::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at Tsingshan´s NPI plant in Fujian NPI has changed the game! - 13 - © Copyright SMR GmbH 2013 http://www.smr.at Nickel – LME (3-month) Price & LME Stock Levels (Status: 25th Feb. 2013) NPI becomes the ‘invisible hand’ and a real game changer - 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 0,0 1,0 2,0 3,0 4,0 5,0 6,0 7,0 8,0 9,0 10,0 11,0 12,0 13,0 14,0 15,0 16,0 17,0 [´000 tonnes] [US$ / lb] Nickel Price (3-month) Nickel Price Stocks Upper NPI Limit: 13$/lb NPI kicks in massively (potential 500.000 tpy) Lower NPI Limit: 7$/lb NPI Disappears LME Stocks 2020 16,5 $/lb 10,3 $/lb - 14 - © Copyright SMR GmbH 2013 http://www.smr.at Blended Scrap How much Ni is available for blending? Stainless Steel Scrap Market Dynamics – 3 Basic Types + ‘Blends’ about 10% are blends - 15 - Revert Scrap ~11% of Crude 3 Months First Use Scrap 9–21 % of 300 Series Consumption in Industry Segments 6 Months End Use Scrap (Old) + Price Level Stimulus + Recycling Ratio (~70%) ~27 Years avg. in use",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "блендинг шлама",
+          "name_en": "blending scrap",
+          "canonical": "scrap_blending"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлам для блендинга",
+          "name_en": "blended scrap",
+          "canonical": "blended_scrap"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Blended Scrap How much Ni is available for blending?"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p9::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p9::c1",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "Unused Capacity 35% Rest of Asia Used Capacity 81% Unused Capacity 19% World 2020 - 1 2 3 4 5 6 7 8 9 10 [No. Of Meltshops] - 10 20 30 40 50 60 [No. Of Meltshops] Capacity 2020: ~49mt Capacity 2012: 7,1mt * assumption: regions are self-sufficient (no imports and exports) - 4 - 22 Used Capacity 68% Unused Capacity 32% Capacity 2012: 39,5mt World 2012 Optimal Scenario - 10 20 30 40 50 60 [No. Of Meltshops] - 10 Realistic Scenario",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "сталь",
+          "name_en": "stainless steel",
+          "canonical": "Stainless Steel"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "использованная емкость",
+          "name_en": "used capacity",
+          "canonical": "Used Capacity"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "неиспользованная емкость",
+          "name_en": "unused capacity",
+          "canonical": "Unused Capacity"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "производство стали",
+          "name_en": "production of stainless steel",
+          "canonical": "Production of Stainless Steel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Capacity 2020: ~49mt Capacity 2012: 7,1mt"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Unused Capacity 35% Rest of Asia Used Capacity 81% Unused Capacity 19%"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "world_2020",
+          "op": "eq",
+          "value_min": 68.0,
+          "value_max": 68.0,
+          "unit": "%",
+          "condition": "Optimal Scenario"
+        },
+        {
+          "entity_id": "e3",
+          "param": "world_2012",
+          "op": "eq",
+          "value_min": 32.0,
+          "value_max": 32.0,
+          "unit": "%",
+          "condition": "Optimal Scenario"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p17::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p17::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at STS Scrap: The flexible Raw Material Source – a market that works perfectly (Status: Feb. 2013) (1.200) (1.000) (800) (600) (400) (200) - 200 400 US$ / t Difference: Theoretic Minus Real Scrap Price Real Intrinsic Value Discounts vs. Theoretic Values (based on Ni 90 - Cr 85 - Fe 100 ‘rule’) Scrap Too Cheap Too Expensive Average 11.0 % Discount Today 12.0 % Discount against NPI - 16 - © Copyright SMR GmbH 2013 http://www.smr.at Table of Contents 1. Status Quo 2. Good News - Short Term Outlook 3. Long Term Outlook – all bad news? - 17 - © Copyright SMR GmbH 2013 http://www.smr.at Stainless Steel Demand 300 series will stabilise at around 55% in the long term - 18 - 54% 55% 56% 57% 58% 59% 60% 61% 62% 63% 64% 65% 66% 67% Share of 300 Series Share - 300series Ni Substitution Lower Ni Prices / Strong Markets for Industrial Uses End of Major Substitution Substitution of CrMn steels by 400 Series (90%) and 300 Series (10%) Decline of Exhaust Systems (Ferr.) Stagnation at ~54-55% Ni 300 57% 400 28% CrMn 14% Duplex 1% 300 56% 400 34% CrMn 7% Duplex 3% 2012: 30.5 mill t 2030: 51.0 mill t 300 55% 400 36% CrMn 6% Duplex 3% 2040: 55.7 mill t",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "нержавеющая сталь",
+          "name_en": "stainless steel",
+          "canonical": "stainless_steel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "300 серия нержавеющей стали",
+          "name_en": "300 series stainless steel",
+          "canonical": "300_series_stainless_steel"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "400 серия нержавеющей стали",
+          "name_en": "400 series stainless steel",
+          "canonical": "400_series_stainless_steel"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "хромомарганец",
+          "name_en": "chromomanganese steel",
+          "canonical": "chromomanganese_steel"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "дуплексная сталь",
+          "name_en": "duplex steel",
+          "canonical": "duplex_steel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Share of 300 Series"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Share of 400 Series"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Share of CrMn steel"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "share",
+          "op": "range",
+          "value_min": 54.0,
+          "value_max": 58.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "share",
+          "op": "range",
+          "value_min": 28.0,
+          "value_max": 34.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "share",
+          "op": "range",
+          "value_min": 7.0,
+          "value_max": 14.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "share",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p20::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p20::c0",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "© Copyright SMR GmbH 2013 http://www.smr.at 300series Scrap – Total Scrap Ratio 2000-2040 (including Revert Scrap) Scrap Availability will continue to increase , especially after 2030 - 19 - 45% 50% 55% 60% 65% 70% Total 18-8 Scrap Ratio [in %] Actual Forecast Low Availability due to low Ni Prices Scrap availabillity growth higher than Austenitic Stainless Steel production (falling 300 Series ratio) Falling scrap availabillity as a result of the 2009 recession Strong increase in Old Scrap (Enduse Scrap) availabillity, especially in China New Ni Projects will find fierce Competition from Scrap after 2030 Recovery in the austenitic ratio matches higher scrap availabillity © Copyright SMR GmbH 2013 http://www.smr.at Key Takeaways - 20 -  Nickel prices are locked in a price cannel by the economics of the Chinese NPI producers  Ni substitution has slowed significantly, and will be even reversed in the next 10 years.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение никеля из отходов",
+          "name_en": "scrap recovery of nickel",
+          "canonical": "nickel_scrap_recovery"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "New Ni Projects will find fierce Competition from Scrap after 2030"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Stainless-outlook::p20::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Stainless-outlook::p20::c1",
+      "doc_id": "материалы__Stainless-outlook",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Stainless-outlook.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "rice cannel by the economics of the Chinese NPI producers  Ni substitution has slowed significantly, and will be even reversed in the next 10 years.  Stainless Steel Scrap will always be competitively priced and all available scrap will be used (different from primary Ni)  The market for primary metal could decline after 2030, as scrap availability will surpass stainless steel production  The situation is more severe for Ni and Cr than for Moly  Ni, Cr and Mo mines and smelters who come on-stream after 2020 will only enjoy a healthy market for ~10 years",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "хром",
+          "name_en": "chromium",
+          "canonical": "chromium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "молибден",
+          "name_en": "molybdenum",
+          "canonical": "molybdenum"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "market_decline",
+          "op": "ge",
+          "value_min": 2030.0,
+          "value_max": null,
+          "unit": "year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "market_decline",
+          "op": "ge",
+          "value_min": 2030.0,
+          "value_max": null,
+          "unit": "year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "market_decline",
+          "op": "ge",
+          "value_min": 2030.0,
+          "value_max": null,
+          "unit": "year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  }
+}

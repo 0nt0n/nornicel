@@ -1,0 +1,325 @@
+{
+  "материалы__PreciousMetalsQuarterly2012SepContents::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p1::c0",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Precious Metals Market Outlook Quarterly – 2012 Q3 31 Mount Pleasant, London WC1X OAD Tel: +44 (0)20 7903 2000 Fax: +44 (0)20 7837 0976 Website: www.crugroup.com This report is supplied on a private and confidential basis to the customer. Its contents must not be disclosed to any other company, organisation or individual, nor be photocopied or otherwise reproduced in whole or in part, without the prior written permission of CRU. This report is delivered on the understanding that CRU’s liability is limited to the provision of the professional services outlined in the contract for this report. Although every effort has been made to undertake this work with care and diligence, CRU cannot guarantee the accuracy of any forecasts or assumptions or be held responsible for any actions taken on the basis of this report. If the client uses our work in any Information Memorandum or similar document for the purpose of raising funds, CRU accepts no liability to third parties however arising and without limitation. CRU International Ltd. 2012. All rights reserved Front cover photograph courtesy of Rand Refinery Ltd",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "",
+          "name_en": "Precious Metals Market Outlook Quarterly – 2012 Q3 report",
+          "canonical": "report"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "Rand Refinery Ltd",
+          "name_en": "Rand Refinery Ltd",
+          "canonical": "Rand Refinery Ltd"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Front cover photograph courtesy of Rand Refinery Ltd"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PreciousMetalsQuarterly2012SepContents::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p2::c0",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "Precious Metals Quarterly 2012 Q3 CRU International Limited confidential Contents Page Executive summary 1 Chapter 1 – Silver 7 1. Summary 7 2. Fabrication demand 8 2.1 Summary 8 2.2 Jewellery and silverware 9 2.3 Photography 14 2.4 Electrical and electronics 14 2.5 Other fabrication 15 3. Supply from recycled scrap 16 3.1 Summary 16 3.2 Photography 18 3.3 Electrical and electronics 18 3.4 Other 20 4. Mine production 21 4.1 Summary 21 4.2 Recent developments 22 4.3 Mine production costs 29 4.4 Western production potential 31 5. Investor demand, prices and market balance 40 5.1 Investor demand 40 5.2 Assumed price developments 42 5.3 Forecast mine production 44 5.4 Supply-demand balance and stock changes 46 Chapter 2 – Gold 59 Chapter 3 – Platinum 89 Chapter 4 – Palladium 113 Appendix A – Industrial and economic outlook 129 Appendix B – Interest and exchange rate comments 159 Precious Metals Quarterly 2012 Q3 CRU International Limited confidential List of Tables Page Executive summary Table I Forecast precious metal prices 3 Chapter 1: Silver Table 1.1 Market summary 7 Table 1.2 Fabrication demand by key end-use and region 12 Table 1.3 Estimated world silver scrap supply 19 Table",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Ценные металлы",
+          "name_en": "Precious metals",
+          "canonical": "precious metals"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "Производство из руды",
+          "name_en": "Mine production",
+          "canonical": "mine production"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "Расплавление и переработка отходов",
+          "name_en": "Supply from recycled scrap",
+          "canonical": "supply from recycled scrap"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Фабричное использование",
+          "name_en": "Fabrication demand",
+          "canonical": "fabrication demand"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "4. Mine production 21"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "3. Supply from recycled scrap 16"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "2. Fabrication demand 8"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "Q3"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PreciousMetalsQuarterly2012SepContents::p2::c2": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p2::c2",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "e production by country 108 Table 3.6 Committed output at major platinum mines 109 Table 3.7 Other potential platinum producers 111 Table 3.8 Forecast platinum mine production 111",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Производство платины",
+          "name_en": "Platinum production",
+          "canonical": "production"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Платина",
+          "name_en": "Platinum",
+          "canonical": "platinum"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Table 3.6 Committed output at major platinum mines, Table 3.7 Other potential platinum producers, Table 3.8 Forecast platinum mine production"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "by country",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "type",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "metal"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PreciousMetalsQuarterly2012SepContents::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p2::c1",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "1: Silver Table 1.1 Market summary 7 Table 1.2 Fabrication demand by key end-use and region 12 Table 1.3 Estimated world silver scrap supply 19 Table 1.4 Recent world mine production 24 Table 1.5 Committed Western mine production changes 32 Table 1.6 Uncommitted Western mine production 36 Table 1.7 Western mine production potential 39 Table 1.8 Forecast world mine production 45 Table 1.9 Market balances and stock changes 48 Table 1.10 Actual and committed Western mine production by unit 50 Chapter 1: Gold Table 2.1 Key factors in the 2009-17 gold market 69 Table 2.2 World gold fabrication by key end use and region 70 Table 2.3 Central bank gold holdings 72 Table 2.4 Forecast gold mine production by country 73 Table 2.5 Output potential of major gold mines 74 Chapter 3: Platinum Table 3.1 Global platinum supply, demand and price 102 Table 3.2 Platinum fabrication by key end-use and region 103 Table 3.3 Estimated world platinum scrap supply 105 Table 3.4 Net and gross platinum fabrication demand 107 Table 3.5 Committed platinum mine production by country 108 Table 3.6 Committed output at major platinum mines 109 Table 3.7 Other potential platinum producers 111 Table 3.8 Forecast",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Silver",
+          "name_en": "Silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Gold",
+          "name_en": "Gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Platinum",
+          "name_en": "Platinum",
+          "canonical": "platinum"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PreciousMetalsQuarterly2012SepContents::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p4::c0",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "Precious Metals Quarterly 2012 Q3 CRU International Limited confidential List of Tables continued Page Chapter 4: Palladium Table 4.1 Global palladium supply, demand and price 119 Table 4.2 Palladium fabrication by key end-use and region 120 Table 4.3 Estimated world palladium scrap supply 122 Table 4.4 Gross and net palladium demand 123 Table 4.5 Committed output at major palladium mines 124 Table 4.6 Committed palladium mine production by country 126 Table 4.7 Other potential palladium producers 127 Table 4.8 Forecast palladium mine production 127 Appendix A: Industrial and economic outlook Table A.1 World economic growth 132 Table A.2 Inflation in the major OECD economies 143 Table A.3 Industrial production in selected major economies 144 Table A.4 Exchange rates and short-term interest rates 146 Table A.5 Key economic variables for the USA 147 Table A.6 Key economic variables for Japan 147 Table A.7 Key economic variables for Germany 148 Table A.8 Key economic variables for France 148 Table A.9 Key economic variables for the UK 149 Table A.10 Key economic variables for Italy 149 Table A.11 Key economic variables for China 150 Table A.12 GDP and industrial production in the",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пallадий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка палладия",
+          "name_en": "fabrication of palladium",
+          "canonical": "fabrication of palladium"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Palladium fabrication by key end-use and region 120"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PreciousMetalsQuarterly2012SepContents::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PreciousMetalsQuarterly2012SepContents::p4::c1",
+      "doc_id": "материалы__PreciousMetalsQuarterly2012SepContents",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PreciousMetalsQuarterly2012SepContents.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "UK 149 Table A.10 Key economic variables for Italy 149 Table A.11 Key economic variables for China 150 Table A.12 GDP and industrial production in the smaller European economies 150 Table A.13 GDP and industrial production in the major Asian economies 151 Table A.14 GDP and industrial production in the major Latin American economies 151 Table A.15 Industrial production by sector 152 Appendix B: Interest and exchange rate comments Table B.1 Exchange rate forecasts for selected currencies 165",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Материалы PreciousMetalsQuarterly2012SepContents",
+          "name_en": "Materials__PreciousMetalsQuarterly2012SepContents",
+          "canonical": "materials__preciousmetalsquarterly2012sepcontents"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  }
+}

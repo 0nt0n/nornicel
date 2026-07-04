@@ -1,0 +1,4211 @@
+{
+  "материалы__CobaltOutlook2012Chapter3::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p1::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 CRU International Limited confidential Chapter 3 Cobalt price outlook Overview  Benchmark 99.3% prices contracted by 12.3% year-on-year to US$16.44/lb in 2011. The decline was mainly attributed to an oversupplied market and weaker than expected demand. In H1 2012, prices averaged US$14.43/lb, a fall of 18.5% from H1 2011. At the end of July 2012, low grade cobalt was trading at around US$13.0/lb.  Chinese prices of electrolytic cobalt also decreased in 2011 and H2 2012; however, they maintained an average premium of US$4.39/lb over benchmark 99.3% prices due to high raw material and processing costs. Interestingly, the raw material pattern in China is changing as imports of intermediate products gradually replace those of concentrate.  Weak market fundamentals weigh on the short/medium-term price outlook. A growing refined market surplus is expected to continue putting downward pressure on prices. A low of US$12.80/lb for 99.3% is anticipated in 2014; we predict that improving fundamentals will start supporting prices from 2015 to the end of the forecast period.  Prices in the long-run are determined by the long-run marginal cost.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на кобальт",
+          "name_en": "cobalt price",
+          "canonical": "cobalt_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Benchmark 99.3% prices contracted by 12.3% year-on-year to US$16.44/lb in 2011."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price_2011",
+          "op": "eq",
+          "value_min": 16.44,
+          "value_max": 16.44,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_H1_2012",
+          "op": "eq",
+          "value_min": 14.43,
+          "value_max": 14.43,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_July_2012",
+          "op": "eq",
+          "value_min": 13.0,
+          "value_max": 13.0,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p1::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "tals will start supporting prices from 2015 to the end of the forecast period.  Prices in the long-run are determined by the long-run marginal cost. We anticipate that the growing deficit will trigger development of new projects to meet consumption growth. It is projected that the marginal producers will be Chinese processors who buy concentrate; we forecast a long-term price of US$17.28/lb – 2022 nominal value. © 2012 CRU International Limited confidential Data: MB, CRU 0 5 10 15 20 25 2009 2010 2011 2012 2013 2014 2015 2016 2017 Base case 99.3% nominal price High case Low case Turning point: shift from rising surpluses to lower surpluses US$/lb The price outlook is weak in the near/medium term",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "предсказание цен на кобальт",
+          "name_en": "price forecast for cobalt",
+          "canonical": "cobalt_price_forecast"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "prices in the long-run are determined by the long-run marginal cost"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price_base_case",
+          "op": "range",
+          "value_min": 35.56,
+          "value_max": 35.56,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_high_case",
+          "op": "range",
+          "value_min": 35.56,
+          "value_max": 35.56,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_low_case",
+          "op": "range",
+          "value_min": 35.56,
+          "value_max": 35.56,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p2::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "74 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential 1. Cobalt price quotations 1.1 London Metal Exchange (LME) Since February 22nd 2010, cobalt has been traded on the LME, making prices – at least for lower grade 99.3% but high volume metal – more transparent compared to freemarket quotations. The contract specifications are as follows:  Minimum 99.3%  Cathodes (broken or cut), ingots, briquettes or rounds  1 tonne lots (100-500kg drums of uniform size and weight)  Quoted in US dollars per tonne  Delivered by brand The LME announced that cobalt trade on the exchange amounted to 6,578 tonnes in 2011. CRU estimates that this volume was equivalent to 8.5% of world refined cobalt consumption in 2011. In the first half of 2012, LME cobalt trade totalled 5,592 tonnes. If cobalt trade increases in the second half of 2012 at the same pace as in the first half, we anticipate that full year cobalt trade on the LME will reach 11,184 tonnes, up by 70% from year-ago levels. That would equate to 13.7% of world refined cobalt consumption. This development would potentially support the role of the LME as an emerging marketplace for cobalt trade.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "торговля кобалтом на LME",
+          "name_en": "trading cobalt on the London Metal Exchange (LME)",
+          "canonical": "trading_cobalt_on_lme"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "cobalt has been traded on the LME"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p2::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "3.7% of world refined cobalt consumption. This development would potentially support the role of the LME as an emerging marketplace for cobalt trade. The LME cobalt contract is still young and requires more time to reach a benchmark status. After two years of business, the increase in trade justifies the fact that the contract has been successfully introduced in the cobalt market. CRU projects that if trade volumes continue to grow at the same rate, the LME‟s gravity in the cobalt market will gain momentum. © 2012 CRU International Limited confidential -11% -6% -1% 4% 9% 0 5 10 15 20 05/10 07/10 09/10 11/10 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 LME settlement price 99.3% US$/lb month-on-month % change LME prices have seen a negative trend since they were introduced US$/lb Data: LME % change",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "trading",
+          "name_en": "trading",
+          "canonical": "trading"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "LME contract",
+          "name_en": "LME cobalt contract",
+          "canonical": "lme_cobalt_contract"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "world refined cobalt consumption"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "LME cobalt contract"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p3::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 75 CRU International Limited confidential 1.2 Price assessments Metal Bulletin (MB) and Platts Metals Week publish regular prices for cobalt. Prices are obtained from telephone surveys with traders and consumers in Europe and North America. Since 1991, Metal Bulletin has been publishing the prices of two grades of metal: 99.8% metal (high grade) and 99.3% metal (low grade). These are currently the de facto benchmark prices for cobalt, though Platts Metals Week assessments specifically for the US market are still prevalent there. Also in the USA, the US Defence Logistics Agency‟s (DLA) Strategic Materials Directorate had been selling cobalt from its stockpile since 1993, which at the time amounted to 52m pounds, with the sales price published after each transaction. DLA sales historically played a role in the price discovery process, but as stocks have diminished are now much less relevant, with only a handful of small transactions concluded each year depending on business conditions. In the 2009 financial year, for example, only 412,320 lbs were sold for just over $6.8m. No sales have taken place since 2009.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "оценка цен на кобальт",
+          "name_en": "cobalt price assessment",
+          "canonical": "cobalt_price_assessment"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "стратегический отдел Департамента материалов ДОА (СМД)",
+          "name_en": "Strategic Materials Directorate of the US Defence Logistics Agency (DLA SMD)",
+          "canonical": "dlasmd"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "publish regular prices for cobalt"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "selling cobalt from its stockpile since 1993"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": null,
+          "value_max": 6.8,
+          "unit": "million USD",
+          "condition": "in 2009 financial year, for example"
+        },
+        {
+          "entity_id": "e3",
+          "param": "stockpile_size",
+          "op": "le",
+          "value_min": 52.0,
+          "value_max": 52.0,
+          "unit": "m pounds",
+          "condition": "amounted to 52m pounds in the past"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p3::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "n business conditions. In the 2009 financial year, for example, only 412,320 lbs were sold for just over $6.8m. No sales have taken place since 2009. After 2000, several other price reporting systems emerged. The Cobalt Open Sales System (COSS) was an internet trading platform originally developed by WMC Resources for the sales of its 99.8% cobalt cathode, produced at Falconbridge‟s Nikkelverk refinery. BHP Billiton continued this system after the takeover of WMC. In addition to BHP Billiton, other producers, notably Norilsk and Jinchuan, provided quotations for their cobalt products via websites. Norilsk, in common with the BHP COSS site, also provided information on prices and volumes from recent transactions. As a further development of this type of trading system, Metal Bulletin introduced a Metal Price Watch system in 2004 where buyers and sellers are matched on an open auction system. These prices now form the basis of MB cobalt price quotations. However, two of these price information sources have now disappeared. In August 2008, Norilsk announced it would no longer publish a cobalt price, saying this was giving too much information away to rivals.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "cobalt sales",
+          "canonical": "cobalt_sales"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "sales of its 99.8% cobalt cathode, produced at Falconbridge’s Nikkelverk refinery"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p3::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p3::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "disappeared. In August 2008, Norilsk announced it would no longer publish a cobalt price, saying this was giving too much information away to rivals. Furthermore, BHP decided in January 2009 to suspend the publication of the COSS price and the company now states it will direct market all of its cobalt production. In September 2007 Credit Suisse, in co-operation with commodity trader Glencore, launched an over-the-counter (OTC) futures contract for cobalt. This provides investors and other market participants with the opportunity to access the cobalt market in the absence of an exchange. Investors can buy a futures contract for a given month at a quoted price and the transaction is settled against the actual monthly average price quoted by Metal Bulletin. It is purely a cash- settled contract, but does give participants in the physical market the possibility of hedging price risk. Furthermore, Credit Suisse can source liquidity through an alliance with Glencore, which itself has the sales rights to a significant proportion of the world‟s cobalt through agreements with Xstrata and others. Other banks followed suit with Deutsche Bank and Macquarie both offering OTC contracts.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "торговля кобалтом",
+          "name_en": "trading cobalt",
+          "canonical": "cobalt_trading"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Credit Suisse, in co-operation with commodity trader Glencore, launched an over-the-counter (OTC) futures contract for cobalt."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p4::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "76 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential 2. The history of cobalt prices 2.1 Prices prior to 1990 Before 1979, all cobalt metal was sold at the producer list price. Producers sold their cobalt in line with the Union Minière or, as it later became, the Gécamines (DRC) price. The so-called “freemarket price” began to emerge between 1978 and 1980, when a supply crisis loosened the producers‟ dominance of the pricing system. During the early 1980s, the free market broadly followed the producer price. In 1984, ZCCM and Gécamines made a bid to recover their price leadership position by restricting supplies in order to keep the price within agreed levels (US$11.45 to US$11.70/lb). At that time, supply and demand were more or less in balance. During 1985, the impact of capacity expansions resulted in production growing much faster than supply and, by the final quarter, stocks had grown to high levels. Furthermore, the freemarket was well supplied through barter deals and producers were selling openly to traders in order to move stocks. The result was a price fall from around US$11 to US$6/lb.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "cobalt sales",
+          "canonical": "cobalt_sales"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "all cobalt metal was sold at the producer list price"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p4::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "through barter deals and producers were selling openly to traders in order to move stocks. The result was a price fall from around US$11 to US$6/lb. At that time, Gécamines held a key position as the swing supplier. At times of high demand they could meet the additional requirements by selling from their stocks. Conversely, at times of weak demand, Gécamines would stockpile material while their competitors reduced prices to capture marginal market share and ensure they sold their full production. So, when Gécamines opted to sell more material to the market under these conditions in an attempt to capture market share, the price fell rapidly. As prices were still above production costs and cobalt was generally regarded as a by-product, there was little resistance to these falling prices. Only when Gécamines held prices fixed in 1986-87 did the price begin to stabilise. © 2012 CRU International Limited confidential 0 10 20 30 40 50 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008 2010 2012 Nominal freemarket 99.8% price Real freemarket 99.8% price Freemarket prices have seen significant fluctuation US$/lb Data: MB",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "cobalt sales",
+          "canonical": "cobalt_sales"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "producers were selling openly to traders in order to move stocks"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p5::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 77 CRU International Limited confidential During 1987-90, Gécamines began to look at strategies to maximise its revenues from cobalt. They concluded that to do this in a sustainable way would require a steady increase in cobalt consumption over time. Furthermore, it concluded that this could only be achieved by ensuring stable pricing and secure supplies. Subsequently, the producer price was increased gradually in three iterative steps, with the free market price generally rising in anticipation of these announcements. Meanwhile, Gécamines also sought to establish long-term contracts with consumers in an attempt to persuade them that supplies would be secure and prices would be fixed. To encourage this, the company offered discounts of up to 10% on large tonnages. However, they failed to provide firm guarantees on price structure. As a result, many small and medium-sized consumers preferred to source their material from other producers and purchase at least part of their requirements from traders, in order to manage their exposure to a single supplier.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "установка цен и контрактов на кобальт",
+          "name_en": "pricing and long-term contracts for cobalt",
+          "canonical": "pricing_and_long_term_contracts_for_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Gécamines sought to establish long-term contracts with consumers in an attempt to persuade them that supplies would be secure and prices would be fixed."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p5::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p5::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "material from other producers and purchase at least part of their requirements from traders, in order to manage their exposure to a single supplier. It was only the large consumers, who purchased more than 100 tonnes of cobalt per year, which accepted the contract terms with Gécamines in order to guarantee their supplies. 2.2 Cobalt prices in 1991-2006 The price of cobalt remained at a relatively low and stable level for the latter years in the 1980s. However by mid-way through 1990 Gécamines began to experience production difficulties. In June 1991, its Kamoto mine, which was an important source of cobalt-rich ore, suffered a serious collapse and production at this location fell to a third of previous levels. This was compounded by the rapidly deteriorating political situation in the DRC (then Zaire). Consumers with long-term contracts began to experience delays in delivery. The market became rife with uncertainty. Doubt was expressed in the media about Gécamines' ability to continue to supply cobalt in the long-term.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "потребители кобальта",
+          "name_en": "cobalt consumers",
+          "canonical": "cobalt_consumers"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Камото, шахта Гэкамины",
+          "name_en": "Kamoto mine, Gécamines",
+          "canonical": "kamoto_mine_gecamines"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "It was only the large consumers, who purchased more than 100 tonnes of cobalt per year,"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Kamoto mine, which was an important source of cobalt-rich ore,"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p5::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p5::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "ry. The market became rife with uncertainty. Doubt was expressed in the media about Gécamines' ability to continue to supply cobalt in the long-term. Against the backdrop of these supply disruptions the producer price became meaningless and, during 1991, the Zambians saw an opportunity to increase their prices by selling through traders at the freemarket price. Meanwhile, Gécamines was struggling to meet its supply contracts. As a result, all supplies of metal were being priced at freemarket prices, which reached US$30/lb during the early part of 1992, equivalent to a 4-fold increase in little over a year. At the end of 1991, the African producers followed the freemarket price, setting the producer price at US$25/lb. Meanwhile, there emerged an increased availability of supplies of Russian cobalt. Russian material was supplied in ingot form and at a lower grade of purity; 99.3% cobalt compared with 99.8% for Grade \"A\" cathode. Initially, many consumers were unwilling to take this material as they found the 3kg to 5kg ingots much more difficult to handle than granules or cut cathode.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "selling cobalt",
+          "canonical": "selling_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "selling through traders at the freemarket price"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p5::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p5::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": ", many consumers were unwilling to take this material as they found the 3kg to 5kg ingots much more difficult to handle than granules or cut cathode. The continued supply of material from the DRC and Zambia, coupled with increased availability of Russian cobalt, led to a sustained decline in cobalt prices. During June 1992, the freemarket price fell below the producer price and continued falling well into the third quarter of 1993. The African producers were uncertain how best to respond. Faced with a need to keep prices at US$25/lb in order to maintain revenue and the fear of a rapid decline in the metal price similar to that seen in 1985-86, they decided to maintain a higher producer price. The result was that Gécamines and ZCCM lost significant market share to the freemarket. Combined, stocks held by the two companies approached 9,000 tonnes by November 1992.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта на свободном рынке",
+          "name_en": "free market cobalt sales",
+          "canonical": "free_market_cobalt_sales"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "freemarket price fell below the producer price and continued falling well into the third quarter of 1993"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p6::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p6::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "78 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential They decided to reduce the producer price to US$18/lb, the level of the freemarket at that time. Both companies began to sell material, but there were frequent reports of sales at much lower prices to traders and large consumers as the free market price became dominant again. Subsequently, Zambia introduced a cobalt reference price of US$21/lb in consultation with Gécamines in April 1994, but its influence was negligible in the market. In February 1995, this reference price was raised to US$27.50. The main purpose of this reference price was to set a level at which the African producers could sell their metal committed on long-term contracts. However, since May 1996 this price has been well above the freemarket price and as supply constraints have been limited, this price quotation has been largely irrelevant. For this reason it is no longer quoted. Historically, cobalt prices have been characterised by strong volatility, with the peaks and troughs seen over the past 18 years correlating with certain key events.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "sale of cobalt",
+          "canonical": "sale_of_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Both companies began to sell material, but there were frequent reports of sales at much lower prices to traders and large consumers as the free market price became dominant again."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p6::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p6::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "balt prices have been characterised by strong volatility, with the peaks and troughs seen over the past 18 years correlating with certain key events. The peak of over US$30/lb in 1991 was caused by supply problems from DRC that followed the mine collapse at Kamoto that year and a serious civil disturbance in Katanga Province, where the Gécamines facilities are located. The subsequent trough (US$10/lb) in 1992 reflected a correction in purchasing patterns, partly as a result of high prices and partly because consumers had built up large inventories in the preceding months as they rushed to secure available supply. The next significant peak, in 1996, was the result of steadily increasing demand in a market where supply was tight. This was a period when trading activity was at its most influential. Further to that, prices dropped steadily as more supplies became available. The sharp downward spike in prices in January 1999 to US$7/lb was precipitated by sales of cobalt stock held by ZCCM to a leading trader. There were accusations of price manipulation over this transaction. However the price did not stay at that level for long and returned quite rapidly to over US$20/lb by mid-1999.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "торговля кобалтом",
+          "name_en": "trading of cobalt",
+          "canonical": "cobalt_trading"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "sales of cobalt stock held by ZCCM to a leading trader"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p6::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p6::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "cers. From February 2006 the price rose steadily again, accelerating sharply during the northern hemisphere winter to over US$25/lb in December 2006. Sentiment turned abruptly bullish in November 2006, following the announcement that Norilsk would in the future (from March 2007) sell its cobalt solely to OM Group, effectively withdrawing a significant supply of cobalt from the open marketplace.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p7::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 79 CRU International Limited confidential 2.3 Price movements since 2007 2007 began against a backdrop of uncertainty over supply, with the immediate impact of the Norilsk announcement, Glencore‟s increasing influence over the market and concern over a lack of anticipated new supply coming on stream. These concerns were compounded by an explosion at the Chambishi furnace in Zambia in January, which deprived the market of around 150 tonnes per month, and ultimately resulted in a loss of 600 tonnes of supply. As a result, prices rose steadily in the first months of 2007, to break through US$30/lb during March, a 10- year high in nominal terms, at that time. A sharp reduction in imports of ores and concentrate from the DRC to China, amid speculation of a very tight supply situation, further contributed to the upward pressure on prices. The DRC government had already deemed the export of unprocessed ores illegal, in an effort to ensure value-adding processing occurred within the country. In addition, strong demand in the rechargeable battery and superalloy sectors ensured that market fundamentals remained tight.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка руды и концентратов",
+          "name_en": "ore and concentrate processing",
+          "canonical": "ore_and_concentrate_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "imports of ores and concentrate from the DRC to China"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p7::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p7::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "ed within the country. In addition, strong demand in the rechargeable battery and superalloy sectors ensured that market fundamentals remained tight. Prices retreated slightly from March to August, falling back to US$25/lb by the middle of that month. The initial fall was encouraged by a sale of 50 tonnes of material by Umicore, normally a consumer of cobalt, at a level below the prevailing spot price. Prices remained subdued during the northern hemisphere summer as markets were reported as very quiet. However, the anticipated recovery came in late August and early September with a swift series of purchases on the BHPB COSS website seeing the price rise from US$24.20 to US$29.00 by mid September. Norilsk and Jinchuan prices followed the upward trend and the US$30/lb barrier was reached, and then surpassed, in November as supply contracts for 2008 were under negotiation. © 2012 CRU International Limited confidential 0 10 20 30 40 50 01/07 07/07 01/08 07/08 01/09 07/09 01/10 07/10 01/11 07/11 01/12 Freemarket 99.8% price Freemarket 99.3% price Oversupply has been putting pressure on prices since 2010 US$/lb Data: MB",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "sale of cobalt",
+          "canonical": "sale_of_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "50 tonnes of material by Umicore, normally a consumer of cobalt, at a level below the prevailing spot price."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p6::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p6::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "ce manipulation over this transaction. However the price did not stay at that level for long and returned quite rapidly to over US$20/lb by mid-1999. Subsequently, increased supply arising from investments made during the high prices in the period 1994-96 led to overcapacity and prices drifted back towards US$7/lb by November 2001. Prices began to rise sharply again in 2003-04 as demand showed significant growth. This stemmed from the vast increase in the amount of rechargeable battery cells required to meet the rapidly growing mobile phone and portable computer markets, and the emergence of China as a major consumer nation. From a peak in early 2004, the price fell gradually through 2004 and 2005, reaching a low point of US$12.50 in February 2006. The fall occurred mainly as a result of a build-up of battery cell inventories and reduced buying from this sector coupled with some aggressive selling by one of the producers. From February 2006 the price rose steadily again, accelerating sharply during the northern hemisphere winter to over US$25/lb in December 2006.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "price_mechanisms",
+          "name_en": "price mechanisms",
+          "canonical": "Price Mechanisms"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The text discusses the price fluctuations of cobalt over time."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 1994.0,
+          "value_max": 1996.0,
+          "unit": "year",
+          "condition": "Investments made during this period led to increased supply and subsequent overcapacity."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 1999.0,
+          "value_max": 1999.0,
+          "unit": "year",
+          "condition": "Price returned to over US$20/lb by mid-1999."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2001.0,
+          "value_max": 2001.0,
+          "unit": "year",
+          "condition": "Prices drifted back towards US$7/lb by November 2001."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2003.0,
+          "value_max": 2004.0,
+          "unit": "year",
+          "condition": "Prices began to rise sharply again in 2003-04."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2004.0,
+          "value_max": 2005.0,
+          "unit": "year",
+          "condition": "The price fell gradually through 2004 and 2005."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2006.0,
+          "value_max": 2006.0,
+          "unit": "year",
+          "condition": "The price rose steadily again from February 2006."
+        },
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2006.0,
+          "value_max": 2006.0,
+          "unit": "year",
+          "condition": "The price accelerated sharply during the northern hemisphere winter to over US$25/lb in December 2006."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p8::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "80 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential As 2007 drew to a close, the forecasts made by some market observers earlier in the year, notably Credit Suisse, that the price would reach a high of US$40/lb for the year were realised and the MB average at the turn of the year (99.8% cobalt) stood at around US$42/lb. Any hope amongst consumers that the market had peaked, at least in the short term, were confounded as prices continued to rise through the first three months of 2008. The year began with a series of brisk price increases as consumers feared an increasingly tight market with demand fundamentals strong and persistent uncertainty over security of supply. For example, reports in late January indicated that electricity blackouts in Zambia had led to reduced output in the country‟s copper belt, affecting operations including Chambishi and Mopani, and leading to fears that supply could not be met in the short term.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 40.0,
+          "value_max": 42.0,
+          "unit": "$/lb",
+          "condition": "as of the turn of the year in 2008"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2008,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p8::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p8::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "the country‟s copper belt, affecting operations including Chambishi and Mopani, and leading to fears that supply could not be met in the short term. The first indications that the cobalt price would break through the landmark, and historic, US$50/lb level came in February when BHP Billiton raised its bid price on the website to US$51/lb following a series of sales close to that level. The price then peaked at a high of US$52.50/lb for 99.8% material, before falling back to around US$47/lb by the end of May. Prices then entered a period of decline, with a particular drop seen in August. However, this was followed by a sharp increase in September and prices remained relatively high throughout September and October. As November began, prices looked as if they had reached a stable level, though things quickly took a turn for the worse as the full impact of the banking crisis and erosion of economic confidence hit home. Demand started a downward spiral, worsening through Q4 2008 and persisting through Q1 2009. From a level of US$30-32/lb in early November 2008, 99.8% had fallen to as low as US$11.50/lb by early March 2009.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "продажа кобальта",
+          "name_en": "cobalt sales",
+          "canonical": "cobalt_sales"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "BHP Billiton raised its bid price on the website to US$51/lb following a series of sales close to that level."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 32.0,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 11.5,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2008,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p8::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p8::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "08 and persisting through Q1 2009. From a level of US$30-32/lb in early November 2008, 99.8% had fallen to as low as US$11.50/lb by early March 2009. Towards the end of March, there were small signs that the worst may be over, especially from China. Prices made small improvements from US$14.6/lb in June 2009, to US$19.2/lb in September 2009 (for 98.8%), as confidence improved; however, real demand remained weak throughout this period, particularly in the battery and aviation sectors. By October 2009, prices fell back to US$17.7/lb due to high stocks in China and low underlying demand, especially in Western economies. Prices rebounded in November to US$21.7/lb and rose steadily to US$23.4/lb by April 2010 due to a noticeable improvement in demand from the battery and aviation sectors. Nevertheless, prices took momentary tumbles in March and April, as a result of material sold by Glencore at the low price of US$17.25/lb. After being initially buoyant, cobalt consumption became more fragile as the year progressed.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена на кобальт",
+          "name_en": "cobalt price",
+          "canonical": "cobalt_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "prices made small improvements from US$14.6/lb in June 2009, to US$19.2/lb in September 2009 (for 98.8%)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 32.0,
+          "unit": "USD/lb",
+          "condition": "early November 2008"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "le",
+          "value_min": 11.5,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": "early March 2009"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 14.6,
+          "value_max": 19.2,
+          "unit": "USD/lb",
+          "condition": "June 2009 - September 2009"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "le",
+          "value_min": 17.7,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": "October 2009"
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 21.7,
+          "value_max": 23.4,
+          "unit": "USD/lb",
+          "condition": "November 2009 - April 2010"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p8::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p8::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "erial sold by Glencore at the low price of US$17.25/lb. After being initially buoyant, cobalt consumption became more fragile as the year progressed. Usage of cobalt-containing superalloys in aerospace remained firm as a return of business and leisure travellers prompted airlines to consider bolstering orders for airplane components. However, early advances in cobalt offtake by the battery sector proved difficult to maintain and demand weakened. Prices understandably moved in parallel not least given the successful start- up of various cobalt mines in the DRC, which raised the availability of cobalt-containing ores and concentrates, benefiting China‟s output of cobalt salts and chemicals in particular. Thus, on balance, considerable market surpluses accumulated throughout 2010 causing cobalt prices to decrease by some 30% between January and December. Prices for refined cobalt edged higher in early January 2011 on the back of a solid stream of enquiries and improvements in consumption, in particular from superalloy manufacturers.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение кобальта из руды и концентратов",
+          "name_en": "extraction of cobalt from ores and concentrates",
+          "canonical": "cobalt_extraction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "prices moved in parallel not least given the successful start-up of various cobalt mines in the DRC, which raised the availability of cobalt-containing ores and concentrates"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p8::c4": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p8::c4",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "higher in early January 2011 on the back of a solid stream of enquiries and improvements in consumption, in particular from superalloy manufacturers. Interestingly, demand began to pick up during the final two weeks of December when sentiment improved and prices stabilised at US$17/lb for high-grade material and US$16/lb for Russian",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель высокого качества",
+          "name_en": "high-grade nickel",
+          "canonical": "high_grade_nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель российского производства",
+          "name_en": "Russian nickel",
+          "canonical": "russian_nickel"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 17.0,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 16.0,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p9::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p9::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 81 CRU International Limited confidential ingots. Demand, notably in the aerospace, high speed steels and medical prosthetics sectors, was supported by inventory building through the seasonally robust first quarter though the Japanese earthquake and tsunami caused buyers to temporarily withdraw from the market or liquidate stocks. After a brief pricing rally around the annual CDI conference in May 2011, cobalt abruptly changed direction once again and quotes for cobalt metal and chemicals – regardless of grade or shape – softened. Slower than expected demand, particularly in China, and substantial supply additions impacted prices in June-July 2011. As in July, 99.8% material was trading at US$16.50/lb. That was followed by an uptick in August and September, which was not clearly explained by the fundamentals of the cobalt market. Despite a modest rise, prices were trading within a steady range, attributed to limited levels of business activity. In line with expectations, prices contracted during the course of Q4 2011 due to ongoing macro-generated weakness and oversupply concerns. 98% material averaged US$14.57 in December 2011.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "98% кобальта",
+          "name_en": "98% cobalt",
+          "canonical": "98_cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "99.8% кобальта",
+          "name_en": "99.8% cobalt",
+          "canonical": "99_8_cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 16.5,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "eq",
+          "value_min": 14.57,
+          "value_max": 14.57,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p9::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p9::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "racted during the course of Q4 2011 due to ongoing macro-generated weakness and oversupply concerns. 98% material averaged US$14.57 in December 2011. Despite the Christmas and New Year holiday season, cobalt prices found a floor in December 2011 and edged up when business resumed in January 2012. Indeed, increasing purchasing activity and some restocking supported prices, which reached US$15.80/lb in February. Prices came under pressure in March as oversupply, in particular from high pressure acid leach operations, was expected to add to an already high market surplus. That was coupled by the end of the Japanese financial year with consumers trying to sell excess stocks, however, without much interest from buyers. An unusual period of price stability took place in April and May 2012; 98% cobalt averaged US$15.20/lb in the above period. Since the CDI conference in late May, prices have been in decline, contracting to under US$13.00/lb in late July 2012.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "высокотемпературный кислотный разъедание (HPL, high pressure acid leaching)",
+          "name_en": "high pressure acid leach",
+          "canonical": "high_pressure_acid_leach"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "oversupply from high pressure acid leach operations"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p9::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p9::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "$15.20/lb in the above period. Since the CDI conference in late May, prices have been in decline, contracting to under US$13.00/lb in late July 2012. © 2012 CRU International Limited confidential 0 5 10 15 20 05/11 06/11 07/11 08/11 09/11 10/11 11/11 12/11 01/12 02/12 03/12 04/12 05/12 06/12 European freemarket MB 99.8% price European freemarket MB 99.3% price Cobalt prices have lost momentum since mid-2011 US$/lb Data: MB",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": 13.0,
+          "value_max": 15.2,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p10::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p10::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "82 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential 3. Price trajectories of related metals: Cu and Ni © 2012 CRU International Limited confidential 0 1 2 3 4 5 01/11 04/11 07/11 10/11 01/12 04/12 LME copper cash price US$/lb Copper prices shift a gear lower on an uncertain economic outlook US$/lb Data: LME © 2012 CRU International Limited confidential Nickel prices trend lower on weakening fundamentals US$/lb Data: LME 0 5 10 15 01/11 04/11 07/11 10/11 01/12 04/12 LME nickel cash price US$/lb The Outlook for Cobalt 2012 Chapter 3 83 CRU International Limited confidential 4. Benchmark price comparisons 4.1 Jinchuan electrolytic vs. freemarket 99.3% quotation The Chinese market and price structure are largely a function of cobalt concentrate imports. Even though Jinchuan is mainly active in imports of intermediates and also uses feed from its captive mine (normally as cobalt matte), it is its electrolytic cobalt price which is considered as the benchmark in China. Given the magnitude of refined production volume in China, movements in benchmark domestic prices reflect the prevailing sentiment in the market.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция кобальта",
+          "name_en": "electrowinning of cobalt",
+          "canonical": "electrowinning_of_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Nickel prices trend lower on weakening fundamentals"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Jinchuan electrolytic vs. freemarket 99.3% quotation"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p10::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p10::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "na. Given the magnitude of refined production volume in China, movements in benchmark domestic prices reflect the prevailing sentiment in the market. However, domestic cobalt prices are related to concentrate prices. The concentrate price in China is a significant component of the price of processed cobalt. Historically, China has been relying on imports of concentrate to feed domestic refined production. Therefore, the price of concentrate was central to price downstream stages of the cobalt supply chain. Benchmark prices for concentrate have a close relationship with Chinese imports of concentrate and largely reflect the supply situation in the DRC. The concentrate price has a significant impact on the margins of Chinese processors. Since mid-2011, Chinese imports of concentrate have fallen substantially. In 2011, concentrate imports amounted to 348,956 tonnes (gross weight), marginally down from 2010. However, in H1 2012, concentrate imports contracted by 48% year-on-year to 97,431 tonnes.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка концентрата кобальта",
+          "name_en": "processing of cobalt concentrate",
+          "canonical": "cobalt_concentrate_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "the price of concentrate was central to price downstream stages of the cobalt supply chain"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p10::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p10::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 10,
+      "lang": "en",
+      "text": "o 348,956 tonnes (gross weight), marginally down from 2010. However, in H1 2012, concentrate imports contracted by 48% year-on-year to 97,431 tonnes. The decline was partly attributed to high domestic inventories and a slowdown in the market, but mainly due to a structural change in the raw material pattern in favour of imports of intermediate products. Indeed, in H1 2012 Chinese imports of cobalt intermediate products advanced by 15% year-on- year to 42,287 tonnes. Therefore, the decline in Chinese concentrate imports partly resulted in a decline in benchmark concentrate prices. © 2012 CRU International Limited confidential 10 11 12 13 14 15 10,000 20,000 30,000 40,000 01/10 03/10 05/10 07/10 09/10 11/10 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 Monthly Chinese imports of ores & concentrates in gross weight Benchmark concentrate CIF prices at main Chinese ports US$/lb Concentrate prices in China are correlated with import volumes US$/lb Data: GTIS, MB tonnes",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сырьё и концентраты",
+          "name_en": "ores and concentrates",
+          "canonical": "ores_and_concentrates"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "импорт концентратов кобальта",
+          "name_en": "import of cobalt concentrate",
+          "canonical": "cobalt_concentrate_import"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "concentrate imports contracted by 48% year-on-year to 97,431 tonnes"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "The decline was partly attributed to high domestic inventories and a slowdown in the market"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "gross_weight",
+          "op": "le",
+          "value_min": null,
+          "value_max": 348956.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "gross_weight",
+          "op": "le",
+          "value_min": null,
+          "value_max": 348956.0,
+          "unit": "tonnes",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p12::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p12::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "84 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential Higher refined cobalt prices in China, compared to freemarket 99.3%, reflect the impact of high processing costs, as discussed in Chapter 2. As a result, high processing costs support refined cobalt prices in China; this is the reason why the two prices do not converge to each other. The processing component depends on operations-specific costs. However, as discussed earlier, the cost of raw materials is a major determinant, which depends on raw material patterns. The premium of Jinchuan electrolytic cobalt prices over freemarket 99.3% quotations averaged US$4.42/lb in January 2010 – July 2012. An important development in this context is the upstream integration of Chinese processors. As Chinese processors acquire stakes in mines, this enables them to have access to cobalt feed at considerably lower cost, as opposed to buying it from a third source. An example is Jinchuan‟s stake in Metorex. This enabled Jinchuan to incorporate the Ruashi mine in the DRC in its portfolio. Taking a step to becoming a more integrated business, ore production and carbonate processing at Ruashi becomes part of Jinchuan.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электролиз кобальта",
+          "name_en": "electrowinning of cobalt",
+          "canonical": "electrowinning_of_cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железо кобальта 99.3%",
+          "name_en": "99.3% cobalt concentrate",
+          "canonical": "99_3_percent_cobalt_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Jinchuan",
+          "name_en": "Jinchuan",
+          "canonical": "jinchuan"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "Меторекс",
+          "name_en": "Metorex",
+          "canonical": "metorex"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Jinchuan electrolytic cobalt prices over freemarket 99.3% quotations"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "electrowinning of cobalt"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "cobalt_concentrate_premium",
+          "op": "le",
+          "value_min": null,
+          "value_max": 4.42,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p12::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p12::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "C in its portfolio. Taking a step to becoming a more integrated business, ore production and carbonate processing at Ruashi becomes part of Jinchuan. Such a development has an obvious impact on the price Jinchuan needs to pay for its feed. The above acquisition generates prospects to Jinchuan to acquire and develop further projects in Africa. In the absence of stake holdings, Chinese processors need to negotiate concentrate supply contracts with African miners. Interestingly, total costs fall when we incorporate the „subsidy‟ offered by the copper content in the concentrate. Despite this positive effect, high processing costs make many small-scaled Chinese refiners unprofitable. While at the end of 2010 many Chinese refiners agreed on floor prices for the 2011 concentrate contracts, there was resistance in their renewal for the 2012 contracts in view of falling market prices. Suppliers said that floor prices were justified and were formed by the cost of mining, concentrating, and shipping. On the other hand, buyers argued that the market had high stocks, discounted cobalt salt availability and offers for cobalt intermediate products without floors.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка концентрата кобальта",
+          "name_en": "processing of cobalt concentrate",
+          "canonical": "cobalt_concentrate_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "минеральные руды",
+          "name_en": "ore",
+          "canonical": "ore"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "оборудование для обработки концентрата кобальта",
+          "name_en": "processing equipment for cobalt concentrate",
+          "canonical": "cobalt_concentrate_processing_equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "ore production and carbonate processing at Ruashi becomes part of Jinchuan"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "processing of cobalt concentrate"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p12::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p12::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 12,
+      "lang": "en",
+      "text": "hand, buyers argued that the market had high stocks, discounted cobalt salt availability and offers for cobalt intermediate products without floors. In a weakening environment, long negotiations took place in late 2011 and early 2012, the result of which was reflected in the development of concentrate price quotations. © 2012 CRU International Limited confidential 0 5 10 15 20 25 30 01/10 03/10 05/10 07/10 09/10 11/10 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 07/12 Jinchuan electrolytic cobalt prices US$/lb 99.3% US$/lb Jinchuan premium over 99.3% quotations Jinchuan prices at a premium over freemarket 99.3% quotations US$/lb Data: MB, CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "электролиз кобальта",
+          "name_en": "electrolytic cobalt production",
+          "canonical": "electrolytic_cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Jinchuan electrolytic cobalt prices US$/lb"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p13::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p13::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 85 CRU International Limited confidential 4.2 Freemarket 99.3% vs. 99.8% quotations Most supply agreements are based on the 99.3% MB quotation, which is considered as the industry benchmark. The spread between the 99.3% and 99.8% quotations is referred to as the premium. The low (99.3%) and high (99.8%) grade markets are two different situations (connected, however), and therefore they each feature their own fundamentals. Hence, changes in the premium indicate market deficits or surpluses and sometimes trigger substitution effects between the two grades. In addition, different end-use sectors refer to different quotations. For instance, the low end of the 99.3% price is the benchmark for chemical production. The more technically demanding consumers, particularly in the superalloys industry have been responsible for increases in the premium. In the past, high premiums required for high grade cathode prompted consumers to substitute the lower grade Russian ingot in many applications that had previously used high grade material.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "品位",
+          "name_en": "grade",
+          "canonical": "grade"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "low_grade",
+          "op": "eq",
+          "value_min": 99.3,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "high_grade",
+          "op": "eq",
+          "value_min": 99.8,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p13::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p13::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "high grade cathode prompted consumers to substitute the lower grade Russian ingot in many applications that had previously used high grade material. However, during the course of the last ten years, consumers have become more adept at using different varieties of cobalt, thus enhancing their purchasing strategy through greater flexibility and increased bargaining power. The result has been a trend towards a decline in the premium. Since mid-2011, there has been an even faster decline in the premium. In particular since November 2011, the premium has been stabilised within the range of US$0.50-0.75/lb. It would be interesting to analyse how volatile the low and high end prices of each grade are. We conduct this in the period 4 January 2006 to 13 July 2012 by referring to the standard deviation of each series, which is a statistical measure indicating the degree of variation of a set of values around its average. We first examine the 99.8% price. In the above period, the low end averaged US$21.92/lb, with a standard deviation of 9.40. The high end had a mean of US$23.20/lb and a standard deviation of 9.57. We now turn to the 99.3% price.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "премия",
+          "name_en": "premium",
+          "canonical": "premium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "low_end_price",
+          "op": "le",
+          "value_min": 21.92,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "high_end_price",
+          "op": "le",
+          "value_min": 23.2,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p13::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p13::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "21.92/lb, with a standard deviation of 9.40. The high end had a mean of US$23.20/lb and a standard deviation of 9.57. We now turn to the 99.3% price. The low end had an average of US$20.48/lb, with its standard deviation being 9.20. The high end averaged US$21.74/lb, while it exhibited a standard deviation of 9.24. Evaluating the magnitude of the standard deviation statistics, it appears that the least volatile of the above series is the low end of the 99.3% price, the series with the lowest standard deviation. On the other hand, the series with the highest variation around its average is the high end of the 99.8% price. While the above statistical analysis is a robust one as it incorporates a relatively long time period, we repeat below the same analysis, however, restricting the time period to begin on 5 January 2011. The conclusions in terms of variability ranking are the same but the gain is that due to narrower price ranges, the results are easier to graph. The graph illustrating the findings of this analysis can be found at the bottom of the next page. Again, we first refer to the 99.8% price. The low end averaged US$16.09/lb, with a standard deviation of 1.95.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt price",
+          "name_en": "cobalt price",
+          "canonical": "cobalt_price"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "standard deviation",
+          "name_en": "standard deviation",
+          "canonical": "std_deviation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "with a standard deviation of 9.40, The high end had a mean of US$23.20/lb and a standard deviation of 9.57, The low end had an average of US$20.48/lb, with its standard deviation being 9.20, The high end averaged US$21.74/lb, while it exhibited a standard deviation of 9.24"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "low_end_mean",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 20.48,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "high_end_mean_99p8",
+          "op": "eq",
+          "value_min": 16.09,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "std_deviation_low_end_99p3",
+          "op": "eq",
+          "value_min": 9.2,
+          "value_max": 9.24,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "std_deviation_high_end_99p8",
+          "op": "eq",
+          "value_min": 1.95,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p13::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p13::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "found at the bottom of the next page. Again, we first refer to the 99.8% price. The low end averaged US$16.09/lb, with a standard deviation of 1.95. The high end had an average of US$17.23/lb, while it exhibited a standard deviation of 2.11. Moving to the 99.8% price, the low end had a mean of US$15.23/lb and a standard deviation of 1.69. The high end averaged US$16.16/lb, with a standard deviation of 1.72. The results are consistent with the ones from the test conducted in the longer period. The most volatile of the four price series is the high end of the 99.8% whilst the least volatile is the low end of the 99.3% price.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "price",
+          "name_en": "price",
+          "canonical": "price"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_low_end_mean",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 16.09,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_low_end_std_dev",
+          "op": "eq",
+          "value_min": 1.95,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_high_end_mean",
+          "op": "eq",
+          "value_min": 17.23,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_high_end_std_dev",
+          "op": "eq",
+          "value_min": 2.11,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.3_low_end_mean",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 15.23,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.3_low_end_std_dev",
+          "op": "eq",
+          "value_min": 1.69,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_high_end_mean",
+          "op": "eq",
+          "value_min": 16.16,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price_99.8_high_end_std_dev",
+          "op": "eq",
+          "value_min": 1.72,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p14::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p14::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "86 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential © 2012 CRU International Limited confidential 0.0 0.5 1.0 1.5 2.0 2.5 3.0 01/10 03/10 05/10 07/10 09/10 11/10 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 Difference between 99.3% & 99.8% quotations in US$/lb Premium of 99.8% prices over 99.3% is falling US$/lb Data: MB, CRU © 2012 CRU International Limited confidential 12.2 14.2 16.2 18.2 20.2 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 07/12 99.8% high end US$/lb 99.3% low end US$/lb Freemarket total price range: low end of 99.3% the least volatile high end of 99.8% the most volatile US$/lb Data: MB The Outlook for Cobalt 2012 Chapter 3 87 CRU International Limited confidential 4.3 LME vs. freemarket 99.3% prices LME and freemarket prices exhibit a strong degree of convergence to each other. In the period May 2010 to June 2012, LME prices had an average of US$16.23/lb, while freemarket prices US$16.41/lb. In 16 out of 26 months, freemarket prices were at an average premium of US$0.55/lb over LME prices. In 10 months, LME prices were at an average premium of US$0.40lb over freemarket prices.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "premium_99.8%",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.55,
+          "unit": "US$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "premium_99.3%",
+          "op": "ge",
+          "value_min": 0.4,
+          "value_max": 0.55,
+          "unit": "US$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p14::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p14::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "es were at an average premium of US$0.55/lb over LME prices. In 10 months, LME prices were at an average premium of US$0.40lb over freemarket prices. We would expect freemarket prices to be slightly higher as they have an implicit location and quality premium. Freemarket prices are based on reported client deals, which include the above premium. On the other hand, LME prices may refer to the least convenient location, and may also not cover the best quality material. Additionally, in the above period, freemarket prices exhibited higher volatility compared to LME prices. The standard deviation statistic for freemarket prices was 1.81, while that of LME prices 1.79. As the widely accepted market benchmark, we would expect freemarket prices to reflect developments in the market in a better way. It appears that due to higher degree of volatility freemarket prices capture more market movements. This does not mean that LME prices do not capture those movements, since the trend of the two series is almost identical.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "trading",
+          "name_en": "trading",
+          "canonical": "trading"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "premium_over_lme",
+          "op": "le",
+          "value_min": 0.55,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "premium_over_freemarket",
+          "op": "le",
+          "value_min": 0.4,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p14::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p14::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "ture more market movements. This does not mean that LME prices do not capture those movements, since the trend of the two series is almost identical. It is anticipated that due to the relatively small trade volume on the LME as a percentage of world demand (which we estimate at 8.5% in 2011), LME prices are more susceptible to extreme volatility that does not necessarily reflect the situation in the market. However, by conducting this analysis on a monthly basis, rather than using high frequency weekly data, we filter out such effects. CRU anticipates that as the LME cobalt trade volumes grow and the contract matures, the degree of convergence between LME and freemarket prices will rise. For fast adjustment between the two series, there are some important factors. Market liquidity is one of them, and this is expected to increase in the cobalt market. As we suggest in Chapter 1, cobalt consumption is projected to rise at a CAGR of 6.1% in 2000-2022. An expanding market size will bring more liquidity. Another factor is frequency of trading and price quotations.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "trading",
+          "name_en": "trading",
+          "canonical": "trading"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "consumption_growth_rate",
+          "op": "ge",
+          "value_min": 6.1,
+          "value_max": null,
+          "unit": "%/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p16::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p16::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "88 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential When price data become more frequent, more arbitrage activity is projected to take place in the cobalt market. This has happened in other industrial metals, such as copper. In the case of copper, arbitrage activity between the LME, Comex, and SHFE tends to force prices to converge. When a price window opens, arbitrage activity causes price convergence. However, in the case of cobalt these developments may only happen in the long-run as they are also a function of how financialised a market is. In the foreseeable future, the cobalt market is not predicted to be as financialised as other metal markets are, such as aluminium and copper. From a fundamentals‟ perspective, even though LME cobalt trade has strong potential, there are certain limitations. As the LME is a principal-to-principal market, consumers have not direct access but have to buy metal through a member firm. Furthermore, there are supply limitations. The LME has regulations that producers need to comply with. Then, it is often in the producers‟ interest to sell quality material in the freemarket as they can realise a premium price.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "торговля кобалтом на LME",
+          "name_en": "LME cobalt trading",
+          "canonical": "lme_cobalt_trading"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "LME cobalt trade has strong potential"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p16::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p16::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "ers need to comply with. Then, it is often in the producers‟ interest to sell quality material in the freemarket as they can realise a premium price. Since the LME provides a transparent futures market, it is interesting to comment on the data available. We do that by comparing six forward curves, derived by monthly average prices, in the period January 2012 to June 2012. The forward curves are in backwardation, meaning that futures prices are lower than spot prices. Backwardation is normally a situation characterised by current tightness, featuring high spot prices. However, considering the situation in the cobalt market, we understand that this is more a reflection of collective expectations of increasing supply in the future. Indeed, industry participants expect that the cobalt market will continue to be oversupplied in the short and medium term, and that impacts their price expectations. CRU believes that the LME cobalt forward curve captures those expectations. Given the correlation between LME and freemarket prices, cash position in the LME forward curve is largely a function of freemarket quotations.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не применимо",
+          "name_en": "not applicable",
+          "canonical": "not_applicable"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p16::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p16::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 16,
+      "lang": "en",
+      "text": "ions. Given the correlation between LME and freemarket prices, cash position in the LME forward curve is largely a function of freemarket quotations. In addition, movements in the forward curve are primarily characterised by parallel shifts rather than tilts. This makes longer-term positions more dependent on cash positions. We believe that as the LME cobalt trade volume rises, the forward curve will be moving in a more dynamic pattern, hence featuring more tilts. © 2012 CRU International Limited confidential 12.5 13.5 14.5 15.5 Cash position 3-month position 15-month position Jan-12 Feb-12 Mar-12 Apr-12 May-12 Jun-12 LME forward curve captures collective industry expectations US$/lb Data: LME, CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "LME cobalt trade",
+          "name_en": "LME cobalt trading",
+          "canonical": "lme_cobalt_trading"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "cash position",
+          "name_en": "cash position",
+          "canonical": "cash_position"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "LME cobalt trade volume rises"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Cash position in the LME forward curve is largely a function of freemarket quotations"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "cash_position",
+          "op": "le",
+          "value_min": null,
+          "value_max": 15.5,
+          "unit": "US$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p14::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p14::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "rise at a CAGR of 6.1% in 2000-2022. An expanding market size will bring more liquidity. Another factor is frequency of trading and price quotations. © 2012 CRU International Limited confidential 12 14 16 18 20 05/10 07/10 09/10 11/10 01/11 03/11 05/11 07/11 09/11 11/11 01/12 03/12 05/12 LME settlement prices US$/lb freemarket 99.3% US$/lb LME and freemarket 99.3% prices exhibit strong convergence US$/lb Data: LME, MB",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "рост рынка кобальта",
+          "name_en": "cobalt market growth",
+          "canonical": "Cobalt Market Growth"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "согласование цен LME и свободного рынка",
+          "name_en": "convergence of LME and free market prices",
+          "canonical": "Price Convergence"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "литейная металлическая биржа (LME)",
+          "name_en": "London Metal Exchange (LME)",
+          "canonical": "LME"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "rise at a CAGR of 6.1% in 2000-2022"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "US$/lb LME and freemarket 99.3% prices exhibit strong convergence US$/lb"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "CAGR",
+          "op": "range",
+          "value_min": 6.0,
+          "value_max": 6.2,
+          "unit": "%",
+          "condition": "in 2000-2022"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p17::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p17::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 89 CRU International Limited confidential 5. The cobalt price outlook – medium-term 5.1 Introduction to price forecasting This chapter summarises the approach to forecasting the cobalt price adopted by CRU. We distinguish between the near/medium-term price forecast (2012-2017) and the long-term outlook for cobalt prices. The former is primarily based on the supply and demand fundamentals of the cobalt market, as discussed in Chapter 1 and 2. The long-term price outlook for cobalt follows CRU‟s development of the concept that long-run commodity prices are driven by the long-run marginal costs as well as the industry response to this cost of production by the behaviour of marginal producers and the creation of new capacity. 5.2 The near/medium-term price outlook methodology Over the past 20 years, the use of cobalt has moved from mainly metallurgical applications to a point where some 57% is currently used in chemical sectors. This has meant that refined cobalt is now produced and consumed in both metal and chemical forms.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "металлургические применения кобальта",
+          "name_en": "metallurgical applications of cobalt",
+          "canonical": "metallurgical_applications_of_cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "химические применения кобальта",
+          "name_en": "chemical applications of cobalt",
+          "canonical": "chemical_applications_of_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The use of cobalt has moved from mainly metallurgical applications to a point where some 57% is currently used in chemical sectors."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p17::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p17::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "ere some 57% is currently used in chemical sectors. This has meant that refined cobalt is now produced and consumed in both metal and chemical forms. CRU believes that developments in cobalt prices are best understood when the fundamentals of both metal and chemical markets are taken into account. However, given the increasing degree of flexibility to switch from one grade to the other, distinguishing between the metallurgical and non-metallurgical sectors may not fully capture market developments. Indeed, deficits in one sector may be met by surpluses in the other, and that affects market prices. As a result, in the 2012 issue we take into consideration the market balance of the total refined market, which consists of both metallurgical and non-metallurgical sectors. This relationship comes from the findings of Chapter 1 and 2, which focused on refined demand and supply respectively. In addition to the refined market balance, we have also taken into consideration the balance at a raw material level. This consists of concentrate and intermediate products to supply the processing operations of cobalt metal and chemical producers who rely on purchased feed.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "рefined cobalt",
+          "name_en": "refined cobalt",
+          "canonical": "refined_cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "processing operations of cobalt metal and chemical producers",
+          "name_en": "cobalt metal and chemical producer processing operations",
+          "canonical": "cobalt_processing_operations"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "supply the processing operations of cobalt metal and chemical producers who rely on purchased feed"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p17::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p17::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "sists of concentrate and intermediate products to supply the processing operations of cobalt metal and chemical producers who rely on purchased feed. At this stage, ignoring the raw material market would result in unrealistic findings. This is especially relevant in the long-run, when the cobalt market is expected to experience a severe deficit of cobalt units needed to meet refined consumption needs. Table 3.1: World refined and feed supply/demand balance 2011-2017 2011 2012 2013 2014 2015 2016 2017 World Position World Production Tonnes Co 79796 81974 90334 97501 102889 107521 111867 World Consumption Tonnes Co 77015 81554 87163 93328 100627 107082 113416 Refined SD Balance Tonnes Co 2781 420 3171 4173 2262 439 -1549 Feed Balance Tonnes Co -565 -1786 -1232 23 14 -270 -147 Co 99.3% $/lb 16.4 14.0 13.0 12.8 13.5 15.0 17.0 Co 99.8% $/lb 17.6 14.8 13.8 13.6 14.3 15.9 18.0 Data: CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка кобальта",
+          "name_en": "cobalt processing",
+          "canonical": "cobalt_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "supply the processing operations of cobalt metal and chemical producers who rely on purchased feed."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p18::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p18::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "90 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential 5.3 Low grade cobalt: market balance and price forecast CRU estimates that the world refined cobalt market balance exhibited a surplus of 2,781 tonnes in 2011. We believe that the surplus in 2012 will be considerably lower, amounting to 420 tonnes of cobalt. Refined consumption is expected to grow at a faster rate compared to production. Some small-sized Chinese processors are projected to cut production in 2012, impacted by low prices. Freemarket 99.3% prices averaged US$14.43/lb in H1 2012; we forecast that low grade prices will average US$14.00/lb in full year 2012. Even though the surplus is not predicted to be sizeable, we anticipate that high inventory levels at a concentrate and intermediate product level accumulated in 2009-2011 will weigh on refined prices. CRU expects that those inventories will meet the needs of a tight raw material market in 2011-2013, which is anticipated to see an accumulated deficit of 3,582 tonnes of contained cobalt. Looking ahead, we expect that refined production will grow strongly in 2013, generating a surplus of 3,171 tonnes.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "price",
+          "name_en": "price",
+          "canonical": "price"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "market_balance_2011",
+          "op": "le",
+          "value_min": null,
+          "value_max": 2781.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "projected_market_surplus_2012",
+          "op": "le",
+          "value_min": 420.0,
+          "value_max": 420.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_freemarket_2012_h1",
+          "op": "eq",
+          "value_min": 14.43,
+          "value_max": 14.43,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "forecasted_price_2012_full_year",
+          "op": "eq",
+          "value_min": 14.0,
+          "value_max": 14.0,
+          "unit": "USD/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "projected_deficit_2011_2013",
+          "op": "le",
+          "value_min": null,
+          "value_max": 3582.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "projected_surplus_2013",
+          "op": "ge",
+          "value_min": 3171.0,
+          "value_max": 3171.0,
+          "unit": "tonnes",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p18::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p18::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "3,582 tonnes of contained cobalt. Looking ahead, we expect that refined production will grow strongly in 2013, generating a surplus of 3,171 tonnes. In that year, we forecast that 99.3% prices will contract to US$13.00/lb. An even higher refined surplus of 4,173 tonnes predicted for 2014 will put more downward pressure on prices, which are expected to reach an average of US$12.80/lb. Despite the fact that a number of operations will not be profitable, they will stay in business in view of a forthcoming profitable period. The raw material market is projected to be balanced in 2014. A turning point is projected to take place in 2015, as consumption growth will outperform production, thus generating a lower surplus of 2,262 tonnes. We believe that prices will start rising, expected to average US$13.50/lb in 2015. An almost balanced refined market is anticipated for 2016, featuring a small surplus of 439 tonnes. CRU projects that prices will increase to US$15.00/lb. Turning to a refined material deficit of 1,549 tonnes, coupled with expectations of a tighter market, prices will be supported, reaching an average of US$17.00/lb in 2017.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "цена кобальта",
+          "name_en": "cobalt price",
+          "canonical": "cobalt_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "prices will contract to US$13.00/lb and are expected to reach an average of US$17.00/lb in 2017"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 13.0,
+          "value_max": 17.0,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p18::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p18::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "aterial deficit of 1,549 tonnes, coupled with expectations of a tighter market, prices will be supported, reaching an average of US$17.00/lb in 2017. Additionally, the raw material market in 2015-2017 is expected to be almost balanced. © 2012 CRU International Limited confidential Surpluses are expected to weigh on prices in the medium term tonnes Data: MB, CRU 12 13 14 15 16 17 18 19 20 -6,000 -5,000 -4,000 -3,000 -2,000 -1,000 0 1,000 2,000 3,000 4,000 5,000 2009 2010 2011 2012 2013 2014 2015 2016 2017 Supply/Demand balance 99.3% nominal price US$/lb",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "натуральная цена",
+          "name_en": "nominal price",
+          "canonical": "nominal_price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "US$17.00/lb in 2017"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "value",
+          "op": "eq",
+          "value_min": 17.0,
+          "value_max": 17.0,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p19::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p19::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 19,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 91 CRU International Limited confidential 5.4 High grade cobalt: premium and price forecast In this outlook, we have taken a different approach to forecasting the premium. We do so by estimating the premium as a percentage of the 99.3% price. This averaged 8% in the period 2000 to H1 2012. However, there is a declining trend over time; when we took the average in 2011 to H1 2012, the premium fell to 6%. In H2 2012 it was 4%. Considering the above, we believe that in the forecast period the premium will average 6% of the 99.3% price. CRU believes that estimating the premium as a percentage of the benchmark 99.3% price is a robust methodology to forecast 99.8% prices. Therefore, even when 99.3% prices reach relatively high or low levels, we can still forecast a realistic price for 99.8% cobalt. For instance, when 99.3% prices averaged US$32.57/lb in Q3 2008, the premium of 99.8% was 8% over the 99.3% price. However, in absolute terms the premium was US$2.68/lb. This shows that using a flat premium does not fully reflect the cobalt pricing mechanism.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "премия",
+          "name_en": "premium",
+          "canonical": "premium"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "premium_percentage_99.3_price",
+          "op": "range",
+          "value_min": 6.0,
+          "value_max": 8.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "premium_absolute_value_99.8_price_usd_per_lb",
+          "op": "le",
+          "value_min": 2.68,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p19::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p19::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 19,
+      "lang": "en",
+      "text": "ice. However, in absolute terms the premium was US$2.68/lb. This shows that using a flat premium does not fully reflect the cobalt pricing mechanism. Applying the above methodology, we forecast that 99.8% prices will average US$14.84/lb in 2012, down from US$17.60/lb in the previous year. Moving forward, we expect that high grade prices will follow the pattern of low grade prices. The price for 99.8% material is projected reach US$18.02/lb in 2017. © 2012 CRU International Limited confidential The premium of 99.8% prices is anticipated to remain narrow Data: MB, CRU 0 5 10 15 20 2009 2010 2011 2012 2013 2014 2015 2016 2017 99.8% nominal price 99.3% nominal price US$/lb Table 3.2: Cobalt price forecast, 2011-2017 2011 2012 2013 2014 2015 2016 2017 Nominal prices Co 99.3% $/lb nominal 16.4 14.0 13.0 12.8 13.5 15.0 17.0 Co 99.8% $/lb nominal 17.6 14.8 13.8 13.6 14.3 15.9 18.0 Premium $/lb nominal 1.2 0.8 0.8 0.8 0.8 0.9 1.0 Real prices (2012 $) Co 99.3% $/lb real 16.9 14.0 12.7 12.3 12.8 13.8 15.3 Co 99.8% $/lb real 18.1 14.8 13.5 13.0 13.5 14.7 16.3 Data: CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "натуральная цена кобальта (99.3%)",
+          "name_en": "nominal price of cobalt 99.3%",
+          "canonical": "nominal_price_99_3_cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "натуральная цена кобальта (99.8%)",
+          "name_en": "nominal price of cobalt 99.8%",
+          "canonical": "nominal_price_99_8_cobalt"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "премия кобальта (99.8%)",
+          "name_en": "premium of cobalt 99.8%",
+          "canonical": "premium_99_8_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "натуральная цена кобальта (99.3%)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "натуральная цена кобальта (99.8%)"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "премия кобальта (99.8%)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "value_nominal",
+          "op": "range",
+          "value_min": 16.4,
+          "value_max": 17.0,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "value_nominal",
+          "op": "range",
+          "value_min": 17.6,
+          "value_max": 18.02,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "value_nominal",
+          "op": "range",
+          "value_min": 1.2,
+          "value_max": 1.0,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p20::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p20::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "92 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential 6. The cobalt price outlook – long-term 6.1 The long-term price outlook methodology This section summarises CRU‟s approach to forecasting long-term cobalt prices. Essentially, it follows CRU‟s development of the concept that long-run commodity prices are driven by the long-run marginal cost of production (LRMC), as well as the industry response to this cost of production by the behaviour of marginal producers and the creation of new capacity. In the case of cobalt, developing this concept is more complicated than most other commodities and metals because it is produced in different forms and it is mainly a by-product of copper and nickel, which are more significant metals in terms of volume. 6.2 The long-term market balance Our supply and demand analysis suggests that there is going to be a deficit in the refined cobalt market in the long-run. This immediately implies that cobalt prices will increase in order to attract the development of new projects. With refined demand expected to grow at a CAGR of 6.1% in 2000-2022, sufficient supply will be needed to meet consumption needs.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "long-run commodity prices are driven by the long-run marginal cost of production (LRMC)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p20::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p20::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "ent of new projects. With refined demand expected to grow at a CAGR of 6.1% in 2000-2022, sufficient supply will be needed to meet consumption needs. Our supply and demand balance shows that the refined market will exhibit a deficit of 28,840 tonnes in 2022. We project that the raw material market will be balanced in 2022 but this is only to meet the refined production forecast we present in Chapter 2, rather than world consumption needs. Within the cobalt feed supply analysis, we have assumed that there will be an increase in the supply of concentrates from the DRC in order to meet the cobalt feed needs, in particular those for Chinese processors. That may be affected by the DRC government restricting exports of concentrate in favour of intermediate products and capture domestically the value added. The fact that the raw material market appears to be balanced in 2022 does not mean that there will be enough cobalt units to meet refined demand needs. This is because the refined market will be in deficit, meaning that new processing capacity will be needed, especially in order to produce chemical products.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка концентратов кобальта",
+          "name_en": "processing of cobalt concentrates",
+          "canonical": "cobalt_concentrates_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "supply of concentrates from the DRC in order to meet the cobalt feed needs"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p20::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p20::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "because the refined market will be in deficit, meaning that new processing capacity will be needed, especially in order to produce chemical products. The refined supply and demand analysis conducted in Chapter 1 and 2 shows that the chemical market will be increasingly tighter in the future, and that should trigger expansions or new projects. We believe that this new capacity, in the form of expansions or new projects, will be most likely located in China in order to satisfy soaring demand from regional chemical end-use sectors. The projected refined market deficit in 2022 is an indication of the need of the future cobalt needed at a refined level, on top of current production. These material requirements are expressed in cobalt contained terms at a refined level; they provide a measure of the quantity of cobalt units needed in the supply chain in 2022. Importantly, they do not double count deficits of cobalt units at upstream stages of the supply chain. CRU would like to emphasise at this point that we took a conservative approach when forecasting refined output from current producers in order to deliver a realistic projection.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка кобальта",
+          "name_en": "cobalt processing",
+          "canonical": "cobalt_processing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "refined market will be in deficit, meaning that new processing capacity will be needed, especially in order to produce chemical products."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p20::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p20::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 20,
+      "lang": "en",
+      "text": "at this point that we took a conservative approach when forecasting refined output from current producers in order to deliver a realistic projection. To supply chemical processors, the most obvious source of cobalt feed would be purchased concentrate. However, this is also a function of the necessary investment to add intermediate products capacity and the willingness at the DRC to export concentrate rather than process it to higher value added intermediate products.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "покупка концентрата",
+          "name_en": "purchase of concentrate",
+          "canonical": "purchase_of_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "purchased concentrate"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p21::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p21::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 21,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 93 CRU International Limited confidential 6.3 The long-term cost of production and price forecast CRU follows a simplified approach to assess the LRMC in 2022 based on site and business cost estimates and capital investment for the marginal producers. All values in this section are nominal, referring to 2022 US dollars. As suggested in our fundamentals analysis in the previous section, there is going to be a shortage of cobalt units in the long-run. Our new projects analysis in Chapter 2 shows that the outlook for new projects is uncertain, therefore it is not possible to assess which operations are most likely to add new capacity. Additional capacity can come from a variety of operations, featuring different locations, flow of raw materials and product forms. In addition, finance for those projects may come from different sources, hence affecting the capital charge of each project. As a result, the above factors may potentially generate a broad range of LRMC projections for the cobalt industry. Under these circumstances, defining categorically what the LRMC of the cobalt industry will be is not possible.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The long-term cost of production and price forecast CRU follows a simplified approach to assess the LRMC in 2022 based on site and business cost estimates and capital investment for the marginal producers."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p21::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p21::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 21,
+      "lang": "en",
+      "text": "projections for the cobalt industry. Under these circumstances, defining categorically what the LRMC of the cobalt industry will be is not possible. Our approach to forecast the LRMC is to assume four types of new projects, based on actual operations in the cobalt market, which provide us with real CAPEX and cobalt production figures. Table 3.3 illustrates those operations. Following the order of the first part of Table 3.3: Indicative production costs in 2022 (nominal values, 2022 US$) Type of project Total CAPEX ($m) Estimated cobalt refinery CAPEX ($m) WACC (%) Country risk premium (%) Capital charge ($m) Annual cobalt production (tonnes) Capital charge ($/lb) Typical site cost ($/lb) Typical realisations cost ($/lb) Long-run cost ($/lb) Potential new capacity Chinese chemical producers using purchased concentrate CHINESE FINANCE 20 15 9.6 1.0 1.59 1,000 0.72 21.86 1.00 23.58 HPAL in Pacific producing intermediate WESTERN FINANCE 6,100 83 9.6 4.5 11.70 4,500 1.18 1.43 7.15 9.76 DRC carbonate project w ith refining by third party (Shalina type) WESTERN FINANCE 400 22 9.6 8.0 3.87 1,000 1.76 0.74 7.18 9.68 Blue chip company w ith emerging market experience (Tenke Fungurume type)",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "установка HPAL",
+          "name_en": "HPAL plant",
+          "canonical": "hpal_plant"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Annual cobalt production (tonnes)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "capital_charge",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 11.7,
+          "unit": "m/tonne",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "cost_per_ton",
+          "op": "le",
+          "value_min": 9.68,
+          "value_max": 23.58,
+          "unit": "$/tonne",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p21::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p21::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 21,
+      "lang": "en",
+      "text": "(Shalina type) WESTERN FINANCE 400 22 9.6 8.0 3.87 1,000 1.76 0.74 7.18 9.68 Blue chip company w ith emerging market experience (Tenke Fungurume type) WESTERN FINANCE Phase 2 1,020 45 9.6 1.0 4.77 5,200 0.42 0.74 7.18 8.34 Blue chip company w ith emerging market experience (Tenke Fungurume type) WESTERN FINANCE Phase 1 2,320 60 9.6 1.0 6.36 10,000 0.29 0.74 7.18 8.21 DRC carbonate project w ith refinery in China (Jinchuan Metorex type) CHINESE FINANCE 340 40 9.6 1.0 4.24 4,500 0.43 3.86 1.00 5.29 Established operations expected to provide support to long-run prices Main product producers (Chambishi) WESTERN FINANCE NA 52 9.6 5.0 7.59 2,500 1.38 14.90 1.00 17.28 Main product producers (Idaho) WESTERN FINANCE NA 75 9.6 0.0 7.20 1,500 2.18 12.18 1.00 15.36 Main product producers (CTT) WESTERN FINANCE NA 75 9.6 4.0 10.20 3,800 1.22 9.35 1.00 11.57 Data: Company reports, CRU estimates",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "извлечение никеля",
+          "name_en": "nickel extraction",
+          "canonical": "nickel_extraction"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "рудник Чамбиси",
+          "name_en": "Chambishi mine",
+          "canonical": "chambishi_mine"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "рудник Идaho",
+          "name_en": "Idaho mine",
+          "canonical": "idaho_mine"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "CTT рудник",
+          "name_en": "CTT mine",
+          "canonical": "ctt_mine"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Main product producers (Chambishi), Main product producers (Idaho), Main product producers (CTT)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p22::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p22::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 22,
+      "lang": "en",
+      "text": "94 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential Table 3.3 titled „Potential new capacity,‟ we first look at the case of Chinese chemical producers who purchase concentrate. Second, we turn to a typical HPAL operation in the Pacific producing an intermediate. Third, we consider the case of a carbonate project in the DRC with refining by a third party, similar to Shalina. Fourth and fifth, we assume a blue chip company with considerable experience in projects in emerging regions; for this particular case we use the example of Tenke Fungurume. Phase 1 and 2 refer to the two stages of the project; since we had available data, we conducted the cost assessment in two stages. Sixth, we look at the case of an integrated DRC carbonate project with a refinery in China. In this case, we refer to the Jinchuan-Metorex relationship. The methodology we follow to forecast the long-run cost of the above four types of projects is as follows. For each operation we estimate the cobalt refinery CAPEX figure expressed in 2022 US dollars. As a reference only, we include the total CAPEX of the project, which has been adjusted for inflation to reflect 2022 nominal values.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "ректификация кобальта",
+          "name_en": "cobalt refining",
+          "canonical": "cobalt_refining"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "оборудование для ректификации кобальта",
+          "name_en": "refining equipment for cobalt",
+          "canonical": "refining_equipment_for_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "cobalt refinery CAPEX figure expressed in 2022 US dollars"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "refining equipment for cobalt"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "none",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "none",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "t/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p22::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p22::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 22,
+      "lang": "en",
+      "text": "022 US dollars. As a reference only, we include the total CAPEX of the project, which has been adjusted for inflation to reflect 2022 nominal values. Then, we use the weighted average cost of capital (WACC) of the industry, which stands at 9.6%. In addition to that, we have incorporated a country risk premium. That varies, and reflects the degree of risk aversion. This is especially relevant when we assess the different sources of finance. A higher country risk premium results in higher capital charges. When Western companies raise finance for projects in high risk regions, a high country risk premium inflates the capital charge. However, when a Western company with significant exposure to high risk projects needs to raise finance, the country risk premium is lower. In the case of Chinese companies, the country risk premium is low, thus enabling them to have lower capital charges. Column „Country risk premium‟ in Table 3.3 provides this information for the projects we include in this analysis. When we add in this simplified cost model the cobalt contained production volume of each operation, we derive the capital charge.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "cobalt contained production volume of each operation"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p22::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p22::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 22,
+      "lang": "en",
+      "text": "e in this analysis. When we add in this simplified cost model the cobalt contained production volume of each operation, we derive the capital charge. The typical site cost and typical realisations cost originate from our 2017 cost analysis in Chapter 2, which have been adjusted for inflation. As we anticipated, non-integrated Chinese chemical producers who purchase feed are expected to exhibit the highest LRMC of production, forecast at US$23.58/lb in 2022. This is followed by the HPAL operation in the Pacific, the DRC carbonate project with refining by a third-party, and the blue chip company with extensive experience in high risk projects. The long-run cost of these projects is anticipated to range within US$8.21-9.76/lb. At the low end of the cost structure we have the DRC carbonate project with refinery in China, with a projected long-run cost of US$5.29/lb. It was anticipated that this kind of integrated operation would be the lowest cost project. Having predicted the above long-run costs from potential projects is not enough to forecast what the LRMC for the industry will be.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "the cobalt contained production volume of each operation"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p22::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p22::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 22,
+      "lang": "en",
+      "text": "est cost project. Having predicted the above long-run costs from potential projects is not enough to forecast what the LRMC for the industry will be. Even though CRU believes that new capacity in the cobalt market will come in the form of the above projects, we need to include in our analysis the long- run cost profile of main product producers. We look at the examples of Chambishi, Idaho and CTT that can be found at the second part of Table 3.3, titled „Established operations expected to provide support to long-run prices.‟ Following the methodology explained above, we forecast that the long-run cost of these operations will be US$17.28/lb, US$15.36/lb, and US$11.57/lb respectively.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "long_run_cost",
+          "op": "le",
+          "value_min": null,
+          "value_max": 17.28,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "long_run_cost",
+          "op": "le",
+          "value_min": 15.36,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "long_run_cost",
+          "op": "le",
+          "value_min": 11.57,
+          "value_max": null,
+          "unit": "$/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p23::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p23::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 95 CRU International Limited confidential As Table 3.3 illustrates, Chinese chemical processors that purchase concentrate are the marginal producers. However, when assessing costs in the long-run, a judgement call is to be made. We believe that the long-run cost level of US$23.58/lb is not a sustainable one, and raw material price negotiations are anticipated to take place. In addition, we believe that costs in the long-run will face downward pressure as a result of integration trends in the cobalt supply chain. Hence, CRU projects that the long-run cost of marginal producers will fall, the extent of which depends on the long-run costs of other projects in the industry. This is the reason why we included the main product producers in this long-run cost analysis, even though we anticipate that new capacity will come in the form of the first four types of projects in Table 3.3. After the high cost non-integrated Chinese processors, we believe that main product producers will provide support to the long-run cobalt price.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "концентрат кобальта",
+          "name_en": "cobalt concentrate",
+          "canonical": "cobalt_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство химических продуктов из концентрата кобальта",
+          "name_en": "chemical processing of cobalt concentrate",
+          "canonical": "chemical_processing_of_cobalt_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Chinese chemical processors that purchase concentrate are the marginal producers."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p23::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p23::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "3.3. After the high cost non-integrated Chinese processors, we believe that main product producers will provide support to the long-run cobalt price. Considering the long-run cost analysis we conducted in Table 3.3, this is US$17.28/lb, which happens to be the long-run cost for Chambishi. Looking at the long-run cost structure of the cobalt industry, we believe that this is going to be the LRMC, expressed in 2022 nominal terms. This represents CRU‟s long-term cobalt price forecast. The above forecast is an indicative long-run price for cobalt, derived by the long-run costs of what we see as typical projects. The forecast does not incorporate the impact that the market balance, either surplus or deficit, will have on refined prices. Prices are expected to see fluctuations around the long-run level, depending on the conditions of the cobalt market. The cost analysis for 2022 does not follow the detailed methodology we have followed in our main cost analysis for 2012 and 2017 in Chapter 2. What we present here is an indicative cost structure that typical projects may face in 2022 in order to assess the addition of new capacity to the cobalt market.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "вычисление долгосрочных затрат",
+          "name_en": "long-run cost analysis",
+          "canonical": "long_run_cost_analysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "long-run cost structure of the cobalt industry"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p23::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p23::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "ent here is an indicative cost structure that typical projects may face in 2022 in order to assess the addition of new capacity to the cobalt market. Considering the above indicative costs of production, a nominal price of US$17.28/lb is regarded as the trigger for the highest cost producers to add new capacity to the cobalt market and meet the anticipated refined consumption needs. CRU‟s projection for the long-run price of cobalt is not an outcome of supply and demand analysis as in the near/medium-term forecast. The price forecast generated for 2012-2017 was derived by an assessment of the expected status of the market balance in the above period. On the other hand, the long-run price projection is regarded as a long-run trigger price for marginal producers to add new capacity. Since the near/medium-term and long-run price forecasts are not the outcome of a single methodology, CRU does not graph them together. 6.4 Alternative scenarios in the price forecast As stated in earlier section in this chapter, our base case price forecast is based on the supply and demand fundamentals for the short/medium-term, and on LRMC for the long-term.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство кобальта",
+          "name_en": "cobalt production",
+          "canonical": "cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "add new capacity to the cobalt market"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p23::c3": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p23::c3",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "n this chapter, our base case price forecast is based on the supply and demand fundamentals for the short/medium-term, and on LRMC for the long-term. The underlying assumptions of the base case are explicitly discussed in Chapter 1 and 2. Our low case scenario is based on a weaker demand outlook and lower inflationary trends. In the short/medium-term, there is more downside rather than upside risk. A weaker price outlook in this case, is mainly affected by less robust demand. But even if the industrial outlook deteriorates rapidly, we still believe that demand for cobalt will be expanding, as analysed in Chapter 1. However, in an oversupplied market, prices could contract further, possibly to a low of US$11.52/lb in 2014. If the economic outlook is stronger than anticipated, we believe that the upside risk in the short/medium-term is limited, impacted by oversupply in the refined market.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "неструктурированный процесс прогнозирования цены на кобальт",
+          "name_en": "price forecast process for cobalt",
+          "canonical": "price_forecast_cobalt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "base case price forecast is based on the supply and demand fundamentals for the short/medium-term, and on LRMC for the long-term."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p24::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p24::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 24,
+      "lang": "en",
+      "text": "96 The Outlook for Cobalt 2012 Chapter 3 CRU International Limited confidential Moving to the long-term, the situation in the cobalt market changes substantially. As we discussed in the supply and demand balance analysis, the cobalt market is expected to see deficits from 2017 onward. In a tight market, the upside risk is higher than the downside risk. To generate the long-term price forecast we conducted an indicative cost analysis and derived the LRMC of production. Since the long-term price forecast has not been generated by a long- term supply and demand analysis, applying the same high and low case scenarios as in the near/medium-forecast would not be correct. However, looking at the cost structure in Table 3.3, we understand that long-term prices cannot be lower than US$10.00/lb. In the absence of precise information on which projects will proceed, it is impossible to formally define a long- term price range. Overall, it depends on the performance of the global economy and in particular the cobalt-related end-use sectors. 6.5 Upside risks to the price outlook  Stronger than anticipated industrial and economic outlook.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p24::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p24::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 24,
+      "lang": "en",
+      "text": "in particular the cobalt-related end-use sectors. 6.5 Upside risks to the price outlook  Stronger than anticipated industrial and economic outlook. A stronger than expected industrial production activity will favour cobalt consumption. That will support several end- uses that consume superalloys. However, given the current economic outlook, the risks are mainly on the downside. A stronger than expected world economic activity will accelerate urbanisation trends, thus boosting the markets for high-end electronics and air travel.  Favourable end-use technology developments that require a higher cobalt intensity of use. Examples include the emergence of tablets or a potential new end-use sector consuming rechargeable batteries; interestingly, robust growth of mobile phones and laptops significantly boosted cobalt consumption over the last 10 years. © 2012 CRU International Limited confidential There are increased downside risks in the near/medium-term Data: MB, CRU 0 5 10 15 20 25 2009 2010 2011 2012 2013 2014 2015 2016 2017 Base case 99.3% nominal price High case Low case Turning point: shift from rising surpluses to lower surpluses US$/lb",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "потребление кобальта",
+          "name_en": "cobalt consumption",
+          "canonical": "cobalt_consumption"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "consumption of superalloys and high-end electronics"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p25::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p25::c0",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 25,
+      "lang": "en",
+      "text": "The Outlook for Cobalt 2012 Chapter 3 97 CRU International Limited confidential  Delays in the start-up or ramp-up of new cobalt metal projects. New projects are always subject to operational and financial setbacks, even shortly before commissioning. Especially the projects located in higher risk regions may be subject to longer delays. Despite the fact that CRU has been conservative in our forecasts, delays are always possible.  Technical challenges at HPAL operations. There has been evidence that major HPAL operations are successfully commissioning. However, this kind of operations has historically experienced technical challenges that should not be disregarded when conducting a high and low case scenario analysis.  Financialisation of the cobalt market. This applies primarily in the long-run. As the cobalt market grows substantially in size, financial investors, in addition to the current physical players, may see this market as an alternative to more established metals markets. Investment will become easier as trade on the LME grows. However, this requires time. 6.6 Downside risks to the price outlook  Weaker than anticipated industrial production activity.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "HPAL операции",
+          "name_en": "HPAL operations",
+          "canonical": "hpal_operations"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "HPAL operations are successfully commissioning with evidence of technical challenges."
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p25::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p25::c1",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 25,
+      "lang": "en",
+      "text": "rade on the LME grows. However, this requires time. 6.6 Downside risks to the price outlook  Weaker than anticipated industrial production activity. Considering the advanced level of downside macroeconomic risks, especially in industrialised countries, deterioration in industrial activity will have an impact on cobalt consumption. For instance, a weaker than expected world industrial activity will affect the market for cemented carbides as demand from the automotive, steel and shipbuilding industries will soften.  Unfavourable technology developments that trigger substitution of cobalt or lower intensity of use. Miniaturisation trends in end-use markets will affect cobalt consumption. This is very important in high-end devices that need to be lighter and smaller over time. The most critical end-use sector is lithium ion rechargeable batteries.  REACH regulations. A set of potentially tighter regulations may have an impact on cobalt consumption. Three REACH Consortia have been established by the Cobalt Development Institute (CDI) to implement REACH on behalf of the cobalt industry with the purpose of preparing the required registration dossiers for cobalt and cobalt compounds.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "потребление кобальта",
+          "name_en": "cobalt consumption",
+          "canonical": "cobalt_consumption"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "регуляции REACH",
+          "name_en": "REACH regulations",
+          "canonical": "reach_regulations"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "deterioration in industrial activity will have an impact on cobalt consumption"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "contradicts",
+          "evidence": "Three REACH Consortia have been established by the Cobalt Development Institute (CDI) to implement REACH on behalf of the cobalt industry"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012Chapter3::p25::c2": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012Chapter3::p25::c2",
+      "doc_id": "материалы__CobaltOutlook2012Chapter3",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012Chapter3.pdf",
+      "page": 25,
+      "lang": "en",
+      "text": "to implement REACH on behalf of the cobalt industry with the purpose of preparing the required registration dossiers for cobalt and cobalt compounds.  Refined cobalt production stronger compared to CRU’s expectations. CRU has taken a conservative approach to forecasting refined cobalt production. If the actual production level is higher than what we project, the refined cobalt market will exhibit a higher surplus. Our conservative forecasting approach applies both to large and small scale operations.  Aggressive development of new projects. If that takes place it will affect mainly the long- run outlook, considering the time needed to develop new projects. In view of the growing consumption volume of cobalt, as well as its contribution to high-end technologies, there has been an increasing interest from investment groups to be involved in the cobalt industry. Table 3.4: Cobalt price forecast - scenarios & long-term projection 2012 2013 2014 2015 2016 2017 Co 99.3% price Base case $/lb nominal 14.0 13.0 12.8 13.5 15.0 17.0 17.3 Low case $/lb nominal 13.3 11.7 11.5 12.2 13.5 16.2 na High case $/lb nominal 14.6 14.0 13.8 14.6 16.2 18.7 na Data: CRU Long-term price in 2022 US dollars",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "производство чистого кобальта",
+          "name_en": "refined cobalt production",
+          "canonical": "refined_cobalt_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "refined cobalt production"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  }
+}

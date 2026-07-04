@@ -1,0 +1,226 @@
+{
+  "материалы__Ambatovy-rep::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Ambatovy-rep::p1::c0",
+      "doc_id": "материалы__Ambatovy-rep",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Ambatovy-rep.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Nickel and Cobalt Production in Madagascar S&C Draft of 5/26/10 John Hennig, Marketing 2 Ambatovy is a nickel and cobalt mining operation which is amongst the largest foreign investments in Madagascar to date Once fully operational, it will have the annual capacity to produce 60,000 tonnes of refined nickel, 5,600 tonnes of cobalt and 210,000 tonnes of ammonium sulphate Mine lifespan is approximately 30 years International Partners: Sherritt International Corp., Sumitomo Corp., Korean Resources Corp., SNC-Lavalin Inc. What is Ambatovy? Project Components • A mine and ore preparation plant • A 220 km slurry pipeline • A Plant site at Toamasina 3 Sites 4 Production and Forecast 2012 Production (100% basis) • Ni – 5,695 tonnes • Co – 493 tonnes 2013 Forecasted Production (100% basis) • Ni – 35,000 tonnes • Co – 3,000 tonnes 5 5 Vision 6 GOVERNANCE ENVIRONMENT SOCIAL Develop and operate a sustainable nickel and cobalt enterprise that… • significantly contributes to Madagascar, • delivers outstanding environmental, social & safety records, and • generates attractive economic returns. ECONOMIC",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "аммоний сульфат",
+          "name_en": "ammonium sulfate",
+          "canonical": "ammonium_sulfate"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "извлечение никеля и кобальта из руды",
+          "name_en": "nickel and cobalt extraction from ore",
+          "canonical": "ore_extraction"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "шахта Ambatovy",
+          "name_en": "Ambatovy mine",
+          "canonical": "ambatovy_mine"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Nickel and Cobalt Production in Madagascar"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Nickel and Cobalt Production in Madagascar"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "annual_capacity",
+          "op": "le",
+          "value_min": 60000.0,
+          "value_max": 60000.0,
+          "unit": "tonnes/yr",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "annual_capacity",
+          "op": "le",
+          "value_min": 5600.0,
+          "value_max": 5600.0,
+          "unit": "tonnes/yr",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Ambatovy-rep::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Ambatovy-rep::p7::c0",
+      "doc_id": "материалы__Ambatovy-rep",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Ambatovy-rep.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "7 Economic  sustainable development Economic  job creation 8 Economic  local business opportunities 9 Economic  training 10 Governance  compliance 11 • Large Mining Investment Act (LGIM) • International Finance Corporation Performance Standards • Equator Principles • Extractive Industries Transparency Initiative • Business and Biodiversity Offsets Program • International Council on Mining and Metals Principles Governance  transparency 12 Governance  code of conduct 13 13 • The Ambatovy Code of Conduct outlines our expectations of every employee, contractor and consultant so that our business values are upheld and best practices are exercised. • Pledging to follow the Code of Conduct policies is an annual process for all employees and consultants. • Our Code of Conduct is a commitment to integrity for all of us. Social  community development 14 Social  stakeholder engagement 15 Social  mitigation 16",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "",
+          "name_en": "materials__Ambatovy-rep",
+          "canonical": "materials__Ambatovy-rep"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "pledging to follow the Code of Conduct policies",
+          "name_en": "pledging to follow the Code of Conduct policies",
+          "canonical": "pledging to follow the Code of Conduct policies"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "annual process for all employees and consultants",
+          "name_en": "annual process for all employees and consultants",
+          "canonical": "annual process for all employees and consultants"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Pledging to follow the Code of Conduct policies is an annual process for all employees and consultants."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "frequency",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "yearly",
+          "condition": "annual"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Ambatovy-rep::p17::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Ambatovy-rep::p17::c0",
+      "doc_id": "материалы__Ambatovy-rep",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Ambatovy-rep.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "Environment  biodiversity 17 Environment  conservation 18 Environment  collaboration 19 Conservation International Missouri Botanical Garden Wildlife Conservation Society Durrell Wildlife Conservation Trust World Wildlife Fund The Royal Botanic Gardens 20 More info? www.ambatovy.com 21 Questions? Comments? 22 thank you. misaotra betsaka. 23 23 www.ambatovy.com john.hennig@ambatovy.mg Contact us",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2013
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бiodiversity",
+          "name_en": "biodiversity",
+          "canonical": "Biodiversity"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "conservation",
+          "name_en": "conservation",
+          "canonical": "Conservation"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "collaboration",
+          "name_en": "collaboration",
+          "canonical": "Collaboration"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Conservation International Missouri Botanical Garden Wildlife Conservation Society Durrell Wildlife Conservation Trust World Wildlife Fund The Royal Botanic Gardens",
+          "name_en": "Conservation International, Missouri Botanical Garden, Wildlife Conservation Society, Durrell Wildlife Conservation Trust, World Wildlife Fund, The Royal Botanic Gardens",
+          "canonical": "Conservation International, Missouri Botanical Garden, Wildlife Conservation Society, Durrell Wildlife Conservation Trust, World Wildlife Fund, The Royal Botanic Gardens"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Environment  biodiversity 17 Environment  conservation 18"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Environment  collaboration 19"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "материалы__Annual price forecast - 18-01-2012::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p1::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "New York: 200 Park Avenue, New York, NY 10166 0130 Tel: +1 212 878 4122 London: 4th Floor, St Martins Court, 10 Paternoster Row, London EC4M 7BB Tel: +44 20 7489 6767 Sydney: Level 46 Gateway, 1 Macquarie Place, Sydney, NSW 2000 Tel: +61 29 256 9442 Tokyo: 2-1 Ohtemachi 1-Chome, Chiyoda-Ku, Tokyo 100 Tel: +81 33 285 3407 Hong Kong: Suite 1306, Two Exchange Square, 8 Connaught Place, Central, Hong Kong Tel: +852 2899 2026 David Jollie David.jollie@mitprecious.com Tel: +44 20 7489 6762 18 January, 2012 Mitsui Global Precious Metals The Precious Metals in 2012 David Jollie 18 January 2012 Contents • Price forecast • Economic outlook – Europe – North America – China and developing markets • The commodity market and other assets • Gold • Silver • Platinum • Palladium Price forecasts for CY 2011 $560 $860 $745 Palladium $1,305 $1,875 $1,575 Platinum $19.20 $44.60 $30.95 Silver $1,480 $2,075 $1,770 Gold Low High Average",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "палладий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price_forecast_average",
+          "op": "eq",
+          "value_min": 745.0,
+          "value_max": 745.0,
+          "unit": "$/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price_forecast_average",
+          "op": "eq",
+          "value_min": 1305.0,
+          "value_max": 1305.0,
+          "unit": "$/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price_forecast_average",
+          "op": "eq",
+          "value_min": 44.6,
+          "value_max": 44.6,
+          "unit": "$/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "price_forecast_average",
+          "op": "eq",
+          "value_min": 1480.0,
+          "value_max": 1480.0,
+          "unit": "$/oz",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p4::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "LBMA Price forecasts for CY 2011 $549 $879 $736 Palladium $1,313 $1,875 $1,624 Platinum $24.06 $44.49 $33.98 Silver $1,480 $2,055 $1,770 Gold Low High Average Source: LBMA Italian-German 10 year bond yields (%) 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 The economic climate: the Euro crisis Source: Bloomberg The economic climate • Euro set to survive but to be weak • Recession in Europe, growth in USA • Western world inflation to decline • China should continue to grow by 8-9 % per annum • India and Brazil struggling to balance growth with inflation • Real interest rates to remain negative everywhere into at least 2013 • Downside risks are significant Normalised commodity prices 70 80 90 100 110 120 130 140 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Copper Platinum Gold Oil Commodity prices in 2011 Source: LBMA, LPPM, Bloomberg",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "палладий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Palladium $1,313 $1,875 $1,624"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Platinum $24.06 $44.49 $33.98"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Silver $1,480 $2,055 $1,770"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 549.0,
+          "value_max": 879.0,
+          "unit": "$",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 736.0,
+          "value_max": 1313.0,
+          "unit": "$",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 549.0,
+          "value_max": 879.0,
+          "unit": "$",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 736.0,
+          "value_max": 1313.0,
+          "unit": "$",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "range",
+          "value_min": 549.0,
+          "value_max": 879.0,
+          "unit": "$",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "price",
+          "op": "range",
+          "value_min": 736.0,
+          "value_max": 1313.0,
+          "unit": "$",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p8::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "Normalised metal prices 60 70 80 90 100 110 120 130 140 150 160 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Palladium Platinum Gold Silver Commodity prices in 2011 Source: LBMA, LPPM DXY Dollar Index 70 72 74 76 78 80 82 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Dollar strength/Euro weakness Source: Bloomberg DXY Dollar Index 70 72 74 76 78 80 82 84 86 88 90 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Dollar weakness/Euro strength Source: Bloomberg Dow Jones Industrial Average/Gold Price (USD) Ratio 4 6 8 10 12 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Other assets Source: Bloomberg Normalised asset prices 80 85 90 95 100 105 110 115 120 125 130 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Shanghai Composite Kunming Housing Price YoY Gold Chinese House Prices Source: Ecowin",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пalladium",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "platinum",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "gold",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "silver",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "dollar_index",
+          "name_en": "DXY Dollar Index",
+          "canonical": "dxy_dollar_index"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "dow_jones_industrial_average",
+          "name_en": "Dow Jones Industrial Average",
+          "canonical": "dow_jones_industrial_average"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "shanghai_composite",
+          "name_en": "Shanghai Composite Index",
+          "canonical": "shanghai_composite_index"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "kunming_housing_price",
+          "name_en": "Kunming Housing Price",
+          "canonical": "kunming_housing_price"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2011,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p13::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p13::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "Position limits Recycling Direction of the gold price - 2011 Gold price China buying QE Low interest rates Inflation fears Physical demand Euro weakness Sovereign risk Reserve diversification End of dehedging Official sector Equity performance Recycling Direction of the gold price - 2012 Gold price China QE3/QEE? Low interest rates Inflation fears Physical demand Euro weakness Sovereign risk Deflation fears Position limits Official sector Risk fatigue India? Gold Price(USD/oz) 1,000 1,200 1,400 1,600 1,800 2,000 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 2011: a positive year Source: LBMA -15 -10 -5 0 5 10 15 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 Official sector buying (million ounces) The official sector Source: WGC, Mitsui Other positives for gold • Chinese buying likely to continue if the price rises • Indian market relatively healthy • European investor demand strong • Safe haven role and prospects of longer term inflation • Increased use of gold as collateral or finance • Above all, risk is positive for the gold price in the short term.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "купля золота государственным сектором",
+          "name_en": "official sector buying of gold",
+          "canonical": "official_sector_buying_of_gold"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Official sector buying (million ounces) The official sector Source: WGC, Mitsui"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p28::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p28::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 28,
+      "lang": "en",
+      "text": "Indium and silver prices ($/kg) 400 600 800 1,000 1,200 1,400 1,600 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Indium Silver Fundamentals or Investment? Source: Bloomberg Normalised silver prices, USD and INR 80 90 100 110 120 130 140 150 160 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Ag INR Ag USD Fundamentals or Investment? Source: Bloomberg Photovoltaic Silver Demand (million ounces) 0 20 40 60 80 100 120 2005 2010 2015 2020 2025 2030 Photovoltaic demand not the saviour Source: Mitsui Palladium/silver price ratio 15 20 25 30 35 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Fundamentals or Investment? Source: Bloomberg Rolling 12 week ETF flows:gold, silver (oz) -1,500,000 -1,000,000 -500,000 0 500,000 1,000,000 1,500,000 Jul 07 Dec 07 May 08 Oct 08 Mar 09 Aug 09 Jan 10 Jun 10 Nov 10 Apr 11 Sep 11 -6,000,000 -4,000,000 -2,000,000 0 2,000,000 4,000,000 6,000,000 Gold Silver Gold and silver investment Source: Mitsui and ETFs",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "индий",
+          "name_en": "indium",
+          "canonical": "indium"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "photovoltaic_demand",
+          "name_en": "photovoltaic demand",
+          "canonical": "photovoltaic_demand"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Photovoltaic Silver Demand (million ounces)"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p33::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p33::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 33,
+      "lang": "en",
+      "text": "Platinum Price (USD/oz) 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 The platinum price Source: Bloomberg Europe Surplus Direction of the platinum price Platinum price Pt-Au spread Jewellery Slow growth Production costs Industrial demand Trucks and off-road Platinum:Gold price spread -300 -150 0 150 300 450 600 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 The platinum-gold spread Source: Bloomberg Ratio of Pt net spec. longs to Au on NYMEX/COMEX (oz) 0.00 0.02 0.04 0.06 0.08 0.10 0.12 Aug 10 Sep 10 Oct 10 Nov 10 Dec 10 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Jan 12 Bullish for platinum? Source: CFTC Manufacturing volumes 0 5 10 Jun 2011 Oct 2011 Forecast volumes 0 5 10 Jun 2011 Oct 2011 Optimism 0 5 10 Jun 2011 Oct 2011 Pt:Pd ratio 0 5 10 Jun 2011 Oct 2011 Margins 0 5 10 Jun 2011 Oct 2011 Finished stocks 0 5 10 Jun 2011 Oct 2011 Working stocks 0 5 10 Jun 2011 Oct 2011 Recycled metal 0 5 10 Jun 2011 Oct 2011 The jewellery market Source: Mitsui",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство платины",
+          "name_en": "platinum production",
+          "canonical": "platinum_production"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 2000.0,
+          "unit": "USD/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "pt-au_spread",
+          "op": "range",
+          "value_min": -300.0,
+          "value_max": 600.0,
+          "unit": "USD",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p18::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p18::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "Ratio of G8 to E8 demand 0.0 0.5 1.0 1.5 2.0 2.5 2008 2009 2010 Pt Pd Au Ag Positive: emerging market exposure Source: Mitsui, Johnson Matthey, GFMS Chinese Interest Rates and Inflation (%) -4 -2 0 2 4 6 8 10 Jan 07 May 07 Sep 07 Jan 08 May 08 Sep 08 Jan 09 May 09 Sep 09 Jan 10 May 10 Sep 10 Jan 11 May 11 Sep 11 CPI Lending rate Deposit rate Chinese Inflation Source: Ecowin Normalised currency movements vs the USD 75 80 85 90 95 100 105 110 115 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 China India Vietnam Turkey Other emerging markets Source: Bloomberg Rolling 12 week ETF flows: gold (oz) -400,000 -200,000 0 200,000 400,000 600,000 800,000 1,000,000 1,200,000 1,400,000 Jul 07 Oct 07 Jan 08 Apr 08 Jul 08 Oct 08 Jan 09 Apr 09 Jul 09 Oct 09 Jan 10 Apr 10 Jul 10 Oct 10 Jan 11 Apr 11 Jul 11 Oct 11 Risk and risk fatigue Source: Mitsui and ETFs Rolling 12 week COMEX flows: gold (oz) -1,500,000 -1,000,000 -500,000 0 500,000 1,000,000 1,500,000 Jul 07 Oct 07 Jan 08 Apr 08 Jul 08 Oct 08 Jan 09 Apr 09 Jul 09 Oct 09 Jan 10 Apr 10 Jul 10 Oct 10 Jan 11 Apr 11 Jul 11 Oct 11 Belief in a bull run Source: CFTC",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Золото",
+          "name_en": "Gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Птитемник",
+          "name_en": "Palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Родий",
+          "name_en": "Platinum",
+          "canonical": "platinum"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Серебро",
+          "name_en": "Silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Биржевой обмен (COMEX)",
+          "name_en": "COMEX exchange",
+          "canonical": "comex_exchange"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "ETF-флоу",
+          "name_en": "ETF flows",
+          "canonical": "etf_flows"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Rolling 12 week COMEX flows: gold (oz)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Rolling 12 week ETF flows: gold (oz)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "Commodity",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "oz",
+          "condition": "COMEX flows: gold"
+        },
+        {
+          "entity_id": "e6",
+          "param": "Commodity",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "oz",
+          "condition": "ETF flows: gold"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2011,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p23::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p23::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "5 year US inflation expectations (%) 1.50 1.75 2.00 2.25 2.50 2.75 Jan 2011 Feb 2011 Mar 2011 Apr 2011 May 2011 Jun 2011 Jul 2011 Aug 2011 Sep 2011 Oct 2011 Nov 2011 Dec 2011 Jan 2012 The longer term outlook Source: Bloomberg Price sensitivity Increased production Direction of the silver price Silver price Small investors Rising gold price Low interest rates Inflation fears? Industrial demand Silver Price (USD/oz) 25 30 35 40 45 50 Jan 11 Feb 11 Mar 11 Apr 11 May 11 Jun 11 Jul 11 Aug 11 Sep 11 Oct 11 Nov 11 Dec 11 Jan 12 Silver price development Source: LBMA COMEX Silver Stocks ('000 oz) 90,000 95,000 100,000 105,000 110,000 115,000 120,000 125,000 130,000 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Silver price development Source: CME Group Net Chinese Silver Imports (Rolling 12 month) -4,000 -3,000 -2,000 -1,000 0 1,000 2,000 3,000 4,000 Jan 06 Jul 06 Jan 07 Jul 07 Jan 08 Jul 08 Jan 09 Jul 09 Jan 10 Jul 10 Jan 11 Jul 11 Tonnes 4 6 8 10 12 14 16 18 20 US$/oz Net Chinese Imports, LHS Silver Price, RHS The real China story? Source: Mitsui, LBMA, Chinese import stats",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "5 годовая ожидаемая инфляция в США (%)",
+          "name_en": "5 year US inflation expectations (%)",
+          "canonical": "5 year US inflation expectations (%)"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "Цена серебра (USD/oz)",
+          "name_en": "Silver Price (USD/oz)",
+          "canonical": "Silver Price (USD/oz)"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Серебро",
+          "name_en": "Silver",
+          "canonical": "Silver"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "Объем запасов серебра ('000 унций)",
+          "name_en": "COMEX Silver Stocks ('000 oz)",
+          "canonical": "COMEX Silver Stocks ('000 oz)"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Роллинговый импорт серебра Китаем (месяцами)",
+          "name_en": "Net Chinese Silver Imports (Rolling 12 month)",
+          "canonical": "Net Chinese Silver Imports (Rolling 12 month)"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "Цена золота (US$/oz)",
+          "name_en": "Gold price",
+          "canonical": "Rising gold price"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The longer term outlook Source: Bloomberg Price sensitivity Increased production Direction of the silver price Silver price Small investors Rising gold price Low interest rates Inflation fears? Industrial demand"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "The longer term outlook Source: Bloomberg Price sensitivity Increased production Direction of the silver price Silver price Small investors Rising gold price Low interest rates Inflation fears? Industrial demand"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "The longer term outlook Source: Bloomberg Price sensitivity Increased production Direction of the silver price Silver price Small investors Rising gold price Low interest rates Inflation fears? Industrial demand"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The longer term outlook Source: Bloomberg Price sensitivity Increased production Direction of the silver price Silver price Small investors Rising gold price Low interest rates Inflation fears? Industrial demand"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "values",
+          "op": "range",
+          "value_min": 1.5,
+          "value_max": 2.75,
+          "unit": "%",
+          "condition": "Jan 2011 - Dec 2011, Jan 2012"
+        },
+        {
+          "entity_id": "e4",
+          "param": "values",
+          "op": "range",
+          "value_min": 90000.0,
+          "value_max": 130000.0,
+          "unit": "'000 oz",
+          "condition": "Jan 2010 - Dec 2011, Jan 2012"
+        },
+        {
+          "entity_id": "e5",
+          "param": "values",
+          "op": "range",
+          "value_min": -4000.0,
+          "value_max": 2000.0,
+          "unit": "Tonnes",
+          "condition": "Jan 2006 - Dec 2011, Jan 2012"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p38::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p38::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 38,
+      "lang": "en",
+      "text": "Platinum Fundamentals • Automotive demand stable or growing – EU diesel market share to rise, total market to shrink – HDD and off-road add to demand – But some forward buying has already taken place • Industrial demand looks healthy except for capex • ETF sentiment looking better than in late 2011 • Jewellery positive • Supply side to grow mainly due to recycling • Upside risks remain Palladium Price (USD/oz) 300 400 500 600 700 800 900 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 The palladium price Source: Bloomberg Investor apathy Recycling Direction of the palladium price Palladium price Low interest rates Deficit Forward buying Russian stocks? Auto demand Limited supply response ETF selling Platinum/palladium price ratio 2.0 2.5 3.0 3.5 4.0 Jan 2010 Mar 2010 May 2010 Jul 2010 Sep 2010 Nov 2010 Jan 2011 Mar 2011 May 2011 Jul 2011 Sep 2011 Nov 2011 Jan 2012 Platinum and Palladium Source: Bloomberg",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пallадий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "платина",
+          "name_en": "platinum",
+          "canonical": "platinum"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 300.0,
+          "value_max": 900.0,
+          "unit": "USD/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "USD/oz",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p42::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p42::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 42,
+      "lang": "en",
+      "text": "Palladium fundamentals Price and Surplus/Deficit -2,000 -1,500 -1,000 -500 0 500 1,000 1,500 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 0 100 200 300 400 500 600 3 year rolling deficit (LHS, 000 oz) 3 year rolling price (RHS, USD) Source: Johnson Matthey, Mitsui Rolling 12 week ETF flows: platinum, palladium (oz) -40,000 -30,000 -20,000 -10,000 0 10,000 20,000 30,000 40,000 50,000 Jul 07 Nov 07 Mar 08 Jul 08 Nov 08 Mar 09 Jul 09 Nov 09 Mar 10 Jul 10 Nov 10 Mar 11 Jul 11 Nov 11 Platinum Palladium ETF investment Source: Mitsui and ETFs Palladium price and Swiss imports from Russia 0 1 2 3 4 5 6 7 8 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 0 100 200 300 400 500 600 700 800 18 month rolling imports (tonnes, LHS) 18 month rolling price (USD, RHS) Russian palladium stocks Source: Mitsui, LPPM, Swiss Import Stats Chinese Annual Light Duty Vehicle Production 0 5,000,000 10,000,000 15,000,000 20,000,000 25,000,000 30,000,000 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008 2010 2012 2014 The Chinese Automotive Market Source: Ecowin, Mitsui",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "палладий",
+          "name_en": "palladium",
+          "canonical": "palladium"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": " ETF-инвестиции",
+          "name_en": "ETF investments",
+          "canonical": "etf_investments"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "ETF (объём)",
+          "name_en": "ETF volume",
+          "canonical": "etf_volume"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Palladium ETF investment"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p46::c0": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p46::c0",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 46,
+      "lang": "en",
+      "text": "Disclaimer This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or investing in, whether directly or indirectly, any financial instrument referred to within it. This briefing is only directed at investment professionals as contemplated in Article 19 of the Financial Services and Markets Act 2000 (Financial Promotions Order) 2000 and to high net worth companies as contemplated in Article 49 of the Order and may not be relied upon by any other person. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an official confirmation of any transaction. All market prices, data and other information are not warranted as to completeness or accuracy and are subject to change without notice. Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Metals, Inc., its subsidiaries and affiliates.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Брифинг",
+          "name_en": "Briefing",
+          "canonical": "briefing"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Финансовый инструмент",
+          "name_en": "Financial instrument",
+          "canonical": "financial instrument"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or investing in, whether directly or indirectly, any financial instrument referred to within it."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "Purpose",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 0.0,
+          "unit": "",
+          "condition": "Information purpose only"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__Annual price forecast - 18-01-2012::p46::c1": {
+    "chunk": {
+      "chunk_id": "материалы__Annual price forecast - 18-01-2012::p46::c1",
+      "doc_id": "материалы__Annual price forecast - 18-01-2012",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/Annual price forecast - 18-01-2012.pdf",
+      "page": 46,
+      "lang": "en",
+      "text": "ce. Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Metals, Inc., its subsidiaries and affiliates. We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the precious metals referred to in this briefing or derivatives thereof. No part of this briefing may be (i) copied, photocopied or duplicated in any form by any means or (ii) redistributed without the prior written consent of Mitsui and Co. Precious Metals, Inc.",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Митсуи и Ко, Драгоценные металлы, Inc.",
+          "name_en": "Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Mitsui and Co. Precious Metals, Inc."
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Ценные металлы и их производные",
+          "name_en": "Precious metals and derivatives thereof",
+          "canonical": "precious metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the precious metals referred to in this briefing or derivatives thereof."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "consent_required",
+          "op": "eq",
+          "value_min": 0.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": "(i) copied, photocopied or duplicated in any form by any means or (ii) redistributed without the prior written consent of Mitsui and Co. Precious Metals, Inc."
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  }
+}

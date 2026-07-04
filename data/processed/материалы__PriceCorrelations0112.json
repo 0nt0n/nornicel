@@ -1,0 +1,1063 @@
+{
+  "материалы__PriceCorrelations0112::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p1::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "New York: 200 Park Avenue, New York, NY 10166 0130 Tel: +1 212 878 4122 London: 4th Floor, St Martins Court, 10 Paternoster Row, London EC4M 7BB Tel: +44 20 7489 6767 Singapore: 80 Robinson Road, #15-02, Singapore, 068898 Tel: +65 6372 8050 Tokyo: 2-1 Ohtemachi 1-Chome, Chiyoda-Ku, Tokyo 100 Tel: +81 33 285 3407 Hong Kong: Suite 1306, Two Exchange Square, 8 Connaught Place, Central, Hong Kong Tel: +852 2899 2026 David Jollie david.jollie@mitprecious.com Tel: +44 20 7489 6767 20 January 2012 • Normally in the commodity market, commodity prices show an inverse relationship to the strength of the US Dollar in the absence of any other stimuli which affect the price. • Over the last ten years, the correlation between the gold price in US Dollars and EURUSD has been close to 0.4, similar to the correlation between ei- ther silver or aluminium prices and EURUSD. • In the last two years, this correlation has broken down and is close to zero for gold. Silver and alu- minium, however, have retained a strong positive correlation with EURUSD. • This breakdown of the correlation between gold and EURUSD over the last two years has seen periods of normal positive correlation (e.g.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "алюминий",
+          "name_en": "aluminum",
+          "canonical": "aluminum"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "корреляция между ценой на металл и EURUSD",
+          "name_en": "correlation between metal price and EURUSD",
+          "canonical": "metal_price_eurusd_correlation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "correlation between the gold price in US Dollars and EURUSD has been close to 0.4"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Silver and aluminium, however, have retained a strong positive correlation with EURUSD"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Silver and aluminium, however, have retained a strong positive correlation with EURUSD"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "correlation",
+          "op": "le",
+          "value_min": 0.4,
+          "value_max": 0.4,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "correlation",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "correlation",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p1::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p1::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "ith EURUSD. • This breakdown of the correlation between gold and EURUSD over the last two years has seen periods of normal positive correlation (e.g. as the Dollar rises, gold falls) and periods of negative correlation when gold and the Dollar move in the same direc- tion. These latter periods have coincided with times of market stress as shown by the VIX index. • Looking into 2012, we expect the Euro crisis to con- tinue to be acute in Q1 and probably Q2. Although we do not expect quick or convincing solutions to be found to the Euro crisis, we expect the Euro to survive and for risk to slowly disappear. This means that market stress (e.g. VIX) could peak again in H1 but should be lower in H2 2012. • If this occurs, then the normal negative correlation with the Dollar should resume in H2 but a strong Dollar in H1 could lead to stronger gold prices. Sil- ver is likely to underperform in H1 due to this corre- lation but should perform better in price terms in H2. Price correlations Links between currency movements and precious metal prices. Mitsui Global Precious Metals",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "евро",
+          "name_en": "euro",
+          "canonical": "euro"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "корреляция",
+          "name_en": "correlation",
+          "canonical": "correlation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "correlation between gold and EURUSD"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "silver is likely to underperform in H1 due to this correlation"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "correlation_type",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p2::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p2::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "2 Mitsui Global Precious Metals | Price correlations 20 January 2012 Traditionally, most commodities are priced and traded in US Dollars. As the US Dollar strengthens against other currencies, any commodity naturally becomes more expensive in those other currencies and has to weaken in USD terms to reach equilibrium. So, in the absence of any other driving forces, a stronger Dollar would tend to mean that commodity prices should fall. Other factors including fundamental supply and demand will influence price movements. As can be seen from Figure 1, this means that there should be a negative correlation be- tween commodity prices and the US Dollar (or a positive correlation between the Euro and commodity prices). This correlation will typically be much lower than 1 as commodity- specific fundamentals and investor attitudes play a part in moving prices. Plotting prices against the strength of the US Dollar necessarily requires the choice of an- other currency to compare the USD with. Typically this is either the Euro or DXY. DXY itself is a trade-weighted currency but, unfortunately the weightings related to the volume of trade carried out thirty years ago with specific countries.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "комmodity",
+          "name_en": "commodity",
+          "canonical": "commodity"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "US Dollar",
+          "name_en": "US Dollar",
+          "canonical": "us_dollar"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Euro",
+          "name_en": "Euro",
+          "canonical": "euro"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "any commodity naturally becomes more expensive in those other currencies and has to weaken in USD terms"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "positive correlation between the Euro and commodity prices"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p2::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p2::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "f is a trade-weighted currency but, unfortunately the weightings related to the volume of trade carried out thirty years ago with specific countries. For most trading, the most im- portant currency is the Euro since this is the second largest (free-floating) reserve cur- rency after the Dollar itself. However, the link with other currencies can also be examined. We choose to use two currency pairs to examine correlations between US Dollars and the gold price: EURUSD is the currency pair which normally corresponds well to gold move- ments. However, looking back over the past ten years, there is a very similar correlation between CADUSD (the Canadian Dollar in US Dollar terms) and gold in USD terms. Until 2009, we feel that most currency movements were based on conventional measures of the strength of each currency. Since the USD is effectively the world’s global currency, its strength or weakness was the dominant factor and the correlation with EURUSD or CA- DUSD was very similar. Which currency?",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "корреляция валютных курсов",
+          "name_en": "currency correlation analysis",
+          "canonical": "currency_correlation_analysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "correlations between US Dollars and the gold price"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p2::c2": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p2::c2",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 2,
+      "lang": "en",
+      "text": "rld’s global currency, its strength or weakness was the dominant factor and the correlation with EURUSD or CA- DUSD was very similar. Which currency? Introduction Correlation between LA1 aluminium (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jul 01 Jan 02 Jul 02 Jan 03 Jul 03 Jan 04 Jul 04 Jan 05 Jul 05 Jan 06 Jul 06 Jan 07 Jul 07 Jan 08 Jul 08 Jan 09 Jul 09 Jan 10 Jul 10 Jan 11 Jul 11 Dollar strength/Euro weakness Figure 1: Most commodity prices are negatively correlated to the US Dollar. That is, as the Dollar strengthens, commodity prices weaken. NB: Orange lines mark the average correlation over the period of each graph in this report.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "алюминий",
+          "name_en": "aluminum",
+          "canonical": "aluminum"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "доллар",
+          "name_en": "US Dollar",
+          "canonical": "us_dollar"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "евро",
+          "name_en": "Euro",
+          "canonical": "euro"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Correlation between LA1 aluminium (USD) and EURUSD"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Dollar strength/Euro weakness"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p3::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "3 Mitsui Global Precious Metals | Price correlations 20 January 2012 Since 2009, the European debt crisis has had a strong impact on the foreign exchange markets. With political risks increasing, the relationship between currencies has been based less on interest rates, inflation or bond yields than on the prospect of sovereign de- fault and the desire to own a safe haven. Looking over the shorter term (the past two years), it is clear that the normal relationship between gold prices and EURUSD has broken down with a correlation coefficient very close to zero. In contrast, the relationship between gold and CADUSD has been much stronger. We interpret the EURUSD relationship as fear-driven with many investors look- ing to exit the Euro purely out of concern for its stability with money flowing into the US Dollar instead. At times when these flows are large, the urge to buy gold as a safe haven is high. When these flows stop, some of this “insurance” gold is sold. However, move- ments between the Canadian and US Dollars represent something closer to pure Dollar weakness or strength and show a more normal relationship between currency movements and commodity prices.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "евро/доллар",
+          "name_en": "EURUSD",
+          "canonical": "eur_usd"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "канадский доллар/доллар",
+          "name_en": "CADUSD",
+          "canonical": "cad_usd"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "the relationship between gold prices and EURUSD has broken down with a correlation coefficient very close to zero"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "validated_by",
+          "evidence": "the relationship between gold and CADUSD has been much stronger"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p3::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "s represent something closer to pure Dollar weakness or strength and show a more normal relationship between currency movements and commodity prices. The breakdown of the EURUSD relationship to the gold prices is therefore driven by worries over the Euro. Correlation between gold (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 01 Jan 02 Jan 03 Jan 04 Jan 05 Jan 06 Jan 07 Jan 08 Jan 09 Jan 10 Jan 11 Correlation between gold (USD) and CADUSD -1.0 -0.5 0.0 0.5 1.0 Jul 01 Jan 02 Jul 02 Jan 03 Jul 03 Jan 04 Jul 04 Jan 05 Jul 05 Jan 06 Jul 06 Jan 07 Jul 07 Jan 08 Jul 08 Jan 09 Jul 09 Jan 10 Jul 10 Jan 11 Jul 11 Figure 3: ...and positively corre- lated to CADUSD. Figure 2: Over the long term, gold is positively correlated to EURUSD...",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "евро/доллар",
+          "name_en": "EUR/USD",
+          "canonical": "eur_usd"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "канадский доллар/доллар",
+          "name_en": "CAD/USD",
+          "canonical": "cad_usd"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "validated_by",
+          "evidence": "Correlation between gold (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 01 Jan 02 Jan 03 Jan 04 Jan 05 Jan 06 Jan 07 Jan 08 Jan 09 Jan 10 Jan 11"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "validated_by",
+          "evidence": "Correlation between gold (USD) and CADUSD -1.0 -0.5 0.0 0.5 1.0 Jul 01 Jan 02 Jul 02 Jan 03 Jul 03 Jan 04 Jul 04 Jan 05 Jul 05 Jan 06 Jul 06 Jan 07 Jul 07 Jan 08 Jul 08 Jan 09 Jul 09 Jan 10 Jul 10 Jan 11 Jul 11"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "correlation_with_gold",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "correlation_with_gold",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p4::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p4::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "4 Mitsui Global Precious Metals | Price correlations 20 January 2012 Euro weakness has been one driving force for gold investment over the last eighteen months. However, there have also been moments of Dollar weakness (March to May 2011) where the correlation has broken down. What is clear, however, is that the correla- tion between gold and EURUSD has broken down on moments of extreme stress in the market, as shown by a rising VIX index (which measures volatility of equities). Risk Correlation between gold (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Correlation between gold (USD) and CADUSD -1.0 -0.5 0.0 0.5 1.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 EURUSD 1.00 1.10 1.20 1.30 1.40 1.50 1.60 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Figure 5: However, the relation- ship to the Canadian Dollar has stayed fairly constant suggesting that the relationship to underlying fundamental Dollar strength has remained in place.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "канадский доллар",
+          "name_en": "Canadian dollar",
+          "canonical": "CAD"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "корреляция между золотом и EURUSD",
+          "name_en": "correlation between gold and EURUSD",
+          "canonical": "gold_EURUSD_correlation"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "корреляция между золотом и CADUSD",
+          "name_en": "correlation between gold and CADUSD",
+          "canonical": "gold_CADUSD_correlation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Correlation between gold (USD) and EURUSD"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Correlation between gold (USD) and CADUSD"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "correlation",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "correlation",
+          "op": "range",
+          "value_min": -1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p5::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p5::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "5 Mitsui Global Precious Metals | Price correlations 20 January 2012 Looking at the relationship between gold and EURUSD and that between silver and EU- RUSD over the past decade, the correlation coefficients are quite similar. However, over the last two years, there is a clear difference between the behaviour of the two metals. Gold has shown little correlation to movements in EURUSD while silver has retained a stronger link. We believe this is because of gold’s stronger “safe haven” credentials with gold attracting flows of capital at times of market stress and seeing outflows at times of lower risk. The underlying relationship between gold and silver ensures that silver does gain from some of gold’s attraction (the correlation to EURUSD is higher than for gold but lower than for aluminium for instance). Silver and EURUSD Gold Price(USD/oz) 1,000 1,200 1,400 1,600 1,800 2,000 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 VIX Index 10 15 20 25 30 35 40 45 50 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Figure 7: and with the gold price firming or softening.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "корреляция коэффициентов",
+          "name_en": "correlation coefficients",
+          "canonical": "correlation_coefficients"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "индекс VIX",
+          "name_en": "VIX index",
+          "canonical": "vix_index"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "correlation coefficients are quite similar"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "correlation to EURUSD is higher than for gold but lower than for aluminium"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "range",
+          "value_min": 1000.0,
+          "value_max": 2000.0,
+          "unit": "USD/oz",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "price",
+          "op": "range",
+          "value_min": 1000.0,
+          "value_max": 2000.0,
+          "unit": "USD/oz",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p6::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p6::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "6 Mitsui Global Precious Metals | Price correlations 20 January 2012 Correlation between gold (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Correlation between silver (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Correlation between LA1 aluminium (USD) and EURUSD -1.0 -0.5 0.0 0.5 1.0 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Figure 10: ...whereas the relationship between silver and EURUSD has remained more meaningful. Figure 11: By comparison, aluminium does not benefit from any safe haven credentials and its price shows a greater correlation to EURUSD. Figure 9: Over the last two years, the relationship between EURUSD and gold in Dollar terms has weakened…. 7 Mitsui Global Precious Metals | Price correlations 20 January 2012 Over the shorter term, the Euro looks likely to continue to weaken. No convincing plan exists yet to solve the debt problems.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "серебро",
+          "name_en": "silver",
+          "canonical": "silver"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "алюминий",
+          "name_en": "aluminium",
+          "canonical": "aluminium"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "корреляция с EURUSD",
+          "name_en": "correlation with EURUSD",
+          "canonical": "correlation_with_eurusd"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Correlation between gold (USD) and EURUSD"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Correlation between silver (USD) and EURUSD"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Correlation between LA1 aluminium (USD) and EURUSD"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p4::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p4::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 4,
+      "lang": "en",
+      "text": "p to the Canadian Dollar has stayed fairly constant suggesting that the relationship to underlying fundamental Dollar strength has remained in place. Figure 6: The blue ovals indicate moments when the EURUSD/ gold correlation has weakened. This can occur with the Dollar strengthening or weakening... Figure 4: Over the shorter term, the correlation to the Euro has broken down as market risk has increased.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "канадский доллар",
+          "name_en": "Canadian Dollar",
+          "canonical": "Canadian Dollar"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "евро",
+          "name_en": "Euro",
+          "canonical": "Euro"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "золото",
+          "name_en": "gold",
+          "canonical": "gold"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The Canadian Dollar has stayed fairly constant suggesting that the relationship to underlying fundamental Dollar strength has remained in place."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "The EURUSD/gold correlation has weakened."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "stability",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "fairly constant",
+          "condition": "has stayed"
+        },
+        {
+          "entity_id": "e2",
+          "param": "correlation",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "with the Dollar strengthening or weakening",
+          "condition": "has broken down as market risk has increased"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p6::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p6::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 6,
+      "lang": "en",
+      "text": "lations 20 January 2012 Over the shorter term, the Euro looks likely to continue to weaken. No convincing plan exists yet to solve the debt problems. In the near term, Italy and Spain will have to roll over significant amounts of sovereign debt and this will add to market stresses. Looking slightly further ahead, Greece is in imminent danger of default and this should lead to a still weaker Euro. Both of these challenges should also lead to higher risk (e.g. VIX) and therefore to a weaker correlation between the Dollar and the gold price. This equates to flat or stronger gold prices in Q1 but to potentially weaker silver prices. We do, however, expect some progress to be made in “curing” the Euro’s problems and we expect the Euro to survive. This should lead to a gradual reduction in the perception of market risk and may lead to a stronger Euro. We would expect to see a higher correlation between EURUSD and the gold price (in USD) in H2 and higher gold prices (in USD). Sil- ver prices should benefit too. Outlook Figure 12: Technical and fundamental analysis suggests that the Euro will continue to decline against the Dollar in the short term.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Евро",
+          "name_en": "Euro",
+          "canonical": "Euro"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Доллар",
+          "name_en": "Dollar",
+          "canonical": "Dollar"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "Золото",
+          "name_en": "Gold",
+          "canonical": "gold"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Серебро",
+          "name_en": "Silver",
+          "canonical": "silver"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "The Euro will continue to decline against the Dollar in the short term."
+        },
+        {
+          "source_id": "gold",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "This equates to flat or stronger gold prices in Q1 but to potentially weaker silver prices."
+        },
+        {
+          "source_id": "silver",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "This equates to flat or stronger gold prices in Q1 but to potentially weaker silver prices."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "short term"
+        },
+        {
+          "entity_id": "e3",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "Q1"
+        },
+        {
+          "entity_id": "e4",
+          "param": "timeframe",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "Q1"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p5::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p5::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 5,
+      "lang": "en",
+      "text": "50 Jan 10 Mar 10 May 10 Jul 10 Sep 10 Nov 10 Jan 11 Mar 11 May 11 Jul 11 Sep 11 Nov 11 Jan 12 Figure 7: and with the gold price firming or softening. Figure 8: However, the relation- ship has only broken down at times of rising perceived market risk.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p8::c0": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p8::c0",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": "8 Mitsui Global Precious Metals | Price correlations 20 January 2012 Disclaimer: This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or in- vesting in, whether directly or indirectly, any financial instrument referred to within it. This briefing is only directed at investment professionals as contemplated in Article 19 of the Financial Services and Markets Act 2000 (Financial Promotions Order) 2000 and to high net worth companies as contemplated in Article 49 of the Order and may not be relied upon by any other person. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an offi- cial confirmation of any transaction. All market prices, data and other information are not warranted as to completeness or accuracy and are subject to change without notice. Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Met- als, Inc., its subsidiaries and affiliates.",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Митсуи и Компания, Драгоценные металлы, Inc., его дочерние компании и аффилированные организации",
+          "name_en": "Mitsui & Co. Precious Metals, Inc., its subsidiaries and affiliates",
+          "canonical": "Mitsui & Co. Precious Metals, Inc."
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Брифинг о корреляциях цен 20 января 2012 года",
+          "name_en": "Price correlations briefing on January 20, 2012",
+          "canonical": "Price correlations briefing"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "Исследование корреляций цен на финансовые инструменты",
+          "name_en": "Investigation of price correlations for financial instruments",
+          "canonical": "Price correlation investigation"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Финансовые инструменты",
+          "name_en": "Financial instruments",
+          "canonical": "Financial instruments"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "This briefing is for our clients’ information purpose only. The information contained within this document does not seek to recommend any course of action or provide any advice on the merits of purchasing or investing in, whether directly or indirectly, any financial instrument referred to within it."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "This briefing is only directed at investment professionals as contemplated in Article 19 of the Financial Services and Markets Act 2000 (Financial Promotions Order) 2000 and to high net worth companies as contemplated in Article 49 of the Order"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "date",
+          "op": "eq",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "January 20, 2012"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__PriceCorrelations0112::p8::c1": {
+    "chunk": {
+      "chunk_id": "материалы__PriceCorrelations0112::p8::c1",
+      "doc_id": "материалы__PriceCorrelations0112",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/PriceCorrelations0112.pdf",
+      "page": 8,
+      "lang": "en",
+      "text": ". Any comments or statements made herein do not necessarily reflect those of Mitsui and Co. Precious Met- als, Inc., its subsidiaries and affiliates. We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the precious metals referred to in this briefing or derivatives thereof. No part of this briefing may be (i) copied, photocopied or duplicated in any form by any means or (ii) redistributed without the prior written consent of Mitsui and Co. Precious Met- als, Inc. Mitsui Global Precious Metals Contact Details: New York: 200 Park Avenue, New York, NY 10166 0130 Tel: +1 212 878 4122 London: 4th Floor, St Martins Court, 10 Paternoster Row, London EC4M 7BB Tel: +44 20 7489 6767 Singapore: 80 Robinson Road, #15-02, Singapore, 068898 Tel: +65 6372 8050 Hong Kong: Suite 1306 Two Exchange Square, 8 Connaught Place, Central, Hong Kong Tel: +852 2899 2026 Tokyo: 2-1 Ohtemachi 1-Chome, Chiyoda-Ku, Tokyo 100 Tel: +81 33 285 3407",
+      "doc_type": "материалы",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Митсуи и Компания, Драгоценные Металлы, Inc.",
+          "name_en": "Mitsui and Co. Precious Metals, Inc.",
+          "canonical": "Mitsui and Co. Precious Metals, Inc."
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Ценные металлы и их производные",
+          "name_en": "Precious metals and derivatives thereof",
+          "canonical": "precious metals"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "contact_details",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2013,
+        "confidence": "low"
+      }
+    }
+  }
+}

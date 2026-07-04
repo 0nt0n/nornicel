@@ -1,0 +1,985 @@
+{
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p3::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p3::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "Cobalt Market Outlook 2012 – December Update  In the interests of providing a comprehensive service, a subscription to the Cobalt Market Outlook includes a presentation and data update published in December.  This presentation contains updates to our supply and demand forecasts, incorporating data up to and including December 17th, 2012.  A complete revision of our data will be carried out in the second quarter of 2013 and will be presented in the Cobalt Market Outlook 2013, due for publication in July 2013. © 2012 CRU International Limited confidential Contents  Chapter 1 – Demand  Chapter 2 – Supply  Chapter 3 – Market balance & prices © 2012 CRU International Limited confidential Chapter 1 – Demand © 2012 CRU International Limited confidential © 2012 CRU International Limited confidential -10% -5% 0% 5% 10% 15% 2006 2007 2008 2009 2010 2011 2012 Cobalt consumption y-o-y growth World IP index Cobalt consumption growth outperforms the world IP index % y-o-y growth Data: OE, CRU  Supported by robust end-use sectors, cobalt consumption growth outperforms the general industrial production index  2012 was another challenging year for the world economy; downside risks",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "consumption growth",
+          "name_en": "consumption growth",
+          "canonical": "consumption_growth"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "world industrial production index",
+          "name_en": "world industrial production index",
+          "canonical": "world_ip_index"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "cobalt consumption growth outperforms the general industrial production index"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "supported by robust end-use sectors, cobalt consumption growth outperforms the world IP index"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "growth",
+          "op": "range",
+          "value_min": -10.0,
+          "value_max": 15.0,
+          "unit": "% y-o-y",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p3::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p3::c1",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 3,
+      "lang": "en",
+      "text": "obalt consumption growth outperforms the general industrial production index  2012 was another challenging year for the world economy; downside risks considered in 2010-2011 materialised in 2012, therefore cobalt consumption growth has been revised down compared to our earlier forecasts  Despite the downward revision, cobalt’s exposure to robust and growing end uses triggered strong growth in 2012",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p7::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p7::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 7,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential 0 30,000 60,000 90,000 120,000 150,000 2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 Metallurgical Chemical Cobalt demand exhibits a robust long-term growth pattern tonnes Data: CRU  CRU is optimistic about long term cobalt demand prospects; the size of the world market is expected to double by 2022  The most important end-use segment in terms of volume and growth remains the rechargeable battery market, which has recently benefited due to a higher intensity of use in smartphones  Cobalt features high performance in superalloy applications, such as aerospace, with robust long-term patterns  Despite major challenges that affect the world economy, consensus suggests that cobalt consumption is very healthy © 2012 CRU International Limited confidential 0 10,000 20,000 30,000 40,000 50,000 2009 2010 2011 2012 Oxide Organics (Carboxylates) Sulphate Nitrate Hydroxide Chloride Carbonate Acetate Lithium ion batteries generate strong demand for oxide tonnes Data: CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "металлургические процессы",
+          "name_en": "metallurgical processes",
+          "canonical": "metallurgical_processes"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "оксид кобальта",
+          "name_en": "cobalt oxide",
+          "canonical": "cobalt_oxide"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "органические соединения (карбоксилаты)",
+          "name_en": "organic compounds (carboxylates)",
+          "canonical": "carboxylates"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфат кобальта",
+          "name_en": "cobalt sulfate",
+          "canonical": "cobalt_sulfate"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "нитрат кобальта",
+          "name_en": "cobalt nitrate",
+          "canonical": "cobalt_nitrate"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "гидроксид кобальта",
+          "name_en": "cobalt hydroxide",
+          "canonical": "cobalt_hydroxide"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "хлорид кобальта",
+          "name_en": "cobalt chloride",
+          "canonical": "cobalt_chloride"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "карбонат кобальта",
+          "name_en": "cobalt carbonate",
+          "canonical": "cobalt_carbonate"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "лиเธйонные батареи",
+          "name_en": "lithium ion batteries",
+          "canonical": "lithium_ion_batteries"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Cobalt features high performance in superalloy applications, such as aerospace, with robust long-term patterns"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "Lithium ion batteries generate strong demand for oxide tonnes"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p1::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p1::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "Cobalt Market Outlook 2012 December Update Cobalt Market Outlook 2012 December Update This report is supplied on a private and confidential basis to the customer. Its contents must not be disclosed to any other company, organisation or individual, nor be photocopied or otherwise reproduced in whole or in part, without the prior written permission of CRU International. This report is delivered on the understanding that CRU International's liability is limited to the provision of the professional services outlined in the contract for this report. Although every effort has been made to undertake this work with care and diligence, CRU International cannot guarantee the accuracy of any forecasts or assumptions or that the proposed investment will be successful. If the client uses our work in any information Memorandum or similar document for the purpose of raising funds, CRU International accepts no liability to third parties however arising and without limitation. CRU International Ltd. 2012. All rights reserved. © 2012 CRU International Limited confidential Disclaimer",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "Cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "forecasting",
+          "name_en": "forecasting",
+          "canonical": "Forecasting"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "This report is supplied on a private and confidential basis to the customer. Its contents must not be disclosed to any other company, organisation or individual, nor be photocopied or otherwise reproduced in whole or in part, without the prior written permission of CRU International."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "accuracy",
+          "op": "le",
+          "value_min": 0.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": "forecasting"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p9::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p9::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential Li-ion batteries for electronics & EV/HEV boost oxide demand 2012 cobalt oxide demand: 31,498 tonnes Ceramics, dyes CoMox catalysts Li-ion cells EV/HEV (Li-ion) 2022 cobalt oxide demand: 68,727 tonnes Data: CRU © 2012 CRU International Limited confidential 0 10,000 20,000 30,000 40,000 2009 2010 2011 2012 Magnets Carbides & diamond tools Synthetic diamonds Hard facing High speed steel Superalloys Superalloy sectors support metallurgical demand tonnes Data: CRU © 2012 CRU International Limited confidential Regional consumption shares have become more Asia-centric 2000: 40,449 tonnes USA CIS China Rest of Asia Western Europe Eastern Europe South America Africa 2012: 80,902 tonnes Data: CRU © 2012 CRU International Limited confidential 0% 10% 20% 30% 40% 50% 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 USA China Rest of Asia Western Europe China is anticipated to see firm consumption share growth % of world consumption share Data: CRU  Asian demand for cobalt benefits from a booming consumer electronics sector; demand from rechargeable batteries is stronger than anticipated fuelled by new and robust markets generated by",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт оксид",
+          "name_en": "cobalt oxide",
+          "canonical": "cobalt_oxide"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "магниты",
+          "name_en": "magnets",
+          "canonical": "magnets"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "керамики, красители",
+          "name_en": "ceramics, dyes",
+          "canonical": "ceramics_dyes"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "катализаторы CoMoX",
+          "name_en": "CoMoX catalysts",
+          "canonical": "co_mox_catalysts"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "производство литий-ионных батарей",
+          "name_en": "production of Li-ion cells",
+          "canonical": "liion_cell_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "cobalt oxide demand: 31,498 tonnes"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "cobalt oxide demand: 68,727 tonnes"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Ceramics, dyes CoMox catalysts Li-ion cells EV/HEV (Li-ion)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Ceramics, dyes CoMox catalysts Li-ion cells EV/HEV (Li-ion)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "demand_2012",
+          "op": "eq",
+          "value_min": 31498.0,
+          "value_max": 31498.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "demand_2022",
+          "op": "eq",
+          "value_min": 68727.0,
+          "value_max": 68727.0,
+          "unit": "tonnes",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p13::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p13::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "Chapter 2 – Supply © 2012 CRU International Limited confidential Cobalt is mainly a by-product of copper and nickel mining Source: CRU Country Mine operations DRC Cu Co Co Cu Co Cu Ur Cu Co Au Pd Russia Ni Cu Pd Pt Co Au Zambia Cu Co Cu Co Fe Su Cuba Ni Co Fe Ni Co Australia Ni Co Ni Cu Co Ni Cu Co Pt Pd Canada Ni Cu Co Ni Cu Co Pt Pd Au Ni Cu Co Pt Pd Rh  Copper-cobalt projects have been central to the recent capacity expansion; for instance, Tenke Fungurume and Mutanda have contributed to the rise in the supply of cobalt intermediates  In the medium term, the copper market is expected to be in a surplus, therefore we believe that the prospect for new projects will be limited, impacted by a weaker copper price outlook  Ambitious high pressure acid leach nickel- cobalt projects have added significant capacity in terms of cobalt metal, such as Ambatovy, or intermediates, such as Ravensthorpe and VNC  With weak nickel prices and market surpluses anticipated in the medium term, the potential for new nickel-cobalt projects is limited",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "высокотемпературный кислотный разъедание (HAP)",
+          "name_en": "high pressure acid leach",
+          "canonical": "high_pressure_acid_leach"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "теннеке-fungurume",
+          "name_en": "Tenke Fungurume",
+          "canonical": "tenke_fungurume"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "мутанда",
+          "name_en": "Mutanda",
+          "canonical": "mutanda"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Tenke Fungurume and Mutanda have contributed to the rise in the supply of cobalt intermediates"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Ambatovy, or intermediates, such as Ravensthorpe and VNC"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p15::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p15::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 15,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential 0 20,000 40,000 60,000 80,000 2000 2002 2004 2006 2008 2010 2012 Refined chemicals Refined metal Other Refined supply growth is supported by chemical products tonnes Data: CRU  The strong growth in refined supply is mainly attributed to rising production of chemical products in China and Finland  The above has resulted in a change in the patterns of raw materials; cobalt concentrates and intermediates are used as feed for chemical production  Intermediate products are seeing robust capacity expansion as they are the preferred raw material due to higher operational and logistical efficiency  Anecdotal evidence suggests that in 2012 consumers of concentrates and intermediates have partly used cobalt metal instead © 2012 CRU International Limited confidential Refined chemicals aim to meet booming demand from end uses 2000 refined supply: 40,654 tonnes Refined metal Refined chemicals Other 2012 refined supply: 82,536 tonnes Data: CRU",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт концентраты и промежуточные продукты",
+          "name_en": "cobalt concentrates and intermediates",
+          "canonical": "cobalt_concentrates_and_intermediates"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кобальт金属",
+          "name_en": "cobalt metal",
+          "canonical": "cobalt_metal"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство химических продуктов",
+          "name_en": "chemical production",
+          "canonical": "chemical_production"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "intermediate products are the preferred raw material due to higher operational and logistical efficiency"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "The strong growth in refined supply is mainly attributed to rising production of chemical products"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "refined_supply_2012",
+          "op": "le",
+          "value_min": null,
+          "value_max": 82536.0,
+          "unit": "tonnes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "refined_supply_2000",
+          "op": "le",
+          "value_min": null,
+          "value_max": 40654.0,
+          "unit": "tonnes",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p17::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p17::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 17,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential The cobalt refining sector in China is changing dramatically Data: CRU Refiner Chemical production – tonnes Co 2011 2012 2013 Jinchuan 2,275 2,300 2,400 Zhejiang Huayou 4,200 4,200 4,500 Quzhou Huayou - - 1,700 KLK 1,480 2,031 2,501 Galico 2,350 2,350 2,350 Yingde Jiana 2,000 2,000 2,000 Yi Hao Umicore 1,987 1,900 1,900 COBOTO 1,050 1,200 1,300 New ERA 1,000 1,000 1,000 Nantong Xinwei 1,000 1,000 1,000 Other China 8,800 8,340 6,970  CRU reassessed refined supply in China due to rapid developments in end uses’ volume and technology  A number of small refiners not in a strong cash position and without secured raw materials ceased operations; a combination of high production costs and low market prices impacted several small companies  Large-scale operations implemented different strategies to expand and benefit from growing demand mainly from the booming rechargeable battery sector  A major development is the growing volume of intermediates as the preferred raw material type  Industry restructuring led to consolidation, with a smaller number of operations and bigger capacity each",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "обработка кобальта",
+          "name_en": "cobalt refining",
+          "canonical": "cobalt_refining"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "CRU International Limited",
+          "name_en": "CRU International Limited",
+          "canonical": "cru_international_limited"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "The cobalt refining sector in China is changing dramatically"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "CRU reassessed refined supply in China"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "medium"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p9::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p9::c1",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 9,
+      "lang": "en",
+      "text": "a booming consumer electronics sector; demand from rechargeable batteries is stronger than anticipated fuelled by new and robust markets generated by smartphones and other high-end devices  China is gaining market share in rechargeable batteries; a significant amount of battery production has migrated from Japan to China  Industrialised regions are expected to see their market share fall; however, well- established cobalt metallurgical sectors are anticipated to remain strong in Western Europe and the USA",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "рост потребления электроники",
+          "name_en": "booming consumer electronics sector",
+          "canonical": "boom in consumer electronics"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "cobalt",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "производство аккумуляторов",
+          "name_en": "battery production",
+          "canonical": "battery production"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "железо-nickel-кобальтовые батареи",
+          "name_en": "rechargeable batteries",
+          "canonical": "rechargeable batteries"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "заграничные рынки",
+          "name_en": "industrialised regions",
+          "canonical": "industrialized regions"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "Западная Европа и США",
+          "name_en": "Western Europe and the USA",
+          "canonical": "Western Europe and the USA"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "demand from rechargeable batteries is stronger than anticipated fuelled by new and robust markets generated by smartphones and other high-end devices"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "a significant amount of battery production has migrated from Japan to China"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e5",
+          "param": "expected market share change",
+          "op": "eq",
+          "value_min": -1.0,
+          "value_max": 0.0,
+          "unit": "%",
+          "condition": "expected to see their market share fall"
+        },
+        {
+          "entity_id": "e6",
+          "param": "market strength",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": "anticipated to remain strong in Western Europe and the USA"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p18::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p18::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "Chapter 3 – Market balance & prices © 2012 CRU International Limited confidential 0 5 10 15 20 05/11 08/11 11/11 02/12 05/12 08/12 11/12 RN 99.8% Co RN 99.3% Co LME 99.3% Co Cobalt prices continue to descend US$/lb Data: Ryan’s Notes, LME  Oversupply has been weighing on prices since mid-2011, generating a negative trend  Seasonal post-summer restocking activity supported cobalt prices in August 2012; however, the revival did not last long due to a cautious sentiment in the spot market  In October-November 2012, the market overreacted to production and marketing developments at the Ambatovy operation  December 2012 saw further price declines, triggered by selling activity with a view to reducing year-end inventories © 2012 CRU International Limited confidential Surpluses are expected to weigh on prices in the medium term tonnes Data: CRU 11 12 13 14 15 16 17 18 19 20 -6,000 -4,000 -2,000 0 2,000 4,000 6,000 2009 2010 2011 2012 2013 2014 2015 2016 2017 Supply/Demand balance 99.3% nominal price US$/lb  CRU believes that the prevailing negative cobalt price trend will continue until 2014  From 2014 onward, the market is expected to tighten as demand growth will outperform",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "price",
+          "op": "le",
+          "value_min": null,
+          "value_max": 6.0,
+          "unit": "USD/lb",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p21::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p21::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 21,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential Price outlook - increased downside risks in the near/medium-term Data: CRU 0 5 10 15 20 2009 2010 2011 2012 2013 2014 2015 2016 2017 Base case 99.3% nominal price High case Low case Turning point: shift to falling surpluses US$/lb 2013 2014 2015 2016 2017 Base case 12.5 12.0 13.0 14.0 15.0 High case 13.5 13.0 14.0 15.1 16.5 Low case 11.3 10.8 11.7 12.6 14.3  Oversupply is expected to continue putting downward pressure on cobalt prices in the near and medium term  In the long term prices are predicted to be supported due to tightening fundamentals © 2012 CRU International Limited confidential Cobalt trade on the LME rose considerably in 2012 0 5 10 15 2010 2011 2012 ‘000 tonnes LME base & minor metals futures – 2011 Metal Turnover (t) Turnover / Consumption ratio Copper 863,432,750 45 : 1 Zinc 549,607,550 44 : 1 Aluminium 1,488,958,250 33 : 1 Nickel 48,338,526 30 : 1 Lead 273,047,050 27 : 1 Tin 9,458,165 26 : 1 Cobalt 6,578 0.09 : 1 Molybdenum 3,078 0.01 : 1  LME cobalt trade in 2012 doubled year-on-year  When compared with well-established contracts, cobalt is still illiquid  The contract has been successfully introduced but needs",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "turnover_consumption_ratio",
+          "op": "eq",
+          "value_min": 0.09,
+          "value_max": 0.09,
+          "unit": "t/t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p21::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p21::c1",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 21,
+      "lang": "en",
+      "text": "ubled year-on-year  When compared with well-established contracts, cobalt is still illiquid  The contract has been successfully introduced but needs more time to mature  Several producers and consumers are in favour of the LME price reference due to its transparent discovery mechanism and the hedging facilities available Data: CRU, LME LME cobalt trade",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кобальт",
+          "name_en": "cobalt",
+          "canonical": "cobalt"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "не указано",
+          "name_en": "not specified",
+          "canonical": "not_specified"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "low"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p18::c1": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p18::c1",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 18,
+      "lang": "en",
+      "text": "prevailing negative cobalt price trend will continue until 2014  From 2014 onward, the market is expected to tighten as demand growth will outperform supply  We forecast higher market surpluses in 2014-2017 compared to the outlook we published in August; this is attributed to an upward revision in the Chinese refined production projections  As a result, our cobalt price forecast has been revised down",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Conclusion",
+          "name_ru": "negative cobalt price trend will continue until 2014",
+          "name_en": "prevailing negative cobalt price trend will continue until 2014",
+          "canonical": "forecast"
+        },
+        {
+          "id": "e2",
+          "type": "Conclusion",
+          "name_ru": "market is expected to tighten from 2014 onward",
+          "name_en": "From 2014 onward, the market is expected to tighten as demand growth will outperform supply",
+          "canonical": "forecast"
+        },
+        {
+          "id": "e3",
+          "type": "Conclusion",
+          "name_ru": "higher market surpluses in 2014-2017 compared to August outlook",
+          "name_en": "We forecast higher market surpluses in 2014-2017 compared to the outlook we published in August",
+          "canonical": "forecast"
+        },
+        {
+          "id": "e4",
+          "type": "Conclusion",
+          "name_ru": "cobalt price forecast has been revised down",
+          "name_en": "As a result, our cobalt price forecast has been revised down",
+          "canonical": "forecast"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "contradicts",
+          "evidence": "The initial negative trend is expected to change in the future."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "contradicts",
+          "evidence": "Initial forecast of a negative trend contradicts higher surpluses."
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "contradicts",
+          "evidence": "The initial downward revision is not explicitly stated, but implied by the contradiction with the previous conclusions."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2014.0,
+          "value_max": null,
+          "unit": "year",
+          "condition": "until"
+        },
+        {
+          "entity_id": "e3",
+          "param": "time_period",
+          "op": "range",
+          "value_min": 2014.0,
+          "value_max": 2017.0,
+          "unit": "year",
+          "condition": "in"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  },
+  "материалы__CobaltOutlook2012DecUpdatePresentation::p23::c0": {
+    "chunk": {
+      "chunk_id": "материалы__CobaltOutlook2012DecUpdatePresentation::p23::c0",
+      "doc_id": "материалы__CobaltOutlook2012DecUpdatePresentation",
+      "source": "/content/drive/MyDrive/minekg/raw/материалы/CobaltOutlook2012DecUpdatePresentation.pdf",
+      "page": 23,
+      "lang": "en",
+      "text": "© 2012 CRU International Limited confidential Cobalt Market Outlook 2012 – December Update Clients should address any enquiries to: Panos Kotseras Senior Consultant t: +44 207 903 2077 e: panayiotis.kotseras@crugroup.com",
+      "doc_type": "материалы",
+      "path_year": 2012,
+      "path_geo": null,
+      "meta_year": 2012
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Панос Котсерас",
+          "name_en": "Panos Kotseras",
+          "canonical": "Panos Kotseras"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Cobalt Market Outlook 2012 – December Update",
+          "name_en": "Cobalt Market Outlook 2012 – December Update",
+          "canonical": "Cobalt Market Outlook 2012 – December Update"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Panos Kotseras is a Senior Consultant for the Cobalt Market Outlook 2012 – December Update."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "date",
+          "op": "range",
+          "value_min": 2012.0,
+          "value_max": 2012.0,
+          "unit": "year",
+          "condition": "exact"
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "unknown",
+        "year": 2012,
+        "confidence": "high"
+      }
+    }
+  }
+}
