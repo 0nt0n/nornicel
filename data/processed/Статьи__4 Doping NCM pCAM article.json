@@ -1,0 +1,2095 @@
+{
+  "Статьи__4 Doping NCM pCAM article::p1::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c0",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "Al3+ doping during coprecipitation as effective route for improving the electrochemical performance of Ni-rich layered-type cathodes M.A. Kamenskii1,2, I.N. Kosykh1, A.A. Korzhakov1, V.V. Pakalnis1, L.V. Mashyanova1 1LLC Gipronickel Institute, 11 Grazhdansky Prospect, 195220 Saint Petersburg, Russia 2Ioffe Institute, 26 Polytekhnicheskaya str., 194021 Saint Petersburg, Russia Abstract: Nickel-rich layered-type cathode materials are promising ones because of high energy density and capacities. To overcome the structural instability of these materials during continuous cycling, introduction of Al3+ ions in the precursor was performed to achieve a stable and uniform element distribution in the resulted active material. The obtained material LiNi0.86Co0.07Mn0.05Al0.009O2 demonstrated remarkable performance (205 and 151 mA∙h∙g−1 at 0.1 C and 2 C). The cyclic stability of the Al-doped cathode material was 83% after 100 cycles at 1 C.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "соосаждение",
+          "name_en": "coprecipitation",
+          "canonical": "coprecipitation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "ионы Al3+",
+          "name_en": "Al3+ ions",
+          "canonical": "Al3+"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "LiNi0.86Co0.07Mn0.05Al0.009O2",
+          "name_en": "LiNi0.86Co0.07Mn0.05Al0.009O2",
+          "canonical": "LiNi0.86Co0.07Mn0.05Al0.009O2"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "катодный материал с добавкой Al",
+          "name_en": "Al-doped cathode material",
+          "canonical": "Al-doped cathode material"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Al3+ doping during coprecipitation"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "The obtained material LiNi0.86Co0.07Mn0.05Al0.009O2 demonstrated remarkable performance"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "cyclic stability of the Al-doped cathode material was 83% after 100 cycles at 1 C"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "performance",
+          "op": "range",
+          "value_min": 151.0,
+          "value_max": 205.0,
+          "unit": "mA∙h∙g−1",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "cyclic stability",
+          "op": "ge",
+          "value_min": 83.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c1",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "emarkable performance (205 and 151 mA∙h∙g−1 at 0.1 C and 2 C). The cyclic stability of the Al-doped cathode material was 83% after 100 cycles at 1 C. The excellent performance demonstrates that Al-doping can effectively enhance the rate of lithium ions intercalation or deintercalation due to enlarging the interlayer distances, so, the doping of precursors is ease and effective route to enhance the functional properties of the cathode materials. Keywords: lithium-ion batteries, nickel-rich oxides, doping, coprecipitation method Introduction Over the last 30 years, lithium-ion batteries have remained one of the most common and promising devices for energy storage due to their high power and energy values, long service life and low self-discharge rate [1]. Among the other materials, layered-type transition metal oxides LiNixCoyMnzO2 (NCM) with high nickel content are still widely research because of high theoretical and practical (about 200 mA∙h∙g−1) specific capacity, operating voltage (E > 3.8 V vs. Li/Li+) and low cobalt content in the cathode active material (CAM), which leads to lower cathode cost [2–4].",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "литий-ионные батареи",
+          "name_en": "lithium-ion batteries",
+          "canonical": "lithium_ion_batteries"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катодный материал с легированием алюминием",
+          "name_en": "Al-doped cathode material",
+          "canonical": "al_doped_cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "циклическая стабильность катода с легированием алюминием",
+          "name_en": "cyclic stability of Al-doped cathode",
+          "canonical": "al_doped_cathode_cyclic_stability"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "оксиды переходных металлов слоистого типа LiNixCoyMnzO2 (NCM)",
+          "name_en": "layered-type transition metal oxides LiNixCoyMnzO2 (NCM)",
+          "canonical": "ncm_material"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "The cyclic stability of the Al-doped cathode material was 83% after 100 cycles at 1 C"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Among the other materials, layered-type transition metal oxides LiNixCoyMnzO2 (NCM) with high nickel content are still widely research because of high theoretical and practical (about 200 mA∙h∙g−1) specific capacity"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "specific_capacity",
+          "op": "range",
+          "value_min": 151.0,
+          "value_max": 205.0,
+          "unit": "mAh/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "cyclic_stability",
+          "op": "ge",
+          "value_min": 83.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "voltage",
+          "op": "ge",
+          "value_min": 3.8,
+          "value_max": null,
+          "unit": "V",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c2",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "acity, operating voltage (E > 3.8 V vs. Li/Li+) and low cobalt content in the cathode active material (CAM), which leads to lower cathode cost [2–4]. Nevertheless, one of the main problems for nickel-rich cathode materials is lower cyclic stability than for similar cathode materials with lower nickel content but higher proportion of cobalt and manganese [5]. The degradation of properties is attributed to both cracking of the electrode material and internal disordering [3,4] which may be attributed to Li+/ Ni2+ cation exchange and high surface reactivity [6]. To overcome these issues, among other applied strategies the use of doping with various metal ions to improve the properties of cathode materials has been actively discussed and employed [7,8]. Among the doping ions, Al3+ ones improve the structural stability of CAM [9] and reduce microcracking process. The hybrid NCM with aluminum (NCMA) material exhibits a relatively balanced performance [10,11]. The most common method of adding dopant ions to the CAM structure is to introduce them at the precursor calcination stage in the presence of LiOH and a doping agent.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катодный материал с высоким содержанием никеля",
+          "name_en": "nickel-rich cathode material",
+          "canonical": "nickel_rich_cathode_material"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катодный активный материал",
+          "name_en": "cathode active material",
+          "canonical": "cathode_active_material"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "легирование",
+          "name_en": "doping",
+          "canonical": "doping"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "легирование Al3+",
+          "name_en": "Al3+ doping",
+          "canonical": "aluminum_doping"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "NCMA",
+          "name_en": "NCMA",
+          "canonical": "ncma"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "прокаливание прекурсора",
+          "name_en": "precursor calcination",
+          "canonical": "precursor_calcination"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "operating voltage (E > 3.8 V vs. Li/Li+)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "low cobalt content in the cathode active material (CAM)"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "use of doping with various metal ions to improve the properties of cathode materials"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Al3+ ones improve the structural stability of CAM"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "hybrid NCM with aluminum (NCMA) material exhibits a relatively balanced performance"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "voltage",
+          "op": "ge",
+          "value_min": 3.8,
+          "value_max": null,
+          "unit": "V",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "cobalt_content",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "unknown",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c3",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "method of adding dopant ions to the CAM structure is to introduce them at the precursor calcination stage in the presence of LiOH and a doping agent. However, it is also possible to introduce dopant ions at the stage of preparing the cathode material precursor [12,13]. This technique is more simple than conventional dry doping process and allow achieving more homogenous elements distribution. In this work we synthesized the aluminum-doped precursor for nickel-rich cathode material with Ni content exceeded 80 mol.%. During lithiation process the dopant retains completely. The doped cathode materials were demonstrated superior high-rate performance (150 mAh∙g−1 at 2 C) as well as enhanced cyclic stability at 1 C current. Experimental part The precursors of cathode material (PCAM) were prepared via employing a controlled co-precipitation reaction in a continuous stirred reactor. An aqueous solution of NiSO4, CoSO4, MnSO4 (2 mol∙L−1, the ratio of salts was selected from the stoichiometry of the cathode material) was mixing with 4 M NaOH and ammonia solution in a stainless-steel reactor under N2 atmosphere.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "легирование CAM",
+          "name_en": "doping CAM",
+          "canonical": "doping"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "прекурсор, легированный алюминием",
+          "name_en": "aluminum-doped precursor",
+          "canonical": "aluminum_doped_precursor"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "катодный материал с высоким содержанием никеля",
+          "name_en": "nickel-rich cathode material",
+          "canonical": "nickel_rich_cathode_material"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "водный раствор NiSO4, CoSO4, MnSO4",
+          "name_en": "aqueous solution of NiSO4, CoSO4, MnSO4",
+          "canonical": "NiSO4_CoSO4_MnSO4_solution"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "раствор NaOH 4 М",
+          "name_en": "4 M NaOH solution",
+          "canonical": "NaOH_solution"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "циклическая стабильность",
+          "name_en": "cyclic stability",
+          "canonical": "cyclic_stability"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "высокая производительность",
+          "name_en": "high-rate performance",
+          "canonical": "high_rate_performance"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "контролируемая реакция соосаждения",
+          "name_en": "controlled co-precipitation reaction",
+          "canonical": "controlled_co_precipitation"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "реактор из нержавеющей стали",
+          "name_en": "stainless-steel reactor",
+          "canonical": "stainless_steel_reactor"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "method of adding dopant ions to the CAM structure is to introduce them at the precursor calcination stage"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "The doped cathode materials were demonstrated superior high-rate performance"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "enhanced cyclic stability at 1 C current"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "The precursors of cathode material (PCAM) were prepared via employing a controlled co-precipitation reaction"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "in a stainless-steel reactor under N2 atmosphere"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "Ni_content",
+          "op": "ge",
+          "value_min": 80.0,
+          "value_max": null,
+          "unit": "mol%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "mol/L",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "concentration",
+          "op": "eq",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "M",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "current",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "current",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c4": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c4",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "ected from the stoichiometry of the cathode material) was mixing with 4 M NaOH and ammonia solution in a stainless-steel reactor under N2 atmosphere. To obtain the Al-doped PCAM, Al2(SO4)3 aqueous solution was added in the reactor. The resulted greenish powders were drying at 110 °C under vacuum. Cathode materials were prepared by calcination of the PCAM with LiOH∙H2O powder in molar ratio of 1:1.08 at 750 °C for 12 h and 650 ° for 4 h in the pure oxygen atmosphere. The resulted materials were mentioned as NCM for undoped and NCMA for Al-doped CAM, respectively. The details of materials characterization methods and electrochemical measurements are given in the Supplementary materials. Results and discussions Cathode materials precursors were separately examined by X-ray diffractrion (Fig. 1a). Both materials are in agreement with Ni(OH)2 phase (ICCD №00-059-0463). Addition of Al3+ ions leads to a slight shifting of (100) and (011) planes at 33.1° and 38.6°. Elemental analysis performed by atomic emission spectroscopy measurements showed that formula units of PCAMs are Ni0.86Co0.1Mn0.04(OH)2 for NMC and Ni0.86Co0.07Mn0.05Al0.009(OH)2 for NCMA. Fig. 1.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "реактор из нержавеющей стали",
+          "name_en": "stainless-steel reactor",
+          "canonical": "stainless_steel_reactor"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "4 М раствор NaOH и аммиака",
+          "name_en": "4 M NaOH and ammonia solution",
+          "canonical": "NaOH_ammonia_solution"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "сушка в вакууме",
+          "name_en": "drying under vacuum",
+          "canonical": "vacuum_drying"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "водный раствор Al2(SO4)3",
+          "name_en": "Al2(SO4)3 aqueous solution",
+          "canonical": "Al2SO4_3_solution"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "порошок LiOH∙H2O",
+          "name_en": "LiOH∙H2O powder",
+          "canonical": "LiOH_H2O_powder"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "PCAM",
+          "name_en": "PCAM",
+          "canonical": "PCAM"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "NCM",
+          "name_en": "NCM",
+          "canonical": "NCM"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "NCMA",
+          "name_en": "NCMA",
+          "canonical": "NCMA"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "mixing with 4 M NaOH and ammonia solution in a stainless-steel reactor"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Al2(SO4)3 aqueous solution was added in the reactor"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "The resulted greenish powders were drying at 110 °C under vacuum"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Cathode materials were prepared by calcination of the PCAM with LiOH∙H2O powder"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "The resulted materials were mentioned as NCM for undoped and NCMA for Al-doped CAM"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "The resulted materials were mentioned as NCM for undoped and NCMA for Al-doped CAM"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 650.0,
+          "value_max": 750.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "M",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 110.0,
+          "value_max": 110.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c5": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c5",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "spectroscopy measurements showed that formula units of PCAMs are Ni0.86Co0.1Mn0.04(OH)2 for NMC and Ni0.86Co0.07Mn0.05Al0.009(OH)2 for NCMA. Fig. 1. X-ray diffraction patterns of precursors (a) and cathode materials (b) synthesized. The resulted CAMs demonstrated almost similar diffraction peaks (Fig. 1b) which are corresponded to the LiNiO2 R3m phase (ICCD №01-084-8629). Inclusion of Al3+ ions in the material crystal lattice led to the increasing the interlayer distances which is observed from the shifting the peak at 21°. Molar ratios of the components remain unchanged during calcination with regard to the precursors, so the formula units are LiNi0.86Co0.1Mn0.04O2 and LiNi0.86Co0.07Mn0.05Al0.009O2, respectively. SEM images of PCAMs shows the large (3 – 30 μm) highly porous spheres consisting of a multitude of loosely connected needle-like structures representing nanolayers of material of different orientation (Fig. 2a,b). After annealing, the CAMs retain the spherical secondary structure, the polycrystallinity of the obtained materials is clearly expressed (Fig. 2c,d).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Прекурсоры катодных активных материалов",
+          "name_en": "Precursor Cathode Active Materials",
+          "canonical": "PCAMs"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Фаза LiNiO2 R3m",
+          "name_en": "LiNiO2 R3m phase",
+          "canonical": "LiNiO2_R3m"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "рентгеновская дифракция",
+          "name_en": "X-ray diffraction",
+          "canonical": "XRD"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "Сканирующая электронная микроскопия",
+          "name_en": "Scanning Electron Microscopy",
+          "canonical": "SEM"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "Отжиг",
+          "name_en": "Annealing",
+          "canonical": "annealing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "spectroscopy measurements showed that formula units of PCAMs are Ni0.86Co0.1Mn0.04(OH)2 for NMC and Ni0.86Co0.07Mn0.05Al0.009(OH)2 for NCMA"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "The resulted CAMs demonstrated almost similar diffraction peaks which are corresponded to the LiNiO2 R3m phase"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "SEM images of PCAMs shows the large (3 – 30 μm) highly porous spheres"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "After annealing, the CAMs retain the spherical secondary structure"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "size",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 30.0,
+          "unit": "μm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "phase",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c6": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c6",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "After annealing, the CAMs retain the spherical secondary structure, the polycrystallinity of the obtained materials is clearly expressed (Fig. 2c,d). The surface of the cathode material containing aluminum ions is more homogeneous, there are no pronounced foreign inclusions. All main elements (Ni, Co, Mn) are uniformly distributed on the surface and in the materials structure as well as Al which confirmed that doping process occurred during co-precipitation stage (Fig. 2e). In the calcined CAM all main elements are also well-dispersed (Fig. 2f). Fig. 2. SEM images of precursors (a, b) and cathode materials (c, d) synthesized; EDX mapping of Ni, Co, Mn, Al for PCAM (e) and CAM (f) for NCMA. Fig. 3 shows the electrochemical performance of obtained cathode materials. At the first cycle (I = 0.1 C) specific discharge capacities of the NCM and NCMA materials were 207 and 205 mA∙h∙g−1, respectively, with the same value of 89.66% for the Coulombic efficiency (Fig. 3a) because Al3+ ions are electrochemically inactive [14].",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "отжиг",
+          "name_en": "annealing",
+          "canonical": "annealing"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "CAM",
+          "name_en": "CAM",
+          "canonical": "cathode_material"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "соосаждение",
+          "name_en": "co-precipitation",
+          "canonical": "co_precipitation"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "NCM",
+          "name_en": "NCM",
+          "canonical": "NCM_material"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "NCMA",
+          "name_en": "NCMA",
+          "canonical": "NCMA_material"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "СЭМ",
+          "name_en": "SEM imaging",
+          "canonical": "SEM_imaging"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "EDX картирование",
+          "name_en": "EDX mapping",
+          "canonical": "EDX_mapping"
+        },
+        {
+          "id": "e11",
+          "type": "Process",
+          "name_ru": "электрохимические испытания",
+          "name_en": "electrochemical performance testing",
+          "canonical": "electrochemical_performance_testing"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "легирование",
+          "name_en": "doping",
+          "canonical": "doping"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "ион Al3+",
+          "name_en": "Al3+ ion",
+          "canonical": "aluminum_ion"
+        },
+        {
+          "id": "e14",
+          "type": "Material",
+          "name_ru": "pCAM",
+          "name_en": "pCAM",
+          "canonical": "pCAM_material"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "поликристалличность",
+          "name_en": "polycrystallinity",
+          "canonical": "poly_crystallinity"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "равномерное распределение",
+          "name_en": "uniform distribution",
+          "canonical": "uniform_distribution"
+        },
+        {
+          "id": "e15",
+          "type": "Property",
+          "name_ru": "электрохимическая неактивность",
+          "name_en": "electrochemical inactivity",
+          "canonical": "electrochemical_inactivity"
+        },
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "удельная разрядная ёмкость",
+          "name_en": "specific discharge capacity",
+          "canonical": "specific_discharge_capacity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e13",
+          "type": "uses_material",
+          "evidence": "The surface of the cathode material containing aluminum ions is more homogeneous"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "All main elements (Ni, Co, Mn) are uniformly distributed on the surface and in the materials structure as well as Al which confirmed that doping process occurred during co-precipitation stage"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "At the first cycle (I = 0.1 C) specific discharge capacities of the NCM and NCMA materials were 207 and 205 mA∙h∙g−1, respectively"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "At the first cycle (I = 0.1 C) specific discharge capacities of the NCM and NCMA materials were 207 and 205 mA∙h∙g−1, respectively"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Fig. 2. SEM images of precursors (a, b) and cathode materials (c, d) synthesized; EDX mapping of Ni, Co, Mn, Al for PCAM (e) and CAM (f) for NCMA"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Fig. 3 shows the electrochemical performance of obtained cathode materials"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e15",
+          "type": "produces_output",
+          "evidence": "Al3+ ions are electrochemically inactive"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "specific_discharge_capacity",
+          "op": "range",
+          "value_min": 205.0,
+          "value_max": 207.0,
+          "unit": "mAh/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Coulombic_efficiency",
+          "op": "eq",
+          "value_min": 89.66,
+          "value_max": 89.66,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c7": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c7",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "5 mA∙h∙g−1, respectively, with the same value of 89.66% for the Coulombic efficiency (Fig. 3a) because Al3+ ions are electrochemically inactive [14]. This circumstance does not significantly affect the capacitive characteristics at subsequent cycles: the NCMA demonstrates capacities of 192, 178, 166 and 151 mA∙h∙g−1 at current densities of 0.2 – 2 C, which is on average 5 – 15% higher than for undoped CAM. This may be because aluminum ions during coordination with oxygen sublattice of the material, embeds into the interlayer spacing, thus increasing it. In the presence of Al³⁺ ions, the stability of the materials also increases during long-term cycling: over 100 cycles at a current density of 1 C, the NCM material retains 77% of its initial capacity, whereas the NCMA material retains up to 83%. Furthermore, the specific capacity of the NCMA cathode after 100 cycles was 118 mA∙h∙g−1, which is higher than 114 mA∙h∙g−1 for NCM at the first cycle (Fig. 3b). Fig. 3.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "материал NCM",
+          "name_en": "NCM material",
+          "canonical": "NCM"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "материал NCMA",
+          "name_en": "NCMA material",
+          "canonical": "NCMA"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "катод NCMA",
+          "name_en": "NCMA cathode",
+          "canonical": "NCMA_cathode"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "кулоновская эффективность",
+          "name_en": "Coulombic efficiency",
+          "canonical": "Coulombic_efficiency"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "циклирование материала NCM",
+          "name_en": "cycling of NCM material",
+          "canonical": "NCM_cycling"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "циклирование материала NCMA",
+          "name_en": "cycling of NCMA material",
+          "canonical": "NCMA_cycling"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "The NCMA demonstrates capacities at current densities of 0.2 – 2 C"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "the specific capacity of the NCMA cathode after 100 cycles was 118 mA∙h∙g−1"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Al3+ ions are electrochemically inactive"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "over 100 cycles at a current density of 1 C, the NCM material retains 77% of its initial capacity"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "the NCMA material retains up to 83% over 100 cycles"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "capacity",
+          "op": "range",
+          "value_min": 151.0,
+          "value_max": 192.0,
+          "unit": "mA∙h∙g−1",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "current_density",
+          "op": "range",
+          "value_min": 0.2,
+          "value_max": 2.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "capacity",
+          "op": "range",
+          "value_min": 114.0,
+          "value_max": 118.0,
+          "unit": "mA∙h∙g−1",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Coulombic_efficiency",
+          "op": "le",
+          "value_min": null,
+          "value_max": 89.66,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "retained_capacity",
+          "op": "ge",
+          "value_min": 77.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "retained_capacity",
+          "op": "ge",
+          "value_min": 83.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c8": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c8",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "cific capacity of the NCMA cathode after 100 cycles was 118 mA∙h∙g−1, which is higher than 114 mA∙h∙g−1 for NCM at the first cycle (Fig. 3b). Fig. 3. Electrochemical performance of NCM and NCMA cathodes: C-rate capability (a), long-term cycling at I = 1 C (b); charge/discharge profiles at I = 0.1 C and 1 C (c); differential capacity curves at I = 0.1 C for the first and fifth cycles (d). Charge/discharge profiles of the both materials are close (Fig. 3c): on the discharge curve at low current density three plateaus are observed, corresponding to the lithium intercalation process. At 1 C current the ohmic drop for the Al-doped material is lesser than for the undoped CAM, so presence of Al3+ ions enhance the lithium ions diffusion and decrease the internal resistance in the cathode material. Moreover, the polarization of the undoped cathode is almost twice higher than for NCMA material. Additional analysis of the differential capacity profiles at 0.1 C showed that during five cycles the Al-doped material is more stable than pristine NCM (Fig. 3d).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "катод NCMA",
+          "name_en": "NCMA cathode",
+          "canonical": "ncma_cathode"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катод NCM",
+          "name_en": "NCM cathode",
+          "canonical": "ncm_cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "интеркаляция лития",
+          "name_en": "lithium intercalation",
+          "canonical": "lithium_intercalation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "specific capacity of the NCMA cathode after 100 cycles was 118 mA∙h∙g−1"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "specific capacity for NCM at the first cycle"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "specific_capacity",
+          "op": "ge",
+          "value_min": 118.0,
+          "value_max": null,
+          "unit": "mAh/g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "specific_capacity",
+          "op": "ge",
+          "value_min": 114.0,
+          "value_max": null,
+          "unit": "mAh/g",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c9": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c9",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "lysis of the differential capacity profiles at 0.1 C showed that during five cycles the Al-doped material is more stable than pristine NCM (Fig. 3d). The peaks positions are in well accordance with the previous reports [11,13], so the reaction pathway is independent on the doping process. Conclusions Synthesis of aluminum-ion doped cathode material based on nickel-rich layered oxides was carried out at the precursor stage. It was found that aluminum ions are uniformly distributed throughout the material's volume without significantly altering its structure; however, slight expansion occurs when they are introduced into the interlayer distances. This has a positive effect on the values of specific capacities: at a current density of 2 C, the capacity of the doped materials increases by 15%, and stability during long cycling increases by up to 83% at 1 C current density. The results obtained allow us to consider introducing the ion dopant at the stage of synthesizing the cathode material precursor as a promising strategy for obtaining high-performance cathode materials of the next generation based on layered transition metal oxides. References [1] M. Armand, P. Axmann, D.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Al-легированный NCM",
+          "name_en": "Al-doped NCM",
+          "canonical": "aluminum_doped_ncm"
+        },
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "синтез Al-легированного катодного материала",
+          "name_en": "synthesis of aluminum-ion doped cathode material",
+          "canonical": "synthesis"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "исходный NCM",
+          "name_en": "pristine NCM",
+          "canonical": "pristine_ncm"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "удельная ёмкость",
+          "name_en": "specific capacity",
+          "canonical": "specific_capacity"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "стабильность",
+          "name_en": "stability",
+          "canonical": "stability"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "ион алюминия",
+          "name_en": "aluminum ion",
+          "canonical": "aluminum_ion"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "никельсодержащие слоистые оксиды",
+          "name_en": "nickel-rich layered oxides",
+          "canonical": "nickel_rich_layered_oxides"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "катодный материал",
+          "name_en": "cathode material",
+          "canonical": "cathode_material"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "contradicts",
+          "evidence": "Al-doped material is more stable than pristine NCM"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Synthesis of aluminum-ion doped cathode material based on nickel-rich layered oxides was carried out"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "The capacity of the doped materials increases by 15%"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "stability during long cycling increases by up to 83% at 1 C current density"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "aluminum ions are uniformly distributed throughout the material's volume"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "specific_capacity",
+          "op": "range",
+          "value_min": null,
+          "value_max": 15.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "stability",
+          "op": "le",
+          "value_min": null,
+          "value_max": 83.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "ge",
+          "value_min": 0.1,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "ge",
+          "value_min": 2.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "current_density",
+          "op": "ge",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c10": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c10",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "obtaining high-performance cathode materials of the next generation based on layered transition metal oxides. References [1] M. Armand, P. Axmann, D. Bresser, M. Copley, K. Edström, C. Ekberg, D. Guyomard, B. Lestriez, P. Novák, M. Petranikova, W. Porcher, S. Trabesinger, M. Wohlfahrt-Mehrens, H. Zhang, Lithium-ion batteries – Current state of the art and anticipated developments, J. Power Sources. 479 (2020) 228708. https://doi.org/10.1016/j.jpowsour.2020.228708. [2] X. Tian, R. Guo, Y. Bai, N. Li, X. Wang, J. Wang, C. Wu, High-Performance High-Nickel Multi-Element Cathode Materials for Lithium-Ion Batteries, Batteries. 9 (2023) 319. https://doi.org/10.3390/batteries9060319. [3] W. Liang, Y. Zhao, L. Shi, Z. Wang, Y. Wang, M. Zhang, S. Yuan, Advances of high-performance LiNi1-x-yCoxMnyO2 cathode materials and their precursor particles via co-precipitation process, Particuology. 86 (2024) 67–85. https://doi.org/10.1016/j.partic.2023.05.001. [4] Z. Wu, C. Zhang, F. Yuan, M. Lyu, P. Yang, L. Zhang, M. Zhou, L. Wang, S. Zhang, L. Wang, Ni-rich cathode materials for stable high-energy lithium-ion batteries, Nano Energy. 126 (2024) 109620. https://doi.org/10.1016/j.nanoen.2024.109620.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "литий-ионные батареи",
+          "name_en": "lithium-ion batteries",
+          "canonical": "lithium_ion_batteries"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "катодные материалы",
+          "name_en": "cathode materials",
+          "canonical": "cathode_materials"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "процесс соосаждения",
+          "name_en": "co-precipitation process",
+          "canonical": "co_precipitation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Advances of high-performance LiNi1-x-yCoxMnyO2 cathode materials and their precursor particles via co-precipitation process"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c11": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c11",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "Ni-rich cathode materials for stable high-energy lithium-ion batteries, Nano Energy. 126 (2024) 109620. https://doi.org/10.1016/j.nanoen.2024.109620. [5] K. Davis, G.P. Demopoulos, Effective upcycling of NMC111 to NMC622 cathodes by hydrothermal relithiation and Ni-enriching annealing, Next Energy. 4 (2024) 100122. https://doi.org/10.1016/j.nxener.2024.100122. [6] Q. Gan, N. Qin, H. Yuan, L. Lu, Z. Xu, Z. Lu, Critical review on the degradation mechanisms and recent progress of Ni-rich layered oxide cathodes for lithium-ion batteries, EnergyChem. 5 (2023) 100103. https://doi.org/10.1016/j.enchem.2023.100103. [7] Z. Ahaliabadeh, X. Kong, E. Fedorovskaya, T. Kallio, Extensive comparison of doping and coating strategies for Ni-rich positive electrode materials, J. Power Sources. 540 (2022) 231633. https://doi.org/10.1016/j.jpowsour.2022.231633. [8] J. Wang, X. Lei, S. Guo, L. Gu, X. Wang, A. Yu, D. Su, Doping Strategy in Nickel-Rich Layered Oxide Cathode for Lithium-Ion Battery, Renewables. 1 (2023) 316–340. https://doi.org/10.31635/renewables.023.202200022. [9] D. Aurbach, O. Srur-Lavi, C. Ghanty, M. Dixit, O. Haik, M. Talianker, Y. Grinblat, N. Leifer, R. Lavi, D.T. Major, G.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "материалы катода с высоким содержанием никеля",
+          "name_en": "Ni-rich cathode materials",
+          "canonical": "nickel_rich_cathode"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "литий-ионные батареи",
+          "name_en": "lithium-ion batteries",
+          "canonical": "lithium_ion_batteries"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "гидротермальное релититирование",
+          "name_en": "hydrothermal relithiation",
+          "canonical": "hydrothermal_relithiation"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "отжиг",
+          "name_en": "annealing",
+          "canonical": "annealing"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "механизмы деградации",
+          "name_en": "degradation mechanisms",
+          "canonical": "degradation_mechanisms"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "стратегия легирования",
+          "name_en": "doping strategy",
+          "canonical": "doping_strategy"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "стратегия нанесения покрытия",
+          "name_en": "coating strategy",
+          "canonical": "coating_strategy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Effective upcycling of NMC111 to NMC622 cathodes by hydrothermal relithiation and Ni-enriching annealing"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Ni-rich layered oxide cathodes for lithium-ion batteries"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Critical review on the degradation mechanisms and recent progress of Ni-rich layered oxide cathodes"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "Extensive comparison of doping and coating strategies for Ni-rich positive electrode materials"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "Doping Strategy in Nickel-Rich Layered Oxide Cathode for Lithium-Ion Battery"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c12": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c12",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "5/renewables.023.202200022. [9] D. Aurbach, O. Srur-Lavi, C. Ghanty, M. Dixit, O. Haik, M. Talianker, Y. Grinblat, N. Leifer, R. Lavi, D.T. Major, G. Goobes, E. Zinigrad, E.M. Erickson, M. Kosa, B. Markovsky, J. Lampert, A. Volkov, J.-Y. Shin, A. Garsuch, Studies of Aluminum-Doped LiNi0.5Co0.2Mn0.3O2: Electrochemical Behavior, Aging, Structural Transformations, and Thermal Characteristics, J. Electrochem. Soc. 162 (2015) A1014–A1027. https://doi.org/10.1149/2.0681506jes. [10] U.-H. Kim, L.-Y. Kuo, P. Kaghazchi, C.S. Yoon, Y.-K. Sun, Quaternary Layered Ni-Rich NCMA Cathode for Lithium-Ion Batteries, ACS Energy Lett. 4 (2019) 576–582. https://doi.org/10.1021/acsenergylett.8b02499. [11] J. Lin, X. Lian, X. Wang, Y. Ma, L. Fang, X. Suo, Effects of Al content on the electrochemical performance and thermal stability of Li(Ni0.9Co0.06Mn0.04)1−xAlxO2 cathode materials for Li-ion batteries, Ionics. 29 (2023) 2153–2162. https://doi.org/10.1007/s11581-023-04929-9. [12] L. Cheng, B. Zhang, S.-L. Su, L. Ming, Y. Zhao, X.-X. Tan, Al-doping enables high stability of single-crystalline LiNi0.7Co0.1Mn0.2O2 lithium-ion cathodes at high voltage, RSC Adv. 11 (2021) 124–128.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "LiNi0.5Co0.2Mn0.3O2 с добавлением алюминия",
+          "name_en": "Aluminum-Doped LiNi0.5Co0.2Mn0.3O2",
+          "canonical": "LiNi0.5Co0.2Mn0.3O2"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Li(Ni0.9Co0.06Mn0.04)1−xAlxO2",
+          "name_en": "Li(Ni0.9Co0.06Mn0.04)1−xAlxO2",
+          "canonical": "Li(Ni0.9Co0.06Mn0.04)1−xAlxO2"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "LiNi0.7Co0.1Mn0.2O2 с добавлением алюминия",
+          "name_en": "Al-doping LiNi0.7Co0.1Mn0.2O2",
+          "canonical": "LiNi0.7Co0.1Mn0.2O2"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "электрохимическое поведение",
+          "name_en": "electrochemical behavior",
+          "canonical": "electrochemical_behavior"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "старение",
+          "name_en": "aging",
+          "canonical": "aging"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "структурные трансформации",
+          "name_en": "structural transformations",
+          "canonical": "structural_transformations"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "тепловые характеристики",
+          "name_en": "thermal characteristics",
+          "canonical": "thermal_characteristics"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "электрохимические характеристики",
+          "name_en": "electrochemical performance",
+          "canonical": "electrochemical_performance"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "тепловая стабильность",
+          "name_en": "thermal stability",
+          "canonical": "thermal_stability"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Studies of Aluminum-Doped LiNi0.5Co0.2Mn0.3O2: Electrochemical Behavior, Aging, Structural Transformations, and Thermal Characteristics"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Studies of Aluminum-Doped LiNi0.5Co0.2Mn0.3O2: Electrochemical Behavior, Aging, Structural Transformations, and Thermal Characteristics"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Studies of Aluminum-Doped LiNi0.5Co0.2Mn0.3O2: Electrochemical Behavior, Aging, Structural Transformations, and Thermal Characteristics"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Studies of Aluminum-Doped LiNi0.5Co0.2Mn0.3O2: Electrochemical Behavior, Aging, Structural Transformations, and Thermal Characteristics"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "Effects of Al content on the electrochemical performance and thermal stability of Li(Ni0.9Co0.06Mn0.04)1−xAlxO2 cathode materials for Li-ion batteries"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Effects of Al content on the electrochemical performance and thermal stability of Li(Ni0.9Co0.06Mn0.04)1−xAlxO2 cathode materials for Li-ion batteries"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c13": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c13",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "-X. Tan, Al-doping enables high stability of single-crystalline LiNi0.7Co0.1Mn0.2O2 lithium-ion cathodes at high voltage, RSC Adv. 11 (2021) 124–128. https://doi.org/10.1039/D0RA09813B. [13] Y.-C. Li, W. Xiang, Z.-G. Wu, C.-L. Xu, Y.-D. Xu, Y. Xiao, Z.-G. Yang, C.-J. Wu, G.-P. Lv, X.-D. Guo, Construction of homogeneously Al3+ doped Ni rich Ni-Co-Mn cathode with high stable cycling performance and storage stability via scalable continuous precipitation, Electrochim. Acta. 291 (2018) 84–94. https://doi.org/10.1016/j.electacta.2018.08.124. [14] H. Zhu, C. Lu, M. He, Y. Wang, Y. Ji, J. Ying, J. Guo, M. Zhu, P. Cao, C. Li, Z. Chen, A synergistic modification strategy for enhancing the cycling stability and rate capacity of single-crystal nickel-rich cathode materials, J. Energy Storage. 98 (2024) 113220. https://doi.org/10.1016/j.est.2024.113220. Supplementary materials Experimental part Materials characterization The obtained materials: both precursors and active materials – were examined by X-ray diffraction (XRD, Rigaku \"MiniFlex II\") using Co Kα1 radiation, 2θ range = 10 – 100° at the speed 5°/min. Phase analysis was performed in the PDXL-2 program using the ICDD database.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "легирование алюминием",
+          "name_en": "Al-doping",
+          "canonical": "al_doping"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "литий-ионный катод LiNi0.7Co0.1Mn0.2O2",
+          "name_en": "LiNi0.7Co0.1Mn0.2O2 lithium-ion cathode",
+          "canonical": "lithium_ion_cathode"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "рентгеновская дифракция",
+          "name_en": "X-ray diffraction analysis",
+          "canonical": "xrd_analysis"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "Rigaku MiniFlex II",
+          "name_en": "Rigaku MiniFlex II",
+          "canonical": "miniflex_ii"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "PDXL-2",
+          "name_en": "PDXL-2",
+          "canonical": "pdxl_2"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "база данных ICDD",
+          "name_en": "ICDD database",
+          "canonical": "icdd_database"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "стабильность циклирования",
+          "name_en": "cycling stability",
+          "canonical": "cycling_stability"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "скоростная ёмкость",
+          "name_en": "rate capacity",
+          "canonical": "rate_capacity"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "никель-богатый катодный материал",
+          "name_en": "nickel-rich cathode material",
+          "canonical": "nickel_rich_cathode_material"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "масштабируемое непрерывное осаждение",
+          "name_en": "scalable continuous precipitation",
+          "canonical": "continuous_precipitation"
+        },
+        {
+          "id": "e11",
+          "type": "Publication",
+          "name_ru": "Электрохим. Acta",
+          "name_en": "Electrochim. Acta",
+          "canonical": "electrochim_acta"
+        },
+        {
+          "id": "e12",
+          "type": "Publication",
+          "name_ru": "RSC Adv",
+          "name_en": "RSC Adv",
+          "canonical": "rsc_adv"
+        },
+        {
+          "id": "e13",
+          "type": "Publication",
+          "name_ru": "Журнал хранения энергии",
+          "name_en": "J. Energy Storage",
+          "canonical": "j_energy_storage"
+        },
+        {
+          "id": "e14",
+          "type": "Expert",
+          "name_ru": "X. Тан",
+          "name_en": "X. Tan",
+          "canonical": "x_tan"
+        },
+        {
+          "id": "e15",
+          "type": "Expert",
+          "name_ru": "Y.-C. Ли",
+          "name_en": "Y.-C. Li",
+          "canonical": "y_c_li"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Al-doping enables high stability of single-crystalline LiNi0.7Co0.1Mn0.2O2 lithium-ion cathodes at high voltage"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Materials characterization The obtained materials: both precursors and active materials – were examined by X-ray diffraction (XRD, Rigaku 'MiniFlex II')"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "validated_by",
+          "evidence": "Phase analysis was performed in the PDXL-2 program using the ICDD database"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "validated_by",
+          "evidence": "Phase analysis was performed in the PDXL-2 program using the ICDD database"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "A synergistic modification strategy for enhancing the cycling stability and rate capacity of single-crystal nickel-rich cathode materials"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "A synergistic modification strategy for enhancing the cycling stability and rate capacity of single-crystal nickel-rich cathode materials"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Construction of homogeneously Al3+ doped Ni rich Ni-Co-Mn cathode with high stable cycling performance and storage stability via scalable continuous precipitation"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e12",
+          "type": "expert_in",
+          "evidence": "X. Tan, Al-doping enables high stability of single-crystalline LiNi0.7Co0.1Mn0.2O2 lithium-ion cathodes at high voltage, RSC Adv. 11 (2021) 124–128"
+        },
+        {
+          "source_id": "e15",
+          "target_id": "e11",
+          "type": "expert_in",
+          "evidence": "Y.-C. Li, W. Xiang, Z.-G. Wu, C.-L. Xu, Y.-D. Xu, Y. Xiao, Z.-G. Yang, C.-J. Wu, G.-P. Lv, X.-D. Guo, Construction of homogeneously Al3+ doped Ni rich Ni-Co-Mn cathode with high stable cycling performance and storage stability via scalable continuous precipitation, Electrochim. Acta. 291 (2018) 84–94"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c14": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c14",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "ex II\") using Co Kα1 radiation, 2θ range = 10 – 100° at the speed 5°/min. Phase analysis was performed in the PDXL-2 program using the ICDD database. The morphology of the materials was studied using the scanning electron microscopy (SEM) and energy dispersive X-ray analysis on a Tescan 5130MM electron microscope equipped Inca x-act detector (Oxford Instruments). The chemical composition of precursors and cathode materials was studied by inductively coupled plasma atomic emission spectrometry by inductively coupled plasma atomic emission spectroscopy (ICP-AES) on an EXPEC 6500 inductively coupled plasma spectrometer (ICP-AES). Electrochemical tests Received CAMs were mechanically mixed with carbon black, graphite and polyvinylidene fluoride binder in ratio 92 wt.% of CAM, 3 wt.% of carbon and binder and 2 wt.% of graphite. The resulting slurries were cast on the aluminum foil mechanically (JK-TMJ-200, gap height 100 – 130 μm, mass loading 5 mg∙cm−2). Electrodes were dried at 80 °C for 2 h, roll-pressed and assembled in CR2032 coin cells vs. Li foil, 1 M LiPF6 in EC:EMC:DEC (ethylene carbonate, ethyl methyl carbonate, diethyl carbonate 1/1/1 vol.) was applied as electrolyte.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "рентгеновская дифракция",
+          "name_en": "X-ray diffraction",
+          "canonical": "x-ray_diffraction"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ПДХЛ-2",
+          "name_en": "PDXL-2",
+          "canonical": "pdxl-2"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "Тескан 5130ММ",
+          "name_en": "Tescan 5130MM",
+          "canonical": "tescan_5130mm"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "ЖК-ТМЖ-200",
+          "name_en": "JK-TMJ-200",
+          "canonical": "jk-tmj-200"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "ЭКСПЕК 6500",
+          "name_en": "EXPEC 6500",
+          "canonical": "expec_6500"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "сушка электродов",
+          "name_en": "electrode drying",
+          "canonical": "electrode_drying"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "монетные элементы CR2032",
+          "name_en": "CR2032 coin cells",
+          "canonical": "cr2032_coin_cells"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "КАМ",
+          "name_en": "CAM",
+          "canonical": "cathode_active_material"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "технический углерод",
+          "name_en": "carbon black",
+          "canonical": "carbon_black"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "графит",
+          "name_en": "graphite",
+          "canonical": "graphite"
+        },
+        {
+          "id": "e11",
+          "type": "Material",
+          "name_ru": "поливинилиденфторид",
+          "name_en": "polyvinylidene fluoride",
+          "canonical": "polyvinylidene_fluoride"
+        },
+        {
+          "id": "e12",
+          "type": "Material",
+          "name_ru": "алюминиевая фольга",
+          "name_en": "aluminum foil",
+          "canonical": "aluminum_foil"
+        },
+        {
+          "id": "e13",
+          "type": "Material",
+          "name_ru": "электролит",
+          "name_en": "electrolyte",
+          "canonical": "electrolyte"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Phase analysis was performed in the PDXL-2 program"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "The morphology of the materials was studied using the scanning electron microscopy (SEM) and energy dispersive X-ray analysis on a Tescan 5130MM electron microscope"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "The chemical composition of precursors and cathode materials was studied by inductively coupled plasma atomic emission spectrometry by inductively coupled plasma atomic emission spectroscopy (ICP-AES) on an EXPEC 6500 inductively coupled plasma spectrometer (ICP-AES)"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "Electrodes were dried at 80 °C for 2 h, roll-pressed and assembled in CR2032 coin cells"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "Received CAMs were mechanically mixed with carbon black, graphite and polyvinylidene fluoride binder"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "The resulting slurries were cast on the aluminum foil mechanically"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "2θ",
+          "op": "range",
+          "value_min": 10.0,
+          "value_max": 100.0,
+          "unit": "°",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "speed",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit": "°/min",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "gap_height",
+          "op": "range",
+          "value_min": 100.0,
+          "value_max": 130.0,
+          "unit": "μm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "mass_loading",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit": "mg/cm2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 80.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "time",
+          "op": "ge",
+          "value_min": 2.0,
+          "value_max": null,
+          "unit": "h",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__4 Doping NCM pCAM article::p1::c15": {
+    "chunk": {
+      "chunk_id": "Статьи__4 Doping NCM pCAM article::p1::c15",
+      "doc_id": "Статьи__4 Doping NCM pCAM article",
+      "source": "data/raw/Статьи/4 Doping NCM pCAM article.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "oin cells vs. Li foil, 1 M LiPF6 in EC:EMC:DEC (ethylene carbonate, ethyl methyl carbonate, diethyl carbonate 1/1/1 vol.) was applied as electrolyte. Galvanostatic charge/discharge studies were performed on automatic galvanostatic battery test instrument Neware CT-4008 in the potential range of 3.0 – 4.3 V vs. Li/Li+ at currents of 0.1 – 2 C (1 C = 200 mA∙g−1) at a temperature of 25 ± 2 °C. The cyclic stability of the cathode materials was evaluated during 100 charge/discharge cycles at 1 C current density.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "1 М LiPF6 в EC:EMC:DEC",
+          "name_en": "1 M LiPF6 in EC:EMC:DEC",
+          "canonical": "LiPF6_EC_EMC_DEC"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "гальваностатическая зарядка/разрядка",
+          "name_en": "galvanostatic charge/discharge",
+          "canonical": "galvanostatic_charge_discharge"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "Neware CT-4008",
+          "name_en": "Neware CT-4008",
+          "canonical": "Neware_CT-4008"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "циклическая стабильность катодных материалов",
+          "name_en": "cyclic stability of cathode materials",
+          "canonical": "cathode_material_stability"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Galvanostatic charge/discharge studies were performed on automatic galvanostatic battery test instrument Neware CT-4008"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "The cyclic stability of the cathode materials was evaluated during 100 charge/discharge cycles at 1 C current density"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "potential",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 4.3,
+          "unit": "V",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "current",
+          "op": "range",
+          "value_min": 0.1,
+          "value_max": 2.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 23.0,
+          "value_max": 27.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "cycles",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  }
+}

@@ -1,0 +1,3059 @@
+{
+  "Статьи__2 Lukanina::p1::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p1::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "– 78 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 ~ ~ ~ Metallurgy and Materials Engineering Металлургия и материаловедение EDN: BICHXU УДК 669.042:532.5 Numerical Simulation of the Basalt Melt Flow Through the Feeder Tray of Gas-­Electric Furnace Maria A. Lukaninaa*, Vladimir A. Popova, Alekcander V. Lapinb and Vladimir I. Lazarevb aLLC Gipronickel Institute Saint Petersburg, Russian Federation bAO “Kanex Technology” (Joint Stock Company) Moscow, Russian Federation Received 24.06.2025, received in revised form 08.11.2025, accepted 15.01.2026 Abstract. The quality of the mineral wool obtained from basalt melt depends on stable mass flow rate and slug properties. Basalt slag supplies from gas-­electric furnace to centrifuge through the “feeder tray”, that uses to stabilize the slag flow, decrease flow rate fluctuations and maintain the required temperature. In this work we used CFD (Computational Fluid Dynamics) methods (within the ANSYS Fluent program) to estimate the feeder efficiency.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "базальтовый расплав",
+          "name_en": "basalt melt",
+          "canonical": "basalt_melt"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "газоэлектрическая печь",
+          "name_en": "gas-electric furnace",
+          "canonical": "gas_electric_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "центрифуга",
+          "name_en": "centrifuge",
+          "canonical": "centrifuge"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "питающий лоток",
+          "name_en": "feeder tray",
+          "canonical": "feeder_tray"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "методы вычислительной гидродинамики",
+          "name_en": "CFD methods",
+          "canonical": "CFD_methods"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Basalt slag supplies from gas-electric furnace to centrifuge through the 'feeder tray'"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "In this work we used CFD (Computational Fluid Dynamics) methods (within the ANSYS Fluent program) to estimate the feeder efficiency"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p1::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p1::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "red temperature. In this work we used CFD (Computational Fluid Dynamics) methods (within the ANSYS Fluent program) to estimate the feeder efficiency. The practice of numerical simulations of industrial processes shows that these methods allow evaluating the operation of equipment without making expensive and long experiments. We found that the base feeder design is efficient enough in decreasing of short period pulsation (about 1 sec), but this feeder fails to mitigate long period pulsations (more than 100 sec). The analysis of the melt velocity field showed that the maximum pulsation of velocity occurs in the upper part of the flow. The velocities in the lower part of the melt practically do not change when the melt flow rate changes. The simulation showed that an increase in the size of the feeder (its height) does not significantly affect the stabilization of the output flow with rapid fluctuations in the output flow characteristic of a gas-­electric cupola (in the same amplitude range). A modification of the base design was proposed and numerically simulated. We suggested incorporating a baffle in the center of the feeder tray.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Вычислительная гидродинамика",
+          "name_en": "Computational Fluid Dynamics",
+          "canonical": "computational_fluid_dynamics"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ANSYS Fluent",
+          "name_en": "ANSYS Fluent",
+          "canonical": "ANSYS_Fluent"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "питатель",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "пульсации",
+          "name_en": "pulsations",
+          "canonical": "pulsations"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "CFD methods (within the ANSYS Fluent program) to estimate the feeder efficiency"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "The base feeder design is efficient enough in decreasing of short period pulsation"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "The analysis of the melt velocity field"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "pulsation_period",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": null,
+          "unit": "sec",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "short_pulsation_period",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "sec",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p1::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p1::c2",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "nge). A modification of the base design was proposed and numerically simulated. We suggested incorporating a baffle in the center of the feeder tray. The baffle increases the efficiency of pulsation damper both for short-­period and long-­ period fluctuations. To reduce stagnant zones and heat loss, we propose to use inclined slag melt flow into the tray, i.e. use skew brick instead of usual. Keywords: CFD, computational fluid dynamics, ANSYS Fluent, numerical simulation, melt, velocity field, mineral wool, cupola furnace. Citation: Lukanina M. A., Popov V. A., Lapin A. V., Lazarev V. I. Numerical Simulation of the Basalt Melt Flow Through the Feeder Tray of Gas-­Electric Furnace. J. Sib. Fed. Univ. Eng. & Technol., 2026, 19(1), 78–91. EDN: BICHXU © Siberian Federal University. All rights reserved This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License (CC BY-NC 4.0). * Corresponding author E-mail address: lukaninama@nornik.ru",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "газоэлектрическая печь",
+          "name_en": "gas-electric furnace",
+          "canonical": "gas_electric_furnace"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "базальтовый расплав",
+          "name_en": "basalt melt",
+          "canonical": "basalt_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "питающий лоток",
+          "name_en": "feeder tray",
+          "canonical": "feeder_tray"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "перегородка",
+          "name_en": "baffle",
+          "canonical": "baffle"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "ANSYS Fluent",
+          "name_en": "ANSYS Fluent",
+          "canonical": "ANSYS_Fluent"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "вычислительная гидродинамика",
+          "name_en": "computational fluid dynamics",
+          "canonical": "CFD"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "numerical simulation of the basalt melt flow through the feeder tray of gas-electric furnace"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "incorporating a baffle in the center of the feeder tray"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p2::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p2::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "– 79 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Компьютерное моделирование узла выдачи расплава базальта из газоэлектрической вагранки М. А. Луканинаа, В. А. Попова, А. В. Лапинб, В. И. Лазаревб аООО «Институт Гипроникель» Российская Федерация, Санкт-­Петербург бАО «Канекс Технология» Российская Федерация, Москва Аннотация. Качество получаемой из расплава базальта минеральной ваты зависит, в числе прочего, от постоянства расхода расплава, подаваемого из газоэлектрической вагранки на центрифугу, а также от физических и химических свой­ств расплава. Задача желоба «фидера», входящего в состав узла выдачи расплава, – ​обеспечивать стабильность передачи расплава, гасить пульсации расхода, поддерживать необходимую температуру. В настоящей работе работоспособность конструкции фидера была оценена с помощью компьютерного моделирования методами вычислительной гидрогазодинамики в рамках программного пакета ANSYS Fluent. Практика компьютерного моделирования промышленных процессов показывает, что эти методы позволяют оценить работу оборудования, не прибегая к дорогостоящим и долгим экспериментам.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "расплав базальта",
+          "name_en": "basalt melt",
+          "canonical": "basalt_melt"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "газоэлектрическая вагранка",
+          "name_en": "gas-electric cupola",
+          "canonical": "gas_electric_cupola"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "центрифуга",
+          "name_en": "centrifuge",
+          "canonical": "centrifuge"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "желоб фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "компьютерное моделирование",
+          "name_en": "computer simulation",
+          "canonical": "computer_simulation"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "ANSYS Fluent",
+          "name_en": "ANSYS Fluent",
+          "canonical": "ANSYS_Fluent"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "вычислительная гидрогазодинамика",
+          "name_en": "computational fluid dynamics",
+          "canonical": "computational_fluid_dynamics"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Качество получаемой из расплава базальта минеральной ваты зависит, в числе прочего, от постоянства расхода расплава, подаваемого из газоэлектрической вагранки на центрифугу"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Задача желоба «фидера», входящего в состав узла выдачи расплава, – обеспечивать стабильность передачи расплава"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "В настоящей работе работоспособность конструкции фидера была оценена с помощью компьютерного моделирования методами вычислительной гидрогазодинамики в рамках программного пакета ANSYS Fluent"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "В настоящей работе работоспособность конструкции фидера была оценена с помощью компьютерного моделирования методами вычислительной гидрогазодинамики в рамках программного пакета ANSYS Fluent"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "В настоящей работе работоспособность конструкции фидера была оценена с помощью компьютерного моделирования методами вычислительной гидрогазодинамики в рамках программного пакета ANSYS Fluent"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p2::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p2::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "ирования промышленных процессов показывает, что эти методы позволяют оценить работу оборудования, не прибегая к дорогостоящим и долгим экспериментам. Оказалось, что предлагаемая конструкция фидера сравнительно эффективно гасит короткие пульсации расхода (период около 1 с) и пропускает медленные изменения (период более 100 секунд). Анализ поля скоростей расплава показал, что основные изменения скорости движения расплава происходят в верхней части потока. Скорости в нижней часть расплава практически не меняются при изменении расхода расплава. Моделирование показало, что увеличение размеров фидера (его высоты) не оказывает существенного влияния на стабилизацию выходного потока при быстрых колебаниях выходного потока, характерных для газоэлектрической вагранки (в том же диапазоне амплитуд). Модификация конструкции (установка перегородки в ванне желоба) позволяет повысить эффективность гашения как коротко- так и длиннопериодических колебаний. Для уменьшения застойных зон и снижения теплопотерь предлагается организовать наклонный сход расплава в ванну (использовать кирпич со срезом вместо прямоугольного).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование промышленных процессов",
+          "name_en": "industrial process modeling",
+          "canonical": "industrial_process_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "spout"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "короткие пульсации расхода",
+          "name_en": "short flow pulsation",
+          "canonical": "short_flow_pulsation"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "медленные изменения",
+          "name_en": "slow flow change",
+          "canonical": "slow_flow_change"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "поле скоростей расплава",
+          "name_en": "melt velocity field",
+          "canonical": "melt_velocity_field"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "газоэлектрическая вагранка",
+          "name_en": "gas-electric cupola",
+          "canonical": "gas_electric_cupola"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "моделирование промышленных процессов позволяет оценить работу оборудования"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "предлагаемая конструкция фидера гасит короткие пульсации расхода"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "предлагаемая конструкция фидера пропускает медленные изменения"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "анализ поля скоростей расплава показал основные изменения скорости движения расплава"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "увеличение размеров фидера не оказывает существенного влияния на стабилизацию выходного потока при быстрых колебаниях выходного потока, характерных для газоэлектрической вагранки"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "period",
+          "op": "range",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "period",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p2::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p2::c2",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "застойных зон и снижения теплопотерь предлагается организовать наклонный сход расплава в ванну (использовать кирпич со срезом вместо прямоугольного). Ключевые слова: CFD, вычислительная гидрогазодинамика, программа ANSYS Fluent, компьютерное моделирование, минеральная вата, вагранка, расплав, поле скорости. Цитирование: Луканина М. А. Компьютерное моделирование узла выдачи расплава базальта из газоэлектрической вагранки / М. А. Луканина, В. А. Попов, А. В. Лапин, В. И. Лазарев // Журн. Сиб. федер. ун-­та. Техника и технологии, 2026, 19(1). С. 78–91. EDN: BICHXU Введение Для получения минеральной ваты расплав базальта из газоэлектрической вагранки (ГЭВ) подаётся на узел выдачи расплава, состоящий из выпускного шибера и желоба-­фидера. Такой узел должен обеспечивать стабильную передачу расплава от вагранки на центрифугу, гасить пульсацию расплава, поддерживать необходимую температуру. Способность фидера решать эти задачи зависит от ряда его геометрических характеристик и эксплуатационных особенностей – ​ геометрических размеров, уровня ванны, высоты порогов, интенсивности подогрева расплава.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "газоэлектрическая вагранка",
+          "name_en": "gas-electric cupola",
+          "canonical": "gas_electric_cupola"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "минеральная вата",
+          "name_en": "mineral wool",
+          "canonical": "mineral_wool"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "расплав базальта",
+          "name_en": "basalt melt",
+          "canonical": "basalt_melt"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "узел выдачи расплава",
+          "name_en": "melt distribution unit",
+          "canonical": "melt_distribution_unit"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "выпускной шибер",
+          "name_en": "outlet gate",
+          "canonical": "выпускной_шибер"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "желоб-фидер",
+          "name_en": "chute-feeder",
+          "canonical": "желоб-фидер"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "центрифуга",
+          "name_en": "centrifuge",
+          "canonical": "centrifuge"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "вычислительная гидрогазодинамика",
+          "name_en": "CFD",
+          "canonical": "CFD"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "компьютерное моделирование",
+          "name_en": "computer simulation",
+          "canonical": "computer_simulation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Для получения минеральной ваты расплав базальта из газоэлектрической вагранки (ГЭВ) подаётся на узел выдачи расплава"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "узел должен обеспечивать стабильную передачу расплава от вагранки на центрифугу"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "узел выдачи расплава, состоящий из выпускного шибера и желоба-фидера"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "узел выдачи расплава, состоящий из выпускного шибера и желоба-фидера"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p2::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p2::c3",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "етрических характеристик и эксплуатационных особенностей – ​ геометрических размеров, уровня ванны, высоты порогов, интенсивности подогрева расплава. Подбор оптимальных характеристик фидера в настоящее время целесообразно выполнить методами компьютерной вычислительной гидрогазодинамики [1–5], достаточно достоверными для пирометаллургических процессов.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пирометаллургический процесс",
+          "name_en": "pyrometallurgical process",
+          "canonical": "pyrometallurgical_process"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "компьютерная вычислительная гидрогазодинамика",
+          "name_en": "computational fluid dynamics",
+          "canonical": "computational_fluid_dynamics"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "described_in",
+          "evidence": "Подбор оптимальных характеристик фидера в настоящее время целесообразно выполнить методами компьютерной вычислительной гидрогазодинамики"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p3::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p3::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "– 80 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 В настоящей работе методами вычислительной гидрогазодинамики была оценена рабо­ тоспособность предлагаемой конструкции фидера и предложены варианты её оптимизации. Постановка задачи На рис. 1 показана 3D‑модель внутреннего пространства фидера в базовой постановке. В ходе исследований предложен вариант конструкции с перегородкой по центру ванны рас­ плава, показанный на рис. 2. В табл. 1 представлены геометрические размеры исследуемой области фидера. Рис. 1. 3D‑модель фидера. Голубой цвет – ​входная граница для воздуха, красный – ​выходная граница для расплава Fig. 1. 3D model of the feeder tray. Boundary conditions: cyan – ​air inlet, red – ​outlet Рис. 2. 3D‑модель фидера с перегородкой Fig. 2. 3D model of the feeder tray with a baffle Таблица 1. Размеры расчётной области фидера Table 1.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "вычислительная гидрогазодинамика",
+          "name_en": "computational fluid dynamics",
+          "canonical": "computational_fluid_dynamics"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "методами вычислительной гидрогазодинамики была оценена работоспособность предлагаемой конструкции фидера"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p3::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p3::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "outlet Рис. 2. 3D‑модель фидера с перегородкой Fig. 2. 3D model of the feeder tray with a baffle Таблица 1. Размеры расчётной области фидера Table 1. Dimensions of the feeder’s calculation area Параметр Размер, мм Общая длина 2800 Ширина ванны 450 Длина ванны 1300 Расстояние от пода ванны до свода 300 Расстояние от пода до перегородки 100 Для построенной геометрической модели с помощью программы Fluent Meshing про­ граммного пакета Ansys 2022 R1 сгенерирована расчётная сетка из многогранных ячеек с призматическими пограничными слоями вдоль твёрдых стенок. Общее количество ячеек – ​ 550 000.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер с перегородкой",
+          "name_en": "feeder tray with a baffle",
+          "canonical": "feeder_tray_with_baffle"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "Ansys 2022 R1",
+          "name_en": "Ansys 2022 R1",
+          "canonical": "ansys_2022_r1"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "Fluent Meshing",
+          "name_en": "Fluent Meshing",
+          "canonical": "fluent_meshing"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "с помощью программы Fluent Meshing программного пакета Ansys 2022 R1 сгенерирована расчётная сетка"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "total_number_of_cells",
+          "op": "eq",
+          "value_min": 550000.0,
+          "value_max": 550000.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "length",
+          "op": "eq",
+          "value_min": 2800.0,
+          "value_max": 2800.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "bath_width",
+          "op": "eq",
+          "value_min": 450.0,
+          "value_max": 450.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "bath_length",
+          "op": "eq",
+          "value_min": 1300.0,
+          "value_max": 1300.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "distance_from_bath_bottom_to_arch",
+          "op": "eq",
+          "value_min": 300.0,
+          "value_max": 300.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "distance_from_bottom_to_baffle",
+          "op": "eq",
+          "value_min": 100.0,
+          "value_max": 100.0,
+          "unit": "mm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p4::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p4::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "– 81 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Во внутреннем объёме фидера присутствуют две среды – ​жидкий расплав и воздух. Вход­ ные условия для расплава – ​заданный массовый расход и температура. В зависимости от этапа моделирования расход расплава задавался следующим образом: - постоянный расход 3 т/ч; - разовое ступенчатое изменение расхода; - синусоидальное изменение расхода с амплитудой 1–5 т/ч и периодом от 1 до 120 се­ кунд. Температура расплава на входе 1440 °C, температура воздуха 30 °C. Граничные условия на поток тепла для стенок, пода и свода фидера рассчитаны по данным о марках и толщине ис­ пользуемых материалов. В качестве начального условия было принято, что ванна фидера заполнена расплавом до уровня 160 мм. В ходе расчёта равновесный уровень расплава несколько менялся в зависи­ мости от заданной производительности. Принятые для расчётов физические свой­ства расплава и газа показаны в табл. 2. Свой­ства расплава – ​плотность, теплопроводность, теплоёмкость и вязкость – ​заданы в виде зависимо­ стей от температуры, полученных эмпирически.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "воздух",
+          "name_en": "air",
+          "canonical": "air"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "постоянный расход",
+          "name_en": "constant flow rate",
+          "canonical": "constant_flow_rate"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "синусоидальное изменение расхода",
+          "name_en": "sinusoidal flow rate",
+          "canonical": "sinusoidal_flow_rate"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "изменение расхода",
+          "name_en": "flow rate change",
+          "canonical": "flow_rate_change"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "разовое ступенчатое изменение расхода",
+          "name_en": "step change flow rate",
+          "canonical": "step_change_flow_rate"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "физические свойства",
+          "name_en": "physical properties",
+          "canonical": "physical_properties"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "плотность",
+          "name_en": "density",
+          "canonical": "density"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "теплопроводность",
+          "name_en": "thermal conductivity",
+          "canonical": "thermal_conductivity"
+        },
+        {
+          "id": "e12",
+          "type": "Property",
+          "name_ru": "теплоёмкость",
+          "name_en": "heat capacity",
+          "canonical": "heat_capacity"
+        },
+        {
+          "id": "e13",
+          "type": "Property",
+          "name_ru": "вязкость",
+          "name_en": "viscosity",
+          "canonical": "viscosity"
+        },
+        {
+          "id": "e14",
+          "type": "Property",
+          "name_ru": "зависимость от температуры",
+          "name_en": "temperature dependence",
+          "canonical": "temperature_dependence"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Входные условия для расплава – ​заданный массовый расход и температура"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "В зависимости от этапа моделирования расход расплава задавался следующим образом: - постоянный расход 3 т/ч"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "синусоидальное изменение расхода с амплитудой 1–5 т/ч и периодом от 1 до 120 секунд"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "температура расплава на входе 1440 °C"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e14",
+          "type": "operates_at_condition",
+          "evidence": "температура воздуха 30 °C"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e14",
+          "type": "produces_output",
+          "evidence": "Свойства расплава – ​плотность, теплопроводность, теплоёмкость и вязкость – ​заданы в виде зависимостей от температуры, полученных эмпирически"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "produces_output",
+          "evidence": "Свойства расплава – ​плотность"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e11",
+          "type": "produces_output",
+          "evidence": "Свойства расплава – теплопроводность"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e12",
+          "type": "produces_output",
+          "evidence": "Свойства расплава – теплоёмкость"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e13",
+          "type": "produces_output",
+          "evidence": "Свойства расплава – вязкость"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "mass flow rate",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 1440.0,
+          "value_max": 1440.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "constant flow rate",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "amplitude",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "period",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 120.0,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p4::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p4::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "2. Свой­ства расплава – ​плотность, теплопроводность, теплоёмкость и вязкость – ​заданы в виде зависимо­ стей от температуры, полученных эмпирически. Показан диапазон величин, полученных при наблюдаемых в ванне фидера значениях температуры. Методика проведения исследований Основной метод исследования в настоящей работе – ​компьютерное математическое мо­ делирование гидрогазодинамики. Для численного решения задачи использовался CFD‑код FLUENT программного пакета Ansys 2022 R1. В ходе постановки задачи о течении расплава было определено, что число Re как в рас­ плаве, так и в газовой фазе намного ниже критического значения. Поэтому в математической модели фидера принят ламинарный режим течения. Используемая для расчёта модель многофазности – ​VOF (volume of fluid). Таблица 2. Физические свой­ства сред Table 2. Physical properties of environments Параметр, ед. изм. Расплав Газ Плотность, кг/м3 2900 1.225 Коэфф. теплопроводности, Вт/м·К 1–1.2 0.0242 Коэфф. теплоёмкости, Дж/м·К 1400 1006 Вязкость, Па/с 0.4–0.6 1.7894e‑05 Коэфф. поверхностного натяжения, Н/м 0.1",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "газ",
+          "name_en": "gas",
+          "canonical": "gas"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "FLUENT",
+          "name_en": "FLUENT",
+          "canonical": "fluent"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "Ansys",
+          "name_en": "Ansys",
+          "canonical": "ansys"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Для численного решения задачи использовался CFD‑код FLUENT программного пакета Ansys 2022 R1"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Для численного решения задачи использовался CFD‑код FLUENT программного пакета Ansys 2022 R1"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Используемая для расчёта модель многофазности – ​VOF (volume of fluid)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "density",
+          "op": "range",
+          "value_min": 2900.0,
+          "value_max": 2900.0,
+          "unit": "kg/m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "density",
+          "op": "range",
+          "value_min": 1.225,
+          "value_max": 1.225,
+          "unit": "kg/m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "thermal_conductivity",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 1.2,
+          "unit": "W/mK",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "thermal_conductivity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.0242,
+          "unit": "W/mK",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "heat_capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1400.0,
+          "unit": "J/mK",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "heat_capacity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1006.0,
+          "unit": "J/mK",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "viscosity",
+          "op": "range",
+          "value_min": 0.4,
+          "value_max": 0.6,
+          "unit": "Pa*s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "viscosity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.7894e-05,
+          "unit": "Pa*s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p5::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p5::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "– 82 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Моделирование потока расплава с постоянным расходом 3 т/ч Результаты расчёта показаны на рисунках ниже. В ходе расчёта определяется граница между расплавом и воздухом, т.е. поверхность расплава. На этой поверхности отображены поля скорости (рис. 3) и температуры (рис. 4). Поле температуры показано в рабочем диапазоне от 1420 до 1440 °C. На рис. 5 показано поле скорости вблизи стока расплава, шкала от 0 до 0.4 м/с. Также поля скорости и температуры показаны в продольных сечениях расплава (рис. 6–8). Видно, что при температуре расплава на входе 1440 °C минимальная температура в целом по объёму фидера не ниже 1415 °C. Наиболее обширная зона пониженных температур соответ­ ствует придонной области на начальном участке ванны и слева по ходу течения (т.е. в стороне от основного потока расплава через фидер). По мере движения расплава придонные области Рис. 4. Поле температуры на поверхности расплава Fig. 4. Temperature field at the melt surface Рис. 3. Поле скорости на поверхности расплава при расходе 3 т/ч Fig. 3. Velocity field at the melt surface, mass flow rate is 3 tons per hour",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "моделирование потока расплава",
+          "name_en": "melt flow modeling",
+          "canonical": "melt_flow_modeling"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "поле скорости",
+          "name_en": "velocity field",
+          "canonical": "velocity_field"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "поле температуры",
+          "name_en": "temperature field",
+          "canonical": "temperature_field"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "оборудование для потока",
+          "name_en": "flow equipment",
+          "canonical": "flow_equipment"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "измерение скорости",
+          "name_en": "velocity measurement",
+          "canonical": "velocity_measurement"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "моделирование потока расплава с постоянным расходом"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Результаты расчёта показаны на рисунках ниже"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "На этой поверхности отображены поля скорости"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Поле температуры показано в рабочем диапазоне"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1420.0,
+          "value_max": 1440.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "flow_rate",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "velocity",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 0.4,
+          "unit": "m/s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p6::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p6::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 6,
+      "lang": "ru",
+      "text": "– 83 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 прогреваются за счёт теплопередачи и перемешивания. На выходном участке наблюдаются зоны заметно пониженных температур в углах лотка. При продолжении исследований целесо­ образно рассмотреть тот или иной способ подогрева расплава. Использование в торцах ванны кирпича со срезом, предположительно, позволит умень­ шить застойную зону расплава и снижение его температуры на этих участках. Моделирование пульсаций расхода при подаче расплава Для анализа эффективности фидера с точки зрения стабилизации потока расплава, по­ ступающего на центрифугу, оценим степень подавления фидером колебаний расхода с тем или иным периодом. Рис. 5. Поле скорости вблизи стока расплава Fig. 5. Velocity field near the outlet Рис. 6. Поле скорости в продольном сечении расплава Fig. 6. Velocity field in the longitudinal section",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "центрифуга",
+          "name_en": "centrifuge",
+          "canonical": "centrifuge"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "поле скорости",
+          "name_en": "velocity field",
+          "canonical": "velocity_field"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Для анализа эффективности фидера с точки зрения стабилизации потока расплава"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "поступающего на центрифугу"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "оценим степень подавления фидером колебаний расхода"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p7::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p7::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "– 84 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Для того чтобы понять, как быстро реагирует поток расплава на выходе на изменение рас­ хода на входе, были проделаны расчёты со скачкообразным изменением расхода с 1 т/ч на 5 т/ч и обратно («прямоугольный импульс»). Это позволило оценить «частоту среза» фидера – ​бо­ лее медленные изменения, вероятно, будут практически полностью пропускаться, а быстрые – ​ с той или иной эффективностью ослабляться. Ниже приведены результаты этих предваритель­ ных расчётов. На графике (рис. 9а) видно, что после одномоментного увеличения расхода расплава на входе с 1 до 5 т/ч расход расплава на выходе начинает увеличиваться приблизительно через 3 секунды. Для стабилизации расхода на выходе требуется больше 100 секунд. При резком Рис. 7. Поле температуры в продольном сечении расплава Fig. 7. Temperature field in the longitudinal section Рис. 8. Поле температуры в поперечных сечениях Fig. 8. Temperature field in several cross sections",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "поток расплава",
+          "name_en": "melt flow",
+          "canonical": "melt_flow"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "время отклика",
+          "name_en": "response time",
+          "canonical": "response_time"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "как быстро реагирует поток расплава на выходе на изменение расхода на входе"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "flow_rate",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "stabilization_time",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p8::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p8::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 8,
+      "lang": "ru",
+      "text": "– 85 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 падении входного расхода (рис. 9б) с 5 до 1 т/ч требуется 2.5 секунды, чтобы расход на выходе начал снижаться, и 200 с для выравнивания расхода на выходе. Поля скорости для двух значений постоянного входного расхода 1 и 5 т/ч показаны на рис. 10. С увеличением расхода значения скорости растут, но общий характер их распреде­ ления в фидере сохраняется. На поверхности расплава наибольшая скорость соответствует входному и выходному участкам, в основной части ванны скорость низкая, с небольшими завихрениями. На рис. 10 Рис. 9. Изменение расхода на входе и выходе: а) при резком увеличении расхода расплава с 1 до 5 т/ч, б) при резком падении расхода расплава с 5 до 1 т/ч Fig. 9. Mass flow rate variations at the inlet and the outlet a) sharp increase from 1 to 5 tons/h, b) sharp reduction from 5 to 1 tons/h Рис. 10. Поле скорости на поверхности расплава и в продольном сечении фидера для двух значений расхода Fig. 10. Velocity fields at the melt surface and in the longitudinal section for two mass flow values",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "изменение расхода",
+          "name_en": "flow rate change",
+          "canonical": "flow_rate_change"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "поле скорости",
+          "name_en": "velocity field",
+          "canonical": "velocity_field"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "время отклика",
+          "name_en": "response time",
+          "canonical": "spent_time"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "время стабилизации",
+          "name_en": "stabilization time",
+          "canonical": "stabilization_time"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "при падении входного расхода с 5 до 1 т/ч требуется 2.5 секунды, чтобы расход на выходе начал снижаться"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "200 с для выравнивания расхода на выходе"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "поля скорости для двух значений постоянного входного расхода 1 и 5 т/ч"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "расход расплава"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "operates_at_condition",
+          "evidence": "поле скорости на поверхности расплава и в продольном сечении фидера"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "flow_rate",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "response_time",
+          "op": "ge",
+          "value_min": 2.5,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "stabilization_time",
+          "op": "ge",
+          "value_min": 200.0,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p9::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p9::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "– 86 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 показано поле скорости внутри расплава в продольном сечении, проходящем через середину выходного канала. Можно видеть, что по центру ванны в большей части объёма скорости те­ чения меньше 5 мм/с. Исходя из изложенного, можно предположить, что колебания с периодом выше 100–200 секунд должны практически полностью пропускаться фидером, более быстрые изменения – ​ с той или иной эффективностью отфильтровываться. Для определения эффективности погашения фидером пульсаций с разной частотой даль­ нейшие исследования проведены с синусоидальной зависимостью расхода на входе от времени, с амплитудой от 1 до 5 т/ч и периодами 1, 9 и 120 секунд (т.е. ниже и выше ожидаемой частоты среза фидера): где Т – ​период. Графики изменения расхода от времени показаны на рис. 11. На рис. 12 показано поле скорости вдоль стенки ванны фидера (правой по ходу расплава). Видно, что течение с большей скоростью имеет место в верхней части ванны. Общий характер распределения скоростей в ванне при синусоидальных пульсациях близок к таковому при мак­ симальной амплитуде. Рис. 11.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "течение в ванне",
+          "name_en": "flow in the bath",
+          "canonical": "bath_flow"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "период колебания",
+          "name_en": "oscillation period",
+          "canonical": "oscillation_period"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "амплитуда расхода",
+          "name_en": "flow amplitude",
+          "canonical": "flow_amplitude"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "колебания с периодом выше 100–200 секунд должны практически полностью пропускаться фидером"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "дальнейшие исследования проведены с синусоидальной зависимостью расхода на входе от времени, с амплитудой от 1 до 5 т/ч"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "velocity",
+          "op": "le",
+          "value_min": null,
+          "value_max": 5.0,
+          "unit": "mm/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "period",
+          "op": "range",
+          "value_min": 100.0,
+          "value_max": 200.0,
+          "unit": "s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "amplitude",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p9::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p9::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 9,
+      "lang": "ru",
+      "text": "ей части ванны. Общий характер распределения скоростей в ванне при синусоидальных пульсациях близок к таковому при мак­ симальной амплитуде. Рис. 11. Изменение расхода на входе и выходе с периодом пульсаций: а) 1 с, б) 9 с, в) 120 с Fig. 11. Mass flow rate variations at the inlet and the outlet for different pulsations",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "ванна",
+          "name_en": "bath",
+          "canonical": "bath"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "синусоидальные пульсации",
+          "name_en": "sinusoidal pulsations",
+          "canonical": "sinusoidal_pulsations"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Общий характер распределения скоростей в ванне при синусоидальных пульсациях близок к таковому при максимальной амплитуде"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p10::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p10::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "– 87 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 На рис. 13 показаны два последовательных момента времени пульсации при периоде ко­ лебаний 1 секунда. Слева (вверху – ​продольное сечение, внизу – ​поверхность расплава) видны две последовательные волны расплава – ​передняя переходит из лотка в основную часть ванны, теряет скорость, распространяется на большую массу расплава, вторая – ​только сформиро­ валась у входа, видно небольшой «вал» на поверхности. Справа показан следующий момент Рис. 12. Поле скорости вдоль стенки ванны фидера (период 9 с) Fig. 12. Velocity field near the feeder wall Рис. 13. Поле скоростей в продольном сечении (у входа) и на поверхности расплава (период 1 секунда) Fig. 13. Velocity fields in the longitudinal section and at the melt surface for two moments (period 1 s) – 88 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 течения. Видно, что в момент выхода волны в основной объём фидера имеет место некоторое крупномасштабное завихрение в левую по ходу потока область, течение же у выхода заметно более стабильно.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "поле скоростей",
+          "name_en": "velocity field",
+          "canonical": "velocity_field"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Поле скоростей в продольном сечении (у входа) и на поверхности расплава"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Видно крупномасштабное завихрение в левую по ходу потока область, течение у выхода заметно более стабильно"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p10::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p10::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "основной объём фидера имеет место некоторое крупномасштабное завихрение в левую по ходу потока область, течение же у выхода заметно более стабильно. Поле скоростей на выходе фидера в значительной степени усредняется, колебания от вол­ ны к волне здесь менее выражены (рис. 14). Имеет место сравнительно постоянная область вы­ соких скоростей в выходном канале и завихрение в торце основной части ванны. Коэффициент передачи фидера в зависимости от периода пульсаций показан в табл. 3. Видно, что фидер эффективно сглаживает быстрые пульсации потока расплава на вхо­ де – ​для периодов 1 и 9 секунд передаётся на выход только 5.5 и 8.05 % от исходной ампли­ туды. Для периода 120 секунд эффективность сглаживания значительно ниже – ​53 % от ам­ плитуды пульсаций сохраняется на выходе. Отметим, что для условий эксплуатации фильтра более характерны именно высокочастотные пульсации с периодом 1 секунда и ниже («вспле­ ски» расплава). Рис. 14. Поле скоростей у выхода фидера (период 1 секунда) Fig. 14. Velocity field neat the outlet for the period 1s Таблица 3. Коэффициент передачи фидера в зависимости от периода пульсаций Table 3.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "поле скоростей",
+          "name_en": "velocity field",
+          "canonical": "velocity_field"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "коэффициент передачи",
+          "name_en": "transmission efficiency",
+          "canonical": "transmission_efficiency"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "течение у выхода заметно более стабильно"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "фидер эффективно сглаживает быстрые пульсации потока расплава"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "коэффициент передачи фидера в зависимости от периода пульсаций"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "transmission_efficiency",
+          "op": "range",
+          "value_min": 5.5,
+          "value_max": 8.05,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "transmission_efficiency",
+          "op": "ge",
+          "value_min": 53.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": "период 120 секунд"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p10::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p10::c2",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 10,
+      "lang": "bg",
+      "text": "секунда) Fig. 14. Velocity field neat the outlet for the period 1s Таблица 3. Коэффициент передачи фидера в зависимости от периода пульсаций Table 3. Feeder transmission coefficient depending on the pulsation period Период Входная амплитуда, т/ч Выходная амплитуда, т/ч Коэффициент передачи 1 с 4 0.220 0.055 9 с 4 0.322 0.0805 120 с 4 2.12 0.53",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "входная амплитуда",
+          "name_en": "input amplitude",
+          "canonical": "input_amplitude"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "выходная амплитуда 1с",
+          "name_en": "output amplitude 1s",
+          "canonical": "output_amplitude_1s"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "выходная амплитуда 9с",
+          "name_en": "output amplitude 9s",
+          "canonical": "output_amplitude_9s"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "выходная амплитуда 120с",
+          "name_en": "output amplitude 120s",
+          "canonical": "output_amplitude_120s"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Коэффициент передачи фидера в зависимости от периода пульсаций"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "input_amplitude",
+          "op": "range",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "output_amplitude",
+          "op": "eq",
+          "value_min": 0.055,
+          "value_max": 0.22,
+          "unit": "t/h",
+          "condition": "1 с"
+        },
+        {
+          "entity_id": "e4",
+          "param": "output_amplitude",
+          "op": "eq",
+          "value_min": 0.0805,
+          "value_max": 0.322,
+          "unit": "t/h",
+          "condition": "9 с"
+        },
+        {
+          "entity_id": "e5",
+          "param": "output_amplitude",
+          "op": "eq",
+          "value_min": 0.53,
+          "value_max": 2.12,
+          "unit": "t/h",
+          "condition": "120 с"
+        }
+      ],
+      "metadata": {
+        "lang": "bg",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p12::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p12::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "– 89 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Моделирование пульсаций для фидера с перегородкой Одним из весьма эффективных способов стабилизации потока на выходе фидера может являться установка погруженной в расплав перегородки из огнеупорного материала в основ­ ной части ванны. Рассчитано поведение расплава при установке такой перегородки по центру ванны, во всю её ширину. Установлено, что при скачкообразном изменении расхода от 1 до 5 тонн и обратно по­ ведение фидера практически то же, что для варианта без перегородки – ​время реакции почти не меняется. Частота среза такой конструкции будет близка к варианту без перегородки. Картина течения в фидере при наличии перегородки показана на рисунках ниже. На рис. 15 показано поле скоростей в продольном сечении и на поверхности расплава при пульсации расхода с периодом 1 с. Видны 3 последовательные волны высоких скоростей: у вхо­ да расплава (наибольшие скорости на неглубоком участке лотка); у выхода лотка (волна распро­ страняется по объёму и теряет скорость); под перегородкой (скорость в узком месте несколько возрастает).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "огнеупорный материал",
+          "name_en": "refractory material",
+          "canonical": "refractory_material"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "перегородка",
+          "name_en": "baffle",
+          "canonical": "baffle"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "пульсация расхода",
+          "name_en": "flow rate pulsation",
+          "canonical": "flow_rate_pulsation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "установка погруженной в расплав перегородки из огнеупорного материала"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Моделирование пульсаций для фидера с перегородкой"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "flow_rate",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p12::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p12::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 12,
+      "lang": "ru",
+      "text": "частке лотка); у выхода лотка (волна распро­ страняется по объёму и теряет скорость); под перегородкой (скорость в узком месте несколько возрастает). У выхода фидера картина скоростей сходна с таковой для варианта без перегородки. Ко­ лебания скорости сглажены, постоянная высокоскоростная область соответствует выходному участку, у порога ванны имеет место некоторое завихрение. На поверхности расплава видно то же завихрение влево по потоку. Коэффициент передачи для колебаний разной частоты показан в табл. 4. Видно, что перегородка оказывает заметное влияние на коэффициент пропускания коле­ баний с периодом ниже 1 секунды. В то же время коэффициент пропускания для колебаний с несколько меньшей частотой (период 9 секунд) фильтруются даже несколько менее эффек­ тивно. Рис. 15. Поле скоростей в продольном сечении и на поверхности расплава при пульсации расхода с периодом 1 с, вариант с перегородкой Fig. 15. Velocity fields in the longitudinal section and at the melt surface with a baffle (period 1 s)",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "поле скоростей",
+          "name_en": "velocity fields",
+          "canonical": "flow_velocity_field"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "период колебаний",
+          "name_en": "period",
+          "canonical": "oscillation_period"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Поле скоростей в продольном сечении и на поверхности расплава при пульсации расхода"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "перегородка оказывает заметное влияние на коэффициент пропускания колебаний с периодом ниже 1 секунды"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "period",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "period",
+          "op": "ge",
+          "value_min": 9.0,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p13::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p13::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "– 90 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 Заключение При работе барботажных пирометаллургических агрегатов основной тип пульсации – ​вы­ сокочастотные пульсации с периодом колебаний порядка одной секунды. Исходя из резуль­ татов расчётов, предложенная конструкция фидера сравнительно эффективно фильтрует бы­ стрые пульсации расплава (период ниже 1 секунды) и с низкой эффективностью – ​медленные изменения расхода с периодом 100 секунд и выше. Анализ движения расплава (поля скоростей) показывает, что основные изменения скоро­ сти движения расплава происходят в верхней части потока. Скорости в нижней части расплава практически не меняются при изменении расхода расплава. Увеличение размеров фидера (его высоты) не окажет существенного влияния на стабилизацию выходного потока при быстрых колебаниях выходного потока, характерных для ГЭВ (в том же диапазоне амплитуд). Установка перегородки позволяет дополнительно сгладить как высокочастотные, так и низкочастотные пульсации. Колебания расхода на выходе из фидера при установке перего­ родки составляют не более 0.33 т/час при начальных колебаниях расхода от 1 до 5 т/час.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пирометаллургическое агрегатирование",
+          "name_en": "pyrometallurgical aggregation",
+          "canonical": "pyrometallurgical_aggregation"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "высокочастотные пульсации",
+          "name_en": "high frequency pulsations",
+          "canonical": "high_frequency_pulsations"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "низкочастотные пульсации",
+          "name_en": "low frequency pulsations",
+          "canonical": "low_frequency_pulsations"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "установка перегородки",
+          "name_en": "baffle installation",
+          "canonical": "baffle_installation"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "расплав",
+          "name_en": "melt",
+          "canonical": "melt"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "При работе барботажных пирометаллургических агрегатов основной тип пульсации – высокочастотные пульсации с периодом колебаний порядка одной секунды"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "предложенная конструкция фидера сравнительно эффективно фильтрует быстрые пульсации расплава (период ниже 1 секунды) и с низкой эффективностью – медленные изменения расхода с периодом 100 секунд и выше"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "предложенная конструкция фидера сравнительно эффективно фильтрует быстрые пульсации расплава (период ниже 1 секунды) и с низкой эффективностью – медленные изменения расхода с периодом 100 секунд и выше"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Установка перегородки позволяет дополнительно сгладить как высокочастотные, так и низкочастотные пульсации"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Установка перегородки позволяет дополнительно сгладить как высокочастотные, так и низкочастотные пульсации"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Колебания расхода на выходе из фидера при установке перегородки составляют не более 0.33 т/час при начальных колебаниях расхода от 1 до 5 т/час"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "flow_rate_variations",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.33,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "initial_flow_rate_variations",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "pulse_period",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "pulse_period",
+          "op": "ge",
+          "value_min": 100.0,
+          "value_max": null,
+          "unit": "s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p13::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p13::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "и. Колебания расхода на выходе из фидера при установке перего­ родки составляют не более 0.33 т/час при начальных колебаниях расхода от 1 до 5 т/час. Столь высокие начальные колебания расхода носят экстремальный характер, при устойчивой работе печи колебания будут существенно меньше. Таким образом, установка фидера и перегородки позволит исключить колебания расхода на входе в центрифугу. При начальной температуре 1440 °C наименьшая температура в основной части ванны – ​ около 1415 °C, обширные низкотемпературные области соответствуют придонной зоне у вход­ ного лотка. Для уменьшения застойной зоны и компенсации охлаждения ванны целесообразно заменить прямоугольную кладку наклонным сходом расплава в основную часть ванны – ​т.е. на торцевых углах использовать кирпич со срезом. По результатам компьютерного моделирования предлагаемая конструкция фидера позво­ ляет решить поставленную задачу – ​стабилизацию подачи струи расплава на центрифугу. Список литературы / References [1] Ferziger J. H., Peric M., Street R. L. Computational Methods for Fluid Dynamics. Springe, 2019. [2] Ansys Fluent Theory Guide. ANSYS, Inc., 2022. [3] Song K., Jokilaakso A.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "фидер",
+          "name_en": "feeder",
+          "canonical": "feeder"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "перегородка",
+          "name_en": "baffle",
+          "canonical": "baffle"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "начальные колебания расхода",
+          "name_en": "initial flow fluctuations",
+          "canonical": "initial_flow_fluctuations"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "печь",
+          "name_en": "furnace",
+          "canonical": "furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "начальная температура",
+          "name_en": "initial temperature",
+          "canonical": "initial_temperature"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "наименьшая температура",
+          "name_en": "minimum temperature",
+          "canonical": "minimum_temperature"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Колебания расхода на выходе из фидера при установке перегородки составляют не более 0.33 т/час"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "при начальных колебаниях расхода от 1 до 5 т/час"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "При начальной температуре 1440 °C наименьшая температура в основной части ванны – около 1415 °C"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "наименьшая температура в основной части ванны – около 1415 °C"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "fluctuations",
+          "op": "le",
+          "value_min": null,
+          "value_max": 0.33,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "initial_fluctuations",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1440.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 1415.0,
+          "value_max": 1415.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p13::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p13::c2",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "., Street R. L. Computational Methods for Fluid Dynamics. Springe, 2019. [2] Ansys Fluent Theory Guide. ANSYS, Inc., 2022. [3] Song K., Jokilaakso A. CFD modeling of the multiphase flow in an SKS furnace – ​the effect of melt density and viscosity. Chemical Engineering Journal Advances. Elsevier, 2023. [4] Daurer, Raič J., Demuth M., Gaber C., Hochenauer C. Detailed comparison of physical fining methods in an industrial glass melting furnace using coupled CFD simulations. Applied Thermal Engineering. Elsevier, 2023. Таблица 4. Коэффициент передачи фидера с перегородкой Table 4. Feeder transmission coefficient with a partition Период Входная амплитуда, т/ч Выходная амплитуда, т/ч Коэффициент передачи 1 с 4 0.16 0.0398 9 с 4 0.33 0.0825",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "Вычислительные методы для динамики жидкости",
+          "name_en": "Computational Methods for Fluid Dynamics",
+          "canonical": "fluid_dynamics"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Руководство по теории Ansys Fluent",
+          "name_en": "Ansys Fluent Theory Guide",
+          "canonical": "ansys_fluent"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "Моделирование многофазного потока в печи SKS с помощью CFD",
+          "name_en": "CFD modeling of the multiphase flow in an SKS furnace",
+          "canonical": "cfd_modeling"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "Входная амплитуда",
+          "name_en": "Input amplitude",
+          "canonical": "input_amplitude"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "Выходная амплитуда",
+          "name_en": "Output amplitude",
+          "canonical": "output_amplitude"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "Коэффициент передачи",
+          "name_en": "Transmission coefficient",
+          "canonical": "transmission_coefficient"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "CFD modeling of the multiphase flow in an SKS furnace"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Table 4. Feeder transmission coefficient with a partition"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Table 4. Feeder transmission coefficient with a partition"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "input_amplitude",
+          "op": "range",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "output_amplitude",
+          "op": "range",
+          "value_min": 0.16,
+          "value_max": 0.33,
+          "unit": "t/h",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "transmission_coefficient",
+          "op": "range",
+          "value_min": 0.0398,
+          "value_max": 0.0825,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p14::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p14::c0",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "– 91 – Journal of Siberian Federal University. Engineering & Technologies 2026 19(1): 78–91 [5] Saad S.B., Gentric C., Fourmigué J.-F., Clement P., Leclerc J.-P. CFD and experimental investigation of the gas–liquid flow in the distributor of a compact heat exchanger. Chemical Engineering Research and Design, 2014. [6] Загускин В. Л. Основы численных методов для газодинамики с теплопроводностью. М., 2022. 167 с. [Zaguskin V. L. Fundamentals of Numerical Methods for Gas Dynamics with Thermal Conductivity. Moscow, 2022. 167 p. (in Russian)] [7] Федорова Н. Н., Вальгер С. А., Данилов М. Н., Захарова Ю. В. Основы работы в ANSYS 17. М.: ДМК пресс, 2016. 226 с. [Fedorova, N. N., Valger, S. A., Danilov, M. N., and Zakharova, Yu. V. Fundamentals of Working with ANSYS 17. Moscow: DMK Press, 2016. 226 p. (in Russian)] [8] Янышев Д. С., Быков Л. В. Сеточные модели для решения инженерных теплофизиче­ ских задач в среде ANSYS. М.: URSS, 2021. 264 с. [Yanyshev, D. S., and Bykov, L. V. Grid-­based Models for Solving Engineering Thermophysical Problems in the ANSYS Environment. Moscow: URSS, 2021. 264 p. (in Russian)] [9] Тахерифард А., Елистратов В. В.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Experiment",
+          "name_ru": "CFD исследование",
+          "name_en": "CFD investigation",
+          "canonical": "CFD_investigation"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ANSYS",
+          "name_en": "ANSYS",
+          "canonical": "ANSYS"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "теплообменник",
+          "name_en": "heat exchanger",
+          "canonical": "heat_exchanger"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "газожидкостный поток",
+          "name_en": "gas–liquid flow",
+          "canonical": "gas_liquid_flow"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "численные методы",
+          "name_en": "numerical methods",
+          "canonical": "numerical_methods"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "теплопроводность",
+          "name_en": "thermal conductivity",
+          "canonical": "thermal_conductivity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "CFD and experimental investigation of the gas–liquid flow in the distributor of a compact heat exchanger"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Основы численных методов для газодинамики с теплопроводностью"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "described_in",
+          "evidence": "Основы работы в ANSYS 17"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "described_in",
+          "evidence": "Сеточные модели для решения инженерных теплофизических задач в среде ANSYS"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p14::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p14::c1",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 14,
+      "lang": "bg",
+      "text": "or Solving Engineering Thermophysical Problems in the ANSYS Environment. Moscow: URSS, 2021. 264 p. (in Russian)] [9] Тахерифард А., Елистратов В. В. Численное моделирование гидродинамики много­ фазного потока методами CFD‑анализа в трубопроводе с двой­ным коленом. Вестник МГСУ. Гидравлика. Геотехника. Гидротехническое строительство, 2023 [Takherifard, A., Elistratov, V. V. Numerical Modeling of Multiphase Flow Hydrodynamics Using CFD Analysis in a Double-­Bend Pipeline. Vestnik MGSU. Hydraulics. Geotechnics. Hydraulic Engineering, 2023 (in Russian)] [10] Талалов В. А., Крупнов Л. В., Румянцев Д. В. и др. Исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами мате­ матического моделирования. Цветные металлы, 2015, 5, 86–91 [Talalov V. A., Krupnov L. V., Rumyantsev D. V. et al. Investigation of the Gas Flow Motion in the Slag Furnace of the Nadezhdinsky Metallurgical Plant by Mathematical Modeling Methods. Tsvetnye Metally, 2015, 5, 86–91 (in Russian)] [11] Крупнов Л. В., Пахомов Р. А., Старых Р. В. и др. Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "CFD-анализ",
+          "name_en": "CFD analysis",
+          "canonical": "CFD_analysis"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "трубопровод с двойным коленом",
+          "name_en": "double-bend pipeline",
+          "canonical": "double_bend_pipeline"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "печь взвешенной плавки",
+          "name_en": "slag furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "газовый поток",
+          "name_en": "gas flow",
+          "canonical": "gas_flow"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "газопылевой поток",
+          "name_en": "dust-gas flow",
+          "canonical": "dust_gas_flow"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "математическое моделирование",
+          "name_en": "mathematical modeling",
+          "canonical": "mathematical_modeling"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "защитный козырёк",
+          "name_en": "protective visor",
+          "canonical": "protective_visor"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Крупнов Л. В.",
+          "name_en": "L. Krupnov",
+          "canonical": "L. Krupnov"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Тахерифард А.",
+          "name_en": "A. Takherifard",
+          "canonical": "A. Takherifard"
+        },
+        {
+          "id": "e10",
+          "type": "Expert",
+          "name_ru": "Елистратов В. В.",
+          "name_en": "V. Elistratov",
+          "canonical": "V. Elistratov"
+        },
+        {
+          "id": "e11",
+          "type": "Expert",
+          "name_ru": "Талалов В. А.",
+          "name_en": "V. Talalov",
+          "canonical": "V. Talalov"
+        },
+        {
+          "id": "e12",
+          "type": "Expert",
+          "name_ru": "Пахомов Р. А.",
+          "name_en": "R. Pakhomov",
+          "canonical": "R. Pakhomov"
+        },
+        {
+          "id": "e13",
+          "type": "Expert",
+          "name_ru": "Старых Р. В.",
+          "name_en": "R. Starykh",
+          "canonical": "R. Starykh"
+        },
+        {
+          "id": "e14",
+          "type": "Expert",
+          "name_ru": "Румянцев Д. В.",
+          "name_en": "D. Rumyantsev",
+          "canonical": "D. Rumyantsev"
+        },
+        {
+          "id": "e15",
+          "type": "Publication",
+          "name_ru": "статья 9",
+          "name_en": "article 9",
+          "canonical": "article_9"
+        },
+        {
+          "id": "e16",
+          "type": "Publication",
+          "name_ru": "статья 10",
+          "name_en": "article 10",
+          "canonical": "article_10"
+        },
+        {
+          "id": "e17",
+          "type": "Publication",
+          "name_ru": "статья 11",
+          "name_en": "article 11",
+          "canonical": "article_11"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Численное моделирование гидродинамики многофазного потока методами CFD‑анализа в трубопроводе с двой­ным коленом"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Исследование движения газового потока в печи взвешенной плавки Надеждинского металлургического завода методами математического моделирования"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "operates_at_condition",
+          "evidence": "Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e16",
+          "type": "expert_in",
+          "evidence": "Крупнов Л. В. является автором статьи 10 и 11"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e15",
+          "type": "expert_in",
+          "evidence": "Тахерифард А. является автором статьи 9"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e15",
+          "type": "expert_in",
+          "evidence": "Елистратов В. В. является автором статьи 9"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e16",
+          "type": "expert_in",
+          "evidence": "Талалов В. А. является автором статьи 10"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e17",
+          "type": "expert_in",
+          "evidence": "Пахомов Р. А. является автором статьи 11"
+        },
+        {
+          "source_id": "e13",
+          "target_id": "e17",
+          "type": "expert_in",
+          "evidence": "Старых Р. В. является автором статьи 11"
+        },
+        {
+          "source_id": "e14",
+          "target_id": "e16",
+          "type": "expert_in",
+          "evidence": "Румянцев Д. В. является автором статьи 10"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2026,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p14::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p14::c2",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 14,
+      "lang": "ru",
+      "text": "рупнов Л. В., Пахомов Р. А., Старых Р. В. и др. Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты. Цветные метал­ лы, 2021, 10, 63–71 [Krupnov L. V., Pakhomov R. A., Starykh R. V. et al. Changes in the dynamics of the gas-­dust flow in the NMZ PVP when a protective visor is installed. Model calculations. Tsvetnye Metally, 2021, 10, 63–71 (in Russian)] [12] Виницкий А.Л., Карпман В. Б., Лазарев В. И. Газоэлектрическая вагранка (ГЭВ) для плавки неметаллических материалов. Патент RU 2652044 C 1, 2018 [Vinitsky A. L., Karpman V. B., Lazarev V. I. Gas-­electric cupola (GEC) for melting non-­metallic materials. Patent RU 2652044 C 1, 2018]. [13] Крупнов Л.В., Румянцев Д. В., Попов В. А и др. Технические решения по улучшению условий эксплуатации печей Ванюкова при переработке техногенного сырья. Металлург, 2024, 4, 106–111 [Krupnov L. V., Rumyantsev D. V., Popov V. A et al. Technical solutions to improve the operating conditions of Vanyukov furnaces for processing man-­made raw materials. Metallurg, 2024, 4, 106–111 (in Russian)] [14] Крупнов Л.В., Румянцев Д. В., Цемехман Л. Ш. и др.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "ПВП НМЗ",
+          "name_en": "NMZ PVP",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ГЭВ",
+          "name_en": "GEC",
+          "canonical": "gas-electric_cupola"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "печи Ванюкова",
+          "name_en": "Vanyukov furnaces",
+          "canonical": "Vanyukov_furnaces"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "защитный козырёк",
+          "name_en": "protective visor",
+          "canonical": "protective_visor"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "модельные расчёты",
+          "name_en": "model calculations",
+          "canonical": "model_calculations"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "плавка неметаллических материалов",
+          "name_en": "melting non-metallic materials",
+          "canonical": "melting_non-metallic_materials"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "технические решения",
+          "name_en": "technical solutions",
+          "canonical": "technical_solutions"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Крупнов Л. В.",
+          "name_en": "Krupnov L. V.",
+          "canonical": "Krupnov_L._V."
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Пахомов Р. А.",
+          "name_en": "Pakhomov R. A.",
+          "canonical": "Pakhomov_R._A."
+        },
+        {
+          "id": "e10",
+          "type": "Expert",
+          "name_ru": "Старых Р. В.",
+          "name_en": "Starykh R. V.",
+          "canonical": "Starykh_R._V."
+        },
+        {
+          "id": "e11",
+          "type": "Expert",
+          "name_ru": "Виницкий А.Л.",
+          "name_en": "Vinitsky A. L.",
+          "canonical": "Vinitsky_A._L."
+        },
+        {
+          "id": "e12",
+          "type": "Expert",
+          "name_ru": "Карпман В. Б.",
+          "name_en": "Karpman V. B.",
+          "canonical": "Karpman_V._B."
+        },
+        {
+          "id": "e13",
+          "type": "Expert",
+          "name_ru": "Лазарев В. И.",
+          "name_en": "Lazarev V. I.",
+          "canonical": "Lazarev_V._I."
+        },
+        {
+          "id": "e14",
+          "type": "Expert",
+          "name_ru": "Румянцев Д. В.",
+          "name_en": "Rumyantsev D. V.",
+          "canonical": "Rumyantsev_D._V."
+        },
+        {
+          "id": "e15",
+          "type": "Expert",
+          "name_ru": "Попов В. А.",
+          "name_en": "Popov V. A.",
+          "canonical": "Popov_V._A."
+        },
+        {
+          "id": "e16",
+          "type": "Expert",
+          "name_ru": "Цемехман Л. Ш.",
+          "name_en": "Tsemehman L. Sh.",
+          "canonical": "Tsemehman_L._Sh."
+        },
+        {
+          "id": "e17",
+          "type": "Publication",
+          "name_ru": "Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька",
+          "name_en": "Changes in the dynamics of the gas-dust flow in the NMZ PVP when a protective visor is installed",
+          "canonical": "article_1"
+        },
+        {
+          "id": "e18",
+          "type": "Publication",
+          "name_ru": "Газоэлектрическая вагранка (ГЭВ) для плавки неметаллических материалов",
+          "name_en": "Gas-electric cupola (GEC) for melting non-metallic materials",
+          "canonical": "patent_1"
+        },
+        {
+          "id": "e19",
+          "type": "Publication",
+          "name_ru": "Технические решения по улучшению условий эксплуатации печей Ванюкова при переработке техногенного сырья",
+          "name_en": "Technical solutions to improve the operating conditions of Vanyukov furnaces for processing man-made raw materials",
+          "canonical": "article_2"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Крупнов Л. В., Пахомов Р. А., Старых Р. В. и др. Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "expert_in",
+          "evidence": "Крупнов Л. В., Пахомов Р. А., Старых Р. В. и др. Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e5",
+          "type": "expert_in",
+          "evidence": "Крупнов Л. В., Пахомов Р. А., Старых Р. В. и др. Изменение динамики газопылевого потока в ПВП НМЗ при установке защитного козырька. Модельные расчеты"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "Виницкий А.Л., Карпман В. Б., Лазарев В. И. Газоэлектрическая вагранка (ГЭВ) для плавки неметаллических материалов. Патент RU 2652044 C 1, 2018"
+        },
+        {
+          "source_id": "e11",
+          "target_id": "e6",
+          "type": "expert_in",
+          "evidence": "Виницкий А.Л., Карпман В. Б., Лазарев В. И. Газоэлектрическая вагранка (ГЭВ) для плавки неметаллических материалов. Патент RU 2652044 C 1, 2018"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e3",
+          "type": "expert_in",
+          "evidence": "Крупнов Л.В., Румянцев Д. В., Попов В. А и др. Технические решения по улучшению условий эксплуатации печей Ванюкова при переработке техногенного сырья. Металлург, 2024, 4, 106–111"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e7",
+          "type": "expert_in",
+          "evidence": "Крупнов Л.В., Румянцев Д. В., Попов В. А и др. Технические решения по улучшению условий эксплуатации печей Ванюкова при переработке техногенного сырья. Металлург, 2024, 4, 106–111"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__2 Lukanina::p14::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__2 Lukanina::p14::c3",
+      "doc_id": "Статьи__2 Lukanina",
+      "source": "data/raw/Статьи/2 Lukanina.pdf",
+      "page": 14,
+      "lang": "ru",
+      "text": "ov furnaces for processing man-­made raw materials. Metallurg, 2024, 4, 106–111 (in Russian)] [14] Крупнов Л.В., Румянцев Д. В., Цемехман Л. Ш. и др. Исследование условий возникно­ вения промежуточного слоя в печах Ванюкова. Современные технологии производства цвет­ ных металлов. Сб. докл. Междунар. конф. памяти С. С. Набойченко. Екатеринбург, 27 октября 2023 г. С. 52–61 [Krupnov L. V., Rumyantsev D. V., Tsemekhman L. Sh. et al. Study of the conditions for the formation of an intermediate layer in Vanyukov furnaces. Modern Technologies for the Production of Non-­Ferrous Metals. Int. Conf. Yekaterinburg, October 27, 2023. 52–61 (in Russian)]",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2026
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "печи Ванюкова",
+          "name_en": "Vanyukov furnaces",
+          "canonical": "Vanyukov_furnaces"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "промежуточный слой",
+          "name_en": "intermediate layer",
+          "canonical": "intermediate_layer"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обработка техногенного сырья",
+          "name_en": "processing man-made raw materials",
+          "canonical": "processing_man-made_raw_materials"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Исследование условий возникновения промежуточного слоя в печах Ванюкова"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Исследование условий возникновения промежуточного слоя"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  }
+}

@@ -1,0 +1,3360 @@
+{
+  "Статьи__13 Приложение. Статья::p1::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p1::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "Научная статья УДК 504.3.054 РАЗРАБОТКА МЕТОДОВ СНИЖЕНИЯ ВЫБРОСОВ ПЫЛИ В АТМОСФЕРНЫЙ ВОЗДУХ ОТ ХВОСТОХРАНИЛИЩ ООО «МЕДВЕЖИЙ РУЧЕЙ» В.Р. Стрельникова1, А.В.Баженова1, В.А. Мацура2, Б.В. Украинцев2 1 ООО «Институт Гипроникель», Санкт-Петербург, 195220, Россия 2 ООО «Композит-Трейд», Санкт-Петербург, 193079, Россия Аннотация Представлены мероприятия (методы) по снижению выбросов пыли от хвостохранилищ. Проведен анализ существующих методов пылеподавления. Определены методы снижения выбросов загрязняющих веществ от хвостохранилищ для условий Норильского промышленного района. Проведены опытно-промышленные испытания для выбора оптимальной концентрации и расхода пылеподавляющего реагента, которые обеспечивают образование защитной корки на поверхности хвостохранилища, подверженной ветровой эрозии. Проведено моделирование рассеивания пыли неорганической 70—20% SiO2, с использованием УПРЗА «Эколог-4.7» в границах влияния хвостохранилища №1 и «Лебяжье» по двум вариантам: при пылении без проведения мероприятий по пылеподавлению и при условии обработки всей пылящей поверхности хвостохранилищ пылеподавляющими реагентами на селитебной территории.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пылеподавление",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "пылеподавляющий реагент",
+          "name_en": "dust suppressant",
+          "canonical": "dust_suppressant"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "пыль неорганическая",
+          "name_en": "inorganic dust",
+          "canonical": "inorganic_dust"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Проведен анализ существующих методов пылеподавления"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Проведены опытно-промышленные испытания для выбора оптимальной концентрации и расхода пылеподавляющего реагента"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "SiO2",
+          "op": "range",
+          "value_min": 70.0,
+          "value_max": 20.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p1::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p1::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 1,
+      "lang": "ru",
+      "text": "я мероприятий по пылеподавлению и при условии обработки всей пылящей поверхности хвостохранилищ пылеподавляющими реагентами на селитебной территории. По результатам опытно-промышленных испытаний установлена оптимальная эффективность реагента с точки зрения сокращения эмиссии пыли. Реализация предложенных мероприятий позволит уменьшить уровень воздействия выбросов пыли, снижая дополнительную экологическую нагрузку на окружающую среду. Ключевые слова пылеподавление, хвостохранилище, снижение выбросов пыли, пылеподавляющие реагенты, моделирование распространения неорганической пыли, охрана атмосферного воздуха. DEVELOPMENT OF METHODS FOR REDUCING DUST EMISSIONS INTO THE ATMOSPHERIC AIR FROM TAILINGS DUMP LLC \"BEAR CREEK\" V.R. Strelnikova1, A.V. Bazhenova1, V.A. Matsura2, B.V. Ukraintsev2 1 Gipronickel Institute, Saint-Petersburg, 195220, Russia 2 Composit-Treid, Saint-Petersburg, 193079, Russia Abstract: This article is dedicated to one of the ways to reduce dust emissions of tailings dumps under its working conditions. The analysis of existing dust suppression methods was carried out.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пылеподавление",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings dump",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "снижение выбросов пыли",
+          "name_en": "reducing dust emissions",
+          "canonical": "dust_emission_reduction"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "пылеподавляющий реагент",
+          "name_en": "dust suppressant",
+          "canonical": "dust_suppressant"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "моделирование распространения неорганической пыли",
+          "name_en": "modeling of inorganic dust spread",
+          "canonical": "inorganic_dust_modeling"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "мероприятий по пылеподавлению и при условии обработки всей пылящей поверхности хвостохранилищ пылеподавляющими реагентами"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "пылеподавление на хвостохранилищах"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "снижение выбросов пыли на хвостохранилищах"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p1::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p1::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 1,
+      "lang": "en",
+      "text": "the ways to reduce dust emissions of tailings dumps under its working conditions. The analysis of existing dust suppression methods was carried out. The methods for reducing windblown pollutant emissions from tailings dumps for the conditions of the Norilsk industrial region were determined. Field trials were carried out in order to select an optimal concentration as its consumption of the dust suppressing reagent, which ensure the formation of an airborne windblown long-term stable protective crust on the appropriately treated surface of the tailings dump exposed to wind erosion. The distribution of inorganic dust 70-20% SiO2 was simulated using the UPRZA \"Ekolog-4.7\" within the boundaries of tailings dump № 1 and \"Lebyazhye\" in two ways: during dusting without dust suppression measures and as a subject to the treatment of the entire dusting surface of the tailings dumps with dust suppressing reagents in a residential area. Based on the results of pilot tests and laboratory investigations, the optimal regime of using the reagent in terms of reducing dust emissions was established. The implementation of the proposed measures will",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подавление пыли",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings dump",
+          "canonical": "tailings_dump"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "реагент для подавления пыли",
+          "name_en": "dust suppressing reagent",
+          "canonical": "dust_suppressing_reagent"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "неорганическая пыль",
+          "name_en": "inorganic dust",
+          "canonical": "inorganic_dust"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "УПРЗА Эколог-4.7",
+          "name_en": "UPRZA Ekolog-4.7",
+          "canonical": "UPRZA_Ekolog_4.7"
+        },
+        {
+          "id": "e6",
+          "type": "Experiment",
+          "name_ru": "пилотное испытание",
+          "name_en": "pilot test",
+          "canonical": "pilot_test"
+        },
+        {
+          "id": "e7",
+          "type": "Experiment",
+          "name_ru": "лабораторное исследование",
+          "name_en": "laboratory investigation",
+          "canonical": "laboratory_investigation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "The analysis of existing dust suppression methods was carried out"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "optimal concentration as its consumption of the dust suppressing reagent"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "distribution of inorganic dust was simulated using the UPRZA Ekolog-4.7"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "SiO2",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 70.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p2::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p2::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 2,
+      "lang": "et",
+      "text": "reduce the impact of dust emissions thereby reducing the additional environmental burden on the environment. Keywords: dust suppression methods, tailings dumps, reduction of dust emissions, dust suppression reagents, modeling of inorganic dust dispersion, protection of atmospheric air. Введение Намывные хвостохранилища представлены несвязанными тонкодисперсными хвостами обогащения сульфидных медно-никелевых руд. Надводные участки хвостохранилища уже при скорости ветра 4-5 м/с и более являются постоянными источниками пылеобразования [1]. Повышенное содержание пылевых частиц в воздухе представляет опасность для здоровья человека и окружающей природной среды, причем перенос потенциально токсичных элементов воздушным путем происходит гораздо быстрее и может происходить в гораздо больших масштабах, чем перенос через воду, почву и биоту [5]. Наиболее опасный размер пылевых частиц составляет менее 10 микрон - такие частицы могут преодолевать большие расстояния, не оседая на поверхность достаточно долгое время. Мелкодисперсные частицы при вдыхании могут вызывать заболевания легких и сердечно-сосудистой системы.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "методы пылеподавления",
+          "name_en": "dust suppression methods",
+          "canonical": "dust_suppression_methods"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилища",
+          "name_en": "tailings dumps",
+          "canonical": "tailings_dumps"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "реагенты для пылеподавления",
+          "name_en": "dust suppression reagents",
+          "canonical": "dust_suppression_reagents"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "скорость ветра",
+          "name_en": "wind speed",
+          "canonical": "wind_speed"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "размер частиц",
+          "name_en": "particle size",
+          "canonical": "particle_size"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Намывные хвостохранилища представлены несвязанными тонкодисперсными хвостами обогащения сульфидных медно-никелевых руд"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Надводные участки хвостохранилища уже при скорости ветра 4-5 м/с и более являются постоянными источниками пылеобразования"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Наиболее опасный размер пылевых частиц составляет менее 10 микрон"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "wind_speed",
+          "op": "range",
+          "value_min": 4.0,
+          "value_max": null,
+          "unit": "m/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "particle_size",
+          "op": "le",
+          "value_min": null,
+          "value_max": 10.0,
+          "unit": "micron",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "et",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p2::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p2::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "оседая на поверхность достаточно долгое время. Мелкодисперсные частицы при вдыхании могут вызывать заболевания легких и сердечно-сосудистой системы. Комбинация загрязнения воздуха и взвешенных частиц классифицируется как канцерогенный фактор группы 1 для человека [5]. Отходы горного предприятия, содержащие сульфиды цветных металлов, относятся к группе наиболее экологически опасных отходов. В процессе длительного хранения сульфиды окисляются и тяжелые металлы переходят в водорастворимые соли [6]. Частицы пыли комплексно воздействуют на окружающую среду, затрагивая при этом биоту, атмосферу, гидросферу и литосферу [7]. Развитие деятельности горнодобывающего предприятия необходимо реализовывать в соответствии с основными принципами концепции устойчивого развития (sustainable development), которые подразумевают создание условий для его непрекращающейся работы без превышения определенного экологического предела (без видимого нарушения) [8]. Общепринято выделять три основных метода борьбы с пылью: физический, химический и биологический. Также возможно использование комбинации вышеперечисленных методов [10]. Целью работы является снижение запыленности окружающей среды.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "частицы пыли",
+          "name_en": "dust particles",
+          "canonical": "dust_particles"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сульфиды",
+          "name_en": "sulphides",
+          "canonical": "sulphides"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "тяжёлые металлы",
+          "name_en": "heavy metals",
+          "canonical": "heavy_metals"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "физический метод",
+          "name_en": "physical method",
+          "canonical": "physical_method"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "химический метод",
+          "name_en": "chemical method",
+          "canonical": "chemical_method"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "биологический метод",
+          "name_en": "biological method",
+          "canonical": "biological_method"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "Мелкодисперсные частицы при вдыхании могут вызывать заболевания легких и сердечно-сосудистой системы"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "В процессе длительного хранения сульфиды окисляются и тяжелые металлы переходят в водорастворимые соли"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p2::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p2::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "биологический. Также возможно использование комбинации вышеперечисленных методов [10]. Целью работы является снижение запыленности окружающей среды. В задачи входит: - определение наиболее приемлемого метода борьбы с пылью на хвостохранилищах; - проведение пробных испытаний выбранного метода в условиях Норильского промышленного региона. Физический метод Гидротехнический способ подразумевает использование специальных систем и установок для орошения водой пылящей поверхности. В качестве технических устройств применяют гидрозавесы [12], дождевальные установки, системы проложенных трубопроводов [1]. Пылеподавление с использованием воды требует меньших затрат, чем при применении специальных реагентов. Однако, в сухую жаркую погоду увлаженная поверхность быстро высыхает, вследствие чего требуется повторное орошение водой. В летние месяцы расход воды на мероприятия по пылеподавлению может составлять значительные объемы, что приводит к росту операционных расходов, включающих не только расходы на воду, но и на ее перекачивание, а прокладывание водопроводной сети на эксплуатируемом хвостохранилище может быть затруднено и финансово затратно.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "биологический метод",
+          "name_en": "biological method",
+          "canonical": "biological_method"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "комбинация методов",
+          "name_en": "combination of methods",
+          "canonical": "combined_methods"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "физический метод",
+          "name_en": "physical method",
+          "canonical": "physical_method"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "гидротехническая система",
+          "name_en": "hydraulic system",
+          "canonical": "hydraulic_system"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e9",
+          "type": "Equipment",
+          "name_ru": "гидрозавеса",
+          "name_en": "hydrocurtain",
+          "canonical": "hydrocurtain"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "дождевальная установка",
+          "name_en": "sprinkler system",
+          "canonical": "sprinkler_system"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "система трубопроводов",
+          "name_en": "pipeline system",
+          "canonical": "pipeline_system"
+        },
+        {
+          "id": "e12",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Гидротехнический способ подразумевает использование специальных систем и установок для орошения водой пылящей поверхности"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "В качестве технических устройств применяют гидрозавесы, дождевальные установки, системы проложенных трубопроводов"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "В качестве технических устройств применяют гидрозавесы, дождевальные установки, системы проложенных трубопроводов"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "В качестве технических устройств применяют гидрозавесы, дождевальные установки, системы проложенных трубопроводов"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Пылеподавление с использованием воды требует меньших затрат, чем при применении специальных реагентов"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "прокладывание водопроводной сети на эксплуатируемом хвостохранилище может быть затруднено и финансово затратно"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "water_consumption",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "effectiveness",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "null",
+          "condition": "в сухую жаркую погоду"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p2::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p2::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 2,
+      "lang": "ru",
+      "text": "на воду, но и на ее перекачивание, а прокладывание водопроводной сети на эксплуатируемом хвостохранилище может быть затруднено и финансово затратно. Проведение мероприятий по пылеподавлению посредством только воды не",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пылеподавление",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "проведение мероприятий по пылеподавлению посредством только воды"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p3::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p3::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "позволяет осадить частицы пыли размером менее 10 микрон, которые являются наиболее опасными для здоровья людей [1]. Аэродинамический способ предполагает снижение скорости ветра в области пылящей поверхности и минимизации ветровой эрозии с помощью устройства лесозащитных полос и ветровых экранов. Преимуществом аэродинамического способа является отсутствие высоких затрат на техническое обслуживание и эксплуатацию. Однако, данный способ имеет ограничение для хвостохранилищ высотой более 20-30 м, которые превышают высоту кроны деревьев, и подходит для небольших по площади неорганизованных источников пыли. Недостатком использования ветровых экранов является относительно высокая стоимость их сооружения и низкая механическая устойчивость, особенно в случае сильных и ураганных порывов ветра, которые характерны для рассматриваемого региона (Норильский промышленный район) [9]. Механический способ подразумевает покрытие пылящей поверхности хвостохранилища слоем материала, в качестве которого может служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "аэродинамический способ",
+          "name_en": "aerodynamic method",
+          "canonical": "aerodynamic_method"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "ветровой экран",
+          "name_en": "wind break",
+          "canonical": "wind_break"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailing storage facility",
+          "canonical": "tailing_storage_facility"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "вскрышная порода рудника",
+          "name_en": "overburden rock",
+          "canonical": "overburden_rock"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "пустая порода от проходки горных выработок подземных рудников",
+          "name_en": "waste rock",
+          "canonical": "waste_rock"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "металлургический шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Аэродинамический способ предполагает снижение скорости ветра в области пылящей поверхности и минимизации ветровой эрозии с помощью устройства лесозащитных полос и ветровых экранов"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Механический способ подразумевает покрытие пылящей поверхности хвостохранилища слоем материала, в качестве которого может служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Механический способ подразумевает покрытие пылящей поверхности хвостохранилища слоем материала"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Механический способ подразумевает покрытие пылящей поверхности хвостохранилища слоем материала, в качестве которого может служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Механический способ подразумевает покрытие пылящей поверхности хвостохранилища слоем материала, в качестве которого может служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "contradicts",
+          "evidence": "Однако, данный способ имеет ограничение для хвостохранилищ высотой более 20-30 м"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "particle_size",
+          "op": "le",
+          "value_min": null,
+          "value_max": 10.0,
+          "unit": "micron",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "height_limit",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 30.0,
+          "unit": "m",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p3::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p3::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "служить вскрышная порода рудника, пустая порода от проходки горных выработок подземных рудников, металлургический шлак или другие инертные материалы. Данный способ пылеподавления подходит для недействующих хвостохранилищ, а также в качестве этапа проведения технической рекультивации [10]. Химический метод Химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ, которые связывают минеральные пылевые частицы и после нанесения на пылящий субстрат образуют крепкую неразрушающуюся корку. Обработанная поверхность должна быть достаточно устойчива к воздействию влаги, ветра и механическим воздействиям. Растворы химических веществ для закрепления пылящих поверхностей могут быть представлены, в частности, следующими веществами: гигроскопичные соли, меловая суспензия [1], битумная эмульсия, цемент, известь, различные органические полимеры и т.д. Также для борьбы с пылью используют лигносульфонаты, побочные продукты нефтепереработки.!!! Растворы с применением разных химических веществ, используемых для закрепления пылящих поверхностей, имеют свои преимущества и недостатки.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "вскрышная порода рудника",
+          "name_en": "waste rock",
+          "canonical": "waste_rock"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage",
+          "canonical": "tailings_storage"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "химический метод пылеподавления",
+          "name_en": "chemical dust suppression",
+          "canonical": "chemical_dust_suppression"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "меловая суспензия",
+          "name_en": "gypsum suspension",
+          "canonical": "gypsum_suspension"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "битумная эмульсия",
+          "name_en": "bitumen emulsion",
+          "canonical": "bitumen_emulsion"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "цемент",
+          "name_en": "cement",
+          "canonical": "cement"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "известь",
+          "name_en": "lime",
+          "canonical": "lime"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "органические полимеры",
+          "name_en": "organic polymers",
+          "canonical": "organic_polymers"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "лигносульфонаты",
+          "name_en": "lignosulfonates",
+          "canonical": "lignosulfonates"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "данный способ пылеподавления подходит для хвостохранилищ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "химические методы борьбы с пылью на хвостохранилищах подразумевают использование растворов веществ"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "для борьбы с пылью используют лигносульфонаты"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p3::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p3::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "аботки.!!! Растворы с применением разных химических веществ, используемых для закрепления пылящих поверхностей, имеют свои преимущества и недостатки. Так, срок эффективного действия водно-солевых растворов (бишофит) составляет всего несколько дней, а под действием осадков состав вообще вымывается из верхнего слоя. Также существенный недостаток – их высокое воздействие на окружающую среду, так как использование хлоридов способствует засаливанию почв, они могут попадать в источники воды, наносить вред растительности [13]. Также высока коррозионная активность таких растворов по отношению к применяемому на предприятии оборудованию и механизмам. Разработан технологический способ закрепления сухих поверхностей пляжа хвостохранилища - он основан на добавлении в хвостовую пульпу реагента, который связывает мелкодисперсные частицы и аккумулируется после их отложения на поверхности. Преимуществом технологического закрепления является отсутствие необходимости применения специальной техники и сложных механизмов подготовки поверхности и нанесения закрепителей. Однако, при его использовании часть реагента остается в пруде-отстойнике.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "бишофит",
+          "name_en": "bischoфит solution",
+          "canonical": "bischoфит"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings pond",
+          "canonical": "tailings_pond"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "закрепление поверхности",
+          "name_en": "surface stabilization",
+          "canonical": "surface_stabilization"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "реагент",
+          "name_en": "reagent",
+          "canonical": "reagent"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "технологический способ закрепления сухих поверхностей пляжа хвостохранилища основан на добавлении в хвостовую пульпу реагента"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "технологический способ закрепления сухих поверхностей пляжа хвостохранилища"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p3::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p3::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 3,
+      "lang": "ru",
+      "text": "хники и сложных механизмов подготовки поверхности и нанесения закрепителей. Однако, при его использовании часть реагента остается в пруде-отстойнике. Кроме того, закрепление всего объема хвостов может ограничить возможность дальнейшей переработки складируемых отходов [10], [14]. Водно-битумная эмульсия имеет плохое сродство к большинству материалов, поэтому после ее применения требуется тщательно следить за целостностью корки. После применения в окружающую среду попадают вредные для здоровья компоненты, содержащиеся в битуме. Отрицательная сторона использования битумной эмульсии также в том, что для ее приготовления требуется горячая вода и специальное оборудование как для приготовления, так и для последующего её распределения по закрепляемой поверхности, что приводит к необходимости внедрения дополнительных технологическим мероприятий. Кроме того, в процессе применения битумной эмульсии на хвостохранилище в условиях АО «Апатит», выяснилось, что при неблагоприятных метеорологических условиях (скорость ветра ≥ 10 м/с) поверхностная пленка",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "водно-битумная эмульсия",
+          "name_en": "water-bitumen emulsion",
+          "canonical": "water_bitumen_emulsion"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "специальное оборудование",
+          "name_en": "special equipment",
+          "canonical": "special_equipment"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "горячая вода",
+          "name_en": "hot water",
+          "canonical": "hot_water"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "скорость ветра",
+          "name_en": "wind speed",
+          "canonical": "wind_speed"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "для приготовления водно-битумной эмульсии требуется горячая вода и специальное оборудование"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "для приготовления водно-битумной эмульсии требуется горячая вода и специальное оборудование"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "wind_speed",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "m/s",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p4::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p4::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "разрушалась и эти участки становились основными источниками мелкодисперсной пыли [11]. Биологический метод Биологический метод заключается в нанесении почвенного и растительного слоя на пылящую поверхность, которая подвержена значительной ветровой нагрузке. Данный метод применяется на законсервированных хвостохранилищах в качестве биологического этапа рекультивации [14], а также применяется на дамбах обвалования [12], которые на больших хвостохранилищах имеют достаточно большую площадь. Посев трав производят при помощи механизированного посева, тракторной сеялки, гидропосева, устройства рулонного газона, биоматов, метод ручного посева. Проведение опытно-промышленных испытаний. Для действующих хвостохранилищ, особенно в условиях Крайнего севера, наиболее перспективным является химический метод пылеподавления. Биологический метод засевания травами хвостохранилищ и отвалов не пригоден при постоянном перемещении площадей заливки хвостами, а также малоэффективен в условиях низких температур и нестабильной погоды.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "биологический метод",
+          "name_en": "biological method",
+          "canonical": "biological_method"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "почвенный и растительный слой",
+          "name_en": "soil and vegetation layer",
+          "canonical": "soil_and_vegetation_layer"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailing storage facility",
+          "canonical": "tailing_dam"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "химический метод пылеподавления",
+          "name_en": "chemical method of dust suppression",
+          "canonical": "chemical_dust_suppression"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "механизированный посев",
+          "name_en": "mechanized seeding",
+          "canonical": "mechanical_seeding"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "тракторная сеялка",
+          "name_en": "tractor seeder",
+          "canonical": "tractor_seeder"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "гидропосев",
+          "name_en": "hydroseeding",
+          "canonical": "hydroseeding"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "устройство рулонного газона",
+          "name_en": "sod lawn installation",
+          "canonical": "sod_lawn"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "биомат",
+          "name_en": "biomat",
+          "canonical": "biomat"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "метод ручного посева",
+          "name_en": "manual seeding",
+          "canonical": "manual_seeding"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "биологический метод заключается в нанесении почвенного и растительного слоя на пылящую поверхность"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "данный метод применяется на законсервированных хвостохранилищах"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "наиболее перспективным является химический метод пылеподавления для действующих хвостохранилищ"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "посев трав производят при помощи механизированного посева"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "посев трав производят при помощи тракторной сеялки"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "посев трав производят при помощи гидропосева"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "посев трав производят при помощи устройства рулонного газона"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "посев трав производят при помощи биоматов"
+        },
+        {
+          "source_id": "e10",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "посев трав производят при помощи метода ручного посева"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p4::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p4::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "отвалов не пригоден при постоянном перемещении площадей заливки хвостами, а также малоэффективен в условиях низких температур и нестабильной погоды. Физический метод имеет ограниченное применение, так как инертные материалы, как правило, находятся далеко от хвостохранилищ, покрытие значительных площадей хвостохранилищ накладывает большие транспортные расходы. Применение водного пылеподавления, как было указано выше, также имеет ряд недостатков. По результатам анализа всех имеющихся на сегодняшний день способов подавления пыли на объектах горнодобывающей промышленности, а также опираясь на опыт крупных горно-обогатительных комбинатов, было решено провести опытно- промышленные испытания (ОПИ) пылеподавляющих реагентов отечественного производства с целью определения их практической и экономической эффективности. В качестве реагента для пылеподавления выбран реагент серии Rutrol AD производства ООО «Композит-Трейд». RUTROL AD 171 - продукт представляет собой дисперсию полимеров, стабилизационных добавок, диспергаторов в воде.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подавление пыли",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "физический метод",
+          "name_en": "physical method",
+          "canonical": "physical_method"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "водное пылеподавление",
+          "name_en": "water dust suppression",
+          "canonical": "water_dust_suppression"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "Rutrol AD",
+          "name_en": "Rutrol AD",
+          "canonical": "rutrol_ad"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "опытно-промышленные испытания",
+          "name_en": "pilot-industrial tests",
+          "canonical": "experiment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "В качестве реагента для пылеподавления выбран реагент серии Rutrol AD"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "validated_by",
+          "evidence": "провести опытно-промышленные испытания (ОПИ) пылеподавляющих реагентов отечественного производства"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p4::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p4::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "AD производства ООО «Композит-Трейд». RUTROL AD 171 - продукт представляет собой дисперсию полимеров, стабилизационных добавок, диспергаторов в воде. Реагент хорошо растворим в холодной воде и рассчитан на быстрое образование прочной эластичной корки и обычно используется либо для обочин дорог, либо для пылеподавления больших участков поверхностей, в последствии не подвергаемых механическим воздействиям и нагрузкам. Реагент эффективен для фиксации пыли в виде твердого, эластичного влагоустойчивого слоя на неподвижной поверхности пылящего материала. Проведению промышленных испытаний предшествовали лабораторные исследования, проведенные в лаборатории производителя. В качестве объекта испытаний применялась проба хвостов хвостохранилища «Лебяжье». В ходе лабораторного тестирования в существующие реагентные композиции серии Rutrol AD вносились необходимые изменения с учетом морфологии отходов обогащения и придания реагентам необходимых физико-химических свойств для увеличения их сродства к обрабатываемым поверхностям.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "RUTROL AD 171",
+          "name_en": "RUTROL AD 171",
+          "canonical": "RUTROL_AD_171"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "лабораторное тестирование",
+          "name_en": "laboratory testing",
+          "canonical": "laboratory_testing"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "проба хвостов хвостохранилища",
+          "name_en": "sample of tailings",
+          "canonical": "tailings_sample"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "серия реагентных композиций Rutrol AD",
+          "name_en": "Rutrol AD series",
+          "canonical": "Rutrol_AD_series"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "В качестве объекта испытаний применялась проба хвостов хвостохранилища «Лебяжье»"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "В ходе лабораторного тестирования в существующие реагентные композиции серии Rutrol AD вносились необходимые изменения"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p4::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p4::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 4,
+      "lang": "ru",
+      "text": "ом морфологии отходов обогащения и придания реагентам необходимых физико-химических свойств для увеличения их сродства к обрабатываемым поверхностям. Опытно-промышленные испытания проведены в соответствии «Программой- методикой опытных предварительных испытаний по пылеподавлению на намываемых пляжах хвостохранилища ООО «Медвежий ручей». На промышленной территории ООО «Медвежий ручей» расположено два хвостохранилища – хвостохранилище № 1 и хвостохранилище «Лебяжье», площадь пылящей поверхности составляет 3250,73 тыс км2 и 5432 тыс км2 соответственно. В период с июля по сентябрь 2023 года на хвостохранилище «Лебяжье» были проведены испытания по определению эффективности пылеподавляющего реагента Rutrol AD 171. Для проведения испытаний был выбран необводненный участок хвостохранилища, расположенный на достаточном расстоянии от действующих пульповыпусков и путей проезда остальной спецтехники (рис. 1). Данный участок был разделен на 16 равных участков площадью примерно 2 м2. На каждый из участков был нанесен водный раствор",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "dust_suppression_agent"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилища",
+          "name_en": "tailings storage facilities",
+          "canonical": "tailings_storage_facilities"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "промышленная территория",
+          "name_en": "industrial site",
+          "canonical": "industrial_site"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "участок хвостохранилища",
+          "name_en": "test area",
+          "canonical": "test_area"
+        },
+        {
+          "id": "e6",
+          "type": "Facility",
+          "name_ru": "равные участки",
+          "name_en": "subarea",
+          "canonical": "subarea"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "На промышленной территории ООО «Медвежий ручей» расположено два хвостохранилища"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "испытания по определению эффективности пылеподавляющего реагента Rutrol AD 171"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Данный участок был разделен на 16 равных участков"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "area",
+          "op": "range",
+          "value_min": 3250.73,
+          "value_max": 5432.0,
+          "unit": "km2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "area",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "m2",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p5::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p5::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "реагента Rutrol AD 171 с различными рабочими концентрациями и расходами реагента (табл.1) Таблица 1. Объемы растворов реагента разных концентраций, нанесенные на каждый участок (л). Расход реагента, г/м2 Концентрация раствора, % 1% 2% 3% 4% 20 4,5 2,25 1,5 1,125 30 6,75 3,375 2,55 1,687 40 9 4,5 3 2,250 60 13,5 6,75 4,5 3,375 Нанесение реагента проводили в ясную погоду. Предшествующие два дня до начала испытаний и через 15 часов после нанесения реагента имели место осадки. Рисунок 1. Опытный участок хвостохранилища \"Лебяжье\" через сутки после обработки поверхности Через 50 суток после нанесения реагента была проведена оценка результатов образования защитной корки (рис. 2). Рисунок 2. Состояние корки через 50 дней при расходе 30-40 г/м2 и рабочей концентрацией 3% При всех расходах и при всех рабочих концентрациях реагента Rutrol AD 171 на поверхности хвостохранилища было образовано защитное покрытие (корка). Наилучшие результаты были получены при расходах реагента Rutrol AD 171 в 30–40 г/м2 с рабочей концентрацией 3%.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "нанесение реагента",
+          "name_en": "application of reagent",
+          "canonical": "application_of_reagent"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "защитное покрытие",
+          "name_en": "protective coating",
+          "canonical": "protective_coating"
+        },
+        {
+          "id": "e7",
+          "type": "Process",
+          "name_ru": "оценка результатов",
+          "name_en": "evaluation of results",
+          "canonical": "evaluation_of_results"
+        },
+        {
+          "id": "e8",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage facility",
+          "canonical": "tailings_storage_facility"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "защитная корка",
+          "name_en": "protective crust",
+          "canonical": "protective_crust"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "расход реагента Rutrol AD 171",
+          "name_en": "consumption of Rutrol AD 171",
+          "canonical": "consumption_of_Rutrol_AD_171"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация реагента Rutrol AD 171",
+          "name_en": "concentration of Rutrol AD 171",
+          "canonical": "concentration_of_Rutrol_AD_171"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "оптимальная концентрация реагента Rutrol AD 171",
+          "name_en": "optimal concentration of Rutrol AD 171",
+          "canonical": "optimal_concentration_of_Rutrol_AD_171"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "нанесение реагента Rutrol AD 171"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "образование защитного покрытия"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "оценка результатов образования защитной корки"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "нанесение реагента на хвостохранилище"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 4.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "consumption",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 60.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "optimal_consumption",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 40.0,
+          "unit": "g/m2",
+          "condition": "наилучшие результаты"
+        },
+        {
+          "entity_id": "e4",
+          "param": "optimal_concentration",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": "наилучшие результаты"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p5::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p5::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "образовано защитное покрытие (корка). Наилучшие результаты были получены при расходах реагента Rutrol AD 171 в 30–40 г/м2 с рабочей концентрацией 3%. При вышеприведенных параметрах образовавшееся покрытие имеет следующие свойства: - толщина 7-10 мм; - толщина корки неравномерна по площади нанесения; - эластичность; - относительная прочность (не разрушается под весом человека массой в 80 - 90 кг). Неравномерность образования и толщины защитной корки, обуславливаются погодными условиями в период проведения испытаний. Непосредственно после нанесения раствора реагента на поверхность участка, а также во время формирования корки (2-3 дня после нанесения) имели место обильные осадки в виде дождя. Еще одним фактором, возможно, повлиявшим на толщину защитной корки является то, что раствор реагента наносился на влажную поверхность пляжа. Установлено, что при всех концентрациях и расходах образующаяся корка значительно снижает ветровую эрозию поверхности хвостохранилища. На границах между участками с разным расходом реагента наблюдаются значительная контрастная ветровая эрозия (Таблица 2 строки 1 и 2).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "защитное покрытие",
+          "name_en": "protective coating",
+          "canonical": "protective_coating"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "защитная корка",
+          "name_en": "protective crust",
+          "canonical": "protective_crust"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Наилучшие результаты были получены при расходах реагента Rutrol AD 171 в 30–40 г/м2 с рабочей концентрацией 3%"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "При вышеприведенных параметрах образовавшееся покрытие имеет следующие свойства"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "application_rate",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 40.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "thickness",
+          "op": "range",
+          "value_min": 7.0,
+          "value_max": 10.0,
+          "unit": "mm",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p5::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p5::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 5,
+      "lang": "ru",
+      "text": "востохранилища. На границах между участками с разным расходом реагента наблюдаются значительная контрастная ветровая эрозия (Таблица 2 строки 1 и 2). Даже при минимальном расходе (20 г/м2 в виде 1% раствора) наблюдается формирование защитного слоя, достаточного для предохранения поверхности хвостохранилища от значительной ветровой эрозии (Таблица 2 строка 3). Эффективность обработки реагентом подтверждается также отсутствием на обработанной поверхности «барханов» - следствия ветровой эрозии (Таблица 2 строка 2).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage",
+          "canonical": "tailings_storage"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "реагент",
+          "name_en": "reagent",
+          "canonical": "reagent"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "ветровая эрозия",
+          "name_en": "wind erosion",
+          "canonical": "wind_erosion"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "На границах между участками с разным расходом реагента наблюдаются значительная контрастная ветровая эрозия"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "при минимальном расходе (20 г/м2 в виде 1% раствора) наблюдается формирование защитного слоя, достаточного для предохранения поверхности хвостохранилища от значительной ветровой эрозии"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "spending",
+          "op": "ge",
+          "value_min": 20.0,
+          "value_max": null,
+          "unit": "g/m2",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p7::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p7::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "Таблица 2.Результаты испытаний реагента Rutrol AD 171 для закрепления пылящих поверхностей 08.08.2023 Внешний вид площадки через 1 день после обработки: площадка гладкая 05.09.2023 Общий вид площадки через 45 дней после обработки. Наблюдается эрозия по линиям между участками, где производилась обработка. (линии между столбиками разметки). 05.09.2023 Расход 20 г/м2 в виде 1% раствора. Корка толщиной 1-3 мм. Крайняя часть испытательной площадки, после которой наблюдаются следы сильной эрозии. При увеличении удельного расхода реагента в диапазоне 20-60 г/м2, наблюдается увеличение толщины образовавшейся корки. Эластичность корки снижается с увеличением ее толщины. При этом при увеличении расхода реагента с 40 до 60 г/м2 толщина корки увеличивается уже незначительно (около 10%). Лабораторные испытания реагента Rutrol AD 171 Целью проведения лабораторных испытаний являлась оценка эффективности применения и теоретического расчёта последующего экологического эффекта от применения реагента Rutrol AD 171 для закрепления пылящих поверхностей.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "лабораторные испытания",
+          "name_en": "laboratory testing",
+          "canonical": "laboratory_testing"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "закрепление пылящих поверхностей",
+          "name_en": "surface treatment",
+          "canonical": "surface_treatment"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "корка",
+          "name_en": "crust",
+          "canonical": "crust"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Целью проведения лабораторных испытаний являлась оценка эффективности применения и теоретического расчёта последующего экологического эффекта от применения реагента Rutrol AD 171 для закрепления пылящих поверхностей"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "При увеличении удельного расхода реагента в диапазоне 20-60 г/м2, наблюдается увеличение толщины образовавшейся корки"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "thickness",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 3.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "consumption",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 60.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p7::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p7::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "ти применения и теоретического расчёта последующего экологического эффекта от применения реагента Rutrol AD 171 для закрепления пылящих поверхностей. Под эффективностью применения реагента понимается удержание пылящей фракции на поверхности обработанного участка и предотвращение выдувания пылящей фракции при ветровой нагрузке. Лабораторные испытания были проведены на установке (рис. 3) при вычисленной скорости ветра 16 м/с. Площадь исследуемого образца составляла 140 см2, естественная влажность - 5%. Усредненный образец хвостов (образец №1) был помещен в поддон, затем обработан расчетным количеством 3% раствора реагента с расходами от 20 до 60 г/м2 по реагенту и оставлен на 48 часов при нормальных условиях для сушки. Далее поддон был помещен в установку, после чего был включен вентилятор на 30 минут. Затем материал, вынесенный потоком воздуха из установки, был извлечен и взвешен (масса m1). Такие же действия были проведены с контрольным поддоном, наполненным материалом, необработанным раствором пылеподавителя (образец №2), и была получена масса m2. Количество пыли, сдуваемой с контрольного поддона, была принята за 100% (m2).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "образец",
+          "name_en": "sample",
+          "canonical": "sample"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "раствор пылеподавителя",
+          "name_en": "dust suppressant solution",
+          "canonical": "dust_suppressant_solution"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "расход реагента",
+          "name_en": "application rate",
+          "canonical": "application_rate"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "время сушки",
+          "name_en": "drying time",
+          "canonical": "drying_time"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "продолжительность вентиляции",
+          "name_en": "ventilation duration",
+          "canonical": "ventilation_duration"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "скорость ветра",
+          "name_en": "wind speed",
+          "canonical": "wind_speed"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "естественная влажность",
+          "name_en": "moisture content",
+          "canonical": "moisture_content"
+        },
+        {
+          "id": "e9",
+          "type": "Experiment",
+          "name_ru": "лабораторные испытания",
+          "name_en": "laboratory test",
+          "canonical": "laboratory_test"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "установка для испытаний",
+          "name_en": "testing equipment",
+          "canonical": "testing_equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "operates_at_condition",
+          "evidence": "Лабораторные испытания были проведены на установке при вычисленной скорости ветра 16 м/с"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "усредненный образец хвостов был помещен в поддон, затем обработан расчетным количеством 3% раствора реагента"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "усредненный образец хвостов (образец №1) был помещен в поддон"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "расходом от 20 до 60 г/м2 по реагенту"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "оставлен на 48 часов при нормальных условиях для сушки"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "вентилятор включен на 30 минут"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "application_rate",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 60.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "duration",
+          "op": "eq",
+          "value_min": 48.0,
+          "value_max": 48.0,
+          "unit": "hours",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "duration",
+          "op": "eq",
+          "value_min": 30.0,
+          "value_max": 30.0,
+          "unit": "minutes",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "speed",
+          "op": "eq",
+          "value_min": 16.0,
+          "value_max": 16.0,
+          "unit": "m/s",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "area",
+          "op": "eq",
+          "value_min": 140.0,
+          "value_max": 140.0,
+          "unit": "cm2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "moisture",
+          "op": "eq",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p7::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p7::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 7,
+      "lang": "ru",
+      "text": "танным раствором пылеподавителя (образец №2), и была получена масса m2. Количество пыли, сдуваемой с контрольного поддона, была принята за 100% (m2). Таким образом, коэффициент пылеподавления η, выраженный в процентном соотношении, был определен по формуле: η =(m2-m1)/m2*100%, (1) где η – коэффициент пылеподавления, %; m1 - масса вынесенного пылящего материала при наличии обработки, г; m2 - масса вынесенного пылящего материала без обработки, г. Полученные результаты приведены в таблице 3. Таблица 3. Результаты лабораторных испытаний Расход реагента, г/м2 Масса вынесенной пыли, г Эффективность, % 0 106 - 20 1,856 98,25 1 - фильтр, 2 – поддон с исследуемой пробой, 3 – вентилятор Рисунок 3. Схема установки для проведения лабораторных испытаний",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "раствор пылеподавителя",
+          "name_en": "dust suppression solution",
+          "canonical": "dust_suppression_solution"
+        },
+        {
+          "id": "e2",
+          "type": "Experiment",
+          "name_ru": "лабораторное испытание",
+          "name_en": "laboratory test",
+          "canonical": "laboratory_test"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "расход реагента",
+          "name_en": "reagent consumption",
+          "canonical": "reagent_consumption"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "масса вынесенной пыли",
+          "name_en": "dust mass",
+          "canonical": "dust_mass"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "эффективность пылеподавления",
+          "name_en": "dust suppression efficiency",
+          "canonical": "dust_suppression_efficiency"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "оборудование для лабораторных испытаний",
+          "name_en": "laboratory equipment",
+          "canonical": "laboratory_equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "определен коэффициент пылеподавления по формуле"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "проведены лабораторные испытания с использованием раствора пылеподавителя"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "reagent_consumption",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 20.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "dust_mass",
+          "op": "range",
+          "value_min": 1.856,
+          "value_max": 106.0,
+          "unit": "g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "efficiency",
+          "op": "range",
+          "value_min": null,
+          "value_max": 98.25,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p10::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p10::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "Расход реагента, г/м2 Масса вынесенной пыли, г Эффективность, % 30 0,964 99,09 40 0,365 99,66 60 0,362 99,66 Расчет выбросов и расчет рассеивания загрязняющих веществ в атмосферный воздух. Для теоретической оценки эффекта пылеподавления на всей пылящей поверхности хвостохранилищ №1 и «Лебяжье», проведен количественный расчет мощности выброса твердых частиц до и после применения пылеподавляющего реагента. Для учета пылеподавления применяется значение коэффициента η, принятое по [15], η=0,9. Таблица 4. Мощность выброса твердых частиц без пылеподавления и с учетом пылеподавления, т/год Код в-ва Название вещества Часть поверхности Валовый выброс (т/год) без пылеподавления с учетом пылеподавления Хвостохранилище №1 2908 Пыль неорганическая: 70-20% SiO2 с активнопылящей поверхности (Soi=730000 м2) 68,875 6,888 со среднепылящей поверхности (Soi=1140000 м2) 99,284 9,928 со слабопылящей поверхности (Soi=2110000 м2) 107,195 10,720 Всего хвостохранилище №1: 275,4 27,54 Хвостохранилище «Лебяжье» 2908 Пыль неорганическая: 70-20% SiO2 Ограждающая дамба 1-го и 2-го полей (Soi=5432000 м2) 275,963 27,596 Для оценки концентрации загрязняющих веществ в жилой зоне, были проведены расчеты приземных",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "пылеподавляющий реагент",
+          "name_en": "dust suppression reagent",
+          "canonical": "dust_suppression_reagent"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "масса вынесенной пыли",
+          "name_en": "dust mass",
+          "canonical": "dust_mass"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "эффективность пылеподавления",
+          "name_en": "dust suppression efficiency",
+          "canonical": "dust_suppression_efficiency"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "хвостохранилище №1",
+          "name_en": "tailings storage facility No. 1",
+          "canonical": "tailings_storage_facility_1"
+        },
+        {
+          "id": "e5",
+          "type": "Facility",
+          "name_ru": "хвостохранилище «Лебяжье»",
+          "name_en": "tailings storage facility Lebyazhye",
+          "canonical": "tailings_storage_facility_Lebyazhye"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Расход реагента, г/м2 Масса вынесенной пыли, г Эффективность, %"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Эффективность пылеподавления на хвостохранилищах"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "reagent_consumption",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 60.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "dust_mass",
+          "op": "range",
+          "value_min": 0.362,
+          "value_max": 0.964,
+          "unit": "g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "efficiency",
+          "op": "range",
+          "value_min": 99.09,
+          "value_max": 99.66,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "total_emission",
+          "op": "range",
+          "value_min": 27.54,
+          "value_max": 275.4,
+          "unit": "t/year",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "total_emission",
+          "op": "range",
+          "value_min": 27.596,
+          "value_max": 275.963,
+          "unit": "t/year",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p10::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p10::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 10,
+      "lang": "ru",
+      "text": "ая дамба 1-го и 2-го полей (Soi=5432000 м2) 275,963 27,596 Для оценки концентрации загрязняющих веществ в жилой зоне, были проведены расчеты приземных концентраций в соответствии с Методами расчетов рассеивания выбросов загрязняющих веществ в атмосферном воздухе, утвержденными Приказом Минприроды России от 6 июня 2017 года № 273 [16] с использованием унифицированной программы УПРЗА «Эколог» версии 4.7, разработанной ООО «Фирма «Интеграл». При оценке влияния неорганизованных источников ООО «Медвежий ручей» на окружающую среду учитываются выбросы действующего предприятия и фоновое загрязнение атмосферы. Расчет приземных концентраций проведен для летнего периода года как наихудшего с точки зрения условия рассеивания. На рисунках 4 и 5 представлены результаты расчетов рассеивания. В селитебной зоне концентрация пыли уменьшилась с 0,45 ПДК до 0,05.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "пыль",
+          "name_en": "dust",
+          "canonical": "dust"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "оценка выбросов",
+          "name_en": "assessment of emissions",
+          "canonical": "emission_assessment"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "неорганизованные источники",
+          "name_en": "unorganized sources",
+          "canonical": "unorganized_sources"
+        },
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "летний период",
+          "name_en": "summer period",
+          "canonical": "summer_period"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "При оценке влияния неорганизованных источников ООО «Медвежий ручей» на окружающую среду учитываются выбросы действующего предприятия и фоновое загрязнение атмосферы"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Расчет приземных концентраций проведен для летнего периода года как наихудшего с точки зрения условия рассеивания"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "В селитебной зоне концентрация пыли уменьшилась с 0,45 ПДК до 0,05"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 0.45,
+          "value_max": 0.05,
+          "unit": "ПДК",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "период",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": "летняя"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2017,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p11::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p11::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "Рисунок 4. Карта расчета рассеивания по веществу 2908 до применения мероприятий по пылеподавлению Рисунок 5. Карта расчета рассеивания по веществу 2908 после применения мероприятий по пылеподавлению Заключение Проведенные испытания пылеподавляющего реагента Rutrol AD 171 в лабораторных условиях показали высокую эффективность в защите поверхности от пылеуноса. В отсутствии внешних факторов воздействия, таких как осадки и сильный ветер, вычисленная эффективность составляет более 99%, что свидетельствует об образовании крепкого защитного покрытия. На основании полученных результатов опытно-промышленных испытаний можно сделать вывод, что проведенные результаты показали возможность применения реагента Rutrol AD 171 для закрепления пылящих поверхностей пляжей хвостохранилища и показали приемлемый результат. При разных расходах и рабочих концентрациях свойства корки различались - наилучшие результаты были получены при расходах реагента в 30 - 40 г/м2 с рабочей концентрацией 3%. Эффективность обработки реагентом подтверждается отсутствием на обработанной поверхности «барханов» - следствия ветровой эрозии.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пылеподавление",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "лабораторные испытания",
+          "name_en": "laboratory test",
+          "canonical": "laboratory_test"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "применение Rutrol AD 171",
+          "name_en": "application of Rutrol AD 171",
+          "canonical": "Rutrol_AD_171_application"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "эффективность обработки",
+          "name_en": "treatment efficiency",
+          "canonical": "treatment_efficiency"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Проведенные испытания пылеподавляющего реагента Rutrol AD 171 в лабораторных условиях"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "наилучшие результаты были получены при расходах реагента в 30 - 40 г/м2 с рабочей концентрацией 3%"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "Эффективность обработки реагентом подтверждается отсутствием на обработанной поверхности «барханов»"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "spending",
+          "op": "range",
+          "value_min": 30.0,
+          "value_max": 40.0,
+          "unit": "g/m2",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "concentration",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "efficiency",
+          "op": "ge",
+          "value_min": 99.0,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p11::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p11::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "ей концентрацией 3%. Эффективность обработки реагентом подтверждается отсутствием на обработанной поверхности «барханов» - следствия ветровой эрозии. Несмотря на некоторые отклонения от технологии закрепления, через 1,5 месяца, с момента проведения закрепления на обработанной поверхности, наблюдается сформировавшаяся стабильная защитная корка, препятствующая образованию пыления. Реализуя данные мероприятия по снижению выбросов в атмосферный воздух от неорганизованных источников, предприятие внедряет наилучшие доступные технологии (НДТ), разработанные для предприятий горнодобывающей промышленности – НДТ 5.5.2 – орошение пылящих поверхностей [17]. Таким образом, внедрение реагентов, разработанных специально для борьбы с пылью на действующих и законсервированных хвостохранилищах, позволит уменьшить уровни загрязнения воздуха, экологическую обстановку в районах складирования отходов гидрометаллургической переработки руд. Результаты, полученные в ходе лабораторных и опытно-промышленных испытаний, позволяют рекомендовать проведение полномасштабных промышленных испытаний реагентной программы Rutrol AD 171. Вклад авторов Стрельникова В.Р.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обработка реагентом",
+          "name_en": "treatment with reagent",
+          "canonical": "reagent_treatment"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилище",
+          "name_en": "tailings storage",
+          "canonical": "tailings_storage"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "борьба с пылью",
+          "name_en": "dust control",
+          "canonical": "dust_control"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Эффективность обработки реагентом подтверждается отсутствием на обработанной поверхности «барханов»"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "внедрение реагентов, разработанных специально для борьбы с пылью на действующих и законсервированных хвостохранилищах"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "внедрение реагентов, разработанных специально для борьбы с пылью"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "concentration",
+          "op": "eq",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p11::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p11::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 11,
+      "lang": "ru",
+      "text": "ытаний, позволяют рекомендовать проведение полномасштабных промышленных испытаний реагентной программы Rutrol AD 171. Вклад авторов Стрельникова В.Р. — идея, формулировка цели и задач, анализ существующих методов пылеподавления, проведение опытно-промышленных испытаний, проведение расчетов выбросов и расчетов рассеивания загрязняющих веществ. Баженова А.В. — идея, формулировка цели и задач, подготовка работы к опубликованию. Мацура В.А. — разработка методики проведения опытно-промышленных и лабораторных испытаний, проведение опытно-промышленных испытаний, анализ результатов испытаний. Украинцев Б.В. — разработка методики проведения опытно-промышленных и лабораторных испытаний испытаний, анализ результатов испытаний. ЛИТЕРАТУРА 1. Лычагин Е.В., Синицина И.В. Совершенствование методов закрепления пылящих поверхностей. 2007. 2. Khademi H., Abbaspour A., Martínez-Martínez S., Gabarrón M., Shahrokh V., Faz A., Acosta J. A. Provenance and environmental risk of windblown materials from mine tailing ponds, Murcia, Spain // Environmental Pollution. 2018. Vol. 241. Pp. 432—440. DOI: 0.1016/j.envpol.2018.05.084. 3. Xiaoliang Zhao. Et al.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пылеподавление",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "Rutrol AD 171",
+          "name_en": "Rutrol AD 171",
+          "canonical": "Rutrol_AD_171"
+        },
+        {
+          "id": "e3",
+          "type": "Experiment",
+          "name_ru": "опытно-промышленные испытания",
+          "name_en": "pilot industrial tests",
+          "canonical": "pilot_industrial_tests"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "проведение опытно-промышленных испытаний реагентной программы Rutrol AD 171"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "анализ существующих методов пылеподавления"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p11::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p11::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 11,
+      "lang": "en",
+      "text": "ine tailing ponds, Murcia, Spain // Environmental Pollution. 2018. Vol. 241. Pp. 432—440. DOI: 0.1016/j.envpol.2018.05.084. 3. Xiaoliang Zhao. Et al. A research on dust suppression mechanism and application technology in mining and loading process of burnt rock open pit coal mines// Journal of the Air & Waste Management Association https://doi.org/10.1080/10962247.2021.1979123",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "хвостохранилища",
+          "name_en": "tailing ponds",
+          "canonical": "tailing_ponds"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "карьерные угольные шахты с обожжённой породой",
+          "name_en": "burnt rock open pit coal mines",
+          "canonical": "burned_rock_open_pit_coal_mines"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "подавление пыли",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "ine tailing ponds, Murcia, Spain"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": "A research on dust suppression mechanism and application technology in mining and loading process of burnt rock open pit coal mines"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2018,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p13::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p13::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "4. Sulong Zhu. et al. Evaluation of steel metallurgical dust management: combining treatment methods and resource attributes// Process Safety and Environmental Protection 191 (2024) 1648–1658 5. Неменко Б.А., Илиясова А.Д., Арынова Г.А. Оценка степени опасности мелкодисперсных пылевых частиц // Вестник КазНМУ. – 2014. - №3(1) – С.113-115. 6. Макаров Д. В., Маслобоев В. А., Кошкина Л.Б., Сулименко Л. П., Светлов А. В., Мингалева Т. А., Денисова Ю. Л., Красавцева Е. А. Исследования по обоснованию снижения экологической опасности отходов горнопромышленного комплекса: основные результаты и перспективы научного направления 7. Майорова Л. П., Черенцова А. А., Крупская Л. Т., Голубев Д. А., Колобанов К. А. Оценка техногенного загрязнения воздушного бассейна при пылении хвостохранилищ // Горный информационно-аналитический бюллетень. – 2021. – №1 – с. 5-20. 8. Каплунов Д.Р., Юков В.А. О принципах перехода горнодобывающего предприятия к устойчивому экологически сбалансированному развитию // Горный информационно- аналитический бюллетень. – 2020. – №3 – с. 74-86. 9. Обухов Ю.Д., Цешковская Е.А., Баизбаев М.Б., Цой Н.К.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "стальная металлургическая пыль",
+          "name_en": "steel metallurgical dust",
+          "canonical": "steel metallurgical dust"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "оценка управления металлургической пылью от стали",
+          "name_en": "evaluation of steel metallurgical dust management",
+          "canonical": "evaluation of steel metallurgical dust management"
+        },
+        {
+          "id": "e3",
+          "type": "Expert",
+          "name_ru": "Сулонг Чжу",
+          "name_en": "sulong zhu",
+          "canonical": "sulong zhu"
+        },
+        {
+          "id": "e4",
+          "type": "Publication",
+          "name_ru": "безопасность процессов и охрана окружающей среды",
+          "name_en": "process safety and environmental protection",
+          "canonical": "process safety and environmental protection"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Неменко Б.А., Илиясова А.Д., Арынова Г.А.",
+          "name_en": "nemenko b.a., iliyasova a.d., arynova g.a.",
+          "canonical": "nemenko b.a., iliyasova a.d., arynova g.a."
+        },
+        {
+          "id": "e6",
+          "type": "Experiment",
+          "name_ru": "оценка степени опасности мелкодисперсных пылевых частиц",
+          "name_en": "assessment of the hazard of fine dust particles",
+          "canonical": "assessment of the hazard of fine dust particles"
+        },
+        {
+          "id": "e7",
+          "type": "Publication",
+          "name_ru": "Вестник КазНМУ",
+          "name_en": "bulletin of kaznmu",
+          "canonical": "bulletin of kaznmu"
+        },
+        {
+          "id": "e8",
+          "type": "Experiment",
+          "name_ru": "исследования по обоснованию снижения экологической опасности отходов горнопромышленного комплекса",
+          "name_en": "research to justify reducing the environmental hazard of mining waste",
+          "canonical": "research to justify reducing the environmental hazard of mining waste"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Майорова Л. П., Черенцова А. А., Крупская Л. Т., Голубев Д. А., Колобанов К. А.",
+          "name_en": "majorov l.p., cherenцова a.a., krupskaya l.t., golubev d.a., kolobanov k.a.",
+          "canonical": "majorov l.p., cherenцова a.a., krupskaya l.t., golubev d.a., kolobanov k.a."
+        },
+        {
+          "id": "e10",
+          "type": "Experiment",
+          "name_ru": "оценка техногенного загрязнения воздушного бассейна при пылении хвостохранилищ",
+          "name_en": "assessment of anthropogenic air pollution from tailing dams",
+          "canonical": "assessment of anthropogenic air pollution from tailing dams"
+        },
+        {
+          "id": "e11",
+          "type": "Publication",
+          "name_ru": "Горный информационно-аналитический бюллетень",
+          "name_en": "mining information and analytical bulletin",
+          "canonical": "mining information and analytical bulletin"
+        },
+        {
+          "id": "e12",
+          "type": "Expert",
+          "name_ru": "Каплунов Д.Р., Юков В.А.",
+          "name_en": "kaplunov d.r., yukov v.a.",
+          "canonical": "kaplunov d.r., yukov v.a."
+        },
+        {
+          "id": "e13",
+          "type": "Experiment",
+          "name_ru": "о принципах перехода горнодобывающего предприятия к устойчивому экологически сбалансированному развитию",
+          "name_en": "principles of transition of a mining enterprise to sustainable environmentally balanced development",
+          "canonical": "principles of transition of a mining enterprise to sustainable environmentally balanced development"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "expert_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "expert_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e10",
+          "type": "expert_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e13",
+          "type": "expert_in",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p13::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p13::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "ованному развитию // Горный информационно- аналитический бюллетень. – 2020. – №3 – с. 74-86. 9. Обухов Ю.Д., Цешковская Е.А., Баизбаев М.Б., Цой Н.К. Современное состояние вопроса обеспыливания хвостохранилищ и постановка задач исследования / Х международная научно-практическая конференция «Современные тенденции и инновации в науке и производстве». – 2021. – С.152-1-152-8. 10. Макаров Д.В., Конина О.Т., А. А. Горячев. Методы снижения пыления отвалов горнопромышленных отходов // ГОРНАЯ ЭКОЛОГИЯ И НЕДРОПОЛЬЗОВАНИЕ. – 2021. – С.160-170. 11. Маслобоев В. А., Светлов А. В., Конина О. Т., Митрофанова Г. В., Туртанов А. В., Макаров Д. В. Выбор связующих реагентов для предотвращения пылеобразования на хвостохранилищах переработки апатит-нефелиновых руд // ФТПРПИ. — 2018. — № 2. — С. 161 – 171. 12. Калугин А. И., Конина О. Т., Гусарь И. В. Природоохранная деятельность АО “Апатит”: результаты и перспективы // Горн. журн. — 2014. — № 10. — С. 88 – 92. 13. Есина А.Ю., Ишмухаметов Э.М., Вициенко М.И. Неорганические соли для пылеподавления на дорогах. V Всероссийская конференция. Химия и химическая технология: достижения и перспективы. - 2020. – С.09.1-09.5. 14. Немировский А.В.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеспыливание",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "хвостохранилища",
+          "name_en": "tailings storage facilities",
+          "canonical": "tailings_storage_facilities"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "отвалы горнопромышленных отходов",
+          "name_en": "waste dumps",
+          "canonical": "waste_dumps"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "связующие реагенты",
+          "name_en": "binding agents",
+          "canonical": "binding_agents"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "апатит-нефелиновые руды",
+          "name_en": "apathy-nefeline ores",
+          "canonical": "apathy_nefeline_ores"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "неорганические соли",
+          "name_en": "inorganic salts",
+          "canonical": "inorganic_salts"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Выбор связующих реагентов для предотвращения пылеобразования на хвостохранилищах переработки апатит-нефелиновых руд"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Выбор связующих реагентов для предотвращения пылеобразования на хвостохранилищах переработки апатит-нефелиновых руд"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Методы снижения пыления отвалов горнопромышленных отходов"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Неорганические соли для пылеподавления на дорогах"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p13::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p13::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 13,
+      "lang": "ru",
+      "text": "авления на дорогах. V Всероссийская конференция. Химия и химическая технология: достижения и перспективы. - 2020. – С.09.1-09.5. 14. Немировский А.В. Разработка способа предотвращения пыления наливного хвостохранилища горного предприятия с использованием глинокомпозитных адгезионных хвостов // Международный научно-исследовательский журнал. – 2013. — № 9 (16). — С. 34 – 38. 15. Методика расчета вредных выбросов (сбросов) для комплекса оборудования открытых горных работ (на основе удельных показателей), Институт горного дела им. А.А. Скочинского, Люберцы, 1999. 16. Приказ Минприроды РФ об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе № 273 от 6 июня 2017. 17. ИТС 16-2023 Информационно-технический справочник по наилучшим доступным технологиям. Горнодобывающая промышленность. Общие процессы и методы. – Москва, 2023. REFERENCES 1. Lychagin E.V., Sinitsyna I.V. Improving the methods of fixing dusty surfaces. 2007. 2. Khademi H., Abbaspour A., Martínez-Martínez S., Gabarrón M., Shahrokh V., Faz A., Acosta J. A.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Publication",
+          "name_ru": "V Всероссийская конференция. Химия и химическая технология: достижения и перспективы",
+          "name_en": "V All-Russian Conference. Chemistry and Chemical Technology: Achievements and Prospects",
+          "canonical": "V Всероссийская конференция. Химия и химическая технология: достижения и перспективы"
+        },
+        {
+          "id": "e2",
+          "type": "Publication",
+          "name_ru": "Немировский А.В. Разработка способа предотвращения пыления наливного хвостохранилища горного предприятия с использованием глинокомпозитных адгезионных хвостов",
+          "name_en": "Nemirovsky A.V. Development of a method for preventing dusting of a bulk tailings storage facility at a mining enterprise using clay composite adhesive tailings",
+          "canonical": "Немировский А.В. Разработка способа предотвращения пыления наливного хвостохранилища горного предприятия с использованием глинокомпозитных адгезионных хвостов"
+        },
+        {
+          "id": "e3",
+          "type": "Publication",
+          "name_ru": "Методика расчета вредных выбросов (сбросов) для комплекса оборудования открытых горных работ",
+          "name_en": "Methodology for calculating harmful emissions (discharges) for a complex of equipment for open pit mining",
+          "canonical": "Методика расчета вредных выбросов (сбросов) для комплекса оборудования открытых горных работ"
+        },
+        {
+          "id": "e4",
+          "type": "Publication",
+          "name_ru": "Приказ Минприроды РФ об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе № 273 от 6 июня 2017",
+          "name_en": "Order of the Ministry of Natural Resources of the Russian Federation on approval of methods for calculating the dispersion of emissions of harmful (polluting) substances in the atmospheric air No. 273 of June 6, 2017",
+          "canonical": "Приказ Минприроды РФ об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе № 273 от 6 июня 2017"
+        },
+        {
+          "id": "e5",
+          "type": "Publication",
+          "name_ru": "ИТС 16-2023 Информационно-технический справочник по наилучшим доступным технологиям. Горнодобывающая промышленность. Общие процессы и методы",
+          "name_en": "ITS 16-2023 Information and technical reference book on the best available technologies. Mining industry. General processes and methods",
+          "canonical": "ИТС 16-2023 Информационно-технический справочник по наилучшим доступным технологиям. Горнодобывающая промышленность. Общие процессы и методы"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "глинокомпозитные адгезионные хвосты",
+          "name_en": "clay composite adhesive tailings",
+          "canonical": "глинокомпозитные адгезионные хвосты"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "удельные показатели",
+          "name_en": "specific indicators",
+          "canonical": "удельные показатели"
+        },
+        {
+          "id": "e8",
+          "type": "Equipment",
+          "name_ru": "комплекс оборудования открытых горных работ",
+          "name_en": "complex of equipment for open pit mining",
+          "canonical": "комплекс оборудования открытых горных работ"
+        },
+        {
+          "id": "e9",
+          "type": "Process",
+          "name_ru": "предотвращение пыления наливного хвостохранилища",
+          "name_en": "prevention of dusting of bulk tailings storage",
+          "canonical": "предотвращение пыления наливного хвостохранилища"
+        },
+        {
+          "id": "e10",
+          "type": "Process",
+          "name_ru": "расчет вредных выбросов",
+          "name_en": "harmful emissions calculation",
+          "canonical": "расчет вредных выбросов"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e9",
+          "type": "described_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": ""
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e8",
+          "type": "described_in",
+          "evidence": ""
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e10",
+          "type": "described_in",
+          "evidence": ""
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p13::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p13::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 13,
+      "lang": "en",
+      "text": "proving the methods of fixing dusty surfaces. 2007. 2. Khademi H., Abbaspour A., Martínez-Martínez S., Gabarrón M., Shahrokh V., Faz A., Acosta J. A. Provenance and environmental risk of windblown materials from mine tailing ponds, Murcia, Spain // Environmental Pollution. 2018. Vol. 241. Pp. 432—440. DOI: 0.1016/j.envpol.2018.05.084. 3. Xiaoliang Zhao. Et al. A research on dust suppression mechanism and application technology in mining and loading process of burnt rock open pit coal mines// Journal of the Air & Waste Management Association https://doi.org/10.1080/10962247.2021.1979123 4. Sulong Zhu. et al. Evaluation of steel metallurgical dust management: combining treatment methods and resource attributes// Process Safety and Environmental Protection 191 (2024) 1648–1658",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "подавление пыли",
+          "name_en": "dust suppression",
+          "canonical": "dust_suppression"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сталеплавильная пыль",
+          "name_en": "steel metallurgical dust",
+          "canonical": "steel_metallurgical_dust"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилища шахт",
+          "name_en": "mine tailing ponds",
+          "canonical": "mine_tailing_ponds"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "карьерные угольные шахты с горящими породами",
+          "name_en": "burned rock open pit coal mines",
+          "canonical": "burned_rock_open_pit_coal_mines"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "proving the methods of fixing dusty surfaces"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "A research on dust suppression mechanism and application technology in mining and loading process of burnt rock open pit coal mines"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Evaluation of steel metallurgical dust management"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "foreign",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p14::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p14::c0",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "5. Nemenko B.A., Iliyasova A.D., Arynova G.A. Assessment of the hazard level of fine dust particles // Bulletin of KazNMU. - 2014. - No. 3 (1) - P. 113-115. 6. Makarov D. V., Masloboev V. A., Koshkina L. B., Sulimenko L. P., Svetlov A. V., Mingaleva T. A., Denisova Yu. L., Krasavtseva E. A. Research to justify reducing the environmental hazard of mining waste: main results and prospects of the scientific direction 7. Mayorova L. P., Cherentsova A. A., Krupskaya L. T., Golubev D. A., Kolobanov K. A. Assessment of technogenic pollution of the air basin during dusting of tailings dumps // Mining Information and Analytical Bulletin. - 2021. - No. 1 - p. 5-20. 8. Kaplunov D. R., Yukov V. A. On the principles of transition of a mining enterprise to sustainable environmentally balanced development // Mining Information and Analytical Bulletin. - 2020. - No. 3 - p. 74-86. 9. Obukhov Yu.D., Tseshkovskaya E.A., Baizbaev M.B., Tsoi N.K. Current state of the issue of dust control of tailings storage facilities and formulation of research objectives / X International Scientific and Practical Conference \"Modern Trends and Innovations in Science and Production\". - 2021. - P.152-1-152-8. 10.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "тонкодисперсные частицы пыли",
+          "name_en": "fine dust particles",
+          "canonical": "dust_particles"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "отходы горнодобывающей промышленности",
+          "name_en": "mining waste",
+          "canonical": "mining_waste"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "хвостохранилища",
+          "name_en": "tailings dumps",
+          "canonical": "tailings_dumps"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "хранилища хвостов",
+          "name_en": "tailings storage facilities",
+          "canonical": "tailings_storage_facilities"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p14::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p14::c1",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "ectives / X International Scientific and Practical Conference \"Modern Trends and Innovations in Science and Production\". - 2021. - P.152-1-152-8. 10. Makarov D.V., Konina O.T., A.A. Goryachev. Methods for reducing dust formation in mining waste dumps // MINING ECOLOGY AND SUBSOIL MANAGEMENT. - 2021. - P.160- 170. 11. Masloboev V. A., Svetlov A. V., Konina O. T., Mitrofanov G. V., Turtanov A. V., Makarov D. V. Selection of binding reagents to prevent dust formation at tailings dumps for processing apatite-nepheline ores // FTPRPI. - 2018. - No. 2. - P. 161 - 171. 12. Kalugin A. I., Konina O. T., Gusar I. V. Environmental activities of JSC Apatit: results and prospects // Gor. zhurn. — 2014. — No. 10. — P. 88 – 92. 13. Masloboev V. A., Svetlov A. V., Konina O. T., Mitrofanova G. V., Turtanov A. V., Makarov D. V. Selection of binding reagents to prevent dust formation at tailings dumps for processing apatite-nepheline ores // FTPRPI. — 2018. — No. 2. — P. 161 – 171. 14. Methodology for calculating harmful emissions (discharges) for a complex of open-pit mining equipment (based on specific indicators), Mining Institute named after A.A. Skochinsky, Lyubertsy, 1999. 15.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "Методы снижения пылеобразования",
+          "name_en": "Methods for reducing dust formation",
+          "canonical": "dust_formation_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "связующие реагенты",
+          "name_en": "binding reagents",
+          "canonical": "binding_reagents"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "апатито-нефелиновые руды",
+          "name_en": "apatite-nepheline ores",
+          "canonical": "apatite_nepheline_ores"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "оборудование для открытой добычи",
+          "name_en": "open-pit mining equipment",
+          "canonical": "open_pit_mining_equipment"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Methods for reducing dust formation in mining waste dumps"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Selection of binding reagents to prevent dust formation at tailings dumps for processing apatite-nepheline ores"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p14::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p14::c2",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 14,
+      "lang": "en",
+      "text": "harges) for a complex of open-pit mining equipment (based on specific indicators), Mining Institute named after A.A. Skochinsky, Lyubertsy, 1999. 15. Order of the Ministry of Natural Resources of the Russian Federation on approval of methods for calculating the dispersion of emissions of harmful (polluting) substances in the atmospheric air No. 273 of June 6, 2017. 16. ITS 16-2023 Information and technical reference book on the best available technologies. Mining industry. General processes and methods. - Moscow, 2023 СВЕДЕНИЯ ОБ АВТОРАХ Стрельникова Виктория Равильевна — научный сотрудник ООО «Институт Гипроникель», Санкт-Петербург, 195220, Россия e-mail: StrelnikovaV@nornik.ru Баженова Александра Владимировна — старший научный сотрудник ООО «Институт Гипроникель», канд.тех.наук, Санкт-Петербург, 195220, Россия e-mail: BazhenovaAV@nornik.ru Мацура Виктор Александрович — канд.хим.наук, ООО «Композит-Трейд», Санкт-Петербург, 193079, Россия e-mail: Matsura@yandex.ru Украинцев Борис Валерьевич — аспирант, ООО «Композит-Трейд», Санкт-Петербург, 193079, Россия e-mail: Boris_ukr@mail.ru Для контактов: Стрельникова Виктория Равильевна, e-mail: StrelnikovaV@nornik.ru Конфликт интересов",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Facility",
+          "name_ru": "Горный институт имени А.А. Скочинского",
+          "name_en": "Mining Institute named after A.A. Skochinsky",
+          "canonical": "Mining_Institute_named_after_A.A._Skochinsky"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "оборудование для открытой разработки месторождений",
+          "name_en": "open-pit mining equipment",
+          "canonical": "open_pit_mining_equipment"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Министерство природных ресурсов Российской Федерации",
+          "name_en": "Ministry of Natural Resources of the Russian Federation",
+          "canonical": "Ministry_of_Natural_Resources_of_the_Russian_Federation"
+        },
+        {
+          "id": "e4",
+          "type": "Expert",
+          "name_ru": "Стрельникова Виктория Равильевна",
+          "name_en": "Strelnikova Victoria Ravilievna",
+          "canonical": "Strelnikova_Victoria_Ravilievna"
+        },
+        {
+          "id": "e5",
+          "type": "Expert",
+          "name_ru": "Баженова Александра Владимировна",
+          "name_en": "Bazhenova Alexandra Vladimirovna",
+          "canonical": "Bazhenova_Alexandra_Vladimirovna"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Мацура Виктор Александрович",
+          "name_en": "Matsura Victor Alexandrovich",
+          "canonical": "Matsura_Victor_Aleksandrovich"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Украинцев Борис Валерьевич",
+          "name_en": "Ukraintsev Boris Valeryevich",
+          "canonical": "Ukraintsev_Boris_Valeryevich"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e8",
+          "type": "expert_in",
+          "evidence": "Strelnikova Victoria Ravilievna — научный сотрудник ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e8",
+          "type": "expert_in",
+          "evidence": "Bazhenova Alexandra Vladimirovna — старший научный сотрудник ООО «Институт Гипроникель»"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e9",
+          "type": "expert_in",
+          "evidence": "Мацура Виктор Александрович — канд.хим.наук, ООО «Композит-Трейд»"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e9",
+          "type": "expert_in",
+          "evidence": "Украинцев Борис Валерьевич — аспирант, ООО «Композит-Трейд»"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__13 Приложение. Статья::p14::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__13 Приложение. Статья::p14::c3",
+      "doc_id": "Статьи__13 Приложение. Статья",
+      "source": "data/raw/Статьи/13 Приложение. Статья.pdf",
+      "page": 14,
+      "lang": "ru",
+      "text": "Петербург, 193079, Россия e-mail: Boris_ukr@mail.ru Для контактов: Стрельникова Виктория Равильевна, e-mail: StrelnikovaV@nornik.ru Конфликт интересов Авторы заявляют об отсутствии конфликта интересов.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2025
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Expert",
+          "name_ru": "Стрельникова Виктория Равильевна",
+          "name_en": "Strelnikova Victoria R.",
+          "canonical": "Strelnikova Victoria R."
+        },
+        {
+          "id": "e2",
+          "type": "Expert",
+          "name_ru": "Boris_ukr@mail.ru",
+          "name_en": "Boris_ukr@mail.ru",
+          "canonical": "Boris_ukr@mail.ru"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2023,
+        "confidence": "high"
+      }
+    }
+  }
+}

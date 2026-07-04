@@ -1,0 +1,3998 @@
+{
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c0",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "UDC 669.053.2 INVESTIGATION OF THE EFFECT OF THE TEMPERATURE REGIME OF THE SLAG DEPLETION PROCESS ON THE COALESCENCE OF METAL PHASE PARTICLES D.M. Bogatyrev1, Researcher at the Pyrometallurgy Laboratory, e-mail: BogatyrevDM@nornik.ru O.S. Novozhilova1, Engineer at the Pyrometallurgy Laboratory, e-mail: NovozhilovaOS@nornik.ru L.B. Tsymbulov1, Director of the Research and Development Department, Сorrespondent Member of the Russian Academy of Natural Sciences, Doctor of Technical Sciences, Professor, e-mail: TsymbulovLB@nornik.ru S.S. Ozerov1, Lead Researcher at the Pyrometallurgy Laboratory, Candidate of Technical Sciences, e-mail: OzerovSS@nornik.ru 1 Gipronikel Institute LLC, Saint Petersburg, Russia. Abstract To date, work is actively underway to develop new methods of pyrometallurgical depletion of copper and copper-nickel slag production. In particular, these technologies include melting in a two-zone Vanyukov furnace, as well as a complex of continuous conversion of copper matte. These technologies involve depletion under reducing conditions, which results in the production of a metal alloy as a bottom product.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пирометаллургическое обеднение",
+          "name_en": "pyrometallurgical depletion",
+          "canonical": "pyrometallurgical_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медный и медно-никелевый шлак",
+          "name_en": "copper and copper-nickel slag",
+          "canonical": "copper_slag"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "двухзонная печь Ванюкова",
+          "name_en": "two-zone Vanyukov furnace",
+          "canonical": "vanyukov_furnace"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "комплекс непрерывной конверсии медного штейна",
+          "name_en": "complex of continuous conversion of copper matte",
+          "canonical": "continuous_conversion_copper_matte"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "металлический сплав",
+          "name_en": "metal alloy",
+          "canonical": "metal_alloy"
+        },
+        {
+          "id": "e6",
+          "type": "Expert",
+          "name_ru": "Богатырёв Д.М.",
+          "name_en": "D.M. Bogatyrev",
+          "canonical": "bogatyrev_d_m"
+        },
+        {
+          "id": "e7",
+          "type": "Expert",
+          "name_ru": "Новожилова О.С.",
+          "name_en": "O.S. Novozhilova",
+          "canonical": "novozhilova_o_s"
+        },
+        {
+          "id": "e8",
+          "type": "Expert",
+          "name_ru": "Цымбулов Л.Б.",
+          "name_en": "L.B. Tsymbulov",
+          "canonical": "tsymbulov_l_b"
+        },
+        {
+          "id": "e9",
+          "type": "Expert",
+          "name_ru": "Озеров С.С.",
+          "name_en": "S.S. Ozerov",
+          "canonical": "ozerov_s_s"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "melting in a two-zone Vanyukov furnace"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "depletion under reducing conditions"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Researcher at the Pyrometallurgy Laboratory"
+        },
+        {
+          "source_id": "e7",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Engineer at the Pyrometallurgy Laboratory"
+        },
+        {
+          "source_id": "e9",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "Lead Researcher at the Pyrometallurgy Laboratory"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c1",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "f copper matte. These technologies involve depletion under reducing conditions, which results in the production of a metal alloy as a bottom product. In this regard, an urgent task is to determine the aggregate state of the resulting alloy, as well as its effect on the loss of metals with slags. In addition, an urgent task is to determine the optimal temperature conditions for conducting reduction smelting of slags, ensuring minimal losses of metals with dump slags. The research methodology consisted in conducting reduction melting in bubbling conditions of an iron silicate melt, with copper and nickel oxides dissolved in it, at various temperatures. The liquidus temperature of the obtained alloys has a high convergence with the data presented in previously published papers. The size and chemical composition of inclusions of metallic phases, as well as the chemical composition of the silicate component of slags, were studied using scanning electron microscopy and X-ray spectral microanalysis (SEM-RSMA), which made it possible to calculate the distribution of loss forms of non-ferrous metals with slag.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "восстановительная плавка",
+          "name_en": "reduction smelting",
+          "canonical": "reduction_smelting"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "расплав силиката железа",
+          "name_en": "iron silicate melt",
+          "canonical": "iron_silicate_melt"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "оксид меди",
+          "name_en": "copper oxide",
+          "canonical": "copper_oxide"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "оксид никеля",
+          "name_en": "nickel oxide",
+          "canonical": "nickel_oxide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e7",
+          "type": "Equipment",
+          "name_ru": "сканирующая электронная микроскопия и рентгеноспектральный микроанализ",
+          "name_en": "scanning electron microscopy and X-ray spectral microanalysis",
+          "canonical": "SEM-RSMA"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "depletion under reducing conditions"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "conducting reduction melting in bubbling conditions of an iron silicate melt"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "with copper and nickel oxides dissolved in it"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "with copper and nickel oxides dissolved in it"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "results in the production of a metal alloy"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e7",
+          "type": "described_in",
+          "evidence": "studied using scanning electron microscopy and X-ray spectral microanalysis (SEM-RSMA)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c2",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "en",
+      "text": "copy and X-ray spectral microanalysis (SEM-RSMA), which made it possible to calculate the distribution of loss forms of non-ferrous metals with slag. Based on measurements of the size of the crowns, a histogram of the distribution of metal inclusions by size in the region of the studied temperatures is constructed. The value of the equivalent size of the kings at different temperatures has been established. The tendency of increasing the size of the metal suspension in the melt volume with increasing process temperature has been revealed. Using the Stokes formula, the deposition rate of a kinglet of equivalent size at different temperatures is calculated. Based on the conducted research, recommendations are given on the optimal temperature parameters for conducting restorative pyrometallurgical processes. Key words Precious metals, reduction processes, coalescence, copper, nickel, slag depletion, Vanyukov furnace, loss forms, slagУДК 669.053.2 Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы Богатырев Дмитрий Михайлович1, научный сотрудник лаборатории пирометаллургии, эл.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процессы восстановления",
+          "name_en": "reduction processes",
+          "canonical": "reduction_processes"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "коалесценция",
+          "name_en": "coalescence",
+          "canonical": "coalescence"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e6",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanyukov furnace",
+          "canonical": "Vanyukov_furnace"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "благородные металлы",
+          "name_en": "precious metals",
+          "canonical": "precious_metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "en",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c3",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "процесса обеднения шлака на коалесценцию частиц металлической фазы Богатырев Дмитрий Михайлович1, научный сотрудник лаборатории пирометаллургии, эл. почта: BogatyrevDM@nornik.ru Новожилова Ольга Сергеевна1, инженер 2-ой категории лаборатории пирометаллургии, эл. почта: NovozhilovaOS@nornik.ru Цымбулов Леонид Борисович1, директор департамента по исследованиям и разработкам, член-корреспондент РАЕН, докт. техн. наук, профессор эл. почта: TsymbulovLB@nornik.ru Озеров Сергей Сергеевич1, ведущий научный сотрудник лаборатории пирометаллургии, канд. техн. наук, эл. почта: OzerovSS@nornik.ru 1 ООО «Институт Гипроникель», Санкт-Петербург, Россия Аннотация На сегодняшний день активно ведутся работы по освоению новых способов пирометаллургического обеднения шлаков медного и медно-никелевого производства. В частности, к данным технологиям относятся плавка в двухзонной печи Ванюкова, а также комплекс непрерывного конвертирования медных штейнов. Данные технологии предполагают проведение обеднения в восстановительных условиях, следствием чего является получение в качестве донного продукта металлического сплава.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "пирометаллургическое обеднение шлака",
+          "name_en": "pyrometallurgical depletion of slag",
+          "canonical": "pyrometallurgical_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanyukov furnace",
+          "canonical": "vanyukov_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "комплекс непрерывного конвертирования",
+          "name_en": "complex of continuous converting",
+          "canonical": "continuous_converting"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "медный шлак",
+          "name_en": "copper slag",
+          "canonical": "copper_slag"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медно-никелевый шлак",
+          "name_en": "copper-nickel slag",
+          "canonical": "copper_nickel_slag"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "металлический сплав",
+          "name_en": "metallic alloy",
+          "canonical": "metallic_alloy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Данные технологии предполагают проведение обеднения в восстановительных условиях"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "Данные технологии предполагают проведение обеднения в восстановительных условиях"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "В частности, к данным технологиям относятся плавка в двухзонной печи Ванюкова"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "а также комплекс непрерывного конвертирования медных штейнов"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "получению в качестве донного продукта металлического сплава"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c4": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c4",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "предполагают проведение обеднения в восстановительных условиях, следствием чего является получение в качестве донного продукта металлического сплава. В связи с этим, актуальной задачей является определение агрегатного состояния образующегося сплава, а также его влияние на потери металлов со шлаками. Кроме того, актуальной задачей является определение оптимальных температурных условий для ведения восстановительной плавки шлаков, обеспечивающих минимальные потери металлов с отвальными шлаками. Методика проведения исследований заключалась в проведении восстановительной плавки в барботажных условиях железосиликатного расплава, с растворенными в нем оксидами меди и никеля, при различных температурах. Температура ликвидус полученных сплавов имеет высокую сходимость с данными, представленными в опубликованных ранее работах. Методами растровой электронной микроскопии и рентгеноспектрального микроанализа (РЭМ-РСМА) исследованы размеры и химический состав включений металлической фаз, а также химический состав силикатной составляющей шлаков, что позволило вычислить распределение форм потерь цветных металлов со шлаком.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "восстановительное обеднение шлака",
+          "name_en": "reductive slag depletion",
+          "canonical": "reductive_slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железосиликатный расплав",
+          "name_en": "iron silicate melt",
+          "canonical": "iron_silicate_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "оксид меди",
+          "name_en": "copper oxide",
+          "canonical": "copper_oxide"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "оксид никеля",
+          "name_en": "nickel oxide",
+          "canonical": "nickel_oxide"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "барботажные условия",
+          "name_en": "barbotage conditions",
+          "canonical": "barbotage_conditions"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "потери цветных металлов",
+          "name_en": "losses of non-ferrous metals",
+          "canonical": "losses_of_non_ferrous_metals"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "химический состав",
+          "name_en": "chemical composition",
+          "canonical": "chemical_composition"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "размеры включений",
+          "name_en": "size of inclusions",
+          "canonical": "size_of_inclusions"
+        },
+        {
+          "id": "e10",
+          "type": "Equipment",
+          "name_ru": "растровая электронная микроскопия",
+          "name_en": "scanning electron microscopy",
+          "canonical": "scanning_electron_microscopy"
+        },
+        {
+          "id": "e11",
+          "type": "Equipment",
+          "name_ru": "рентгеноспектральный микроанализ",
+          "name_en": "x-ray spectral microanalysis",
+          "canonical": "x_ray_spectral_microanalysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "проведение восстановительной плавки в барботажных условиях железосиликатного расплава"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "с растворёнными в нём оксидами меди и никеля"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "с растворёнными в нём оксидами меди и никеля"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "определение оптимальных температурных условий для ведения восстановительной плавки шлаков"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "operates_at_condition",
+          "evidence": "проведения восстановительной плавки в барботажных условиях"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "что позволило вычислить распределение форм потерь цветных металлов со шлаком"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "produces_output",
+          "evidence": "исследованы размеры и химический состав включений металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e9",
+          "type": "produces_output",
+          "evidence": "исследованы размеры и химический состав включений металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "методами растровой электронной микроскопии и рентгеноспектрального микроанализа"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "методами растровой электронной микроскопии и рентгеноспектрального микроанализа"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c5": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c5",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "лической фаз, а также химический состав силикатной составляющей шлаков, что позволило вычислить распределение форм потерь цветных металлов со шлаком. На основании измерений крупности корольков построена гистограмма распределения металлических включений по крупности в области исследуемых температур. Установлено значение эквивалентной крупности корольков при различных температурах. Выявлена тенденция увеличения размера металлической взвеси в объеме расплава с ростом температуры процесса. При помощи формулы Стокса вычислена скорость осаждения королька эквивалентного размера при различных температурах. На основании проведенных исследований даны рекомендации по оптимальным температурным параметрам ведения восстановительных пирометаллургических процессов. Ключевые слова Благородные металлы, восстановительные процессы, коалесценция, медь, никель, обеднение шлаков, печь Ванюкова, формы потерь, шлак Введение На сегодняшний день процесс обеднения шлаков окислительной плавки медно-никелевого концентрата на Надеждинском металлургической заводе ЗФ ПАО «ГМК «Норильский Никель» осуществляется в электропечах [1-2].",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "depletion_of_slag"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "силикатная составляющая",
+          "name_en": "silicate composition",
+          "canonical": "silicate_composition"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлические включения",
+          "name_en": "metallic inclusions",
+          "canonical": "metallic_inclusions"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanyukov furnace",
+          "canonical": "vanyukov_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "процесс обеднения шлаков окислительной плавки медно-никелевого концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "химический состав силикатной составляющей шлаков"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "На основании измерений крупности корольков построена гистограмма распределения металлических включений по крупности"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "На Надеждинском металлургической заводе ЗФ ПАО «ГМК «Норильский Никель» осуществляется в электропечах"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c6": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c6",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ьной плавки медно-никелевого концентрата на Надеждинском металлургической заводе ЗФ ПАО «ГМК «Норильский Никель» осуществляется в электропечах [1-2]. Данная технология характеризуется периодическим режимом работы, низкой удельной производительностью и значительными затратами электроэнергии. Из практики работы данных печей известно [3] о возможности расслаивания донной фазы на штейновую (сульфидную) и металлизированную фазы при высоком расходе восстановителя. При этом металлизированная фаза формирует подовую настыль, которая снижает полезный объем печного агрегата. В то же время, разрабатываются новые пирометаллургические способы обеднения шлаков медного и медно-никелевого производства. Например, известно [4-5] о технологии переработки сульфидного медно-никелевого сырья в двухзонной печи Ванюкова. Конструктивно данная печь состоит из окислительной зоны, восстановительной зоны, а также совмещенного сифона, предназначенного для выпуска как штейна, так и шлака [4]. При этом процесс обеднения шлака окислительной зоны ведут в условиях подачи газовой смеси, образующейся в результате сжигания природного газа в условиях дефицита кислорода, а также твердого восстановителя – угля.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "электропечь",
+          "name_en": "electric furnace",
+          "canonical": "flash_smelting_furnace"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "пирометаллургическая переработка",
+          "name_en": "pyrometallurgical treatment",
+          "canonical": "pyrometallurgical_processing"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper-nickel_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanyukov furnace",
+          "canonical": "Vanyukov_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "сульфидное медно-никелевое сырьё",
+          "name_en": "sulphide copper-nickel raw material",
+          "canonical": "sulphide_copper-nickel_ore"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "плавки медно-никелевого концентрата в электропечах"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "печь Ванюкова состоит из зон и сифона"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c7": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c7",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "овиях подачи газовой смеси, образующейся в результате сжигания природного газа в условиях дефицита кислорода, а также твердого восстановителя – угля. Закономерно, в данных условиях проведения процесса образуется металлический сплав. Также образование металлического сплава характерно для комплекса непрерывного конвертирования медных штейнов [6-7]. При этом непрерывное конвертирование гранулированного медного штейна с получением черновой меди, медно-никелевого сплава и отвального шлака ведут в две стадии, каждую из которых осуществляют в отдельной печи (конвертерная печь Ванюкова и обеднительная печь Ванюкова). В конвертерной печи получают черновую медь и шлак, богатый оксидами меди, никеля и железа, который по жёлобу поступает во вторую печь Ванюкова (печь обеднения). Во второй печи происходит обеднение шлака до отвальных кондиций с получением медно-никелевого сплава и отвального шлака. Поскольку в обоих случаях [4-7] обеднение шлака ведется на металлический сплав, весьма важным является вопрос агрегатного состояния образующегося сплава, а также его влияния на потери металлов со шлаками.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "черновая медь",
+          "name_en": "copper blister",
+          "canonical": "copper_blister"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медно-никелевый сплав",
+          "name_en": "copper-nickel alloy",
+          "canonical": "copper_nickel_alloy"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "конвертерная печь Ванюкова",
+          "name_en": "Vanukov converter furnace",
+          "canonical": "vanukov_converter_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "обеднительная печь Ванюкова",
+          "name_en": "Vanukov depletion furnace",
+          "canonical": "vanukov_depletion_furnace"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "В конвертерной печи получают черновую медь и шлак"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "В конвертерной печи получают ... шлак, богатый оксидами меди, никеля и железа, который поступает во вторую печь Ванюкова"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Во второй печи происходит обеднение шлака до отвальных кондиций с получением медно-никелевого сплава и отвального шлака"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Во второй печи происходит обеднение шлака до отвальных кондиций с получением медно-никелевого сплава"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "Во второй печи происходит обеднение шлака до отвальных кондиций с получением ... отвального шлака"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c8": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c8",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "на металлический сплав, весьма важным является вопрос агрегатного состояния образующегося сплава, а также его влияния на потери металлов со шлаками. Из литературных данных известно [8], что механические потери металлов играют превалирующую роль в общем балансе потерь со шлаками как цветных (за исключением Co), так и благородных металлов. Механические потери имеют место при неполном разделении фаз и возникают вследствие запутывания в шлаке мельчайших капель штейна или металла [9]. В свою очередь, как отмечается в ранее опубликованных работах [10-11] переработка сырья в электропечах влечет за собой повышенные механические потери как цветных, так и благородных металлов, поскольку при данной операции отсутствуют условия для образования крупнодисперсных капель штейновой фазы в шлаковом расплаве. Альтернативой электропечной технологии обеднения может являться использование в качестве агрегата для обеднения шлака окислительной плавки медно-никелевого концентрата печи Ванюкова, работающей в восстановительном режиме [12].",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "механические потери",
+          "name_en": "mechanical losses",
+          "canonical": "mechanical_losses"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "переработка в электропечах",
+          "name_en": "electrofurnace processing",
+          "canonical": "electrofurnace_processing"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanyukov furnace",
+          "canonical": "vanyukov_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "переработка сырья в электропечах влечет за собой повышенные механические потери"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Альтернативой электропечной технологии обеднения может являться использование печи Ванюкова"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "использование печи Ванюкова для обеднения шлака при окислительной плавке медно-никелевого концентрата"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c9": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c9",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "в качестве агрегата для обеднения шлака окислительной плавки медно-никелевого концентрата печи Ванюкова, работающей в восстановительном режиме [12]. Данная печь характеризуется высокой интенсивностью протекания процессов, следствием чего являются малые габариты по сравнению с электропечами, что, в свою очередь, определяет снижение капитальных затрат при реализации данной технологии. В связи с этим, целью при выполнении данной работы являлось определение влияния агрегатного состояния металлического сплава, образующегося при протекании восстановительных процессов, на величину механических потерь металла со шлаками. Как следствие, сопутствующей практической задачей явилось исследование влияния температуры на формирование и коалесценцию частиц металлического сплава, основу которого составляет Cu, Ni и Fe, для оптимизации температурного режима обеднительной плавки шлака медно-никелевого производства в условиях продувки восстановительной газовой смесью и получения в качестве донной фазы металлического сплава.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanюkov furnace",
+          "canonical": "vanюkov_furnace"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "механические потери",
+          "name_en": "mechanical losses",
+          "canonical": "mechanical_losses"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сплав Cu-Ni-Fe",
+          "name_en": "Cu-Ni-Fe alloy",
+          "canonical": "copper_nickel_iron_alloy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "агрегата для обеднения шлака окислительной плавки медно-никелевого концентрата печи Ванюкова"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "определение влияния агрегатного состояния металлического сплава, образующегося при протекании восстановительных процессов, на величину механических потерь металла со шлаками"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "исследование влияния температуры на формирование и коалесценцию частиц металлического сплава, основу которого составляет Cu, Ni и Fe"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c10": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c10",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ки шлака медно-никелевого производства в условиях продувки восстановительной газовой смесью и получения в качестве донной фазы металлического сплава. Методика проведения исследований На стадии окислительной плавки медно-никелевого концентрата на предприятиях ЗФ ПАО «ГМК «Норильский Никель» при ведении процесса используются флюсующие добавки, основу которых составляет диоксид кремния – SiO2 [1, 13-14]. Кремнийсодержащие флюсы позволяют, с одной стороны, связать образующийся при окислении концентрата оксид железа, с другой стороны, поддерживать температуру шлака на уровне 1250-1300 °С, что на 100-150 °С выше температуры плавления штейна. Согласно двухкомпонентной диаграмме FeO-SiO2, представленной на рисунке 1, наиболее низкотемпературная область находится в зоне существования соединения фаялита – 2FeО·SiO2 [15]. Рисунок 1 – Диаграмма системы FeO-SiO2 [15] Известно [12;16], что соотношение Cu/Ni в исходном шлаке оказывает влияние на температуру плавления получаемого сплава, которая увеличивается по мере снижения данного соотношения. В частности, в работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению, составляет ⁓ 1.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "диоксид кремния",
+          "name_en": "silicon dioxide",
+          "canonical": "silicon_dioxide"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "флюсующая добавка",
+          "name_en": "flux additive",
+          "canonical": "flux_additive"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "фаялит",
+          "name_en": "faheyte",
+          "canonical": "faheyte"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "при ведении процесса используются флюсующие добавки, основу которых составляет диоксид кремния – SiO2"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Кремнийсодержащие флюсы позволяют, с одной стороны, связать образующийся при окислении концентрата оксид железа"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "в работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению, составляет ⁓ 1"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1250.0,
+          "value_max": 1300.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "Cu/Ni_ratio",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c11": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c11",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "рая увеличивается по мере снижения данного соотношения. В частности, в работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению, составляет ⁓ 1. Кроме того, вследствие относительно низких концентраций цветных металлов в исходном шлаке, получаемый сплав будет характеризоваться значительным содержанием Fe (на уровне 25-30% масс.), что, согласно трехфазовой диаграммы Cu-Ni-Fe (рисунок 2), также будет влиять на температуру плавления получаемого сплава в сторону ее увеличения. Рисунок 2 – Поверхность ликвидус диаграммы состояния Cu-Ni-Fe [17] Исследования проводились в высокотемпературной установке типа Таммана. Высокотемпературная установка состоит из печи, нагревателем в которой служит графитовая труба, и силового трансформатора. Схема печи представлена на рисунке 3.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "сплав Cu-Ni-Fe",
+          "name_en": "Cu-Ni-Fe alloy",
+          "canonical": "Cu-Ni-Fe_alloy"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "установка типа Таммана",
+          "name_en": "Tammann furnace",
+          "canonical": "Tammann_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Equipment",
+          "name_ru": "графитовая труба",
+          "name_en": "graphite tube",
+          "canonical": "graphite_tube"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "Исследования проводились в высокотемпературной установке типа Таммана"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "В работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Получаемый сплав будет характеризоваться значительным содержанием Fe"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "Cu/Ni",
+          "op": "ge",
+          "value_min": 1.0,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "Fe",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 30.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c12": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c12",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ового трансформатора. Схема печи представлена на рисунке 3. Рисунок 3 – Схема печи высокотемпературной установки типа Таммана 1 – графитовая труба – нагреватель; 2 – медные водоохлаждаемые токоподводы; 3 – водоохлаждаемый кожух; 4 – электроизоляторы; 5 – тепловой экран; 6 – тигель; 7 – теплоизолятор; 8 – керамический (Al2O3) реактор; 9 – чехол с термопарой; 10 – нижний кожух, 11 – трубка подачи дутья Методика проведения исследований заключалась в следующем: в алундовый тигель (6) загружали 100 гр предварительно подготовленного фаялита Fe2SiO4, а также 5 гр оксида меди Cu2O и 15 гр оксида никеля NiO. Стоит отметить, что исходная масса навески оксидов и расход восстановительного газа были рассчитаны методом термодинамического моделирования в программном пакете FactSage [18] таким образом, чтобы после восстановления монооксидом углерода температура ликвидус получаемого сплава была выше температуры плавления фаялита, представляющего основу шлакового расплава, и составляла 1350-1400 оС. После проплавления материала через алундовую трубочку (11) начинали продувку расплава восстановительным газом – монооксидом углерода. Расход газа во всех опытах был одинаковым и равнялся 0,4 л/мин.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс высокотемпературного восстановления",
+          "name_en": "high temperature reduction process",
+          "canonical": "high_temperature_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "монооксид углерода",
+          "name_en": "carbon monoxide",
+          "canonical": "carbon_monoxide"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "алундовый тигель",
+          "name_en": "alundum crucible",
+          "canonical": "alundum_crucible"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "фаялит Fe2SiO4",
+          "name_en": "fa yalite Fe2SiO4",
+          "canonical": "fa yalite"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "оксид меди Cu2O",
+          "name_en": "copper oxide Cu2O",
+          "canonical": "copper_oxide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "оксид никеля NiO",
+          "name_en": "nickel oxide NiO",
+          "canonical": "nickel_oxide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "продувка расплава восстановительным газом – монооксидом углерода"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "в алундовый тигель загружали 100 гр предварительно подготовленного фаялита Fe2SiO4, а также 5 гр оксида меди Cu2O и 15 гр оксида никеля NiO"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "в алундовый тигель загружали 100 гр предварительно подготовленного фаялита Fe2SiO4"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "5 гр оксида меди Cu2O"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "15 гр оксида никеля NiO"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1350.0,
+          "value_max": 1400.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "flow_rate",
+          "op": "eq",
+          "value_min": 0.4,
+          "value_max": 0.4,
+          "unit": "l/min",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c13": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c13",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "бочку (11) начинали продувку расплава восстановительным газом – монооксидом углерода. Расход газа во всех опытах был одинаковым и равнялся 0,4 л/мин. По достижении 10 минут ведения процесса, не прекращая продувку расплава газом, осуществлялся отбор пробы расплава путем опускания в расплав стального стержня, тем самым производя закалку пробы. После отбора пробы расплава «на ломок», продувку прекращали и осуществляли выдержку расплава в течении 10 минут. По окончании опыта печь отключали. Затем тигель с расплавом вынимали из печи, охлаждали, взвешивали общую массу, отделяли шлак от сплава, взвешивали массу сплава, а массу шлака определяли по разности. Всего было поставлено 5 опытов, в которых варьировали температуру ведения процесса от 1300 до 1500 оС. Отобранные пробы расплава анализировались методами РЭМ-РСМА с целью определения химического состава железосиликатной основы шлака и механической взвеси, а также определения объемной доли и крупности металлических корольков.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "монооксид углерода",
+          "name_en": "carbon monoxide",
+          "canonical": "reduction_gas"
+        },
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "стальной стержень",
+          "name_en": "steel rod",
+          "canonical": "steel_rod"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "печь",
+          "name_en": "furnace",
+          "canonical": "tilt_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "анализ пробы",
+          "name_en": "sample analysis",
+          "canonical": "sample_analysis"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "продувку расплава восстановительным газом – монооксидом углерода"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "отбор пробы расплава путем опускания в расплав стального стержня"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "тигель с расплавом вынимали из печи"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "validated_by",
+          "evidence": "Отобранные пробы расплава анализировались методами РЭМ-РСМА"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "flow_rate",
+          "op": "eq",
+          "value_min": 0.4,
+          "value_max": 0.4,
+          "unit": "l/min",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c14": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c14",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ления химического состава железосиликатной основы шлака и механической взвеси, а также определения объемной доли и крупности металлических корольков. Результаты и их обсуждение Как отмечалось ранее, первоначально с целью установления величины выхода сплава, а также состава получаемых продуктов плавки с помощью программного продукта FactSage был проведен термодинамический анализ процесса восстановление оксидов меди и никеля из железосиликатного расплава монооксидом углерода. Расчеты в программном пакете FactSage позволяют оценить выход продуктов плавки, а также расход восстановительного газа, требуемого для поддержания необходимой степени обеднения расплава. Отдельно стоит отметить, что термодинамические расчеты не учитывают потери цветных металлов с механической взвесью. Анализ выполнен в исследуемом температурном диапазоне – от 1300 до 1500 оС. Результаты расчетов показывают, что с ростом температуры выход сплава снижается, что закономерно ведет к увеличению концентрации цветных металлов в шлаке. Полученные результаты термодинамического моделирования, проиллюстрированные в таблице 1, будут использованы в работе далее при анализе экспериментальных данных.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "восстановление оксидов меди и никеля",
+          "name_en": "reduction of copper and nickel oxides",
+          "canonical": "copper_nickel_oxide_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железосиликатный расплав",
+          "name_en": "iron silicate melt",
+          "canonical": "iron_silicate_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "монооксид углерода",
+          "name_en": "carbon monoxide",
+          "canonical": "carbon_monoxide"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "described_in",
+          "evidence": "с помощью программного продукта FactSage был проведен термодинамический анализ процесса восстановления оксидов меди и никеля из железосиликатного расплава монооксидом углерода"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "восстановление оксидов меди и никеля из железосиликатного расплава"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "восстановление оксидов меди и никеля ... монооксидом углерода"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c15": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c15",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "результаты термодинамического моделирования, проиллюстрированные в таблице 1, будут использованы в работе далее при анализе экспериментальных данных. Таблица 1 – Результаты термодинамических расчетов Перейдем к рассмотрению результатов поставленных экспериментов. Выход донной фазы, а также химический состав продуктов плавки представлены в таблице 2. В первую очередь было рассмотрено изменение концентраций цветных металлов в получаемых шлаках с ростом температуры процесса, а также проведено сравнение результатов химического анализа с данными термодинамического моделирования и сведениями о содержании металлов в железосиликатной основе шлака. В свою очередь, опираясь на данные о содержании цветных металлов в железосиликатной основе шлака, полученные при помощи метода РЭМ-РСМА, можно вычислить долю растворимых потерь металла, которые определяются как отношение массы металла в железосиликатной основе шлака к общей массе металла в шлаке. По результатам, отраженным на рисунке 4, видно, что повышение температуры приводит к снижению концентрации цветных металлов в шлаке.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag depletion process",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "цветные металлы",
+          "name_en": "colored metals",
+          "canonical": "colored_metals"
+        },
+        {
+          "id": "e4",
+          "type": "Experiment",
+          "name_ru": "химический анализ",
+          "name_en": "chemical analysis",
+          "canonical": "chemical_analysis"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "термодинамическое моделирование",
+          "name_en": "thermodynamic modeling",
+          "canonical": "thermodynamic_modeling"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "результаты термодинамического моделирования будут использованы при анализе экспериментальных данных"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "изменение концентраций цветных металлов в получаемых шлаках с ростом температуры процесса"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "изменение концентраций цветных металлов в получаемых шлаках"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c16": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c16",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "металла в шлаке. По результатам, отраженным на рисунке 4, видно, что повышение температуры приводит к снижению концентрации цветных металлов в шлаке. При этом отмечается, что в диапазоне температур 1450-1500 оС значения, полученные при анализе методами РЭМ-РСМА силикатной составляющей шлака, близки к данным химического анализа, что может указывать на то, что практически все потери цветных металлов представлены растворимыми потерями. Подробнее распределение потерь будет рассмотрено далее. Таблица 2 – Выход и химический состав продуктов плавки а б Рисунок 4 – Влияние температуры на содержание Cu (а) и Ni (б) в шлаке В таблице 3 представлены сведения о химическом составе силикатной составляющей шлака, а также металлических корольков. Из отраженных в таблице 3 данных стоит отметить наличие металлической фазы во всех исследуемых пробах, что указывает на протекание процессов восстановления оксидов металлов. Кроме того, наблюдается вариативность состава металлической взвеси. В условиях данного исследования, ключевым фактором, влияющим на температуру плавления сплава, является соотношение Cu/Ni.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "повышение температуры приводит к снижению концентрации цветных металлов в шлаке"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "влияние температуры на содержание Cu и Ni в шлаке"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "влияние температуры на содержание Cu и Ni в шлаке"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1450.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c17": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c17",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "става металлической взвеси. В условиях данного исследования, ключевым фактором, влияющим на температуру плавления сплава, является соотношение Cu/Ni. При снижении данного соотношения будет наблюдаться рост температуры плавления металлической фазы. Согласно данным, представленным в таблице 3, необходимо подчеркнуть, что температура ликвидус металлической взвеси при проведении экспериментов №1 и №2, то есть при температурах 1300 и 1350 оС, выше, нежели температура ведения процесса. В то же время, отмечается тенденция к увеличению температуры ликвидус металлической взвеси с ростом температуры ведения плавки, вследствие уменьшения соотношения Cu/Ni. При дальнейшем увеличении температуры плавки (1400 оС и выше), то есть при температурах выше температуры ликвидус сплава, наблюдается стабилизация состава механической взвеси, содержание основных элементов в которой приближается к составу получаемой донной фазы.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "соотношение Cu/Ni",
+          "name_en": "Cu/Ni ratio",
+          "canonical": "Cu_Ni_ratio"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлическая фаза",
+          "name_en": "metal phase",
+          "canonical": "metal_phase"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "В условиях данного исследования, ключевым фактором, влияющим на температуру плавления сплава, является соотношение Cu/Ni"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "При дальнейшем увеличении температуры плавки (1400 оС и выше), то есть при температурах выше температуры ликвидус сплава, наблюдается стабилизация состава механической взвеси, содержание основных элементов в которой приближается к составу получаемой донной фазы"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1400.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "Cu/Ni ratio",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c18": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c18",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "сплава, наблюдается стабилизация состава механической взвеси, содержание основных элементов в которой приближается к составу получаемой донной фазы. Таблица 3 – Состав силикатной составляющей и состав металлической фазы в исследуемых шлаках Сведения об объемной доле металлической взвеси, а также о составе силикатной составляющей шлака, полученные при анализе образцов методами РЭМ-РСМА, позволили провести расчеты распределения растворенных и механических потерь Cu и Ni. Отдельно стоит отметить, что локальность исследования образцов методами РЭМ-РСМА в большинстве случаев составляет от 1 до 5 мкм [19], в связи с этим металлическая взвесь размеров менее 1 мкм формально относится к растворимым потерям. В связи с этим, правильно будет говорить о минимальной доле механических потерь металлов со шлаками. Вычисленные значения распределения потерь представлены в таблице 4. Представленные в таблице 4 данные свидетельствуют о снижении механических потерь как Ni и Cu с ростом температуры и закономерном увеличении доли растворимых потерь.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "механические потери",
+          "name_en": "mechanical losses",
+          "canonical": "mechanical_losses"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "РЭМ-РСМА",
+          "name_en": "REM-RSMA",
+          "canonical": "REM_RSMA"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Снижение механических потерь Ni и Cu с ростом температуры"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "validated_by",
+          "evidence": "Сведения об объёмной доле металлической взвеси, а также о составе силикатной составляющей шлака, полученные при анализе образцов методами РЭМ-РСМА"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "local_analysis",
+          "op": "range",
+          "value_min": 1.0,
+          "value_max": 5.0,
+          "unit": "mkm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c19": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c19",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "в таблице 4 данные свидетельствуют о снижении механических потерь как Ni и Cu с ростом температуры и закономерном увеличении доли растворимых потерь. Стоит отметить, как отмечалось ранее, отбор пробы шлака осуществлялся без прекращения активного перемешивания расплава восстановительным газом, что, несомненно, сказывается на увеличении механических потерь. Таблица 4 – Распределение форм потерь цветных металлов со шлаками Далее рассмотрим зависимость массы получаемого сплава от температуры ведения процесса. Данная зависимость представлена на рисунке 5. Очевидно, что в условиях проведения данного исследования полнота восстановления оксидов металлов определяется термодинамическим равновесием реакции восстановления оксидов металлов окисью углерода: MeO+CO=Me+CO2 (1) где Me – медь, никель или железо.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "механические потери Ni и Cu",
+          "name_en": "mechanical losses of Ni and Cu",
+          "canonical": "mechanical_losses_Ni_Cu"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "растворимые потери",
+          "name_en": "soluble losses",
+          "canonical": "soluble_losses"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "снижение механических потерь как Ni и Cu с ростом температуры"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "закономерное увеличение доли растворимых потерь"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "процесс обеднения шлака"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mechanical_losses",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "soluble_losses",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c20": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c20",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "оксидов металлов окисью углерода: MeO+CO=Me+CO2 (1) где Me – медь, никель или железо. Кроме того, образующееся металлическое железо активно взаимодействует с растворенными в шлаке оксидами цветных металлов по следующим реакциям: NiO+Fe=Ni+FeO (2) Cu2O+Fe=2Cu+FeO (3) Поскольку в рассматриваемой серии экспериментов количество газа во всех экспериментах было одинаковым, можно утверждать, что восстановительный потенциал систем во всех случаях был равным, что подтверждается полученными сведениями о выходе донной фазы и продуктов плавки по результатам термодинамического моделирования. В связи с этим целесообразно предположить, что количество оксидов Cu и Ni, восстановленных до металла, в исследуемом диапазоне изменяется не сильно. В свою очередь, небольшое снижение выхода сплава с увеличением температуры, наблюдаемое при рассмотрении результатов термодинамического моделирования, объясняется смещением равновесия реакции восстановления в сторону образования оксидов металлов с повышением температуры. Однако, из представленной на рисунке 5 информации следует, что при температурном режиме ведения процесса ниже температуры ликвидус сплава, формирование донной фазы не наблюдается.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс восстановления",
+          "name_en": "reduction process",
+          "canonical": "reduction_process"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag treatment",
+          "canonical": "slag_treatment"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "MeO+CO=Me+CO2"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "NiO+Fe=Ni+FeO"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Cu2O+Fe=2Cu+FeO"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "процесс обеднения шлака"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c21": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c21",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "исунке 5 информации следует, что при температурном режиме ведения процесса ниже температуры ликвидус сплава, формирование донной фазы не наблюдается. При этом фактический выход сплава при температурах 1450 и 1500 оС приближается к значениям, полученным при термодинамическом расчете, однако не достигает их. Причина чего, очевидно, кроется в наличии металлической взвеси в объеме шлака, которая не учитывается при термодинамическом моделировании. Рисунок 5 – Влияние температуры на выход сплава Для установления причин отсутствия донной фазы при температурах ведения процесса 1300 и 1350 оС закаленные пробы шлаков были проанализированы методами РЭМ-РСМА. По результатам проведенного анализа установлено, что по объему закаленной силикатной основы всех исследуемых образцов шлаков равномерно распределены металлические включения вариантной крупности. Кроме того, результаты исследования отобранных проб свидетельствуют, что включения металлического сплава имеют форму как округлых, так и деформированных капель.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "выход сплава",
+          "name_en": "alloy output",
+          "canonical": "alloy_output"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлические включения",
+          "name_en": "metal inclusions",
+          "canonical": "metal_inclusions"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "при температурном режиме ведения процесса ниже температуры ликвидус сплава, формирование донной фазы не наблюдается"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "фактический выход сплава при температурах 1450 и 1500 °C приближается к значениям, полученным при термодинамическом расчете"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "наличие металлической взвеси в объеме шлака"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "actual_alloy_output",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "unknown",
+          "condition": "при температурах 1450 и 1500 °C"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c22": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c22",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "результаты исследования отобранных проб свидетельствуют, что включения металлического сплава имеют форму как округлых, так и деформированных капель. При этом визуально отмечается снижение деформированности металлических корольков с повышением температуры ведения процесса, в частности, металлическая фаза в объеме шлакового расплава, полученного при температуре 1400 оС и выше, характеризуется наличием сформированной шарообразной структуры, что коррелирует с агрегатным состоянием металлического сплава. Строение закаленных образцов шлака представлено на рисунке 6. Рисунок 6 – Строение расплава при 1300 оС (а), 1350 оС (б) 1400 оС (в), 1450 оС (г) и 1500 оС (д) Как отмечалось ранее, на основе результатов исследования проб методами РЭМ-РСМА были получены сведения о размерах металлической фазы, присутствующей в объеме шлакового расплава. На основании полученных сведений обнаруженная в объеме расплава металлическая взвесь была поделена на 5 размеров, мкм: -20, -50+20, -80+50, -150+80, +150. Для наглядности была построена гистограмма распределения включений металлического сплава в объеме шлакового расплава, которая представлена на рисунке 7.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлаковый расплав",
+          "name_en": "slag melt",
+          "canonical": "slag_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлические включения до 20 мкм",
+          "name_en": "metal inclusion up to 20 microns",
+          "canonical": "metal_inclusion_20"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлические включения 20-50 мкм",
+          "name_en": "metal inclusion 20-50 microns",
+          "canonical": "metal_inclusion_20_50"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "металлические включения 50-80 мкм",
+          "name_en": "metal inclusion 50-80 microns",
+          "canonical": "metal_inclusion_50_80"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "металлические включения 80-150 мкм",
+          "name_en": "metal inclusion 80-150 microns",
+          "canonical": "metal_inclusion_80_150"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "металлические включения более 150 мкм",
+          "name_en": "metal inclusion over 150 microns",
+          "canonical": "metal_inclusion_150"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "включения металлического сплава имеют форму как округлых, так и деформированных капель"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1400.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "size",
+          "op": "range",
+          "value_min": null,
+          "value_max": 20.0,
+          "unit": "micrometers",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "size",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 50.0,
+          "unit": "micrometers",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "size",
+          "op": "range",
+          "value_min": 50.0,
+          "value_max": 80.0,
+          "unit": "micrometers",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "size",
+          "op": "range",
+          "value_min": 80.0,
+          "value_max": 150.0,
+          "unit": "micrometers",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "size",
+          "op": "ge",
+          "value_min": 150.0,
+          "value_max": null,
+          "unit": "micrometers",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c23": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c23",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "наглядности была построена гистограмма распределения включений металлического сплава в объеме шлакового расплава, которая представлена на рисунке 7. Согласно данным, представленным на гистограмме, стоит отметить, то обстоятельство, что с увеличением температуры процесса имеет место увеличение доли фракции крупных корольков металлической фазы, представленной размером свыше 50 мкм. Кроме того, металлическая фаза, крупность которой свыше 150 мкм диагностируется только при температуре 1500 оС. Наряду с вышесказанным, при температуре процесса 1450 и 1500 оС механической взвеси в объеме расплава размером менее 20 мкм не диагностируется. Вполне закономерно при минимальной температуре процесса превалирующей крупностью является -20 мкм. Также стоит отметить, что при температурах 1300 и 1350 оС крупность металлической фазы не превышает 50 мкм. Рисунок 7 – Гистограмма распределения включений металлического сплава в массе расплава Сводный анализ размеров всех включений металлической фазы в объеме шлака показал, что с увеличением температуры процесса наблюдается экспоненциальный рост эквивалентного размера частиц металлических корольков, что отражено на рисунке 8.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлаковый расплав",
+          "name_en": "slag melt",
+          "canonical": "slag_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "включения металлического сплава",
+          "name_en": "metal inclusions",
+          "canonical": "metal_inclusions"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "крупные корольки металлической фазы",
+          "name_en": "large metal droplets",
+          "canonical": "large_metal_droplets"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "металлическая фаза размером не более 50 мкм",
+          "name_en": "small metal droplets",
+          "canonical": "small_metal_droplets"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "с увеличением температуры процесса имеет место увеличение доли фракции крупных корольков металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "при минимальной температуре процесса превалирующей крупностью является -20 мкм"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": 1500.0,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1450.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "size",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "mcm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "size",
+          "op": "ge",
+          "value_min": 150.0,
+          "value_max": null,
+          "unit": "mcm",
+          "condition": "при температуре 1500 °C"
+        },
+        {
+          "entity_id": "e5",
+          "param": "size",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "mcm",
+          "condition": "при температурах 1300 и 1350 °C"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c24": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c24",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "увеличением температуры процесса наблюдается экспоненциальный рост эквивалентного размера частиц металлических корольков, что отражено на рисунке 8. Данный факт численно выражается в росте эквивалентного радиуса корольков металлической фазы с 8,92 мкм при температуре ведения процесса 1300 оС до 45,88 мкм при 1500 оС и свидетельствует об эффективном процессе коалесценции частиц металлической взвеси в условиях, обеспечивающих нахождение металла в жидком состоянии. Рисунок 8 – Зависимость эквивалентного радиуса королька от температуры процесса Согласно литературным данным [20-21] скорость осаждения металлической фазы в шлаковом расплаве описывается при помощи формулы Стокса с поправками Адамара и Рыбчинского и выражается в виде следующей формулы: где – скорость осаждения капли, см/с; – ускорение силы тяжести, г∙см/с2; и – соответственно плотность более и менее плотной жидкости, г/см3; и – вязкость более плотной и менее плотности жидкости, П; – радиус осаждающейся капли, см. Для расчета скорости осаждения металлической взвеси в программе FactSage с помощью модуля Viscosity был рассчитан показатель вязкости полученных шлаков.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обессеривание шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлические корольки",
+          "name_en": "metal droplets",
+          "canonical": "metal_droplets"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "увеличением температуры процесса наблюдается экспоненциальный рост эквивалентного размера частиц металлических корольков"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "увеличением температуры процесса наблюдается экспоненциальный рост эквивалентного размера частиц металлических корольков"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "radius",
+          "op": "range",
+          "value_min": 8.92,
+          "value_max": 45.88,
+          "unit": "micrometers",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c25": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c25",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "расчета скорости осаждения металлической взвеси в программе FactSage с помощью модуля Viscosity был рассчитан показатель вязкости полученных шлаков. Отдельно стоит отметить, что вязкость представляет собой свойство жидкой фазы оказывать сопротивление перемещению ее частиц. В свою очередь, вязкость шлаков обуславливается внутренним трением между соседними слоями шлакового расплава и зависит от силы сцепления между молекулами шлака. Полученные численные значения вязкости шлакового расплава при температурах проведения исследований представлены в таблице 5. Отдельно отметим, что в научных источниках не найдено сведений о величине динамической вязкости сплава, состав которого соответствует донной фазе, полученного в рамках данной работы. В связи с этим, использована информация, представленная в работе [22]. Авторы работы [22] исследовали показатель кинематической вязкости мельхиора марки МН19 при различных температурах. На основании сведений, приведенных в работе [22], рассчитан показатель динамической вязкости сплава, получаемого при различных температурах в данной работе.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag reduction process",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "вязкость",
+          "name_en": "viscosity",
+          "canonical": "viscosity"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "melting_point"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "расчета скорости осаждения металлической взвеси в программе FactSage с помощью модуля Viscosity был рассчитан показатель вязкости полученных шлаков"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "вязкость представляет собой свойство жидкой фазы оказывать сопротивление перемещению ее частиц"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c26": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c26",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "вании сведений, приведенных в работе [22], рассчитан показатель динамической вязкости сплава, получаемого при различных температурах в данной работе. Таблица 5 – Исходные данные для расчета скорости осаждения корольков На основании значений, представленных в таблице 5, используя формулу Стокса, были вычислены скорости осаждения частиц металлической фазы эквивалентной крупности при различных температурах процесса. Полученные значения легли в основу графика зависимости скорости осаждения корольков металлической фазы от температурного режима плавки. График данной зависимости представлен на рисунке 9. В целом, можно отметить высокую степень корреляции данных, представленных на рисунке 9, с характером изменения эквивалентного размера металлической фазы с увеличением температуры ведения процесса, что было представлено ранее на рисунке 8.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag depletion",
+          "canonical": "slag_depletion"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "динамическая вязкость",
+          "name_en": "dynamic viscosity",
+          "canonical": "viscosity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "показатель динамической вязкости сплава, получаемого при различных температурах в данной работе"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "показатель динамической вязкости сплава"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c27": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c27",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "валентного размера металлической фазы с увеличением температуры ведения процесса, что было представлено ранее на рисунке 8. Рисунок 9 – Влияние температуры на скорость осаждения частицы металлической фазы эквивалентного размера В ранее опубликованных исследованиях [16], посвященным условиям обеднения шлака комплекса непрерывного конвертирования, который характеризуется соотношением Cu/Ni в исходном шлаке на уровне ⁓3, даны рекомендации по ведению процесса обеднения с получением металлического сплава. Данный сплав обладает относительно низкой температурой плавления – ориентировочно 1250 оС, что является следствием высокого содержания Cu (до 70% масс.). В свою очередь, шлаки окислительной плавки сульфидного медно-никелевого концентрата отличаются соотношением Cu/Ni < 1. Кроме того, концентрации данных цветных металлов в шлаке не превышают 1% масс.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения",
+          "name_en": "depletion process",
+          "canonical": "depletion_process"
+        },
+        {
+          "id": "e2",
+          "type": "Facility",
+          "name_ru": "комплекс непрерывного конвертирования",
+          "name_en": "complex continuous converting",
+          "canonical": "complex_continuous_converting"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлический сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "шлаки окислительной плавки",
+          "name_en": "oxidative smelting",
+          "canonical": "oxidative_smelting"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "концентрат",
+          "name_en": "concentrate",
+          "canonical": "concentrate"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Влияние температуры на скорость осаждения частицы металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "рекомендации по ведению процесса обеднения с получением металлического сплава"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "характеризуется соотношением Cu/Ni в исходном шлаке"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "шлаки окислительной плавки сульфидного медно-никелевого концентрата отличаются соотношением Cu/Ni"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "Cu/Ni",
+          "op": "ge",
+          "value_min": 3.0,
+          "value_max": null,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature_melting",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1250.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "Cu",
+          "op": "le",
+          "value_min": null,
+          "value_max": 70.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "Cu/Ni",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration_metals",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c28": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c28",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "-никелевого концентрата отличаются соотношением Cu/Ni < 1. Кроме того, концентрации данных цветных металлов в шлаке не превышают 1% масс. Поскольку известно [19], что при восстановлении оксидов из шлакового расплава по мере уменьшения их концентрации (активности) требуется более восстановительная атмосфера, в случае обеднения шлака окислительной плавки медно-никелевого концентрата данный процесс будет сопутствовать существенному росту содержания железа в донной фазе, что подтверждается результатами работы [12]. В свою очередь, металлическое железо, температура плавления которого составляет 1538 оС, несомненно, повлечет рост температуры ликвидус донной фазы. В связи с вышесказанным, с целью оптимизации температуры ликвидус донной фазы при осуществлении процесса обеднения шлаков, образующихся при окислительной плавке медно-никелевого концентрата, целесообразно использование сульфидизатора Добавка сульфидизатора интенсифицирует процессы коалесценции механической взвеси сульфидов в исходном шлаке, поскольку в системе шлак-штейн увеличивается количество сульфидных центров, что способствует росту числа соударений, и, как следствие, укрупнений, сульфидных частиц в условиях интенсивного",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медно-никелевый концентрат",
+          "name_en": "copper-nickel concentrate",
+          "canonical": "copper_nickel_concentrate"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "reduction process",
+          "canonical": "reduction_process"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлическое железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфидизатор",
+          "name_en": "sulfidizer",
+          "canonical": "sulfidizer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "обезлюдение шлака медно-никелевого концентрата"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "в шлаке не превышают 1% масс"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "температура плавления металлического железа составляет 1538 °C"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "целесообразно использование сульфидизатора"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e7",
+          "type": "produces_output",
+          "evidence": "добавка сульфидизатора интенсифицирует процессы коалесценции"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "Cu/Ni",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration_of_metals",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "melting_point",
+          "op": "eq",
+          "value_min": 1538.0,
+          "value_max": 1538.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c29": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c29",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "вается количество сульфидных центров, что способствует росту числа соударений, и, как следствие, укрупнений, сульфидных частиц в условиях интенсивного перемешивания расплава, которым характеризуется печь Ванюкова. Согласно данным практики [1] работы обеднительных электропечей на Надеждинском металлургическом заводе, температура плавления донной фазы при использовании сульфидизатора (руды) не превышает 1200 оС. Выводы В рамках данной работы выполнены исследования по влиянию температуры на процесс обеднения шлаковых расплавов восстановительной газовой смесью. Методика проведения экспериментов заключалась в продувке монооксидом углерода железосиликатного расплава с растворенными в нем оксидами меди и никеля. При этом исходный состав шихты и диапазон исследуемых температур подбирались таким образом, чтобы обеспечить нахождение металлической фазы в объеме железосиликатного расплава как в твердом, так и в жидком состоянии. По результатам проведенного исследования установлено, что решающее влияние на механические потери металлов со шлаками оказывает агрегатное состояние образующегося при восстановлении металлического сплава.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag depletion process",
+          "canonical": "depletion_process"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "железосиликатный расплав",
+          "name_en": "iron silicate melt",
+          "canonical": "iron_silicate_melt"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "оксиды меди и никеля",
+          "name_en": "copper and nickel oxides",
+          "canonical": "copper_nickel_oxides"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanukov furnace",
+          "canonical": "vanukov_furnace"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфидизатор",
+          "name_en": "sulphurizer",
+          "canonical": "sulphurizer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Методика проведения экспериментов заключалась в продувке монооксидом углерода железосиликатного расплава с растворёнными в нём оксидами меди и никеля."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "температура плавления донной фазы при использовании сульфидизатора (руды) не превышает 1200 °C."
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "le",
+          "value_min": null,
+          "value_max": 1200.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c30": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c30",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "то решающее влияние на механические потери металлов со шлаками оказывает агрегатное состояние образующегося при восстановлении металлического сплава. Показано, что, если образующийся металлический сплав находится в шлаковом расплаве в твердом состоянии, процесс характеризуется высоким уровнем потерь металлов со шлаками, коалесценция металлических частиц не происходит, вследствие чего донная фаза не формируется. При обеспечении температуры процесса обеднения выше температуры ликвидус сплава наблюдается эффективная коалесценция восстановленных металлических частиц, что приводит к снижению механических потерь, а уровень потерь металлов со шлаками приближается к термодинамическому равновесию. Полученные результаты могут быть использованы для оптимизации температурных режимов технологий восстановительных пирометаллургических процессов. СПИСОК ЛИТЕРАТУРЫ Кайтмазов Н.Г. Производство металлов за Полярным кругом: технологическое пособие. Норильск: Антейлимитед. 2007. 296 с. Совершенствование методики опробования отвального шлака печей обеднения Надеждинского металлургического завода ОАО \"ГМК \"Норильский никель\" / А. Н. Глазатов, Б. Л. Блехштейн, М. В. Лукашова [и др.] // Цветные металлы.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлический сплав",
+          "name_en": "metallic alloy",
+          "canonical": "metallic_alloy"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "потери металлов со шлаками",
+          "name_en": "metal losses with slag",
+          "canonical": "metal_losses_with_slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "решающее влияние на механические потери металлов со шлаками оказывает агрегатное состояние образующегося при восстановлении металлического сплава"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "при обеспечении температуры процесса обеднения выше температуры ликвидус сплава наблюдается эффективная коалесценция восстановленных металлических частиц"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "уровень потерь металлов со шлаками приближается к термодинамическому равновесию"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "ge",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "losses",
+          "op": "le",
+          "value_min": null,
+          "value_max": null,
+          "unit": "unknown",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c31": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c31",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ния Надеждинского металлургического завода ОАО \"ГМК \"Норильский никель\" / А. Н. Глазатов, Б. Л. Блехштейн, М. В. Лукашова [и др.] // Цветные металлы. – 2011. – № 8-9. – С. 189-193. – EDN OHXIFH. Нус, Г.С. Обеднительная шлаковая электропечь - технологическое долголетие / Г. С. Нус // Цветные металлы. – 2009. – № 2. – С. 59-61. Цемехман Л.Ш., Князев М.В., Беркутов С.В., Рыжов О.А., Чумаков Ю.А. Плавка медно-никелевых концентратов комбината \"Печенганикель\" в двухзонной печи Ванюкова / //Цветные металлы. 2004. №12. С 32-35. Цымбулов Л. Б., Князев М. В., Цемехман Л. Ш. Двухзонная печь Ванюкова. Перспективы применения в цветной металлургии // Цветные металлы. 2009. №9. С 36-42. Цемехман Л. Ш., Цымбулов Л. Б., Князев М. В., Кайтмазов Н. Г., Фомичев В. Б. Непрерывное конвертирование медных и медно-никелевых штейнов. Современное состояние и результаты исследований // Цветные металлы. 2009. №9. С 43-48 Озеров С. С., Цемехман Л. Ш., Тозик В. М., Пахомов Р. А. Исследование процесса непрерывного конвертирования сульфидных медно-никелевых материалов с получением «сырой» меди // Цветные металлы. 2020. №12. С 70-76. Ванюков А.В., Зайцев В.Я. Шлаки и штейны цветной металлургии.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс обеднения шлака",
+          "name_en": "slag depletion process",
+          "canonical": "depletion_slag_process"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanukov furnace",
+          "canonical": "vanukov_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медно-никелевые концентраты",
+          "name_en": "copper-nickel concentrates",
+          "canonical": "copper_nickel_concentrates"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "непрерывное конвертирование",
+          "name_en": "continuous converting",
+          "canonical": "continuous_converting"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "сульфидные медно-никелевые материалы",
+          "name_en": "sulphide copper-nickel materials",
+          "canonical": "sulphide_copper_nickel_materials"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "обезжиривание медно-никелевых концентратов в печи Ванюкова"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "исследование процесса непрерывного конвертирования сульфидных медно-никелевых материалов"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c32": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c32",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "-никелевых материалов с получением «сырой» меди // Цветные металлы. 2020. №12. С 70-76. Ванюков А.В., Зайцев В.Я. Шлаки и штейны цветной металлургии. М.: «Металлургия», 1969. 408 с. Ступин В.А., Федоров А.Н., Разумовская Н.Н. О взаимодействии сульфидов со шлаковыми расплавами. Цветные металлы, 1991, № 10 Богатырев Д.М., Петров Г.В., Цымбулов Л.Б. Пирометаллургические технологии переработки сульфидных медно-никелевых руд с высоким содержанием металлов платиновой группы: современное состояние и перспективы развития // Вестник Магнитогорского государственного технического университета им. Г.И. Носова. 2022. Т. 20. №1. С. 14–24. https://doi.org/10.18503/1995-2732-2022-20-1-14-2; R.T.Jones. ConRoast: DC Arc Smelting of Dead-Roasted Sulphide Concentrates. // Sulfide Smelting 2002, USA, 17-21 February TMS Annual Meeting, P. 435-456. Богатырев Д.М., Цымбулов Л.Б., Озеров С.С. Исследование распределения металлов платиновой группы и золота при обеднении шлака медно-никелевого производства газовыми смесями // Цветные металлы. 2022. №12. С. 14-21; Атлас минералогического сырья, технологических продуктов и товарной продукции ЗФ ОАО ГМК «Норильский никель» / Л.Ш. Цемехман, В. Б. Фомичев, Л.Н.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "медно-никелевые руды",
+          "name_en": "copper-nickel ores",
+          "canonical": "copper_nickel_ores"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "пирометаллургическая переработка",
+          "name_en": "pyrometallurgical processing",
+          "canonical": "pyrometallurgical_processing"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "металлы платиновой группы",
+          "name_en": "platinum group metals",
+          "canonical": "platinum_group_metals"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Пирометаллургические технологии переработки сульфидных медно-никелевых руд"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "обеднение шлака"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c33": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c33",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "21; Атлас минералогического сырья, технологических продуктов и товарной продукции ЗФ ОАО ГМК «Норильский никель» / Л.Ш. Цемехман, В. Б. Фомичев, Л.Н. Ерцева и др. М.: Издательский дом руда и металлы, 2010. 336 с. Атлас минерального сырья, технологических промышленных продуктов и товарной продукции ЗФ ПАО «ГМК «Норильский Никель»/ А.И. Девочкин [и др.]; под общ. ред. чл.-корр. РАЕН, д-ра техн. наук, проф. Л.Б. Цымбулова. – СПб.: Политех-пресс, 2021. – 398. Allibert M., Gaye H. Slag Atlas. 2nd edition. — Dusseldorf: Stahleisen, 1995. — 634 p. Цымбулов Л.Б., Пигарев С.П., Жак Е. Термодинамиский анализ процесса конвертирования медных штейнов и концентратов в двухзонной печи Ванюкова // Цветные металлы. 2011. №8/9. С. 62-72. Синёва С.И. Старых Р.В., Фроленкова М.В., Захряпин С.Б. Исследование поверхностей ликвидуса и солидуса четырехкомпонентной системы Fe-Ni-Cu-S. I. Построение диаграммы плавкости трехкомпонентной системы Fe-Ni-Cu // Металлы: - 2009. - № 3. - С. 99-106. Bale C. W., Belisle E., Chartrand P. et al. FactSage thermochemical software and databases recent developments. — Calphad. June 2009. Vol. 33. Is. 2. P. 295–311.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс конвертирования медных штейнов и концентратов",
+          "name_en": "copper converter process",
+          "canonical": "copper_converter_process"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "печь Ванюкова",
+          "name_en": "Vanukov furnace",
+          "canonical": "vanukov_furnace"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "система Fe-Ni-Cu-S",
+          "name_en": "Fe-Ni-Cu-S system",
+          "canonical": "Fe-Ni-Cu-S_system"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "система Fe-Ni-Cu",
+          "name_en": "Fe-Ni-Cu system",
+          "canonical": "Fe-Ni-Cu_system"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Термодинамический анализ процесса конвертирования медных штейнов и концентратов в двухзонной печи Ванюкова"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "described_in",
+          "evidence": "Исследование поверхностей ликвидуса и солидуса четырехкомпонентной системы Fe-Ni-Cu-S"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c34": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c34",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Belisle E., Chartrand P. et al. FactSage thermochemical software and databases recent developments. — Calphad. June 2009. Vol. 33. Is. 2. P. 295–311. http://dx.doi.org/10.1016/j.calphad.2008.09.009 Ерцева, Л. Н, Старых Р.В., Цемехман Л.Ш. Особенности вещественного состава остатков хлорного растворения никелевого огарка и продуктов его плавки на штейн // Цветные металлы. 2015. № 2. С. 36-41 Ванюков А.В., Зайцев В.Я. Теория пирометаллургических процессов – М.: «Металлургия», 1973. 504 с. Ванюков А.В., Быстров В.П., Васкевич А.Д. Плавка в жидкой ванне / Под. Общ. Редакцией А.В. Ванюкова. – М.: «Металлургия», 1988. 208 с.; Разработка рекомендаций по улучшению выплавки сплава мельхиора марки МН19 / Е. А. Кочеткова, В. С. Цепелев, В. В. Вьюхин [и др.] // Вестник Пермского национального исследовательского политехнического университета. Машиностроение, материаловедение. 2020. Т. 22, № 1. С. 33-39. – https://doi.org/10.15593/2224-9877/2020.1.04. № опыта | Температура, оС | Масса сплава, г | Содержание в сплаве, % масс. | Содержание в сплаве, % масс. | Содержание в сплаве, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "плавка никелевого огарка",
+          "name_en": "nickel melt",
+          "canonical": "nickel_melt"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сплав мельхиора",
+          "name_en": "melikhor alloy",
+          "canonical": "melikhor_alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c35": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c35",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Содержание в сплаве, % масс. | Содержание в сплаве, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. № опыта | Температура, оС | Масса сплава, г | Cu | Ni | Fe | Cu | Ni | Fe | SiO2 1 | 1300 | 13,18 | 26,52 | 70,33 | 3,15 | 0,91 | 2,41 | 51,73 | 28,74 2 | 1350 | 12,84 | 26,31 | 70,47 | 3,22 | 1,01 | 2,62 | 51,54 | 28,63 3 | 1400 | 12,5 | 26,05 | 70,67 | 3,28 | 1,13 | 2,81 | 51,36 | 28,53 4 | 1450 | 12,16 | 25,75 | 70,9 | 3,35 | 1,24 | 2,99 | 51,17 | 28,42 5 | 1500 | 11,83 | 25,41 | 71,17 | 3,42 | 1,35 | 3,18 | 50,99 | 28,32 № опыта | Температура, оС | Масса сплава, г | Содержание в сплаве, % масс. | Содержание в сплаве, % масс. | Содержание в сплаве, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "диоксид кремния",
+          "name_en": "silicon dioxide",
+          "canonical": "silicon_dioxide"
+        },
+        {
+          "id": "e8",
+          "type": "Process",
+          "name_ru": "процесс обеднения",
+          "name_en": "depletion process",
+          "canonical": "depletion_process"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "коалесценция",
+          "name_en": "coalescence",
+          "canonical": "coalescence"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e8",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "исследование влияния температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "содержание в сплаве"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "содержание в шлаке"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "содержание в шлаке"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "содержание в шлаке"
+        },
+        {
+          "source_id": "e8",
+          "target_id": "e6",
+          "type": "produces_output",
+          "evidence": "содержание в шлаке"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mass",
+          "op": "range",
+          "value_min": 11.83,
+          "value_max": 13.18,
+          "unit": "g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "content",
+          "op": "range",
+          "value_min": 70.33,
+          "value_max": 71.17,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "content",
+          "op": "range",
+          "value_min": 0.91,
+          "value_max": 3.42,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "content",
+          "op": "range",
+          "value_min": 2.41,
+          "value_max": 2.62,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "content",
+          "op": "range",
+          "value_min": 50.99,
+          "value_max": 51.73,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "content",
+          "op": "range",
+          "value_min": 28.32,
+          "value_max": 28.74,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c36": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c36",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ержание в сплаве, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. | Содержание в шлаке, % масс. № опыта | Температура, оС | Масса сплава, г | Cu | Ni | Fe | Cu | Ni | Fe | SiO2 1 | 1300 | 0 | - | - | - | 3,73 | 10,02 | 44,1 | 26,1 2 | 1350 | 0 | - | - | - | 3,67 | 9,67 | 44,2 | 25,9 3 | 1400 | 5,28 | 34,2 | 65 | 1,36 | 2,07 | 6,82 | 45,4 | 26,4 4 | 1450 | 8,71 | 27,4 | 69,6 | 3,31 | 1,6 | 4,68 | 44,3 | 25,5 5 | 1500 | 9,07 | 28 | 69,8 | 2,76 | 1,63 | 4,5 | 44,5 | 26,1 № | Составляющая | Состав, % масс. | Состав, % масс. | Состав, % масс. | Состав, % масс. | Состав, % масс. | Состав, % масс. | tпл. мет. фазы, оС № | Составляющая | Al | Si | Fe | Ni | Cu | O | tпл. мет.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "металлическая фаза",
+          "name_en": "metallic phase",
+          "canonical": "metallic_phase"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "диоксид кремния",
+          "name_en": "silicon dioxide",
+          "canonical": "silicon_dioxide"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "никель",
+          "name_en": "nickel",
+          "canonical": "nickel"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e8",
+          "type": "operates_at_condition",
+          "evidence": "Исследование влияния температурного режима процесса обеднения шлака"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "Содержание компонентов в сплаве и шлаке при различных температурах"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "Содержание металлической фазы в шлаке"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mass",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 9.07,
+          "unit": "g",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "content",
+          "op": "range",
+          "value_min": 34.2,
+          "value_max": 69.8,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "content",
+          "op": "range",
+          "value_min": 44.1,
+          "value_max": 44.5,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "content",
+          "op": "range",
+          "value_min": 25.5,
+          "value_max": 26.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "content",
+          "op": "range",
+          "value_min": 1.6,
+          "value_max": 10.02,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "content",
+          "op": "range",
+          "value_min": 1.36,
+          "value_max": 65.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "content",
+          "op": "range",
+          "value_min": 2.07,
+          "value_max": 3.73,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c37": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c37",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": ". мет. фазы, оС 1 | состав силикатной составляющей | 0,6 | 13,1 | 45,2 | 7,3 | 2,5 | 31 | 1323 1 | металлическая фаза | - | - | 3,9 | 53,3 | 42,3 | - | 1323 2 | состав силикатной составляющей | 2,3 | 12,5 | 45,8 | 6,2 | 1,6 | 32 | 1361 2 | металлическая фаза | - | - | 2,3 | 63,8 | 33,9 | - | 1361 3 | состав силикатной составляющей | 4,1 | 12,1 | 45,4 | 4,6 | 1,6 | 32 | 1375 3 | металлическая фаза | - | - | 4,6 | 68,6 | 26,8 | - | 1375 4 | состав силикатной составляющей | 0,6 | 13,3 | 47,6 | 4,4 | 1,5 | 32 | 1372 4 | металлическая фаза | - | - | 5,1 | 66,6 | 28,3 | - | 1372 5 | состав силикатной составляющей | 4,4 | 11,9 | 45,4 | 4,2 | 1,5 | 33 | 1368 5 | металлическая фаза | - | - | 4,0 | 65,7 | 30,3 | - | 1368 № | Температура, оС | Ni | Ni | Cu | Cu № | Температура, оС | Механические потери | Растворимые потери | Механические потери | Растворимые потери 1 | 1300 | 56,7 | 43,3 | 52,4 | 47,6 2 | 1350 | 25,6 | 74,4 | 27,5 | 72,5 3 | 1400 | 10,2 | 89,8 | 18,9 | 81,1 4 | 1450 | 3,1 | 96,9 | 19,9 | 80,1 5 | 1500 | 7,4 | 92,6 | 2,6 | 97,4 а | б | б | в г | г | д | д (4) № | Температура процесса, оС | rэкв., мкм | Плотность сплава, г/см3 | Плотность шлака, г/см3 | Вязкость шлака, П |",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обеднение шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "механические потери никеля",
+          "name_en": "nickel mechanical losses",
+          "canonical": "nickel_losses"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "растворимые потери никеля",
+          "name_en": "nickel soluble losses",
+          "canonical": "nickel_soluble_losses"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "механические потери меди",
+          "name_en": "copper mechanical losses",
+          "canonical": "copper_losses"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "растворимые потери меди",
+          "name_en": "copper soluble losses",
+          "canonical": "copper_soluble_losses"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "влияние температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "влияние температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "влияние температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "влияние температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "mechanical_losses",
+          "op": "range",
+          "value_min": 3.1,
+          "value_max": 56.7,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "soluble_losses",
+          "op": "range",
+          "value_min": 43.3,
+          "value_max": 97.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "mechanical_losses",
+          "op": "range",
+          "value_min": 2.6,
+          "value_max": 52.4,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "soluble_losses",
+          "op": "range",
+          "value_min": 47.6,
+          "value_max": 97.4,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c38": {
+    "chunk": {
+      "chunk_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ::p1::c38",
+      "doc_id": "Статьи__17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ",
+      "source": "data/raw/Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "7,4 а | б | б | в г | г | д | д (4) № | Температура процесса, оС | rэкв., мкм | Плотность сплава, г/см3 | Плотность шлака, г/см3 | Вязкость шлака, П | Вязкость сплава, П∙10-3 1 | 1300 | 8,92 | 8,91 | 3,3 | 0,989 | 0,87 2 | 1350 | 13,72 | 8,91 | 3,3 | 0,834 | 0,82 3 | 1400 | 18,80 | 8,91 | 3,3 | 0,715 | 0,77 4 | 1450 | 34,18 | 8,91 | 3,3 | 0,641 | 0,73 5 | 1500 | 45,88 | 8,91 | 3,3 | 0,577 | 0,69",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "обессеривание шлака",
+          "name_en": "slag reduction",
+          "canonical": "slag_reduction"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "сплав",
+          "name_en": "alloy",
+          "canonical": "alloy"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "шлак",
+          "name_en": "slag",
+          "canonical": "slag"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "вязкость шлака",
+          "name_en": "slag viscosity",
+          "canonical": "slag_viscosity"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "вязкость сплава",
+          "name_en": "alloy viscosity",
+          "canonical": "alloy_viscosity"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Влияние температурного режима процесса обеднения шлака на коалесценцию частиц металлической фазы"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 1300.0,
+          "value_max": 1500.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "density",
+          "op": "range",
+          "value_min": 8.91,
+          "value_max": 8.91,
+          "unit": "g/cm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "density",
+          "op": "range",
+          "value_min": 3.3,
+          "value_max": 3.3,
+          "unit": "g/cm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "viscosity",
+          "op": "range",
+          "value_min": 0.577,
+          "value_max": 0.989,
+          "unit": "P",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "viscosity",
+          "op": "range",
+          "value_min": 0.69,
+          "value_max": 0.87,
+          "unit": "P*10-3",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2024,
+        "confidence": "high"
+      }
+    }
+  }
+}

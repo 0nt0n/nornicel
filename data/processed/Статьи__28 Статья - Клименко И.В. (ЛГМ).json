@@ -1,0 +1,2509 @@
+{
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c0": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c0",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Клименко И.В. – Грейвер М.Б. – Калашникова М.И. – Вострикова Н.М. Влияние различных факторов на окисление железа в высококонцентрированных хлоридных никелевых растворах Введение Переход цеха электролиза никеля №2 (ЦЭН-2) АО «Кольская ГМК» на технологию электроэкстракции никеля из растворов хлорного выщелачивания, концепция которой описана в [1], потребовал значительного изменения режимов работы на ряде переделов площадки, включая передел железоочистки. Трудности на этом участке, с которыми специалисты АО «Кольская ГМК» и ООО «Институт Гипроникель» столкнулись в ходе перехода на новую технологию, а также предпринятые меры для оптимизации работы передела и приведения показателей его работы к регламентным подробно описаны в [2].",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "электролиз никеля",
+          "name_en": "nickel electrolysis",
+          "canonical": "nickel_electrolysis"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "хлорное выщелачивание",
+          "name_en": "chlorine leaching",
+          "canonical": "chlorine_leaching"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "высококонцентрированные хлоридные никелевые растворы",
+          "name_en": "highly concentrated chloride nickel solutions",
+          "canonical": "highly_concentrated_chloride_nickel_solutions"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "передел железоочистки",
+          "name_en": "iron purification",
+          "canonical": "iron_purification"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Переход цеха электролиза никеля №2 на технологию электроэкстракции никеля из растворов хлорного выщелачивания"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Переход цеха электролиза никеля №2 на технологию электроэкстракции никеля из растворов хлорного выщелачивания"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "Изменение режимов работы на ряде переделов площадки, включая передел железоочистки"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c1": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c1",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "описаны в [2]. Хотя процесс железоочистки в условиях высококонцентрированных хлоридных растворов был изучен в лабораторном [3] и пилотном [2] масштабах, а затем отработанные решения были успешно внедрены в промышленном масштабе, ряд представляющих научный и практический интерес для специалистов в области гидрометаллургии и потенциально применимых для дальнейшей оптимизации работы передела железоочистки вопросов был оставлен за кадром, поэтому дальнейшие усилия специалистов ООО «Институт Гипроникель» в 2021-2022 гг. были направлены на охват большего количества влияющих на окисление железа в концентрированных хлоридных никелевых растворах факторов, а также количественную оценку их влияния. Данные исследования актуальны, учитывая современную направленность АО «Кольская ГМК» на производство премиальных марок продукции высокого качества и изменение с течением времени состава исходного сырья в сторону повышения в нем содержания железа. Так, в работе [2] содержание железа в растворе предполагалось на уровне 5-6 г/дм3, на момент проведения исследований, описанных в данной статье, прогнозируемое содержание Fe с учетом изменений состава исходного сырья стало составлять уже 7-8 г/дм3.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "железоочистка",
+          "name_en": "iron purification",
+          "canonical": "iron_purification"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "хлоридный никелевый раствор",
+          "name_en": "nickel chloride solution",
+          "canonical": "nickel_chloride_solution"
+        },
+        {
+          "id": "e3",
+          "type": "Facility",
+          "name_ru": "Институт Гипроникель",
+          "name_en": "Gipronikel Institute",
+          "canonical": "gipronikel"
+        },
+        {
+          "id": "e4",
+          "type": "Facility",
+          "name_ru": "Кольская ГМК",
+          "name_en": "Kola GMK",
+          "canonical": "kolskaya_gmk"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "процесс железоочистки в условиях высококонцентрированных хлоридных растворов"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e1",
+          "type": "expert_in",
+          "evidence": "усилия специалистов ООО «Институт Гипроникель» ... направлены на охват большего количества влияющих на окисление железа в концентрированных хлоридных никелевых растворах факторов"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "современная направленность АО «Кольская ГМК» на производство премиальных марок продукции высокого качества"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "iron_content",
+          "op": "range",
+          "value_min": 5.0,
+          "value_max": 6.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "iron_content",
+          "op": "range",
+          "value_min": 7.0,
+          "value_max": 8.0,
+          "unit": "g/dm3",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c2": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c2",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ения исследований, описанных в данной статье, прогнозируемое содержание Fe с учетом изменений состава исходного сырья стало составлять уже 7-8 г/дм3. Учитывая потенциальную возможность дальнейшего повышения содержания железа в реальных растворах производства, для текущих исследований была выбрана концентрация железа в никелевом растворе на уровне 8-10 г/дм3. Методика проведения лабораторных экспериментов Опыты проводили в высоком стеклянном стакане объемом 1 л. Раствор заданного состава объёмом 0,7 л нагревали до заданной температуры при механическом перемешивании (турбинная мешалка, d = 40 мм) с заданным количеством оборотов и продували газом (смесь кислорода и азота (КВС) с заданным содержанием кислорода) с расходом 2 л/мин через диспергатор (фильтр Шотта). pH поддерживали на постоянном уровне с помощью карбоната никеля, распульпованного в воде. Для компенсации потерь влаги с испарениями в пульпу периодически добавляли воду, доводя раствор в стакане до первоначального объёма за вычетом объёма отобранных проб.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевый раствор",
+          "name_en": "nickel solution",
+          "canonical": "nickel_solution"
+        },
+        {
+          "id": "e2",
+          "type": "Experiment",
+          "name_ru": "лабораторный эксперимент",
+          "name_en": "laboratory experiment",
+          "canonical": "laboratory_experiment"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "стеклянный стакан",
+          "name_en": "glass beaker",
+          "canonical": "glass_beaker"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "турбинная мешалка",
+          "name_en": "turbine stirrer",
+          "canonical": "turbine_stirrer"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "смесь газов",
+          "name_en": "gas mixture",
+          "canonical": "gas_mixture"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "карбонат никеля",
+          "name_en": "nickel carbonate",
+          "canonical": "carbonate_nickel"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Методика проведения лабораторных экспериментов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Раствор заданного состава объёмом 0,7 л нагревали до заданной температуры при механическом перемешивании (турбинная мешалка)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "продували газом (смесь кислорода и азота (КВС) с заданным содержанием кислорода)"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "pH поддерживали на постоянном уровне с помощью карбоната никеля"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "iron_content",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 10.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "volume",
+          "op": "eq",
+          "value_min": 0.7,
+          "value_max": 0.7,
+          "unit": "l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "diameter",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "flow_rate",
+          "op": "eq",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "l/min",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c3": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c3",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "отерь влаги с испарениями в пульпу периодически добавляли воду, доводя раствор в стакане до первоначального объёма за вычетом объёма отобранных проб. В ходе опыта кислородом Fe2+ окислялось до Fe3+ по двум механизмам (представлены упрощенно) – прямым окислением кислородом воздуха (реакция 1) и передачей заряда ионом-медиатором Cu2+ (реакции 2, 3), затем Fe3+ гидролизовалось с выделением кислоты по реакции 4: 4Fe2+ + O2 ↔ 4Fe3+ + 2O2-; (1) 4Cu+ + O2 ↔ 4Cu2+ + 2O2-; (2) Fe2+ + Cu2+ ↔ Fe3+ + Cu+; (3) Fe3+ + 3H2O ↔ Fe(OH)3 + 3H+. (4) pH раствора контролировали подачей нейтрализатора в виде распульпованного в никелевом растворе карбоната никеля. Продолжительность всех опытов составляла 1 ч, каждые 10 минут отбирались пробы раствора на химический анализ, каждые 5 мин. регистрировались значения pH, ОВП. Осадки после опытов трёхкратно промывали теплой водой, затем сдавали на химический анализ, РФА. Схема установки представлена на рисунке 1. Оценивали влияние различных факторов (интенсивность перемешивания, концентрация кислорода в газовой фазе, температура раствора) на скорость окисления железа (II), определяли кинетические параметры процесса.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "карбонат никеля",
+          "name_en": "nickel carbonate",
+          "canonical": "nickel_carbonate"
+        },
+        {
+          "id": "e7",
+          "type": "Material",
+          "name_ru": "нейтрализатор",
+          "name_en": "neutralizer",
+          "canonical": "neutralizer"
+        },
+        {
+          "id": "e8",
+          "type": "Material",
+          "name_ru": "Fe2+",
+          "name_en": "Fe2+",
+          "canonical": "Fe2+"
+        },
+        {
+          "id": "e9",
+          "type": "Material",
+          "name_ru": "Fe3+",
+          "name_en": "Fe3+",
+          "canonical": "Fe3+"
+        },
+        {
+          "id": "e10",
+          "type": "Material",
+          "name_ru": "Cu2+",
+          "name_en": "Cu2+",
+          "canonical": "Cu2+"
+        },
+        {
+          "id": "e1",
+          "type": "Experiment",
+          "name_ru": "опыт",
+          "name_en": "experiment",
+          "canonical": "experiment"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "отбор проб",
+          "name_en": "sampling",
+          "canonical": "sampling"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "измерение pH",
+          "name_en": "pH measurement",
+          "canonical": "pH_measurement"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "в ходе опыта кислородом Fe2+ окислялось до Fe3+"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "pH раствора контролировали подачей нейтрализатора"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "в пульпу периодически добавляли воду"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "каждые 10 минут отбирались пробы раствора"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "каждые 5 мин. регистрировались значения pH"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "duration",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 60.0,
+          "unit": "min",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "sampling",
+          "op": "ge",
+          "value_min": 10.0,
+          "value_max": null,
+          "unit": "min",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "pH_measurement",
+          "op": "ge",
+          "value_min": 5.0,
+          "value_max": null,
+          "unit": "min",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c4": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c4",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ешивания, концентрация кислорода в газовой фазе, температура раствора) на скорость окисления железа (II), определяли кинетические параметры процесса. Каждый фактор исследовали, варьируя его в диапазоне значений, при сохранении постоянства остальных (значения остальных факторов соответствовали условиям базового опыта). Условия базового (нулевого) опыта: 935 об/мин мешалки; 40% О2 в подаваемой КВС; расход – 2 л/мин pH раствора = 1,6; Температура раствора - 80оС; Состав раствора: 200-220 г/дм3 Ni; 250-260 г/дм3 Cl; 35-40 г/дм3 SO4; 8-10 г/дм3 Fe; 8-10 г/дм3 Na; 0,85-0,95 г/дм3 Cu. Рисунок 1. Схема лабораторной установки. Предварительная серия опытов проводилась для определения влияния перемешивания на окисление железа. Опыты проводились в течение 300 мин, пробы отбирались каждые 100 мин. Указанная продолжительность опытов позволила снять кинетические кривые окисления железа, определить необходимую интенсивность перемешивания, обеспечивающую снятие диффузионных ограничений, для постановки дальнейших экспериментов.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "скорость перемешивания",
+          "name_en": "stirring speed",
+          "canonical": "stirring_speed"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация кислорода",
+          "name_en": "oxygen concentration",
+          "canonical": "oxygen_concentration"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "расход",
+          "name_en": "flow rate",
+          "canonical": "flow_rate"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "pH",
+          "name_en": "pH",
+          "canonical": "pH"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "temperature"
+        },
+        {
+          "id": "e6",
+          "type": "Property",
+          "name_ru": "концентрация никеля",
+          "name_en": "nickel concentration",
+          "canonical": "nickel_concentration"
+        },
+        {
+          "id": "e7",
+          "type": "Property",
+          "name_ru": "концентрация хлоридов",
+          "name_en": "chloride concentration",
+          "canonical": "chloride_concentration"
+        },
+        {
+          "id": "e8",
+          "type": "Property",
+          "name_ru": "концентрация сульфатов",
+          "name_en": "sulfate concentration",
+          "canonical": "sulfate_concentration"
+        },
+        {
+          "id": "e9",
+          "type": "Property",
+          "name_ru": "концентрация железа",
+          "name_en": "iron concentration",
+          "canonical": "iron_concentration"
+        },
+        {
+          "id": "e10",
+          "type": "Property",
+          "name_ru": "концентрация натрия",
+          "name_en": "sodium concentration",
+          "canonical": "sodium_concentration"
+        },
+        {
+          "id": "e11",
+          "type": "Property",
+          "name_ru": "концентрация меди",
+          "name_en": "copper concentration",
+          "canonical": "copper_concentration"
+        },
+        {
+          "id": "e12",
+          "type": "Process",
+          "name_ru": "окисление железа (II)",
+          "name_en": "oxidation of iron (II)",
+          "canonical": "oxidation_of_iron_II"
+        },
+        {
+          "id": "e13",
+          "type": "Equipment",
+          "name_ru": "лабораторная установка",
+          "name_en": "laboratory setup",
+          "canonical": "laboratory_setup"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e12",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "Условия базового (нулевого) опыта: 935 об/мин мешалки"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "40% О2 в подаваемой КВС"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "расход – 2 л/мин"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "pH раствора = 1,6"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e5",
+          "type": "operates_at_condition",
+          "evidence": "Температура раствора - 80оС"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "Состав раствора: 200-220 г/дм3 Ni"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e7",
+          "type": "uses_material",
+          "evidence": "250-260 г/дм3 Cl"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e8",
+          "type": "uses_material",
+          "evidence": "35-40 г/дм3 SO4"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e9",
+          "type": "uses_material",
+          "evidence": "8-10 г/дм3 Fe"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e10",
+          "type": "uses_material",
+          "evidence": "8-10 г/дм3 Na"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e11",
+          "type": "uses_material",
+          "evidence": "0,85-0,95 г/дм3 Cu"
+        },
+        {
+          "source_id": "e12",
+          "target_id": "e13",
+          "type": "uses_material",
+          "evidence": "Рисунок 1. Схема лабораторной установки"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "speed",
+          "op": "range",
+          "value_min": 935.0,
+          "value_max": 935.0,
+          "unit": "rpm",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "flow_rate",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "l/min",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "pH",
+          "op": "range",
+          "value_min": 1.6,
+          "value_max": 1.6,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 80.0,
+          "value_max": 80.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e6",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 200.0,
+          "value_max": 220.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e7",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 250.0,
+          "value_max": 260.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e8",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 35.0,
+          "value_max": 40.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e9",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 10.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e10",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 8.0,
+          "value_max": 10.0,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e11",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 0.85,
+          "value_max": 0.95,
+          "unit": "g/dm3",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c5": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c5",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "железа, определить необходимую интенсивность перемешивания, обеспечивающую снятие диффузионных ограничений, для постановки дальнейших экспериментов. Обсуждение результатов Влияние интенсивности перемешивания на окисление железа Для корректного сравнения условий перемешивания в конкретном лабораторном стакане с конкретной мешалкой определенного размера с другими условиями перемешивания (в частности, в промышленной практике перемешивание никелевого раствора осуществляется барботажем кислород-содержащей газовой фазой) было введено понятие удельной мощности перемешивания Eуд. Согласно [4], для аппарата с мешалкой Eуд рассчитывается как: , (5) где: N – мощность, расходуемая на перемешивание, Вт; V – полезный объем аппарата, м3; KN – коэффициент мощности мешалки, зависящий от конструкции мешалки и аппарата (табличная величина); - плотность пульпы, кг/м3; n – число оборотов мешалки, об/с; d – диаметр мешалки, м. При расчете удельной мощности были приняты следующие исходные данные, отвечающие условиям проведения экспериментов в лабораторной установке: d=0,04 м; V=0,0007 м3; тип мешалки – 6-ти лопастная турбинная с вертикальными лопатками в аппарате без отражательных перегородок с KN=8,4.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "перемешивание",
+          "name_en": "stirring",
+          "canonical": "stirring"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "лабораторная мешалка",
+          "name_en": "laboratory stirrer",
+          "canonical": "laboratory_stirrer"
+        },
+        {
+          "id": "e4",
+          "type": "Equipment",
+          "name_ru": "6-ти лопастная турбинная мешалка",
+          "name_en": "six-bladed turbine stirrer",
+          "canonical": "six_bladed_turbine_stirrer"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "для постановки дальнейших экспериментов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "в промышленной практике перемешивание никелевого раствора осуществляется барботажем кислород-содержащей газовой фазой"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "diameter",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 0.04,
+          "unit": "m",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "volume",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 0.0007,
+          "unit": "m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "KN",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 8.4,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c6": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c6",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "установке: d=0,04 м; V=0,0007 м3; тип мешалки – 6-ти лопастная турбинная с вертикальными лопатками в аппарате без отражательных перегородок с KN=8,4. Плотность раствора определялась с помощью плотномера в каждом конкретном случае. Рисунок 2. Кинетические кривые окисления железа (II) при различной интенсивности перемешивания. Из представленного графика 2 видно, как с увеличением удельной мощности перемешивания характер функции изменения концентрации железа по времени меняется от линейной (что типично для дифузионного режима) до классической кинетической кривой при мощностях перемешивания выше 662,0 Вт/м3 при скорости вращения мешалки выше 800 мин-1. Все дальнейшие опыты вели при скорости вращения мешалки 935 мин-1, что соответствовало удельной мощности перемешивания в пределах 1000 – 1150 Вт/м3 (диапазон обусловлен колебаниями состава раствора и его плотности). Влияние содержания О2 в КВС на окисление железа Следующий изучаемый фактор – влияние содержания кислорода в газовой смеси на скорость окисления железа. Содержание кислорода (выраженное в объёмных процентах) в газовой смеси изменяли в диапазоне от 20% об. до 100% об. В опыте с содержанием кислорода 100% об.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Equipment",
+          "name_ru": "установка перемешивания",
+          "name_en": "stirring apparatus",
+          "canonical": "stirring_apparatus"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "мощность перемешивания",
+          "name_en": "mixing power",
+          "canonical": "mixing_power"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "содержание кислорода",
+          "name_en": "oxygen content",
+          "canonical": "oxygen_content"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "плотность раствора",
+          "name_en": "solution density",
+          "canonical": "solution_density"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "влияния содержания кислорода в газовой смеси на скорость окисления железа"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "Все дальнейшие опыты вели при скорости вращения мешалки 935 мин-1"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "speed",
+          "op": "range",
+          "value_min": 800.0,
+          "value_max": 935.0,
+          "unit": "min-1",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "power",
+          "op": "range",
+          "value_min": 1000.0,
+          "value_max": 1150.0,
+          "unit": "W/m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c7": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c7",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ание кислорода (выраженное в объёмных процентах) в газовой смеси изменяли в диапазоне от 20% об. до 100% об. В опыте с содержанием кислорода 100% об. 99,9% железа было окислено до окончания эксперимента, т.е., менее чем за час, поэтому точка, отражающая долю окисленного железа в этом опыте, не отражена на графике (рисунок 5). Рисунок 5. Влияние содержания О2 в кислородно-воздушной смеси на скорость окисления железа. Очевидно, что существует прямая пропорциональная зависимость между концентрацией кислорода в газовой смеси и скоростью окисления железа. Это вполне объяснимо, т.к. скорость окисления железа зависит от содержания растворенного кислорода в объёме водной фазы, а оно, в свою очередь, определяется по закону Генри-Дальтона как: , (6) где: C – концентрация газа в растворе; KГ – константа Генри, моль/(л*Па); P – парциальное давление кислорода над раствором, Па. Схожие результаты были получены при окислении железа в работе [5] для растворов, содержащих 3М соляной кислоты и 2М хлорида натрия.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "процесс окисления железа",
+          "name_en": "iron oxidation process",
+          "canonical": "iron_oxidation_process"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "В опыте с содержанием кислорода 100% об. 99,9% железа было окислено"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Содержание кислорода в газовой смеси изменяли"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "oxygen_concentration",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "iron_oxidation",
+          "op": "ge",
+          "value_min": 99.9,
+          "value_max": null,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c8": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c8",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ад раствором, Па. Схожие результаты были получены при окислении железа в работе [5] для растворов, содержащих 3М соляной кислоты и 2М хлорида натрия. Порядки реакции по кислороду и железу Как отмечается в [6], для любой двусторонней реакции (такой как реакция 3) существует некоторый начальный промежуток времени, когда величина глубины протекания реакции мала, и двустороннюю реакцию можно рассматривать как одностороннюю. Для корректного определения порядков реакции по железу (в присутствии меди в растворе) и по кислороду выбрана глубина протекания реакции, равная 50% от исходного количества железа (II). Рисунок 6. График в координатах логарифма концентрации Fe2+ от времени. Глубина окисления железа (II) в условиях базового опыта (в присутствии 0,92 г/дм3 Cu, аналогично содержаниям, наблюдающимся в промышленной практике АО «Кольская ГМК») за час составила 47,5%, а в отсутствии меди (прямое окисление железа кислородом) за час составила 8,8%, что позволяет использовать данные экспериментов для построения графика в координатах логарифма концентрации Fe2+ от времени (рисунок 6). В литературе [7, 8] подробно разбирается механизм работы меди как иона-медиатора в процессе окисления железа.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "соляная кислота",
+          "name_en": "hydrochloric acid",
+          "canonical": "hydrochloric_acid"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "хлорид натрия",
+          "name_en": "sodium chloride",
+          "canonical": "sodium_chloride"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e5",
+          "type": "Experiment",
+          "name_ru": "окисление железа с медью",
+          "name_en": "iron oxidation with copper",
+          "canonical": "iron_oxidation_with_copper"
+        },
+        {
+          "id": "e6",
+          "type": "Experiment",
+          "name_ru": "прямое окисление железа",
+          "name_en": "direct iron oxidation",
+          "canonical": "direct_iron_oxidation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "Схожие результаты были получены при окислении железа в работе [5] для растворов, содержащих 3М соляной кислоты и 2М хлорида натрия"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "Схожие результаты были получены при окислении железа в работе [5] для растворов, содержащих 3М соляной кислоты и 2М хлорида натрия"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "Глубина окисления железа (II) в условиях базового опыта (в присутствии 0,92 г/дм3 Cu)"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 3.0,
+          "value_max": 3.0,
+          "unit": "M",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 2.0,
+          "value_max": 2.0,
+          "unit": "M",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 0.92,
+          "value_max": 0.92,
+          "unit": "g/dm3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "reaction_depth",
+          "op": "range",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "oxidation_depth",
+          "op": "range",
+          "value_min": 47.5,
+          "value_max": 47.5,
+          "unit": "%",
+          "condition": "в присутствии меди"
+        },
+        {
+          "entity_id": "e6",
+          "param": "oxidation_depth",
+          "op": "range",
+          "value_min": 8.8,
+          "value_max": 8.8,
+          "unit": "%",
+          "condition": "без меди"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c9": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c9",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "нцентрации Fe2+ от времени (рисунок 6). В литературе [7, 8] подробно разбирается механизм работы меди как иона-медиатора в процессе окисления железа. Как видно из рисунка 6, в высококонцентрированных никелевых хлоридных растворах ее роль медиатора сохраняется и ярко выражена. Согласно теории химической кинетики [9], такой график должен являться линейной функцией для реакции первого порядка по железу (в условиях постоянства концентрации кислорода в растворе), что и видно из рисунка 6. Таким образом, можно сделать вывод, что порядок реакции окисления по железу как в присутствии в растворе меди, так и без неё, неё равен единице. Схожие результаты были получены в работе [10] в ходе окисления железа в одномолярном растворе соляной кислоты при температуре 40 оС. Поскольку концентрация кислорода в газовой фазе постоянна на протяжении каждого конкретного опыта, сделать вывод о порядке реакции по кислороду получится только при сравнении опытов с разным содержанием кислорода в дутье.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "медь как ион-медиатор",
+          "name_en": "copper as mediator",
+          "canonical": "copper_as_mediator"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "никелевый хлоридный раствор",
+          "name_en": "nickel chloride solution",
+          "canonical": "nickel_chloride_solution"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "раствор соляной кислоты",
+          "name_en": "hydrochloric acid solution",
+          "canonical": "hydrochloric_acid_solution"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "механизм работы меди как иона-медиатора в процессе окисления железа"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "в высококонцентрированных никелевых хлоридных растворах ее роль медиатора сохраняется"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "окисления железа в одномолярном растворе соляной кислоты при температуре 40 оС"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "reaction_order",
+          "op": "eq",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "eq",
+          "value_min": 40.0,
+          "value_max": 40.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c10": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c10",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "каждого конкретного опыта, сделать вывод о порядке реакции по кислороду получится только при сравнении опытов с разным содержанием кислорода в дутье. Для односторонней реакции типа , которой можно считать в начальный период реакцию окисления железа, уравнение скорости имеет общий вид: , (7) где: CA – начальная концентрация реагента А, СB – начальная концентрация реагента В, n1 – порядок реакции по веществу А, n2 – порядок реакции по веществу В, - время протекания реакции, k – константа скорости реакции. Запишем уравнение скорости реакции железа в общем виде: , (8) где n – порядок реакции по кислороду (порядок по железу (II) принят равным 1). Для двух опытов, отличающихся только содержанием кислорода в газовой фазе, с учётом закона Генри-Дальтона (уравнение 6) и при одинаковой глубине протекания реакции (т.е.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железо",
+          "name_en": "iron",
+          "canonical": "iron"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "реакция окисления железа"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "порядок реакции по кислороду"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c11": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c11",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "азе, с учётом закона Генри-Дальтона (уравнение 6) и при одинаковой глубине протекания реакции (т.е. одинаковом изменении концентрации железа, достигаемом за разное время при разных концентрациях кислорода) справедливо следующее: (9) (10) Тогда отношение скоростей выразится уравнением: (11) После преобразования получим: (12) Отсюда: (13) На рисунке 7 представлены данные о глубине протекания реакции окисления (обозначим её как α) Fe2+ с течением времени при различной концентрации кислорода в газовой фазе. Рисунок 7. Зависимости доли прореагировавшего Fe2+ от времени при разном содержании О2 в КВС C помощью метода наименьших квадратов получены расчетные уравнения, по которым можно определить точное время, когда глубина окисления железа (II) для каждого конкретного эксперимента достигнет 50% (таблица 1). Таблица 1. Расчетные уравнения глубины протекания реакции окисления железа (II) и результат расчета порядка реакции по кислороду Порядок реакции для каждого эксперимента рассчитан по уравнению (13). В качестве P1 и 1 приняты параметры эксперимента, где содержание кислорода в газовой фазе составило 20% об., а в качестве P2 и 2 приняты параметры текущего эксперимента.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "газовая фаза",
+          "name_en": "gas phase",
+          "canonical": "gas_phase"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "реакции окисления Fe2+ с течением времени при различной концентрации кислорода в газовой фазе"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "uses_material",
+          "evidence": "в газовой фазе при разной концентрации кислорода"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e2",
+          "param": "oxygen_concentration",
+          "op": "range",
+          "value_min": null,
+          "value_max": 20.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c12": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c12",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "иняты параметры эксперимента, где содержание кислорода в газовой фазе составило 20% об., а в качестве P2 и 2 приняты параметры текущего эксперимента. Расчет показывает, что порядок реакции по кислороду во всех случаях равен единице. Схожий результат был получен в работе [10] в ходе окисления железа(II) в одномолярных растворах серной и соляной кислоты при температуре 40 оС. Влияние температуры раствора на окисление железа Следующий изученный в рамках данной работы фактор – влияние температуры никелевого раствора на скорость окисления железа. Температура варьировалась от 60оС до 90оС с шагом в 10оС. Рисунок 8. Влияние температуры раствора на скорость окисления железа Из графика 8 видно, что с некоторой погрешностью (коэффициент детерминации R2 = 0,89) влияние температуры на скорость окисления железа можно представить линейной зависимостью, причем при повышении температуры на каждые 10 оС скорость окисления возрастает приблизительно на 10%. Энергию активации для реакции окисления железа определяли по графику в координатах Аррениуса (ось абсцисс – обратная температура (1/Т); ось ординат– логарифм константы скорости реакции ln k).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "газовая фаза",
+          "name_en": "gas phase",
+          "canonical": "gas_phase"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "никелевый раствор",
+          "name_en": "nickel solution",
+          "canonical": "nickel_solution"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "определение энергии активации",
+          "name_en": "determination of activation energy",
+          "canonical": "activation_energy_determination"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "содержание кислорода в газовой фазе составило 20% об."
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "влияние температуры никелевого раствора на скорость окисления железа"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "oxygen_content",
+          "op": "eq",
+          "value_min": 20.0,
+          "value_max": 20.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 90.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "activation_energy",
+          "op": "eq",
+          "value_min": null,
+          "value_max": null,
+          "unit": "unknown",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c13": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c13",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "леза определяли по графику в координатах Аррениуса (ось абсцисс – обратная температура (1/Т); ось ординат– логарифм константы скорости реакции ln k). В условиях, когда концентрация одного из реагентов постоянна (к примеру, при постоянном уровне подачи одного из реагентов (в данном случае, кислород с газовой фазой), а реакция имеет первый порядок по железу (II), (что было установлено ранее) уравнение скорости (7) упрощается, приобретая следующий вид: . (14) Для реакции первого порядка константа скорости рассчитывается, как: , (15) где: - время с начала протекания реакции, с; C0 – исходная концентрация железа (II), моль/л; C – концентрация железа (II) на момент времени , моль/л. Результаты расчета константы скорости реакции окисления (в присутствии меди) представлены в таблице 2. Таблица 2. Расчётные значения константы скорости при разной температуре Уравнение Аррениуса (16) в прологарифмированном виде имеет вид (17): , (16) , (17) где: k – константа скорости реакции, с-1; A – предэкспоненциальный множитель; Ea – энергия активации, Дж/моль; R – универсальная газовая постоянная, R = 8,314 Дж/(моль*К); T – абсолютная температура, К. Рисунок 9.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "железо (II)",
+          "name_en": "iron (II)",
+          "canonical": "iron_II"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация железа (II)",
+          "name_en": "concentration of iron (II)",
+          "canonical": "iron_II_concentration"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "абсолютная температура",
+          "name_en": "absolute temperature",
+          "canonical": "absolute_temperature"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "расчёт скорости реакции",
+          "name_en": "reaction rate calculation",
+          "canonical": "reaction_rate_calculation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "концентрация одного из реагентов постоянна (к примеру, при постоянном уровне подачи одного из реагентов (в данном случае, кислород с газовой фазой), а реакция имеет первый порядок по железу (II))"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "концентрация одного из реагентов постоянна (к примеру, при постоянном уровне подачи одного из реагентов (в данном случае, кислород с газовой фазой), а реакция имеет первый порядок по железу (II))"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "concentration",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "mol/l",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "temperature",
+          "op": "range",
+          "value_min": null,
+          "value_max": null,
+          "unit": "K",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c14": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c14",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ый множитель; Ea – энергия активации, Дж/моль; R – универсальная газовая постоянная, R = 8,314 Дж/(моль*К); T – абсолютная температура, К. Рисунок 9. График построения в координатах Аррениуса На графике 9, в линейной функции вида y = kx + b, угловой коэффициент прямой k соответствует значению в уравнении (17) и имеет значение, равное -1724,4. Для построения графика использовались средние значения k из таблицы 2. Соответственно, расчетная энергия активации составляет 14,34 кДж/моль. Такое значение выглядит аномальным, поскольку согласно теории химической кинетики гетерогенных процессов [11], оно указывает на диффузионный либо переходный режим протекания реакции, хотя, как было заключено ранее, процесс окисления железа ведется в кинетической области, которой должны соответствовать значения энергии активации выше 40 кДж/моль.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "энергия активации",
+          "name_en": "activation energy",
+          "canonical": "activation_energy"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "универсальная газовая постоянная",
+          "name_en": "universal gas constant",
+          "canonical": "universal_gas_constant"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "расчетная энергия активации",
+          "name_en": "calculated activation energy",
+          "canonical": "calculated_activation_energy"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "теоретическое значение энергии активации",
+          "name_en": "theoretical activation energy",
+          "canonical": "theoretical_activation_energy"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "iron oxidation",
+          "canonical": "iron_oxidation"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e3",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "расчетная энергия активации составляет 14,34 кДж/моль"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e5",
+          "type": "contradicts",
+          "evidence": "Согласно теории химической кинетики гетерогенных процессов, значение энергии активации выше 40 кДж/моль соответствует кинетической области"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "activation_energy",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 14.34,
+          "unit": "kJ/mol",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "activation_energy",
+          "op": "eq",
+          "value_min": null,
+          "value_max": 40.0,
+          "unit": "kJ/mol",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c15": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c15",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "железа ведется в кинетической области, которой должны соответствовать значения энергии активации выше 40 кДж/моль. Причиной такого несоответствия является тот факт, что с повышением температуры раствора снижается растворимость кислорода и, соответственно, его равновесное содержание в объёме раствора (учитывая протекание реакции окисления железа, оно должно быть значительно меньше предела растворимости), которое, как было установлено ранее, значительно влияет на скорость окисления железа. В результате, увеличение температуры раствора оказывает сложное разнонаправленное влияние, с одной стороны снижая равновесную концентрацию кислорода в растворе, а с другой положительно влияя на кинетику окисления и повышая скорость усвоения кислорода раствором. Полученную величину энергию активации с учетом искажений, вносимых изменением растворимости кислорода, следует назвать “кажущейся”. Для оценки истинной энергии активации потребовалось определить поправочный коэффициент учёта снижения растворимости кислорода.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа",
+          "name_en": "oxidation of iron",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "растворимость кислорода",
+          "name_en": "solubility of oxygen",
+          "canonical": "oxygen_solubility"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "концентрация кислорода",
+          "name_en": "concentration of oxygen",
+          "canonical": "oxygen_concentration"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "с повышением температуры раствора снижается растворимость кислорода"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "увеличение температуры раствора оказывает сложное разнонаправленное влияние, с одной стороны снижая равновесную концентрацию кислорода в растворе"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "activation_energy",
+          "op": "ge",
+          "value_min": 40.0,
+          "value_max": null,
+          "unit": "kJ/mol",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c16": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c16",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "т назвать “кажущейся”. Для оценки истинной энергии активации потребовалось определить поправочный коэффициент учёта снижения растворимости кислорода. К сожалению, в литературе не удалось найти данных о растворимости кислорода в растворах состава, подобных исследуемому в данной работе, поэтому для оценочных расчетов были использованы справочные данные о растворимости кислорода воздуха в чистой воде в температурном диапазоне 0-100оС (рисунок 10). При расчете поправочного коэффициента было сделано допущение, что характер зависимости (форма кривой) растворимости кислорода от температуры в целом сохраняется в концентрированном никелевом растворе. Очень приближенной количественной оценкой предела растворимости кислорода воздуха можно считать данные из [12], оценивающиеся как <50 μmol/kg[H2O] для 5.5М раствора MgCl2 при температуре 318,15оК (45оС). Схожий уровень растворимости кислорода воздуха характерен для 6М раствора NaCl при температуре 298оК (25оС). Рисунок 10. Справочные данные о растворимости кислорода воздуха в воде Поправочный коэффициент обозначим символом s.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "растворимость кислорода",
+          "name_en": "oxygen solubility",
+          "canonical": "oxygen_solubility"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "никелевый раствор",
+          "name_en": "nickel solution",
+          "canonical": "nickel_solution"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "раствор MgCl2",
+          "name_en": "MgCl2 solution",
+          "canonical": "mgcl2_solution"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "вода",
+          "name_en": "water",
+          "canonical": "water"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "растворимость кислорода в воде"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "растворимость кислорода в никелевом растворе"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "operates_at_condition",
+          "evidence": "растворимость кислорода воздуха в 5.5М растворе MgCl2"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e4",
+          "param": "solubility",
+          "op": "le",
+          "value_min": null,
+          "value_max": 50.0,
+          "unit": "μmol/kg",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 0.0,
+          "value_max": 100.0,
+          "unit": "C",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c17": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c17",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "Cl при температуре 298оК (25оС). Рисунок 10. Справочные данные о растворимости кислорода воздуха в воде Поправочный коэффициент обозначим символом s. Рассчитаем s как: , (18) где: ST0 – растворимость кислорода при температуре раствора 60оС, мг/дм3; STx – растворимость кислорода при другой температуре раствора, мг/дм3; Далее рассчитаем константу скорости с учетом поправочного коэффициента по уравнению (19): . (19) Результаты расчетов приведены в таблице 3. Таблица 3. Расчёт коэффициента s и константы скорости с его учетом. Рисунок 11. Экспоненциальная зависимость k поправочной от температуры. Согласно теории химической кинетики [11], если гетерогенный процесс в некотором диапазоне изменения параметров его проведения лимитируется химической реакцией, то k экспоненциально увеличивается с ростом температуры. Именно такая зависимость наблюдается при построении графика kпоправочная от температуры (рисунок 11) с коэффициентом корреляции R2 = 0,998. Рисунок 12. График построения в координатах Аррениуса c kпоправочной. График 12 в координатах Аррениуса с использованием поправочной величины константы скорости (рисунок 12) также обладает высоким коэффициентом корреляции R2 = 0,995.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "растворимость кислорода в воде",
+          "name_en": "oxygen solubility in water",
+          "canonical": "oxygen_solubility"
+        },
+        {
+          "id": "e2",
+          "type": "Process",
+          "name_ru": "влияние температуры на растворимость",
+          "name_en": "temperature effect on solubility",
+          "canonical": "temperature_effect"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "экспоненциальная зависимость k поправочной от температуры",
+          "name_en": "exponential dependence of k_corrected on temperature",
+          "canonical": "k_corrected_temp"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "график в координатах Аррениуса с k поправочной",
+          "name_en": "Arrhenius plot with k_corrected",
+          "canonical": "arrhenius_plot"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e2",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "влияние температуры на растворимость кислорода в воде"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "экспоненциальная зависимость k поправочной от температуры"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "график в координатах Аррениуса c k поправочной"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 25.0,
+          "value_max": 60.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e3",
+          "param": "R2",
+          "op": "eq",
+          "value_min": 0.998,
+          "value_max": 0.998,
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "R2",
+          "op": "eq",
+          "value_min": 0.995,
+          "value_max": 0.995,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c18": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c18",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ординатах Аррениуса с использованием поправочной величины константы скорости (рисунок 12) также обладает высоким коэффициентом корреляции R2 = 0,995. Расчетная энергия активации при использовании kпоправочной составляет 48,18 кДж/моль, что вполне согласуется со сделанным ранее заключением о протекании реакции окисления железа в кинетическом режиме. Практически идеальная точность кривых, полученных после проведенных преобразований, позволяет предположить, что гипотеза о влиянии изменения растворимости кислорода в исследованном диапазоне температур и допущение о характере зависимости растворимости кислорода от изменения температуры раствора верны. Заключение В результате проведенных исследований для процесса окисления железа (II) применительно к концентрированным хлоридным никелевым растворам с присутствием меди определены: необходимая мощность перемешивания (>662 Вт/м3), которая позволит обеспечить максимально эффективный кинетический режим окисления железа (II).",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа (II)",
+          "name_en": "iron (II) oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "концентрированный хлоридный никелевый раствор",
+          "name_en": "concentrated chloride nickel solution",
+          "canonical": "nickel_chloride_solution"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e4",
+          "type": "Property",
+          "name_ru": "энергия активации",
+          "name_en": "activation energy",
+          "canonical": "activation_energy"
+        },
+        {
+          "id": "e5",
+          "type": "Property",
+          "name_ru": "коэффициент корреляции",
+          "name_en": "correlation coefficient",
+          "canonical": "correlation_coefficient"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "применительно к концентрированным хлоридным никелевым растворам с присутствием меди"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "produces_output",
+          "evidence": "определена необходимая мощность перемешивания"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "produces_output",
+          "evidence": "обладает высоким коэффициентом корреляции R2 = 0,995"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "stirring_power",
+          "op": "ge",
+          "value_min": 662.0,
+          "value_max": null,
+          "unit": "W/m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "activation_energy",
+          "op": "eq",
+          "value_min": 48.18,
+          "value_max": 48.18,
+          "unit": "kJ/mol",
+          "condition": ""
+        },
+        {
+          "entity_id": "e5",
+          "param": "correlation_coefficient",
+          "op": "eq",
+          "value_min": 0.995,
+          "value_max": 0.995,
+          "unit": "",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c19": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c19",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "елены: необходимая мощность перемешивания (>662 Вт/м3), которая позволит обеспечить максимально эффективный кинетический режим окисления железа (II). Мощность выражена в специальной величине удельной мощности перемешивания Eуд, что позволяет использовать полученные лабораторные данные в реальной промышленной практике для оптимизации процесса; порядок реакции окисления железа (II) по железу (II), равный 1; порядок реакции окисления железа (II) по кислороду, равный 1; значения константы скорости k окисления железа (II) при различных температурах; энергия активации реакции окисления железа (II) с учетом влияния температуры на растворимость кислорода (48,18 кДж/моль) и без учета этого фактора (14,34 кДж/моль, “кажущаяся” энергия активации). Полученные данные могут быть использованы для моделирования процесса в непрерывном режиме, количественной оценки скорости окисления железа (II) в различных условиях, выработки мер по оптимизации работы соответствующего очистного передела в промышленной практике.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа (II)",
+          "name_en": "iron (II) oxidation",
+          "canonical": "iron_ii_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "кислород",
+          "name_en": "oxygen",
+          "canonical": "oxygen"
+        },
+        {
+          "id": "e3",
+          "type": "Material",
+          "name_ru": "железо (II)",
+          "name_en": "iron (II)",
+          "canonical": "iron_ii"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "реакция окисления железа (II)",
+          "name_en": "reaction of iron (II) oxidation",
+          "canonical": "iron_ii_oxidation_reaction"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e1",
+          "type": "operates_at_condition",
+          "evidence": "необходимая мощность перемешивания (>662 Вт/м3), которая позволит обеспечить максимально эффективный кинетический режим окисления железа (II)"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "порядок реакции окисления железа (II) по кислороду, равный 1"
+        },
+        {
+          "source_id": "e4",
+          "target_id": "e3",
+          "type": "produces_output",
+          "evidence": "порядок реакции окисления железа (II) по железу (II), равный 1"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "mixing_power",
+          "op": "ge",
+          "value_min": 662.0,
+          "value_max": null,
+          "unit": "W/m3",
+          "condition": ""
+        },
+        {
+          "entity_id": "e4",
+          "param": "activation_energy",
+          "op": "eq",
+          "value_min": 48.18,
+          "value_max": null,
+          "unit": "kJ/mol",
+          "condition": "с учётом влияния температуры на растворимость кислорода"
+        },
+        {
+          "entity_id": "e4",
+          "param": "apparent_activation_energy",
+          "op": "eq",
+          "value_min": 14.34,
+          "value_max": null,
+          "unit": "kJ/mol",
+          "condition": "без учёта влияния температуры на растворимость кислорода"
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c20": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c20",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "скорости окисления железа (II) в различных условиях, выработки мер по оптимизации работы соответствующего очистного передела в промышленной практике. Дальнейшим перспективным направлением работы авторам представляется качественная и количественная оценка влияния pH раствора на скорость окисления железа (II), а также определение и количественная оценка зависимости скорости окисления железа (II) от состава раствора: содержания в нем меди и характера анионного фона (содержания Cl-, SO42-, их соотношения между собой), ионной силы раствора. Библиографический список Пашков, Г.Л. Цветные металлы 2013: сборник докладов V Международного конгресса, 4-6 сентября 2013 г., Красноярск / Г.Л. Пашков, Поляков П.В. – Красноярск: Версо, 2013 – 691 с. Клименко И.В. Оптимизация режимов железоочистки высококонцентрированных хлоридных растворов в условиях перехода на технологию электроэкстракции никеля / И.В. Клименко, М.Б. Грейвер, А.Н. Шелопутов // Цветные металлы – 2024. - № 974 – С. 8 -18. Цапах, С.Л. Железоочистка высокохлоридных никелевых растворов / С.Л. Цапах, И.Э. Мальц, А.Ю. Четверкин, П.В. Смирнов // Цветные металлы – 2019. - № 923 – С. 61-66.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа (II)",
+          "name_en": "iron (II) oxidation",
+          "canonical": "iron_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Material",
+          "name_ru": "высококонцентрированные хлоридные растворы",
+          "name_en": "highly concentrated chloride solutions",
+          "canonical": "highly_concentrated_chloride_solutions"
+        },
+        {
+          "id": "e3",
+          "type": "Process",
+          "name_ru": "электроэкстракция никеля",
+          "name_en": "nickel electrowinning",
+          "canonical": "nickel_electrowinning"
+        },
+        {
+          "id": "e4",
+          "type": "Material",
+          "name_ru": "медь",
+          "name_en": "copper",
+          "canonical": "copper"
+        },
+        {
+          "id": "e5",
+          "type": "Material",
+          "name_ru": "анионы хлора",
+          "name_en": "chloride ions",
+          "canonical": "chloride_ions"
+        },
+        {
+          "id": "e6",
+          "type": "Material",
+          "name_ru": "сульфат-ионы",
+          "name_en": "sulfate ions",
+          "canonical": "sulfate_ions"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "оптимизация работы очистного передела в промышленной практике"
+        },
+        {
+          "source_id": "e3",
+          "target_id": "e2",
+          "type": "uses_material",
+          "evidence": "переход на технологию электроэкстракции никеля"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "operates_at_condition",
+          "evidence": "оценка влияния pH раствора на скорость окисления железа (II)"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "зависимость скорости окисления железа (II) от состава раствора: содержания в нем меди"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e5",
+          "type": "uses_material",
+          "evidence": "содержания Cl-"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e6",
+          "type": "uses_material",
+          "evidence": "содержания SO42-"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "medium"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c21": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c21",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "лезоочистка высокохлоридных никелевых растворов / С.Л. Цапах, И.Э. Мальц, А.Ю. Четверкин, П.В. Смирнов // Цветные металлы – 2019. - № 923 – С. 61-66. «Расчёты и выбор механических перемешивающих устройств вертикальных емкостных аппаратов». С.В.Карпушкин, М.Н.Краснянский, А.Б.Борисенко. Издательство ТГТУ, г. Тамбов, 2009. Masao Iwai, Hiroshi Majima, Toshio Izaki. A kinetic study on the oxidation of ferrous ion with dissolved molecular oxygen. Denki Kagaku. 1979. Vol. 7, No. 7. pp. 409–414. «Кинетика сложных реакций. Учебное пособие». Ю.Н.Макурин, Е.И.Степановских, Л.А.Брусницына. Издательство УГТУ-УПИ, г. Екатеринбург, 2008. Muir D.M., Benari M.D., Clare B.W., Mangano P., Parker A.J. Removal of iron and formation of copper(I) from solutions, containing iron(II) and copper (II) by addition of chloride ion or acetonitrile // Hydrometallurgy. 1983. Vol. 9. P. 257-275. Yufan Chen, Yong Feng, Huaqiang Chu, Deli Wu, Yalei Zhang. Cu(II)-enhanced activation of molecular oxygen using Fe(II): Factors affecting the yield of oxidants // Chemosphere. 2019. Vol. 221, P. 383-391. «Химическая кинетика и катализ. Часть 1». А.А. Кубасов. Москва: Изд-во Московского университета, 2004 г. Nicol M.J.",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Material",
+          "name_ru": "никелевый раствор",
+          "name_en": "nickel solution",
+          "canonical": "nickel_solution"
+        },
+        {
+          "id": "e2",
+          "type": "Equipment",
+          "name_ru": "механическое перемешивающее устройство",
+          "name_en": "mechanical mixing device",
+          "canonical": "mechanical_mixing_device"
+        },
+        {
+          "id": "e3",
+          "type": "Equipment",
+          "name_ru": "вертикальный емкостной аппарат",
+          "name_en": "vertical tank apparatus",
+          "canonical": "vertical_tank_apparatus"
+        },
+        {
+          "id": "e4",
+          "type": "Process",
+          "name_ru": "железоочистка",
+          "name_en": "iron removal",
+          "canonical": "iron_removal"
+        },
+        {
+          "id": "e5",
+          "type": "Process",
+          "name_ru": "окисление двухвалентного железа",
+          "name_en": "oxidation of ferrous ion",
+          "canonical": "oxidation_of_ferrous_ion"
+        },
+        {
+          "id": "e6",
+          "type": "Process",
+          "name_ru": "гидрометаллургия",
+          "name_en": "hydrometallurgy",
+          "canonical": "hydrometallurgy"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e4",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "железоочистка высокохлоридных никелевых растворов"
+        },
+        {
+          "source_id": "e2",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "Расчёты и выбор механических перемешивающих устройств вертикальных емкостных аппаратов"
+        },
+        {
+          "source_id": "e5",
+          "target_id": "e1",
+          "type": "produces_output",
+          "evidence": "A kinetic study on the oxidation of ferrous ion with dissolved molecular oxygen"
+        },
+        {
+          "source_id": "e6",
+          "target_id": "e1",
+          "type": "uses_material",
+          "evidence": "Removal of iron and formation of copper(I) from solutions, containing iron(II) and copper (II) by addition of chloride ion or acetonitrile"
+        }
+      ],
+      "constraints": [],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "low"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c22": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c22",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "here. 2019. Vol. 221, P. 383-391. «Химическая кинетика и катализ. Часть 1». А.А. Кубасов. Москва: Изд-во Московского университета, 2004 г. Nicol M.J. A comparative study of the kinetics of the oxidation of iron(II) by oxygen in acidic media – mechanistic and practical implications. Hydrometallurgy. 2020. Vol. 192. 105246. DOI:10.1016/j.hydromet.2020.105246 «Химическая кинетика гетерогенных процессов. Учебное пособие». А.Н. Дьяченко, В.В. Шагалов. Издательство Томского политехнического университета, 2014. Bok F., Moog H.C., Brendler V. The solubility of oxygen in water and saline solutions // Frontiers in Nuclear Engineering. 2023. Vol. 2. Содержание О2 в газовой фазе, % об. | Расчетное уравнение | Время достижения глубины протекания реакции α = 50% | Расчетный порядок реакции по кислороду 20% | α = 0,004514· | 110,77 | - 40% | α = 0,000020·2 + 0,007833· | 55,88 | 1,0 60% | α = -0,000031·2 + 0,014611· | 37,15 | 1,0 80% | α = -0,000089·2 + 0,021448· | 26,13 | 1,0 100% | α = -0,000155·2 + 0,027595· | 20,47 | 1,0 Время, с | Температура, оС | Температура, оС | Температура, оС | Температура, оС Время, с | 60 | 70 | 80 | 90 0 | - | - | - | - 600 | 0,000041 | 0,000092 | 0,000215 |",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Process",
+          "name_ru": "окисление железа(II) кислородом",
+          "name_en": "oxidation of iron(II) by oxygen",
+          "canonical": "iron_ii_oxidation"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "глубина протекания реакции",
+          "name_en": "reaction depth",
+          "canonical": "reaction_depth"
+        },
+        {
+          "id": "e3",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "temperature"
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "e1",
+          "target_id": "e4",
+          "type": "uses_material",
+          "evidence": "окисление железа(II) кислородом в кислой среде"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e2",
+          "type": "produces_output",
+          "evidence": "время достижения глубины протекания реакции"
+        },
+        {
+          "source_id": "e1",
+          "target_id": "e3",
+          "type": "operates_at_condition",
+          "evidence": "температура влияет на скорость реакции"
+        }
+      ],
+      "constraints": [
+        {
+          "entity_id": "e3",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 60.0,
+          "value_max": 90.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e1",
+          "param": "oxygen_concentration",
+          "op": "range",
+          "value_min": 20.0,
+          "value_max": 100.0,
+          "unit": "%",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "reaction_depth",
+          "op": "range",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit": "%",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2020,
+        "confidence": "high"
+      }
+    }
+  },
+  "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c23": {
+    "chunk": {
+      "chunk_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)::p1::c23",
+      "doc_id": "Статьи__28 Статья - Клименко И.В. (ЛГМ)",
+      "source": "data/raw/Статьи/28 Статья - Клименко И.В. (ЛГМ).docx",
+      "page": 1,
+      "lang": "ru",
+      "text": "ратура, оС | Температура, оС | Температура, оС | Температура, оС Время, с | 60 | 70 | 80 | 90 0 | - | - | - | - 600 | 0,000041 | 0,000092 | 0,000215 | 0,000121 1200 | 0,000110 | 0,000136 | 0,000127 | 0,000147 1800 | 0,000126 | 0,000151 | 0,000154 | 0,000171 2400 | 0,000101 | 0,000141 | 0,000182 | 0,000178 3000 | 0,000146 | 0,000154 | 0,000167 | 0,000180 3600 | 0,000150 | 0,000180 | 0,000179 | 0,000219 Среднее значение k | 0,000112 | 0,000142 | 0,000171 | 0,000169 T, К | S(O2), мг/дм3 | k, с-1 | s | kпоправочная, с-1 333 | 4,80 | 0,000112 | 1,00 | 0,000112 343 | 4,01 | 0,000142 | 0,83 | 0,000170 353 | 2,90 | 0,000171 | 0,60 | 0,000283 363 | 1,73 | 0,000169 | 0,36 | 0,000470",
+      "doc_type": "Статьи",
+      "path_year": null,
+      "path_geo": null,
+      "meta_year": 2024
+    },
+    "extraction": {
+      "entities": [
+        {
+          "id": "e1",
+          "type": "Property",
+          "name_ru": "температура",
+          "name_en": "temperature",
+          "canonical": "temperature"
+        },
+        {
+          "id": "e2",
+          "type": "Property",
+          "name_ru": "концентрация кислорода",
+          "name_en": "oxygen concentration",
+          "canonical": "oxygen_concentration"
+        }
+      ],
+      "relations": [],
+      "constraints": [
+        {
+          "entity_id": "e1",
+          "param": "temperature",
+          "op": "range",
+          "value_min": 333.0,
+          "value_max": 363.0,
+          "unit": "C",
+          "condition": ""
+        },
+        {
+          "entity_id": "e2",
+          "param": "concentration",
+          "op": "range",
+          "value_min": 1.73,
+          "value_max": 4.8,
+          "unit": "mg/dm3",
+          "condition": ""
+        }
+      ],
+      "metadata": {
+        "lang": "ru",
+        "geography": "RU",
+        "year": 2021,
+        "confidence": "high"
+      }
+    }
+  }
+}
