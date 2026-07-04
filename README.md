@@ -122,11 +122,15 @@ described_in, validated_by, contradicts, expert_in.
 | NLP: DeepPavlov, spaCy, ruBERT | **LLM structured output** (YandexGPT) + langdetect | корпус двуязычный (RU+EN), извлекаются не только сущности, но и связи + числовые ограничения с нормализацией единиц — классические NER-модели потребовали бы разметки и дообучения под домен |
 | Онтологии: OWL, RDF, SHACL | онтология-контракт в коде (`schema/ontology.py`) + **экспорт в JSON-LD** (`scripts/export_jsonld.py`) | JSON-LD — сериализация RDF: граф загружается в Apache Jena/GraphDB, совместим с принципами FAIR |
 
-## Развёртывание на сервере
+## Развёртывание
 
-Extraction гоняется локально, на сервер заливаются только готовые `data/processed/*.json` —
-из них строится граф + векторная БД. Полная инструкция: **[DEPLOY.md](DEPLOY.md)**
-(`Dockerfile` + `docker-compose.prod.yml`: Neo4j с healthcheck + приложение, Neo4j наружу не торчит).
+- **Публичная демо-ссылка без карт и регистраций** — всё в docker + Cloudflare quick tunnel
+  (Neo4j и приложение локально, наружу отдаёт `cloudflared`, граф строится из
+  закоммиченных `data/processed/*.json`): **[CLOUDFLARE_TUNNEL.md](CLOUDFLARE_TUNNEL.md)**,
+  одна команда `docker compose -f docker-compose.tunnel.yml up --build`.
+- **Свой сервер** (Neo4j наружу не торчит) — **[DEPLOY.md](DEPLOY.md)**
+  (`Dockerfile` + `docker-compose.prod.yml`). Extraction гоняется локально, на сервер
+  заливаются только готовые `data/processed/*.json`, из них строится граф.
 
 ## Полезные ссылки
 

@@ -12,6 +12,16 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 import streamlit as st
+
+# Streamlit Community Cloud отдаёт секреты через st.secrets, а config.py читает
+# os.environ. Пробрасываем ДО импорта проектных модулей (config исполняется на импорте).
+try:
+    for _k, _v in st.secrets.items():
+        if isinstance(_v, (str, int, float)):
+            os.environ.setdefault(_k, str(_v))
+except Exception:  # noqa: BLE001
+    pass  # локально secrets.toml может отсутствовать — не страшно
+
 import streamlit.components.v1 as components
 from pyvis.network import Network
 
@@ -58,20 +68,72 @@ LEVEL_META = {
 
 st.markdown(f"""
 <style>
-  .block-container {{ padding-top: 1.2rem; max-width: 1400px; }}
+  /* убираем «прототипную» обвязку Streamlit — выглядит как продукт, а не демо */
+  #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"],
+  [data-testid="stStatusWidget"] {{ display: none !important; }}
+
+  html, body, [class*="css"] {{
+    font-family: -apple-system, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif;
+  }}
+  .stApp {{
+    background:
+      radial-gradient(900px 500px at 12% -8%, rgba(57,135,229,.10), transparent 60%),
+      radial-gradient(700px 500px at 100% 0%, rgba(25,158,112,.08), transparent 55%),
+      {SURFACE};
+  }}
+  .block-container {{ padding-top: 1.4rem; max-width: 1360px; }}
+
+  /* заголовки секций — тонкий акцентный маркер слева */
+  .stMarkdown h3 {{
+    font-size: 1.12rem; margin: 1.4rem 0 .5rem; padding-left: .7rem;
+    border-left: 3px solid {ACCENT};
+  }}
+
   /* герой-шапка */
   .hero {{
-    background: linear-gradient(135deg, #14263e 0%, #10201c 60%, {SURFACE} 100%);
-    border: 1px solid {BORDER}; border-radius: 16px;
-    padding: 1.4rem 1.8rem; margin-bottom: 1rem;
+    background: linear-gradient(135deg, #16294356 0%, #10201c99 55%, {SURFACE} 100%);
+    border: 1px solid {BORDER}; border-radius: 18px;
+    padding: 1.5rem 1.9rem; margin-bottom: 1.1rem;
+    box-shadow: 0 10px 40px -24px rgba(0,0,0,.7);
   }}
-  .hero h1 {{ margin: 0; font-size: 1.65rem; letter-spacing: .2px; }}
-  .hero p {{ margin: .35rem 0 0; color: {TEXT_MUTED}; font-size: .95rem; }}
-  .stat-pills {{ display: flex; gap: .6rem; flex-wrap: wrap; margin-top: .9rem; }}
+  .hero h1 {{ margin: 0; font-size: 1.7rem; font-weight: 700; letter-spacing: .2px; }}
+  .hero p {{ margin: .4rem 0 0; color: {TEXT_MUTED}; font-size: .96rem; max-width: 820px; }}
+  .stat-pills {{ display: flex; gap: .55rem; flex-wrap: wrap; margin-top: 1rem; }}
   .pill {{
     background: rgba(57,135,229,.12); border: 1px solid rgba(57,135,229,.35);
-    color: #cfe3fb; border-radius: 999px; padding: .25rem .8rem; font-size: .82rem;
+    color: #cfe3fb; border-radius: 999px; padding: .3rem .85rem; font-size: .82rem;
+    font-variant-numeric: tabular-nums;
   }}
+
+  /* вкладки */
+  .stTabs [data-baseweb="tab-list"] {{ gap: .3rem; border-bottom: 1px solid {BORDER}; }}
+  .stTabs [data-baseweb="tab"] {{
+    padding: .5rem 1rem; border-radius: 10px 10px 0 0; font-weight: 600;
+  }}
+  .stTabs [aria-selected="true"] {{ background: {CARD_BG}; color: #dbe7ff; }}
+
+  /* кнопки */
+  .stButton > button, .stDownloadButton > button {{
+    border-radius: 10px; border: 1px solid {BORDER}; font-weight: 500;
+    transition: border-color .15s, transform .05s, background .15s;
+  }}
+  .stButton > button:hover, .stDownloadButton > button:hover {{
+    border-color: {ACCENT}; color: #dbe7ff;
+  }}
+  .stButton > button:active {{ transform: translateY(1px); }}
+  .stButton > button[kind="primary"] {{
+    background: linear-gradient(180deg, #3f92ee, {ACCENT}); border: 0;
+    box-shadow: 0 8px 24px -12px rgba(57,135,229,.9);
+  }}
+
+  /* поля ввода и экспандеры */
+  .stTextArea textarea {{
+    background: {CARD_BG}; border: 1px solid {BORDER}; border-radius: 12px;
+  }}
+  [data-testid="stExpander"] {{
+    border: 1px solid {BORDER}; border-radius: 12px; background: {CARD_BG};
+  }}
+
   /* карточки уровней ReAct */
   .lvl-card {{
     border: 1px solid {BORDER}; border-left: 4px solid {ACCENT};
@@ -87,21 +149,28 @@ st.markdown(f"""
   }}
   .chip.miss {{ border-color: rgba(230,103,103,.5); color: #f0b5b5; }}
   .chip.ok   {{ border-color: rgba(25,158,112,.5);  color: #a9dcc7; }}
+
   /* карточка ответа */
   .answer-card {{
     border: 1px solid {BORDER}; background: {CARD_BG};
     border-radius: 14px; padding: 1.2rem 1.4rem;
+    box-shadow: 0 10px 40px -28px rgba(0,0,0,.7);
   }}
+
   /* легенда графа */
   .legend {{ display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: .4rem 0 .6rem; }}
   .legend span {{ font-size: .82rem; color: {TEXT_MUTED}; }}
   .dot {{ display:inline-block; width:10px; height:10px; border-radius:50%;
           margin-right:.35rem; vertical-align:-1px; }}
+  iframe {{ border-radius: 12px; border: 1px solid {BORDER}; }}
+
   /* источники */
   .src-card {{
     border: 1px solid {BORDER}; background: {CARD_BG}; border-radius: 10px;
     padding: .55rem .8rem; margin-bottom: .45rem; font-size: .86rem;
+    transition: border-color .15s;
   }}
+  .src-card:hover {{ border-color: {ACCENT}; }}
   .src-meta {{ color: {TEXT_MUTED}; font-size: .78rem; }}
   .conf-high {{ color: #7fd6a8; }} .conf-medium {{ color: #e8c46a; }} .conf-low {{ color: #f0938a; }}
   div[data-testid="stMetric"] {{
@@ -143,7 +212,34 @@ def _entity_type(labels):
     return "Entity"
 
 
+@st.cache_resource(show_spinner="Первый запуск: строю граф из data/processed/ …")
+def _ensure_graph():
+    """Автосборка графа из закоммиченных JSON, если он пуст (деплой «через git»).
+    Выполняется один раз на процесс. Если граф уже наполнен (Neo4j персистентный) —
+    мгновенный no-op. Ошибки не роняют UI — просто показываем статус."""
+    try:
+        with _driver().session() as s:
+            n = s.run("MATCH (c:Chunk) RETURN count(c) AS n").single()["n"]
+    except Exception as e:  # noqa: BLE001
+        return {"state": "no_db", "error": str(e)}
+    if n and n > 0:
+        return {"state": "ready", "chunks": n}
+    try:
+        from src.graph.loader import load_all_processed
+        res = load_all_processed()
+        return {"state": "built", **res}
+    except Exception as e:  # noqa: BLE001
+        return {"state": "build_error", "error": str(e)}
+
+
 # ---------------------------------------------------------------- шапка
+_boot = _ensure_graph()
+if _boot.get("state") == "no_db":
+    st.error("Нет связи с Neo4j. Проверь секреты NEO4J_URI / NEO4J_USER / "
+             "NEO4J_PASSWORD в настройках приложения.")
+elif _boot.get("state") == "build_error":
+    st.warning("Граф пуст, автосборка не удалась: " + _boot.get("error", "") +
+               "  — проверь ключи Yandex (нужны для эмбеддингов).")
 stats = _graph_stats()
 pills = ""
 if stats:
@@ -175,16 +271,17 @@ EXAMPLES = [
 
 # ---------------------------------------------------------------- поиск
 with tab_search:
+    st.caption("Примеры запросов — нажми, чтобы подставить:")
     ex_cols = st.columns(2)
     for i, ex in enumerate(EXAMPLES):
-        if ex_cols[i % 2].button(ex, use_container_width=True, key=f"ex{i}"):
+        if ex_cols[i % 2].button(ex, width="stretch", key=f"ex{i}"):
             st.session_state["q"] = ex
 
     question = st.text_area(
         "Ваш запрос:", value=st.session_state.get("q", ""),
         height=90, placeholder="Например: какие реагенты применяются при флотации медно-никелевых руд?",
     )
-    run = st.button("🚀 Найти ответ", type="primary", use_container_width=True)
+    run = st.button("🚀 Найти ответ", type="primary", width="stretch")
 
     if run and question.strip():
         try:
@@ -407,7 +504,7 @@ with tab_analytics:
                     st.altair_chart(
                         (chart + labels).configure_view(strokeWidth=0)
                         .configure_axis(labelColor="#9aa5a1", domainColor="#2c3331"),
-                        use_container_width=True,
+                        width="stretch",
                     )
                 else:
                     st.info("Граф пока пуст — загрузите данные (run_pipeline.py --load-only).")

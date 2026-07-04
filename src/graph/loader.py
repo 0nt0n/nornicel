@@ -103,6 +103,32 @@ def _chunks_already_embedded(session, chunk_ids):
     return {r["chunk_id"] for r in rows}
 
 
+def load_all_processed(processed_dir: str = None) -> dict:
+    """Строит граф из ВСЕХ data/processed/*.json (для деплоя: JSON закоммичены в git).
+    Идемпотентно — уже загруженные чанки не переэмбеддит. Возвращает статистику.
+    Открывает и закрывает свой driver, поэтому вызывается автономно (в т.ч. из UI)."""
+    import glob
+    import json as _json
+    import os as _os
+    from src.embeddings import get_embedder
+    from src.graph.indexes import init_schema
+
+    processed_dir = processed_dir or config.PROCESSED_DIR
+    embedder = get_embedder()
+    dim = embedder.dim()
+    driver = get_driver()
+    files = 0
+    with driver.session() as session:
+        init_schema(session, dim)
+        for path in glob.glob(_os.path.join(processed_dir, "*.json")):
+            with open(path, encoding="utf-8") as f:
+                processed = _json.load(f)
+            load_processed(session, processed, embedder)
+            files += 1
+    driver.close()
+    return {"files": files, "dim": dim}
+
+
 def load_processed(session, processed: dict, embedder):
     """processed = {chunk_id: {chunk, extraction}} (как в data/processed/<doc>.json).
 
