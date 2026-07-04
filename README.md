@@ -124,24 +124,8 @@ docker compose -f docker-compose.tunnel.yml up -d --build
 При старте приложение строит граф из закоммиченных `data/processed/*.json` (идемпотентно)
 и поднимает Streamlit. Локально доступно на http://localhost:8501, публично — по домену ngrok.
 
-### Свой сервер (прод)
-
-Extraction гоняется где угодно (локально у команды), на сервер заливаются только готовые
-`data/processed/*.json` — сырые документы серверу не нужны. Neo4j наружу не торчит (привязан
-к 127.0.0.1), UI на порту 8501.
-
-```bash
-# на сервере: git clone, затем
-cp .env.example .env                                        # YANDEX_API_KEY, YANDEX_FOLDER_ID, NEO4J_PASSWORD
-rsync -av data/processed/ user@server:~/nornicel/data/processed/   # с локальной машины
-docker compose -f docker-compose.prod.yml up -d --build
-docker compose -f docker-compose.prod.yml run --rm app \
-    python scripts/run_pipeline.py --load-only             # построить граф из JSON
-# UI: http://<server-ip>:8501
-```
-
-Neo4j Browser с локальной машины — через SSH-туннель:
-`ssh -L 7474:localhost:7474 -L 7687:localhost:7687 user@server`.
+Extraction (дорогие LLM-вызовы) гоняется где угодно — на демо-хост нужны только готовые
+`data/processed/*.json`, сырые документы там не требуются.
 
 ### Долить новые документы
 
@@ -174,7 +158,6 @@ docker compose -f docker-compose.tunnel.yml restart app           # подхва
 | `config.py` | вся конфигурация, читается из `.env` |
 | `docker-compose.yml` | только Neo4j (локальная разработка) |
 | `docker-compose.tunnel.yml` | Neo4j + приложение + ngrok (публичная демо) |
-| `docker-compose.prod.yml` | Neo4j + приложение для своего сервера |
 
 ---
 
